@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta
+    name="description"
+    content="Phishing prevare: poruke, linkovi i lažne forme koje kradu podatke i novac. Hronološki tok, grananja, i izvori."
+    data-sr="Phishing prevare: poruke, linkovi i lažne forme koje kradu podatke i novac. Hronološki tok, grananja, i izvori."
+    data-en="Phishing scams: messages, links, and fake forms that steal data and money. Timeline, branching, and sources."
+  />
+
+  <title data-sr="Phishing prevare" data-en="Phishing scams">Phishing prevare</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- UI (jezik + tema) -->
+  <script src="ui.js" defer></script>
+
+  <!-- Redosled je bitan: data -> content -> branches -> cases -> render -->
+  <script src="data.js" defer></script>
+  <script src="phishing.content.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="cases.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+        <div class="brand">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span class="brand-name">Anti-scam</span>
+        </div>
+
+        <nav aria-label="Glavna navigacija">
+          <ul class="top-nav">
+            <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+            <li><a href="prevare.html" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          </ul>
+        </nav>
+
+        <div class="lang-switch" aria-label="Language switch">
+          <button class="lang-btn" type="button" data-lang="sr" aria-pressed="true">SR</button>
+          <button class="lang-btn" type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+      </div>
+
+      <div class="hero compact">
+        <h1 data-sr="Phishing prevare" data-en="Phishing scams">Phishing prevare</h1>
+
+        <p class="muted hero-sub"
+           data-sr="Autoritet + hitnost → link/forma → prag (podaci/OTP) → serijske posledice → recovery."
+           data-en="Authority + urgency → link/form → threshold (data/OTP) → cascading consequences → recovery.">
+          Autoritet + hitnost → link/forma → prag (podaci/OTP) → serijske posledice → recovery.
+        </p>
+
+        <!-- render.js popunjava iz data.js (+ phishing.content.js ako je učitan) -->
+        <div id="scam-meta" data-scam="phishing"></div>
+
+        <div class="callout"
+             data-sr="<strong>Prag:</strong> unos kredencijala, kartice ili potvrda OTP koda. Posle toga kreće proces sa više koraka."
+             data-en="<strong>Threshold:</strong> entering credentials, card details, or confirming an OTP. After that, a multi-step process begins.">
+          <strong>Prag:</strong> unos kredencijala, kartice ili potvrda OTP koda. Posle toga kreće proces sa više koraka.
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Sadržaj iz phishing.content.js (raw_html) -->
+    <div data-overview></div>
+    <div data-steps></div>
+
+    <!-- Case library (ako imaš phishing slučajeve u cases.js) -->
+    <section class="card">
+      <h2 data-sr="Primeri (case library)" data-en="Examples (case library)">Primeri (case library)</h2>
+     
+      <div data-cases></div>
+    </section>
+
+    <!-- Povezane prevare + izvori (render.js) -->
+    <div data-related></div>
+    <div data-sources></div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="muted"
+         data-sr="Anti-scam projekat — edukacija i analiza"
+         data-en="Anti-scam project — education and analysis">
+        Anti-scam projekat — edukacija i analiza
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

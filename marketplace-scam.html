@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta
+    name="description"
+    content="Marketplace prevare: lažni kupci/prodavci, linkovi za kurira/dostavu, lažni dokazi uplate, kapare, serijske takse i recovery. Faze, evolucije i izvori."
+    data-sr="Marketplace prevare: lažni kupci/prodavci, linkovi za kurira/dostavu, lažni dokazi uplate, kapare, serijske takse i recovery. Faze, evolucije i izvori."
+    data-en="Marketplace scams: fake buyers/sellers, courier/delivery links, fake payment proofs, deposits, repeated fees, and recovery. Phases, evolutions, and sources."
+  />
+
+  <title data-sr="Marketplace prevare" data-en="Marketplace scams">Marketplace prevare</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- UI: jezik + tema -->
+  <script src="ui.js" defer></script>
+
+  <!-- Redosled je bitan -->
+  <script src="data.js" defer></script>
+  <script src="marketplace.content.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="cases.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+        <div class="brand">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span class="brand-name">Anti-scam</span>
+        </div>
+
+        <nav aria-label="Glavna navigacija">
+          <ul class="top-nav">
+            <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+            <li><a href="prevare.html" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          </ul>
+        </nav>
+
+        <div class="lang-switch" aria-label="Language switch">
+          <button class="lang-btn" type="button" data-lang="sr" aria-pressed="true">SR</button>
+          <button class="lang-btn" type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+      </div>
+
+      <div class="hero compact">
+        <h1 data-sr="Marketplace prevare" data-en="Marketplace scams">Marketplace prevare</h1>
+
+        <p class="muted hero-sub"
+           data-sr="Oglas → žurba → procedura → prag (link/OTP/kapara/slanje) → serija zahteva → poziv/autoritet → recovery."
+           data-en="Listing → urgency → procedure → threshold (link/OTP/deposit/shipping) → repeated demands → call/authority → recovery.">
+          Oglas → žurba → procedura → prag (link/OTP/kapara/slanje) → serija zahteva → poziv/autoritet → recovery.
+        </p>
+
+        <div id="scam-meta" data-scam="marketplace-scam"></div>
+
+        <div class="callout"
+             data-sr="<strong>Prag:</strong> klik na link i unos kartice/OTP, uplata kapare, ili slanje robe bez priliva. Posle toga tok prelazi u seriju uslova."
+             data-en="<strong>Threshold:</strong> clicking a link and entering card/OTP, paying a deposit, or shipping without funds received. After that, the flow becomes a series of conditions.">
+          <strong>Prag:</strong> klik na link i unos kartice/OTP, uplata kapare, ili slanje robe bez priliva. Posle toga tok prelazi u seriju uslova.
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Glavni sadržaj -->
+    <div data-overview></div>
+    <div data-steps></div>
+
+    <!-- Case library -->
+    <section class="card">
+      <h2 data-sr="Primeri (case library)" data-en="Examples (case library)">Primeri (case library)</h2>
+      
+      <div data-cases></div>
+    </section>
+
+    <!-- Related + sources -->
+    <div data-related></div>
+    <div data-sources></div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="muted"
+         data-sr="Anti-scam projekat — edukacija i analiza"
+         data-en="Anti-scam project — education and analysis">
+        Anti-scam projekat — edukacija i analiza
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

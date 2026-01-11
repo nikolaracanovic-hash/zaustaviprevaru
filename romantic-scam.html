@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta
+    name="description"
+    content="Romantične prevare: duga verzija (kako radi), hronološki tok, prelazi u druge šeme, primeri razgovora i izvori."
+    data-sr="Romantične prevare: duga verzija (kako radi), hronološki tok, prelazi u druge šeme, primeri razgovora i izvori."
+    data-en="Romance scams: long-form breakdown (how it works), timeline, branching into other schemes, case examples, and sources."
+  />
+
+  <title
+    data-sr="Romantične prevare"
+    data-en="Romance scams"
+  >Romantične prevare</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- UI (JEZIK + TEMA) -->
+  <script src="ui.js" defer></script>
+
+  <!-- Redosled je bitan: data -> content -> branches -> cases -> render -->
+  <script src="data.js" defer></script>
+  <script src="romantic.content.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="cases.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+        <div class="brand">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span class="brand-name">Anti-scam</span>
+        </div>
+
+        <nav aria-label="Glavna navigacija">
+          <ul class="top-nav">
+            <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+            <li><a href="prevare.html" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          </ul>
+        </nav>
+
+        <!-- može ostati i bez ovoga, ui.js će injektovati toggle,
+             ali ga držimo radi konzistentnosti -->
+        <div class="lang-switch" aria-label="Language switch">
+          <button class="lang-btn" type="button" data-lang="sr" aria-pressed="true">SR</button>
+          <button class="lang-btn" type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+      </div>
+
+      <div class="hero compact">
+        <h1 data-sr="Romantične prevare" data-en="Romance scams">Romantične prevare</h1>
+
+        <p class="muted hero-sub"
+           data-sr="Navika → diskrecija → rok → “sitnica” → prag → serija → prelaz u druge šeme."
+           data-en="Habit → secrecy → deadline → “small ask” → threshold → series → branching into other schemes.">
+          Navika → diskrecija → rok → “sitnica” → prag → serija → prelaz u druge šeme.
+        </p>
+
+        <!-- render.js popunjava iz data.js (+ romantic.content.js ako je učitan) -->
+        <div id="scam-meta" data-scam="romantic-scam"></div>
+
+        <div class="callout"
+             data-sr="<strong>Prag:</strong> prva uplata. Posle toga zahtevi se ređaju kao “još jedan korak”, uz stalne rokove i nove prepreke."
+             data-en="<strong>Threshold:</strong> the first payment. After that, requests stack as “one more step,” with constant deadlines and new obstacles.">
+          <strong>Prag:</strong> prva uplata. Posle toga zahtevi se ređaju kao “još jedan korak”, uz stalne rokove i nove prepreke.
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Pošto romantic.content.js daje raw_html, render.js će ga ubaciti 1:1 u [data-steps] host -->
+    <div data-overview></div>
+    <div data-steps></div>
+    <div data-scammer-view></div>
+
+    <section class="card">
+      <h2 data-sr="Primeri razgovora (case library)" data-en="Case examples (case library)">Primeri razgovora (case library)</h2>
+      <div data-cases></div>
+    </section>
+
+    <div data-related></div>
+    <div data-sources></div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="muted"
+         data-sr="Anti-scam projekat — edukacija i analiza"
+         data-en="Anti-scam project — education and analysis">
+        Anti-scam projekat — edukacija i analiza
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

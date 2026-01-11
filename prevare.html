@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta
+    name="description"
+    content="Indeks prevara: nazivi, kratki opisi, pretraga i linkovi ka stranicama."
+    data-sr="Indeks prevara: nazivi, kratki opisi, pretraga i linkovi ka stranicama."
+    data-en="Scam index: names, short descriptions, search, and links to detailed pages."
+  />
+
+  <title data-sr="Prevare — Indeks" data-en="Scams — Index">Prevare — Indeks</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- UI (JEZIK + TEMA) -->
+  <script src="ui.js" defer></script>
+
+  <!-- Data/render -->
+  <script src="data.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+<body>
+
+<header class="page-header">
+  <div class="container">
+    <div class="topbar">
+      <div class="brand">
+        <span class="brand-dot" aria-hidden="true"></span>
+        <span class="brand-name">Anti-scam</span>
+      </div>
+
+      <nav aria-label="Glavna navigacija">
+        <ul class="top-nav">
+          <li>
+            <a href="index.html" data-sr="Početna" data-en="Home">Početna</a>
+          </li>
+          <li>
+            <a href="prevare.html" aria-current="page" data-sr="Prevare" data-en="Scams">Prevare</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- JEZIK (kao i svuda) -->
+      <div class="lang-switch" aria-label="Language switch">
+        <button class="lang-btn" type="button" data-lang="sr" aria-pressed="true">SR</button>
+        <button class="lang-btn" type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+    </div>
+
+    <div class="hero compact">
+      <h1 data-sr="Prevare" data-en="Scams">Prevare</h1>
+
+      <!-- ZAMENA: bez pominjanja data.js i bez “Tip” callout-a -->
+      <p class="muted hero-sub"
+         data-sr="Pretraži po nazivu prevare, ključnim pojmovima ili povezanim temama."
+         data-en="Search by scam name, key terms, or related topics.">
+        Pretraži po nazivu prevare, ključnim pojmovima ili povezanim temama.
+      </p>
+
+      <div class="search-row">
+        <label class="sr-only" for="scam-search" data-sr="Pretraga" data-en="Search">Pretraga</label>
+        <input
+          id="scam-search"
+          type="text"
+          autocomplete="off"
+          data-sr-placeholder="Pretraga: Phishing, Pig butchering, BEC, Vishing…"
+          data-en-placeholder="Search: Phishing, Pig butchering, BEC, Vishing…"
+          placeholder="Pretraga: Phishing, Pig butchering, BEC, Vishing…"
+        />
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <!-- render.js ubacuje sekcije (Stranice / Biblioteka) -->
+  <div id="scam-index"></div>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <p class="muted"
+       data-sr="Anti-scam projekat — edukacija i analiza"
+       data-en="Anti-scam project — education and analysis">
+      Anti-scam projekat — edukacija i analiza
+    </p>
+  </div>
+</footer>
+
+<script>
+  // 1) Placeholder da bude stvarno SR/EN (po data-atributima)
+  // 2) Sakrij "template-scam" karticu (interno) iz liste, na oba jezika
+  (function () {
+    function syncSearchPlaceholder() {
+      const input = document.getElementById("scam-search");
+      if (!input) return;
+
+      const lang = document.documentElement.getAttribute("data-lang") || document.documentElement.lang || "sr";
+      const key = (lang === "en") ? "enPlaceholder" : "srPlaceholder";
+      const val = input.dataset[key] || input.getAttribute("placeholder") || "";
+      if (val) input.setAttribute("placeholder", val);
+    }
+
+    function removeInternalTemplateCard() {
+      const root = document.getElementById("scam-index");
+      if (!root) return;
+
+      // Primarno: link ka template-scam.html
+      root.querySelectorAll('a[href="template-scam.html"], a[href="./template-scam.html"]').forEach((a) => {
+        const card = a.closest(".index-card");
+        if (card) card.remove();
+      });
+
+      // Fallback: po naslovu (ako iz nekog razloga nije link)
+      root.querySelectorAll(".index-card").forEach((card) => {
+        const titleEl = card.querySelector(".index-title");
+        const subEl = card.querySelector(".index-sub");
+
+        const t = (titleEl ? titleEl.textContent : "").trim().toLowerCase();
+        const s = (subEl ? subEl.textContent : "").trim().toLowerCase();
+
+        const looksLikeTemplate =
+          t.includes("page template") ||
+          t.includes("template") ||
+          t.includes("šablon stranice") ||
+          s.includes("internal") ||
+          s.includes("interna");
+
+        if (looksLikeTemplate) card.remove();
+      });
+    }
+
+    function applyFixes() {
+      syncSearchPlaceholder();
+      removeInternalTemplateCard();
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      // render.js takođe radi na DOMContentLoaded, pa radimo posle njega
+      setTimeout(applyFixes, 0);
+    });
+
+    // ui.js emituje ovo kad se promeni jezik
+    document.addEventListener("lang:changed", () => {
+      setTimeout(applyFixes, 0);
+    });
+  })();
+</script>
+
+</body>
+</html>

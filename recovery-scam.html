@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta
+    name="description"
+    content="Recovery scam: drugi napad posle gubitka. Lažni povrat novca, ‘procedura’ i uplata unapred kao uslov. Faze, evolucije i izvori."
+    data-sr="Recovery scam: drugi napad posle gubitka. Lažni povrat novca, ‘procedura’ i uplata unapred kao uslov. Faze, evolucije i izvori."
+    data-en="Recovery scam: a second attack after a loss. Fake refunds, ‘procedure’, and upfront payment as a condition. Phases, evolutions, and sources."
+  />
+
+  <title data-sr="Recovery prevara" data-en="Recovery scam">Recovery prevara</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- UI: jezik + tema -->
+  <script src="ui.js" defer></script>
+
+  <!-- Redosled je bitan -->
+  <script src="data.js" defer></script>
+  <script src="recovery.content.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="cases.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+        <div class="brand">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span class="brand-name">Anti-scam</span>
+        </div>
+
+        <nav aria-label="Glavna navigacija">
+          <ul class="top-nav">
+            <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+            <li><a href="prevare.html" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          </ul>
+        </nav>
+
+        <div class="lang-switch" aria-label="Language switch">
+          <button class="lang-btn" type="button" data-lang="sr" aria-pressed="true">SR</button>
+          <button class="lang-btn" type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+      </div>
+
+      <div class="hero compact">
+        <h1 data-sr="Recovery prevara" data-en="Recovery scam">Recovery prevara</h1>
+
+        <p class="muted hero-sub"
+           data-sr="Gubitak → kontakt ‘pomoći’ → autoritet i procedura → uplata unapred → serija novih zahteva."
+           data-en="Loss → “help” contact → authority and procedure → upfront payment → a series of new demands.">
+          Gubitak → kontakt ‘pomoći’ → autoritet i procedura → uplata unapred → serija novih zahteva.
+        </p>
+
+        <div id="scam-meta" data-scam="recovery-scam"></div>
+
+        <div class="callout"
+             data-sr="<strong>Prag:</strong> prva uplata ‘za postupak’. Posle toga kreće serija novih taksi i ‘još jedan korak’."
+             data-en="<strong>Threshold:</strong> the first ‘process fee’ payment. After that, a series of new fees and ‘one more step’ begins.">
+          <strong>Prag:</strong> prva uplata ‘za postupak’. Posle toga kreće serija novih taksi i ‘još jedan korak’.
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div data-overview></div>
+    <div data-steps></div>
+
+    <section class="card">
+      <h2 data-sr="Primeri (case library)" data-en="Examples (case library)">Primeri (case library)</h2>
+      <div data-cases></div>
+    </section>
+
+    <div data-related></div>
+    <div data-sources></div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="muted"
+         data-sr="Anti-scam projekat — edukacija i analiza"
+         data-en="Anti-scam project — education and analysis">
+        Anti-scam projekat — edukacija i analiza
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

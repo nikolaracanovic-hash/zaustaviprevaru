@@ -1,0 +1,717 @@
+/* style.css — Global styles (Dark/Light theme + global UI toggles)
+   Works with ui.js by reading: html[data-theme="dark|light"].
+*/
+
+/* -----------------------------
+   THEME TOKENS (DEFAULT = DARK)
+------------------------------ */
+:root{
+  --maxw: 880px;
+  --pad: 20px;
+
+  --text: #e8e8e8;
+  --muted: rgba(232,232,232,0.68);
+
+  --bg: #0e1116;
+  --card: #141821;
+  --line: rgba(255,255,255,0.10);
+
+  --link: #4ea1ff;
+
+  --soft: rgba(255,255,255,0.04);
+  --soft2: rgba(255,255,255,0.02);
+
+  --ok: rgba(94,255,161,0.18);
+  --warn: rgba(255,204,77,0.18);
+  --bad: rgba(255,90,90,0.18);
+
+  /* Background layer knobs (Dark) */
+  --bg-grad-1: rgba(60,120,255,.18);
+  --bg-grad-2: rgba(255,80,120,.14);
+  --bg-top: #0b0f16;
+  --bg-bottom: #070a10;
+
+  --shadow: 0 8px 24px rgba(0,0,0,0.25);
+}
+
+/* LIGHT THEME OVERRIDES */
+:root[data-theme="light"]{
+  --text: #101418;
+  --muted: rgba(16,20,24,0.65);
+
+  --bg: #f6f7fb;
+  --card: #ffffff;
+  --line: rgba(0,0,0,0.10);
+
+  --link: #0b63d1;
+
+  --soft: rgba(0,0,0,0.04);
+  --soft2: rgba(0,0,0,0.02);
+
+  --ok: rgba(0,160,90,0.12);
+  --warn: rgba(200,140,0,0.12);
+  --bad: rgba(200,0,0,0.10);
+
+  /* Background layer knobs (Light) */
+  --bg-grad-1: rgba(11,99,209,.14);
+  --bg-grad-2: rgba(180,40,90,.10);
+  --bg-top: #fbfcff;
+  --bg-bottom: #eef1f8;
+
+  --shadow: 0 10px 26px rgba(0,0,0,0.10);
+}
+
+/* -----------------------------
+   BASE
+------------------------------ */
+*{ box-sizing: border-box; }
+html, body{ height: 100%; }
+
+body{
+  margin: 0;
+  min-height: 100%;
+  color: var(--text);
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background: var(--bg); /* fallback if ::before is blocked */
+}
+
+/* Unified background across the entire site (prevents seams) */
+body::before{
+  content:"";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background:
+    radial-gradient(1200px 700px at 20% 10%, var(--bg-grad-1), transparent 55%),
+    radial-gradient(1000px 700px at 80% 90%, var(--bg-grad-2), transparent 55%),
+    linear-gradient(180deg, var(--bg-top) 0%, var(--bg-bottom) 100%);
+}
+
+a{ color: var(--link); }
+a:hover{ text-decoration: underline; }
+
+.container{
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 0 var(--pad);
+}
+
+header{ padding: 26px 0 18px; }
+
+h1{
+  margin: 0 0 8px;
+  font-size: 34px;
+  letter-spacing: 0.2px;
+}
+
+h2{
+  margin: 22px 0 10px;
+  font-size: 20px;
+}
+
+p{ line-height: 1.6; }
+.muted{ color: var(--muted); }
+
+hr.sep{
+  border: 0;
+  height: 1px;
+  background: var(--line);
+  margin: 22px 0;
+}
+
+/* -----------------------------
+   HEADER / TOPBAR (modern layout)
+------------------------------ */
+.page-header{
+  background: transparent !important; /* avoid seams */
+}
+
+.topbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.brand{
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+.brand-dot{
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background: var(--link);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--link) 25%, transparent);
+}
+.brand-name{
+  font-weight: 800;
+  letter-spacing: 0.2px;
+}
+
+/* Hero blocks */
+.hero{ padding: 12px 0 0; }
+.hero-sub{ max-width: 68ch; }
+.hero.compact{ padding-top: 8px; }
+
+/* Buttons used on index page */
+.btn{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: var(--soft2);
+  color: var(--text);
+  text-decoration: none;
+}
+.btn:hover{
+  border-color: color-mix(in srgb, var(--link) 45%, var(--line));
+  background: color-mix(in srgb, var(--link) 10%, var(--soft2));
+}
+.btn.primary{
+  border-color: color-mix(in srgb, var(--link) 55%, var(--line));
+  background: color-mix(in srgb, var(--link) 14%, var(--soft2));
+}
+
+/* -----------------------------
+   NAV (NEW + LEGACY)
+------------------------------ */
+.top-nav{
+  display: flex;
+  gap: 14px;
+  margin-top: 0;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.top-nav a{
+  display: inline-block;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--soft2);
+  text-decoration: none;
+  color: var(--text);
+}
+.top-nav a:hover{
+  border-color: color-mix(in srgb, var(--link) 45%, var(--line));
+  background: color-mix(in srgb, var(--link) 10%, var(--soft2));
+}
+.top-nav a.active,
+.top-nav a[aria-current="page"]{
+  border-color: color-mix(in srgb, var(--link) 55%, var(--line));
+  background: color-mix(in srgb, var(--link) 14%, var(--soft2));
+}
+
+/* LEGACY COMPAT: <ul class="nav"> */
+ul.nav{
+  list-style: none;
+  padding: 0;
+  margin: 14px 0 0;
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+ul.nav li{ margin: 0; padding: 0; }
+ul.nav a{
+  display: inline-block;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--soft2);
+  text-decoration: none;
+  color: var(--text);
+}
+ul.nav a:hover{
+  border-color: color-mix(in srgb, var(--link) 45%, var(--line));
+  background: color-mix(in srgb, var(--link) 10%, var(--soft2));
+}
+
+/* -----------------------------
+   GLOBAL UI TOGGLES (ui.js injects)
+------------------------------ */
+.ui-toggles{
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: auto;
+}
+
+.ui-toggle{
+  appearance: none;
+  -webkit-appearance: none;
+  border: 1px solid var(--line);
+  background: var(--soft2);
+  color: var(--text);
+  border-radius: 12px;
+  padding: 9px 12px;
+  font-weight: 750;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+  line-height: 1;
+  box-shadow: 0 0 0 rgba(0,0,0,0);
+  transition: transform 140ms ease, border-color 140ms ease, background 140ms ease, box-shadow 140ms ease;
+}
+.ui-toggle:hover{
+  border-color: color-mix(in srgb, var(--link) 45%, var(--line));
+  background: color-mix(in srgb, var(--link) 10%, var(--soft2));
+  transform: translateY(-1px);
+}
+.ui-toggle:active{ transform: translateY(0); }
+.ui-toggle:focus{
+  outline: none;
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--link) 18%, transparent);
+}
+
+/* -----------------------------
+   CARDS / SECTIONS
+------------------------------ */
+.card{
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: color-mix(in srgb, var(--card) 60%, transparent);
+  padding: 16px;
+  margin: 12px 0;
+  box-shadow: var(--shadow);
+}
+
+.card h2{ margin-top: 0; }
+
+.callout, .meta{
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--soft2);
+  padding: 14px 16px;
+  margin: 14px 0;
+}
+
+.callout strong{ color: color-mix(in srgb, var(--text) 95%, transparent); }
+
+code{
+  background: var(--soft);
+  padding: 2px 6px;
+  border-radius: 8px;
+  font-size: 0.95em;
+}
+
+/* Lists used across pages */
+.bullets{
+  margin: 0;
+  padding-left: 18px;
+}
+.bullets li{ margin: 8px 0; }
+
+/* Steps list used on index page */
+.steps{
+  margin: 0;
+  padding-left: 18px;
+}
+.steps li{ margin: 10px 0; }
+
+/* 2-column helper (index page) */
+.grid-2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+/* A small hint box */
+.hint{
+  border-left: 3px solid color-mix(in srgb, var(--link) 55%, transparent);
+  padding: 12px 14px;
+  margin-top: 12px;
+  background: var(--soft2);
+  border-radius: 14px;
+}
+
+/* Phases / timeline blocks */
+.phase{
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 14px 16px;
+  background: var(--soft2);
+  margin: 10px 0;
+}
+
+.phase .label{
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 999px;
+  border: 1px solid color-mix(in srgb, var(--line) 90%, transparent);
+  background: var(--soft);
+  font-weight: 800;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.phase.ok{ background: var(--ok); }
+.phase.warn{ background: var(--warn); }
+.phase.bad{ background: var(--bad); }
+
+.branch{
+  border-left: 3px solid color-mix(in srgb, var(--link) 55%, transparent);
+  padding-left: 12px;
+  margin: 10px 0;
+}
+
+/* -----------------------------
+   AUTO-RENDERED UI (render.js)
+------------------------------ */
+/* Meta box injected into #scam-meta */
+.meta-box{
+  margin: 14px 0 20px;
+  padding: 14px 16px;
+  border: 1px solid var(--line);
+  background: linear-gradient(180deg, color-mix(in srgb, var(--soft) 75%, transparent), color-mix(in srgb, var(--soft2) 75%, transparent));
+  border-radius: 14px;
+}
+.meta-title{
+  font-weight: 900;
+  letter-spacing: 0.2px;
+  font-size: 18px;
+  line-height: 1.2;
+  margin-bottom: 6px;
+}
+.meta-sub{
+  color: var(--muted);
+  line-height: 1.45;
+  margin-bottom: 10px;
+}
+
+/* Pill tags */
+.tag{
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid color-mix(in srgb, var(--line) 90%, transparent);
+  background: var(--soft2);
+  color: var(--text);
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 1;
+  white-space: nowrap;
+}
+.tag:hover{
+  border-color: color-mix(in srgb, var(--link) 45%, var(--line));
+  background: color-mix(in srgb, var(--link) 10%, var(--soft2));
+}
+.tag:focus{
+  outline: none;
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--link) 18%, transparent);
+}
+
+/* Where tags appear */
+.meta-tags, .related-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* Index blocks + grid */
+.index-block{ margin-top: 18px; }
+.index-block h2{
+  margin: 18px 0 10px;
+  font-size: 18px;
+  letter-spacing: 0.2px;
+}
+.index-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 14px;
+}
+.index-card{
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--soft2);
+  padding: 14px 14px 12px;
+  transition: transform 140ms ease, border-color 140ms ease, background 140ms ease;
+}
+.index-card:hover{
+  transform: translateY(-1px);
+  border-color: color-mix(in srgb, var(--link) 25%, var(--line));
+  background: color-mix(in srgb, var(--soft2) 85%, transparent);
+}
+.index-title{
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 1.25;
+  margin-bottom: 6px;
+}
+/* Link naslov = link boja (da se vidi da je klikabilno) */
+.index-title a{
+  color: var(--link);
+  text-decoration: none;
+}
+
+/* hover malo jasniji */
+.index-title a:hover{
+  text-decoration: underline;
+}
+
+/* Naslov bez linka ostaje beo (nije klikabilan) */
+.index-title{
+  color: var(--text);
+}
+
+.index-sub{ margin-bottom: 10px; }
+
+/* Search input (prevare.html) */
+#scam-search{
+  width: 100%;
+  padding: 12px 12px;
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  background: var(--soft2);
+  color: var(--text);
+  outline: none;
+}
+#scam-search:focus{
+  border-color: color-mix(in srgb, var(--link) 45%, var(--line));
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--link) 16%, transparent);
+}
+
+/* Make links in index not stick together (legacy rule kept) */
+#scam-index a{
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 8px;
+}
+
+/* Related + Sources blocks */
+.related, .sources{
+  margin-top: 18px;
+  padding: 14px 16px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--soft2);
+}
+
+.related h2, .sources h2{
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+.sources ol{
+  margin: 0;
+  padding-left: 18px;
+}
+.sources li{ margin: 8px 0; }
+.sources a{
+  color: var(--link);
+  word-break: break-word;
+}
+
+/* -----------------------------
+   CASES UI (render.js)
+------------------------------ */
+.cases{ display: grid; gap: 10px; }
+.case{
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--soft2);
+  padding: 12px 14px;
+}
+.case summary{
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+.case summary::-webkit-details-marker{ display: none; }
+
+.case-title{ font-weight: 900; }
+.case-meta{ font-size: 13px; }
+.case-block{ margin-top: 12px; }
+.case-block-title{
+  font-weight: 850;
+  margin-bottom: 6px;
+}
+
+.transcript{
+  display: grid;
+  gap: 10px;
+  margin-top: 8px;
+}
+.msg{
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: color-mix(in srgb, var(--soft2) 85%, transparent);
+  padding: 10px 12px;
+}
+.msg .who{
+  font-weight: 850;
+  font-size: 12.5px;
+  color: var(--muted);
+  margin-bottom: 4px;
+}
+.msg.me{
+  border-color: color-mix(in srgb, var(--link) 35%, var(--line));
+}
+
+/* -----------------------------
+   FOOTER
+------------------------------ */
+footer, .footer{
+  margin-top: 30px;
+  padding: 18px 0 26px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 13px;
+}
+
+/* -----------------------------
+   RESPONSIVE
+------------------------------ */
+@media (max-width: 720px){
+  .grid-2{ grid-template-columns: 1fr; }
+}
+
+@media (max-width: 520px){
+  h1{ font-size: 26px; }
+  h2{ font-size: 18px; }
+
+  .top-nav a, ul.nav a{ padding: 9px 10px; }
+  .index-grid{ grid-template-columns: 1fr; }
+
+  .tag{ font-size: 12.5px; }
+  .meta-title{ font-size: 17px; }
+
+  .ui-toggle{ padding: 9px 10px; }
+}
+
+/* Screen-reader helper */
+.sr-only{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+}
+
+
+/* -----------------------------
+   TOP CONTROLS (Theme + Language)
+------------------------------ */
+.top-controls{
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: auto;
+}
+
+/* Reuse existing button look */
+.icon-btn,
+.seg-btn{
+  appearance: none;
+  -webkit-appearance: none;
+  border: 1px solid var(--line);
+  background: var(--soft2);
+  color: var(--text);
+  border-radius: 12px;
+  padding: 9px 12px;
+  font-weight: 750;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+  line-height: 1;
+  transition: transform 140ms ease, border-color 140ms ease, background 140ms ease, box-shadow 140ms ease;
+}
+
+.icon-btn:hover,
+.seg-btn:hover{
+  border-color: color-mix(in srgb, var(--link) 45%, var(--line));
+  background: color-mix(in srgb, var(--link) 10%, var(--soft2));
+  transform: translateY(-1px);
+}
+
+.icon-btn:active,
+.seg-btn:active{ transform: translateY(0); }
+
+.icon-btn:focus,
+.seg-btn:focus{
+  outline: none;
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--link) 18%, transparent);
+}
+
+/* Make the theme button square-ish */
+.icon-btn{
+  width: 44px;
+  justify-content: center;
+  padding: 9px 0;
+}
+
+/* CLICKABLE tags look like links (a.tag) */
+a.tag{
+  border-color: color-mix(in srgb, var(--link) 35%, var(--line));
+  background: color-mix(in srgb, var(--link) 10%, var(--soft2));
+}
+
+a.tag:hover{
+  border-color: color-mix(in srgb, var(--link) 55%, var(--line));
+  background: color-mix(in srgb, var(--link) 16%, var(--soft2));
+}
+
+/* Non-clickable tags keep neutral look (span.tag) */
+span.tag{
+  opacity: 0.92;
+}
+
+/* Optional: small arrow only for clickable tags */
+a.tag::after{
+  content: " ↗";
+  opacity: 0.55;
+  font-weight: 700;
+}
+
+/* ============================
+   GLOBAL OVERRIDE
+   Gasimo bojenje celog phase bloka
+   (warn / bad važe SAMO za naslove)
+============================ */
+
+.phase.warn,
+.phase.bad {
+  background: transparent !important;
+}
+
+/* --- TOPBAR: stabilna pozicija desnih dugmadi (SR/EN + Theme) --- */
+
+.topbar{
+  display:flex;
+  align-items:center;
+  gap:14px;
+}
+
+/* nav uzima sav “srednji” prostor, desna dugmad ostaju desno */
+.topbar nav{
+  flex:1 1 auto;
+  min-width:0;
+}
+
+/* lang switch uvek desno */
+.lang-switch{
+  margin-left:auto;
+  flex:0 0 auto;
+  white-space:nowrap;
+}
+
+/* ako ui.js ubacuje Theme dugme u topbar, drži ga desno uz lang */
+#themeToggle,
+.theme-btn,
+.theme-toggle{
+  flex:0 0 auto;
+  white-space:nowrap;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta
+    name="description"
+    content="Advance-fee fraud: uplata unapred kao uslov. Faze, narativi, evolucije i recovery."
+    data-sr="Advance-fee fraud: uplata unapred kao uslov. Faze, narativi, evolucije i recovery."
+    data-en="Advance-fee fraud: upfront payment as a condition. Phases, narratives, evolutions, and recovery."
+  />
+
+  <title data-sr="Advance-fee prevara" data-en="Advance-fee fraud">Advance-fee prevara</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- UI: jezik + tema -->
+  <script src="ui.js" defer></script>
+
+  <!-- Redosled je bitan -->
+  <script src="data.js" defer></script>
+  <script src="advance-fee.content.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="cases.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+        <div class="brand">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span class="brand-name">Anti-scam</span>
+        </div>
+
+        <nav aria-label="Glavna navigacija">
+          <ul class="top-nav">
+            <li>
+              <a href="index.html" data-sr="Početna" data-en="Home">Početna</a>
+            </li>
+            <li>
+              <a href="prevare.html" data-sr="Prevare" data-en="Scams">Prevare</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="lang-switch" aria-label="Language switch">
+          <button class="lang-btn" type="button" data-lang="sr" aria-pressed="true">SR</button>
+          <button class="lang-btn" type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+      </div>
+
+      <div class="hero compact">
+        <h1 data-sr="Advance-fee prevara" data-en="Advance-fee fraud">Advance-fee prevara</h1>
+
+        <p class="muted hero-sub"
+           data-sr="Obećanje isplate ili oslobađanja → taksa kao uslov → prva uplata → serija novih zahteva → pritisak → recovery."
+           data-en="Promise of payout or release → fee as a condition → first payment → series of new demands → pressure → recovery.">
+          Obećanje isplate ili oslobađanja → taksa kao uslov → prva uplata → serija novih zahteva → pritisak → recovery.
+        </p>
+
+        <!-- render.js popunjava iz data.js -->
+        <div id="scam-meta" data-scam="advance-fee-fraud"></div>
+
+        <div class="callout"
+             data-sr="<strong>Prag:</strong> prva uplata. Posle nje svaki sledeći zahtev deluje kao nastavak procesa."
+             data-en="<strong>Threshold:</strong> the first payment. After it, every next request feels like continuation.">
+          <strong>Prag:</strong> prva uplata. Posle nje svaki sledeći zahtev deluje kao nastavak procesa.
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Glavni sadržaj -->
+    <div data-overview></div>
+    <div data-steps></div>
+
+    <!-- Case library -->
+    <section class="card">
+      <h2 data-sr="Primeri (case library)" data-en="Examples (case library)">Primeri (case library)</h2>
+      <p class="muted"
+         
+      </p>
+      <div data-cases></div>
+    </section>
+
+    <!-- Povezane prevare + izvori -->
+    <div data-related></div>
+    <div data-sources></div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="muted"
+         data-sr="Anti-scam projekat — edukacija i analiza"
+         data-en="Anti-scam project — education and analysis">
+        Anti-scam projekat — edukacija i analiza
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta
+    name="description"
+    content="Crypto investment scam: lažna platforma, prikaz profita, eskalacija uloga, blokada povlačenja i takse kao uslov. Faze, evolucije i izvori."
+    data-sr="Crypto investment scam: lažna platforma, prikaz profita, eskalacija uloga, blokada povlačenja i takse kao uslov. Faze, evolucije i izvori."
+    data-en="Crypto investment scam: fake platform, profit display, escalating deposits, withdrawal lock, and fees as a condition. Phases, evolutions, and sources."
+  />
+
+  <title data-sr="Crypto investment prevara" data-en="Crypto investment scam">Crypto investment prevara</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- UI: jezik + tema -->
+  <script src="ui.js" defer></script>
+
+  <!-- Redosled je bitan -->
+  <script src="data.js" defer></script>
+  <script src="crypto.content.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="cases.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+        <div class="brand">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span class="brand-name">Anti-scam</span>
+        </div>
+
+        <nav aria-label="Glavna navigacija">
+          <ul class="top-nav">
+            <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+            <li><a href="prevare.html" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          </ul>
+        </nav>
+
+        <div class="lang-switch" aria-label="Language switch">
+          <button class="lang-btn" type="button" data-lang="sr" aria-pressed="true">SR</button>
+          <button class="lang-btn" type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+      </div>
+
+      <div class="hero compact">
+        <h1 data-sr="Crypto investment prevara" data-en="Crypto investment scam">Crypto investment prevara</h1>
+
+        <p class="muted hero-sub"
+           data-sr="Profit kao mamac → lažna platforma → rast uloga → blokada povlačenja → takse kao uslov → recovery."
+           data-en="Profit bait → fake platform → escalating deposits → withdrawal lock → fees as a condition → recovery.">
+          Profit kao mamac → lažna platforma → rast uloga → blokada povlačenja → takse kao uslov → recovery.
+        </p>
+
+        <div id="scam-meta" data-scam="crypto-scam"></div>
+
+        <div class="callout"
+             data-sr="<strong>Prag:</strong> pokušaj povlačenja većeg iznosa. Tu se pojavljuje “procedura” koja traži novu uplatu kao uslov."
+             data-en="<strong>Threshold:</strong> attempting to withdraw a larger amount. This is where a “procedure” appears demanding a new payment as a condition.">
+          <strong>Prag:</strong> pokušaj povlačenja većeg iznosa. Tu se pojavljuje “procedura” koja traži novu uplatu kao uslov.
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div data-overview></div>
+    <div data-steps></div>
+
+    <section class="card">
+      <h2 data-sr="Primeri (case library)" data-en="Examples (case library)">Primeri (case library)</h2>
+      
+      <div data-cases></div>
+    </section>
+
+    <div data-related></div>
+    <div data-sources></div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="muted"
+         data-sr="Anti-scam projekat — edukacija i analiza"
+         data-en="Anti-scam project — education and analysis">
+        Anti-scam projekat — edukacija i analiza
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

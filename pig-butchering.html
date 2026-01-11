@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta
+    name="description"
+    content="Pig butchering: dug odnos + investiciona prevara. Poverenje → lažna platforma → povećavanje uloga → blokada povlačenja → takse/procedura → recovery talas."
+    data-sr="Pig butchering: dug odnos + investiciona prevara. Poverenje → lažna platforma → povećavanje uloga → blokada povlačenja → takse/procedura → recovery talas."
+    data-en="Pig butchering: long-term grooming + investment fraud. Trust → fake platform → escalating deposits → withdrawal lock → fees/procedure → recovery wave."
+  />
+
+  <title data-sr="Pig butchering" data-en="Pig butchering">Pig butchering</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="ui.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="pig-butchering.content.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="cases.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+        <div class="brand">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span class="brand-name">Anti-scam</span>
+        </div>
+
+        <nav aria-label="Glavna navigacija">
+          <ul class="top-nav">
+            <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+            <li><a href="prevare.html" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          </ul>
+        </nav>
+
+        <div class="lang-switch" aria-label="Language switch">
+          <button class="lang-btn" type="button" data-lang="sr" aria-pressed="true">SR</button>
+          <button class="lang-btn" type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+      </div>
+
+      <div class="hero compact">
+        <h1 data-sr="Pig butchering" data-en="Pig butchering">Pig butchering</h1>
+
+        <p class="muted hero-sub"
+           data-sr="Kontakt → odnos → ‘sigurna’ investicija → rast uloga → pokušaj povlačenja → takse/procedura → recovery."
+           data-en="Contact → relationship → ‘safe’ investment → escalating deposits → withdrawal attempt → fees/procedure → recovery.">
+          Kontakt → odnos → ‘sigurna’ investicija → rast uloga → pokušaj povlačenja → takse/procedura → recovery.
+        </p>
+
+        <div id="scam-meta" data-scam="pig-butchering"></div>
+
+        <div class="callout"
+             data-sr="<strong>Prag:</strong> pokušaj povlačenja većeg iznosa ili zahtevanje dokaza o isplati. Tada se pojavljuju ‘takse’ i ‘verifikacije’."
+             data-en="<strong>Threshold:</strong> attempting to withdraw a larger amount or asking for real payout proof. That’s when ‘fees’ and ‘verification’ appear.">
+          <strong>Prag:</strong> pokušaj povlačenja većeg iznosa ili zahtevanje dokaza o isplati. Tada se pojavljuju ‘takse’ i ‘verifikacije’.
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div data-overview></div>
+    <div data-steps></div>
+
+    <section class="card">
+      <h2 data-sr="Primeri (case library)" data-en="Examples (case library)">Primeri (case library)</h2>
+      <div data-cases></div>
+    </section>
+
+    <div data-related></div>
+    <div data-sources></div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="muted" data-sr="Anti-scam projekat — edukacija i analiza" data-en="Anti-scam project — education and analysis">
+        Anti-scam projekat — edukacija i analiza
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
