@@ -1,0 +1,12 @@
+﻿{
+  "summary": {
+    "errors_count": 1034,
+    "review_required_count": 0
+  },
+  "errors": [
+    {
+      "type": "mixed_script",
+      "file": "account-takeover.content.js",
+      "line": 37,
+      "lang": "cyr",
+      "snippet": 

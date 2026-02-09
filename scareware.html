@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta
+    name="description"
+    content="Scareware: lažna upozorenja o virusima koja koriste strah da bi naterala korisnike na poziv, instalaciju ili uplatu."
+    data-sr="Scareware: lažna upozorenja o virusima koja koriste strah da bi naterala korisnike na poziv, instalaciju ili uplatu."
+    data-en="Scareware: fake virus warnings that use fear to push users toward calls, installations, or payments."
+  />
+
+  <title
+    data-sr="Scareware"
+    data-en="Scareware"
+  >Scareware</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="ui.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="scareware.content.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="cases.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+        <div class="brand">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span class="brand-name">Anti-scam</span>
+        </div>
+
+        <nav aria-label="Glavna navigacija">
+          <ul class="top-nav">
+            <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+            <li><a href="prevare.html" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="hero compact">
+        <h1 data-sr="Scareware" data-en="Scareware">Scareware</h1>
+
+        <p class="muted hero-sub"
+           data-sr="Lažno upozorenje → panika → poziv ili instalacija → naplata ili pristup."
+           data-en="Fake warning → panic → call or installation → charges or access.">
+          Lažno upozorenje → panika → poziv ili instalacija → naplata ili pristup.
+        </p>
+
+        <div id="scam-meta" data-scam="scareware"></div>
+
+        <div class="callout"
+             data-sr="<strong>Prag:</strong> poziv na broj iz upozorenja ili instalacija ponuđenog „rešenja“. Posle praga tok prelazi u tech support prevaru."
+             data-en="<strong>Threshold:</strong> calling the number in the warning or installing the offered &quot;solution&quot;. After the threshold, the flow becomes a tech support scam.">
+          <strong>Prag:</strong> poziv na broj iz upozorenja ili instalacija ponuđenog „rešenja“. Posle praga tok prelazi u tech support prevaru.
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div data-overview></div>
+    <div data-steps></div>
+    <div data-scammer-view></div>
+
+    <div data-longform></div>
+    <div data-related></div>
+    <div data-sources></div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="muted"
+         data-sr="Anti-scam projekat — edukacija i analiza"
+         data-en="Anti-scam project — education and analysis">
+        Anti-scam projekat — edukacija i analiza
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

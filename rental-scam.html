@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta
+    name="description"
+    content="Prevara sa stanovima: lažni oglasi koji traže depozit unapred za nekretnine koje ne postoje ili nisu dostupne."
+    data-sr="Prevara sa stanovima: lažni oglasi koji traže depozit unapred za nekretnine koje ne postoje ili nisu dostupne."
+    data-en="Rental scams: fake apartment listings that demand upfront deposits for properties that don't exist or aren't available."
+  />
+
+  <title
+    data-sr="Rental scam"
+    data-en="Rental scam"
+  >Rental scam</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="ui.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="rental.content.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="cases.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+        <div class="brand">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span class="brand-name">Anti-scam</span>
+        </div>
+
+        <nav aria-label="Glavna navigacija">
+          <ul class="top-nav">
+            <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+            <li><a href="prevare.html" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="hero compact">
+        <h1 data-sr="Rental scam" data-en="Rental scam">Rental scam</h1>
+
+        <p class="muted hero-sub"
+           data-sr="Previše dobar stan → depozit pre gledanja → stan ne postoji ili nije dostupan."
+           data-en="Too good apartment → deposit before viewing → property doesn't exist or isn't available.">
+          Previše dobar stan → depozit pre gledanja → stan ne postoji ili nije dostupan.
+        </p>
+
+        <div id="scam-meta" data-scam="rental-scam"></div>
+
+        <div class="callout"
+             data-sr="<strong>Prag:</strong> uplata depozita ili „rezervacije“ pre fizičkog gledanja stana. Posle praga kontakt se prekida."
+             data-en="<strong>Threshold:</strong> deposit or &quot;reservation&quot; payment before physically viewing the apartment. After the threshold, contact breaks off.">
+          <strong>Prag:</strong> uplata depozita ili „rezervacije“ pre fizičkog gledanja stana. Posle praga kontakt se prekida.
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div data-overview></div>
+    <div data-steps></div>
+    <div data-scammer-view></div>
+
+    <div data-longform></div>
+    <div data-related></div>
+    <div data-sources></div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="muted"
+         data-sr="Anti-scam projekat — edukacija i analiza"
+         data-en="Anti-scam project — education and analysis">
+        Anti-scam projekat — edukacija i analiza
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

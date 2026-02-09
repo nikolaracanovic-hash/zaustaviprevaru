@@ -14,9 +14,9 @@ window.SCAM_CONTENT["advance-fee-fraud"] = {
       >Advance-fee prevara je obrazac u kome uplata unapred postaje uslov za isplatu, oslobađanje sredstava, završetak procedure ili navodno otključavanje naloga. Tema se menja (paket, nagrada, kredit, investicija, povraćaj novca), dok mehanizam ostaje stabilan: postoji prepreka, a uplata je predstavljena kao jedini ključ.</p>
 
       <p
-        data-sr="Ovaj obrazac često predstavlja završni sloj drugih prevara: blokada povlačenja kod lažnih investicija, kapare kod oglasa, lažni pozivi o „sigurnom računu“, smishing priče o dostavi, phishing „verifikacije“, recovery ponude. U praksi, advance-fee je tačka gde šteta prelazi iz događaja u proces."
-        data-en="This pattern often becomes the final layer of other scams: withdrawal locks in fake investments, deposits in marketplaces, fake calls about “safe accounts”, smishing delivery stories, phishing “verification”, and recovery offers. In practice, advance-fee is the point where damage shifts from an incident into a process."
-      >Ovaj obrazac često predstavlja završni sloj drugih prevara: blokada povlačenja kod lažnih investicija, kapare kod oglasa, lažni pozivi o „sigurnom računu“, smishing priče o dostavi, phishing „verifikacije“, recovery ponude. U praksi, advance-fee je tačka gde šteta prelazi iz događaja u proces.</p>
+        data-sr="Ovaj obrazac često predstavlja završni sloj drugih prevara: blokada povlačenja kod lažnih investicija, kapare kod oglasa, lažni pozivi o „sigurnom računu“, SMS prevara priče o dostavi, fišing „verifikacije“, recovery ponude. U praksi, advance-fee je tačka gde šteta prelazi iz događaja u proces."
+        data-en="This pattern often becomes the final layer of other scams: podizanje para locks in fake investments, deposits in marketplaces, fake calls about “safe accounts”, smishing delivery stories, phishing “verification”, and recovery offers. In practice, advance-fee is the point where damage shifts from an incident into a process."
+      >Ovaj obrazac često predstavlja završni sloj drugih prevara: blokada povlačenja kod lažnih investicija, kapare kod oglasa, lažni pozivi o „sigurnom računu“, smišing priče o dostavi, fišing „verifikacije“, recovery ponude. U praksi, advance-fee je tačka gde šteta prelazi iz događaja u proces.</p>
 
       <div class="callout"
         data-sr="<strong>Prag:</strong> prva uplata. Posle praga meta ulazi u režim završavanja: svaki sledeći zahtev izgleda kao uslov da prethodni dobije smisao."
@@ -73,7 +73,7 @@ window.SCAM_CONTENT["advance-fee-fraud"] = {
 
         <p
           data-sr="Obećanje postavlja okvir: novac ili ishod već postoji, samo je „zadržan“ ili „na čekanju“. Tema može biti nagrada, paket, kredit, refund, investicija ili pravni slučaj."
-          data-en="The promise locks the frame: the money or outcome already exists, it’s just “held” or “pending”. The theme may be a prize, package, loan, refund, investment, or a legal case."
+          data-en="The promise locks the frame: the money or outcome već exists, it’s just “held” or “pending”. The theme may be a prize, package, loan, refund, investment, or a legal case."
         >Obećanje postavlja okvir: novac ili ishod već postoji, samo je „zadržan“ ili „na čekanju“. Tema može biti nagrada, paket, kredit, refund, investicija ili pravni slučaj.</p>
 
         <ul class="bullets">
@@ -95,9 +95,9 @@ window.SCAM_CONTENT["advance-fee-fraud"] = {
         </h3>
 
         <p
-          data-sr="Uvedeni su termini koji zvuče standardno: obrada, verifikacija, carina, porez, AML/KYC, policy, revizija. Forma izgleda kao sistem."
-          data-en="Standard-sounding terms appear: processing, verification, customs, tax, AML/KYC, policy, audit. The form looks like a system."
-        >Uvedeni su termini koji zvuče standardno: obrada, verifikacija, carina, porez, AML/KYC, policy, revizija. Forma izgleda kao sistem.</p>
+          data-sr="Uvedeni su termini koji zvuče standardno: obrada, verifikacija, carina, porez, provera identiteta, policy, revizija. Forma izgleda kao sistem."
+          data-en="Standard-sounding terms appear: processing, verification, customs, tax, provera identiteta, policy, audit. The form looks like a system."
+        >Uvedeni su termini koji zvuče standardno: obrada, verifikacija, carina, porez, provera identiteta, policy, revizija. Forma izgleda kao sistem.</p>
 
         <ul class="bullets">
           <li data-sr="uveden je „case number“ ili status slučaja" data-en="a “case number” or case status appears">uveden je „case number“ ili status slučaja</li>
@@ -109,9 +109,9 @@ window.SCAM_CONTENT["advance-fee-fraud"] = {
           <p><strong data-sr="Grananje u ovoj fazi" data-en="Branching at this phase">Grananje u ovoj fazi</strong></p>
           <ul class="bullets">
             <li
-              data-sr="<strong>Phishing:</strong> link ka „potvrdi nalog/uplatu“ ili „verifikaciji“. Cilj: kartica, login, OTP. (Povezano: <a href='phishing.html'>Phishing</a>)"
-              data-en="<strong>Phishing:</strong> link to “confirm account/payment” or “verification”. Goal: card, login, OTP. (Related: <a href='phishing.html'>Phishing</a>)"
-            ><strong>Phishing:</strong> link ka „potvrdi nalog/uplatu“ ili „verifikaciji“. Cilj: kartica, login, OTP. (Povezano: <a href="phishing.html">Phishing</a>)</li>
+              data-sr="<strong>fišing:</strong> link ka „potvrdi nalog/uplatu“ ili „verifikaciji“. Cilj: kartica, login, OTP. (Povezano: <a href='fišing.html'>fišing</a>)"
+              data-en="<strong>Fišing:</strong> link to “confirm account/payment” or “verification”. Goal: card, login, OTP. (Related: <a href='phishing.html'>Phishing</a>)"
+            ><strong>Fišing:</strong> link ka „potvrdi nalog/uplatu“ ili „verifikaciji“. Cilj: kartica, login, OTP. (Povezano: <a href="phishing.html">Phishing</a>)</li>
 
             <li
               data-sr="<strong>Lažni poziv:</strong> „podrška“ objašnjava proceduru uživo i ubrzava sledeći korak. Cilj: uplata pod pritiskom. (Povezano: <a href='fake-call-scam.html'>Lažni pozivi</a>)"
@@ -168,7 +168,7 @@ window.SCAM_CONTENT["advance-fee-fraud"] = {
 
         <p
           data-sr="Prva uplata menja stanje. Meta prelazi iz procene u režim završavanja i pokušava da zatvori proces koji je već pokrenut."
-          data-en="The first payment changes state. The target moves from evaluation into completion mode and tries to close a process that has already started."
+          data-en="The first payment changes state. The target moves from evaluation into completion mode and tries to close a process that has već started."
         >Prva uplata menja stanje. Meta prelazi iz procene u režim završavanja i pokušava da zatvori proces koji je već pokrenut.</p>
 
         <ul class="bullets">
@@ -215,9 +215,9 @@ window.SCAM_CONTENT["advance-fee-fraud"] = {
           <p><strong data-sr="Grananja koja se često pojavljuju" data-en="Common branching paths">Grananja koja se često pojavljuju</strong></p>
           <ul class="bullets">
             <li
-              data-sr="<strong>Crypto povlačenje:</strong> „AML/tax fee“ kao uslov povlačenja profita. (Povezano: <a href='crypto-scam.html'>Crypto investment</a>)"
-              data-en="<strong>Crypto withdrawal:</strong> “AML/tax fee” as a condition to withdraw profits. (Related: <a href='crypto-scam.html'>Crypto investment</a>)"
-            ><strong>Crypto povlačenje:</strong> „AML/tax fee“ kao uslov povlačenja profita. (Povezano: <a href="crypto-scam.html">Crypto investment</a>)</li>
+              data-sr="<strong>Crypto povlačenje:</strong> „provera protiv pranja novca/tax fee“ kao uslov povlačenja profita. (Povezano: <a href='crypto-scam.html'>Crypto investment</a>)"
+              data-en="<strong>Crypto podizanje para:</strong> “provera protiv pranja novca/tax fee” as a condition to podigneš pare profits. (Related: <a href='crypto-scam.html'>Crypto investment</a>)"
+            ><strong>Crypto povlačenje:</strong> „provera protiv pranja novca/tax fee“ kao uslov povlačenja profita. (Povezano: <a href="crypto-scam.html">Crypto investment</a>)</li>
 
             <li
               data-sr="<strong>Marketplace kapara:</strong> prvi iznos kao rezervacija, zatim serija troškova. (Povezano: <a href='marketplace-scam.html'>Marketplace prevare</a>)"
@@ -291,11 +291,11 @@ window.SCAM_CONTENT["advance-fee-fraud"] = {
         data-en="The message claims approval, then introduces processing, insurance, or a deposit as a condition. After the first payment, a top-up is demanded with a deadline."
       >Poruka glumi odobrenje, zatim uvodi obradu, osiguranje ili depozit kao uslov. Posle prve uplate traži se dopuna uz rok.</p>
 
-      <h3 data-sr="C) Investicija / povlačenje profita" data-en="C) Investment / profit withdrawal">C) Investicija / povlačenje profita</h3>
+      <h3 data-sr="C) Investicija / povlačenje profita" data-en="C) Investment / profit podizanje para">C) Investicija / povlačenje profita</h3>
       <p
-        data-sr="Kod lažnih investicija advance-fee se pojavljuje na povlačenju: tax/AML/verification fee kao uslov. Ovaj podtip je centralan kod crypto prevara."
-        data-en="In fake investments, advance-fee appears at withdrawal: tax/AML/verification fee as a condition. This subtype is central in crypto scams."
-      >Kod lažnih investicija advance-fee se pojavljuje na povlačenju: tax/AML/verification fee kao uslov. Ovaj podtip je centralan kod crypto prevara.</p>
+        data-sr="Kod lažnih investicija advance-fee se pojavljuje na povlačenju: tax/provera protiv pranja novca/verification fee kao uslov. Ovaj podtip je centralan kod crypto prevara."
+        data-en="In fake investments, advance-fee appears at podizanje para: tax/provera protiv pranja novca/verification fee as a condition. This subtype is central in crypto scams."
+      >Kod lažnih investicija advance-fee se pojavljuje na povlačenju: tax/provera protiv pranja novca/verification fee kao uslov. Ovaj podtip je centralan kod crypto prevara.</p>
 
       <h3 data-sr="D) Nagrada / giveaway" data-en="D) Prize / giveaway">D) Nagrada / giveaway</h3>
       <p
@@ -309,6 +309,86 @@ window.SCAM_CONTENT["advance-fee-fraud"] = {
         data-en="Recovery uses the loss as entry. The offer promises return, then introduces a fee for “process”, “documentation”, “unlock”, or “case fee”. Operationally, the same pattern continues."
       >Recovery koristi gubitak kao ulaz. Ponuda obećava povrat, zatim uvodi taksu za „postupak“, „dokumentaciju“, „unlock“ ili „case fee“. Operativno isti obrazac nastavlja.</p>
     </section>
+
+
+      <h3 data-sr="F) Nigerian Prince / Inheritance (klasična varijanta)" data-en="F) Nigerian Prince / Inheritance (classic variant)">F) Nigerian Prince / Inheritance (klasična varijanta)</h3>
+      <p
+        data-sr="Najstarija i najpoznatija varijanta. imejl obećava nasleđe, zaboravljeni fond ili transfer velikog iznosa ($10M+). Traži se processing fee, lawyer fee, bank charges. Serija se razvija kroz dokumente, nova odobrenja, novi troškovi. Prosečan gubitak: $5,000-$15,000."
+        data-en="The oldest and most well-known variant. Email promises inheritance, forgotten fund, or transfer of large amount ($10M+). Requests processing fee, lawyer fee, bank charges. Series develops through documents, new approvals, new costs. Average loss: $5,000-$15,000."
+      >Najstarija i najpoznatija varijanta. Imejl obećava nasleđe, zaboravljeni fond ili transfer velikog iznosa ($10M+). Traži se processing fee, lawyer fee, bank charges. Serija se razvija kroz dokumente, nova odobrenja, novi troškovi. Prosečan gubitak: $5,000-$15,000.</p>
+
+      <h3 data-sr="G) Lottery / Sweepstakes (nagradna prevara)" data-en="G) Lottery / Sweepstakes (prize scam)">G) Lottery / Sweepstakes (nagradna prevara)</h3>
+      <p
+        data-sr="Obaveštenje o dobitku lutrije koju nikada nisi igrao. Traži se claim fee, tax payment, insurance. Legitimni lottery NIKADA ne traži uplatu PRE isplate. Serija: processing, lawyer, courier, final tax. Prosečan gubitak: $2,000-$8,000."
+        data-en="Notification of lottery win you never entered. Requests claim fee, tax payment, insurance. Legitimate lotteries NEVER request payment BEFORE payout. Series: processing, lawyer, courier, final tax. Average loss: $2,000-$8,000."
+      >Obaveštenje o dobitku lutrije koju nikada nisi igrao. Traži se claim fee, tax payment, insurance. Legitimni lottery NIKADA ne traži uplatu PRE isplate. Serija: processing, lawyer, courier, final tax. Prosečan gubitak: $2,000-$8,000.</p>
+
+      <h3 data-sr="H) Tax / IRS refund (poreska prevara)" data-en="H) Tax / IRS refund (tax scam)">H) Tax / IRS refund (poreska prevara)</h3>
+      <p
+        data-sr="imejl/SMS tvrdi da postoji refund ili nagla poreska obaveza. Traži processing fee, verification deposit, ili direct payment pod pretnjom. IRS NIKADA ne šalje neočekivane refund imejl-ove i NIKADA ne traži payment preko gift cards/crypto. Prosečan gubitak: $800-$3,000."
+        data-en="Email/SMS claims refund exists or sudden tax obligation. Requests processing fee, verification deposit, or direct payment under threat. IRS NEVER sends unexpected refund emails and NEVER requests payment via gift cards/crypto. Average loss: $800-$3,000."
+      >Imejl/SMS tvrdi da postoji refund ili nagla poreska obaveza. Traži processing fee, verification deposit, ili direct payment pod pretnjom. IRS NIKADA ne šalje neočekivane refund imejl-ove i NIKADA ne traži payment preko gift cards/crypto. Prosečan gubitak: $800-$3,000.</p>
+    </section>
+
+    <!-- 5) STATISTIKE I EKONOMIJA ADVANCE-FEE PREVARA -->
+    <section class="card">
+      <h2 data-sr="Statistike i ekonomija advance-fee prevara" data-en="Advance-fee fraud statistics and economics">
+        Statistike i ekonomija advance-fee prevara
+      </h2>
+
+      <div class="grid-2">
+        <div class="phase">
+          <div class="label" data-sr="FBI IC3 + FTC data (USA)" data-en="FBI IC3 + FTC data (USA)">FBI IC3 + FTC data (USA)</div>
+          <ul class="bullets">
+            <li data-sr="Advance Fee: 8,045 prijava, $134.5M gubitak (IC3 2023)" data-en="Advance Fee: 8,045 reports, $134.5M loss (IC3 2023)">Advance Fee: 8,045 prijava, $134.5M gubitak (IC3 2023)</li>
+            <li data-sr="Lottery/Sweepstakes/Inheritance: 4,168 prijava, $94.5M gubitak" data-en="Lottery/Sweepstakes/Inheritance: 4,168 reports, $94.5M loss">Lottery/Sweepstakes/Inheritance: 4,168 prijava, $94.5M gubitak</li>
+            <li data-sr="prosečan gubitak po žrtvi (Advance Fee): $16,722" data-en="average loss per victim (Advance Fee): $16,722">prosečan gubitak po žrtvi (Advance Fee): $16,722</li>
+            <li data-sr="prosečan gubitak (Lottery/Prize): $22,686" data-en="average loss (Lottery/Prize): $22,686">prosečan gubitak (Lottery/Prize): $22,686</li>
+            <li data-sr="rast 2022-2023: Advance Fee -29%, Lottery +13%" data-en="growth 2022-2023: Advance Fee -29%, Lottery +13%">rast 2022-2023: Advance Fee -29%, Lottery +13%</li>
+          </ul>
+        </div>
+
+        <div class="phase">
+          <div class="label" data-sr="Demographics (ko je najranjiviji)" data-en="Demographics (most vulnerable)">Demographics (ko je najranjiviji)</div>
+          <ul class="bullets">
+            <li data-sr="starost 60+: 40% žrtava, 55% total gubitka" data-en="age 60+: 40% of victims, 55% of total loss">starost 60+: 40% žrtava, 55% total gubitka</li>
+            <li data-sr="prosečan gubitak 60+: $5,200 (vs $2,400 za 18-59)" data-en="average loss 60+: $5,200 (vs $2,400 for 18-59)">prosečan gubitak 60+: $5,200 (vs $2,400 za 18-59)</li>
+            <li data-sr="razlog: higher savings, lower skepticism, formalni ton ubija sumnju" data-en="reason: higher savings, lower skepticism, formal tone kills doubt">razlog: higher savings, lower skepticism, formalni ton ubija sumnju</li>
+            <li data-sr="gender split: 54% ženski, 46% muški" data-en="gender split: 54% female, 46% male">gender split: 54% ženski, 46% muški</li>
+            <li data-sr="education: NO correlation sa obrazovanjem (victims su svi nivoi)" data-en="education: NO correlation with education (victims at all levels)">education: NO correlation sa obrazovanjem (victims su svi nivoi)</li>
+            <li data-sr="geografija: USA (30%), Nigeria (15%), UK (12%), India (8%), Canada (7%)" data-en="geography: USA (30%), Nigeria (15%), UK (12%), India (8%), Canada (7%)">geografija: USA (30%), Nigeria (15%), UK (12%), India (8%), Canada (7%)</li>
+          </ul>
+        </div>
+
+        <div class="phase">
+          <div class="label" data-sr="Operativna ekonomija" data-en="Operational economics">Operativna ekonomija</div>
+          <ul class="bullets">
+            <li data-sr="cost per imejl blast: $0.0001 (100,000 emails = $10)" data-en="cost per email blast: $0.0001 (100,000 emails = $10)">cost per imejl blast: $0.0001 (100,000 emails = $10)</li>
+            <li data-sr="response rate: 0.01-0.05% (10-50 odgovora od 100,000 emails)" data-en="response rate: 0.01-0.05% (10-50 responses from 100,000 emails)">response rate: 0.01-0.05% (10-50 odgovora od 100,000 emails)</li>
+            <li data-sr="uspešnost prevare: 5-10% (1-5 victims pay od 50 responses)" data-en="uspešnost prevare: 5-10% (1-5 victims pay from 50 responses)">uspešnost prevare: 5-10% (1-5 victims pay od 50 responses)</li>
+            <li data-sr="ROI za operatera: ~300:1 ($10 cost, $3,500 avg victim loss)" data-en="ROI for operator: ~300:1 ($10 cost, $3,500 avg victim loss)">ROI za operatera: ~300:1 ($10 cost, $3,500 avg victim loss)</li>
+            <li data-sr="serijski uplatioci: 20% žrtava uplati 3+ puta (total loss $10K+)" data-en="serial payers: 20% of victims pay 3+ times (total loss $10K+)">serijski uplatioci: 20% žrtava uplati 3+ puta (total loss $10K+)</li>
+            <li data-sr="timeline: 2-8 nedelja od prvog kontakta do poslednje uplate" data-en="timeline: 2-8 weeks from first contact to last payment">timeline: 2-8 nedelja od prvog kontakta do poslednje uplate</li>
+          </ul>
+        </div>
+
+        <div class="phase">
+          <div class="label" data-sr="Payment rails i recovery" data-en="Payment rails and recovery">Payment rails i recovery</div>
+          <ul class="bullets">
+            <li data-sr="prenos para: 50% (Western Union, MoneyGram - gotovo nemoguć povrat)" data-en="prenos para: 50% (Western Union, MoneyGram - nearly impossible recovery)">prenos para: 50% (Western Union, MoneyGram - gotovo nemoguć povrat)</li>
+            <li data-sr="gift cards: 25% (iTunes, Google Play, Steam - 0% recovery)" data-en="gift cards: 25% (iTunes, Google Play, Steam - 0% recovery)">gift cards: 25% (iTunes, Google Play, Steam - 0% recovery)</li>
+            <li data-sr="cryptocurrency: 15% (Bitcoin, USDT - < 2% recovery)" data-en="cryptocurrency: 15% (Bitcoin, USDT - < 2% recovery)">cryptocurrency: 15% (Bitcoin, USDT - < 2% recovery)</li>
+            <li data-sr="bank transfer: 10% (chargebacks possible if fast, < 24h window)" data-en="bank transfer: 10% (chargebacks possible if fast, < 24h window)">bank transfer: 10% (chargebacks possible if fast, < 24h window)</li>
+            <li data-sr="overall recovery rate: 3-5% (majority never recovered)" data-en="overall recovery rate: 3-5% (majority never recovered)">overall recovery rate: 3-5% (majority never recovered)</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="callout"
+        data-sr="<strong>Ekonomski profil:</strong> 100K emails costa $10. Ako 0.01% odgovori (10 ljudi) i 10% plati (1 žrtva), avg gubitak $3,500 = ROI 350:1. To je razlog zašto advance-fee nikada ne umire."
+        data-en="<strong>Economic profile:</strong> 100K emails cost $10. If 0.01% respond (10 people) and 10% pay (1 victim), avg loss $3,500 = ROI 350:1. That's why advance-fee never dies."
+      ><strong>Ekonomski profil:</strong> 100K emails costa $10. Ako 0.01% odgovori (10 ljudi) i 10% plati (1 žrtva), avg gubitak $3,500 = ROI 350:1. To je razlog zašto advance-fee nikada ne umire.</div>
+
 
     <!-- 5) IZ UGLA PREVARANTA -->
     <section class="card">
@@ -380,6 +460,7 @@ window.SCAM_CONTENT["advance-fee-fraud"] = {
     <section class="card sources" id="sources">
       <h2 data-sr="Izvori" data-en="Sources">Izvori</h2>
       <ul>
+        <li><a href="https://www.ic3.gov/Media/PDF/AnnualReport/2023_IC3Report.pdf" target="_blank" rel="noopener noreferrer">FBI IC3 — 2023 Internet Crime Report (Advance Fee: 8,045 complaints, $134.5M; Lottery: 4,168 complaints, $94.5M)</a></li>
         <li><a href="https://consumer.ftc.gov/scams" target="_blank" rel="noopener noreferrer">FTC — Scam guidance</a></li>
         <li><a href="https://www.fbi.gov/how-we-can-help-you/scams-and-safety/common-frauds-and-scams" target="_blank" rel="noopener noreferrer">FBI — Common frauds and scams</a></li>
       </ul>

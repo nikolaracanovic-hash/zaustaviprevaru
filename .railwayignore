@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Development scripts
+add_cyrillic_bulk.py
+add_cyrillic_html.py
+audit_content.py
+fix_bom.py
+audit_report.txt
+
+# Tests
+tests/
+pytest.ini
+
+# Node modules (if any)
+node_modules/
+package-lock.json

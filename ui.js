@@ -25,13 +25,11 @@
 
   function applyLang(lang) {
     document.documentElement.lang = lang;
-
-    // ✅ KLJUČNO: render.js bira jezik preko html[data-lang]
     document.documentElement.setAttribute("data-lang", lang);
 
     document.querySelectorAll("[data-sr][data-en]").forEach((el) => {
       const primary = el.dataset[lang];
-      const fallback = el.dataset[lang === "sr" ? "en" : "sr"];
+      const fallback = el.dataset.sr || el.dataset.en;
       const value = (primary && primary.trim()) ? primary : (fallback || "");
       if (!value) return;
 
@@ -49,50 +47,31 @@
     localStorage.setItem(LANG_KEY, lang);
     syncLangUI(lang);
 
-    // Signal render.js to re-render dynamic blocks that do not have data-sr/data-en
-    // (meta subtitle, generated tags, index cards, etc.).
     document.dispatchEvent(new CustomEvent("lang:changed", { detail: { lang } }));
   }
 
   function toggleLang() {
-    applyLang(getLang() === "sr" ? "en" : "sr");
+    const current = getLang();
+    const next = current === "sr" ? "en" : "sr";
+    applyLang(next);
   }
 
-  // --- UI sync (works with multiple possible button layouts) ---
   function syncLangUI(lang) {
-    const pair = Array.from(document.querySelectorAll(".lang-btn[data-lang]"));
-
-    // Ako postoje 2 SR/EN dugmeta – sakrij ih i koristi toggle
-    if (pair.length >= 2) {
-      pair.forEach(btn => { btn.style.display = "none"; });
-
-      const parent =
-        pair[0].parentElement ||
-        document.querySelector(".topbar") ||
-        document.body;
-
-      let toggle = parent.querySelector("#langToggle");
-      if (!toggle) {
-        toggle = document.createElement("button");
-        toggle.className = "ui-toggle";
-        toggle.type = "button";
-        toggle.id = "langToggle";
-        toggle.setAttribute("aria-label", "Toggle language");
-        parent.appendChild(toggle);
-      } else {
-        toggle.classList.add("ui-toggle");
-      }
-
-      toggle.textContent = (lang === "sr") ? "SR" : "EN";
-      return;
-    }
-
-    // Ako postoji samo toggle
     const t = document.getElementById("langToggle");
-    if (t) t.textContent = (lang === "sr") ? "SR" : "EN";
+    if (t) {
+      t.textContent = lang === "sr" ? "SR" : "EN";
+    }
+    
+    // Update active state for .lang-btn buttons
+    document.querySelectorAll(".lang-btn[data-lang]").forEach((btn) => {
+      if (btn.dataset.lang === lang) {
+        btn.classList.add("active");
+      } else {
+        btn.classList.remove("active");
+      }
+    });
   }
 
-  // --- OPTIONAL: auto-inject controls if they don't exist ---
   function ensureControlsExist() {
     const hasTheme = !!document.getElementById("themeToggle") || !!document.querySelector(".ui-toggle[data-action='theme']");
     const hasLangSingle = !!document.getElementById("langToggle") || !!document.querySelector(".ui-toggle[data-action='lang']");
@@ -118,19 +97,31 @@
     }
 
     if (!hasLangSingle && !hasLangPair) {
-      const langBtn = document.createElement("button");
-      langBtn.className = "ui-toggle";
-      langBtn.type = "button";
-      langBtn.id = "langToggle";
-      langBtn.setAttribute("aria-label", "Toggle language");
-      langBtn.textContent = (getLang() === "sr") ? "SR" : "EN";
-      wrap.appendChild(langBtn);
+      // Create 2 separate language buttons
+      const languages = [
+        { code: "sr", label: "SR" },
+        { code: "en", label: "EN" }
+      ];
+      
+      const currentLang = getLang();
+      
+      languages.forEach(({ code, label }) => {
+        const btn = document.createElement("button");
+        btn.className = "lang-btn ui-toggle";
+        btn.type = "button";
+        btn.dataset.lang = code;
+        btn.setAttribute("aria-label", `Switch to ${label}`);
+        btn.textContent = label;
+        if (code === currentLang) {
+          btn.classList.add("active");
+        }
+        wrap.appendChild(btn);
+      });
     }
 
     if (wrap.children.length) topbar.appendChild(wrap);
   }
 
-  // --- Click routing: supports ANY existing markup ---
   document.addEventListener("click", (e) => {
     if (e.target.closest("#themeToggle")) { e.preventDefault(); toggleTheme(); return; }
     if (e.target.closest("#langToggle")) { e.preventDefault(); toggleLang(); return; }
@@ -147,7 +138,6 @@
     }
   });
 
-  // ✅ NOVO: kad render.js ubaci raw_html, ponovo primeni jezik
   document.addEventListener("scam:content-rendered", () => {
     applyLang(getLang());
   });

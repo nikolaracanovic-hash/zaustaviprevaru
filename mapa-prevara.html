@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta
+    name="description"
+    content="Interaktivna mapa svih prevara - kako su povezane, kako teku, gde vode."
+    data-sr="Interaktivna mapa svih prevara - kako su povezane, kako teku, gde vode."
+    data-en="Interactive scam map - how they connect, how they flow, where they lead."
+  />
+
+  <title
+    data-sr="Mapa prevara"
+    data-en="Scam Map"
+  >Mapa prevara</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="scam-map.css" />
+
+  <script src="ui.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="scam-map.js" defer></script>
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+        <div class="brand">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span class="brand-name">Anti-scam</span>
+        </div>
+
+        <nav aria-label="Glavna navigacija">
+          <ul class="top-nav">
+            <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+            <li><a href="prevare.html" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="hero compact">
+        <h1 data-sr="Mapa prevara" data-en="Scam Map">Mapa prevara</h1>
+
+        <p class="muted hero-sub"
+           data-sr="Kako su prevare povezane. Klikni na bilo koju da vidiš detalje."
+           data-en="How scams connect. Click any to see details.">
+          Kako su prevare povezane. Klikni na bilo koju da vidiš detalje.
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container map-container">
+    <!-- Legenda -->
+    <div class="map-legend">
+      <div class="legend-item">
+        <span class="legend-dot entry"></span>
+        <span data-sr="Ulazne tačke" data-en="Entry points">Ulazne tačke</span>
+      </div>
+      <div class="legend-item">
+        <span class="legend-dot authority"></span>
+        <span data-sr="Autoritet / pritisak" data-en="Authority / pressure">Autoritet / pritisak</span>
+      </div>
+      <div class="legend-item">
+        <span class="legend-dot relationship"></span>
+        <span data-sr="Odnos / poverenje" data-en="Relationship / trust">Odnos / poverenje</span>
+      </div>
+      <div class="legend-item">
+        <span class="legend-dot investment"></span>
+        <span data-sr="Investicije" data-en="Investment">Investicije</span>
+      </div>
+      <div class="legend-item">
+        <span class="legend-dot fee"></span>
+        <span data-sr="Uplate unapred" data-en="Advance fees">Uplate unapred</span>
+      </div>
+      <div class="legend-item">
+        <span class="legend-dot outcome"></span>
+        <span data-sr="Ishodi / posledice" data-en="Outcomes">Ishodi / posledice</span>
+      </div>
+    </div>
+
+    <!-- Grid Map Container -->
+    <div class="map-wrapper">
+      <!-- JS generates grid here -->
+    </div>
+
+    <!-- Detail Panel (shows on click) -->
+    <div id="detail-panel">
+      <!-- JS popunjava -->
+    </div>
+
+    <!-- Info panel -->
+    <div class="map-info">
+      <div class="callout"
+           data-sr="<strong>Kako čitati mapu:</strong> Linije pokazuju kako prevare prelaze jedna u drugu. Prevarant često koristi više metoda u istom napadu."
+           data-en="<strong>How to read the map:</strong> Lines show how scams transition into each other. Scammers often use multiple methods in the same attack.">
+        <strong>Kako čitati mapu:</strong> Linije pokazuju kako prevare prelaze jedna u drugu. Prevarant često koristi više metoda u istom napadu.
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="muted"
+         data-sr="Anti-scam projekat — edukacija i analiza"
+         data-en="Anti-scam project — education and analysis">
+        Anti-scam projekat — edukacija i analiza
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

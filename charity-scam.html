@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta
+    name="description"
+    content="Charity scam: lažne humanitarne akcije koje koriste tuđu nesreću za izvlačenje novca."
+    data-sr="Charity scam: lažne humanitarne akcije koje koriste tuđu nesreću za izvlačenje novca."
+    data-en="Charity scams: fake humanitarian campaigns that exploit others' misfortune to extract money."
+  />
+
+  <title
+    data-sr="Charity scam"
+    data-en="Charity scam"
+  >Charity scam</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="ui.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="charity.content.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="cases.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+        <div class="brand">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span class="brand-name">Anti-scam</span>
+        </div>
+
+        <nav aria-label="Glavna navigacija">
+          <ul class="top-nav">
+            <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+            <li><a href="prevare.html" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="hero compact">
+        <h1 data-sr="Charity scam" data-en="Charity scam">Charity scam</h1>
+
+        <p class="muted hero-sub"
+           data-sr="Emocionalna priča → hitnost → donacija na privatni račun → novac ne stiže do navodne žrtve."
+           data-en="Emotional story → urgency → donation to private account → money never reaches supposed victim.">
+          Emocionalna priča → hitnost → donacija na privatni račun → novac ne stiže do navodne žrtve.
+        </p>
+
+        <div id="scam-meta" data-scam="charity-scam"></div>
+
+        <div class="callout"
+             data-sr="<strong>Prag:</strong> uplata na neproveren račun. Posle praga novac ide napadaču, ne žrtvi."
+             data-en="<strong>Threshold:</strong> payment to unverified account. After the threshold, money goes to the attacker, not the victim.">
+          <strong>Prag:</strong> uplata na neproveren račun. Posle praga novac ide napadaču, ne žrtvi.
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div data-overview></div>
+    <div data-steps></div>
+    <div data-scammer-view></div>
+
+    <div data-longform></div>
+    <div data-related></div>
+    <div data-sources></div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="muted"
+         data-sr="Anti-scam projekat — edukacija i analiza"
+         data-en="Anti-scam project — education and analysis">
+        Anti-scam projekat — edukacija i analiza
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

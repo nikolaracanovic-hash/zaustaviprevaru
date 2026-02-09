@@ -12,6 +12,16 @@
     }[c]));
   }
 
+  function norm(s){
+    return (s||"")
+      .toLowerCase()
+      .trim()
+      .replace(/^[\(\[\{]+|[\)\]\}]+$/g,"")   // skini spoljne zagrade
+      .replace(/[“”"']/g,"")                 // skini navodnike
+      .replace(/\s+/g," ");                  // collapse whitespace
+  }
+  function isDup(a,b){ return norm(a) && norm(a) === norm(b); }
+
   function db() {
     return (window.SCAM_DB && typeof window.SCAM_DB === "object") ? window.SCAM_DB : {};
   }
@@ -36,15 +46,17 @@
     return (slug && D[slug]) ? D[slug] : null;
   }
 
-  // SR/EN aware (string OR {sr,en})
+  // SR/CYR/EN aware (string OR {sr,cyr,en})
   function currentLang() {
     // PRIMARY: html[data-lang]
     const v = document.documentElement.getAttribute("data-lang");
     if (v === "en" || v === "sr") return v;
+    if (v === "cyr") return "sr";
 
     // FALLBACK: html.lang (ui.js currently sets this)
     const l = (document.documentElement.lang || "").toLowerCase();
     if (l === "en" || l === "sr") return l;
+    if (l === "cyr") return "sr";
 
     return "sr";
   }
@@ -53,7 +65,7 @@
     if (typeof v === "string") return v;
     if (v && typeof v === "object") {
       const lang = currentLang();
-      const a = (lang === "en") ? (v.en ?? v.sr) : (v.sr ?? v.en);
+      const a = v[lang] ?? v.sr ?? v.en;
       return (typeof a === "string") ? a : "";
     }
     return "";
@@ -62,7 +74,7 @@
   function pickLangForced(v, lang) {
     if (typeof v === "string") return v;
     if (v && typeof v === "object") {
-      const a = (lang === "en") ? (v.en ?? v.sr) : (v.sr ?? v.en);
+      const a = v[lang] ?? v.sr ?? v.en;
       return (typeof a === "string") ? a : "";
     }
     return "";
@@ -70,6 +82,18 @@
 
   function pairAttrs(sr, en) {
     return `data-sr="${esc(sr)}" data-en="${esc(en)}"`;
+  }
+
+  function enTitleFor(slug) {
+    const it = getItem(slug);
+    if (!it) return slug;
+    return String(it.title_en || pickLangForced(it.title, "en") || slug);
+  }
+
+  function srTitleFor(slug) {
+    const it = getItem(slug);
+    if (!it) return "";
+    return String(it.title_sr || pickLangForced(it.title, "sr") || "");
   }
 
   function labelFor(slug) {
@@ -118,6 +142,38 @@
     return false;
   }
 
+  function ensureScamHosts() {
+    const slug = getSlugFromMeta();
+    if (!slug) return;
+
+    let main = document.querySelector("main");
+    if (!main) {
+      main = document.createElement("main");
+      main.className = "container";
+      const footer = document.querySelector("footer");
+      if (footer && footer.parentNode) footer.parentNode.insertBefore(main, footer);
+      else document.body.appendChild(main);
+    }
+
+    if (!main.classList.contains("container")) main.classList.add("container");
+
+    const want = [
+      "[data-longform]",
+      "[data-overview]",
+      "[data-steps]",
+      "[data-scammer-view]",
+      "[data-related]",
+      "[data-sources]"
+    ];
+
+    for (const sel of want) {
+      if (document.querySelector(sel)) continue;
+      const el = document.createElement("div");
+      el.setAttribute(sel.slice(1, -1), "");
+      main.appendChild(el);
+    }
+  }
+
   function ensureInsertedOnce(id) {
     return !!document.getElementById(id);
   }
@@ -155,49 +211,155 @@
      META BOX
   ----------------------------- */
   function renderMeta() {
-    const meta = document.getElementById("scam-meta");
-    if (!meta) return;
-
+    let meta = document.getElementById("scam-meta");
     const slug = getSlugFromMeta();
     if (!slug) return;
+    if (!meta) return;
+
+    // If scam-meta is a <meta> tag in <head>, replace with a visible div.
+    const isHeadMeta = meta.tagName === "META" || !!meta.closest("head");
+    if (isHeadMeta) {
+      const old = meta;
+      const div = document.createElement("div");
+      div.id = "scam-meta";
+      div.setAttribute("data-scam", slug);
+      old.removeAttribute("id");
+
+      const hero = document.querySelector(".hero");
+      if (hero) hero.appendChild(div);
+      else {
+        const main = document.querySelector("main");
+        if (main) main.insertBefore(div, main.firstChild);
+        else insertBeforeFooter(div);
+      }
+      meta = div;
+    }
 
     const it = getItem(slug);
     if (!it) return;
+
+    const enTitle = enTitleFor(slug);
+    const srTitle = srTitleFor(slug);
+
+    const heroH1 = document.querySelector(".hero h1");
+    const h1Sr = (heroH1 && typeof heroH1.dataset?.sr === "string") ? heroH1.dataset.sr.trim() : "";
+    const h1En = (heroH1 && typeof heroH1.dataset?.en === "string") ? heroH1.dataset.en.trim() : "";
+    const h1EnglishOnly = !!h1Sr && !!h1En && h1Sr === h1En;
+
+    const srTitleEffective = (!h1EnglishOnly && h1Sr) ? h1Sr : (srTitle || h1Sr || slug);
+    const titleText = (currentLang() === "sr")
+      ? (srTitleEffective || enTitle || slug)
+      : (enTitle || srTitleEffective || slug);
 
     const overlaps = (it.overlaps || [])
       .slice(0, 10)
       .map((s) => {
         const href = fileFor(s);
-        const sr = labelForLang(s, "sr");
-        const en = labelForLang(s, "en");
+        const sr = srTitleFor(s) || labelForLang(s, "sr");
+        const en = enTitleFor(s) || labelForLang(s, "en");
         const attrs = pairAttrs(sr, en);
-        const label = esc(labelFor(s));
+        const label = esc(currentLang() === "sr" ? (sr || labelFor(s)) : (en || labelFor(s)));
         if (!href) return `<span class="tag" ${attrs}>${label}</span>`;
         return `<a class="tag" href="${esc(href)}" ${attrs}>${label}</a>`;
       })
       .join(" ");
 
-    const srTitle = labelForLang(slug, "sr");
-    const enTitle = labelForLang(slug, "en");
     const srSub = subtitleForLang(slug, "sr");
     const enSub = subtitleForLang(slug, "en");
-    const titleText = esc(labelFor(slug));
     const subText = esc(subtitleFor(slug));
+
+    const heroTitleText = (heroH1 && heroH1.textContent) ? heroH1.textContent : "";
+    const showMetaTitle = !(heroTitleText && isDup(titleText, heroTitleText));
 
     meta.innerHTML = `
       <div class="meta-box">
-        <div class="meta-title" ${pairAttrs(srTitle, enTitle)}>${titleText}</div>
+        ${showMetaTitle ? `<div class="meta-title" ${pairAttrs(srTitleEffective, enTitle)}>${esc(titleText)}</div>` : ""}
         ${(srSub || enSub) ? `<div class="meta-sub" ${pairAttrs(srSub, enSub)}>${subText}</div>` : ""}
         ${overlaps ? `<div class="meta-tags">${overlaps}</div>` : ""}
       </div>
     `;
   }
 
+  function dedupeHeroSubtitle() {
+    const slug = getSlugFromMeta();
+    if (!slug) return;
+    const hero = document.querySelector(".hero");
+    if (!hero) return;
+    const h1 = hero.querySelector("h1");
+    if (!h1) return;
+    const title = h1.textContent || "";
+    const subs = Array.from(hero.querySelectorAll(".hero-sub"));
+    for (const el of subs) {
+      const t = el ? (el.textContent || "") : "";
+      if (isDup(t, title)) el.remove();
+    }
+  }
+
+  function dedupeFirstCardHeading() {
+    const slug = getSlugFromMeta();
+    if (!slug) return;
+    const heroTitle = (document.querySelector(".hero h1")?.textContent) || "";
+    if (!heroTitle) return;
+    const main = document.querySelector("main");
+    if (!main) return;
+    const first = main.querySelector(".card, section.card, .longform, #scam-raw");
+    if (!first) return;
+    const h = first.querySelector("h2, h3");
+    if (!h) return;
+    if (isDup(h.textContent || "", heroTitle)) h.remove();
+  }
+
+  /* -----------------------------
+     HERO/TITLE normalization (scam pages)
+  ----------------------------- */
+  function normalizeScamTitles() {
+    const slug = getSlugFromMeta();
+    if (!slug) return;
+
+    const srTitle = srTitleFor(slug);
+    const enTitle = enTitleFor(slug);
+    if (!srTitle && !enTitle) return;
+
+    const hero = document.querySelector(".hero");
+    if (hero) {
+      const h1 = hero.querySelector("h1");
+      if (h1) {
+        const dsSr = (typeof h1.dataset?.sr === "string") ? h1.dataset.sr.trim() : "";
+        const dsEn = (typeof h1.dataset?.en === "string") ? h1.dataset.en.trim() : "";
+        const englishOnlyInSr = !!dsSr && !!dsEn && dsSr === dsEn;
+
+        // Only override SR title when SR is effectively EN-only.
+        if (englishOnlyInSr && typeof h1.dataset?.sr === "string") h1.dataset.sr = srTitle || h1.dataset.sr;
+        if (typeof h1.dataset?.en === "string") h1.dataset.en = enTitle || h1.dataset.en;
+
+        h1.textContent = (currentLang() === "sr")
+          ? ((englishOnlyInSr ? (srTitle || enTitle) : (dsSr || srTitle || enTitle)) || h1.textContent)
+          : ((enTitle || dsEn || srTitle) || h1.textContent);
+      }
+    }
+
+    const titleEl = document.querySelector("head title");
+    if (titleEl && titleEl.dataset) {
+      const tSr = (typeof titleEl.dataset.sr === "string") ? titleEl.dataset.sr.trim() : "";
+      const tEn = (typeof titleEl.dataset.en === "string") ? titleEl.dataset.en.trim() : "";
+      const englishOnlyInSr = !!tSr && !!tEn && tSr === tEn;
+
+      if (englishOnlyInSr && typeof titleEl.dataset.sr === "string") titleEl.dataset.sr = srTitle || titleEl.dataset.sr;
+      if (typeof titleEl.dataset.en === "string") titleEl.dataset.en = enTitle || titleEl.dataset.en;
+      document.title = (currentLang() === "sr")
+        ? ((englishOnlyInSr ? (srTitle || enTitle) : (tSr || srTitle || enTitle)) || document.title)
+        : ((enTitle || tEn || srTitle) || document.title);
+    }
+  }
+
   // Re-render dynamic blocks when the language is changed.
   // ui.js updates html[data-lang] and emits "lang:changed", but blocks rendered here
   // (meta subtitle, generated tags, index cards, related lists) are plain HTML.
   function rerenderOnLangChange() {
+    normalizeScamTitles();
     renderMeta();
+    dedupeHeroSubtitle();
+    dedupeFirstCardHeading();
     // If we're on prevare.html, re-render the index list
     if (document.getElementById("scam-index")) {
       renderIndex();
@@ -216,7 +378,9 @@
   ----------------------------- */
   function getIndexItems() {
     const D = db();
-    const items = Object.keys(D).map((slug) => ({
+    const items = Object.keys(D)
+      .filter((slug) => slug !== "template-scam")
+      .map((slug) => ({
       slug,
       ...(D[slug] || {})
     }));
@@ -253,15 +417,27 @@
         })
         .join(" ");
 
-      const t = pickLang(it.title) || it.slug;
-      const sub = pickLang(it.subtitle);
+      const lang = currentLang();
+
+      // Standardized card structure:
+      // - main title: EN always
+      // - secondary title: SR (Latin) in parentheses, only in SR mode
+      // - description: summary_sr / summary_en
+      const tMain = esc(it.title_en || pickLangForced(it.title, "en") || it.slug);
+      const tSr = it.title_sr || pickLangForced(it.title, "sr") || "";
+      const tSecondary = (lang === "sr" && tSr && tSr !== (it.title_en || "")) ? `(${tSr})` : "";
+
+      const desc = (lang === "sr")
+        ? (it.summary_sr || pickLangForced(it.subtitle, "sr") || "")
+        : (it.summary_en || pickLangForced(it.subtitle, "en") || "");
 
       return `
         <div class="index-card">
           <div class="index-title">
-            ${href ? `<a href="${esc(href)}">${esc(t)}</a>` : `${esc(t)}`}
+            ${href ? `<a href="${esc(href)}">${tMain}</a>` : `${tMain}`}
           </div>
-          ${sub ? `<div class="index-sub muted">${esc(sub)}</div>` : ""}
+          ${tSecondary ? `<div class="index-sub muted">${esc(tSecondary)}</div>` : ""}
+          ${desc ? `<div class="index-sub">${esc(desc)}</div>` : ""}
           ${overlaps ? `<div class="meta-tags">${overlaps}</div>` : ""}
         </div>
       `;
@@ -305,11 +481,17 @@
       const filtered = all.filter(it => {
         const hay = [
           it.slug,
-          pickLang(it.title),
-          pickLang(it.subtitle),
+          it.title_en,
+          it.title_sr,
+          it.summary_en,
+          it.summary_sr,
+          pickLangForced(it.title, "en"),
+          pickLangForced(it.title, "sr"),
+          pickLangForced(it.subtitle, "en"),
+          pickLangForced(it.subtitle, "sr"),
           ...(it.tags || []),
           ...((it.overlaps || []).map(labelFor))
-        ].join(" ").toLowerCase();
+        ].filter(Boolean).join(" ").toLowerCase();
 
         return hay.includes(q);
       });
@@ -347,7 +529,9 @@
     const items = rows.map(b => {
       const to = String(b.to_scam);
       const href = fileFor(to);
-      const title = labelFor(to);
+      const title = (currentLang() === "sr")
+        ? (srTitleFor(to) || labelForLang(to, "sr") || labelFor(to))
+        : (enTitleFor(to) || labelForLang(to, "en") || labelFor(to));
       const note = b.note ? String(b.note) : "";
 
       const link = href
@@ -495,7 +679,9 @@
       const items = list.map(b => {
         const to = String(b.to_scam);
         const href = fileFor(to);
-        const title = labelFor(to);
+        const title = (currentLang() === "sr")
+          ? (srTitleFor(to) || labelForLang(to, "sr") || labelFor(to))
+          : (enTitleFor(to) || labelForLang(to, "en") || labelFor(to));
         const note = b.note ? String(b.note) : "";
 
         const link = href
@@ -622,6 +808,12 @@
     const host = findHost("[data-cases]");
     if (!host) return;
 
+    const section = host.closest("section");
+    if (section) { section.remove(); return; }
+
+    host.innerHTML = ``;
+    return;
+
     const all = casesDb().filter(c => c && c.scam === slug);
     if (!all.length) {
       host.innerHTML = ``;
@@ -714,10 +906,10 @@
       <h2 ${pairAttrs(hSr, hEn)}>${esc(hText)}</h2>
       <div class="meta-tags">
         ${overlaps.slice(0, 12).map(x => {
-          const sr = labelForLang(x.slug, "sr");
-          const en = labelForLang(x.slug, "en");
+          const sr = srTitleFor(x.slug) || labelForLang(x.slug, "sr");
+          const en = enTitleFor(x.slug) || labelForLang(x.slug, "en");
           const attrs = pairAttrs(sr, en);
-          const label = esc(labelFor(x.slug));
+          const label = esc(currentLang() === "sr" ? (sr || labelFor(x.slug)) : (en || labelFor(x.slug)));
           return `<a class="tag" href="${esc(x.href)}" ${attrs}>${label}</a>`;
         }).join("")}
       </div>
@@ -784,9 +976,15 @@
   // When ui.js toggles language it updates html[data-lang] and emits this event.
   // Re-render blocks generated here so titles/subtitles/tags switch live.
   document.addEventListener("lang:changed", rerenderOnLangChange);
+  document.addEventListener("scam:content-rendered", () => {
+    dedupeFirstCardHeading();
+  });
 
   document.addEventListener("DOMContentLoaded", () => {
+    ensureScamHosts();
+    normalizeScamTitles();
     renderMeta();
+    dedupeHeroSubtitle();
     renderIndex();
     renderBranchesByScam();
 
@@ -801,5 +999,6 @@
 
     renderCases();
     renderRelated();
+    dedupeFirstCardHeading();
   });
 })();

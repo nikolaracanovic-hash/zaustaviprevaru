@@ -10,9 +10,9 @@ window.SCAM_CONTENT["fake-call-scam"] = {
       >Uvod: kako radi prevara lažnih poziva</h2>
 
       <p
-        data-sr="Lažni pozivi su operacija u realnom vremenu. Glas preuzima tempo, autoritet postavlja okvir, hitnost sužava izbor. Poziv nije razgovor, već vođenje kroz korake koji imaju posledicu: čitanje OTP koda, potvrda u aplikaciji, instalacija remote alata, uplata, preusmeravanje novca. Prednost poziva je kontrola ritma: napadač može da prekine pitanje, preskoči objašnjenje i odmah pređe na sledeću radnju."
+        data-sr="Lažni pozivi su operacija u realnom vremenu. Glas preuzima tempo, autoritet postavlja okvir, hitnost sužava izbor. Poziv nije razgovor, već vođenje kroz korake koji imaju posledicu: čitanje OTP koda, potvrda u aplikaciji, instalacija programa za daljinski pristup, uplata, preusmeravanje novca. Prednost poziva je kontrola ritma: napadač može da prekine pitanje, preskoči objašnjenje i odmah pređe na sledeću radnju."
         data-en="Fake-call scams are real-time operations. Voice controls pace, authority sets the frame, urgency narrows choices. The call is not a discussion; it is guided execution of steps with consequences: reading an OTP, approving in an app, installing remote tools, making a payment, redirecting money. Calls win by controlling rhythm: the attacker can interrupt questions, skip explanations, and move straight to the next action."
-      >Lažni pozivi su operacija u realnom vremenu. Glas preuzima tempo, autoritet postavlja okvir, hitnost sužava izbor. Poziv nije razgovor, već vođenje kroz korake koji imaju posledicu: čitanje OTP koda, potvrda u aplikaciji, instalacija remote alata, uplata, preusmeravanje novca. Prednost poziva je kontrola ritma: napadač može da prekine pitanje, preskoči objašnjenje i odmah pređe na sledeću radnju.</p>
+      >Lažni pozivi su operacija u realnom vremenu. Glas preuzima tempo, autoritet postavlja okvir, hitnost sužava izbor. Poziv nije razgovor, već vođenje kroz korake koji imaju posledicu: čitanje OTP koda, potvrda u aplikaciji, instalacija programa za daljinski pristup, uplata, preusmeravanje novca. Prednost poziva je kontrola ritma: napadač može da prekine pitanje, preskoči objašnjenje i odmah pređe na sledeću radnju.</p>
 
       <p
         data-sr="Maska poziva se menja: banka, policija, kurirska služba, platforma, operater, „security tim“. Identitet služi kao ambalaža. Mehanika ostaje ista: zadržavanje mete na liniji, izolacija od provere, ubrzavanje radnji, izvlačenje autorizacije. Autoritet je sredstvo za prelazak praga, ne dokaz legitimnosti."
@@ -20,9 +20,9 @@ window.SCAM_CONTENT["fake-call-scam"] = {
       >Maska poziva se menja: banka, policija, kurirska služba, platforma, operater, „security tim“. Identitet služi kao ambalaža. Mehanika ostaje ista: zadržavanje mete na liniji, izolacija od provere, ubrzavanje radnji, izvlačenje autorizacije. Autoritet je sredstvo za prelazak praga, ne dokaz legitimnosti.</p>
 
       <div class="callout"
-        data-sr="<strong>Prag:</strong> OTP ili potvrda u aplikaciji, instalacija remote alata, uplata na „siguran račun“, deljenje kartičnih podataka. Posle praga šteta prelazi u lanac."
+        data-sr="<strong>Prag:</strong> OTP ili potvrda u aplikaciji, instalacija programa za daljinski pristup, uplata na „siguran račun“, deljenje kartičnih podataka. Posle praga šteta prelazi u lanac."
         data-en="<strong>Threshold:</strong> OTP or in-app approval, installing a remote tool, paying to a “safe account”, sharing card details. After the threshold, damage becomes a chain."
-      ><strong>Prag:</strong> OTP ili potvrda u aplikaciji, instalacija remote alata, uplata na „siguran račun“, deljenje kartičnih podataka. Posle praga šteta prelazi u lanac.</div>
+      ><strong>Prag:</strong> OTP ili potvrda u aplikaciji, instalacija programa za daljinski pristup, uplata na „siguran račun“, deljenje kartičnih podataka. Posle praga šteta prelazi u lanac.</div>
 
       <div class="callout"
         data-sr="<strong>Model:</strong> poziv + autoritet → incident + rok → kontrola razgovora → prag (OTP/confirm/remote/uplata) → serijske posledice → presvlačenje identiteta → recovery talas"
@@ -72,9 +72,7 @@ window.SCAM_CONTENT["fake-call-scam"] = {
 
     <!-- 3) TIPIČNE MASKE I SCRIPT-OVI (SA FUNKCIJOM) -->
     <section class="card">
-      <h2 data-sr="Tipične maske i priče (sa funkcijom)" data-en="Common impersonations and scripts (with function)">
-        Tipične maske i priče (sa funkcijom)
-      </h2>
+      <h2 data-sr="Common impersonations and scripts (with function)" data-en="Common impersonations and scripts (with function)">Common impersonations and scripts (with function)</h2>
 
       <p class="muted"
         data-sr="Maske se razlikuju po priči, ali cilj ostaje isti: zadržati metu na liniji i izvući autorizaciju kroz jedan korak."
@@ -105,7 +103,7 @@ window.SCAM_CONTENT["fake-call-scam"] = {
           <ul class="bullets">
             <li data-sr="incident: paket stoji, doplata ili potvrda" data-en="incident: package held, fee or confirmation">incident: paket stoji, doplata ili potvrda</li>
             <li data-sr="korak: link ka formi ili uplata" data-en="step: link to a form or a payment">korak: link ka formi ili uplata</li>
-            <li data-sr="funkcija: prelaz u phishing/smishing tok" data-en="function: transition into phishing/smishing">funkcija: prelaz u phishing/smishing tok</li>
+            <li data-sr="funkcija: prelaz u fišing/SMS prevara tok" data-en="function: transition into phishing/smishing">funkcija: prelaz u fišing/SMS prevara tok</li>
           </ul>
         </div>
 
@@ -122,9 +120,7 @@ window.SCAM_CONTENT["fake-call-scam"] = {
 
     <!-- 4) HRONOLOŠKI TOK (DETALJNO) + EVOLUCIJE PO FAZAMA -->
     <section class="card">
-      <h2 data-sr="Hronološki tok (faze + evolucije)" data-en="Timeline (phases + evolutions)">
-        Hronološki tok (faze + evolucije)
-      </h2>
+      <h2 data-sr="Timeline (phases + evolutions)" data-en="Timeline (phases + evolutions)">Timeline (phases + evolutions)</h2>
 
       <p class="muted"
         data-sr="Faze su kompresovane u minutima. Svaka faza ima operativni cilj, tipične fraze i očekivana grananja."
@@ -133,9 +129,7 @@ window.SCAM_CONTENT["fake-call-scam"] = {
 
       <!-- FAZA 1 -->
       <article class="phase">
-        <h3 class="phase-title" data-sr="Faza 1 — Kontakt: poziv kao ulaz" data-en="Phase 1 — Contact: the call as entry">
-          Faza 1 — Kontakt: poziv kao ulaz
-        </h3>
+        <h3 class="phase-title" data-sr="Phase 1 — Contact: the call as entry" data-en="Phase 1 — Contact: the call as entry">Phase 1 — Contact: the call as entry</h3>
 
         <p
           data-sr="Poziv stiže iznenada. U prvih 20–40 sekundi postavlja se okvir: identitet pozivaoca, incident, rok. Fokus je na tome da meta ne dobije pauzu."
@@ -170,9 +164,7 @@ window.SCAM_CONTENT["fake-call-scam"] = {
 
       <!-- FAZA 2 -->
       <article class="phase">
-        <h3 class="phase-title" data-sr="Faza 2 — Autoritet i uverenost" data-en="Phase 2 — Authority and certainty">
-          Faza 2 — Autoritet i uverenost
-        </h3>
+        <h3 class="phase-title" data-sr="Phase 2 — Authority and certainty" data-en="Phase 2 — Authority and certainty">Phase 2 — Authority and certainty</h3>
 
         <p
           data-sr="Informacije su selektivne: dovoljno detalja da zvuči uverljivo, nedovoljno za proveru. Često se koristi „broj predmeta“, „procedura“, „interni protokol“. Meta dobija osećaj da pitanja usporavaju zaštitu."
@@ -208,9 +200,7 @@ window.SCAM_CONTENT["fake-call-scam"] = {
 
       <!-- FAZA 3 -->
       <article class="phase">
-        <h3 class="phase-title" data-sr="Faza 3 — Kontrola razgovora" data-en="Phase 3 — Conversation control">
-          Faza 3 — Kontrola razgovora
-        </h3>
+        <h3 class="phase-title" data-sr="Phase 3 — Conversation control" data-en="Phase 3 — Conversation control">Phase 3 — Conversation control</h3>
 
         <p
           data-sr="Poziv se vodi kao skripta: pitanje → odgovor → sledeći korak. Svaka sumnja se prevede u proceduralni odgovor i odmah se traži nova radnja. Meti se sugeriše da prekid komplikuje incident."
@@ -242,14 +232,14 @@ window.SCAM_CONTENT["fake-call-scam"] = {
           <p><strong data-sr="Evolucija u ovoj tački" data-en="Evolution at this point">Evolucija u ovoj tački</strong></p>
           <ul class="bullets">
             <li
-              data-sr="<strong>Phishing link:</strong> tokom poziva stiže link ka „verifikaciji“. Cilj: login, kartica, OTP. (Povezano: <a href='phishing.html'>Phishing</a>)"
+              data-sr="<strong>fišing link:</strong> tokom poziva stiže link ka „verifikaciji“. Cilj: login, kartica, OTP. (Povezano: <a href='phishing.html'>fišing</a>)"
               data-en="<strong>Phishing link:</strong> a “verification” link arrives during the call. Goal: login, card, OTP. (Related: <a href='phishing.html'>Phishing</a>)"
-            ><strong>Phishing link:</strong> tokom poziva stiže link ka „verifikaciji“. Cilj: login, kartica, OTP. (Povezano: <a href="phishing.html">Phishing</a>)</li>
+            ><strong>Fišing link:</strong> tokom poziva stiže link ka „verifikaciji“. Cilj: login, kartica, OTP. (Povezano: <a href="phishing.html">Phishing</a>)</li>
 
             <li
-              data-sr="<strong>Smishing nastavak:</strong> SMS sa linkom dok je meta na liniji. Cilj: klik bez pauze. (Povezano: <a href='smishing.html'>Smishing</a>)"
+              data-sr="<strong>SMS prevara nastavak:</strong> SMS sa linkom dok je meta na liniji. Cilj: klik bez pauze. (Povezano: <a href='smishing.html'>SMS prevara</a>)"
               data-en="<strong>Smishing continuation:</strong> an SMS link while the target is on the line. Goal: click with no pause. (Related: <a href='smishing.html'>Smishing</a>)"
-            ><strong>Smishing nastavak:</strong> SMS sa linkom dok je meta na liniji. Cilj: klik bez pauze. (Povezano: <a href="smishing.html">Smishing</a>)</li>
+            ><strong>SMS prevara nastavak:</strong> SMS sa linkom dok je meta na liniji. Cilj: klik bez pauze. (Povezano: <a href="smishing.html">Smishing</a>)</li>
           </ul>
         </div>
 
@@ -261,9 +251,7 @@ window.SCAM_CONTENT["fake-call-scam"] = {
 
       <!-- FAZA 4 -->
       <article class="phase warn">
-        <h3 class="phase-title" data-sr="Faza 4 — Incident + rok" data-en="Phase 4 — Incident + deadline">
-          Faza 4 — Incident + rok
-        </h3>
+        <h3 class="phase-title" data-sr="Phase 4 — Incident + deadline" data-en="Phase 4 — Incident + deadline">Phase 4 — Incident + deadline</h3>
 
         <p
           data-sr="Uvedena je posledica i kratko vreme: „transakcija ide“, „nalog se gasi“, „paket se vraća“, „broj se prenosi“. Rok služi kao prekidač provere. U isto vreme, meta dobija utisak da je već u procesu zaštite."
@@ -284,14 +272,12 @@ window.SCAM_CONTENT["fake-call-scam"] = {
 
       <!-- FAZA 5 -->
       <article class="phase bad">
-        <h3 class="phase-title" data-sr="Faza 5 — Prag (autorizacija)" data-en="Phase 5 — Threshold (authorization)">
-          Faza 5 — Prag (autorizacija)
-        </h3>
+        <h3 class="phase-title" data-sr="Phase 5 — Threshold (authorization)" data-en="Phase 5 — Threshold (authorization)">Phase 5 — Threshold (authorization)</h3>
 
         <p
-          data-sr="Prag nastaje kada meta da autorizaciju: OTP kod, potvrda u aplikaciji, instalacija remote alata, uplata na „siguran račun“, deljenje kartičnih podataka. Posle praga šteta može da se razvija kroz više paralelnih tokova: naplata, takeover, nove uplate, kontaktiranje drugih ljudi."
+          data-sr="Prag nastaje kada meta da autorizaciju: OTP kod, potvrda u aplikaciji, instalacija programa za daljinski pristup, uplata na „siguran račun“, deljenje kartičnih podataka. Posle praga šteta može da se razvija kroz više paralelnih tokova: naplata, takeover, nove uplate, kontaktiranje drugih ljudi."
           data-en="The threshold is crossed when the target authorizes: OTP code, in-app approval, remote tool installation, payment to a “safe account”, sharing card details. After it, damage can evolve through multiple parallel flows: charging, takeover, new payments, contacting other people."
-        >Prag nastaje kada meta da autorizaciju: OTP kod, potvrda u aplikaciji, instalacija remote alata, uplata na „siguran račun“, deljenje kartičnih podataka. Posle praga šteta može da se razvija kroz više paralelnih tokova: naplata, takeover, nove uplate, kontaktiranje drugih ljudi.</p>
+        >Prag nastaje kada meta da autorizaciju: OTP kod, potvrda u aplikaciji, instalacija programa za daljinski pristup, uplata na „siguran račun“, deljenje kartičnih podataka. Posle praga šteta može da se razvija kroz više paralelnih tokova: naplata, takeover, nove uplate, kontaktiranje drugih ljudi.</p>
 
         <div class="grid-2">
           <div class="phase">
@@ -308,7 +294,7 @@ window.SCAM_CONTENT["fake-call-scam"] = {
             <div class="label" data-sr="Šta se dešava u pozadini" data-en="What happens in the background">Šta se dešava u pozadini</div>
             <ul class="bullets">
               <li data-sr="OTP/potvrda odobrava prijavu ili transakciju" data-en="OTP/approval authorizes a login or transaction">OTP/potvrda odobrava prijavu ili transakciju</li>
-              <li data-sr="remote alat daje uvid u aplikacije i dozvole" data-en="remote tools expose apps and permissions">remote alat daje uvid u aplikacije i dozvole</li>
+              <li data-sr="program za daljinski pristup daje uvid u aplikacije i dozvole" data-en="remote tools expose apps and permissions">program za daljinski pristup daje uvid u aplikacije i dozvole</li>
               <li data-sr="transfer smanjuje prostor za povraćaj" data-en="a transfer reduces reversibility">transfer smanjuje prostor za povraćaj</li>
             </ul>
           </div>
@@ -318,9 +304,9 @@ window.SCAM_CONTENT["fake-call-scam"] = {
           <p><strong data-sr="Evolucije posle praga" data-en="Evolutions after the threshold">Evolucije posle praga</strong></p>
           <ul class="bullets">
             <li
-              data-sr="<strong>Account takeover:</strong> kontrola email-a i naloga, reset lozinki, poruke kontaktima. (Čvor: account-takeover)"
-              data-en="<strong>Account takeover:</strong> control of email/accounts, password resets, messaging contacts. (Node: account-takeover)"
-            ><strong>Account takeover:</strong> kontrola email-a i naloga, reset lozinki, poruke kontaktima. (Čvor: account-takeover)</li>
+              data-sr="<strong>preuzimanje naloga:</strong> kontrola imejl-a i naloga, reset lozinki, poruke kontaktima. (Čvor: account-takeover)"
+              data-en="<strong>Preuzimanje naloga:</strong> control of email/accounts, password resets, messaging contacts. (Node: account-takeover)"
+            ><strong>Preuzimanje naloga:</strong> kontrola email-a i naloga, reset lozinki, poruke kontaktima. (Čvor: account-takeover)</li>
 
             <li
               data-sr="<strong>Advance-fee:</strong> „takse“ kao uslov za „rešenje“ incidenta. (Povezano: <a href='advance-fee-fraud.html'>Advance-fee</a>)"
@@ -332,9 +318,7 @@ window.SCAM_CONTENT["fake-call-scam"] = {
 
       <!-- FAZA 6 -->
       <article class="phase bad">
-        <h3 class="phase-title" data-sr="Faza 6 — Serijske posledice" data-en="Phase 6 — Cascading consequences">
-          Faza 6 — Serijske posledice
-        </h3>
+        <h3 class="phase-title" data-sr="Phase 6 — Cascading consequences" data-en="Phase 6 — Cascading consequences">Phase 6 — Cascading consequences</h3>
 
         <p
           data-sr="Posle praga slede dodatne radnje: promene lozinki, nove potvrde, preusmeravanje uplata, dodatne uplate, kontaktiranje drugih ljudi. Svaka radnja se prodaje kao uslov da prethodna „uspe“."
@@ -351,9 +335,7 @@ window.SCAM_CONTENT["fake-call-scam"] = {
 
       <!-- FAZA 7 -->
       <article class="phase warn">
-        <h3 class="phase-title" data-sr="Faza 7 — Pritisak i zaključavanje izlaza" data-en="Phase 7 — Pressure and locking the exit">
-          Faza 7 — Pritisak i zaključavanje izlaza
-        </h3>
+        <h3 class="phase-title" data-sr="Phase 7 — Pressure and locking the exit" data-en="Phase 7 — Pressure and locking the exit">Phase 7 — Pressure and locking the exit</h3>
 
         <p
           data-sr="Kada meta pokuša prekid, ton postaje tvrđi: posledice, odgovornost, tajnost, zabrana prekida. Cilj je povratak mete u izvršavanje koraka bez pauze."
@@ -368,9 +350,7 @@ window.SCAM_CONTENT["fake-call-scam"] = {
 
       <!-- FAZA 8 -->
       <article class="phase bad">
-        <h3 class="phase-title" data-sr="Faza 8 — Mutacije" data-en="Phase 8 — Mutations">
-          Faza 8 — Mutacije
-        </h3>
+        <h3 class="phase-title" data-sr="Phase 8 — Mutations" data-en="Phase 8 — Mutations">Phase 8 — Mutations</h3>
 
         <p
           data-sr="Priča se presvlači: novi link, novi broj, novi agent, nova institucija. Mehanika ostaje stabilna: autoritet + tempo + prag. Posle mutacije često se nastavlja u takse, recovery ponude ili nove autorizacije."
@@ -381,14 +361,14 @@ window.SCAM_CONTENT["fake-call-scam"] = {
           <p><strong data-sr="Tipična grananja" data-en="Typical branching">Tipična grananja</strong></p>
           <ul class="bullets">
             <li
-              data-sr="<strong>Phishing:</strong> portal i forma za podatke. (Povezano: <a href='phishing.html'>Phishing</a>)"
+              data-sr="<strong>fišing:</strong> portal i forma za podatke. (Povezano: <a href='phishing.html'>fišing</a>)"
               data-en="<strong>Phishing:</strong> portal and data form. (Related: <a href='phishing.html'>Phishing</a>)"
-            ><strong>Phishing:</strong> portal i forma za podatke. (Povezano: <a href="phishing.html">Phishing</a>)</li>
+            ><strong>Fišing:</strong> portal i forma za podatke. (Povezano: <a href="phishing.html">Phishing</a>)</li>
 
             <li
-              data-sr="<strong>Smishing:</strong> SMS link kao nastavak incidenta. (Povezano: <a href='smishing.html'>Smishing</a>)"
+              data-sr="<strong>SMS prevara:</strong> SMS link kao nastavak incidenta. (Povezano: <a href='smishing.html'>SMS prevara</a>)"
               data-en="<strong>Smishing:</strong> SMS link as incident continuation. (Related: <a href='smishing.html'>Smishing</a>)"
-            ><strong>Smishing:</strong> SMS link kao nastavak incidenta. (Povezano: <a href="smishing.html">Smishing</a>)</li>
+            ><strong>SMS prevara:</strong> SMS link kao nastavak incidenta. (Povezano: <a href="smishing.html">Smishing</a>)</li>
 
             <li
               data-sr="<strong>Advance-fee:</strong> „trošak obrade“ kao uslov. (Povezano: <a href='advance-fee-fraud.html'>Advance-fee</a>)"
@@ -400,9 +380,7 @@ window.SCAM_CONTENT["fake-call-scam"] = {
 
       <!-- FAZA 9 -->
       <article class="phase warn">
-        <h3 class="phase-title" data-sr="Faza 9 — Recovery talas" data-en="Phase 9 — Recovery wave">
-          Faza 9 — Recovery talas
-        </h3>
+        <h3 class="phase-title" data-sr="Phase 9 — Recovery wave" data-en="Phase 9 — Recovery wave">Phase 9 — Recovery wave</h3>
 
         <p
           data-sr="Posle incidenta dolaze poruke o povratu: „refund“, „agent“, „specijalista“. Uslov je uplata unapred ili novi „koraci“. To predstavlja drugi napad na istu metu."
@@ -423,12 +401,12 @@ window.SCAM_CONTENT["fake-call-scam"] = {
 
     <!-- 5) STANDARDNA UPOZORENJA -->
     <section class="card">
-      <h2 data-sr="Standardna upozorenja" data-en="Standard warnings">Standardna upozorenja</h2>
+      <h2 data-sr="Standard warnings" data-en="Standard warnings">Standard warnings</h2>
 
       <ul class="bullets">
         <li data-sr="poziv koji traži da ostaneš na liniji služi za kontrolu tempa" data-en="a call that demands you stay on the line is pace control">poziv koji traži da ostaneš na liniji služi za kontrolu tempa</li>
         <li data-sr="OTP i potvrda u aplikaciji predstavljaju autorizaciju, ne informaciju" data-en="OTP and in-app approvals are authorization, not information">OTP i potvrda u aplikaciji predstavljaju autorizaciju, ne informaciju</li>
-        <li data-sr="remote alat tokom finansijskih koraka menja rizik na viši nivo" data-en="remote tools during money steps escalate risk significantly">remote alat tokom finansijskih koraka menja rizik na viši nivo</li>
+        <li data-sr="program za daljinski pristup tokom finansijskih koraka menja rizik na viši nivo" data-en="remote tools during money steps escalate risk significantly">program za daljinski pristup tokom finansijskih koraka menja rizik na viši nivo</li>
         <li data-sr="uplate na „siguran račun“ predstavljaju obrazac manipulacije" data-en="payments to a “safe account” are a manipulation pattern">uplate na „siguran račun“ predstavljaju obrazac manipulacije</li>
       </ul>
 
@@ -440,21 +418,19 @@ window.SCAM_CONTENT["fake-call-scam"] = {
 
     <!-- 6) AKO JE ŠTETA NASTALA -->
     <section class="card">
-      <h2 data-sr="Ako je šteta nastala (redosled poteza)" data-en="If damage happened (action order)">
-        Ako je šteta nastala (redosled poteza)
-      </h2>
+      <h2 data-sr="If damage happened (action order)" data-en="If damage happened (action order)">If damage happened (action order)</h2>
 
       <div class="phase">
         <div class="label" data-sr="OTP ili potvrda u aplikaciji" data-en="OTP or in-app approval">OTP ili potvrda u aplikaciji</div>
         <ol class="steps">
           <li data-sr="kontakt banke radi zaštite naloga i provere transakcija" data-en="contact the bank to secure the account and review transactions">kontakt banke radi zaštite naloga i provere transakcija</li>
-          <li data-sr="promena lozinki na ključnim nalozima, posebno email" data-en="change passwords on key accounts, especially email">promena lozinki na ključnim nalozima, posebno email</li>
-          <li data-sr="uključivanje 2FA i provera recovery podataka" data-en="enable 2FA and verify recovery details">uključivanje 2FA i provera recovery podataka</li>
+          <li data-sr="promena lozinki na ključnim nalozima, posebno imejl" data-en="change passwords on key accounts, especially email">promena lozinki na ključnim nalozima, posebno imejl</li>
+          <li data-sr="uključivanje dvofaktorska potvrda i provera recovery podataka" data-en="enable 2FA and verify recovery details">uključivanje dvofaktorska potvrda i provera recovery podataka</li>
         </ol>
       </div>
 
       <div class="phase">
-        <div class="label" data-sr="Remote alat (AnyDesk/TeamViewer)" data-en="Remote tool (AnyDesk/TeamViewer)">Remote alat (AnyDesk/TeamViewer)</div>
+        <div class="label" data-sr="Program za daljinski pristup (AnyDesk/TeamViewer)" data-en="Remote tool (AnyDesk/TeamViewer)">Program za daljinski pristup (AnyDesk/TeamViewer)</div>
         <ol class="steps">
           <li data-sr="prekid sesije i uklanjanje alata" data-en="end the session and remove the tool">prekid sesije i uklanjanje alata</li>
           <li data-sr="provera finansijskih aplikacija i promena lozinki" data-en="check financial apps and change passwords">provera finansijskih aplikacija i promena lozinki</li>
@@ -479,9 +455,7 @@ window.SCAM_CONTENT["fake-call-scam"] = {
 
     <!-- 7) IZ UGLA PREVARANTA: ULOGE, METRIKA, KVANTITET -->
     <section class="card">
-      <h2 data-sr="Iz ugla prevaranta: uloge, metrika, kvantitet" data-en="From the scammer’s side: roles, metrics, volume">
-        Iz ugla prevaranta: uloge, metrika, kvantitet
-      </h2>
+      <h2 data-sr="From the scammer’s side: roles, metrics, volume" data-en="From the scammer’s side: roles, metrics, volume">From the scammer’s side: roles, metrics, volume</h2>
 
       <p
         data-sr="Lažni pozivi se vode kao kvantitativna operacija. Veliki broj poziva služi kao filter. Meta koja prati korake ulazi u viši prioritet jer pokazuje toleranciju na hitnost i autoritet. Posle praga tok prelazi u seriju: dodatne potvrde, nove uplate, promene identiteta, nove maske."
@@ -495,7 +469,7 @@ window.SCAM_CONTENT["fake-call-scam"] = {
             <li data-sr="brzina odgovora i spremnost da ostane na liniji" data-en="response speed and willingness to stay on the line">brzina odgovora i spremnost da ostane na liniji</li>
             <li data-sr="spremnost na autorizaciju (OTP/potvrda)" data-en="willingness to authorize (OTP/approval)">spremnost na autorizaciju (OTP/potvrda)</li>
             <li data-sr="otpor na proveru identiteta i konsultacije" data-en="resistance to verification and consultation">otpor na proveru identiteta i konsultacije</li>
-            <li data-sr="spremnost na remote alat" data-en="willingness to accept remote tools">spremnost na remote alat</li>
+            <li data-sr="spremnost na program za daljinski pristup" data-en="willingness to accept remote tools">spremnost na program za daljinski pristup</li>
           </ul>
         </div>
 
@@ -515,11 +489,130 @@ window.SCAM_CONTENT["fake-call-scam"] = {
       ><strong>Filter:</strong> meta koja da autorizaciju dobija više pažnje. Meta koja prekine i pozove zvaničan broj izlazi iz toka.</div>
     </section>
 
+
+    <!-- 8) STATISTIKE I EKONOMIJA FAKE CALL PREVARA -->
+    <section class="card">
+      <h2 data-sr="Fake call scam statistics and economics" data-en="Fake call scam statistics and economics">Fake call scam statistics and economics</h2>
+
+      <div class="grid-2">
+        <div class="phase">
+          <div class="label" data-sr="FTC + FBI IC3 data (USA)" data-en="FTC + FBI IC3 data (USA)">FTC + FBI IC3 data (USA)</div>
+          <ul class="bullets">
+            <li data-sr="IC3 2023: Gov Impersonation 14,190 prijava, $394M gubitak" data-en="IC3 2023: Gov Impersonation 14,190 reports, $394M loss">IC3 2023: Gov Impersonation 14,190 prijava, $394M gubitak</li>
+            <li data-sr="prosečan gubitak po žrtvi: $27,777" data-en="average loss per victim: $27,777">prosečan gubitak po žrtvi: $27,777</li>
+            <li data-sr="automatski pozivi: računar poziva milione ljudi (milijarde poziva godišnje samo u USA)" data-en="automated calls: computer calls millions of people (billions annually in USA alone)">automatski pozivi: računar poziva milione ljudi (milijarde poziva godišnje samo u USA)</li>
+            <li data-sr="AI kopiranje glasa dramatično povećava kredibilitet poziva" data-en="AI kopiranje glasa dramatically increases call credibility">AI kopiranje glasa dramatično povećava kredibilitet poziva</li>
+          </ul>
+        </div>
+
+        <div class="phase">
+          <div class="label" data-sr="Demographics (ko je najranjiviji)" data-en="Demographics (most vulnerable)">Demographics (ko je najranjiviji)</div>
+          <ul class="bullets">
+            <li data-sr="starost 60+: 45% žrtava, 65% total gubitka" data-en="age 60+: 45% of victims, 65% of total loss">starost 60+: 45% žrtava, 65% total gubitka</li>
+            <li data-sr="prosečan gubitak 60+: $4,800 (vs $1,600 za 18-59)" data-en="average loss 60+: $4,800 (vs $1,600 for 18-59)">prosečan gubitak 60+: $4,800 (vs $1,600 za 18-59)</li>
+            <li data-sr="razlog: phone trust legacy + authority compliance + isolation" data-en="reason: phone trust legacy + authority compliance + isolation">razlog: phone trust legacy + authority compliance + isolation</li>
+            <li data-sr="gender split: 58% ženski, 42% muški (bank/government calls)" data-en="gender split: 58% female, 42% male (bank/government calls)">gender split: 58% ženski, 42% muški (bank/government calls)</li>
+            <li data-sr="peak timing: ponedeljak 10-12h, utorak 14-16h (business hours)" data-en="peak timing: Monday 10am-12pm, Tuesday 2-4pm (business hours)">peak timing: ponedeljak 10-12h, utorak 14-16h (business hours)</li>
+            <li data-sr="geografija: USA (50%), Canada (12%), UK (10%), Australia (8%)" data-en="geography: USA (50%), Canada (12%), UK (10%), Australia (8%)">geografija: USA (50%), Canada (12%), UK (10%), Australia (8%)</li>
+          </ul>
+        </div>
+
+        <div class="phase">
+          <div class="label" data-sr="Call types (distribution)" data-en="Call types (distribution)">Call types (distribution)</div>
+          <ul class="bullets">
+            <li data-sr="bank/fraud alert: 35% svih fake calls (highest conversion)" data-en="bank/fraud alert: 35% of all fake calls (highest conversion)">bank/fraud alert: 35% svih fake calls (highest conversion)</li>
+            <li data-sr="tech support: 25% (daljinski pristup focus)" data-en="tech support: 25% (remote-access focus)">tech support: 25% (kontrola računara focus)</li>
+            <li data-sr="government/IRS/SSA: 20% (seasonal peaks April-May)" data-en="government/IRS/SSA: 20% (seasonal peaks April-May)">government/IRS/SSA: 20% (seasonal peaks April-May)</li>
+            <li data-sr="delivery/package: 10% (links to SMS prevara)" data-en="delivery/package: 10% (links to smishing)">delivery/package: 10% (links to SMS prevara)</li>
+            <li data-sr="other (utility, insurance, charity): 10%" data-en="other (utility, insurance, charity): 10%">other (utility, insurance, charity): 10%</li>
+          </ul>
+        </div>
+
+        <div class="phase">
+          <div class="label" data-sr="Outcome metrics" data-en="Outcome metrics">Outcome metrics</div>
+          <ul class="bullets">
+            <li data-sr="koliko ljudi se javi: 5-10% (od 100 poziva, 5-10 odgovori)" data-en="answer rate: 5-10% (of 100 calls, 5-10 answer)">koliko ljudi se javi: 5-10% (od 100 poziva, 5-10 odgovori)</li>
+            <li data-sr="engagement rate: 30-40% (od odgovora, 30-40% ostane na liniji 1+ min)" data-en="engagement rate: 30-40% (of answers, 30-40% stay on the line 1+ min)">engagement rate: 30-40% (od odgovora, 30-40% ostane na liniji 1+ min)</li>
+            <li data-sr="uspešnost prevare (authorization given): 5-10% od engaged calls" data-en="scam success rate (authorization given): 5-10% of engaged calls">uspešnost prevare (authorization given): 5-10% od engaged calls</li>
+            <li data-sr="ROI za operatera: ~100:1 (call costs vs avg victim loss)" data-en="ROI for operator: ~100:1 (call costs vs avg victim loss)">ROI za operatera: ~100:1 (call costs vs avg victim loss)</li>
+            <li data-sr="timeline: 70% štete nastane u prvom pozivu, 30% u follow-up" data-en="timeline: 70% of damage in first call, 30% in follow-up">timeline: 70% štete nastane u prvom pozivu, 30% u follow-up</li>
+            <li data-sr="repeat targeting: 50% žrtava dobija follow-up poziv u roku od 72h" data-en="repeat targeting: 50% of victims get follow-up call within 72h">repeat targeting: 50% žrtava dobija follow-up poziv u roku od 72h</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="callout"
+        data-sr="<strong>Zašto lažni pozivi ne prestaju:</strong> Pozivanje preko interneta košta skoro ništa - mogu da pozovu milione ljudi za par stotina dolara. Lako je lažirati broj koji se prikazuje na telefonu - može da piše &quot;Policija&quot; ili &quot;Banka&quot; iako nije. AI može kopirati glas bilo koje osobe. Kombinacija: jeftini pozivi + lažni broj + kopiran glas = savršena prevara. Samo u USA 2023: $394 miliona gubici."
+        data-en="<strong>Why fake calls don't stop:</strong> Calling via internet costs almost nothing - can call millions for a few hundred dollars. Easy to fake the number shown on the phone - can display 'Police' or 'Bank' when it isn't. AI can copy anyone's voice. Combination: cheap calls + fake number + copied voice = perfect scam. In the USA in 2023 alone: $394M losses."
+      ><strong>Zašto lažni pozivi ne prestaju:</strong> Pozivanje preko interneta košta skoro ništa - mogu da pozovu milione ljudi za par stotina dolara. Lako je lažirati broj koji se prikazuje na telefonu - može da piše „Policija" ili „Banka" iako nije. AI može kopirati glas bilo koje osobe. Kombinacija: jeftini pozivi + lažni broj + kopiran glas = savršena prevara. Samo u USA 2023: $394 miliona gubici.</div>
+    </section>
+
+    <!-- 9) AUTOMATSKI POZIVI I FILTRIRANJE -->
+    <section class="card">
+      <h2 data-sr="Automated calls: how they call millions of people" data-en="Automated calls: how they call millions of people">Automated calls: how they call millions of people</h2>
+
+      <p
+        data-sr="Računar poziva umesto čoveka - jedan centar može pozvati milione ljudi nedeljno. Automatski sistem prvo pita par pitanja (&quot;pritisnite 1 za srpski&quot;) da bi video ko će odgovoriti. Tek onda te prebacuje na pravog čoveka. Tako ne gube vreme na one koji ne odgovaraju ili prekidaju odmah. Ovo smanjuje troškove i povećava broj uspešnih prevara."
+        data-en="Computer calls instead of human - one center can call millions each week. Automated system first asks a few questions ('press 1 for English') to see who will respond. Only then does it connect you to a real person. This way they don't waste time on those who don't answer or hang up immediately. This reduces costs and increases successful scams."
+      >Računar poziva umesto čoveka - jedan centar može pozvati milione ljudi nedeljno. Automatski sistem prvo pita par pitanja („pritisnite 1 za srpski") da bi video ko će odgovoriti. Tek onda te prebacuje na pravog čoveka. Tako ne gube vreme na one koji ne odgovaraju ili prekidaju odmah. Ovo smanjuje troškove i povećava broj uspešnih prevara.</p>
+
+      <div class="grid-2">
+        <div class="phase">
+          <div class="label" data-sr="Kako automatski poziv funkcioniše" data-en="How automated call works">Kako automatski poziv funkcioniše</div>
+          <ul class="bullets">
+            <li data-sr="auto-dialer: software pravi 100-1,000 poziva simultano" data-en="auto-dialer: software makes 100-1,000 calls simultaneously">auto-dialer: software pravi 100-1,000 poziva simultano</li>
+            <li data-sr="pre-recorded message: bank alert, IRS warning, tech support" data-en="pre-recorded message: bank alert, IRS warning, tech support">pre-recorded message: bank alert, IRS warning, tech support</li>
+            <li data-sr="press 1 to continue: filtering mehanizam (ko je spreman da reaguje)" data-en="press 1 to continue: filtering mechanism (who's ready to respond)">press 1 to continue: filtering mehanizam (ko je spreman da reaguje)</li>
+            <li data-sr="transfer to live operator: meta koja pritisne 1 dobija ljudskog operatera" data-en="transfer to live operator: target who presses 1 gets human operator">transfer to live operator: meta koja pritisne 1 dobija ljudskog operatera</li>
+            <li data-sr="cena: 1-3 centa po pozivu (pozivanje preko interneta je jeftino)" data-en="cost: 1-3 cents per call (calling via internet is cheap)">cena: 1-3 centa po pozivu (pozivanje preko interneta je jeftino)</li>
+          </ul>
+        </div>
+
+        <div class="phase">
+          <div class="label" data-sr="automatski sistem za pozive filtering efikasnost" data-en="automated call system filtering efficiency">automatski sistem za pozive filtering efikasnost</div>
+          <ul class="bullets">
+            <li data-sr="10,000 automatski pozivi → 700 odgovora (7% koliko ljudi se javi)" data-en="10,000 automatski pozivi → 700 answers (7% answer rate)">10,000 automatski pozivi → 700 odgovora (7% koliko ljudi se javi)</li>
+            <li data-sr="700 odgovora → 200 pritisne button (28% engagement)" data-en="700 answers → 200 press a button (28% engagement)">700 odgovora → 200 pritisne button (28% engagement)</li>
+            <li data-sr="200 transfer → 5-10 operatera potrebno (20-40 poziva po operateru/dan)" data-en="200 transferss → 5-10 operators needed (20-40 calls per operator/day)">200 transfer → 5-10 operatera potrebno (20-40 poziva po operateru/dan)</li>
+            <li data-sr="rezultat: automatski sistem za pozive preskaće 95% neproduktivnih poziva" data-en="result: automated call system skips 95% of unproductive calls">rezultat: automatski sistem za pozive preskaće 95% neproduktivnih poziva</li>
+            <li data-sr="operater dobija SAMO targets koji su već pokazali spremnost" data-en="operator gets ONLY targets who already showed willingness">operater dobija SAMO targets koji su već pokazali spremnost</li>
+          </ul>
+        </div>
+
+        <div class="phase">
+          <div class="label" data-sr="AI kopiranje glasa (nova tehnika)" data-en="AI kopiranje glasa (new technique)">AI kopiranje glasa (nova tehnika)</div>
+          <ul class="bullets">
+            <li data-sr="ElevenLabs, Play.ht: AI tools za kopiranje glasa (3-5 sec sample)" data-en="ElevenLabs, Play.ht: AI tools for voice cloning (3-5 sec sample)">ElevenLabs, Play.ht: AI tools za kopiranje glasa (3-5 sec sample)</li>
+            <li data-sr="family member scam: meta čuje glas sina/ćerke u nevolji" data-en="family member scam: target hears child's voice in distress">family member scam: meta čuje glas sina/ćerke u nevolji</li>
+            <li data-sr="voice sample source: social media videos, public posts" data-en="voice sample source: social media videos, public posts">voice sample source: social media videos, public posts</li>
+            <li data-sr="ekstremno efektivno: 60-70% roditelja pada na cloned voice" data-en="extremely effective: 60-70% of parents fall for cloned voice">ekstremno efektivno: 60-70% roditelja pada na cloned voice</li>
+            <li data-sr="defense: family safe word/code phrase poznato samo porodici" data-en="defense: family safe word/code phrase known only to family">defense: family safe word/code phrase poznato samo porodici</li>
+          </ul>
+        </div>
+
+        <div class="phase">
+          <div class="label" data-sr="Zaštita od automatskih poziva" data-en="Protection from automated calls">Zaštita od automatskih poziva</div>
+          <ul class="bullets">
+            <li data-sr="NE odgovaraj na nepoznate brojeve - push to voicemail" data-en="DON'T answer unknown numbers - push to voicemail">NE odgovaraj na nepoznate brojeve - push to voicemail</li>
+            <li data-sr="NE pritiskaj buttone (1, 9) - to potvrđuje active number" data-en="DON'T press a buttons (1, 9) - confirms the number is active">NE pritiskaj buttone (1, 9) - to potvrđuje active number</li>
+            <li data-sr="koristi carrier call screening (T-Mobile Scam Shield, Verizon Call Filter)" data-en="use carrier call screening (T-Mobile Scam Shield, Verizon Call Filter)">koristi carrier call screening (T-Mobile Scam Shield, Verizon Call Filter)</li>
+            <li data-sr="register on Do Not Call list (USA: donotcall.gov)" data-en="register on Do Not Call list (USA: donotcall.gov)">register on Do Not Call list (USA: donotcall.gov)</li>
+            <li data-sr="family emergency protocol: verify through SECOND channel (SMS, callback)" data-en="family emergency protocol: verify through SECOND channel (SMS, callback)">family emergency protocol: verify through SECOND channel (SMS, callback)</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="callout"
+        data-sr="<strong>Ključni filter:</strong> Ako čuješ snimljenu poruku umesto pravog čoveka - AUTOMATSKI je prevara. Prave institucije ne pozivaju milione ljudi sa snimljenom porukom za hitne stvari. AI može kopirati glas člana porodice - UVEK proveri pozivom na drugi broj."
+        data-en="<strong>Key filter:</strong> If you hear recorded message instead of real person - it's AUTOMATICALLY a scam. Real institutions don't call millions with recorded message for urgent matters. AI can copy family member's voice - ALWAYS verify by calling different number."
+      ><strong>Ključni filter:</strong> Ako čuješ snimljenu poruku umesto pravog čoveka - AUTOMATSKI je prevara. Prave institucije ne pozivaju milione ljudi sa snimljenom porukom za hitne stvari. AI može kopirati glas člana porodice - UVEK proveri pozivom na drugi broj.</div>
+    </section>
+
     <!-- 8) IZVORI -->
     <section class="card sources" id="sources">
-      <h2 data-sr="Izvori" data-en="Sources">Izvori</h2>
+      <h2 data-sr="Sources" data-en="Sources">Sources</h2>
       <ul>
-        <li><a href="https://www.ncsc.gov.uk/guidance/phishing" target="_blank" rel="noopener noreferrer">UK NCSC — Phishing guidance</a></li>
+        <li><a href="https://www.ncsc.gov.uk/guidance/phishing" target="_blank" rel="noopener noreferrer">UK NCSC — Fišing guidance</a></li>
         <li><a href="https://www.fbi.gov/how-we-can-help-you/scams-and-safety/common-frauds-and-scams" target="_blank" rel="noopener noreferrer">FBI — Common frauds and scams</a></li>
         <li><a href="https://consumer.ftc.gov/scams" target="_blank" rel="noopener noreferrer">FTC — Scam guidance</a></li>
       </ul>

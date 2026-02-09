@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta
+    name="description"
+    content="Lažno predstavljanje: prevare gde napadač glumi banku, policiju, firmu ili blisku osobu da bi izvukao novac ili podatke."
+    data-sr="Lažno predstavljanje: prevare gde napadač glumi banku, policiju, firmu ili blisku osobu da bi izvukao novac ili podatke."
+    data-en="Impersonation scams: fraud where attackers pose as banks, police, companies, or close contacts to extract money or data."
+  />
+
+  <title
+    data-sr="Impersonation scams"
+    data-en="Impersonation scams"
+  >Impersonation scams</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="ui.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="impersonation.content.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="cases.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+        <div class="brand">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span class="brand-name">Anti-scam</span>
+        </div>
+
+        <nav aria-label="Glavna navigacija">
+          <ul class="top-nav">
+            <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+            <li><a href="prevare.html" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="hero compact">
+        <h1 data-sr="Impersonation scams" data-en="Impersonation scams">Impersonation scams</h1>
+
+        <p class="muted hero-sub"
+           data-sr="Autoritet kao maska → hitnost → zahtev za kodovima, podacima ili uplatom."
+           data-en="Authority as a mask → urgency → request for codes, data, or payment.">
+          Autoritet kao maska → hitnost → zahtev za kodovima, podacima ili uplatom.
+        </p>
+
+        <div id="scam-meta" data-scam="impersonation-scam"></div>
+
+        <div class="callout"
+             data-sr="<strong>Prag:</strong> predaja kredencijala, koda ili novca osobi koja glumi autoritet. Maska se menja, mehanizam ostaje isti."
+             data-en="<strong>Threshold:</strong> handing over credentials, codes, or money to someone impersonating authority. The mask changes, the mechanism stays the same.">
+          <strong>Prag:</strong> predaja kredencijala, koda ili novca osobi koja glumi autoritet. Maska se menja, mehanizam ostaje isti.
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div data-overview></div>
+    <div data-steps></div>
+    <div data-scammer-view></div>
+
+    <div data-longform></div>
+    <div data-related></div>
+    <div data-sources></div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="muted"
+         data-sr="Anti-scam projekat — edukacija i analiza"
+         data-en="Anti-scam project — education and analysis">
+        Anti-scam projekat — edukacija i analiza
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

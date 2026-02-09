@@ -1,0 +1,7 @@
+[phases.setup]
+nixPkgs = ["python311"]
+
+[phases.build]
+
+[start]
+cmd = "python -m http.server 8080"

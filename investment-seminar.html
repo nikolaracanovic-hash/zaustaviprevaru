@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta
+    name="description"
+    content="Investment seminar: lažni mentori i seminari koji prodaju 'tajne' uspešnog investiranja bez stvarne vrednosti."
+    data-sr="Investment seminar: lažni mentori i seminari koji prodaju 'tajne' uspešnog investiranja bez stvarne vrednosti."
+    data-en="Investment seminars: fake mentors and seminars selling 'secrets' to successful investing with no real value."
+  />
+
+  <title
+    data-sr="Investment seminar"
+    data-en="Investment seminar"
+  >Investment seminar</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="ui.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="investment-seminar.content.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="cases.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+        <div class="brand">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span class="brand-name">Anti-scam</span>
+        </div>
+
+        <nav aria-label="Glavna navigacija">
+          <ul class="top-nav">
+            <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+            <li><a href="prevare.html" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="hero compact">
+        <h1 data-sr="Investment seminar" data-en="Investment seminar">Investment seminar</h1>
+
+        <p class="muted hero-sub"
+           data-sr="Lažni mentor → obećani prinosi → skupi kurs → prodaja skupljih nivoa → nema stvarne vrednosti."
+           data-en="Fake mentor → promised returns → expensive course → upsell → no real value.">
+          Lažni mentor → obećani prinosi → skupi kurs → prodaja skupljih nivoa → nema stvarne vrednosti.
+        </p>
+
+        <div id="scam-meta" data-scam="investment-seminar"></div>
+
+        <div class="callout"
+             data-sr="<strong>Prag:</strong> uplata za kurs ili „mentorstvo”. Posle praga slede skuplji nivoi i direktne investicione prevare."
+             data-en="<strong>Threshold:</strong> payment for course or &quot;mentorship&quot;. After the threshold come more expensive levels and direct investment scams.">
+          <strong>Prag:</strong> uplata za kurs ili „mentorstvo”. Posle praga slede skuplji nivoi i direktne investicione prevare.
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div data-overview></div>
+    <div data-steps></div>
+    <div data-scammer-view></div>
+
+    <div data-longform></div>
+    <div data-related></div>
+    <div data-sources></div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="muted"
+         data-sr="Anti-scam projekat — edukacija i analiza"
+         data-en="Anti-scam project — education and analysis">
+        Anti-scam projekat — edukacija i analiza
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta
+    name="description"
+    content="Tech support prevare: lažna tehnička podrška koja koristi kontrola računara, lažne dijagnoze i naplatu za nepostojeće usluge."
+    data-sr="Tech support prevare: lažna tehnička podrška koja koristi kontrola računara, lažne dijagnoze i naplatu za nepostojeće usluge."
+    data-en="Tech support scams: fake technical support using kontrola računara, fake diagnoses, and charges for non-existent services."
+  />
+
+  <title
+    data-sr="Tech support prevara"
+    data-en="Tech support scam"
+  >Tech support prevara</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="ui.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="tech-support.content.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="cases.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+        <div class="brand">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span class="brand-name">Anti-scam</span>
+        </div>
+
+        <nav aria-label="Glavna navigacija">
+          <ul class="top-nav">
+            <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+            <li><a href="prevare.html" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="hero compact">
+        <h1 data-sr="Tech support prevara" data-en="Tech support scam">Tech support prevara</h1>
+
+        <p class="muted hero-sub"
+           data-sr="Lažni problem → lažna dijagnoza → kontrola računara → naplata ili krađa."
+           data-en="Fake problem → fake diagnosis → kontrola računara → charges or theft.">
+          Lažni problem → lažna dijagnoza → kontrola računara → naplata ili krađa.
+        </p>
+
+        <div id="scam-meta" data-scam="tech-support-scam"></div>
+
+        <div class="callout"
+             data-sr="<strong>Prag:</strong> instalacija remote alata i prepuštanje kontrole nad uređajem. Posle praga napadač može da izvršava radnje direktno."
+             data-en="<strong>Threshold:</strong> installing a remote tool and surrendering device control. After the threshold, the attacker can execute actions directly.">
+          <strong>Prag:</strong> instalacija remote alata i prepuštanje kontrole nad uređajem. Posle praga napadač može da izvršava radnje direktno.
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div data-overview></div>
+    <div data-steps></div>
+    <div data-scammer-view></div>
+
+    <div data-longform></div>
+    <div data-related></div>
+    <div data-sources></div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="muted"
+         data-sr="Anti-scam projekat — edukacija i analiza"
+         data-en="Anti-scam project — education and analysis">
+        Anti-scam projekat — edukacija i analiza
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

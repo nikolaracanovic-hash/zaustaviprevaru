@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta
+    name="description"
+    content="Job scam: lažne ponude posla koje izvlače podatke, naknade za 'obuku' ili koriste žrtve kao money mule."
+    data-sr="Job scam: lažne ponude posla koje izvlače podatke, naknade za 'obuku' ili koriste žrtve kao money mule."
+    data-en="Job scams: fake job offers that extract data, charge for 'training', or use victims as money mules."
+  />
+
+  <title
+    data-sr="Job scam"
+    data-en="Job scam"
+  >Job scam</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="ui.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="job-scam.content.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="cases.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+        <div class="brand">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span class="brand-name">Anti-scam</span>
+        </div>
+
+        <nav aria-label="Glavna navigacija">
+          <ul class="top-nav">
+            <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+            <li><a href="prevare.html" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="hero compact">
+        <h1 data-sr="Job scam" data-en="Job scam">Job scam</h1>
+
+        <p class="muted hero-sub"
+           data-sr="Primamljiva ponuda → brza „selekcija“ → uplata za „obuku/opremu“ ili predaja ličnih podataka."
+           data-en="Attractive offer → fast &quot;selection&quot; → payment for &quot;training/equipment&quot; or personal data handover.">
+          Primamljiva ponuda → brza „selekcija“ → uplata za „obuku/opremu“ ili predaja ličnih podataka.
+        </p>
+
+        <div id="scam-meta" data-scam="job-scam"></div>
+
+        <div class="callout"
+             data-sr="<strong>Prag:</strong> uplata naknade ili predaja ličnih dokumenata/podataka. Posle praga sledi serija zahteva ili zloupotreba identiteta."
+             data-en="<strong>Threshold:</strong> fee payment or handing over personal documents/data. After the threshold comes a series of demands or identity abuse.">
+          <strong>Prag:</strong> uplata naknade ili predaja ličnih dokumenata/podataka. Posle praga sledi serija zahteva ili zloupotreba identiteta.
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div data-overview></div>
+    <div data-steps></div>
+    <div data-scammer-view></div>
+
+    <div data-longform></div>
+    <div data-related></div>
+    <div data-sources></div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="muted"
+         data-sr="Anti-scam projekat — edukacija i analiza"
+         data-en="Anti-scam project — education and analysis">
+        Anti-scam projekat — edukacija i analiza
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

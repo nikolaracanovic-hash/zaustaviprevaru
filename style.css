@@ -6,7 +6,7 @@
    THEME TOKENS (DEFAULT = DARK)
 ------------------------------ */
 :root{
-  --maxw: 880px;
+  --maxw: 800px;
   --pad: 20px;
 
   --text: #e8e8e8;
@@ -36,29 +36,29 @@
 
 /* LIGHT THEME OVERRIDES */
 :root[data-theme="light"]{
-  --text: #101418;
-  --muted: rgba(16,20,24,0.65);
+  --text: #1a1a1a;
+  --muted: rgba(26,26,26,0.65);
 
-  --bg: #f6f7fb;
-  --card: #ffffff;
-  --line: rgba(0,0,0,0.10);
+  --bg: #d4d2cc;
+  --card: #e0ded8;
+  --line: rgba(0,0,0,0.14);
 
   --link: #0b63d1;
 
-  --soft: rgba(0,0,0,0.04);
-  --soft2: rgba(0,0,0,0.02);
+  --soft: rgba(0,0,0,0.06);
+  --soft2: rgba(0,0,0,0.04);
 
-  --ok: rgba(0,160,90,0.12);
-  --warn: rgba(200,140,0,0.12);
-  --bad: rgba(200,0,0,0.10);
+  --ok: rgba(0,160,90,0.16);
+  --warn: rgba(200,140,0,0.16);
+  --bad: rgba(200,0,0,0.14);
 
   /* Background layer knobs (Light) */
-  --bg-grad-1: rgba(11,99,209,.14);
-  --bg-grad-2: rgba(180,40,90,.10);
-  --bg-top: #fbfcff;
-  --bg-bottom: #eef1f8;
+  --bg-grad-1: rgba(11,99,209,.06);
+  --bg-grad-2: rgba(180,40,90,.05);
+  --bg-top: #dad8d2;
+  --bg-bottom: #c8c6c0;
 
-  --shadow: 0 10px 26px rgba(0,0,0,0.10);
+  --shadow: 0 10px 26px rgba(0,0,0,0.14);
 }
 
 /* -----------------------------
@@ -91,9 +91,29 @@ a{ color: var(--link); }
 a:hover{ text-decoration: underline; }
 
 .container{
-  max-width: var(--maxw);
+  max-width: var(--maxw) !important;
+  min-width: var(--maxw) !important;
+  width: var(--maxw) !important;
   margin: 0 auto;
   padding: 0 var(--pad);
+  box-sizing: border-box;
+}
+
+/* GLOBAL WIDTH LOCK — every page uses same width */
+main, main.container, .container main, header .container{
+  max-width: var(--maxw) !important;
+  min-width: var(--maxw) !important;
+  width: var(--maxw) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: var(--pad) !important;
+  padding-right: var(--pad) !important;
+  box-sizing: border-box;
+}
+
+.longform, .card, .callout, .meta, .meta-box, .phase, .hint, .grid-2, section{
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 header{ padding: 26px 0 18px; }
@@ -101,12 +121,14 @@ header{ padding: 26px 0 18px; }
 h1{
   margin: 0 0 8px;
   font-size: 34px;
+  font-weight: 500;
   letter-spacing: 0.2px;
 }
 
 h2{
   margin: 22px 0 10px;
   font-size: 20px;
+  font-weight: 500;
 }
 
 p{ line-height: 1.6; }
@@ -147,7 +169,7 @@ hr.sep{
   box-shadow: 0 0 0 3px color-mix(in srgb, var(--link) 25%, transparent);
 }
 .brand-name{
-  font-weight: 800;
+  font-weight: 600;
   letter-spacing: 0.2px;
 }
 
@@ -269,6 +291,13 @@ ul.nav a:hover{
   box-shadow: 0 0 0 3px color-mix(in srgb, var(--link) 18%, transparent);
 }
 
+/* Active language button */
+.lang-btn.active{
+  background: color-mix(in srgb, var(--link) 25%, var(--soft2));
+  border-color: var(--link);
+  color: var(--link);
+}
+
 /* -----------------------------
    CARDS / SECTIONS
 ------------------------------ */
@@ -345,7 +374,7 @@ code{
   border-radius: 999px;
   border: 1px solid color-mix(in srgb, var(--line) 90%, transparent);
   background: var(--soft);
-  font-weight: 800;
+  font-weight: 600;
   font-size: 13px;
   margin-bottom: 10px;
 }
@@ -372,7 +401,7 @@ code{
   border-radius: 14px;
 }
 .meta-title{
-  font-weight: 900;
+  font-weight: 500;
   letter-spacing: 0.2px;
   font-size: 18px;
   line-height: 1.2;
@@ -440,7 +469,7 @@ code{
   background: color-mix(in srgb, var(--soft2) 85%, transparent);
 }
 .index-title{
-  font-weight: 900;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.25;
   margin-bottom: 6px;
@@ -529,11 +558,11 @@ code{
 }
 .case summary::-webkit-details-marker{ display: none; }
 
-.case-title{ font-weight: 900; }
+.case-title{ font-weight: 500; }
 .case-meta{ font-size: 13px; }
 .case-block{ margin-top: 12px; }
 .case-block-title{
-  font-weight: 850;
+  font-weight: 600;
   margin-bottom: 6px;
 }
 
@@ -714,4 +743,21 @@ a.tag::after{
 .theme-toggle{
   flex:0 0 auto;
   white-space:nowrap;
+}
+
+/* Map callout link */
+.map-callout {
+  display: block;
+  text-decoration: none;
+  margin-bottom: 24px;
+}
+
+.map-callout .callout {
+  transition: transform 0.15s, box-shadow 0.15s;
+  border-left-color: var(--link);
+}
+
+.map-callout:hover .callout {
+  transform: translateX(4px);
+  box-shadow: var(--shadow);
 }
