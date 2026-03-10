@@ -65,7 +65,13 @@
    BASE
 ------------------------------ */
 *{ box-sizing: border-box; }
-html, body{ height: 100%; }
+
+html, body{
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
 
 body{
   margin: 0;
@@ -73,6 +79,18 @@ body{
   color: var(--text);
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   background: var(--bg); /* fallback if ::before is blocked */
+  -webkit-text-size-adjust: 100%;
+}
+
+img, video, canvas, svg{
+  max-width: 100%;
+  height: auto;
+}
+
+/* Long URLs / long words */
+a, p, li, h1, h2, h3{
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 /* Unified background across the entire site (prevents seams) */
@@ -90,24 +108,23 @@ body::before{
 a{ color: var(--link); }
 a:hover{ text-decoration: underline; }
 
+/* ✅ RESPONSIVE container (NE forsira desktop na fonu) */
 .container{
-  max-width: var(--maxw) !important;
-  min-width: var(--maxw) !important;
-  width: var(--maxw) !important;
+  width: 100%;
+  max-width: var(--maxw);
   margin: 0 auto;
   padding: 0 var(--pad);
   box-sizing: border-box;
 }
 
-/* GLOBAL WIDTH LOCK — every page uses same width */
+/* ✅ GLOBAL WIDTH (bez min-width/forced width) */
 main, main.container, .container main, header .container{
-  max-width: var(--maxw) !important;
-  min-width: var(--maxw) !important;
-  width: var(--maxw) !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  padding-left: var(--pad) !important;
-  padding-right: var(--pad) !important;
+  width: 100%;
+  max-width: var(--maxw);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--pad);
+  padding-right: var(--pad);
   box-sizing: border-box;
 }
 
@@ -473,21 +490,16 @@ code{
   font-size: 16px;
   line-height: 1.25;
   margin-bottom: 6px;
+  color: var(--text);
 }
 /* Link naslov = link boja (da se vidi da je klikabilno) */
 .index-title a{
   color: var(--link);
   text-decoration: none;
 }
-
 /* hover malo jasniji */
 .index-title a:hover{
   text-decoration: underline;
-}
-
-/* Naslov bez linka ostaje beo (nije klikabilan) */
-.index-title{
-  color: var(--text);
 }
 
 .index-sub{ margin-bottom: 10px; }
@@ -606,6 +618,8 @@ footer, .footer{
 }
 
 @media (max-width: 520px){
+  :root{ --pad: 12px; } /* ✅ manji padding na fonu */
+
   h1{ font-size: 26px; }
   h2{ font-size: 18px; }
 
@@ -630,7 +644,6 @@ footer, .footer{
   white-space: nowrap;
   border: 0;
 }
-
 
 /* -----------------------------
    TOP CONTROLS (Theme + Language)
@@ -710,14 +723,12 @@ a.tag::after{
    Gasimo bojenje celog phase bloka
    (warn / bad važe SAMO za naslove)
 ============================ */
-
 .phase.warn,
 .phase.bad {
   background: transparent !important;
 }
 
 /* --- TOPBAR: stabilna pozicija desnih dugmadi (SR/EN + Theme) --- */
-
 .topbar{
   display:flex;
   align-items:center;
