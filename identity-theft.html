@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta
+    name="description"
+    content="Krađa identiteta: prikupljanje podataka → otvaranje naloga ili kredita → finansijsko iskorišćavanje → žrtva otkriva dug ili odbijen servis."
+    data-sr="Krađa identiteta: prikupljanje podataka → otvaranje naloga ili kredita → finansijsko iskorišćavanje → žrtva otkriva dug ili odbijen servis."
+    data-en="Identity theft: data collection → account or credit opening → financial exploitation → victim discovers debt or denied service."
+  />
+
+  <title data-sr="Krađa identiteta" data-en="Identity theft">Krađa identiteta</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="ui.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="identity-theft.content.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="cases.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+        <div class="brand">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span class="brand-name">Anti-scam</span>
+        </div>
+
+        <nav aria-label="Glavna navigacija">
+          <ul class="top-nav">
+            <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+            <li><a href="prevare.html" aria-current="page" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          <li><a href="protecting-elderly.html" data-sr="Zaštita" data-en="Protection">Zaštita</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="hero compact">
+        <h1 data-sr="Krađa identiteta" data-en="Identity theft">Krađa identiteta</h1>
+
+        <p class="muted hero-sub"
+           data-sr="Prikupljanje podataka → otvaranje naloga ili kredita → finansijsko iskorišćavanje → pokrivanje tragova → žrtva otkriva dug."
+           data-en="Data collection → account or credit opening → financial exploitation → covering tracks → victim discovers debt.">
+          Prikupljanje podataka → otvaranje naloga ili kredita → finansijsko iskorišćavanje → pokrivanje tragova → žrtva otkriva dug.
+        </p>
+
+        <div id="scam-meta" data-scam="identity-theft"></div>
+
+        <div class="callout"
+             data-sr="<strong>Prag:</strong> žrtva prima obaveštenje o dugu koji nije napravila, kreditnu proveru koju nije autorizovala, ili je odbijena za kredit ili servis zbog nepoznatih negativnih unosa u kreditnom dosijeu."
+             data-en="<strong>Threshold:</strong> the victim receives a notice about debt they did not create, a credit inquiry they did not authorize, or is denied credit or service due to unknown negative entries in their credit file.">
+          <strong>Prag:</strong> žrtva prima obaveštenje o dugu koji nije napravila, kreditnu proveru koju nije autorizovala, ili je odbijena za kredit ili servis zbog nepoznatih negativnih unosa u kreditnom dosijeu.
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div data-overview></div>
+    <div data-steps></div>
+
+    <div data-longform></div>
+    <div data-related></div>
+    <div data-sources></div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="muted" data-sr="Anti-scam projekat — edukacija i analiza" data-en="Anti-scam project — education and analysis">
+        Anti-scam projekat — edukacija i analiza
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

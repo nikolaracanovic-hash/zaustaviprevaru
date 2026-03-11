@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta
+    name="description"
+    content="Lažni update: pop-up imitira zvanično obaveštenje o ažuriranju i vodi ka preuzimanju malvera."
+    data-sr="Lažni update: pop-up imitira zvanično obaveštenje o ažuriranju i vodi ka preuzimanju malvera."
+    data-en="Fake update scam: pop-up imitates an official update notification and leads to malware download."
+  />
+
+  <title data-sr="Lažni update" data-en="Fake update scam">Lažni update</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="ui.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="fake-update-scam.content.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="cases.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+        <div class="brand">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span class="brand-name">Anti-scam</span>
+        </div>
+
+        <nav aria-label="Glavna navigacija">
+          <ul class="top-nav">
+            <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+            <li><a href="prevare.html" aria-current="page" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          <li><a href="protecting-elderly.html" data-sr="Zaštita" data-en="Protection">Zaštita</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="hero compact">
+        <h1 data-sr="Lažni update" data-en="Fake update scam">Lažni update</h1>
+
+        <p class="muted hero-sub"
+           data-sr="Pop-up/obaveštenje → 'ažuriranje' → preuzimanje fajla → instalacija → malver aktivan → eksfiltracija ili ransomware."
+           data-en="Pop-up/notification → update → file download → installation → malware active → exfiltration or ransomware.">
+          Pop-up/obaveštenje → 'ažuriranje' → preuzimanje fajla → instalacija → malver aktivan → eksfiltracija ili ransomware.
+        </p>
+
+        <div id="scam-meta" data-scam="fake-update-scam"></div>
+
+        <div class="callout"
+             data-sr="<strong>Prag:</strong> klik na dugme za ažuriranje i preuzimanje fajla. Posle izvršavanja instalacionog paketa malver je aktivan."
+             data-en="<strong>Threshold:</strong> clicking the update button and downloading the file. After executing the installation package the malware is active.">
+          <strong>Prag:</strong> klik na dugme za ažuriranje i preuzimanje fajla. Posle izvršavanja instalacionog paketa malver je aktivan.
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container" id="scam-content" data-scam="fake-update-scam">
+  </main>
+
+  <footer class="page-footer">
+    <div class="container">
+      <p data-sr="Anti-scam edukativni portal." data-en="Anti-scam educational portal.">Anti-scam edukativni portal.</p>
+    </div>
+  </footer>
+</body>
+</html>

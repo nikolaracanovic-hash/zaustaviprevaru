@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Kompromitovanje imejla: phishing/lozinka → pristup imejlu → izviđanje → resetovanje naloga ili preusmeravanje plaćanja"
+    data-sr="Kompromitovanje imejla: phishing/lozinka → pristup imejlu → izviđanje → resetovanje naloga ili preusmeravanje plaćanja"
+    data-en="Email account compromise: phishing/password → email access → reconnaissance → account reset or payment redirect"
+  />
+  <title data-sr="Kompromitovanje imejl naloga" data-en="Email account compromise">Kompromitovanje imejl naloga</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="ui.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="email-account-compromise.content.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="cases.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+        <div class="brand">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span class="brand-name">Anti-scam</span>
+        </div>
+        <nav aria-label="Glavna navigacija">
+          <ul class="top-nav">
+            <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+            <li><a href="prevare.html" aria-current="page" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          <li><a href="protecting-elderly.html" data-sr="Zaštita" data-en="Protection">Zaštita</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="hero compact">
+        <h1 data-sr="Kompromitovanje imejl naloga" data-en="Email account compromise">Kompromitovanje imejl naloga</h1>
+        <p class="muted hero-sub"
+           data-sr="Fišing/lozinka → pristup imejlu → izviđanje → resetovanje naloga ili preusmeravanje plaćanja → gubitak"
+           data-en="Phishing/password → email access → reconnaissance → account reset or payment redirect → loss">Fišing/lozinka → pristup imejlu → izviđanje → resetovanje naloga ili preusmeravanje plaćanja → gubitak</p>
+        <div id="scam-meta" data-scam="email-account-compromise"></div>
+        <div class="callout"
+             data-sr="<strong>Prag:</strong> Pristup imejl nalogu daje napadaču kontrolu nad svim servisima koji koriste taj imejl za resetovanje lozinke."
+             data-en="<strong>Threshold:</strong> Access to an email account gives the attacker control over all services that use that email for password resets.">
+          <strong>Prag:</strong> Pristup imejl nalogu daje napadaču kontrolu nad svim servisima koji koriste taj imejl za resetovanje lozinke.
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    <div data-overview></div>
+    <div data-steps></div>
+    <div data-longform></div>
+    <div data-related></div>
+    <div data-sources></div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <p class="muted" data-sr="Anti-scam projekat — edukacija i analiza" data-en="Anti-scam project — education and analysis">
+        Anti-scam projekat — edukacija i analiza
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

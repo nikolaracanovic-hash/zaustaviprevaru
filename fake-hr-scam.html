@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Lažni HR: imitacija korporativnog onboardinga za krađu ličnih dokumenata i bankovnih podataka."
+    data-sr="Lažni HR: imitacija korporativnog onboardinga za krađu ličnih dokumenata i bankovnih podataka."
+    data-en="Fake HR scam: imitation of corporate onboarding to steal personal documents and banking data."
+  />
+  <title data-sr="Lažni HR" data-en="Fake HR scam">Lažni HR</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="ui.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="fake-hr-scam.content.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="cases.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+        <div class="brand">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span class="brand-name">Anti-scam</span>
+        </div>
+        <nav aria-label="Glavna navigacija">
+          <ul class="top-nav">
+            <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+            <li><a href="prevare.html" aria-current="page" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          <li><a href="protecting-elderly.html" data-sr="Zaštita" data-en="Protection">Zaštita</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="hero compact">
+        <h1 data-sr="Lažni HR" data-en="Fake HR scam">Lažni HR</h1>
+        <p class="muted hero-sub"
+           data-sr="Kontakt od 'HR' → lažni onboarding → slanje dokumenata i bankovnih podataka → krađa identiteta ili instalacija malvera."
+           data-en="Contact from HR → fake onboarding → sending documents and banking data → identity theft or malware installation.">
+          Kontakt od 'HR' → lažni onboarding → slanje dokumenata i bankovnih podataka → krađa identiteta ili instalacija malvera.
+        </p>
+        <div id="scam-meta" data-scam="fake-hr-scam"></div>
+        <div class="callout"
+             data-sr="<strong>Prag:</strong> slanje kopije lične karte ili pasoša i bankovnih podataka. Od tog momenta napadač ima sve što mu treba za krađu identiteta."
+             data-en="<strong>Threshold:</strong> sending a copy of ID or passport and banking data. From that moment the attacker has everything needed for identity theft.">
+          <strong>Prag:</strong> slanje kopije lične karte ili pasoša i bankovnih podataka. Od tog momenta napadač ima sve što mu treba za krađu identiteta.
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="container" id="scam-content" data-scam="fake-hr-scam"></main>
+  <footer class="page-footer">
+    <div class="container">
+      <p data-sr="Anti-scam edukativni portal." data-en="Anti-scam educational portal.">Anti-scam edukativni portal.</p>
+    </div>
+  </footer>
+</body>
+</html>

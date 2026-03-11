@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta
+    name="description"
+    content="Prevara sa grantovima i fondovima: lažna agencija obaveštava organizaciju da je izabrana za grant. Naknade unapred su potrebne za oslobađanje sredstava koja ne postoje."
+    data-sr="Prevara sa grantovima i fondovima: lažna agencija obaveštava organizaciju da je izabrana za grant. Naknade unapred su potrebne za oslobađanje sredstava koja ne postoje."
+    data-en="Grant and fund scam: fake agency notifies organization they are selected for a grant. Upfront fees are required to release funds that do not exist."
+  />
+
+  <title data-sr="Prevara sa grantovima i fondovima" data-en="Grant and fund scam">Prevara sa grantovima i fondovima</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="ui.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="grant-fund-scam.content.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="cases.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+        <div class="brand">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span class="brand-name">Anti-scam</span>
+        </div>
+
+        <nav aria-label="Glavna navigacija">
+          <ul class="top-nav">
+            <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+            <li><a href="prevare.html" aria-current="page" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          <li><a href="protecting-elderly.html" data-sr="Zaštita" data-en="Protection">Zaštita</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="hero compact">
+        <h1
+          data-sr="Prevara sa grantovima i fondovima"
+          data-en="Grant and fund scam"
+        >Prevara sa grantovima i fondovima</h1>
+
+        <p class="muted hero-sub"
+           data-sr="Obaveštenje o grantu → naknade za oslobađanje sredstava → porezi → bankarska garancija → serija uplata → grant ne postoji → recovery talaš."
+           data-en="Grant notification → release fees → taxes → bank guarantee → payment series → grant does not exist → recovery wave.">
+          Obaveštenje o grantu → naknade za oslobađanje sredstava → porezi → bankarska garancija → serija uplata → grant ne postoji → recovery talaš.
+        </p>
+
+        <div id="scam-meta" data-scam="grant-fund-scam"></div>
+
+        <div class="callout"
+             data-sr="<strong>Prag:</strong> organizacija izvrši prvu uplatu (naknada za oslobađanje, porez, registracija) pre nego što proveri zvaničnu listu primalaca granta."
+             data-en="<strong>Threshold:</strong> organization makes the first payment (release fee, tax, registration) before verifying the official list of grant recipients.">
+          <strong>Prag:</strong> organizacija izvrši prvu uplatu (naknada za oslobađanje, porez, registracija) pre nego što proveri zvaničnu listu primalaca granta.
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div data-longform></div>
+    <div data-related></div>
+    <div data-sources></div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="muted"
+         data-sr="Anti-scam projekat — edukacija i analiza"
+         data-en="Anti-scam project — education and analysis">
+        Anti-scam projekat — edukacija i analiza
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
