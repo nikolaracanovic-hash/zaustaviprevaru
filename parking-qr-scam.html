@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Lažni QR kodovi na parkiralištima: Nalepnica na parkometru → QR kod → lažni portal → unos podataka kartice → krađa." data-sr="Lažni QR kodovi na parkiralištima: Nalepnica na parkometru → QR kod → lažni portal → unos podataka kartice → krađa." data-en="Fake parking QR code scams: Sticker on parking meter → QR code → fake portal → card data entry → theft." />
+  <title data-sr="Lažni QR kodovi na parkiralištima" data-en="Fake parking QR code scams">Lažni QR kodovi na parkiralištima</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="ui.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="parking-qr-scam.content.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="cases.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+        <div class="brand">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span class="brand-name">Anti-scam</span>
+        </div>
+        <nav aria-label="Glavna navigacija">
+          <ul class="top-nav">
+            <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+            <li><a href="prevare.html" aria-current="page" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          <li><a href="protecting-elderly.html" data-sr="Zaštita" data-en="Protection">Zaštita</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="hero compact">
+        <h1 data-sr="Lažni QR kodovi na parkiralištima" data-en="Fake parking QR code scams">Lažni QR kodovi na parkiralištima</h1>
+        <p class="muted hero-sub" data-sr="Nalepnica na parkometru → QR kod → lažni portal → unos podataka kartice → krađa." data-en="Sticker on parking meter → QR code → fake portal → card data entry → theft.">Nalepnica na parkometru → QR kod → lažni portal → unos podataka kartice → krađa.</p>
+        <div id="scam-meta" data-scam="parking-qr-scam"></div>
+        <div class="callout" data-sr="<strong>Prag:</strong> meta unese podatke platne kartice na lažnom portalu koji izgleda kao zvanična parking aplikacija." data-en="<strong>Threshold:</strong> the target enters payment card details on a fake portal that looks like the official parking app.">
+          <strong>Prag:</strong> meta unese podatke platne kartice na lažnom portalu koji izgleda kao zvanična parking aplikacija.
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    <div data-overview></div>
+    <div data-steps></div>
+    <div data-longform></div>
+    <div data-related></div>
+    <div data-sources></div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <p class="muted" data-sr="Anti-scam projekat — edukacija i analiza" data-en="Anti-scam project — education and analysis">Anti-scam projekat — edukacija i analiza</p>
+    </div>
+  </footer>
+</body>
+</html>

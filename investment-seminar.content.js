@@ -19,8 +19,8 @@ window.SCAM_CONTENT["investment-seminar"] = {
       >Šteta se realizuje kroz tri nivoa: (1) prodaja kurseva bez vrednosti — sadržaj je generički i besplatno dostupan na internetu, (2) prodaja skupljih nivoa kroz „mentorstvo” ili „ekskluzivne grupe”, (3) uvlačenje u investicione prevare kao „najbolje polaznike” ili „partnere”. Model kombinuje avansnu uplatu (uplata za obećanje) i Ponzi elemente (priča o prinosima).</p>
 
       <div class="callout"
-        data-sr="<strong>Model:</strong> besplatni vebinar → prodajni pritisak → uplata za kurs → prag → prodaja skupljih nivoa → moguća investiciona prevara" data-en="<strong>Model:</strong> free webinar → sales pressure → course payment → threshold → upsell to higher levels → potential investment scam"
-      ><strong>Model:</strong> besplatni vebinar → prodajni pritisak → uplata za kurs → prag → prodaja skupljih nivoa → moguća investiciona prevara</div>
+        data-sr="<strong>Model:</strong> besplatni vebinar → prodajni pritisak → uplata za kurs → prag → prodaja skupljih nivoa → moguća investiciona prevara." data-en="<strong>Model:</strong> free webinar → sales pressure → course payment → threshold → upsell to higher levels → potential investment scam."
+      ><strong>Model:</strong> besplatni vebinar → prodajni pritisak → uplata za kurs → prag → prodaja skupljih nivoa → moguća investiciona prevara.</div>
     </section>
 
     <!-- 2) TIPOVI LAŽNIH SEMINARA -->
@@ -31,35 +31,35 @@ window.SCAM_CONTENT["investment-seminar"] = {
 
       <div class="grid-2">
         <div class="phase">
-          <div class="label" data-sr="Kripto / foreks „guru“" data-en="Crypto / forex &quot;guru&quot;">Kripto / foreks „guru“</div>
+          <div class="label" data-sr="Kripto / foreks „guru." data-en="Crypto / forex &quot;guru&quot;">Kripto / foreks „guru“</div>
           <ul class="bullets">
-            <li data-sr="obećani prinosi: 100%+ godišnje" data-en="promised returns: 100%+ annually">obećani prinosi: 100%+ godišnje</li>
-            <li data-sr="„tajne strategije“ koje koriste veliki igrači" data-en="&quot;secret strategies&quot; used by big players">„tajne strategije“ koje koriste veliki igrači</li>
-            <li data-sr="signali, lažni nalozi, automatsko trgovanje" data-en="signals, fake accounts, automated trading">signali, lažni nalozi, automatsko trgovanje</li>
+            <li data-sr="obećani prinosi: 100%+ godišnje." data-en="promised returns: 100%+ annually.">obećani prinosi: 100%+ godišnje.</li>
+            <li data-sr="„tajne strategije“ koje koriste veliki igrači." data-en="&quot;secret strategies&quot; used by big players.">„tajne strategije“ koje koriste veliki igrači.</li>
+            <li data-sr="signali, lažni nalozi, automatsko trgovanje." data-en="signals, fake accounts, automated trading.">signali, lažni nalozi, automatsko trgovanje.</li>
           </ul>
         </div>
         <div class="phase">
           <div class="label" data-sr="Nekretnine / preprodaja" data-en="Real estate / flipping">Nekretnine / preprodaja</div>
           <ul class="bullets">
-            <li data-sr="kupovina i prodaja nekretnina „bez kapitala“" data-en="buying and selling property &quot;without capital&quot;">kupovina i prodaja nekretnina „bez kapitala“</li>
-            <li data-sr="tajne pregovaranja i finansiranja" data-en="negotiation and financing secrets">tajne pregovaranja i finansiranja</li>
-            <li data-sr="studije slučaja bez dokaza" data-en="case studies without proof">studije slučaja bez dokaza</li>
+            <li data-sr="kupovina i prodaja nekretnina „bez kapitala." data-en="buying and selling property &quot;without capital&quot;">kupovina i prodaja nekretnina „bez kapitala“.</li>
+            <li data-sr="tajne pregovaranja i finansiranja." data-en="negotiation and financing secrets.">tajne pregovaranja i finansiranja.</li>
+            <li data-sr="studije slučaja bez dokaza." data-en="case studies without proof.">studije slučaja bez dokaza.</li>
           </ul>
         </div>
         <div class="phase">
           <div class="label" data-sr="Prodaja bez lagera / onlajn prodavnica" data-en="Dropshipping / e-commerce">Prodaja bez lagera / onlajn prodavnica</div>
           <ul class="bullets">
-            <li data-sr="„pasivni prihod“ od onlajn prodavnice" data-en="&quot;passive income&quot; from online store">„pasivni prihod“ od onlajn prodavnice</li>
-            <li data-sr="alati i dobavljači za pretplatu" data-en="tools and suppliers for subscription">alati i dobavljači za pretplatu</li>
-            <li data-sr="„dokazani šabloni“ bez garancije" data-en="&quot;proven templates&quot; without guarantee">„dokazani šabloni“ bez garancije</li>
+            <li data-sr="„pasivni prihod“ od onlajn prodavnice." data-en="&quot;passive income&quot; from online store.">„pasivni prihod“ od onlajn prodavnice.</li>
+            <li data-sr="alati i dobavljači za pretplatu." data-en="tools and suppliers for subscription.">alati i dobavljači za pretplatu.</li>
+            <li data-sr="„dokazani šabloni“ bez garancije." data-en="&quot;proven templates&quot; without guarantee.">„dokazani šabloni“ bez garancije.</li>
           </ul>
         </div>
         <div class="phase">
           <div class="label" data-sr="MLM hibrid" data-en="MLM hybrid">MLM hibrid</div>
           <ul class="bullets">
-            <li data-sr="investicija + regrutovanje novih članova" data-en="investment + recruiting new members">investicija + regrutovanje novih članova</li>
-            <li data-sr="„bonusi“ za dovođenje prijatelja" data-en="&quot;bonuses&quot; for bringing friends">„bonusi“ za dovođenje prijatelja</li>
-            <li data-sr="fokus na mrežu umesto na proizvod/rezultat" data-en="focus on network instead of product/result">fokus na mrežu umesto na proizvod/rezultat</li>
+            <li data-sr="investicija + regrutovanje novih člažna." data-en="investment + recruiting new members.">investicija + regrutovanje novih člažna.</li>
+            <li data-sr="„bonusi“ za dovođenje prijatelja." data-en="&quot;bonuses&quot; for bringing friends.">„bonusi“ za dovođenje prijatelja.</li>
+            <li data-sr="fokus na mrežu umesto na proizvod/rezultat." data-en="focus on network instead of product/result.">fokus na mrežu umesto na proizvod/rezultat.</li>
           </ul>
         </div>
       </div>
@@ -67,7 +67,7 @@ window.SCAM_CONTENT["investment-seminar"] = {
 
     <!-- 3) HRONOLOŠKI TOK -->
     <section class="card">
-      <h2 data-sr="Hronološki tok (faze + grananja)" data-en="Timeline (phases + branching)">
+      <h2 data-sr="Hronološki tok (faze + grananja)." data-en="Timeline (phases + branching).">
         Hronološki tok (faze + grananja)
       </h2>
 
@@ -83,9 +83,9 @@ window.SCAM_CONTENT["investment-seminar"] = {
         >Oglas na društvenim mrežama ili YouTube obećava „besplatne tajne” uspešnog investiranja. Vebinar je dizajniran da izgradi kredibilitet „mentora” i stvori strah da ćeš propustiti priliku. Sadržaj je površan, pravi cilj je prodaja.</p>
 
         <ul class="bullets">
-          <li data-sr="luksuzan život kao dokaz uspeha" data-en="luxury lifestyle as proof of success">luksuzan život kao dokaz uspeha</li>
-          <li data-sr="svedočenja „uspešnih polaznika“" data-en="testimonials from &quot;successful students&quot;">svedočenja „uspešnih polaznika“</li>
-          <li data-sr="ograničeno vreme / broj mesta" data-en="limited time / number of spots">ograničeno vreme / broj mesta</li>
+          <li data-sr="luksuzan život kao dokaz uspeha." data-en="luxury lifestyle as proof of success.">luksuzan život kao dokaz uspeha.</li>
+          <li data-sr="svedočenja „uspešnih polaznika." data-en="testimonials from &quot;successful students&quot;">svedočenja „uspešnih polaznika“.</li>
+          <li data-sr="ograničeno vreme / broj mesta." data-en="limited time / number of spots.">ograničeno vreme / broj mesta.</li>
         </ul>
       </article>
 
@@ -101,9 +101,9 @@ window.SCAM_CONTENT["investment-seminar"] = {
         >Na kraju vebinara stiže „specijalna ponuda”: kurs ili program sa velikim popustom koji važi „samo danas”. Prava cena se prikazuje kao „investicija u sebe” sa garantovanim povratom. Pritisak uključuje tajmer, ograničena mesta i priče o propuštenoj prilici.</p>
 
         <ul class="bullets">
-          <li data-sr="„redovna cena 2000 EUR, danas samo 497 EUR“" data-en="&quot;regular price €2000, today only €497&quot;">„redovna cena 2000 EUR, danas samo 497 EUR“</li>
-          <li data-sr="„samo još 5 mesta“" data-en="&quot;only 5 spots left&quot;">„samo još 5 mesta“</li>
-          <li data-sr="„investicija koja se vraća 10x“" data-en="&quot;investment that returns 10x&quot;">„investicija koja se vraća 10x“</li>
+          <li data-sr="„redovna cena 2000 EUR, danas samo 497 EUR." data-en="&quot;regular price €2000, today only €497&quot;">„redovna cena 2000 EUR, danas samo 497 EUR“.</li>
+          <li data-sr="„samo još 5 mesta." data-en="&quot;only 5 spots left&quot;">„samo još 5 mesta“.</li>
+          <li data-sr="„investicija koja se vraća 10x." data-en="&quot;investment that returns 10x&quot;">„investicija koja se vraća 10x“.</li>
         </ul>
       </article>
 
@@ -134,9 +134,9 @@ window.SCAM_CONTENT["investment-seminar"] = {
         >Posle osnovnog kursa stiže ponuda za „napredni nivo”, „1-na-1 mentorstvo”, ili „ekskluzivnu grupu”. Cene rastu: 1000, 5000, 10000+ EUR. Obećanje: direktan pristup mentoru, ekskluzivne strategije, zajednica uspešnih.</p>
 
         <ul class="bullets">
-          <li data-sr="„napredni nivo za ozbiljne investitore“" data-en="&quot;advanced level for serious investors&quot;">„napredni nivo za ozbiljne investitore“</li>
-          <li data-sr="„1-na-1 mentorstvo — ograničeno na 10 osoba“" data-en="&quot;1-on-1 mentorship — limited to 10 people&quot;">„1-na-1 mentorstvo — ograničeno na 10 osoba“</li>
-          <li data-sr="„ekskluzivna grupa sa ekskluzivnim signalima“" data-en="&quot;VIP group with exclusive signals&quot;">„ekskluzivna grupa sa ekskluzivnim signalima“</li>
+          <li data-sr="„napredni nivo za ozbiljne investitore." data-en="&quot;advanced level for serious investors&quot;">„napredni nivo za ozbiljne investitore“.</li>
+          <li data-sr="„1-na-1 mentorstvo — ograničeno na 10 osoba." data-en="&quot;1-on-1 mentorship — limited to 10 people&quot;">„1-na-1 mentorstvo — ograničeno na 10 osoba“.</li>
+          <li data-sr="„ekskluzivna grupa sa ekskluzivnim signalima." data-en="&quot;VIP group with exclusive signals&quot;">„ekskluzivna grupa sa ekskluzivnim signalima“.</li>
         </ul>
       </article>
 
@@ -147,15 +147,15 @@ window.SCAM_CONTENT["investment-seminar"] = {
         </h3>
 
         <p
-          data-sr="Na najvišem nivou „mentor" može da pozove „najbolje studente" da investiraju direktno u njegovu platformu, fond, ili projekat. Ovo je često prelazak u klasičnu investicionu prevaru (kripto, Ponzi, pump-and-dump)."
+          data-sr="Na najvišem nivou „mentor" može da pozove „najbolje studente" da investiraju direktno u njegovu platformu, fond, ili projekat“. Ovo je često prelazak u klasičnu investicionu prevaru (kripto, Ponzi, pump-and-dump)."
           data-en="At the highest level, the "mentor" may invite "top students" to invest directly in their platform, fund, or project. This is often a transition into classic investment fraud (crypto, Ponzi, pump-and-dump)."
-        >Na najvišem nivou „mentor" može da pozove „najbolje studente" da investiraju direktno u njegovu platformu, fond, ili projekat. Ovo je često prelazak u klasičnu investicionu prevaru (kripto, Ponzi, pump-and-dump).</p>
+        >Na najvišem nivou „mentor" može da pozove „najbolje studente" da investiraju direktno u njegovu platformu, fond, ili projekat“. Ovo je često prelazak u klasičnu investicionu prevaru (kripto, Ponzi, pump-and-dump).</p>
 
         <div class="branch">
           <p><strong data-sr="Grananja" data-en="Branching">Grananja</strong></p>
           <ul class="bullets">
-            <li data-sr="<strong>Kripto prevara:</strong> direktna investicija u lažnu platformu. (Povezano: <a href='crypto-scam.html'>Crypto scam</a>)" data-en="<strong>Crypto scam:</strong> direct investment in fake platform. (Related: <a href='crypto-scam.html'>Crypto scam</a>)"><strong>Kripto prevara:</strong> direktna investicija u lažnu platformu. (Povezano: <a href="crypto-scam.html">Crypto scam</a>)</li>
-            <li data-sr="<strong>Pig butchering:</strong> dugoročno gajenje pre velikog gubitka. (Povezano: <a href='pig-butchering.html'>Pig butchering</a>)" data-en="<strong>Pig butchering:</strong> long-term grooming before major loss. (Related: <a href='pig-butchering.html'>Pig butchering</a>)"><strong>Pig butchering:</strong> dugoročno gajenje pre velikog gubitka. (Povezano: <a href="pig-butchering.html">Pig butchering</a>)</li>
+            <li><a href="crypto-scam.html" data-sr="Kripto investiciona prevara" data-en="Crypto investment scam">Kripto investiciona prevara</a></li>
+            <li><a href="pig-butchering.html" data-sr="Dug odnos + investicija" data-en="Pig butchering">Dug odnos + investicija</a></li>
           </ul>
         </div>
       </article>
@@ -168,12 +168,12 @@ window.SCAM_CONTENT["investment-seminar"] = {
       </h2>
 
       <ul class="bullets">
-        <li data-sr="garantovani prinosi ili „dokazane strategije“" data-en="guaranteed returns or &quot;proven strategies&quot;">garantovani prinosi ili „dokazane strategije“</li>
-        <li data-sr="pritisak da se kupi „danas“" data-en="pressure to buy &quot;today&quot; with big discount">pritisak da se kupi „danas“ sa velikim popustom</li>
-        <li data-sr="luksuzan život kao glavni dokaz uspeha" data-en="luxury lifestyle as main proof of success">luksuzan život kao glavni dokaz uspeha</li>
-        <li data-sr="testimonijali bez nezavisne verifikacije" data-en="testimonials without independent verification">testimonijali bez nezavisne verifikacije</li>
-        <li data-sr="fokus na regrutovanje umesto na rezultate" data-en="focus on recruiting instead of results">fokus na regrutovanje umesto na rezultate</li>
-        <li data-sr="kontinuirana prodaja skupljih nivoa" data-en="continuous upsell into more expensive levels">kontinuirana prodaja skupljih nivoa</li>
+        <li data-sr="garantovani prinosi ili „dokazane strategije." data-en="guaranteed returns or &quot;proven strategies&quot;">garantovani prinosi ili „dokazane strategije“.</li>
+        <li data-sr="pritisak da se kupi „danas." data-en="pressure to buy &quot;today&quot; with big discount.">pritisak da se kupi „danas“ sa velikim popustom.</li>
+        <li data-sr="luksuzan život kao glavni dokaz uspeha." data-en="luxury lifestyle as main proof of success.">luksuzan život kao glavni dokaz uspeha.</li>
+        <li data-sr="testimonijali bez nezavisne verifikacije." data-en="testimonials without independent verification.">testimonijali bez nezavisne verifikacije.</li>
+        <li data-sr="fokus na regrutovanje umesto na rezultate." data-en="focus on recruiting instead of results.">fokus na regrutovanje umesto na rezultate.</li>
+        <li data-sr="kontinuirana prodaja skupljih nivoa." data-en="continuous upsell into more expensive levels.">kontinuirana prodaja skupljih nivoa.</li>
       </ul>
 
       <div class="callout"
@@ -183,19 +183,97 @@ window.SCAM_CONTENT["investment-seminar"] = {
 
     <!-- 5) AKO JE ŠTETA NASTALA -->
     <section class="card">
-      <h2 data-sr="Ako je šteta nastala (redosled poteza)" data-en="If damage happened (action order)">
+      <h2 data-sr="Ako je šteta nastala (redosled poteza)." data-en="If damage happened (action order).">
         Ako je šteta nastala (redosled poteza)
       </h2>
 
       <ol class="steps">
-        <li data-sr="prekini dalje uplate i ponude skupljih nivoa" data-en="stop further payments and upsell offers">prekini dalje uplate i ponude skupljih nivoa</li>
-        <li data-sr="kontaktiraj banku/karticu radi osporavanja transakcije ako je moguće" data-en="contact bank/card for dispute if possible">kontaktiraj banku/karticu radi osporavanja transakcije ako je moguće</li>
-        <li data-sr="sačuvaj dokaze: poruke, uplate, marketinške materijale" data-en="save evidence: messages, payments, marketing materials">sačuvaj dokaze: poruke, uplate, marketinške materijale</li>
-        <li data-sr="proveri da nisi uvučen u MLM strukturu sa pravnim posledicama" data-en="check if you've been pulled into MLM structure with legal consequences">proveri da nisi uvučen u MLM strukturu sa pravnim posledicama</li>
+        <li data-sr="prekini dalje uplate i ponude skupljih nivoa." data-en="stop further payments and upsell offers.">prekini dalje uplate i ponude skupljih nivoa.</li>
+        <li data-sr="kontaktiraj banku/karticu radi osporavanja transakcije ako je moguće." data-en="contact bank/card for dispute if possible.">kontaktiraj banku/karticu radi osporavanja transakcije ako je moguće.</li>
+        <li data-sr="sačuvaj dokaze: poruke, uplate, marketinške materijale." data-en="save evidence: messages, payments, marketing materials.">sačuvaj dokaze: poruke, uplate, marketinške materijale.</li>
+        <li data-sr="proveri da nisi uvučen u MLM strukturu sa pravnim posledicama." data-en="check if you've been pulled into MLM structure with legal consequences.">proveri da nisi uvučen u MLM strukturu sa pravnim posledicama.</li>
       </ol>
     </section>
 
-    <!-- 6) IZVORI -->
+    
+    <!-- PROVERE -->
+    <section class="content-section">
+      <h2 data-sr="Provere: 8 brzih provera pre investiranja" data-en="Checks: 8 quick checks before investing">Provere: 8 brzih provera pre investiranja</h2>
+      <ol class="steps">
+        <li data-sr="Proveri da li je kompanija registrovana kod finansijskog regulatora." data-en="Check whether the company is registered with the financial regulator.">Proveri da li je kompanija registrovana kod finansijskog regulatora.</li>
+        <li data-sr="Potraži naziv kompanije i predavača plus scam u pretraživaču." data-en="Search the company and presenter name plus scam in a search engine.">Potraži naziv kompanije i predavača plus scam u pretraživaču.</li>
+        <li data-sr="Nikad ne plati na samom seminaru pod pritiskom." data-en="Never pay at the seminar itself under pressure.">Nikad ne plati na samom seminaru pod pritiskom.</li>
+        <li data-sr="Konsultuj finansijskog savetnika van kompanije pre ulaganja." data-en="Consult a financial adviser outside the company before any investment.">Konsultuj finansijskog savetnika van kompanije pre ulaganja.</li>
+        <li data-sr="Proveri da li mozesh da povuces novac odmah i bez kazne." data-en="Check whether you can withdraw money immediately and without penalty.">Proveri da li mozesh da povuces novac odmah i bez kazne.</li>
+        <li data-sr="Pitaj za pisani ugovor i ne potpisuj dok ga advokat ne pregleda." data-en="Ask for a written contract and do not sign until a lawyer reviews it.">Pitaj za pisani ugovor i ne potpisuj dok ga advokat ne pregleda.</li>
+        <li data-sr="Proveriti da li se adresa firme zaista postoji na zvanicnim mapama." data-en="Verify whether the company address actually exists on official maps.">Proveriti da li se adresa firme zaista postoji na zvanicnim mapama.</li>
+        <li data-sr="Prinos koji se obecava mora biti realistican." data-en="The promised return must be realistic.">Prinos koji se obecava mora biti realistican.</li>
+      </ol>
+    </section>
+
+    <!-- CHECKLISTA -->
+    <section class="content-section">
+      <h2 data-sr="Checklista: pitanja pre ulaganja na osnovu seminara" data-en="Checklist: questions before investing based on a seminar">Checklista: pitanja pre ulaganja na osnovu seminara</h2>
+      <ul class="bullets">
+        <li data-sr="Da li je predavac registrovan finansijski savetnik ili broker?" data-en="Is the presenter a registered financial adviser or broker?">Da li je predavac registrovan finansijski savetnik ili broker?</li>
+        <li data-sr="Da li mi je data mogucnost da razmislim nekoliko dana pre odluke?" data-en="Was I given the opportunity to think for several days before deciding?">Da li mi je data mogucnost da razmislim nekoliko dana pre odluke?</li>
+        <li data-sr="Da li su obecani prinosi realni i potkrepljeni nezavisnim podacima?" data-en="Are the promised returns realistic and supported by independent data?">Da li su obecani prinosi realni i potkrepljeni nezavisnim podacima?</li>
+        <li data-sr="Da li je kompanija registrovana u javnom privrednom registru?" data-en="Is the company registered in the official business registry?">Da li je kompanija registrovana u javnom privrednom registru?</li>
+        <li data-sr="Da li me se nagovaralo da pozovem prijatelje i porodicu na isti seminar?" data-en="Was I encouraged to invite friends and family to the same seminar?">Da li me se nagovaralo da pozovem prijatelje i porodicu na isti seminar?</li>
+        <li data-sr="Da li postoji pritisak da odmah zakljucim ugovor ili izgubim priiliku?" data-en="Is there pressure to sign a contract immediately or lose the opportunity?">Da li postoji pritisak da odmah zakljucim ugovor ili izgubim priiliku?</li>
+        <li data-sr="Da li je strategija ulaganja jasno objasnjena?" data-en="Is the investment strategy clearly explained?">Da li je strategija ulaganja jasno objasnjena?</li>
+        <li data-sr="Da li je lako povuci novac kad zelim, bez naknada?" data-en="Is it easy to withdraw money when I want, without fees?">Da li je lako povuci novac kad zelim, bez naknada?</li>
+        <li data-sr="Da li sam proverio referentne klijente nezavisno od kompanije?" data-en="Have I verified reference clients independently of the company?">Da li sam proverio referentne klijente nezavisno od kompanije?</li>
+        <li data-sr="Da li mi je kompanija preporucena od nekoga ko je vec ulozio?" data-en="Was the company recommended to me by someone who has already invested?">Da li mi je kompanija preporucena od nekoga ko je vec ulozio?</li>
+        <li data-sr="Da li obecani prinos nadmasuje trzisni prosek bez objasnjenja?" data-en="Does the promised return exceed market average without explanation?">Da li obecani prinos nadmasuje trzisni prosek bez objasnjenja?</li>
+        <li data-sr="Da li mi je data pisana dokumentacija pre potpisivanja?" data-en="Was I given written documentation before signing?">Da li mi je data pisana dokumentacija pre potpisivanja?</li>
+      </ul>
+    </section>
+
+    <!-- AKO SUMNJA KRENE -->
+    <section class="content-section">
+      <h2 data-sr="Ako sumnja krene: redosled poteza" data-en="If suspicion starts: action order">Ako sumnja krene: redosled poteza</h2>
+      <ol class="steps">
+        <li data-sr="Prestani sa daljim ulaganjem odmah." data-en="Stop investing immediately.">Prestani sa daljim ulaganjem odmah.</li>
+        <li data-sr="Trazi povlacenje svog novca i dokumentuj svaki odgovor ili odbijanje." data-en="Request withdrawal of your money and document every response or refusal.">Trazi povlacenje svog novca i dokumentuj svaki odgovor ili odbijanje.</li>
+        <li data-sr="Dokumentuj sve: ugovore, imejlove, potvrde i komunikacije." data-en="Document everything: contracts, emails, confirmations, and communications.">Dokumentuj sve: ugovore, imejlove, potvrde i komunikacije.</li>
+        <li data-sr="Prijavi sumnju finansijskom regulatoru i policiji." data-en="Report your suspicion to the financial regulator and police.">Prijavi sumnju finansijskom regulatoru i policiji.</li>
+        <li data-sr="Konsultuj advokata o mogucnostima povrata." data-en="Consult a lawyer about recovery options.">Konsultuj advokata o mogucnostima povrata.</li>
+        <li data-sr="Upozori ljude koje si preporucio kompaniji da je situacija sumnjiva." data-en="Warn people you referred to the company that the situation is suspicious.">Upozori ljude koje si preporucio kompaniji da je situacija sumnjiva.</li>
+      </ol>
+    </section>
+
+    <!-- AKO POMAŽES NEKOME -->
+    <section class="content-section">
+      <h2 data-sr="Ako pokušavaš da pomogneš nekome" data-en="If you are trying to help someone">Ako pokusavas da pomognes nekome</h2>
+      <ul class="bullets">
+        <li data-sr="Da li su prisustvovali seminaru i odmah platili pod pritiskom?" data-en="Did they attend the seminar and immediately pay under pressure?">Da li su prisustvovali seminaru i odmah platili pod pritiskom?</li>
+        <li data-sr="Da li dobijaju redovne prinose koji ih drze uverenim da je ulaganje legitimno?" data-en="Are they receiving regular returns that keep them convinced the investment is legitimate?">Da li dobijaju redovne prinose koji ih drze uverenim da je ulaganje legitimno?</li>
+        <li data-sr="Da li osecaju pritisak da regrutuju prijatelje u isti program?" data-en="Do they feel pressure to recruit friends into the same program?">Da li osecaju pritisak da regrutuju prijatelje u isti program?</li>
+        <li data-sr="Da li su proveravali kompaniju kod regulatora ili advokata?" data-en="Have they checked the company with the regulator or a lawyer?">Da li su proveravali kompaniju kod regulatora ili advokata?</li>
+      </ul>
+      <p data-sr="Recenice koje rade:" data-en="Sentences that help:">Recenice koje rade:</p>
+      <ul class="bullets">
+        <li data-sr="Hajde da proverimo da li je kompanija registrovana kod regulatora — traže pet minuta." data-en="Let us check whether the company is registered with the regulator — it takes five minutes.">Hajde da proverimo da li je kompanija registrovana kod regulatora — traže pet minuta.</li>
+        <li data-sr="Prinos koji ne varira s trzicem je matematicki sumnjiv." data-en="Returns that do not vary with the market are mathematically suspicious.">Prinos koji ne varira s trzicem je matematicki sumnjiv.</li>
+        <li data-sr="Pokusaj da povuces deo novca — ako odbijaju ili odlazu, to je jasan znak." data-en="Try to withdraw part of the money — if they refuse or delay, that is a clear sign.">Pokusaj da povuces deo novca — ako odbijaju ili odlazu, to je jasan znak.</li>
+        <li data-sr="Nije kasno da prestanes da ulazes — gubitak postoji, ali može biti manji." data-en="It is not too late to stop investing — the loss exists, but it can be smaller.">Nije kasno da prestanes da ulazes — gubitak postoji, ali može biti manji.</li>
+      </ul>
+    </section>
+
+    <!-- POVEZANE PREVARE -->
+    <section class="content-section">
+      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
+      <ul class="bullets">
+        <li><a href="ponzi-scheme.html" data-sr="Ponzi sema — pasivna investiciona prevara" data-en="Ponzi scheme — passive investment fraud">Ponzi sema — pasivna investiciona prevara</a></li>
+        <li><a href="pyramid-scheme.html" data-sr="Piramidalna sema — regrutovanje novih clažna" data-en="Pyramid scheme — recruitment of new members">Piramidalna sema — regrutovanje novih clažna</a></li>
+        <li><a href="crypto-scam.html" data-sr="Kripto investicione prevare" data-en="Crypto investment scams">Kripto investicione prevare</a></li>
+        <li><a href="advance-fee-fraud.html" data-sr="Prevara avansnom naknadom" data-en="Advance fee fraud">Prevara avansnom naknadom</a></li>
+        <li><a href="pig-butchering.html" data-sr="Pig butchering — kripto investicione prevare dugog ciklusa" data-en="Pig butchering — long-cycle crypto investment scams">Pig butchering — kripto investicione prevare dugog ciklusa</a></li>
+      </ul>
+    </section>
+
+<!-- 6) IZVORI -->
     <section class="card sources" id="sources">
       <h2 data-sr="Izvori" data-en="Sources">Izvori</h2>
       <ul>

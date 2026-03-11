@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Prevara s naplatom lažnih faktura: Lažna faktura za nenaručenu uslugu → automatska uplata → ponovljene fakture → gubitak"
+    data-sr="Prevara s naplatom lažnih faktura: Lažna faktura za nenaručenu uslugu → automatska uplata → ponovljene fakture → gubitak"
+    data-en="Invoice collection scam: Fake invoice for unordered service → automatic payment → repeated invoices → loss"
+  />
+  <title data-sr="Prevara s naplatom lažnih faktura" data-en="Invoice collection scam">Prevara s naplatom lažnih faktura</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="ui.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="invoice-collection-scam.content.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="cases.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+        <div class="brand">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span class="brand-name">Anti-scam</span>
+        </div>
+        <nav aria-label="Glavna navigacija">
+          <ul class="top-nav">
+            <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+            <li><a href="prevare.html" aria-current="page" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          <li><a href="protecting-elderly.html" data-sr="Zaštita" data-en="Protection">Zaštita</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="hero compact">
+        <h1 data-sr="Prevara s naplatom lažnih faktura" data-en="Invoice collection scam">Prevara s naplatom lažnih faktura</h1>
+        <p class="muted hero-sub"
+           data-sr="Lažna faktura za nenaručenu uslugu → automatska uplata → ponovljene fakture → gubitak"
+           data-en="Fake invoice for unordered service → automatic payment → repeated invoices → loss">Lažna faktura za nenaručenu uslugu → automatska uplata → ponovljene fakture → gubitak</p>
+        <div id="scam-meta" data-scam="invoice-collection-scam"></div>
+        <div class="callout"
+             data-sr="<strong>Prag:</strong> Svaka faktura za uslugu koja nije naručena u pisanom obliku mora biti verifikovana pre plaćanja — bez obzira na iznos ili ton urgentnosti."
+             data-en="<strong>Threshold:</strong> Every invoice for a service not ordered in writing must be verified before payment — regardless of amount or urgency tone.">
+          <strong>Prag:</strong> Svaka faktura za uslugu koja nije naručena u pisanom obliku mora biti verifikovana pre plaćanja — bez obzira na iznos ili ton urgentnosti.
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    <div data-overview></div>
+    <div data-steps></div>
+    <div data-longform></div>
+    <div data-related></div>
+    <div data-sources></div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <p class="muted" data-sr="Anti-scam projekat — edukacija i analiza" data-en="Anti-scam project — education and analysis">
+        Anti-scam projekat — edukacija i analiza
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

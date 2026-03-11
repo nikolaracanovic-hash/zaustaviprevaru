@@ -15,15 +15,15 @@ window.SCAM_CONTENT["marketplace-scam"] = {
       </p>
 
       <p
-        data-sr="Ovaj tip prevare radi brzo jer koristi naviku: ljudi su već navikli na poruke, kurire, linkove, brze dogovore. Napadač skraćuje prostor za proveru kroz tempo, zatim ubacuje proceduralni jezik (kurir, osiguranje, potvrda), pa gura prag. Kad prag prođe, pojavljuje se serija zahteva, često uz „podršku“ i kratke rokove. U istoj tački prevara lako prelazi u fišing, SMS prevara, lažne pozive, uplata unapred obrazac i povraćaj novca talas."
+        data-sr="Ovaj tip prevare radi brzo jer koristi naviku: ljudi su već navikli na poruke, kurire, linkove i brze dogovore. Napadač skraćuje prostor za proveru kroz tempo, zatim ubacuje proceduralni jezik (kurir, osiguranje, potvrda), pa gura prag. Kad prag prođe, pojavljuje se serija zahteva, često uz „podršku“ i kratke rokove. U istoj tački prevara lako prelazi u fišing, SMS prevaru, lažne pozive, obrazac uplate unapred i talas prevare povraćaja."
         data-en="This scam moves fast because it exploits habit: people are used to chats, couriers, links, quick deals. The attacker compresses verification time through pace, injects procedural language (courier, insurance, confirmation), then pushes the threshold. After the threshold, a series of demands follows, often with “support” and short deadlines. From the same point it can branch into phishing, smishing, fake calls, advance-fee patterns, and recovery waves.">
-        Ovaj tip prevare radi brzo jer koristi naviku: ljudi su već navikli na poruke, kurire, linkove, brze dogovore. Napadač skraćuje prostor za proveru kroz tempo, zatim ubacuje proceduralni jezik (kurir, osiguranje, potvrda), pa gura prag. Kad prag prođe, pojavljuje se serija zahteva, često uz „podršku“ i kratke rokove. U istoj tački prevara lako prelazi u fišing, smišing, lažne pozive, advance-fee obrazac i recovery talas.
+        Ovaj tip prevare radi brzo jer koristi naviku: ljudi su već navikli na poruke, kurire, linkove i brze dogovore. Napadač skraćuje prostor za proveru kroz tempo, zatim ubacuje proceduralni jezik (kurir, osiguranje, potvrda), pa gura prag. Kad prag prođe, pojavljuje se serija zahteva, često uz „podršku“ i kratke rokove. U istoj tački prevara lako prelazi u fišing, smišing, lažne pozive, obrazac uplate unapred i talas prevare povraćaja.
       </p>
 
       <div class="callout"
-        data-sr="<strong>Model:</strong> oglas → kontakt → tempo → procedura → prag → serija zahteva → mutacije priče → povraćaj novca talas"
-        data-en="<strong>Model:</strong> listing → contact → pace → procedure → threshold → repeated demands → story mutations → recovery wave">
-        <strong>Model:</strong> oglas → kontakt → tempo → procedura → prag → serija zahteva → mutacije priče → recovery talas
+        data-sr="<strong>Model:</strong> oglas → kontakt → tempo → procedura → prag → serija zahteva → mutacije priče → talas prevare povraćaja."
+        data-en="<strong>Model:</strong> listing → contact → pace → procedure → threshold → repeated demands → story mutations → recovery wave.">
+        <strong>Model:</strong> oglas → kontakt → tempo → procedura → prag → serija zahteva → mutacije priče → talas prevare povraćaja.
       </div>
 
       <div class="callout"
@@ -54,7 +54,7 @@ window.SCAM_CONTENT["marketplace-scam"] = {
           <div class="label" data-sr="Tok A — Fokus na prodavca" data-en="Flow A — Targeting the seller">Tok A — Fokus na prodavca</div>
           <ul class="bullets">
             <li data-sr="„Kupac“ nastupa odlučno i brzo, često bez pregovora." data-en="The “buyer” acts decisive and fast, often without bargaining.">„Kupac“ nastupa odlučno i brzo, često bez pregovora.</li>
-            <li data-sr="Ubaci kurira, osiguranje, „sigurnu uplatu“, ili „platformsku potvrdu“." data-en="They introduce courier, insurance, “secure payment,” or “platform confirmation.”">Ubaci kurira, osiguranje, „sigurnu uplatu“, ili „platformsku potvrdu“.</li>
+            <li data-sr="Ubaci kurira, osiguranje, „sigurnu uplatu“, ili „platformsku potvrdu." data-en="They introduce courier, insurance, “secure payment,” or “platform confirmation.”">Ubaci kurira, osiguranje, „sigurnu uplatu“, ili „platformsku potvrdu“.</li>
             <li data-sr="Gura link ili formu, traži OTP, ili traži slanje robe pre priliva." data-en="They push a link/form, ask for OTP, or ask you to ship before funds arrive.">Gura link ili formu, traži OTP, ili traži slanje robe pre priliva.</li>
           </ul>
           <div class="branch"
@@ -67,7 +67,7 @@ window.SCAM_CONTENT["marketplace-scam"] = {
         <div class="phase">
           <div class="label" data-sr="Tok B — Fokus na kupca" data-en="Flow B — Targeting the buyer">Tok B — Fokus na kupca</div>
           <ul class="bullets">
-            <li data-sr="„Prodavac“ traži kaparu, rezervaciju, ili „trošak dostave“." data-en="The “seller” asks for a deposit, reservation fee, or “delivery cost.”">„Prodavac“ traži kaparu, rezervaciju, ili „trošak dostave“.</li>
+            <li data-sr="„Prodavac“ traži kaparu, rezervaciju, ili „trošak dostave." data-en="The “seller” asks for a deposit, reservation fee, or “delivery cost.”">„Prodavac“ traži kaparu, rezervaciju, ili „trošak dostave“.</li>
             <li data-sr="Forsira privatne kanale i brzo zatvaranje dogovora." data-en="They push private channels and quick closure.">Forsira privatne kanale i brzo zatvaranje dogovora.</li>
             <li data-sr="Posle prve uplate stižu dodatni „troškovi“ kroz uplata unapred obrazac." data-en="After the first payment, extra “fees” arrive via an obrazac gde tražiš novu uplatu.">Posle prve uplate stižu dodatni „troškovi“ kroz advance-fee obrazac.</li>
           </ul>
@@ -86,8 +86,8 @@ window.SCAM_CONTENT["marketplace-scam"] = {
 
       <p class="muted"
         data-sr="U marketplace okruženju prevara radi brzo. Kanon se ponavlja: tempo → procedura → prag → serija zahteva → mutacije → povraćaj novca talas. Faze ispod su česte u Srbiji i regionu."
-        data-en="In marketplaces, scams move fast. The canon repeats: pace → procedure → threshold → repeated demands → mutations → recovery wave. The phases below are common in Serbia and the region.">
-        U marketplace okruženju prevara radi brzo. Kanon se ponavlja: tempo → procedura → prag → serija zahteva → mutacije → recovery talas. Faze ispod su česte u Srbiji i regionu.
+        data-en="In marketplaces, scams more fast. The canon repeats: pace → procedure → threshold → repeated demands → mutations → recovery wave. The phases below are common in Serbia and the region.">
+        U marketplace okruženju prevara radi brzo. Kanon se ponavlja: tempo → procedura → prag → serija zahteva → mutacije → talas prevare povraćaja. Faze ispod su česte u Srbiji i regionu.
       </p>
 
       <!-- FAZA 1 -->
@@ -98,27 +98,27 @@ window.SCAM_CONTENT["marketplace-scam"] = {
 
         <p
           data-sr="Poruke deluju normalno: cena, lokacija, stanje predmeta. Test je u brzini i dubini pitanja. U ovoj fazi napadač procenjuje koliko brzo prelaziš na sledeći korak i koliko kontrole ostaje kod tebe."
-          data-en="Messages look normal: price, location, condition. The test is pace and the depth of questions. In this phase the attacker measures how quickly you move to the next step and how much control stays with you."
+          data-en="Messages look normal: price, location, condition. The test is pace and the depth of questions. In this phase the attacker measures how quickly you more to the next step and how much control stays with you."
         >Poruke deluju normalno: cena, lokacija, stanje predmeta. Test je u brzini i dubini pitanja. U ovoj fazi napadač procenjuje koliko brzo prelaziš na sledeći korak i koliko kontrole ostaje kod tebe.</p>
 
         <div class="grid-2">
           <div class="phase">
             <div class="label" data-sr="Signali u porukama" data-en="Signals in messages">Signali u porukama</div>
             <ul class="bullets">
-              <li data-sr="minimalno pitanja o predmetu, maksimum fokusa na brz završetak" data-en="minimal questions about the item, maximum focus on fast closure">minimalno pitanja o predmetu, maksimum fokusa na brz završetak</li>
-              <li data-sr="izbegavanje detalja (model, stanje, dodatne slike)" data-en="avoiding details (model, condition, extra photos)">izbegavanje detalja (model, stanje, dodatne slike)</li>
-              <li data-sr="insistiranje na privatnom broju i privatnoj aplikaciji" data-en="insistence on a private number/app">insistiranje na privatnom broju i privatnoj aplikaciji</li>
-              <li data-sr="neprirodna spremnost na dogovor bez pregovora" data-en="unnatural willingness to agree without bargaining">neprirodna spremnost na dogovor bez pregovora</li>
+              <li data-sr="minimalno pitanja o predmetu, maksimum fokusa na brz završetak." data-en="minimal questions about the item, maximum focus on fast closure.">minimalno pitanja o predmetu, maksimum fokusa na brz završetak.</li>
+              <li data-sr="izbegavanje detalja (model, stanje, dodatne slike)." data-en="avoiding details (model, condition, extra photos).">izbegavanje detalja (model, stanje, dodatne slike).</li>
+              <li data-sr="insistiranje na privatnom broju i privatnoj aplikaciji." data-en="insistence on a private number/app.">insistiranje na privatnom broju i privatnoj aplikaciji.</li>
+              <li data-sr="neprirodna spremnost na dogovor bez pregovora." data-en="unnatural willingness to agree without bargaining.">neprirodna spremnost na dogovor bez pregovora.</li>
             </ul>
           </div>
 
           <div class="phase">
             <div class="label" data-sr="Šta napadač meri" data-en="What the attacker measures">Šta napadač meri</div>
             <ul class="bullets">
-              <li data-sr="koliko brzo odgovaraš" data-en="how fast you respond">koliko brzo odgovaraš</li>
-              <li data-sr="koliko pitanja postavljaš" data-en="how many questions you ask">koliko pitanja postavljaš</li>
-              <li data-sr="da li prihvataš prelazak van platforme" data-en="whether you accept moving off-platform">da li prihvataš prelazak van platforme</li>
-              <li data-sr="da li tražiš dokaz (video, dodatne slike, uživo)" data-en="whether you demand proof (video, more photos, in-person)">da li tražiš dokaz (video, dodatne slike, uživo)</li>
+              <li data-sr="koliko brzo odgovaraš." data-en="how fast you respond.">koliko brzo odgovaraš.</li>
+              <li data-sr="koliko pitanja postavljaš." data-en="how many questions you ask.">koliko pitanja postavljaš.</li>
+              <li data-sr="da li prihvataš prelazak van platforme." data-en="whether you accept moving off-platform.">da li prihvataš prelazak van platforme.</li>
+              <li data-sr="da li tražiš dokaz (video, dodatne slike, uživo)." data-en="whether you demand proof (video, more photos, in-person).">da li tražiš dokaz (video, dodatne slike, uživo).</li>
             </ul>
           </div>
         </div>
@@ -131,7 +131,7 @@ window.SCAM_CONTENT["marketplace-scam"] = {
 
       <!-- FAZA 2 -->
       <article class="phase">
-        <h3 class="phase-title" data-sr="Faza 2 — Tempo i „rutina“" data-en="Phase 2 — Pace and routine">
+        <h3 class="phase-title" data-sr="Faza 2 — Tempo i „rutina." data-en="Phase 2 — Pace and routine">
           Faza 2 — Tempo i „rutina“
         </h3>
 
@@ -144,18 +144,18 @@ window.SCAM_CONTENT["marketplace-scam"] = {
           <div class="phase">
             <div class="label" data-sr="Kako izgleda tempo" data-en="How pace looks">Kako izgleda tempo</div>
             <ul class="bullets">
-              <li data-sr="kratke rečenice, kratki rokovi" data-en="short sentences, short deadlines">kratke rečenice, kratki rokovi</li>
-              <li data-sr="„pod hitno“, „kurir čeka“, „završimo sada“" data-en="“urgent”, “courier is waiting”, “let’s finish now”">„pod hitno“, „kurir čeka“, „završimo sada“</li>
-              <li data-sr="izbegavanje pauza i pitanja" data-en="avoiding pauses and questions">izbegavanje pauza i pitanja</li>
+              <li data-sr="kratke rečenice, kratki rokovi." data-en="short sentences, short deadlines.">kratke rečenice, kratki rokovi.</li>
+              <li data-sr="„pod hitno“, „kurir čeka“, „završimo sada." data-en="“urgent”, “courier is waiting”, “let’s finish now”">„pod hitno“, „kurir čeka“, „završimo sada“.</li>
+              <li data-sr="izbegavanje pauza i pitanja." data-en="avoiding pauses and questions.">izbegavanje pauza i pitanja.</li>
             </ul>
           </div>
 
           <div class="phase">
             <div class="label" data-sr="Zašto radi" data-en="Why it works">Zašto radi</div>
             <ul class="bullets">
-              <li data-sr="meta razmišlja u koracima, ne u proveri" data-en="the target thinks in steps, not verification">meta razmišlja u koracima, ne u proveri</li>
-              <li data-sr="žurba smanjuje proveru URL-a" data-en="rush reduces URL checking">žurba smanjuje proveru URL-a</li>
-              <li data-sr="glasovni poziv dodaje autoritet" data-en="a call adds authority">glasovni poziv dodaje autoritet</li>
+              <li data-sr="meta razmišlja u koracima, ne u proveri." data-en="the target thinks in steps, not verification.">meta razmišlja u koracima, ne u proveri.</li>
+              <li data-sr="žurba smanjuje proveru URL-a." data-en="rush reduces URL checking.">žurba smanjuje proveru URL-a.</li>
+              <li data-sr="glasovni poziv dodaje autoritet." data-en="a call adds authority.">glasovni poziv dodaje autoritet.</li>
             </ul>
           </div>
         </div>
@@ -163,10 +163,7 @@ window.SCAM_CONTENT["marketplace-scam"] = {
         <div class="branch">
           <p><strong data-sr="Evolucija u ovoj fazi" data-en="Evolution at this phase">Evolucija u ovoj fazi</strong></p>
           <ul class="bullets">
-            <li
-              data-sr="<strong>Lažni poziv:</strong> poziv preuzima tempo i vodi korake uživo. (Povezano: <a href='fake-call-scam.html'>Lažni pozivi</a>)"
-              data-en="<strong>Fake call:</strong> a call takes pace control and guides steps live. (Related: <a href='fake-call-scam.html'>Fake calls</a>)"
-            ><strong>Lažni poziv:</strong> poziv preuzima tempo i vodi korake uživo. (Povezano: <a href="fake-call-scam.html">Lažni pozivi</a>)</li>
+            <li><strong>Lažni poziv:</strong> poziv preuzima tempo i vodi korake uživo. (Povezano: <a href="fake-call-scam.html">Lažni pozivi</a>).</li>
           </ul>
         </div>
 
@@ -178,7 +175,7 @@ window.SCAM_CONTENT["marketplace-scam"] = {
 
       <!-- FAZA 3 -->
       <article class="phase warn">
-        <h3 class="phase-title" data-sr="Faza 3 — Procedura (kurir, osiguranje, potvrda)" data-en="Phase 3 — Procedure (courier, insurance, confirmation)">
+        <h3 class="phase-title" data-sr="Faza 3 — Procedura (kurir, osiguranje, potvrda)." data-en="Phase 3 — Procedure (courier, insurance, confirmation).">
           Faza 3 — Procedura (kurir, osiguranje, potvrda)
         </h3>
 
@@ -191,18 +188,18 @@ window.SCAM_CONTENT["marketplace-scam"] = {
           <div class="phase">
             <div class="label" data-sr="Tehnički signali" data-en="Technical signals">Tehnički signali</div>
             <ul class="bullets">
-              <li data-sr="domen liči na brend uz sitnu razliku (slovo, crtica, nastavak)" data-en="domain mimics a brand with a tiny difference (letter, hyphen, TLD)">domen liči na brend uz sitnu razliku (slovo, crtica, nastavak)</li>
-              <li data-sr="kratki link ili redirekcije koje sakrivaju pravu adresu" data-en="short links or redirects that hide the real address">kratki link ili redirekcije koje sakrivaju pravu adresu</li>
-              <li data-sr="forma traži karticu, CVV, datum, zatim OTP" data-en="form asks for card, CVV, expiry, then OTP">forma traži karticu, CVV, datum, zatim OTP</li>
+              <li data-sr="domen liči na brend uz sitnu razliku (slovo, crtica, nastavak)." data-en="domain mimics a brand with a tiny difference (letter, hyphen, TLD).">domen liči na brend uz sitnu razliku (slovo, crtica, nastavak).</li>
+              <li data-sr="kratki link ili redirekcije koje sakrivaju pravu adresu." data-en="short links or redirects that hide the real address.">kratki link ili redirekcije koje sakrivaju pravu adresu.</li>
+              <li data-sr="forma traži karticu, CVV, datum, zatim OTP." data-en="form asks for card, CVV, expiry, then OTP.">forma traži karticu, CVV, datum, zatim OTP.</li>
             </ul>
           </div>
 
           <div class="phase">
             <div class="label" data-sr="Operativni signali" data-en="Operational signals">Operativni signali</div>
             <ul class="bullets">
-              <li data-sr="rok: „kurir čeka“, „danas“, „sad“" data-en="deadline: “courier is waiting”, “today”, “now”">rok: „kurir čeka“, „danas“, „sad“</li>
-              <li data-sr="odgovornost se prebacuje na „sistem“" data-en="responsibility is shifted to “the system”">odgovornost se prebacuje na „sistem“</li>
-              <li data-sr="izbegavanje pitanja o logici toka (zašto kartica za prijem novca)" data-en="avoiding the logic question (why a card to receive money)">izbegavanje pitanja o logici toka (zašto kartica za prijem novca)</li>
+              <li data-sr="rok: „kurir čeka“, „danas“, „sad." data-en="deadline: “courier is waiting”, “today”, “now”">rok: „kurir čeka“, „danas“, „sad“.</li>
+              <li data-sr="odgovornost se prebacuje na „sistem." data-en="responsibility is shifted to “the system”">odgovornost se prebacuje na „sistem“.</li>
+              <li data-sr="izbegavanje pitanja o logici toka (zašto kartica za prijem novca)." data-en="avoiding the logic question (why a card to receive money).">izbegavanje pitanja o logici toka (zašto kartica za prijem novca).</li>
             </ul>
           </div>
         </div>
@@ -210,15 +207,9 @@ window.SCAM_CONTENT["marketplace-scam"] = {
         <div class="branch">
           <p><strong data-sr="Grananje u ovoj fazi" data-en="Branching in this phase">Grananje u ovoj fazi</strong></p>
           <ul class="bullets">
-            <li
-              data-sr="<strong>fišing:</strong> forma prikuplja karticu ili kredencijale. (Povezano: <a href='phishing.html'>fišing</a>)"
-              data-en="<strong>Fišing:</strong> the form captures card or credentials. (Related: <a href='phishing.html'>Phishing</a>)"
-            ><strong>Fišing:</strong> forma prikuplja karticu ili kredencijale. (Povezano: <a href="phishing.html">Phishing</a>)</li>
+            <li><strong>Fišing:</strong> forma prikuplja karticu ili kredencijale. (Povezano: <a href="phishing.html">Fišing</a>).</li>
 
-            <li
-              data-sr="<strong>SMS prevara:</strong> ista forma stiže kroz SMS sa kratkim linkom. (Povezano: <a href='smishing.html'>SMS prevara</a>)"
-              data-en="<strong>Smišing:</strong> the same form arrives via SMS with a short link. (Related: <a href='smishing.html'>Smishing</a>)"
-            ><strong>SMS prevara:</strong> ista forma stiže kroz SMS sa kratkim linkom. (Povezano: <a href="smishing.html">Smishing</a>)</li>
+            <li><strong>SMS prevara:</strong> ista forma stiže kroz SMS sa kratkim linkom. (Povezano: <a href="smishing.html">Smišing</a>).</li>
           </ul>
         </div>
 
@@ -243,19 +234,19 @@ window.SCAM_CONTENT["marketplace-scam"] = {
           <div class="phase">
             <div class="label" data-sr="Zašto je prag presudan" data-en="Why the threshold is decisive">Zašto je prag presudan</div>
             <ul class="bullets">
-              <li data-sr="posle unosa kartice/OTP nastaje realna naplata" data-en="after card/OTP entry, real charging happens">posle unosa kartice/OTP nastaje realna naplata</li>
-              <li data-sr="posle slanja robe gubitak postaje fizički" data-en="after shipping, the loss becomes physical">posle slanja robe gubitak postaje fizički</li>
-              <li data-sr="posle kapare meta brani prethodnu odluku" data-en="after a deposit, the target defends the earlier decision">posle kapare meta brani prethodnu odluku</li>
-              <li data-sr="posle deljenja koda nalog može biti preuzet" data-en="after code sharing, the account can be taken over">posle deljenja koda nalog može biti preuzet</li>
+              <li data-sr="posle unosa kartice/OTP nastaje realna naplata." data-en="after card/OTP entry, real charging happens.">posle unosa kartice/OTP nastaje realna naplata.</li>
+              <li data-sr="posle slanja robe gubitak postaje fizički." data-en="after shipping, the loss becomes physical.">posle slanja robe gubitak postaje fizički.</li>
+              <li data-sr="posle kapare meta brani prethodnu odluku." data-en="after a deposit, the target defends the earlier decision.">posle kapare meta brani prethodnu odluku.</li>
+              <li data-sr="posle deljenja koda nalog može biti preuzet." data-en="after code sharing, the account can be taken over.">posle deljenja koda nalog može biti preuzet.</li>
             </ul>
           </div>
 
           <div class="phase">
             <div class="label" data-sr="Kako napadač održava tok" data-en="How the attacker maintains the flow">Kako napadač održava tok</div>
             <ul class="bullets">
-              <li data-sr="uvodi „podršku“ i proceduralni ton" data-en="introduces “support” and procedural tone">uvodi „podršku“ i proceduralni ton</li>
-              <li data-sr="ubacuje rok i posledicu" data-en="injects deadlines and consequences">ubacuje rok i posledicu</li>
-              <li data-sr="menja priču da zadrži fokus na sledećem koraku" data-en="changes the story to keep focus on the next step">menja priču da zadrži fokus na sledećem koraku</li>
+              <li data-sr="uvodi „podršku“ i proceduralni ton." data-en="introduces “support” and procedural tone.">uvodi „podršku“ i proceduralni ton.</li>
+              <li data-sr="ubacuje rok i posledicu." data-en="injects deadlines and consequences.">ubacuje rok i posledicu.</li>
+              <li data-sr="menja priču da zadrži fokus na sledećem koraku." data-en="changes the story to keep focus on the next step.">menja priču da zadrži fokus na sledećem koraku.</li>
             </ul>
           </div>
         </div>
@@ -268,7 +259,7 @@ window.SCAM_CONTENT["marketplace-scam"] = {
 
       <!-- FAZA 5 -->
       <article class="phase bad">
-        <h3 class="phase-title" data-sr="Faza 5 — Serija zahteva (uplata unapred obrazac)" data-en="Phase 5 — Repeated demands (obrazac gde tražiš novu uplatu)">
+        <h3 class="phase-title" data-sr="Faza 5 — Serija zahteva (uplata unapred obrazac)." data-en="Phase 5 — Repeated demands (obrazac gde tražiš novu uplatu).">
           Faza 5 — Serija zahteva (advance-fee obrazac)
         </h3>
 
@@ -281,19 +272,19 @@ window.SCAM_CONTENT["marketplace-scam"] = {
           <div class="phase">
             <div class="label" data-sr="Kako se serija gradi" data-en="How the series is built">Kako se serija gradi</div>
             <ul class="bullets">
-              <li data-sr="mali iznos kao „sitna procedura“" data-en="a small amount as “minor procedure”">mali iznos kao „sitna procedura“</li>
-              <li data-sr="srednji iznos kao „osiguranje“ ili „depozit“" data-en="a mid amount as “insurance” or “deposit”">srednji iznos kao „osiguranje“ ili „depozit“</li>
-              <li data-sr="veći iznos kao „final step“" data-en="a larger amount as “final step”">veći iznos kao „final step“</li>
-              <li data-sr="ponavljanje „poslednjeg koraka“ pod novim nazivom" data-en="repeating the “final step” under a new label">ponavljanje „poslednjeg koraka“ pod novim nazivom</li>
+              <li data-sr="mali iznos kao „sitna procedura." data-en="a small amount as “minor procedure”">mali iznos kao „sitna procedura“.</li>
+              <li data-sr="srednji iznos kao „osiguranje“ ili „depozit." data-en="a mid amount as “insurance” or “deposit”">srednji iznos kao „osiguranje“ ili „depozit“.</li>
+              <li data-sr="veći iznos kao „final step." data-en="a larger amount as “final step”">veći iznos kao „final step“.</li>
+              <li data-sr="ponavljanje „poslednjeg koraka“ pod novim nazivom." data-en="repeating the “final step” under a new label.">ponavljanje „poslednjeg koraka“ pod novim nazivom.</li>
             </ul>
           </div>
 
           <div class="phase">
             <div class="label" data-sr="Kako se pritisak povećava" data-en="How pressure escalates">Kako se pritisak povećava</div>
             <ul class="bullets">
-              <li data-sr="rok: „kurir čeka“, „sistem zatvara slučaj“" data-en="deadline: “courier is waiting”, “case will be closed”">rok: „kurir čeka“, „sistem zatvara slučaj“</li>
-              <li data-sr="ton postaje tvrđi kada meta uspori" data-en="tone hardens when the target slows down">ton postaje tvrđi kada meta uspori</li>
-              <li data-sr="uvodi se poziv radi vođenja" data-en="a call is introduced for guidance">uvodi se poziv radi vođenja</li>
+              <li data-sr="rok: „kurir čeka“, „sistem zatvara slučaj." data-en="deadline: “courier is waiting”, “case will be closed”">rok: „kurir čeka“, „sistem zatvara slučaj“.</li>
+              <li data-sr="ton postaje tvrđi kada meta uspori." data-en="tone hardens when the target slows down.">ton postaje tvrđi kada meta uspori.</li>
+              <li data-sr="uvodi se poziv radi vođenja." data-en="a call is introduced for guidance.">uvodi se poziv radi vođenja.</li>
             </ul>
           </div>
         </div>
@@ -301,27 +292,18 @@ window.SCAM_CONTENT["marketplace-scam"] = {
         <div class="branch">
           <p><strong data-sr="Grananja iz ove faze" data-en="Branching from this phase">Grananja iz ove faze</strong></p>
           <ul class="bullets">
-            <li
-              data-sr="<strong>Uplata unapred čvor:</strong> serijske takse postaju samostalna šema. (Povezano: <a href='advance-fee-fraud.html'>Uplata unapred</a>)"
-              data-en="<strong>Advance-fee node:</strong> repeated fees become a standalone scheme. (Related: <a href='advance-fee-fraud.html'>Advance-fee</a>)"
-            ><strong>Advance-fee čvor:</strong> serijske takse postaju samostalna šema. (Povezano: <a href="advance-fee-fraud.html">Advance-fee</a>)</li>
+            <li><strong>Advance-fee čvor:</strong> serijske takse postaju samostalna šema. (Povezano: <a href="advance-fee-fraud.html">Uplata unapred</a>).</li>
 
-            <li
-              data-sr="<strong>Lažni pozivi:</strong> „podrška“ vodi korake uživo. (Povezano: <a href='fake-call-scam.html'>Lažni pozivi</a>)"
-              data-en="<strong>Fake calls:</strong> “support” guides steps live. (Related: <a href='fake-call-scam.html'>Fake calls</a>)"
-            ><strong>Lažni pozivi:</strong> „podrška“ vodi korake uživo. (Povezano: <a href="fake-call-scam.html">Lažni pozivi</a>)</li>
+            <li><strong>Lažni pozivi:</strong> „podrška“ vodi korake uživo. (Povezano: <a href="fake-call-scam.html">Lažni pozivi</a>).</li>
 
-            <li
-              data-sr="<strong>Povraćaj novca:</strong> posle gubitka dolazi „povraćaj“ uz naknadu. (Povezano: <a href='recovery-scam.html'>Povraćaj novca</a>)"
-              data-en="<strong>Recovery:</strong> after loss, a “refund” appears for a fee. (Related: <a href='recovery-scam.html'>Recovery</a>)"
-            ><strong>Recovery:</strong> posle gubitka dolazi „refund“ uz naknadu. (Povezano: <a href="recovery-scam.html">Recovery</a>)</li>
+            <li><strong>Recovery:</strong> posle gubitka dolazi „refund“ uz naknadu. (Povezano: <a href="recovery-scam.html">Prevara povraćaja novca</a>).</li>
           </ul>
         </div>
       </article>
 
       <!-- FAZA 6 -->
       <article class="phase warn">
-        <h3 class="phase-title" data-sr="Faza 6 — Autoritet (podrška, pozivi, dokumenti)" data-en="Phase 6 — Authority (support, calls, documents)">
+        <h3 class="phase-title" data-sr="Faza 6 — Autoritet (podrška, pozivi, dokumenti)." data-en="Phase 6 — Authority (support, calls, documents).">
           Faza 6 — Autoritet (podrška, pozivi, dokumenti)
         </h3>
 
@@ -333,10 +315,7 @@ window.SCAM_CONTENT["marketplace-scam"] = {
         <div class="branch">
           <p><strong data-sr="Tipično grananje" data-en="Typical branching">Tipično grananje</strong></p>
           <ul class="bullets">
-            <li
-              data-sr="<strong>Fake-call:</strong> poziv preuzima tempo i traži kodove/korake. (Povezano: <a href='fake-call-scam.html'>Lažni pozivi</a>)"
-              data-en="<strong>Fake-call:</strong> a call takes over tempo and asks for codes/steps. (Related: <a href='fake-call-scam.html'>Fake calls</a>)"
-            ><strong>Fake-call:</strong> poziv preuzima tempo i traži kodove/korake. (Povezano: <a href="fake-call-scam.html">Lažni pozivi</a>)</li>
+            <li><strong>Fake-call:</strong> poziv preuzima tempo i traži kodove/korake. (Povezano: <a href="fake-call-scam.html">Lažni pozivi</a>).</li>
           </ul>
         </div>
       </article>
@@ -356,7 +335,7 @@ window.SCAM_CONTENT["marketplace-scam"] = {
       <!-- FAZA 8 -->
       <article class="phase warn">
         <h3 class="phase-title" data-sr="Faza 8 — Povraćaj novca talas" data-en="Phase 8 — Recovery wave">
-          Faza 8 — Recovery talas
+          Faza 8 — Talas prevare povraćaja
         </h3>
 
         <p
@@ -372,7 +351,7 @@ window.SCAM_CONTENT["marketplace-scam"] = {
         Podtipovi: kako izgledaju u praksi
       </h2>
 
-      <h3 data-sr="1) Lažni link „kurir/dostava/plaćanje“" data-en="1) Fake “courier/delivery/payment” link">
+      <h3 data-sr="1) Lažni link „kurir/dostava/plaćanje." data-en="1) Fake “courier/delivery/payment” link">
         1) Lažni link „kurir/dostava/plaćanje“
       </h3>
       <p
@@ -384,7 +363,7 @@ window.SCAM_CONTENT["marketplace-scam"] = {
         2) Lažni dokaz uplate
       </h3>
       <p
-        data-sr="Kod prodaje, napadač šalje screenshot „uplate“ i gura slanje robe. Izgovori su standardni: pending, vikend, međubankarski prenos, „kasni banka“."
+        data-sr="Kod prodaje, napadač šalje screenshot „uplate“ i gura slanje robe. Izgovori su standardni: pending, vikend, međubankarski prenos, „kasni banka."
         data-en="When selling, the attacker sends a payment screenshot and pushes you to ship. Excuses are standard: pending, weekend, interbank transfer, “bank delay”."
       >Kod prodaje, napadač šalje screenshot „uplate“ i gura slanje robe. Izgovori su standardni: pending, vikend, međubankarski prenos, „kasni banka“.</p>
 
@@ -413,7 +392,7 @@ window.SCAM_CONTENT["marketplace-scam"] = {
         5) Lažna logistika: kurir preuzima robu
       </h3>
       <p
-        data-sr="Napadač gradi sliku realne logistike: broj pošiljke, raspored, agent, osiguranje. Zatim ubacuje link ili traži dodatni korak u vezi sa „osiguranjem“."
+        data-sr="Napadač gradi sliku realne logistike: broj pošiljke, raspored, agent, osiguranje. Zatim ubacuje link ili traži dodatni korak u vezi sa „osiguranjem."
         data-en="They simulate logistics: tracking number, schedule, agent, insurance. Then they inject a link or demand an extra step tied to “insurance”."
       >Napadač gradi sliku realne logistike: broj pošiljke, raspored, agent, osiguranje. Zatim ubacuje link ili traži dodatni korak u vezi sa „osiguranjem“.</p>
     </section>
@@ -431,20 +410,20 @@ window.SCAM_CONTENT["marketplace-scam"] = {
 
       <div class="grid-2">
         <div class="phase warn">
-          <div class="label" data-sr="Prag: klik + forma (kartica/OTP)" data-en="Threshold: click + form (card/OTP)">Prag: klik + forma (kartica/OTP)</div>
+          <div class="label" data-sr="Prag: klik + forma (kartica/OTP)." data-en="Threshold: click + form (card/OTP).">Prag: klik + forma (kartica/OTP)</div>
           <ul class="bullets">
-            <li data-sr="Prelaz u <a href='phishing.html'>fišing</a>: krađa kartice, kredencijala, tokena." data-en="Leads to <a href='phishing.html'>Fišing</a>: theft of card data, credentials, tokens.">Prelaz u <a href='phishing.html'>Fišing</a>: krađa kartice, kredencijala, tokena.</li>
+            <li><a href="phishing.html" data-sr="Fišing" data-en="Phishing">Fišing</a>: krađa kartice, kredencijala, tokena.</li>
             <li data-sr="Prelaz u preuzimanje naloga: e-mail, marketplace nalog, društvene mreže." data-en="Leads to account takeover: email, marketplace account, social accounts.">Prelaz u preuzimanje naloga: e-mail, marketplace nalog, društvene mreže.</li>
-            <li data-sr="Prelaz u „podrška“ pozive: autoritet + ubrzavanje serije zahteva. (Povezano: <a href='fake-call-scam.html'>Lažni pozivi</a>)" data-en="Leads to “support” calls: authority + accelerating repeated demands. (Related: <a href='fake-call-scam.html'>Fake calls</a>)">Prelaz u „podrška“ pozive: autoritet + ubrzavanje serije zahteva. (Povezano: <a href="fake-call-scam.html">Lažni pozivi</a>)</li>
+            <li><a href="fake-call-scam.html" data-sr="Lažni pozivi" data-en="Fake calls">Lažni pozivi</a></li>
           </ul>
         </div>
 
         <div class="phase warn">
           <div class="label" data-sr="Prag: kapara / trošak" data-en="Threshold: deposit / fee">Prag: kapara / trošak</div>
           <ul class="bullets">
-            <li data-sr="Prelaz u <a href='advance-fee-fraud.html'>Uplata unapred</a>: svaki sledeći iznos kao uslov." data-en="Leads to <a href='advance-fee-fraud.html'>Advance-fee</a>: each next amount becomes a condition.">Prelaz u <a href="advance-fee-fraud.html">Advance-fee</a>: svaki sledeći iznos kao uslov.</li>
+            <li><a href="advance-fee-fraud.html" data-sr="Uplata unapred" data-en="Advance-fee fraud">Uplata unapred</a>: svaki sledeći iznos kao uslov.</li>
             <li data-sr="Prelaz u „povraćaj“: povraćaj uz naknadu, zatim još jedna naknada." data-en="Leads to a “refund” flow: refund for a fee, then another fee.">Prelaz u „refund“: povraćaj uz naknadu, zatim još jedna naknada.</li>
-            <li data-sr="Prelaz u <a href='recovery-scam.html'>Povraćaj novca</a>: napad posle gubitka." data-en="Leads to <a href='recovery-scam.html'>Recovery</a>: targeting after loss.">Prelaz u <a href="recovery-scam.html">Recovery</a>: napad posle gubitka.</li>
+            <li><a href="recovery-scam.html" data-sr="Prevara povraćaja novca" data-en="Recovery scam">Prevara povraćaja novca</a>: napad posle gubitka.</li>
           </ul>
         </div>
       </div>
@@ -452,7 +431,7 @@ window.SCAM_CONTENT["marketplace-scam"] = {
       <div class="phase bad">
         <div class="label" data-sr="Prag: slanje robe pre priliva" data-en="Threshold: shipping before funds arrive">Prag: slanje robe pre priliva</div>
         <ul class="bullets">
-          <li data-sr="Produženje priče: „pending“, „banka“, „kurir“, „potvrda“." data-en="Story extension: “pending”, “bank”, “courier”, “confirmation”.">Produženje priče: „pending“, „banka“, „kurir“, „potvrda“.</li>
+          <li data-sr="Produženje priče: „pending“, „banka“, „kurir“, „potvrda." data-en="Story extension: “pending”, “bank”, “courier”, “confirmation”.">Produženje priče: „pending“, „banka“, „kurir“, „potvrda“.</li>
           <li data-sr="Autoritet: „podrška“ preuzima razgovor i traži podatke." data-en="Authority: “support” takes over and asks for data.">Autoritet: „podrška“ preuzima razgovor i traži podatke.</li>
           <li data-sr="Povraćaj novca poruke: „povrat“ uz naknadu." data-en="Recovery messages: “refund” for a fee.">Recovery poruke: „povrat“ uz naknadu.</li>
         </ul>
@@ -499,25 +478,25 @@ window.SCAM_CONTENT["marketplace-scam"] = {
 
       <p
         data-sr="Marketplace prevara se često vodi kao mini-operacija: šabloni poruka, više naloga, brze zamene brojeva, podela rada. Jedan profil otvara kontakt, drugi glumi „podršku“, treći šalje link. Meta se meri po brzini i spremnosti na prag. Odbijanje se tretira kao gubitak vremena, pa se prelazi na sledeću metu."
-        data-en="Marketplace scams often run like a mini-operation: message templates, multiple accounts, rapid number swaps, division of labor. One profile opens contact, another plays “support,” a third sends the link. Targets are measured by speed and readiness to cross the threshold. Refusal is treated as time loss, so they move to the next target."
+        data-en="Marketplace scams often run like a mini-operation: message templates, multiple accounts, rapid number swaps, division of labor. One profile opens contact, another plays “support,” a third sends the link. Targets are measured by speed and readiness to cross the threshold. Refusal is treated as time loss, so they more to the next target."
       >Marketplace prevara se često vodi kao mini-operacija: šabloni poruka, više naloga, brze zamene brojeva, podela rada. Jedan profil otvara kontakt, drugi glumi „podršku“, treći šalje link. Meta se meri po brzini i spremnosti na prag. Odbijanje se tretira kao gubitak vremena, pa se prelazi na sledeću metu.</p>
 
       <div class="grid-2">
         <div class="phase">
           <div class="label" data-sr="Šta traže od mete" data-en="What they want from the target">Šta traže od mete</div>
           <ul class="bullets">
-            <li data-sr="brz odgovor i brz klik" data-en="fast reply and fast click">brz odgovor i brz klik</li>
-            <li data-sr="prihvatanje „procedure“ bez provere" data-en="accepting “procedure” without verification">prihvatanje „procedure“ bez provere</li>
-            <li data-sr="prag koji menja tok: OTP, uplata, slanje, kod" data-en="threshold action: OTP, payment, shipping, code">prag koji menja tok: OTP, uplata, slanje, kod</li>
+            <li data-sr="brz odgovor i brz klik." data-en="fast reply and fast click.">brz odgovor i brz klik.</li>
+            <li data-sr="prihvatanje „procedure“ bez provere." data-en="accepting “procedure” without verification.">prihvatanje „procedure“ bez provere.</li>
+            <li data-sr="prag koji menja tok: OTP, uplata, slanje, kod." data-en="threshold action: OTP, payment, shipping, code.">prag koji menja tok: OTP, uplata, slanje, kod.</li>
           </ul>
         </div>
 
         <div class="phase">
           <div class="label" data-sr="Kako testiraju otpornost" data-en="How they test resistance">Kako testiraju otpornost</div>
           <ul class="bullets">
-            <li data-sr="reakcija na pitanja o predmetu i detaljima" data-en="reaction to item-detail questions">reakcija na pitanja o predmetu i detaljima</li>
-            <li data-sr="reakcija na predlog da se sve završi kroz platformu/IBAN" data-en="reaction to finishing via platform/IBAN">reakcija na predlog da se sve završi kroz platformu/IBAN</li>
-            <li data-sr="reakcija na zahtev za video i dodatne dokaze" data-en="reaction to video and extra proof requests">reakcija na zahtev za video i dodatne dokaze</li>
+            <li data-sr="reakcija na pitanja o predmetu i detaljima." data-en="reaction to item-detail questions.">reakcija na pitanja o predmetu i detaljima.</li>
+            <li data-sr="reakcija na predlog da se sve završi kroz platformu/IBAN." data-en="reaction to finishing via platform/IBAN.">reakcija na predlog da se sve završi kroz platformu/IBAN.</li>
+            <li data-sr="reakcija na zahtev za video i dodatne dokaze." data-en="reaction to video and extra proof requests.">reakcija na zahtev za video i dodatne dokaze.</li>
           </ul>
         </div>
       </div>
@@ -586,7 +565,7 @@ window.SCAM_CONTENT["marketplace-scam"] = {
         <ol class="steps">
           <li data-sr="Zabeleži sve podatke o uplati i identitetu." data-en="Record all payment data and identity details.">Zabeleži sve podatke o uplati i identitetu.</li>
           <li data-sr="Traži povraćaj kroz zvaničan kanal banke ili platforme." data-en="Pursue recovery via your bank or platform official channels.">Traži povraćaj kroz zvaničan kanal banke ili platforme.</li>
-          <li data-sr="Očekuj poruke o „povratu“ uz naknadu: tretiraj kao povraćaj novca talas." data-en="Expect “refund for a fee” messages: treat as recovery scam wave.">Očekuj poruke o „povratu“ uz naknadu: tretiraj kao recovery talas.</li>
+          <li data-sr="Očekuj poruke o „povratu“ uz naknadu: tretiraj ih kao talas prevare povraćaja." data-en="Expect “refund for a fee” messages: treat them as a recovery scam wave.">Očekuj poruke o „povratu“ uz naknadu: tretiraj ih kao talas prevare povraćaja.</li>
         </ol>
       </div>
     </section>
@@ -600,35 +579,35 @@ window.SCAM_CONTENT["marketplace-scam"] = {
 
       <div class="grid-2">
         <div class="phase">
-          <div class="label" data-sr="FTC + BBB data (USA + Global)" data-en="FTC + BBB data (USA + Global)">FTC + BBB data (USA + Global)</div>
+          <div class="label" data-sr="FTC + BBB data (USA + Global)." data-en="FTC + BBB data (USA + Global).">FTC + BBB data (USA + Global)</div>
           <ul class="bullets">
-            <li data-sr="IC3 2023: Non-Payment/Non-Delivery 50,523 prijava, $309.6M gubitak" data-en="IC3 2023: Non-Payment/Non-Delivery 50,523 reports, $309.6M loss">IC3 2023: Non-Payment/Non-Delivery 50,523 prijava, $309.6M gubitak</li>
-            <li data-sr="prosečan gubitak po žrtvi: $6,128" data-en="average loss per victim: $6,128">prosečan gubitak po žrtvi: $6,128</li>
-            <li data-sr="marketplace scams dominiraju ovu kategoriju (Facebook, Craigslist, OfferUp)" data-en="marketplace scams dominate this category (Facebook, Craigslist, OfferUp)">marketplace scams dominiraju ovu kategoriju (Facebook, Craigslist, OfferUp)</li>
-            <li data-sr="lažno seller + lažno buyer kombinirani pristup" data-en="fake seller + fake buyer combined approach">fake seller + fake buyer kombinirani pristup</li>
+            <li data-sr="IC3 2023: Non-Payment/Non-Delivery 50,523 prijava, $309.6M gubitak." data-en="IC3 2023: Non-Payment/Non-Delivery 50,523 reports, $309.6M loss.">IC3 2023: Non-Payment/Non-Delivery 50,523 prijava, $309.6M gubitak.</li>
+            <li data-sr="prosečan gubitak po žrtvi: $6,128." data-en="average loss per victim: $6,128.">prosečan gubitak po žrtvi: $6,128.</li>
+            <li data-sr="marketplace scams dominiraju ovu kategoriju (Facebook, Craigslist, OfferUp)." data-en="marketplace scams dominate this category (Facebook, Craigslist, OfferUp).">marketplace scams dominiraju ovu kategoriju (Facebook, Craigslist, OfferUp).</li>
+            <li data-sr="lažno seller + lažno buyer kombinirani pristup." data-en="fake seller + fake buyer combined approach.">fake seller + fake buyer kombinirani pristup.</li>
           </ul>
         </div>
 
         <div class="phase">
-          <div class="label" data-sr="Demographics (ko je najranjiviji)" data-en="Demographics (most vulnerable)">Demographics (ko je najranjiviji)</div>
+          <div class="label" data-sr="Demografija (ko je najranjiviji)." data-en="Demographics (most vulnerable).">Demografija (ko je najranjiviji)</div>
           <ul class="bullets">
-            <li data-sr="starost 18-40: 65% žrtava (highest marketplace usage)" data-en="age 18-40: 65% of victims (highest marketplace usage)">starost 18-40: 65% žrtava (highest marketplace usage)</li>
-            <li data-sr="starost 18-25: highest vulnerability rate (inexperience + trust)" data-en="age 18-25: highest vulnerability rate (inexperience + trust)">starost 18-25: highest vulnerability rate (inexperience + trust)</li>
-            <li data-sr="prosečan gubitak 18-40: $650 (vs $1,100 za 60+)" data-en="average loss 18-40: $650 (vs $1,100 for 60+)">prosečan gubitak 18-40: $650 (vs $1,100 za 60+)</li>
-            <li data-sr="gender split: 52% muški, 48% ženski (near balance)" data-en="gender split: 52% male, 48% female (near balance)">gender split: 52% muški, 48% ženski (near balance)</li>
-            <li data-sr="platform distribution: Facebook Marketplace (40%), Craigslist (20%), OfferUp (15%), eBay Classifieds (10%), other (15%)" data-en="platform distribution: Facebook Marketplace (40%), Craigslist (20%), OfferUp (15%), eBay Classifieds (10%), other (15%)">platform distribution: Facebook Marketplace (40%), Craigslist (20%), OfferUp (15%), eBay Classifieds (10%), other (15%)</li>
-            <li data-sr="geografija: USA (45%), UK (12%), Canada (10%), Australia (8%), EU (15%)" data-en="geography: USA (45%), UK (12%), Canada (10%), Australia (8%), EU (15%)">geografija: USA (45%), UK (12%), Canada (10%), Australia (8%), EU (15%)</li>
+            <li data-sr="starost 18-40: 65% žrtava (highest marketplace usage)." data-en="age 18-40: 65% of victims (highest marketplace usage).">starost 18-40: 65% žrtava (highest marketplace usage).</li>
+            <li data-sr="starost 18-25: highest vulnerability rate (inexperience + trust)." data-en="age 18-25: highest vulnerability rate (inexperience + trust).">starost 18-25: highest vulnerability rate (inexperience + trust).</li>
+            <li data-sr="prosečan gubitak 18-40: $650 (vs $1,100 za 60+)." data-en="average loss 18-40: $650 (vs $1,100 for 60+).">prosečan gubitak 18-40: $650 (vs $1,100 za 60+).</li>
+            <li data-sr="gender split: 52% muški, 48% ženski (near balance)." data-en="gender split: 52% male, 48% female (near balance).">gender split: 52% muški, 48% ženski (near balance).</li>
+            <li data-sr="platform distribution: Facebook Marketplace (40%), Craigslist (20%), OfferUp (15%), eBay Classifieds (10%), other (15%)." data-en="platform distribution: Facebook Marketplace (40%), Craigslist (20%), OfferUp (15%), eBay Classifieds (10%), other (15%).">platform distribution: Facebook Marketplace (40%), Craigslist (20%), OfferUp (15%), eBay Classifieds (10%), other (15%).</li>
+            <li data-sr="geografija: USA (45%), UK (12%), Canada (10%), Australia (8%), EU (15%)." data-en="geography: USA (45%), UK (12%), Canada (10%), Australia (8%), EU (15%).">geografija: USA (45%), UK (12%), Canada (10%), Australia (8%), EU (15%).</li>
           </ul>
         </div>
 
         <div class="phase">
-          <div class="label" data-sr="Tipovi oglasa (risk categories)" data-en="Listing types (risk categories)">Tipovi oglasa (risk categories)</div>
+          <div class="label" data-sr="Tipovi oglasa (risk categories)." data-en="Listing types (risk categories).">Tipovi oglasa (risk categories)</div>
           <ul class="bullets">
-            <li data-sr="electronics (phones, laptops): 35% svih scams (highest value)" data-en="electronics (phones, laptops): 35% of all scams (highest value)">electronics (phones, laptops): 35% svih scams (highest value)</li>
-            <li data-sr="vehicles (cars, motorcycles): 20% (highest avg loss $2,800)" data-en="vehicles (cars, motorcycles): 20% (highest avg loss $2,800)">vehicles (cars, motorcycles): 20% (highest avg loss $2,800)</li>
-            <li data-sr="rentals (apartments, rooms): 18% (deposit scams)" data-en="rentals (apartments, rooms): 18% (deposit scams)">rentals (apartments, rooms): 18% (deposit scams)</li>
-            <li data-sr="tickets (events, flights): 12% (prepayment fraud)" data-en="tickets (events, flights): 12% (prepayment fraud)">tickets (events, flights): 12% (prepayment fraud)</li>
-            <li data-sr="pets (puppies, kittens): 8% (emotional targeting)" data-en="pets (puppies, kittens): 8% (emotional targeting)">pets (puppies, kittens): 8% (emotional targeting)</li>
+            <li data-sr="electronics (phones, laptops): 35% svih scams (highest value)." data-en="electronics (phones, laptops): 35% of all scams (highest value).">electronics (phones, laptops): 35% svih scams (highest value).</li>
+            <li data-sr="vozila (automobili, motocikli): 20% (najveći prosečan gubitak $2,800)." data-en="vehicles (cars, motorcycles): 20% (highest average loss $2,800).">vozila (automobili, motocikli): 20% (najveći prosečan gubitak $2,800).</li>
+            <li data-sr="rentals (apartments, rooms): 18% (deposit scams)." data-en="rentals (apartments, rooms): 18% (deposit scams).">rentals (apartments, rooms): 18% (deposit scams).</li>
+            <li data-sr="tickets (events, flights): 12% (prepayment fraud)." data-en="tickets (events, flights): 12% (prepayment fraud).">tickets (events, flights): 12% (prepayment fraud).</li>
+            <li data-sr="pets (puppies, kittens): 8% (emotional targeting)." data-en="pets (puppies, kittens): 8% (emotional targeting).">pets (puppies, kittens): 8% (emotional targeting).</li>
             <li data-sr="other (furniture, clothing, misc): 7%" data-en="other (furniture, clothing, misc): 7%">other (furniture, clothing, misc): 7%</li>
           </ul>
         </div>
@@ -636,12 +615,12 @@ window.SCAM_CONTENT["marketplace-scam"] = {
         <div class="phase">
           <div class="label" data-sr="Operativna ekonomija" data-en="Operational economics">Operativna ekonomija</div>
           <ul class="bullets">
-            <li data-sr="cost per lažno listing: $0 (free platforms)" data-en="cost per fake listing: $0 (free platforms)">cost per fake listing: $0 (free platforms)</li>
-            <li data-sr="response rate: 20-40% (mnogo ljudi traži deal)" data-en="response rate: 20-40% (many people looking for deals)">response rate: 20-40% (mnogo ljudi traži deal)</li>
-            <li data-sr="engagement rate: 50-60% (od kontakata, koliko nastavi conversation)" data-en="engagement rate: 50-60% (of contacts, how many continue conversation)">engagement rate: 50-60% (od kontakata, koliko nastavi conversation)</li>
-            <li data-sr="uspešnost prevare (payment/shipment): 10-20% od engaged conversations" data-en="uspešnost prevare (payment/shipment): 10-20% of engaged conversations">uspešnost prevare (payment/shipment): 10-20% od engaged conversations</li>
-            <li data-sr="ROI za scammera: INFINITY (zero cost, $800 avg gain)" data-en="ROI for scammer: INFINITY (zero cost, $800 avg gain)">ROI za scammera: INFINITY (zero cost, $800 avg gain)</li>
-            <li data-sr="timeline: 80% štete nastane u prvih 48h od prvog kontakta" data-en="timeline: 80% of damage occurs within 48h of first contact">timeline: 80% štete nastane u prvih 48h od prvog kontakta</li>
+            <li data-sr="cost per lažno listing: $0 (free platforms)." data-en="cost per fake listing: $0 (free platforms).">cost per fake listing: $0 (free platforms).</li>
+            <li data-sr="response rate: 20-40% (mnogo ljudi traži deal)." data-en="response rate: 20-40% (many people looking for deals).">response rate: 20-40% (mnogo ljudi traži deal).</li>
+            <li data-sr="engagement rate: 50-60% (od kontakata, koliko nastavi conversation)." data-en="engagement rate: 50-60% (of contacts, how many continue conversation).">engagement rate: 50-60% (od kontakata, koliko nastavi conversation).</li>
+            <li data-sr="uspešnost prevare (payment/shipment): 10-20% od engaged conversations." data-en="uspešnost prevare (payment/shipment): 10-20% of engaged conversations.">uspešnost prevare (payment/shipment): 10-20% od engaged conversations.</li>
+            <li data-sr="ROI za scammera: INFINITY (zero cost, $800 avg gain)." data-en="ROI for scammer: INFINITY (zero cost, $800 avg gain).">ROI za scammera: INFINITY (zero cost, $800 avg gain).</li>
+            <li data-sr="timeline: 80% štete nastane u prvih 48h od prvog kontakta." data-en="timeline: 80% of damage occurs within 48h of first contact.">timeline: 80% štete nastane u prvih 48h od prvog kontakta.</li>
           </ul>
         </div>
       </div>
@@ -660,52 +639,52 @@ window.SCAM_CONTENT["marketplace-scam"] = {
 
       <p
         data-sr="Marketplace prevaranti koriste razne taktike plaćanja da zaobiđu zaštitu platforme i da dobiju tvoj novac bez mogućnosti povrata. Cilj je uvek isti: prebaciti te sa sigurne metode plaćanja na platformi na nesigurnu, ili te naterati da šalješ robu pre nego što novac stigne."
-        data-en="Marketplace scammers use various payment tactics to bypass platform protections and get your money with no recovery option. The goal is always the same: move you from safe platform payment to unsafe method, or make you ship before funds arrive."
+        data-en="Marketplace scammers use various payment tactics to bypass platform protections and get your money with no recovery option. The goal is always the same: more you from safe platform payment to unsafe method, or make you ship before funds arrive."
       >Marketplace prevaranti koriste razne taktike plaćanja da zaobiđu zaštitu platforme i da dobiju tvoj novac bez mogućnosti povrata. Cilj je uvek isti: prebaciti te sa sigurne metode plaćanja na platformi na nesigurnu, ili te naterati da šalješ robu pre nego što novac stigne.</p>
 
       <div class="grid-2">
         <div class="phase">
           <div class="label" data-sr="Fake payment potvrda" data-en="Fake payment confirmation">Fake payment confirmation</div>
           <ul class="bullets">
-            <li data-sr="prevarant šalje snimak ekrana kao dokaz uplate" data-en="scammer sends SCREENSHOT as payment proof">prevarant šalje snimak ekrana kao dokaz uplate</li>
-            <li data-sr="snimak ekrana se lako falsifikuje (Photoshop, Inspect Element)" data-en="screenshot is EASILY FAKED (Photoshop, Inspect Element)">snimak ekrana se lako falsifikuje (Photoshop, Inspect Element)</li>
-            <li data-sr="ili lažan imejl od „PayPal“ / „Venmo“ / „Zelle“ sa „potvrdom“ uplate" data-en="or fake email from PayPal / Venmo / Zelle with confirmation">ili lažan imejl od „PayPal“ / „Venmo“ / „Zelle“ sa „potvrdom“ uplate</li>
-            <li data-sr="nagovara te da pošalješ robu PRE nego što proveriš svoj račun" data-en="pushes you to ship BEFORE you check your account">nagovara te da pošalješ robu PRE nego što proveriš svoj račun</li>
-            <li data-sr="ODBRANA: NIKADA ne šalji dok novac nije VIDLJIV NA TVOM RAČUNU" data-en="DEFENSE: NEVER ship until money is VISIBLE IN YOUR ACCOUNT">ODBRANA: NIKADA ne šalji dok novac nije VIDLJIV NA TVOM RAČUNU</li>
+            <li data-sr="prevarant šalje snimak ekrana kao dokaz uplate." data-en="scammer sends SCREENSHOT as payment proof.">prevarant šalje snimak ekrana kao dokaz uplate.</li>
+            <li data-sr="snimak ekrana se lako falsifikuje (Photoshop, Inspect Element)." data-en="screenshot is EASILY FAKED (Photoshop, Inspect Element).">snimak ekrana se lako falsifikuje (Photoshop, Inspect Element).</li>
+            <li data-sr="ili lažan imejl od „PayPal“ / „Venmo“ / „Zelle“ sa „potvrdom“ uplate." data-en="or fake email from PayPal / Venmo / Zelle with confirmation.">ili lažan imejl od „PayPal“ / „Venmo“ / „Zelle“ sa „potvrdom“ uplate.</li>
+            <li data-sr="nagovara te da pošalješ robu PRE nego što proveriš svoj račun." data-en="pushes you to ship BEFORE you check your account.">nagovara te da pošalješ robu PRE nego što proveriš svoj račun.</li>
+            <li data-sr="ODBRANA: NIKADA ne šalji dok novac nije VIDLJIV NA TVOM RAČUNU." data-en="DEFENSE: NEVER ship until money is VISIBLE IN YOUR ACCOUNT.">ODBRANA: NIKADA ne šalji dok novac nije VIDLJIV NA TVOM RAČUNU.</li>
           </ul>
         </div>
 
         <div class="phase">
           <div class="label" data-sr="Overpayment scam" data-en="Overpayment scam">Overpayment scam</div>
           <ul class="bullets">
-            <li data-sr="kupac šalje ček/transfer za VIŠE od cene" data-en="buyer sends check/transfer for MORE than price">kupac šalje ček/transfer za VIŠE od cene</li>
-            <li data-sr="kaže: „Zadrži stvar, samo mi vrati razliku“" data-en="says keep the item, just refund the difference">kaže: „Zadrži stvar, samo mi vrati razliku“</li>
-            <li data-sr="originalna uplata je LAŽNA i poništi se posle 3–7 dana" data-en="original payment IS FAKE and bounces after 3-7 days">originalna uplata je LAŽNA i poništi se posle 3–7 dana</li>
-            <li data-sr="ti si već poslao povraćaj (pravi novac) za lažnu uplatu" data-en="you already sent refund (real money) for fake payment">ti si već poslao povraćaj (pravi novac) za lažnu uplatu</li>
-            <li data-sr="ODBRANA: NIKADA ne prihvataj preplatu, UVEK vrati ceo iznos i traži novu uplatu" data-en="DEFENSE: NEVER accept overpayment, ALWAYS refund full amount and ask for new payment">ODBRANA: NIKADA ne prihvataj preplatu, UVEK vrati ceo iznos i traži novu uplatu</li>
+            <li data-sr="kupac šalje ček/transfer za VIŠE od cene." data-en="buyer sends check/transfer for MORE than price.">kupac šalje ček/transfer za VIŠE od cene.</li>
+            <li data-sr="kaže: „Zadrži stvar, samo mi vrati razliku." data-en="says keep the item, just refund the difference.">kaže: „Zadrži stvar, samo mi vrati razliku“.</li>
+            <li data-sr="originalna uplata je LAŽNA i poništi se posle 3–7 dana." data-en="original payment IS FAKE and bounces after 3-7 days.">originalna uplata je LAŽNA i poništi se posle 3–7 dana.</li>
+            <li data-sr="ti si već poslao povraćaj (pravi novac) za lažnu uplatu." data-en="you already sent refund (real money) for fake payment.">ti si već poslao povraćaj (pravi novac) za lažnu uplatu.</li>
+            <li data-sr="ODBRANA: NIKADA ne prihvataj preplatu, UVEK vrati ceo iznos i traži novu uplatu." data-en="DEFENSE: NEVER accept overpayment, ALWAYS refund full amount and ask for new payment.">ODBRANA: NIKADA ne prihvataj preplatu, UVEK vrati ceo iznos i traži novu uplatu.</li>
           </ul>
         </div>
 
         <div class="phase">
           <div class="label" data-sr="Shipping address switch" data-en="Shipping address switch">Shipping address switch</div>
           <ul class="bullets">
-            <li data-sr="kupac plati kroz platformu (legitimna uplata)" data-en="buyer pays through platform (legit payment)">kupac plati kroz platformu (legitimna uplata)</li>
-            <li data-sr="zatim kaže: „Pošalji prijatelju na drugu adresu“" data-en="then says ship to my friend at different address">zatim kaže: „Pošalji prijatelju na drugu adresu“</li>
-            <li data-sr="ti šalješ na novu adresu (IZVAN zaštite platforme)" data-en="you ship to new address (OUTSIDE platform protection)">ti šalješ na novu adresu (IZVAN zaštite platforme)</li>
-            <li data-sr="kupac otvara spor: „Nisam primio“ (praćenje pokazuje drugu adresu)" data-en="buyer opens dispute: never received (tracking shows different address)">kupac otvara spor: „Nisam primio“ (praćenje pokazuje drugu adresu)</li>
-            <li data-sr="platforma vraća novac kupcu jer praćenje pošiljke ne odgovara adresi iz narudžbine" data-en="platform refunds buyer because tracking doesn't match platform address">platforma vraća novac kupcu jer praćenje pošiljke ne odgovara adresi iz narudžbine</li>
-            <li data-sr="ODBRANA: UVEK šalji SAMO na adresu u narudžbini na platformi, NIKADA na drugu adresu" data-en="DEFENSE: ALWAYS ship ONLY to address in platform order, NEVER to friend address">ODBRANA: UVEK šalji SAMO na adresu u narudžbini na platformi, NIKADA na drugu adresu</li>
+            <li data-sr="kupac plati kroz platformu (legitimna uplata)." data-en="buyer pays through platform (legit payment).">kupac plati kroz platformu (legitimna uplata).</li>
+            <li data-sr="zatim kaže: „Pošalji prijatelju na drugu adresu." data-en="then says ship to my friend at different address.">zatim kaže: „Pošalji prijatelju na drugu adresu“.</li>
+            <li data-sr="ti šalješ na novu adresu (IZVAN zaštite platforme)." data-en="you ship to new address (OUTSIDE platform protection).">ti šalješ na novu adresu (IZVAN zaštite platforme).</li>
+            <li data-sr="kupac otvara spor: „Nisam primio“ (praćenje pokazuje drugu adresu)." data-en="buyer opens dispute: never received (tracking shows different address).">kupac otvara spor: „Nisam primio“ (praćenje pokazuje drugu adresu).</li>
+            <li data-sr="platforma vraća novac kupcu jer praćenje pošiljke ne odgovara adresi iz narudžbine." data-en="platform refunds buyer because tracking doesn't match platform address.">platforma vraća novac kupcu jer praćenje pošiljke ne odgovara adresi iz narudžbine.</li>
+            <li data-sr="ODBRANA: UVEK šalji SAMO na adresu u narudžbini na platformi, NIKADA na drugu adresu." data-en="DEFENSE: ALWAYS ship ONLY to address in platform order, NEVER to friend address.">ODBRANA: UVEK šalji SAMO na adresu u narudžbini na platformi, NIKADA na drugu adresu.</li>
           </ul>
         </div>
 
         <div class="phase">
           <div class="label" data-sr="Fake posrednička usluga" data-en="Fake escrow service">Fake escrow service</div>
           <ul class="bullets">
-            <li data-sr="za skupe stvari (auto, laptop $2K+), kupac predlaže „posredničku uslugu“" data-en="for high-value items (car, laptop $2K+), buyer suggests escrow service">za skupe stvari (auto, laptop $2K+), kupac predlaže „posredničku uslugu“</li>
-            <li data-sr="šalje link ka LAŽNOM posredničkom sajtu (izgleda legitimno)" data-en="sends link to FAKE escrow site (looks legit)">šalje link ka LAŽNOM posredničkom sajtu (izgleda legitimno)</li>
-            <li data-sr="ti uneseš podatke i čekaš „potvrdu posrednika“" data-en="you enter details and wait for escrow confirmation">ti uneseš podatke i čekaš „potvrdu posrednika“</li>
-            <li data-sr="novac NIKADA ne dolazi, kupac nestaje" data-en="money NEVER arrives, buyer disappears">novac NIKADA ne dolazi, kupac nestaje</li>
-            <li data-sr="ODBRANA: koristi SAMO poznate servise (Escrow.com), proveri domen RUČNO" data-en="DEFENSE: use ONLY known escrow (Escrow.com), check domain MANUALLY">ODBRANA: koristi SAMO poznate servise (Escrow.com), proveri domen RUČNO</li>
+            <li data-sr="za skupe stvari (auto, laptop $2K+), kupac predlaže „posredničku uslugu." data-en="for high-value items (car, laptop $2K+), buyer suggests escrow service.">za skupe stvari (auto, laptop $2K+), kupac predlaže „posredničku uslugu“.</li>
+            <li data-sr="šalje link ka LAŽNOM posredničkom sajtu (izgleda legitimno)." data-en="sends link to FAKE escrow site (looks legit).">šalje link ka LAŽNOM posredničkom sajtu (izgleda legitimno).</li>
+            <li data-sr="ti uneseš podatke i čekaš „potvrdu posrednika." data-en="you enter details and wait for escrow confirmation.">ti uneseš podatke i čekaš „potvrdu posrednika“.</li>
+            <li data-sr="novac NIKADA ne dolazi, kupac nestaje." data-en="money NEVER arrives, buyer disappears.">novac NIKADA ne dolazi, kupac nestaje.</li>
+            <li data-sr="ODBRANA: koristi SAMO poznate servise (Escrow.com), proveri domen RUČNO." data-en="DEFENSE: use ONLY known escrow (Escrow.com), check domain MANUALLY.">ODBRANA: koristi SAMO poznate servise (Escrow.com), proveri domen RUČNO.</li>
           </ul>
         </div>
       </div>
@@ -718,7 +697,19 @@ window.SCAM_CONTENT["marketplace-scam"] = {
     </section>
 
     <!-- 10) IZVORI -->
-    <section class="card sources" id="sources">
+
+<section class="content-section">
+  <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
+  <ul class="bullets">
+    <li><a href="fake-webshop.html" data-sr="Lažna online prodavnica" data-en="Fake webshop">Lažna online prodavnica</a></li>
+    <li><a href="fake-delivery.html" data-sr="Lažna dostava" data-en="Fake delivery">Lažna dostava</a></li>
+    <li><a href="advance-fee-fraud.html" data-sr="Uplata unapred" data-en="Advance-fee fraud">Uplata unapred</a></li>
+    <li><a href="phishing.html" data-sr="Fišing" data-en="Phishing">Fišing</a></li>
+    <li><a href="escrow-scam.html" data-sr="Escrow prevara" data-en="Escrow scam">Escrow prevara</a></li>
+  </ul>
+</section>
+
+<section class="card sources" id="sources">
       <h2 data-sr="Izvori i dalje čitanje" data-en="Sources and further reading">
         Izvori i dalje čitanje
       </h2>

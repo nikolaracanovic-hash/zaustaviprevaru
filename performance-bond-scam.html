@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Napadac traži uplatu premije garancije izvrsenja kao uslov za potpis ugovora. Garancija nikad ne stize, novac se gubi."
+    data-sr="Napadac traži uplatu premije garancije izvrsenja kao uslov za potpis ugovora. Garancija nikad ne stize, novac se gubi."
+    data-en="Attacker demands payment of a performance bond premium as a condition for contract signing. The bond never arrives and money is lost."
+  />
+  <title data-sr="Prevara garancijom izvrsenja" data-en="Performance bond scam">Prevara garancijom izvrsenja</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="ui.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="performance-bond-scam.content.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="cases.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+        <div class="brand">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span class="brand-name">Anti-scam</span>
+        </div>
+        <nav aria-label="Glavna navigacija">
+          <ul class="top-nav">
+            <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+            <li><a href="prevare.html" aria-current="page" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          <li><a href="protecting-elderly.html" data-sr="Zaštita" data-en="Protection">Zaštita</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="hero compact">
+        <h1 data-sr="Prevara garancijom izvrsenja" data-en="Performance bond scam">Prevara garancijom izvrsenja</h1>
+        <p class="muted hero-sub"
+           data-sr="Ugovor dostavljen → zahtev za garancijom izvrsenja → uplata premije → blokada → nova naknada → nestanak."
+           data-en="Contract delivered → performance bond demand → premium payment → block → new fee → disappearance.">
+          Ugovor dostavljen → zahtev za garancijom izvrsenja → uplata premije → blokada → nova naknada → nestanak.
+        </p>
+        <div id="scam-meta" data-scam="performance-bond-scam"></div>
+        <div class="callout"
+             data-sr="<strong>Prag:</strong> Uplata 'premije garancije izvrsenja' pre potpisivanja ugovora. Posle praga svaka sledeca naknada blokira potpis."
+             data-en="<strong>Threshold:</strong> Payment of the 'performance bond premium' before contract signing. After the threshold each new fee blocks the signature.">
+          <strong>Prag:</strong> Uplata 'premije garancije izvrsenja' pre potpisivanja ugovora. Posle praga svaka sledeca naknada blokira potpis.
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    <div data-overview></div>
+    <div data-steps></div>
+    <div data-scammer-view></div>
+    <div data-longform></div>
+    <div data-related></div>
+    <div data-sources></div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <p class="muted"
+         data-sr="Anti-scam projekat - edukacija i analiza"
+         data-en="Anti-scam project - education and analysis">
+        Anti-scam projekat - edukacija i analiza
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

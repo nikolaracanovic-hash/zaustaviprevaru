@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta
+    name="description"
+    content="Ransomware napadi na organizacije: phishing ili exploit → pristup → eksfiltracija podataka → enkripcija → otkup → rok → dvostruka ucena."
+    data-sr="Ransomware napadi na organizacije: phishing ili exploit → pristup → eksfiltracija podataka → enkripcija → otkup → rok → dvostruka ucena."
+    data-en="Ransomware attacks on organizations: phishing or exploit → access → data exfiltration → encryption → ransom → deadline → double extortion."
+  />
+
+  <title data-sr="Ransomware napadi na organizacije" data-en="Ransomware attacks on organizations">Ransomware napadi na organizacije</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="ui.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="ransomware-orgs.content.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="cases.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+        <div class="brand">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span class="brand-name">Anti-scam</span>
+        </div>
+
+        <nav aria-label="Glavna navigacija">
+          <ul class="top-nav">
+            <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+            <li><a href="prevare.html" aria-current="page" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          <li><a href="protecting-elderly.html" data-sr="Zaštita" data-en="Protection">Zaštita</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="hero compact">
+        <h1 data-sr="Ransomware napadi na organizacije" data-en="Ransomware attacks on organizations">Ransomware napadi na organizacije</h1>
+
+        <p class="muted hero-sub"
+           data-sr="Pristup → lateralno kretanje → eksfiltracija → enkripcija → otkup → rok → dvostruka ucena → isplata ili objava."
+           data-en="Access → lateral movement → exfiltration → encryption → ransom → deadline → double extortion → payment or disclosure.">
+          Pristup → lateralno kretanje → eksfiltracija → enkripcija → otkup → rok → dvostruka ucena → isplata ili objava.
+        </p>
+
+        <div id="scam-meta" data-scam="ransomware-orgs"></div>
+
+        <div class="callout"
+             data-sr="<strong>Prag:</strong> napomena o otkupu se pojavi na sistemima ili se otkrije da su backup fajlovi kompromitovani. Organizacija gubi operativnu kontrolu."
+             data-en="<strong>Threshold:</strong> a ransom note appears on systems or backups are found to be compromised. The organization loses operational control.">
+          <strong>Prag:</strong> napomena o otkupu se pojavi na sistemima ili se otkrije da su backup fajlovi kompromitovani. Organizacija gubi operativnu kontrolu.
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div data-overview></div>
+    <div data-steps></div>
+
+    <div data-longform></div>
+    <div data-related></div>
+    <div data-sources></div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="muted" data-sr="Anti-scam projekat — edukacija i analiza" data-en="Anti-scam project — education and analysis">
+        Anti-scam projekat — edukacija i analiza
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

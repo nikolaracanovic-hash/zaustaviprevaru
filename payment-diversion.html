@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta
+    name="description"
+    content="Preusmeravanje plaćanja: napadač presreće ili falsifikuje instrukciju za plaćanje i preusmerava je na sopstveni račun. Imejl, poziv ili izmenjen dokument."
+    data-sr="Preusmeravanje plaćanja: napadač presreće ili falsifikuje instrukciju za plaćanje i preusmerava je na sopstveni račun. Imejl, poziv ili izmenjen dokument."
+    data-en="Payment diversion: attacker intercepts or fakes a payment instruction and redirects it to their account. Email, phone call, or modified document."
+  />
+
+  <title data-sr="Preusmeravanje plaćanja" data-en="Payment diversion">Preusmeravanje plaćanja</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="ui.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="payment-diversion.content.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="cases.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+        <div class="brand">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span class="brand-name">Anti-scam</span>
+        </div>
+
+        <nav aria-label="Glavna navigacija">
+          <ul class="top-nav">
+            <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+            <li><a href="prevare.html" aria-current="page" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          <li><a href="protecting-elderly.html" data-sr="Zaštita" data-en="Protection">Zaštita</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="hero compact">
+        <h1
+          data-sr="Preusmeravanje plaćanja"
+          data-en="Payment diversion"
+        >Preusmeravanje plaćanja</h1>
+
+        <p class="muted hero-sub"
+           data-sr="Izviđanje → lažna instrukcija (imejl/poziv/dokument) → promena IBAN-a → redovne uplate idu napadaču → otkrivanje kasno."
+           data-en="Reconnaissance → fake instruction (email/call/document) → IBAN change → payments go to attacker → discovered late.">
+          Izviđanje → lažna instrukcija (imejl/poziv/dokument) → promena IBAN-a → redovne uplate idu napadaču → otkrivanje kasno.
+        </p>
+
+        <div id="scam-meta" data-scam="payment-diversion"></div>
+
+        <div class="callout"
+             data-sr="<strong>Prag:</strong> firma ili osoba izvrši uplatu ili ažurira IBAN bez nezavisne telefonske verifikacije na poznatom broju."
+             data-en="<strong>Threshold:</strong> company or individual makes a payment or updates an IBAN without independent phone verification on a known number.">
+          <strong>Prag:</strong> firma ili osoba izvrši uplatu ili ažurira IBAN bez nezavisne telefonske verifikacije na poznatom broju.
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div data-longform></div>
+    <div data-related></div>
+    <div data-sources></div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="muted"
+         data-sr="Anti-scam projekat — edukacija i analiza"
+         data-en="Anti-scam project — education and analysis">
+        Anti-scam projekat — edukacija i analiza
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

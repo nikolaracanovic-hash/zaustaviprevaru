@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta
+    name="description"
+    content="Prevara sa zlonamernom aplikacijom: instalacija → dozvole → eksfiltracija → preuzimanje naloga."
+    data-sr="Prevara sa zlonamernom aplikacijom: instalacija → dozvole → eksfiltracija → preuzimanje naloga."
+    data-en="Malicious app scam: installation → permissions → exfiltration → account takeover."
+  />
+
+  <title data-sr="Zlonamerna aplikacija" data-en="Malicious app scam">Zlonamerna aplikacija</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="ui.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="malicious-app-scam.content.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="cases.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+        <div class="brand">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span class="brand-name">Anti-scam</span>
+        </div>
+
+        <nav aria-label="Glavna navigacija">
+          <ul class="top-nav">
+            <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+            <li><a href="prevare.html" aria-current="page" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          <li><a href="protecting-elderly.html" data-sr="Zaštita" data-en="Protection">Zaštita</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="hero compact">
+        <h1 data-sr="Zlonamerna aplikacija" data-en="Malicious app scam">Zlonamerna aplikacija</h1>
+
+        <p class="muted hero-sub"
+           data-sr="Oglas/link → preuzimanje APK-a → instalacija → dozvole → eksfiltracija → preuzimanje naloga → finansijska šteta."
+           data-en="Ad/link → APK download → installation → permissions → exfiltration → account takeover → financial damage.">
+          Oglas/link → preuzimanje APK-a → instalacija → dozvole → eksfiltracija → preuzimanje naloga → finansijska šteta.
+        </p>
+
+        <div id="scam-meta" data-scam="malicious-app-scam"></div>
+
+        <div class="callout"
+             data-sr="<strong>Prag:</strong> odobravanje dozvola pristupačnosti ili SMS-a. Posle toga napadač ima pasivan pristup uređaju bez daljnje interakcije korisnika."
+             data-en="<strong>Threshold:</strong> granting accessibility or SMS permissions. After that the attacker has passive access to the device without further user interaction.">
+          <strong>Prag:</strong> odobravanje dozvola pristupačnosti ili SMS-a. Posle toga napadač ima pasivan pristup uređaju bez daljnje interakcije korisnika.
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container" id="scam-content" data-scam="malicious-app-scam">
+  </main>
+
+  <footer class="page-footer">
+    <div class="container">
+      <p data-sr="Anti-scam edukativni portal." data-en="Anti-scam educational portal.">Anti-scam edukativni portal.</p>
+    </div>
+  </footer>
+</body>
+</html>

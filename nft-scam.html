@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="NFT prevara: lažni mint, rug pull kolekcije i wallet drainer aktiviran pri free mint claim-u."
+    data-sr="NFT prevara: lažni mint, rug pull kolekcije i wallet drainer aktiviran pri free mint claim-u."
+    data-en="NFT scam: fake mint, collection rug pull and wallet drainer activated during a free mint claim."
+  />
+  <title data-sr="NFT prevara" data-en="NFT scam">NFT prevara</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="ui.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="nft-scam.content.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="cases.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+        <div class="brand">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span class="brand-name">Anti-scam</span>
+        </div>
+        <nav aria-label="Glavna navigacija">
+          <ul class="top-nav">
+            <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+            <li><a href="prevare.html" aria-current="page" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          <li><a href="protecting-elderly.html" data-sr="Zaštita" data-en="Protection">Zaštita</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="hero compact">
+        <h1 data-sr="NFT prevara" data-en="NFT scam">NFT prevara</h1>
+        <p class="muted hero-sub"
+           data-sr="NFT hype/oglas → lažni mint sajt → wallet connect → potpis → drain/rug pull → sredstva na napadačevim adresama."
+           data-en="NFT hype/ad → fake mint site → wallet connect → signature → drain/rug pull → funds at attacker's addresses.">
+          NFT hype/oglas → lažni mint sajt → wallet connect → potpis → drain/rug pull → sredstva na napadačevim adresama.
+        </p>
+        <div id="scam-meta" data-scam="nft-scam"></div>
+        <div class="callout"
+             data-sr="<strong>Prag:</strong> potpis mint transakcije ili claim-a. Drainer dobija approval, rug pull prikuplja ETH, lažni mint uzima novac za NFT koji ne postoji."
+             data-en="<strong>Threshold:</strong> signing the mint transaction or claim. Drainer gets approval, rug pull collects ETH, fake mint takes money for an NFT that does not exist.">
+          <strong>Prag:</strong> potpis mint transakcije ili claim-a. Drainer dobija approval, rug pull prikuplja ETH, lažni mint uzima novac za NFT koji ne postoji.
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="container" id="scam-content" data-scam="nft-scam"></main>
+  <footer class="page-footer">
+    <div class="container">
+      <p data-sr="Anti-scam edukativni portal." data-en="Anti-scam educational portal.">Anti-scam edukativni portal.</p>
+    </div>
+  </footer>
+</body>
+</html>

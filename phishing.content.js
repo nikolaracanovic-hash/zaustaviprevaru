@@ -24,9 +24,9 @@ window.SCAM_CONTENT["phishing"] = {
       ><strong>Prag:</strong> unos kredencijala, kartice ili potvrda OTP koda. Pre praga postoji prostor za proveru domena i logike radnje. Posle praga napadač dobija pristup ili autorizaciju, pa tok prelazi u serijske posledice.</div>
 
       <div class="callout"
-        data-sr="<strong>Model:</strong> poruka (autoritet + hitnost) → link/prilog → lažna stranica/forma → prag (unos/OTP/kartica) → takeover ili naplata → serijske posledice → eskalacija kroz poziv/takse → recovery talas"
-        data-en="<strong>Model:</strong> message (authority + urgency) → link/attachment → fake page/form → threshold (entry/OTP/card) → takeover or charge → cascading consequences → escalation via calls/fees → recovery wave"
-      ><strong>Model:</strong> poruka (autoritet + hitnost) → link/prilog → lažna stranica/forma → prag (unos/OTP/kartica) → takeover ili naplata → serijske posledice → eskalacija kroz poziv/takse → recovery talas</div>
+        data-sr="<strong>Model:</strong> poruka (autoritet + hitnost) → link/prilog → lažna stranica/forma → prag (unos/OTP/kartica) → takeover ili naplata → serijske posledice → eskalacija kroz poziv/takse → talas prevare povraćaja."
+        data-en="<strong>Model:</strong> message (authority + urgency) → link/attachment → fake page/form → threshold (entry/OTP/card) → takeover or charge → cascading consequences → escalation via calls/fees → recovery wave."
+      ><strong>Model:</strong> poruka (autoritet + hitnost) → link/prilog → lažna stranica/forma → prag (unos/OTP/kartica) → takeover ili naplata → serijske posledice → eskalacija kroz poziv/takse → talas prevare povraćaja.</div>
     </section>
 
     <!-- 2) KAKO GENERALNO RADI: ULAZNI MEHANIZAM -->
@@ -46,11 +46,11 @@ window.SCAM_CONTENT["phishing"] = {
             Elementi koji drže tok
           </div>
           <ul class="bullets">
-            <li data-sr="autoritet: banka, pošta, kurir, platforma, IT, institucija" data-en="authority: bank, post, courier, platform, IT, institution">autoritet: banka, pošta, kurir, platforma, IT, institucija</li>
-            <li data-sr="hitnost: rok, blokada, „poslednja opomena“, „sumnjiva aktivnost“" data-en="urgency: deadline, lock, “final notice”, “suspicious activity”">hitnost: rok, blokada, „poslednja opomena“, „sumnjiva aktivnost“</li>
-            <li data-sr="jedan korak: klik i forma sa malim naporom" data-en="one step: click + low-effort form">jedan korak: klik i forma sa malim naporom</li>
-            <li data-sr="maskiranje rutine: poruka liči na svakodnevne obaveze" data-en="routine mask: the message resembles daily tasks">maskiranje rutine: poruka liči na svakodnevne obaveze</li>
-            <li data-sr="prebacivanje odgovornosti: „sistem traži“, „pravila“, „procedura“" data-en="responsibility shifting: “system requires”, “rules”, “procedure”">prebacivanje odgovornosti: „sistem traži“, „pravila“, „procedura“</li>
+            <li data-sr="autoritet: banka, pošta, kurir, platforma, IT, institucija." data-en="authority: bank, post, courier, platform, IT, institution.">autoritet: banka, pošta, kurir, platforma, IT, institucija.</li>
+            <li data-sr="hitnost: rok, blokada, „poslednja opomena“, „sumnjiva aktivnost." data-en="urgency: deadline, lock, “final notice”, “suspicious activity”">hitnost: rok, blokada, „poslednja opomena“, „sumnjiva aktivnost“.</li>
+            <li data-sr="jedan korak: klik i forma sa malim naporom." data-en="one step: click + low-effort form.">jedan korak: klik i forma sa malim naporom.</li>
+            <li data-sr="maskiranje rutine: poruka liči na svakodnevne obaveze." data-en="routine mask: the message resembles daily tasks.">maskiranje rutine: poruka liči na svakodnevne obaveze.</li>
+            <li data-sr="prebacivanje odgovornosti: „sistem traži“, „pravila“, „procedura." data-en="responsibility shifting: “system requires”, “rules”, “procedure”">prebacivanje odgovornosti: „sistem traži“, „pravila“, „procedura“.</li>
           </ul>
         </div>
 
@@ -59,34 +59,34 @@ window.SCAM_CONTENT["phishing"] = {
             Gde meta pravi grešku
           </div>
           <ul class="bullets">
-            <li data-sr="fokus na logo i dizajn umesto na domen" data-en="focus on logo/design instead of the domain">fokus na logo i dizajn umesto na domen</li>
-            <li data-sr="prihvatanje hitnosti kao realne, bez potvrde kroz zvaničan kanal" data-en="accepting urgency as real without confirming via an official channel">prihvatanje hitnosti kao realne, bez potvrde kroz zvaničan kanal</li>
-            <li data-sr="unos više podataka nego što radnja traži" data-en="entering more data than the action requires">unos više podataka nego što radnja traži</li>
-            <li data-sr="OTP tretman kao „informacija“, a OTP je autorizacija" data-en="treating OTP as “information”, while OTP is authorization">OTP tretman kao „informacija“, a OTP je autorizacija</li>
+            <li data-sr="fokus na logo i dizajn umesto na domen." data-en="focus on logo/design instead of the domain.">fokus na logo i dizajn umesto na domen.</li>
+            <li data-sr="prihvatanje hitnosti kao realne, bez potvrde kroz zvaničan kanal." data-en="accepting urgency as real without confirming via an official channel.">prihvatanje hitnosti kao realne, bez potvrde kroz zvaničan kanal.</li>
+            <li data-sr="unos više podataka nego što radnja traži." data-en="entering more data than the action requires.">unos više podataka nego što radnja traži.</li>
+            <li data-sr="OTP tretman kao „informacija“, a OTP je autorizacija." data-en="treating OTP as “information”, while OTP is authorization.">OTP tretman kao „informacija“, a OTP je autorizacija.</li>
           </ul>
         </div>
       </div>
 
       <div class="callout"
-        data-sr="<strong>Tipičan promašaj:</strong> dizajn nosi masku, URL nosi istinu. Provera domena i logike radnje ima veću vrednost od „urednog izgleda“."
+        data-sr="<strong>Tipičan promašaj:</strong> dizajn nosi masku, URL nosi istinu. Provera domena i logike radnje ima veću vrednost od „urednog izgleda."
         data-en="<strong>Typical failure mode:</strong> design carries the mask; the URL carries truth. Checking the domain and action logic matters more than a “clean look”."
       ><strong>Tipičan promašaj:</strong> dizajn nosi masku, URL nosi istinu. Provera domena i logike radnje ima veću vrednost od „urednog izgleda“.</div>
     </section>
 
     <!-- 3) HRONOLOŠKI TOK (DETALJNO) + GRANANJA PO FAZAMA -->
     <section class="card">
-      <h2 data-sr="Hronološki tok (faze + grananja)" data-en="Timeline (phases + branching)">
+      <h2 data-sr="Hronološki tok (faze + grananja)." data-en="Timeline (phases + branching).">
         Hronološki tok (faze + grananja)
       </h2>
 
       <p class="muted"
         data-sr="Faze su kompresovane u minuti ili sate, ali obrazac ostaje stabilan: kontakt → automatizam → prelazak na lažnu stranicu → rok → prag → serijske posledice → pritisak → mutacije → recovery."
-        data-en="Phases compress into minutes or hours, but the pattern stays stable: contact → autopilot → move to a fake page → deadline → threshold → cascading consequences → pressure → mutations → recovery."
+        data-en="Phases compress into minutes or hours, but the pattern stays stable: contact → autopilot → more to a fake page → deadline → threshold → cascading consequences → pressure → mutations → recovery."
       >Faze su kompresovane u minuti ili sate, ali obrazac ostaje stabilan: kontakt → automatizam → prelazak na lažnu stranicu → rok → prag → serijske posledice → pritisak → mutacije → recovery.</p>
 
       <!-- FAZA 1 -->
       <article class="phase">
-        <h3 class="phase-title" data-sr="Faza 1 — Kontakt (poruka)" data-en="Phase 1 — Contact (message)">
+        <h3 class="phase-title" data-sr="Faza 1 — Kontakt (poruka)." data-en="Phase 1 — Contact (message).">
           Faza 1 — Kontakt (poruka)
         </h3>
 
@@ -99,20 +99,20 @@ window.SCAM_CONTENT["phishing"] = {
           <div class="phase">
             <div class="label" data-sr="Primeri tema" data-en="Theme examples">Primeri tema</div>
             <ul class="bullets">
-              <li data-sr="„nalog je pod rizikom — potvrdi identitet“" data-en="“account at risk — confirm identity”">„nalog je pod rizikom — potvrdi identitet“</li>
-              <li data-sr="„pošiljka stoji — potvrdi adresu“" data-en="“shipment on hold — confirm address”">„pošiljka stoji — potvrdi adresu“</li>
-              <li data-sr="„sumnjiva aktivnost — proveri nalog“" data-en="“suspicious activity — verify account”">„sumnjiva aktivnost — proveri nalog“</li>
-              <li data-sr="„stigao dokument — otvori“" data-en="“document received — open”">„stigao dokument — otvori“</li>
-              <li data-sr="„kazna/dug — plati do roka“" data-en="“fine/debt — pay by deadline”">„kazna/dug — plati do roka“</li>
+              <li data-sr="„nalog je pod rizikom — potvrdi identitet." data-en="“account at risk — confirm identity”">„nalog je pod rizikom — potvrdi identitet“.</li>
+              <li data-sr="„pošiljka stoji — potvrdi adresu." data-en="“shipment on hold — confirm address”">„pošiljka stoji — potvrdi adresu“.</li>
+              <li data-sr="„sumnjiva aktivnost — proveri nalog." data-en="“suspicious activity — verify account”">„sumnjiva aktivnost — proveri nalog“.</li>
+              <li data-sr="„stigao dokument — otvori." data-en="“document received — open”">„stigao dokument — otvori“.</li>
+              <li data-sr="„kazna/dug — plati do roka." data-en="“fine/debt — pay by deadline”">„kazna/dug — plati do roka“.</li>
             </ul>
           </div>
 
           <div class="phase">
             <div class="label" data-sr="Šta se testira" data-en="What gets tested">Šta se testira</div>
             <ul class="bullets">
-              <li data-sr="da li meta reaguje odmah" data-en="whether the target reacts immediately">da li meta reaguje odmah</li>
-              <li data-sr="da li meta proverava domen pre klika" data-en="whether the target checks the domain before clicking">da li meta proverava domen pre klika</li>
-              <li data-sr="da li meta traži drugi kanal (aplikacija, zvaničan sajt)" data-en="whether the target switches to an official channel (app, official site)">da li meta traži drugi kanal (aplikacija, zvaničan sajt)</li>
+              <li data-sr="da li meta reaguje odmah." data-en="whether the target reacts immediately.">da li meta reaguje odmah.</li>
+              <li data-sr="da li meta proverava domen pre klika." data-en="whether the target checks the domain before clicking.">da li meta proverava domen pre klika.</li>
+              <li data-sr="da li meta traži drugi kanal (aplikacija, zvaničan sajt)." data-en="whether the target switches to an official channel (app, official site).">da li meta traži drugi kanal (aplikacija, zvaničan sajt).</li>
             </ul>
           </div>
         </div>
@@ -135,24 +135,18 @@ window.SCAM_CONTENT["phishing"] = {
         >Poruka imitira radnje koje ljudi već rade: login, reset, tracking, potvrda, „security check“. Meta želi brzo zatvaranje problema. U ovoj fazi se gubi navika da se čita domen, a dobijaju se mikro-odluke koje izgledaju bezopasno.</p>
 
         <ul class="bullets">
-          <li data-sr="rečnik zvuči „sistemski“: verifikacija, potvrda, update" data-en="system-like language: verification, confirmation, update">rečnik zvuči „sistemski“: verifikacija, potvrda, update</li>
-          <li data-sr="radnja traje kratko i izgleda kao kraj incidenta" data-en="the action is short and feels like closure">radnja traje kratko i izgleda kao kraj incidenta</li>
-          <li data-sr="poruka pogađa trenutak zauzetosti ili žurbe" data-en="the message hits a moment of distraction or hurry">poruka pogađa trenutak zauzetosti ili žurbe</li>
-          <li data-sr="klik se tretira kao „bezbedan“ jer je tema poznata" data-en="click feels “safe” because the theme is familiar">klik se tretira kao „bezbedan“ jer je tema poznata</li>
+          <li data-sr="rečnik zvuči „sistemski“: verifikacija, potvrda, update." data-en="system-like language: verification, confirmation, update.">rečnik zvuči „sistemski“: verifikacija, potvrda, update.</li>
+          <li data-sr="radnja traže kratko i izgleda kao kraj incidenta." data-en="the action is short and feels like closure.">radnja traže kratko i izgleda kao kraj incidenta.</li>
+          <li data-sr="poruka pogađa trenutak zauzetosti ili žurbe." data-en="the message hits a moment of distraction or hurry.">poruka pogađa trenutak zauzetosti ili žurbe.</li>
+          <li data-sr="klik se tretira kao „bezbedan“ jer je tema poznata." data-en="click feels “safe” because the theme is familiar.">klik se tretira kao „bezbedan“ jer je tema poznata.</li>
         </ul>
 
         <div class="branch">
           <p><strong data-sr="Grananje u ovoj fazi" data-en="Branching in this phase">Grananje u ovoj fazi</strong></p>
           <ul class="bullets">
-            <li
-              data-sr="<strong>SMS prevara:</strong> ista šema kroz SMS, kraća i direktnija. (Povezano: <a href='SMS prevara.html'>SMS prevara</a>)"
-              data-en="<strong>Smišing:</strong> the same scheme via SMS, shorter and more direct. (Related: <a href='smishing.html'>Smishing</a>)"
-            ><strong>SMS prevara:</strong> ista šema kroz SMS, kraća i direktnija. (Povezano: <a href="smishing.html">Smishing</a>)</li>
+            <li><strong>SMS prevara:</strong> ista šema kroz SMS, krađa i direktnija. (Povezano: <a href="smishing.html">Smišing</a>).</li>
 
-            <li
-              data-sr="<strong>Marketplace vezivanje:</strong> poruka o dostavi/plaćanju uvodi formu i karticu. (Povezano: <a href='marketplace-scam.html'>Marketplace prevare</a>)"
-              data-en="<strong>Marketplace tie-in:</strong> delivery/payment messages push a form and card entry. (Related: <a href='marketplace-scam.html'>Marketplace scams</a>)"
-            ><strong>Marketplace vezivanje:</strong> poruka o dostavi/plaćanju uvodi formu i karticu. (Povezano: <a href="marketplace-scam.html">Marketplace prevare</a>)</li>
+            <li><strong>Marketplace vezivanje:</strong> poruka o dostavi/plaćanju uvodi formu i karticu. (Povezano: <a href="marketplace-scam.html">Prevare na oglasnicima</a>).</li>
           </ul>
         </div>
       </article>
@@ -164,27 +158,27 @@ window.SCAM_CONTENT["phishing"] = {
         </h3>
 
         <p
-          data-sr="U ovoj fazi meta prelazi na lažnu infrastrukturu: domen i forma pripadaju napadaču. Logo i dizajn glume poznati servis, a odlučujuća informacija je u adresnoj traci. Lažna stranica je optimizovana da traži minimum koraka koji prave maksimum štete: login, kartica, OTP."
+          data-sr="U ovoj fazi meta prelazi na lažnu infrastrukturu: domen i forma pripadaju napadaču. Logo i dizajn glume poznati servis, a odlučujuća informacija je u adresnoj traži. Lažna stranica je optimizovana da traži minimum koraka koji prave maksimum štete: login, kartica, OTP."
           data-en="Here the target moves into fake infrastructure: domain and form belong to the attacker. Logos and design mimic a real service; the decisive information is the address bar. The fake page is optimized to request minimal steps that create maximal damage: login, card, OTP."
-        >U ovoj fazi meta prelazi na lažnu infrastrukturu: domen i forma pripadaju napadaču. Logo i dizajn glume poznati servis, a odlučujuća informacija je u adresnoj traci. Lažna stranica je optimizovana da traži minimum koraka koji prave maksimum štete: login, kartica, OTP.</p>
+        >U ovoj fazi meta prelazi na lažnu infrastrukturu: domen i forma pripadaju napadaču. Logo i dizajn glume poznati servis, a odlučujuća informacija je u adresnoj traži. Lažna stranica je optimizovana da traži minimum koraka koji prave maksimum štete: login, kartica, OTP.</p>
 
         <div class="grid-2">
           <div class="phase">
             <div class="label" data-sr="Tehnički signali" data-en="Technical signals">Tehnički signali</div>
             <ul class="bullets">
-              <li data-sr="domen liči na pravi uz sitnu razliku" data-en="domain resembles the real one with a small difference">domen liči na pravi uz sitnu razliku</li>
-              <li data-sr="redirekcije i parametri sakrivaju pravo odredište" data-en="redirects and parameters hide the real destination">redirekcije i parametri sakrivaju pravo odredište</li>
-              <li data-sr="forma traži više polja nego što radnja traži" data-en="form asks for more fields than the action requires">forma traži više polja nego što radnja traži</li>
-              <li data-sr="mobilna verzija sakriva deo URL-a i smanjuje proveru" data-en="mobile view hides parts of the URL and reduces checking">mobilna verzija sakriva deo URL-a i smanjuje proveru</li>
+              <li data-sr="domen liči na pravi uz sitnu razliku." data-en="domain resembles the real one with a small difference.">domen liči na pravi uz sitnu razliku.</li>
+              <li data-sr="redirekcije i parametri sakrivaju pravo odredište." data-en="redirects and parameters hide the real destination.">redirekcije i parametri sakrivaju pravo odredište.</li>
+              <li data-sr="forma traži više polja nego što radnja traži." data-en="form asks for more fields than the action requires.">forma traži više polja nego što radnja traži.</li>
+              <li data-sr="mobilna verzija sakriva deo URL-a i smanjuje proveru." data-en="mobile view hides parts of the URL and reduces checking.">mobilna verzija sakriva deo URL-a i smanjuje proveru.</li>
             </ul>
           </div>
 
           <div class="phase">
             <div class="label" data-sr="Operativni cilj" data-en="Operational goal">Operativni cilj</div>
             <ul class="bullets">
-              <li data-sr="meta sama unosi podatke" data-en="the target enters data themselves">meta sama unosi podatke</li>
-              <li data-sr="OTP se traži kao „potvrda“, OTP radi kao autorizacija" data-en="OTP is requested as “confirmation”, OTP works as authorization">OTP se traži kao „potvrda“, OTP radi kao autorizacija</li>
-              <li data-sr="ulaz se završava za 20–60 sekundi" data-en="entry completes in 20–60 seconds">ulaz se završava za 20–60 sekundi</li>
+              <li data-sr="meta sama unosi podatke." data-en="the target enters data themselves.">meta sama unosi podatke.</li>
+              <li data-sr="OTP se traži kao „potvrda“, OTP radi kao autorizacija." data-en="OTP is requested as “confirmation”, OTP works as authorization.">OTP se traži kao „potvrda“, OTP radi kao autorizacija.</li>
+              <li data-sr="ulaz se završava za 20–60 sekundi." data-en="entry completes in 20–60 seconds.">ulaz se završava za 20–60 sekundi.</li>
             </ul>
           </div>
         </div>
@@ -202,25 +196,19 @@ window.SCAM_CONTENT["phishing"] = {
         >Hitnost skraćuje proveru. Poruka uvodi posledicu: blokada, kazna, gubitak pristupa, bezbednosni incident, obustava usluge. Rok cilja impuls i zatvara prostor za konsultaciju.</p>
 
         <ul class="bullets">
-          <li data-sr="„u narednih 30 minuta“" data-en="“within 30 minutes”">„u narednih 30 minuta“</li>
-          <li data-sr="„danas do 20h“" data-en="“today by 8pm”">„danas do 20h“</li>
-          <li data-sr="„poslednja opomena“" data-en="“final notice”">„poslednja opomena“</li>
-          <li data-sr="„odmah potvrdi“" data-en="“confirm now”">„odmah potvrdi“</li>
-          <li data-sr="„ako prekineš, nalog se zaključava“" data-en="“if you stop, the account locks”">„ako prekineš, nalog se zaključava“</li>
+          <li data-sr="„u narednih 30 minuta." data-en="“within 30 minutes”">„u narednih 30 minuta“.</li>
+          <li data-sr="„danas do 20h." data-en="“today by 8pm”">„danas do 20h“.</li>
+          <li data-sr="„poslednja opomena." data-en="“final notice”">„poslednja opomena“.</li>
+          <li data-sr="„odmah potvrdi." data-en="“confirm now”">„odmah potvrdi“.</li>
+          <li data-sr="„ako prekineš, nalog se zaključava." data-en="“if you stop, the account locks”">„ako prekineš, nalog se zaključava“.</li>
         </ul>
 
         <div class="branch">
           <p><strong data-sr="Grananje u fazi roka" data-en="Branching in the deadline phase">Grananje u fazi roka</strong></p>
           <ul class="bullets">
-            <li
-              data-sr="<strong>SMS prevara:</strong> SMS varijanta sa kratkim linkom. (Povezano: <a href='SMS prevara.html'>SMS prevara</a>)"
-              data-en="<strong>Smišing:</strong> SMS variant with a short link. (Related: <a href='smishing.html'>Smishing</a>)"
-            ><strong>SMS prevara:</strong> SMS varijanta sa kratkim linkom. (Povezano: <a href="smishing.html">Smishing</a>)</li>
+            <li><strong>SMS prevara:</strong> SMS varijanta sa kratkim linkom. (Povezano: <a href="smishing.html">Smišing</a>).</li>
 
-            <li
-              data-sr="<strong>Poziv kao eskalacija:</strong> „podrška“ zove i vodi korake uživo. (Povezano: <a href='fake-call-scam.html'>Lažni pozivi</a>)"
-              data-en="<strong>Call escalation:</strong> “support” calls and guides steps live. (Related: <a href='fake-call-scam.html'>Fake calls</a>)"
-            ><strong>Poziv kao eskalacija:</strong> „podrška“ zove i vodi korake uživo. (Povezano: <a href="fake-call-scam.html">Lažni pozivi</a>)</li>
+            <li><strong>Poziv kao eskalacija:</strong> „podrška“ zove i vodi korake uživo. (Povezano: <a href="fake-call-scam.html">Lažni pozivi</a>).</li>
           </ul>
         </div>
       </article>
@@ -240,19 +228,19 @@ window.SCAM_CONTENT["phishing"] = {
           <div class="phase">
             <div class="label" data-sr="Šta se dobija" data-en="What the attacker gets">Šta se dobija</div>
             <ul class="bullets">
-              <li data-sr="kredencijali: login podaci za servis" data-en="credentials: login data for a service">kredencijali: login podaci za servis</li>
-              <li data-sr="OTP: autorizacija prijave ili transakcije" data-en="OTP: authorization of a login or transaction">OTP: autorizacija prijave ili transakcije</li>
-              <li data-sr="kartica: mogućnost naplate pod maskom „sitnog troška“" data-en="card: ability to charge under a “small fee” mask">kartica: mogućnost naplate pod maskom „sitnog troška“</li>
-              <li data-sr="session/token: trajanje pristupa bez lozinke" data-en="session/token: access without password for a period">session/token: trajanje pristupa bez lozinke</li>
+              <li data-sr="kredencijali: login podaci za servis." data-en="credentials: login data for a service.">kredencijali: login podaci za servis.</li>
+              <li data-sr="OTP: autorizacija prijave ili transakcije." data-en="OTP: authorization of a login or transaction.">OTP: autorizacija prijave ili transakcije.</li>
+              <li data-sr="kartica: mogućnost naplate pod maskom „sitnog troška." data-en="card: ability to charge under a “small fee” mask.">kartica: mogućnost naplate pod maskom „sitnog troška“.</li>
+              <li data-sr="session/token: trajanje pristupa bez lozinke." data-en="session/token: access without password for a period.">session/token: trajanje pristupa bez lozinke.</li>
             </ul>
           </div>
 
           <div class="phase">
             <div class="label" data-sr="Zašto meta pristaje" data-en="Why the target complies">Zašto meta pristaje</div>
             <ul class="bullets">
-              <li data-sr="forma izgleda kao standardna procedura" data-en="the form looks like standard procedure">forma izgleda kao standardna procedura</li>
-              <li data-sr="rok izgleda kao realna posledica" data-en="the deadline feels like a real consequence">rok izgleda kao realna posledica</li>
-              <li data-sr="napor izgleda mali u odnosu na problem" data-en="the effort feels small compared to the problem">napor izgleda mali u odnosu na problem</li>
+              <li data-sr="forma izgleda kao standardna procedura." data-en="the form looks like standard procedure.">forma izgleda kao standardna procedura.</li>
+              <li data-sr="rok izgleda kao realna posledica." data-en="the deadline feels like a real consequence.">rok izgleda kao realna posledica.</li>
+              <li data-sr="napor izgleda mali u odnosu na problem." data-en="the effort feels small compared to the problem.">napor izgleda mali u odnosu na problem.</li>
             </ul>
           </div>
         </div>
@@ -273,18 +261,18 @@ window.SCAM_CONTENT["phishing"] = {
           <div class="phase">
             <div class="label" data-sr="Najčešći lanac" data-en="Most common chain">Najčešći lanac</div>
             <ul class="bullets">
-              <li data-sr="preuzet imejl → reset lozinki na drugim servisima" data-en="email taken over → password resets across other services">preuzet imejl → reset lozinki na drugim servisima</li>
-              <li data-sr="preuzet nalog na mreži → poruke kontaktima i nove mete" data-en="social account takeover → messages to contacts and new targets">preuzet nalog na mreži → poruke kontaktima i nove mete</li>
-              <li data-sr="poslovni kontekst → promene u uplatama i dokumentima" data-en="business context → changes in payments and documents">poslovni kontekst → promene u uplatama i dokumentima</li>
+              <li data-sr="preuzet imejl → reset lozinki na drugim servisima." data-en="email taken over → password resets across other services.">preuzet imejl → reset lozinki na drugim servisima.</li>
+              <li data-sr="preuzet nalog na mreži → poruke kontaktima i nove mete." data-en="social account takeover → messages to contacts and new targets.">preuzet nalog na mreži → poruke kontaktima i nove mete.</li>
+              <li data-sr="poslovni kontekst → promene u uplatama i dokumentima." data-en="business context → changes in payments and documents.">poslovni kontekst → promene u uplatama i dokumentima.</li>
             </ul>
           </div>
 
           <div class="phase">
             <div class="label" data-sr="Kako se održava tok" data-en="How the flow is maintained">Kako se održava tok</div>
             <ul class="bullets">
-              <li data-sr="svaka posledica se opisuje kao „još jedan korak“" data-en="each consequence is framed as “one more step”">svaka posledica se opisuje kao „još jedan korak“</li>
-              <li data-sr="rokovi i upozorenja drže fokus u uskom tunelu" data-en="deadlines and warnings keep attention in a narrow tunnel">rokovi i upozorenja drže fokus u uskom tunelu</li>
-              <li data-sr="meta pokušava da završi proceduru umesto da prekine tok" data-en="the target tries to finish the procedure instead of cutting the flow">meta pokušava da završi proceduru umesto da prekine tok</li>
+              <li data-sr="svaka posledica se opisuje kao „još jedan korak." data-en="each consequence is framed as “one more step”">svaka posledica se opisuje kao „još jedan korak“.</li>
+              <li data-sr="rokovi i upozorenja drže fokus u uskom tunelu." data-en="deadlines and warnings keep attention in a narrow tunnel.">rokovi i upozorenja drže fokus u uskom tunelu.</li>
+              <li data-sr="meta pokušava da završi proceduru umesto da prekine tok." data-en="the target tries to finish the procedure instead of cutting the flow.">meta pokušava da završi proceduru umesto da prekine tok.</li>
             </ul>
           </div>
         </div>
@@ -292,15 +280,9 @@ window.SCAM_CONTENT["phishing"] = {
         <div class="branch">
           <p><strong data-sr="Grananja posle praga" data-en="Branching after the threshold">Grananja posle praga</strong></p>
           <ul class="bullets">
-            <li
-              data-sr="<strong>Advance-fee obrazac:</strong> „takse“ kao nastavak procesa. (Povezano: <a href='advance-fee-fraud.html'>Advance-fee</a>)"
-              data-en="<strong>Obrazac gde tražiš novu uplatu:</strong> “fees” as continuation of the process. (Related: <a href='advance-fee-fraud.html'>Advance-fee</a>)"
-            ><strong>Advance-fee obrazac:</strong> „takse“ kao nastavak procesa. (Povezano: <a href="advance-fee-fraud.html">Advance-fee</a>)</li>
+            <li><strong>Advance-fee obrazac:</strong> „takse“ kao nastavak procesa. (Povezano: <a href="advance-fee-fraud.html">Uplata unapred</a>).</li>
 
-            <li
-              data-sr="<strong>Marketplace nastavak:</strong> ukradeni nalozi služe za oglase i nove kontakte. (Povezano: <a href='marketplace-scam.html'>Marketplace prevare</a>)"
-              data-en="<strong>Marketplace continuation:</strong> stolen accounts are used for listings and new contacts. (Related: <a href='marketplace-scam.html'>Marketplace scams</a>)"
-            ><strong>Marketplace nastavak:</strong> ukradeni nalozi služe za oglase i nove kontakte. (Povezano: <a href="marketplace-scam.html">Marketplace prevare</a>)</li>
+            <li><strong>Marketplace nastavak:</strong> ukradeni nalozi služe za oglase i nove kontakte. (Povezano: <a href="marketplace-scam.html">Prevare na oglasnicima</a>).</li>
           </ul>
         </div>
       </article>
@@ -319,10 +301,7 @@ window.SCAM_CONTENT["phishing"] = {
         <div class="branch">
           <p><strong data-sr="Grananje: kontrola tempa" data-en="Branching: pace control">Grananje: kontrola tempa</strong></p>
           <ul class="bullets">
-            <li
-              data-sr="<strong>Lažni pozivi:</strong> vođenje uživo, korak-po-korak. (Povezano: <a href='fake-call-scam.html'>Lažni pozivi</a>)"
-              data-en="<strong>Fake calls:</strong> live guidance, step by step. (Related: <a href='fake-call-scam.html'>Fake calls</a>)"
-            ><strong>Lažni pozivi:</strong> vođenje uživo, korak-po-korak. (Povezano: <a href="fake-call-scam.html">Lažni pozivi</a>)</li>
+            <li><strong>Lažni pozivi:</strong> vođenje uživo, korak-po-korak. (Povezano: <a href="fake-call-scam.html">Lažni pozivi</a>).</li>
           </ul>
         </div>
       </article>
@@ -341,22 +320,16 @@ window.SCAM_CONTENT["phishing"] = {
         <div class="branch">
           <p><strong data-sr="Praktična grananja" data-en="Practical branching">Praktična grananja</strong></p>
           <ul class="bullets">
-            <li
-              data-sr="<strong>Advance-fee:</strong> „takse“ kao uslov za „odblokiranje“. (Povezano: <a href='advance-fee-fraud.html'>Advance-fee</a>)"
-              data-en="<strong>Advance-fee:</strong> “fees” as a condition to “unlock”. (Related: <a href='advance-fee-fraud.html'>Advance-fee</a>)"
-            ><strong>Advance-fee:</strong> „takse“ kao uslov za „odblokiranje“. (Povezano: <a href="advance-fee-fraud.html">Advance-fee</a>)</li>
+            <li><strong>Advance-fee:</strong> „takse“ kao uslov za „odblokiranje“. (Povezano: <a href="advance-fee-fraud.html">Uplata unapred</a>).</li>
 
-            <li
-              data-sr="<strong>Crypto prelaz:</strong> kontakt i autoritet prelaze u investicioni okvir. (Povezano: <a href='crypto-scam.html'>Crypto investment</a>)"
-              data-en="<strong>Crypto transition:</strong> contact and authority shift into an investment frame. (Related: <a href='crypto-scam.html'>Crypto investment</a>)"
-            ><strong>Crypto prelaz:</strong> kontakt i autoritet prelaze u investicioni okvir. (Povezano: <a href="crypto-scam.html">Crypto investment</a>)</li>
+            <li><strong>Crypto prelaz:</strong> kontakt i autoritet prelaze u investicioni okvir. (Povezano: <a href="crypto-scam.html">Kripto investiciona prevara</a>).</li>
           </ul>
         </div>
       </article>
 
       <!-- FAZA 9 -->
       <article class="phase warn">
-        <h3 class="phase-title" data-sr="Faza 9 — Recovery (drugi napad)" data-en="Phase 9 — Recovery (second attack)">
+        <h3 class="phase-title" data-sr="Faza 9 — Recovery (drugi napad)." data-en="Phase 9 — Recovery (second attack).">
           Faza 9 — Recovery (drugi napad)
         </h3>
 
@@ -368,10 +341,7 @@ window.SCAM_CONTENT["phishing"] = {
         <div class="branch">
           <p><strong data-sr="Povezano" data-en="Related">Povezano</strong></p>
           <ul class="bullets">
-            <li
-              data-sr="<strong>Recovery scam:</strong> povrat kao mamac za novu uplatu. (Povezano: <a href='recovery-scam.html'>Recovery</a>)"
-              data-en="<strong>Recovery scam:</strong> recovery as bait for a new fee. (Related: <a href='recovery-scam.html'>Recovery</a>)"
-            ><strong>Recovery scam:</strong> povrat kao mamac za novu uplatu. (Povezano: <a href="recovery-scam.html">Recovery</a>)</li>
+            <li><strong>Recovery scam:</strong> povrat kao mamac za novu uplatu. (Povezano: <a href="recovery-scam.html">Prevara povraćaja novca</a>).</li>
           </ul>
         </div>
       </article>
@@ -379,59 +349,59 @@ window.SCAM_CONTENT["phishing"] = {
 
     <!-- 4) NAJČEŠĆI OBLICI (KONKRETNO) -->
     <section class="card">
-      <h2 data-sr="Najčešći oblici fišinga (konkretno)" data-en="Most common phishing variants (concrete)">
+      <h2 data-sr="Najčešći oblici fišinga (konkretno)." data-en="Most common phishing variants (concrete).">
         Najčešći oblici fišinga (konkretno)
       </h2>
 
-      <h3 data-sr="1) Lažni login (imejl/lozinka)" data-en="1) Fake login (email/password)">
+      <h3 data-sr="1) Lažni login (imejl/lozinka)." data-en="1) Fake login (email/password).">
         1) Lažni login (imejl/lozinka)
       </h3>
       <ul class="bullets">
-        <li data-sr="poruka najavljuje blokadu ili bezbednosni incident" data-en="message claims a lock or security incident">poruka najavljuje blokadu ili bezbednosni incident</li>
-        <li data-sr="link vodi na stranicu koja imitira servis" data-en="link leads to a page that imitates the service">link vodi na stranicu koja imitira servis</li>
-        <li data-sr="posle unosa kreće talas reset pokušaja na povezane naloge" data-en="after entry, a reset wave hits linked accounts">posle unosa kreće talas reset pokušaja na povezane naloge</li>
+        <li data-sr="poruka najavljuje blokadu ili bezbednosni incident." data-en="message claims a lock or security incident.">poruka najavljuje blokadu ili bezbednosni incident.</li>
+        <li data-sr="link vodi na stranicu koja imitira servis." data-en="link leads to a page that imitates the service.">link vodi na stranicu koja imitira servis.</li>
+        <li data-sr="posle unosa kreće talas reset pokušaja na povezane naloge." data-en="after entry, a reset wave hits linked accounts.">posle unosa kreće talas reset pokušaja na povezane naloge.</li>
       </ul>
 
-      <h3 data-sr="2) Dostava/kurir (sitni trošak → kartica)" data-en="2) Delivery/courier (small fee → card)">
+      <h3 data-sr="2) Dostava/kurir (sitni trošak → kartica)." data-en="2) Delivery/courier (small fee → card).">
         2) Dostava/kurir (sitni trošak → kartica)
       </h3>
       <ul class="bullets">
-        <li data-sr="forma traži karticu i CVV, često i OTP" data-en="form asks for card and CVV, often OTP too">forma traži karticu i CVV, često i OTP</li>
-        <li data-sr="posle prve naplate stižu novi koraci: osiguranje, ponovna dostava" data-en="after the first charge, new steps appear: insurance, re-delivery">posle prve naplate stižu novi koraci: osiguranje, ponovna dostava</li>
-        <li data-sr="varijanta često stiže i kroz SMS" data-en="variant often arrives via SMS too">varijanta često stiže i kroz SMS</li>
+        <li data-sr="forma traži karticu i CVV, često i OTP." data-en="form asks for card and CVV, often OTP too.">forma traži karticu i CVV, često i OTP.</li>
+        <li data-sr="posle prve naplate stižu novi koraci: osiguranje, ponovna dostava." data-en="after the first charge, new steps appear: insurance, re-delivery.">posle prve naplate stižu novi koraci: osiguranje, ponovna dostava.</li>
+        <li data-sr="varijanta često stiže i kroz SMS." data-en="variant often arrives via SMS too.">varijanta često stiže i kroz SMS.</li>
       </ul>
 
-      <h3 data-sr="3) Banka/transakcija (OTP kao potvrda)" data-en="3) Bank/transaction (OTP as confirmation)">
+      <h3 data-sr="3) Banka/transakcija (OTP kao potvrda)." data-en="3) Bank/transaction (OTP as confirmation).">
         3) Banka/transakcija (OTP kao potvrda)
       </h3>
       <ul class="bullets">
-        <li data-sr="poruka navodi sumnjivu transakciju ili verifikaciju" data-en="message claims suspicious transaction or verification">poruka navodi sumnjivu transakciju ili verifikaciju</li>
-        <li data-sr="lažna stranica traži login i zatim OTP" data-en="fake page asks for login then OTP">lažna stranica traži login i zatim OTP</li>
-        <li data-sr="OTP potvrđuje realnu radnju u pozadini" data-en="OTP confirms a real action in the background">OTP potvrđuje realnu radnju u pozadini</li>
+        <li data-sr="poruka navodi sumnjivu transakciju ili verifikaciju." data-en="message claims suspicious transaction or verification.">poruka navodi sumnjivu transakciju ili verifikaciju.</li>
+        <li data-sr="lažna stranica traži login i zatim OTP." data-en="fake page asks for login then OTP.">lažna stranica traži login i zatim OTP.</li>
+        <li data-sr="OTP potvrđuje realnu radnju u pozadini." data-en="OTP confirms a real action in the background.">OTP potvrđuje realnu radnju u pozadini.</li>
       </ul>
 
-      <h3 data-sr="4) Poslovni fišing (fakture, dokumenti)" data-en="4) Business phishing (invoices, documents)">
+      <h3 data-sr="4) Poslovni fišing (fakture, dokumenti)." data-en="4) Business phishing (invoices, documents).">
         4) Poslovni fišing (fakture, dokumenti)
       </h3>
       <ul class="bullets">
-        <li data-sr="imejl imitira dobavljača ili kolegu" data-en="email imitates a dobavljač or colleague">imejl imitira dobavljača ili kolegu</li>
-        <li data-sr="link/prilog vodi na login formu ili download" data-en="link/attachment leads to a login form or download">link/prilog vodi na login formu ili download</li>
-        <li data-sr="posle pristupa mailu dolaze promene na uplatama i dokumentima" data-en="after mailbox access come changes to payments and documents">posle pristupa mailu dolaze promene na uplatama i dokumentima</li>
+        <li data-sr="imejl imitira dobavljača ili kolegu." data-en="email imitates a dobavljač or colleague.">imejl imitira dobavljača ili kolegu.</li>
+        <li data-sr="link/prilog vodi na login formu ili download." data-en="link/attachment leads to a login form or download.">link/prilog vodi na login formu ili download.</li>
+        <li data-sr="posle pristupa mailu dolaze promene na uplatama i dokumentima." data-en="after mailbox access come changes to payments and documents.">posle pristupa mailu dolaze promene na uplatama i dokumentima.</li>
       </ul>
 
-      <h3 data-sr="5) „Support“ tok (poziv + daljinski pristup)" data-en="5) “Support” flow (call + kontrola računara)">
+      <h3 data-sr="5) „Support“ tok (poziv + daljinski pristup)." data-en="5) “Support” flow (call + kontrola računara).">
         5) „Support“ tok (poziv + daljinski pristup)
       </h3>
       <ul class="bullets">
-        <li data-sr="poruka uvodi pomoć kroz chat ili poziv" data-en="message introduces help via chat or call">poruka uvodi pomoć kroz chat ili poziv</li>
-        <li data-sr="predlog ide ka instalaciji programa za daljinski pristup ili deljenju ekrana" data-en="proposal moves toward remote tool installation or screen sharing">predlog ide ka instalaciji programa za daljinski pristup ili deljenju ekrana</li>
-        <li data-sr="tok prelazi u kontrolu tempa kroz glas" data-en="the flow shifts into pace control via voice">tok prelazi u kontrolu tempa kroz glas</li>
+        <li data-sr="poruka uvodi pomoć kroz chat ili poziv." data-en="message introduces help via chat or call.">poruka uvodi pomoć kroz chat ili poziv.</li>
+        <li data-sr="predlog ide ka instalaciji programa za daljinski pristup ili deljenju ekrana." data-en="proposal moves toward remote tool installation or screen sharing.">predlog ide ka instalaciji programa za daljinski pristup ili deljenju ekrana.</li>
+        <li data-sr="tok prelazi u kontrolu tempa kroz glas." data-en="the flow shifts into pace control via voice.">tok prelazi u kontrolu tempa kroz glas.</li>
       </ul>
     </section>
 
     <!-- 5) BRZE PROVERE (PRAKTIČNO) -->
     <section class="card">
-      <h2 data-sr="Brze provere (praktično)" data-en="Quick checks (practical)">
+      <h2 data-sr="Brze provere (praktično)." data-en="Quick checks (practical).">
         Brze provere (praktično)
       </h2>
 
@@ -439,20 +409,20 @@ window.SCAM_CONTENT["phishing"] = {
         <div class="phase">
           <div class="label" data-sr="Pre klika" data-en="Before clicking">Pre klika</div>
           <ul class="bullets">
-            <li data-sr="poruka uvodi hitnost i posledicu" data-en="the message introduces urgency and consequence">poruka uvodi hitnost i posledicu</li>
-            <li data-sr="poruka traži jedan brz korak koji „zatvara problem“" data-en="it demands one fast step that “closes the issue”">poruka traži jedan brz korak koji „zatvara problem“</li>
-            <li data-sr="tema pogađa rutinu: banka, dostava, nalog, dokument" data-en="topic hits routine: bank, delivery, account, document">tema pogađa rutinu: banka, dostava, nalog, dokument</li>
-            <li data-sr="poruka nema dovoljno detalja, ali traži radnju" data-en="the message lacks details but demands action">poruka nema dovoljno detalja, ali traži radnju</li>
+            <li data-sr="poruka uvodi hitnost i posledicu." data-en="the message introduces urgency and consequence.">poruka uvodi hitnost i posledicu.</li>
+            <li data-sr="poruka traži jedan brz korak koji „zatvara problem." data-en="it demands one fast step that “closes the issue”">poruka traži jedan brz korak koji „zatvara problem“.</li>
+            <li data-sr="tema pogađa rutinu: banka, dostava, nalog, dokument." data-en="topic hits routine: bank, delivery, account, document.">tema pogađa rutinu: banka, dostava, nalog, dokument.</li>
+            <li data-sr="poruka nema dovoljno detalja, ali traži radnju." data-en="the message lacks details but demands action.">poruka nema dovoljno detalja, ali traži radnju.</li>
           </ul>
         </div>
 
         <div class="phase">
           <div class="label" data-sr="Posle klika" data-en="After clicking">Posle klika</div>
           <ul class="bullets">
-            <li data-sr="provera domena: adresa mora biti tačna, bez varijacija" data-en="check the domain: it must be exact, no variants">provera domena: adresa mora biti tačna, bez varijacija</li>
-            <li data-sr="forma koja traži više polja od očekivanog traži stop-pauzu" data-en="a form asking for more than expected deserves a full stop">forma koja traži više polja od očekivanog traži stop-pauzu</li>
-            <li data-sr="OTP tretman: autorizacija, svaka autorizacija nosi rizik" data-en="OTP rule: authorization; every authorization carries risk">OTP tretman: autorizacija, svaka autorizacija nosi rizik</li>
-            <li data-sr="link iz poruke je rizičan ulaz; zvaničan ulaz je aplikacija ili ručno ukucan domen" data-en="message links are risky entry; official entry is app or typed domain">link iz poruke je rizičan ulaz; zvaničan ulaz je aplikacija ili ručno ukucan domen</li>
+            <li data-sr="provera domena: adresa mora biti tačna, bez varijacija." data-en="check the domain: it must be exact, no variants.">provera domena: adresa mora biti tačna, bez varijacija.</li>
+            <li data-sr="forma koja traži više polja od očekivanog traži stop-pauzu." data-en="a form asking for more than expected deserves a full stop.">forma koja traži više polja od očekivanog traži stop-pauzu.</li>
+            <li data-sr="OTP tretman: autorizacija, svaka autorizacija nosi rizik." data-en="OTP rule: authorization; every authorization carries risk.">OTP tretman: autorizacija, svaka autorizacija nosi rizik.</li>
+            <li data-sr="link iz poruke je rizičan ulaz; zvaničan ulaz je aplikacija ili ručno ukucan domen." data-en="message links are risky entry; official entry is app or typed domain.">link iz poruke je rizičan ulaz; zvaničan ulaz je aplikacija ili ručno ukucan domen.</li>
           </ul>
         </div>
       </div>
@@ -465,42 +435,42 @@ window.SCAM_CONTENT["phishing"] = {
 
     <!-- 6) AKO JE ŠTETA NASTALA -->
     <section class="card">
-      <h2 data-sr="Ako je šteta nastala (redosled poteza)" data-en="If damage happened (action order)">
+      <h2 data-sr="Ako je šteta nastala (redosled poteza)." data-en="If damage happened (action order).">
         Ako je šteta nastala (redosled poteza)
       </h2>
 
       <div class="phase">
         <div class="label" data-sr="Unos imejl/lozinke" data-en="Entered imejl/password">Unos imejl/lozinke</div>
         <ol class="steps">
-          <li data-sr="promena lozinke na tom nalogu" data-en="change the password on that account">promena lozinke na tom nalogu</li>
-          <li data-sr="promena lozinke na imejl nalogu (imejl otvara reset na drugim servisima)" data-en="change your email password (email enables resets on other services)">promena lozinke na imejl nalogu (imejl otvara reset na drugim servisima)</li>
-          <li data-sr="uključivanje dvofaktorska potvrda i provera recovery podataka" data-en="enable 2FA and verify recovery details">uključivanje dvofaktorska potvrda i provera recovery podataka</li>
-          <li data-sr="provera aktivnih uređaja/sesija i odjava nepoznatih" data-en="review active sessions/devices and sign out unknown ones">provera aktivnih uređaja/sesija i odjava nepoznatih</li>
+          <li data-sr="promena lozinke na tom nalogu." data-en="change the password on that account.">promena lozinke na tom nalogu.</li>
+          <li data-sr="promena lozinke na imejl nalogu (imejl otvara reset na drugim servisima)." data-en="change your email password (email enables resets on other services).">promena lozinke na imejl nalogu (imejl otvara reset na drugim servisima).</li>
+          <li data-sr="uključi dvofaktorsku potvrdu i proveri podatke za oporavak." data-en="enable 2FA and verify recovery details.">uključi dvofaktorsku potvrdu i proveri podatke za oporavak.</li>
+          <li data-sr="provera aktivnih uređaja/sesija i odjava nepoznatih." data-en="review active sessions/devices and sign out unknown ones.">provera aktivnih uređaja/sesija i odjava nepoznatih.</li>
         </ol>
       </div>
 
       <div class="phase">
         <div class="label" data-sr="Unos kartice / potvrda OTP" data-en="Entered card / confirmed OTP">Unos kartice / potvrda OTP</div>
         <ol class="steps">
-          <li data-sr="kontakt banke radi zaštite kartice i provere transakcija" data-en="contact your bank to secure the card and review transactions">kontakt banke radi zaštite kartice i provere transakcija</li>
-          <li data-sr="prijava spornih transakcija kroz zvaničan proces banke" data-en="dispute suspicious transactions via the bank’s official process">prijava spornih transakcija kroz zvaničan proces banke</li>
-          <li data-sr="čuvanje poruke, linka i detalja kao dokaza" data-en="save the message, link, and details as evidence">čuvanje poruke, linka i detalja kao dokaza</li>
+          <li data-sr="kontakt banke radi zaštite kartice i provere transakcija." data-en="contact your bank to secure the card and review transactions.">kontakt banke radi zaštite kartice i provere transakcija.</li>
+          <li data-sr="prijava spornih transakcija kroz zvaničan proces banke." data-en="dispute suspicious transactions via the bank’s official process.">prijava spornih transakcija kroz zvaničan proces banke.</li>
+          <li data-sr="čuvanje poruke, linka i detalja kao dokaza." data-en="save the message, link, and details as evidence.">čuvanje poruke, linka i detalja kao dokaza.</li>
         </ol>
       </div>
 
       <div class="phase">
         <div class="label" data-sr="Gubitak pristupa nalogu" data-en="Lost access to an account">Gubitak pristupa nalogu</div>
         <ol class="steps">
-          <li data-sr="recovery kroz zvaničan kanal servisa" data-en="use the service’s official recovery flow">recovery kroz zvaničan kanal servisa</li>
-          <li data-sr="provera promenjenih podataka (imejl, telefon, dvofaktorska potvrda) i vraćanje kontrole" data-en="check changed details (email, phone, 2FA) and regain control">provera promenjenih podataka (imejl, telefon, dvofaktorska potvrda) i vraćanje kontrole</li>
-          <li data-sr="obaveštenje kontakata ako je nalog korišćen za poruke" data-en="notify contacts if the account was used to message them">obaveštenje kontakata ako je nalog korišćen za poruke</li>
+          <li data-sr="pokreni oporavak kroz zvaničan kanal servisa." data-en="use the service’s official recovery flow.">pokreni oporavak kroz zvaničan kanal servisa.</li>
+          <li data-sr="provera promenjenih podataka (imejl, telefon, dvofaktorska potvrda) i vraćanje kontrole." data-en="check changed details (email, phone, 2FA) and regain control.">provera promenjenih podataka (imejl, telefon, dvofaktorska potvrda) i vraćanje kontrole.</li>
+          <li data-sr="obaveštenje kontakata ako je nalog korišćen za poruke." data-en="notify contacts if the account was used to message them.">obaveštenje kontakata ako je nalog korišćen za poruke.</li>
         </ol>
       </div>
 
       <div class="callout"
-        data-sr="<strong>Upozorenje:</strong> posle incidenta često stiže recovery ponuda uz uplatu. Takav kontakt tretira se kao drugi napad."
+        data-sr="<strong>Upozorenje:</strong> posle incidenta često stiže ponuda za povraćaj uz uplatu. Takav kontakt tretira se kao drugi napad."
         data-en="<strong>Warning:</strong> after an incident, recovery offers often demand payment. Treat them as a second attack."
-      ><strong>Upozorenje:</strong> posle incidenta često stiže recovery ponuda uz uplatu. Takav kontakt tretira se kao drugi napad.</div>
+      ><strong>Upozorenje:</strong> posle incidenta često stiže ponuda za povraćaj uz uplatu. Takav kontakt tretira se kao drugi napad.</div>
     </section>
 
     <!-- 7) IZ UGLA PREVARANTA -->
@@ -510,26 +480,26 @@ window.SCAM_CONTENT["phishing"] = {
       </h2>
 
       <p
-        data-sr="fišing kampanje rade kao industrija: šabloni se rotiraju, domeni se menjaju, a meta se meri po reakciji. Brz klik daje signal da se napad isplati. Sporost i pitanja traže skuplji kanal: poziv, „podrška“, nova poruka, nova forma. Nakon praga tok prelazi u operativu: reset lozinki, promene recovery podataka, nove potvrde, transferi, širenje napada kroz kontakte."
+        data-sr="fišing kampanje rade kao industrija: šabloni se rotiraju, domeni se menjaju, a meta se meri po reakciji. Brz klik daje signal da se napad isplati. Sporost i pitanja traže skuplji kanal: poziv, „podrška“, nova poruka, nova forma. Nakon praga tok prelazi u operativu: reset lozinki, promene podataka za oporavak, nove potvrde, transferi, širenje napada kroz kontakte."
         data-en="Phishing campaigns operate like an industry: templates rotate, domains change, and targets are measured by response. A fast click signals value. Hesitation and questions require a more expensive channel: calls, “support”, a new message, a new form. After the threshold the operation begins: password resets, recovery changes, new approvals, transfers, spreading through contacts."
-      >Fišing kampanje rade kao industrija: šabloni se rotiraju, domeni se menjaju, a meta se meri po reakciji. Brz klik daje signal da se napad isplati. Sporost i pitanja traže skuplji kanal: poziv, „podrška“, nova poruka, nova forma. Nakon praga tok prelazi u operativu: reset lozinki, promene recovery podataka, nove potvrde, transferi, širenje napada kroz kontakte.</p>
+      >Fišing kampanje rade kao industrija: šabloni se rotiraju, domeni se menjaju, a meta se meri po reakciji. Brz klik daje signal da se napad isplati. Sporost i pitanja traže skuplji kanal: poziv, „podrška“, nova poruka, nova forma. Nakon praga tok prelazi u operativu: reset lozinki, promene podataka za oporavak, nove potvrde, transferi, širenje napada kroz kontakte.</p>
 
       <div class="grid-2">
         <div class="phase">
           <div class="label" data-sr="Šta žele pre praga" data-en="What they want before the threshold">Šta žele pre praga</div>
           <ul class="bullets">
-            <li data-sr="klik: prelazak na kontrolisanu stranicu" data-en="click: move you onto a controlled page">klik: prelazak na kontrolisanu stranicu</li>
-            <li data-sr="unos: kredencijali, kartica, kod" data-en="entry: credentials, card, code">unos: kredencijali, kartica, kod</li>
-            <li data-sr="brzina: odluka bez provere domena" data-en="speed: decision without domain verification">brzina: odluka bez provere domena</li>
+            <li data-sr="klik: prelazak na kontrolisanu stranicu." data-en="click: more you onto a controlled page.">klik: prelazak na kontrolisanu stranicu.</li>
+            <li data-sr="unos: kredencijali, kartica, kod." data-en="entry: credentials, card, code.">unos: kredencijali, kartica, kod.</li>
+            <li data-sr="brzina: odluka bez provere domena." data-en="speed: decision without domain verification.">brzina: odluka bez provere domena.</li>
           </ul>
         </div>
 
         <div class="phase">
           <div class="label" data-sr="Šta žele posle praga" data-en="What they want after the threshold">Šta žele posle praga</div>
           <ul class="bullets">
-            <li data-sr="kontrola: promene lozinki i recovery podataka" data-en="control: password and recovery changes">kontrola: promene lozinki i recovery podataka</li>
-            <li data-sr="širenje: poruke kontaktima i nove mete" data-en="spread: messages to contacts and new targets">širenje: poruke kontaktima i nove mete</li>
-            <li data-sr="eskalacija: autoritet, takse, recovery" data-en="escalation: authority, fees, recovery">eskalacija: autoritet, takse, recovery</li>
+            <li data-sr="kontrola: promene lozinki i podataka za oporavak." data-en="control: password and recovery changes.">kontrola: promene lozinki i podataka za oporavak.</li>
+            <li data-sr="širenje: poruke kontaktima i nove mete." data-en="spread: messages to contacts and new targets.">širenje: poruke kontaktima i nove mete.</li>
+            <li data-sr="eskalacija: autoritet, takse, ponude za povraćaj." data-en="escalation: authority, fees, recovery.">eskalacija: autoritet, takse, ponude za povraćaj.</li>
           </ul>
         </div>
       </div>
@@ -547,32 +517,32 @@ window.SCAM_CONTENT["phishing"] = {
       </h2>
 
       <p
-        data-sr="fišing nije improvizacija — moderna kampanja koristi gotove kit-ove. Kit uključuje: fake stranice za popularne servise (Gmail, PayPal, banke), backend za prikupljanje podataka, imejl template-e, bypass za spam filtere, panel za monitoring. Distribucija ide preko dark web foruma ili kao fišing-as-a-service. Životni ciklus: domen registrovan pre 1–7 dana, kampanja traje 24–72h, zatim novi domen."
+        data-sr="fišing nije improvizacija — moderna kampanja koristi gotove kit-ove. Kit uključuje: fake stranice za popularne servise (Gmail, PayPal, banke), backend za prikupljanje podataka, imejl template-e, bypass za spam filtere, panel za monitoring. Distribucija ide preko dark web foruma ili kao fišing-as-a-service. Životni ciklus: domen registrovan pre 1–7 dana, kampanja traže 24–72h, zatim novi domen."
         data-en="Phishing isn't improvisation — modern campaigns use ready-made kits. A kit includes: fake pages for popular services (Gmail, PayPal, banks), backend for data collection, email templates, spam filter bypass, monitoring panel. Distribution via dark web forums or phishing-as-a-service. Lifecycle: domain registered 1–7 days ago, campaign lasts 24–72h, then new domain."
-      >Fišing nije improvizacija — moderna kampanja koristi gotove kit-ove. Kit uključuje: fake stranice za popularne servise (Gmail, PayPal, banke), backend za prikupljanje podataka, imejl template-e, bypass za spam filtere, panel za monitoring. Distribucija ide preko dark web foruma ili kao fišing-as-a-service. Životni ciklus: domen registrovan pre 1–7 dana, kampanja traje 24–72h, zatim novi domen.</p>
+      >Fišing nije improvizacija — moderna kampanja koristi gotove kit-ove. Kit uključuje: fake stranice za popularne servise (Gmail, PayPal, banke), backend za prikupljanje podataka, imejl template-e, bypass za spam filtere, panel za monitoring. Distribucija ide preko dark web foruma ili kao fišing-as-a-service. Životni ciklus: domen registrovan pre 1–7 dana, kampanja traže 24–72h, zatim novi domen.</p>
 
       <div class="grid-2">
         <div class="phase">
           <div class="label" data-sr="Što kit sadrži" data-en="What a kit contains">Što kit sadrži</div>
           <ul class="bullets">
-            <li data-sr="HTML/CSS/JS za fake stranice (20+ servisa: Gmail, Yahoo, PayPal, banke)" data-en="HTML/CSS/JS for fake pages (20+ services: Gmail, Yahoo, PayPal, banks)">HTML/CSS/JS za fake stranice (20+ servisa: Gmail, Yahoo, PayPal, banke)</li>
-            <li data-sr="PHP backend: prikupljanje kredencijala, slanje na imejl/Telegram" data-en="PHP backend: collecting credentials, sending to email/Telegram">PHP backend: prikupljanje kredencijala, slanje na imejl/Telegram</li>
-            <li data-sr="imejl template-i: 50+ varijacija (delivery, banking, account security)" data-en="email templates: 50+ variations (delivery, banking, account security)">imejl template-i: 50+ varijacija (delivery, banking, account security)</li>
-            <li data-sr="spam bypass taktike: SPF/DKIM spoofing, SMTP relay" data-en="spam bypass tactics: SPF/DKIM spoofing, SMTP relay">spam bypass taktike: SPF/DKIM spoofing, SMTP relay</li>
-            <li data-sr="admin panel: real-time monitoring ko je uneo podatke" data-en="admin panel: real-time monitoring who entered data">admin panel: real-time monitoring ko je uneo podatke</li>
-            <li data-sr="anti-lažan: IP block list za security firme, honeypots" data-en="anti-lažan: IP block list for security firms, honeypots">anti-lažan: IP block list za security firme, honeypots</li>
+            <li data-sr="HTML/CSS/JS za fake stranice (20+ servisa: Gmail, Yahoo, PayPal, banke)." data-en="HTML/CSS/JS for fake pages (20+ services: Gmail, Yahoo, PayPal, banks).">HTML/CSS/JS za fake stranice (20+ servisa: Gmail, Yahoo, PayPal, banke).</li>
+            <li data-sr="PHP backend: prikupljanje kredencijala, slanje na imejl/Telegram." data-en="PHP backend: collecting credentials, sending to email/Telegram.">PHP backend: prikupljanje kredencijala, slanje na imejl/Telegram.</li>
+            <li data-sr="imejl template-i: 50+ varijacija (delivery, banking, account security)." data-en="email templates: 50+ variations (delivery, banking, account security).">imejl template-i: 50+ varijacija (delivery, banking, account security).</li>
+            <li data-sr="spam bypass taktike: SPF/DKIM spoofing, SMTP relay." data-en="spam bypass tactics: SPF/DKIM spoofing, SMTP relay.">spam bypass taktike: SPF/DKIM spoofing, SMTP relay.</li>
+            <li data-sr="admin panel: real-time monitoring ko je uneo podatke." data-en="admin panel: real-time monitoring who entered data.">admin panel: real-time monitoring ko je uneo podatke.</li>
+            <li data-sr="anti-lažan: IP block list za security firme, honeypots." data-en="anti-lažan: IP block list for security firms, honeypots.">anti-lažan: IP block list za security firme, honeypots.</li>
           </ul>
         </div>
 
         <div class="phase">
           <div class="label" data-sr="Deployment proces" data-en="Deployment process">Deployment proces</div>
           <ul class="bullets">
-            <li data-sr="domain registracija: bulk preko registrara, često u količinama od desetina domena" data-en="domain registration: bulk via registrars, often in dozens of domains">domain registracija: bulk preko registrara, često u količinama od desetina domena</li>
-            <li data-sr="hosting: bulletproof (jurisdikcije sa slabom policijom)" data-en="hosting: bulletproof (jurisdictions with weak enforcement)">hosting: bulletproof (jurisdikcije sa slabom policijom)</li>
-            <li data-sr="imejl infrastructure: compromised SMTP servers ili mailing service" data-en="email infrastructure: compromised SMTP servers or mailing service">imejl infrastructure: compromised SMTP servers ili mailing service</li>
-            <li data-sr="kampanja: tipično hiljade do miliona emailova u 24–72h" data-en="campaign: typically thousands to millions of emails in 24–72h">kampanja: tipično hiljade do miliona emailova u 24–72h</li>
-            <li data-sr="uspešnost prevare: tipično 0.1–1% žrtava reaguje na fišing" data-en="uspešnost prevare: typically 0.1–1% of victims respond to phishing">uspešnost prevare: tipično 0.1–1% žrtava reaguje na fišing</li>
-            <li data-sr="takedown: domen reportovan, novi domen postavljen za 2–6h" data-en="takedown: domain reported, new domain set up in 2–6h">takedown: domen reportovan, novi domen postavljen za 2–6h</li>
+            <li data-sr="domain registracija: bulk preko registrara, često u količinama od desetina domena." data-en="domain registration: bulk via registrars, often in dozens of domains.">domain registracija: bulk preko registrara, često u količinama od desetina domena.</li>
+            <li data-sr="hosting: bulletproof (jurisdikcije sa slabom policijom)." data-en="hosting: bulletproof (jurisdictions with weak enforcement).">hosting: bulletproof (jurisdikcije sa slabom policijom).</li>
+            <li data-sr="imejl infrastructure: compromised SMTP servers ili mailing service." data-en="email infrastructure: compromised SMTP servers or mailing service.">imejl infrastructure: compromised SMTP servers ili mailing service.</li>
+            <li data-sr="kampanja: tipično hiljade do miliona emailova u 24–72h." data-en="campaign: typically thousands to millions of emails in 24–72h.">kampanja: tipično hiljade do miliona emailova u 24–72h.</li>
+            <li data-sr="uspešnost prevare: tipično 0.1–1% žrtava reaguje na fišing." data-en="uspešnost prevare: typically 0.1–1% of victims respond to phishing.">uspešnost prevare: tipično 0.1–1% žrtava reaguje na fišing.</li>
+            <li data-sr="takedown: domen reportovan, novi domen postavljen za 2–6h." data-en="takedown: domain reported, new domain set up in 2–6h.">takedown: domen reportovan, novi domen postavljen za 2–6h.</li>
           </ul>
         </div>
       </div>
@@ -587,15 +557,27 @@ window.SCAM_CONTENT["phishing"] = {
     <section class="card">
       <h2 data-sr="Standardna upozorenja" data-en="Standard warnings">Standardna upozorenja</h2>
       <ul class="bullets">
-        <li data-sr="poruka sa linkom i rokom traži pauzu i proveru domena" data-en="a message with a link and a deadline deserves a pause and domain check">poruka sa linkom i rokom traži pauzu i proveru domena</li>
-        <li data-sr="OTP i potvrda u aplikaciji predstavljaju autorizaciju" data-en="OTP and in-app approvals are authorization">OTP i potvrda u aplikaciji predstavljaju autorizaciju</li>
-        <li data-sr="forma koja traži karticu pod maskom „sitnog troška“ je visok rizik" data-en="a card form masked as a “small fee” is high risk">forma koja traži karticu pod maskom „sitnog troška“ je visok rizik</li>
-        <li data-sr="posle incidenta očekuj recovery poruke uz uplatu" data-en="after an incident, expect paid recovery messages">posle incidenta očekuj recovery poruke uz uplatu</li>
+        <li data-sr="poruka sa linkom i rokom traži pauzu i proveru domena." data-en="a message with a link and a deadline deserves a pause and domain check.">poruka sa linkom i rokom traži pauzu i proveru domena.</li>
+        <li data-sr="OTP i potvrda u aplikaciji predstavljaju autorizaciju." data-en="OTP and in-app approvals are authorization.">OTP i potvrda u aplikaciji predstavljaju autorizaciju.</li>
+        <li data-sr="forma koja traži karticu pod maskom „sitnog troška“ je visok rizik." data-en="a card form masked as a “small fee” is high risk.">forma koja traži karticu pod maskom „sitnog troška“ je visok rizik.</li>
+        <li data-sr="posle incidenta očekuj poruke o povraćaju uz uplatu." data-en="after an incident, expect paid recovery messages.">posle incidenta očekuj poruke o povraćaju uz uplatu.</li>
       </ul>
     </section>
 
     <!-- 9) IZVORI -->
-    <section class="card sources" id="sources">
+
+<section class="content-section">
+  <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
+  <ul class="bullets">
+    <li><a href="smishing.html" data-sr="Smishing" data-en="Smishing">Smishing</a></li>
+    <li><a href="vishing.html" data-sr="Višing" data-en="Vishing">Višing</a></li>
+    <li><a href="account-takeover.html" data-sr="Preuzimanje naloga" data-en="Account takeover">Preuzimanje naloga</a></li>
+    <li><a href="fake-call-scam.html" data-sr="Lažni pozivi" data-en="Fake calls">Lažni pozivi</a></li>
+    <li><a href="impersonation-scam.html" data-sr="Lazno predstavljanje" data-en="Impersonation scam">Lazno predstavljanje</a></li>
+  </ul>
+</section>
+
+<section class="card sources" id="sources">
       <h2 data-sr="Izvori" data-en="Sources">Izvori</h2>
       <ul>
         <li><a href="https://www.ncsc.gov.uk/guidance/phishing" target="_blank" rel="noopener noreferrer">UK NCSC — Fišing guidance</a></li>
