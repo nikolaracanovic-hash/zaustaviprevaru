@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="SIM swap: krađa podataka → lažni zahtev operateru → prenos broja → presretanje OTP → preuzimanje naloga"
+    data-sr="SIM swap: krađa podataka → lažni zahtev operateru → prenos broja → presretanje OTP → preuzimanje naloga"
+    data-en="SIM swap fraud: data theft → fake carrier request → number transfer → OTP interception → account takeover"
+  />
+  <title data-sr="SIM swap (zamena SIM kartice)" data-en="SIM swap fraud">SIM swap (zamena SIM kartice)</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="ui.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="sim-swap.content.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="cases.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+        <div class="brand">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span class="brand-name">Anti-scam</span>
+        </div>
+        <nav aria-label="Glavna navigacija">
+          <ul class="top-nav">
+            <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+            <li><a href="prevare.html" aria-current="page" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          <li><a href="protecting-elderly.html" data-sr="Zaštita" data-en="Protection">Zaštita</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="hero compact">
+        <h1 data-sr="SIM swap (zamena SIM kartice)" data-en="SIM swap fraud">SIM swap (zamena SIM kartice)</h1>
+        <p class="muted hero-sub"
+           data-sr="Krađa podataka → lažni zahtev operateru → prenos broja → presretanje OTP → preuzimanje naloga"
+           data-en="Data theft → fake carrier request → number transfer → OTP interception → account takeover">Krađa podataka → lažni zahtev operateru → prenos broja → presretanje OTP → preuzimanje naloga</p>
+        <div id="scam-meta" data-scam="sim-swap"></div>
+        <div class="callout"
+             data-sr="<strong>Prag:</strong> Iznenadni gubitak mobilnog signala bez razloga može značiti da je vaš broj prenet na tuđi SIM."
+             data-en="<strong>Threshold:</strong> A sudden unexplained loss of mobile signal may mean your number has been transferred to someone else's SIM.">
+          <strong>Prag:</strong> Iznenadni gubitak mobilnog signala bez razloga može značiti da je vaš broj prenet na tuđi SIM.
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    <div data-overview></div>
+    <div data-steps></div>
+    <div data-longform></div>
+    <div data-related></div>
+    <div data-sources></div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <p class="muted" data-sr="Anti-scam projekat — edukacija i analiza" data-en="Anti-scam project — education and analysis">
+        Anti-scam projekat — edukacija i analiza
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

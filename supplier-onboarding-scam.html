@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta
+    name="description"
+    content="Prevara pri registraciji dobavljača: lažna firma se upisuje u sistem dobavljača i fakturiše za nepostojeće ili napumpane usluge."
+    data-sr="Prevara pri registraciji dobavljača: lažna firma se upisuje u sistem dobavljača i fakturiše za nepostojeće ili napumpane usluge."
+    data-en="Supplier onboarding scam: fake company registers as a vendor and invoices for nonexistent or inflated services."
+  />
+
+  <title data-sr="Prevara pri registraciji dobavljača" data-en="Supplier onboarding scam">Prevara pri registraciji dobavljača</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="ui.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="supplier-onboarding-scam.content.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="cases.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+        <div class="brand">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span class="brand-name">Anti-scam</span>
+        </div>
+
+        <nav aria-label="Glavna navigacija">
+          <ul class="top-nav">
+            <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+            <li><a href="prevare.html" aria-current="page" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          <li><a href="protecting-elderly.html" data-sr="Zaštita" data-en="Protection">Zaštita</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="hero compact">
+        <h1
+          data-sr="Prevara pri registraciji dobavljača"
+          data-en="Supplier onboarding scam"
+        >Prevara pri registraciji dobavljača</h1>
+
+        <p class="muted hero-sub"
+           data-sr="Izviđanje (nabavni proces) → lažna firma registruje se kao dobavljač → prolaz kroz onboarding → odobrenje za uplate → fakturisanje za nepostojeće usluge → dugotrajna prevara."
+           data-en="Reconnaissance (procurement process) → fake company registers as supplier → passes onboarding → approved for payments → invoices for nonexistent services → long-running fraud.">
+          Izviđanje (nabavni proces) → lažna firma registruje se kao dobavljač → prolaz kroz onboarding → odobrenje za uplate → fakturisanje za nepostojeće usluge → dugotrajna prevara.
+        </p>
+
+        <div id="scam-meta" data-scam="supplier-onboarding-scam"></div>
+
+        <div class="callout"
+             data-sr="<strong>Prag:</strong> lažna firma dobija odobrenje za primanje uplata u sistemu dobavljača i prima prvu plaćenu fakturu bez verifikacije isporučene usluge."
+             data-en="<strong>Threshold:</strong> fake company receives payment approval in the vendor system and receives the first paid invoice without verification of delivered service.">
+          <strong>Prag:</strong> lažna firma dobija odobrenje za primanje uplata u sistemu dobavljača i prima prvu plaćenu fakturu bez verifikacije isporučene usluge.
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div data-longform></div>
+    <div data-related></div>
+    <div data-sources></div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="muted"
+         data-sr="Anti-scam projekat — edukacija i analiza"
+         data-en="Anti-scam project — education and analysis">
+        Anti-scam projekat — edukacija i analiza
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

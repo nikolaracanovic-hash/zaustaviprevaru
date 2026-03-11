@@ -3,29 +3,21 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-
   <meta
     name="description"
-    content="Scareware: lažna upozorenja o virusima koja koriste strah da bi naterala korisnike na poziv, instalaciju ili uplatu."
-    data-sr="Scareware: lažna upozorenja o virusima koja koriste strah da bi naterala korisnike na poziv, instalaciju ili uplatu."
-    data-en="Scareware: fake virus warnings that use fear to push users toward calls, installations, or payments."
+    content="Smišing prevare: SMS poruke sa lažnim linkovima za dostavu, kazne i verifikaciju. Hronološki tok, grananja i izvori."
+    data-sr="Smišing prevare: SMS poruke sa lažnim linkovima za dostavu, kazne i verifikaciju. Hronološki tok, grananja i izvori."
+    data-en="Smishing scams: SMS messages with fake links for delivery, fines, and verification. Timeline, branching, and sources."
   />
-
-  <title
-    data-sr="Scareware"
-    data-en="Scareware"
-  >Scareware</title>
-
+  <title data-sr="Smišing prevare" data-en="Smishing scams">Smišing prevare</title>
   <link rel="stylesheet" href="style.css" />
-
   <script src="ui.js" defer></script>
   <script src="data.js" defer></script>
-  <script src="scareware.content.js" defer></script>
+  <script src="smishing.content.js" defer></script>
   <script src="branches.js" defer></script>
   <script src="cases.js" defer></script>
   <script src="render.js" defer></script>
 </head>
-
 <body>
   <header class="page-header">
     <div class="container">
@@ -34,7 +26,6 @@
           <span class="brand-dot" aria-hidden="true"></span>
           <span class="brand-name">Anti-scam</span>
         </div>
-
         <nav aria-label="Glavna navigacija">
           <ul class="top-nav">
             <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
@@ -43,22 +34,18 @@
           </ul>
         </nav>
       </div>
-
       <div class="hero compact">
-        <h1 data-sr="Scareware" data-en="Scareware">Scareware</h1>
-
+        <h1 data-sr="Smišing prevare" data-en="Smishing scams">Smišing prevare</h1>
         <p class="muted hero-sub"
-           data-sr="Lažno upozorenje → panika → poziv ili instalacija → naplata ili pristup."
-           data-en="Fake warning → panic → call or installation → charges or access.">
-          Lažno upozorenje → panika → poziv ili instalacija → naplata ili pristup.
+           data-sr="SMS poruka + hitnost → link → prag (unos podataka ili kartice) → serijske posledice."
+           data-en="SMS message + urgency → link → threshold (entering data or card details) → cascading consequences.">
+          SMS poruka + hitnost → link → prag (unos podataka ili kartice) → serijske posledice.
         </p>
-
-        <div id="scam-meta" data-scam="scareware"></div>
-
+        <div id="scam-meta" data-scam="smishing"></div>
         <div class="callout"
-             data-sr="<strong>Prag:</strong> poziv na broj iz upozorenja ili instalacija ponuđenog „rešenja“. Posle praga tok prelazi u prevaru lažne tehničke podrške."
-             data-en="<strong>Threshold:</strong> calling the number in the warning or installing the offered &quot;solution&quot;. After the threshold, the flow becomes a tech support scam.">
-          <strong>Prag:</strong> poziv na broj iz upozorenja ili instalacija ponuđenog „rešenja“. Posle praga tok prelazi u prevaru lažne tehničke podrške.
+             data-sr="<strong>Prag:</strong> klik na link i unos podataka, kartice ili OTP koda u lažnu formu."
+             data-en="<strong>Threshold:</strong> clicking the link and entering data, card details, or an OTP code into a fake form.">
+          <strong>Prag:</strong> klik na link i unos podataka, kartice ili OTP koda u lažnu formu.
         </div>
       </div>
     </div>
@@ -67,8 +54,6 @@
   <main class="container">
     <div data-overview></div>
     <div data-steps></div>
-    <div data-scammer-view></div>
-
     <div data-longform></div>
     <div data-related></div>
     <div data-sources></div>

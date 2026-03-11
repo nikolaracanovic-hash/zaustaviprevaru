@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Prevara s povratom novca: Lažna podrška → preplata ili otkazana usluga → ponuda povrata → uplata ili daljinski pristup → prenos novca → gubitak"
+    data-sr="Prevara s povratom novca: Lažna podrška → preplata ili otkazana usluga → ponuda povrata → uplata ili daljinski pristup → prenos novca → gubitak"
+    data-en="Refund scam: Fake support → overcharge or cancelled service → refund offer → payment or remote access → money transfer → loss"
+  />
+  <title data-sr="Prevara s povratom novca" data-en="Refund scam">Prevara s povratom novca</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="ui.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="refund-scam.content.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="cases.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+        <div class="brand">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span class="brand-name">Anti-scam</span>
+        </div>
+        <nav aria-label="Glavna navigacija">
+          <ul class="top-nav">
+            <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+            <li><a href="prevare.html" aria-current="page" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          <li><a href="protecting-elderly.html" data-sr="Zaštita" data-en="Protection">Zaštita</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="hero compact">
+        <h1 data-sr="Prevara s povratom novca" data-en="Refund scam">Prevara s povratom novca</h1>
+        <p class="muted hero-sub"
+           data-sr="Lažna podrška → preplata ili otkazana usluga → ponuda povrata → uplata ili daljinski pristup → prenos novca → gubitak"
+           data-en="Fake support → overcharge or cancelled service → refund offer → payment or remote access → money transfer → loss">Lažna podrška → preplata ili otkazana usluga → ponuda povrata → uplata ili daljinski pristup → prenos novca → gubitak</p>
+        <div id="scam-meta" data-scam="refund-scam"></div>
+        <div class="callout"
+             data-sr="<strong>Prag:</strong> Legitimna kompanija nikad ne traži da primate novac pa vraćate razliku — ovaj model je siguran signal prevare."
+             data-en="<strong>Threshold:</strong> A legitimate company never asks you to receive money and return the difference — this model is a definitive fraud signal.">
+          <strong>Prag:</strong> Legitimna kompanija nikad ne traži da primate novac pa vraćate razliku — ovaj model je siguran signal prevare.
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    <div data-overview></div>
+    <div data-steps></div>
+    <div data-longform></div>
+    <div data-related></div>
+    <div data-sources></div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <p class="muted" data-sr="Anti-scam projekat — edukacija i analiza" data-en="Anti-scam project — education and analysis">
+        Anti-scam projekat — edukacija i analiza
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

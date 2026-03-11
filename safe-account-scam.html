@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Bezbedni nalog: banka/policija → kompromitovani račun → 'bezbedni nalog' → hitni transfer → novac nestaje"
+    data-sr="Bezbedni nalog: banka/policija → kompromitovani račun → 'bezbedni nalog' → hitni transfer → novac nestaje"
+    data-en="Safe account scam: bank/police → compromised account → 'safe account' → urgent transfer → money gone"
+  />
+  <title data-sr="Prevara sa 'bezbednim nalogom'" data-en="Safe account scam">Prevara sa 'bezbednim nalogom'</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="ui.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="safe-account-scam.content.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="cases.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+        <div class="brand">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span class="brand-name">Anti-scam</span>
+        </div>
+        <nav aria-label="Glavna navigacija">
+          <ul class="top-nav">
+            <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+            <li><a href="prevare.html" aria-current="page" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          <li><a href="protecting-elderly.html" data-sr="Zaštita" data-en="Protection">Zaštita</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="hero compact">
+        <h1 data-sr="Prevara sa 'bezbednim nalogom'" data-en="Safe account scam">Prevara sa 'bezbednim nalogom'</h1>
+        <p class="muted hero-sub"
+           data-sr="Banka/policija → kompromitovani račun → 'bezbedni nalog' → hitni transfer → novac nestaje"
+           data-en="Bank/police → compromised account → 'safe account' → urgent transfer → money gone">Banka/policija → kompromitovani račun → 'bezbedni nalog' → hitni transfer → novac nestaje</p>
+        <div id="scam-meta" data-scam="safe-account-scam"></div>
+        <div class="callout"
+             data-sr="<strong>Prag:</strong> Nijedan pravi 'bezbedni nalog' ne postoji — svaki nalog kojim vi ne upravljate direktno je nalog prevaranta."
+             data-en="<strong>Threshold:</strong> No legitimate 'safe account' exists — any account you do not directly control belongs to the fraudster.">
+          <strong>Prag:</strong> Nijedan pravi 'bezbedni nalog' ne postoji — svaki nalog kojim vi ne upravljate direktno je nalog prevaranta.
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    <div data-overview></div>
+    <div data-steps></div>
+    <div data-longform></div>
+    <div data-related></div>
+    <div data-sources></div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <p class="muted" data-sr="Anti-scam projekat — edukacija i analiza" data-en="Anti-scam project — education and analysis">
+        Anti-scam projekat — edukacija i analiza
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

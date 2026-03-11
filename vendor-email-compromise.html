@@ -6,21 +6,21 @@
 
   <meta
     name="description"
-    content="Scareware: lažna upozorenja o virusima koja koriste strah da bi naterala korisnike na poziv, instalaciju ili uplatu."
-    data-sr="Scareware: lažna upozorenja o virusima koja koriste strah da bi naterala korisnike na poziv, instalaciju ili uplatu."
-    data-en="Scareware: fake virus warnings that use fear to push users toward calls, installations, or payments."
+    content="Kompromitovanje imejla dobavljača: napadač hakuje ili lažira imejl dobavljača i šalje obaveštenje o promeni bankovnog računa — sledeće uplate odlaze na pogrešan račun."
+    data-sr="Kompromitovanje imejla dobavljača: napadač hakuje ili lažira imejl dobavljača i šalje obaveštenje o promeni bankovnog računa — sledeće uplate odlaze na pogrešan račun."
+    data-en="Vendor email compromise: attacker hacks or spoofs a supplier's email and sends a bank account change notice — subsequent payments go to the wrong account."
   />
 
   <title
-    data-sr="Scareware"
-    data-en="Scareware"
-  >Scareware</title>
+    data-sr="Kompromitovanje imejla dobavljača"
+    data-en="Vendor email compromise"
+  >Vendor email compromise</title>
 
   <link rel="stylesheet" href="style.css" />
 
   <script src="ui.js" defer></script>
   <script src="data.js" defer></script>
-  <script src="scareware.content.js" defer></script>
+  <script src="vendor-email-compromise.content.js" defer></script>
   <script src="branches.js" defer></script>
   <script src="cases.js" defer></script>
   <script src="render.js" defer></script>
@@ -45,20 +45,23 @@
       </div>
 
       <div class="hero compact">
-        <h1 data-sr="Scareware" data-en="Scareware">Scareware</h1>
+        <h1
+          data-sr="Kompromitovanje imejla dobavljača"
+          data-en="Vendor email compromise"
+        >Vendor email compromise</h1>
 
         <p class="muted hero-sub"
-           data-sr="Lažno upozorenje → panika → poziv ili instalacija → naplata ili pristup."
-           data-en="Fake warning → panic → call or installation → charges or access.">
-          Lažno upozorenje → panika → poziv ili instalacija → naplata ili pristup.
+           data-sr="Lažni dobavljač šalje 'novi IBAN' → firma plaća na pogrešan račun → prevara otkrivena kasno."
+           data-en="Fake supplier sends 'new IBAN' → company pays invoice to wrong account → fraud discovered late.">
+          Lažni dobavljač šalje 'novi IBAN' → firma plaća na pogrešan račun → prevara otkrivena kasno.
         </p>
 
-        <div id="scam-meta" data-scam="scareware"></div>
+        <div id="scam-meta" data-scam="vendor-email-compromise"></div>
 
         <div class="callout"
-             data-sr="<strong>Prag:</strong> poziv na broj iz upozorenja ili instalacija ponuđenog „rešenja“. Posle praga tok prelazi u prevaru lažne tehničke podrške."
-             data-en="<strong>Threshold:</strong> calling the number in the warning or installing the offered &quot;solution&quot;. After the threshold, the flow becomes a tech support scam.">
-          <strong>Prag:</strong> poziv na broj iz upozorenja ili instalacija ponuđenog „rešenja“. Posle praga tok prelazi u prevaru lažne tehničke podrške.
+             data-sr="<strong>Prag:</strong> firma unese novi IBAN dobavljača u sistem bez nezavisne telefonske verifikacije i izvrši sledeću uplatu."
+             data-en="<strong>Threshold:</strong> company enters the supplier's new IBAN into their system without independent phone verification and processes the next payment.">
+          <strong>Prag:</strong> firma unese novi IBAN dobavljača u sistem bez nezavisne telefonske verifikacije i izvrši sledeću uplatu.
         </div>
       </div>
     </div>

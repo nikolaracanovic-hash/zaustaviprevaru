@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Prevara sa regrutovanjem: lažni recruiter nudi posao kako bi prikupio lične podatke ili naplatio izmišljene troškove."
+    data-sr="Prevara sa regrutovanjem: lažni recruiter nudi posao kako bi prikupio lične podatke ili naplatio izmišljene troškove."
+    data-en="Recruitment scam: fake recruiter offers a job to collect personal data or charge invented fees."
+  />
+  <title data-sr="Prevara sa regrutovanjem" data-en="Recruitment scam">Prevara sa regrutovanjem</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="ui.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="recruitment-scam.content.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="cases.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+        <div class="brand">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span class="brand-name">Anti-scam</span>
+        </div>
+        <nav aria-label="Glavna navigacija">
+          <ul class="top-nav">
+            <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+            <li><a href="prevare.html" aria-current="page" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          <li><a href="protecting-elderly.html" data-sr="Zaštita" data-en="Protection">Zaštita</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="hero compact">
+        <h1 data-sr="Prevara sa regrutovanjem" data-en="Recruitment scam">Prevara sa regrutovanjem</h1>
+        <p class="muted hero-sub"
+           data-sr="Kontakt od 'recruitera' → ponuda posla → intervju → onboarding → troškovi/krađa identiteta → gubitak novca ili kompromitovani podaci."
+           data-en="Contact from recruiter → job offer → interview → onboarding → fees/identity theft → financial loss or compromised data.">
+          Kontakt od 'recruitera' → ponuda posla → intervju → onboarding → troškovi/krađa identiteta → gubitak novca ili kompromitovani podaci.
+        </p>
+        <div id="scam-meta" data-scam="recruitment-scam"></div>
+        <div class="callout"
+             data-sr="<strong>Prag:</strong> slanje ličnih dokumenata ili prva uplata za 'troškove obrade'. Od tog momenta napadač ima podatke ili novac."
+             data-en="<strong>Threshold:</strong> sending personal documents or first payment for processing fees. From that moment the attacker has data or money.">
+          <strong>Prag:</strong> slanje ličnih dokumenata ili prva uplata za 'troškove obrade'. Od tog momenta napadač ima podatke ili novac.
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="container" id="scam-content" data-scam="recruitment-scam"></main>
+  <footer class="page-footer">
+    <div class="container">
+      <p data-sr="Anti-scam edukativni portal." data-en="Anti-scam educational portal.">Anti-scam edukativni portal.</p>
+    </div>
+  </footer>
+</body>
+</html>

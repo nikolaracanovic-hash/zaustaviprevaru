@@ -2,305 +2,391 @@ window.SCAM_CONTENT = window.SCAM_CONTENT || {};
 
 window.SCAM_CONTENT["vishing"] = {
   raw_html: `
-    <!-- 1) UVOD: ŠTA JE VISHING I KAKO RADI -->
+    <!-- 1) UVOD -->
     <section class="card">
-      <h2 data-sr="Uvod: kako radi pozivna prevara" data-en="Introduction: how vishing works">
-        Uvod: kako radi pozivna prevara
-      </h2>
+      <h2
+        data-sr="Uvod: kako radi vishing"
+        data-en="Introduction: how vishing works"
+      >Uvod: kako radi vishing</h2>
 
       <p
-        data-sr="Pozivna prevara koristi glas kao primarni vektor napada. Telefon daje napadaču kontrolu tempa koju poruka ili link ne mogu da ostvare. Razgovor teče u realnom vremenu, meta reaguje na ton, hitnost i autoritet bez prostora za pauzu i proveru. Glas simulira instituciju, a tempo zatvara prozor za sumnju." data-en="Vishing uses voice as the primary attack vector. The phone gives attackers pace control that messages or links cannot achieve. The conversation flows in real time; the target reacts to tone, urgency, and authority without room to pause and verify. Voice simulates an institution while tempo closes the window for doubt."
-      >Pozivna prevara koristi glas kao primarni vektor napada. Telefon daje napadaču kontrolu tempa koju poruka ili link ne mogu da ostvare. Razgovor teče u realnom vremenu, meta reaguje na ton, hitnost i autoritet bez prostora za pauzu i proveru. Glas simulira instituciju, a tempo zatvara prozor za sumnju.</p>
+        data-sr="Višing je telefonska prevara u kojoj glas zamenjuje autoritet. Poziv stiže bez najave, okvir razgovora se postavlja u prvih 30 sekundi, a meta nema vremena za proveru. Incident je uvek hitan: sumnjiva transakcija, kompromitovan nalog, istraga, paket, prenos broja. Kada meta prihvati okvir incidenta, svaki sledeći korak deluje kao nužna procedura."
+        data-en="Vishing is a phone-based scam where voice substitutes authority. The call arrives unannounced, framing is set in the first 30 seconds, and the target has no time to verify. The incident is always urgent: suspicious transaction, compromised account, investigation, package, number porting. Once the target accepts the incident frame, every next step feels like necessary procedure."
+      >Višing je telefonska prevara u kojoj glas zamenjuje autoritet. Poziv stiže bez najave, okvir se postavlja u prvih 30 sekundi, a meta nema vremena za proveru. Incident je uvek hitan: sumnjiva transakcija, kompromitovan nalog, istraga, paket, prenos broja. Kada meta prihvati okvir incidenta, svaki sledeći korak deluje kao nužna procedura.</p>
 
       <p
-        data-sr="Mehanizam se oslanja na dva elementa: autoritet i hitnost. Poziv dolazi „iz banke”, „od policije”, „iz IT službe”, „od kurira”. Tema je uvek problem koji traži brzu reakciju: sumnjiva transakcija, blokada, bezbednosni incident, paket koji čeka. Meta dobija ulogu izvršioca koraka, dok napadač drži scenario i tempo."
-        data-en="The mechanism relies on two elements: authority and urgency. The call comes 'from the bank', 'from the police', 'from IT', 'from a courier'. The topic is always a problem requiring quick action: suspicious transaction, lock, security incident, package on hold. The target becomes a step executor while the attacker holds the script and pace."
-      >Mehanizam se oslanja na dva elementa: autoritet i hitnost. Poziv dolazi „iz banke”, „od policije”, „iz IT službe”, „od kurira”. Tema je uvek problem koji traži brzu reakciju: sumnjiva transakcija, blokada, bezbednosni incident, paket koji čeka. Meta dobija ulogu izvršioca koraka, dok napadač drži scenario i tempo.</p>
-
-      <p
-        data-sr="Šteta se realizuje kroz tri ishoda: (1) predaja kredencijala ili OTP koda, (2) instalacija programa za daljinski pristup i prepuštanje kontrole, (3) direktna uplata pod pritiskom. Često se kombinuju: poziv traži kod, zatim daljinski pristup „za pomoć”, zatim potvrdu transakcije koja izgleda kao zaštita."
-        data-en="Damage occurs through three outcomes: (1) handing over credentials or OTP codes, (2) installing remote tools and surrendering control, (3) direct payment under pressure. These often combine: a call asks for a code, then remote access to help, then confirmation of a transaction framed as protection."
-      >Šteta se realizuje kroz tri ishoda: (1) predaja kredencijala ili OTP koda, (2) instalacija programa za daljinski pristup i prepuštanje kontrole, (3) direktna uplata pod pritiskom. Često se kombinuju: poziv traži kod, zatim daljinski pristup „za pomoć”, zatim potvrdu transakcije koja izgleda kao zaštita.</p>
+        data-sr="Napadač ne prodaje ništa i ne nudi nagradu. Rešava problem koji je sam konstruisao. Tempo razgovora drži napadač: pitanja su presecana, verifikacija je odlagana, hitnost se pojačava sa svakim minutom. Poziv je operacija, ne razgovor."
+        data-en="The attacker sells nothing and offers no prize. They solve a problem they constructed. The attacker controls the call's pace: questions are cut off, verification is delayed, urgency increases with every minute. The call is an operation, not a conversation."
+      >Napadač ne prodaje ništa i ne nudi nagradu. Rešava problem koji je sam konstruisao. Tempo razgovora drži napadač: pitanja su presecana, verifikacija je odlagana, hitnost se pojačava sa svakim minutom. Poziv je operacija, ne razgovor.</p>
 
       <div class="callout"
-          data-sr="<strong>Model:</strong> poziv (autoritet + hitnost) → scenario problema → kontrola tempa → prag (kod/pristup/uplata) → serijske posledice → eskalacija → talas povraćaja" data-en="<strong>Model:</strong> call (authority + urgency) → problem scenario → pace control → threshold (code/access/payment) → cascading consequences → escalation → recovery wave"
-        ><strong>Model:</strong> poziv (autoritet + hitnost) → scenario problema → kontrola tempa → prag (kod/pristup/uplata) → serijske posledice → eskalacija → talas povraćaja</div>
+        data-sr="<strong>Prag:</strong> čitanje OTP koda, potvrda u aplikaciji, davanje lozinke, prenos na „siguran račun", instalacija aplikacije“. Posle praga napadač preuzima kontrolu nad nalogom, karticom ili sredstvima."
+        data-en="<strong>Threshold:</strong> reading an OTP code, app approval, giving a password, transferring to a &quot;safe account&quot;, installing an app. After the threshold, the attacker gains control over the account, card, or funds."
+      ><strong>Prag:</strong> čitanje OTP koda, potvrda u aplikaciji, davanje lozinke, prenos na „siguran račun“, instalacija aplikacije. Posle praga napadač preuzima kontrolu nad nalogom, karticom ili sredstvima.</div>
 
       <div class="callout"
-        data-sr="<strong>Prag:</strong> predaja koda, kredencijala, instalacija programa za daljinski pristup ili potvrda transakcije. Posle praga šteta prelazi u operativu." data-en="<strong>Threshold:</strong> handing over a code, credentials, installing remote tools, or confirming a transaction. After the threshold, damage becomes operational."
-      ><strong>Prag:</strong> predaja koda, kredencijala, instalacija programa za daljinski pristup ili potvrda transakcije. Posle praga šteta prelazi u operativu.</div>
+        data-sr="<strong>Model:</strong> poziv + autoritet → incident + rok → izolacija od provere → prag (OTP/lozinka/prenos/pristup) → serijska šteta → talas prevare povraćaja."
+        data-en="<strong>Model:</strong> call + authority → incident + deadline → isolation from verification → threshold (OTP/password/transfer/access) → cascading damage → recovery wave."
+      ><strong>Model:</strong> poziv + autoritet → incident + rok → izolacija od provere → prag (OTP/lozinka/prenos/pristup) → serijska šteta → talas prevare povraćaja.</div>
     </section>
 
-    <!-- 2) ZAŠTO GLAS PROLAZI -->
+    <!-- 2) KAKO GENERALNO RADI -->
     <section class="card">
-      <h2 data-sr="Zašto glas prolazi: prednosti poziva za napadača" data-en="Why voice works: call advantages for attackers">
-        Zašto glas prolazi: prednosti poziva za napadača
-      </h2>
+      <h2
+        data-sr="Kako generalno radi: mehanika vishinga"
+        data-en="How it works: vishing mechanics"
+      >Kako generalno radi: mehanika vishinga</h2>
 
       <p
-        data-sr="Poziv ima karakteristike koje poruka nema. Glas prenosi ton, tempo i emociju. Meta čuje autoritet pre nego što razmisli o sadržaju. Razgovor teče bez pauze za proveru domena ili konsultaciju. Napadač vodi tempo i može da eskalira pritisak u realnom vremenu." data-en="Calls have characteristics messages lack. Voice conveys tone, tempo, and emotion. The target hears authority before thinking about content. The conversation flows without pause for domain checking or consultation. The attacker controls tempo and can escalate pressure in real time."
-      >Poziv ima karakteristike koje poruka nema. Glas prenosi ton, tempo i emociju. Meta čuje autoritet pre nego što razmisli o sadržaju. Razgovor teče bez pauze za proveru domena ili konsultaciju. Napadač vodi tempo i može da eskalira pritisak u realnom vremenu.</p>
+        data-sr="Poziv kao kanal ima jednu prednost nad tekstom: tempo. Napadač diktira brzinu, nema pauze za razmišljanje, ne može da se snimi lako, ne može da se prosledi prijatelju na proveru. Emocionalni odgovor je brži od racionalnog kada je reč o glasu i autoritetu."
+        data-en="A call as a channel has one advantage over text: tempo. The attacker dictates speed, there is no pause to think, it cannot be easily saved or forwarded to a friend for checking. Emotional response to voice and authority is faster than rational analysis."
+      >Poziv kao kanal ima jednu prednost nad tekstom: tempo. Napadač diktira brzinu, nema pauze za razmišljanje, ne može da se snimi lako, ne može da se prosledi prijatelju na proveru. Emocionalni odgovor je brži od racionalnog kada je reč o glasu i autoritetu.</p>
 
       <div class="grid-2">
         <div class="phase">
-          <div class="label" data-sr="Prednosti poziva" data-en="Call advantages">Prednosti poziva</div>
+          <div class="label" data-sr="Šta gradi autoritet" data-en="What builds authority">Šta gradi autoritet</div>
           <ul class="bullets">
-            <li data-sr="kontrola tempa: napadač vodi razgovor" data-en="pace control: attacker leads the conversation">kontrola tempa: napadač vodi razgovor</li>
-            <li data-sr="autoritet kroz ton i rečnik" data-en="authority via tone and vocabulary">autoritet kroz ton i rečnik</li>
-            <li data-sr="emocija u realnom vremenu: strah, hitnost, krivica" data-en="real-time emotion: fear, urgency, guilt">emocija u realnom vremenu: strah, hitnost, krivica</li>
-            <li data-sr="nema prostora za proveru tokom razgovora" data-en="no room for verification during the call">nema prostora za proveru tokom razgovora</li>
-            <li data-sr="eskalacija pritiska bez prekida" data-en="pressure escalation without interruption">eskalacija pritiska bez prekida</li>
+            <li data-sr="spoofovani broj koji izgleda kao banka ili institucija." data-en="spoofed number appearing as a bank or institution.">spoofovani broj koji izgleda kao banka ili institucija.</li>
+            <li data-sr="službeni ton, terminologija, broj predmeta ili slučaja." data-en="official tone, terminology, case or reference number.">službeni ton, terminologija, broj predmeta ili slučaja.</li>
+            <li data-sr="„prebacivanje na supervizora“ kao pojačanje autoriteta." data-en="&quot;transferring to a supervisor&quot; as an authority boost.">„prebacivanje na supervizora“ kao pojačanje autoriteta.</li>
+            <li data-sr="insistiranje da meta „ne sme da otkriva nikome." data-en="insisting that the target &quot;must not tell anyone&quot;.">insistiranje da meta „ne sme da otkriva nikome“.</li>
           </ul>
         </div>
 
         <div class="phase">
-          <div class="label" data-sr="Gde meta gubi" data-en="Where targets fail">Gde meta gubi</div>
+          <div class="label" data-sr="Kako se uvodi radnja" data-en="How action is introduced">Kako se uvodi radnja</div>
           <ul class="bullets">
-            <li data-sr="prihvatanje autoriteta bez provere broja" data-en="accepting authority without verifying the number">prihvatanje autoriteta bez provere broja</li>
-            <li data-sr="izvršavanje koraka dok je poziv aktivan" data-en="executing steps while the call is active">izvršavanje koraka dok je poziv aktivan</li>
-              <li data-sr="davanje kodova kao „potvrde”" data-en="giving codes as confirmations">davanje kodova kao „potvrde”</li>
-              <li data-sr="instalacija programa za daljinski pristup „za pomoć”" data-en="installing remote tools to help">instalacija programa za daljinski pristup „za pomoć”</li>
-            <li data-sr="potvrda transakcije bez pauze" data-en="confirming transactions without pause">potvrda transakcije bez pauze</li>
+            <li data-sr="incident postavlja hitnost: transakcija, istraga, paket, SIM." data-en="incident sets urgency: transaction, investigation, package, SIM.">incident postavlja hitnost: transakcija, istraga, paket, SIM.</li>
+            <li data-sr="radnja se predstavlja kao jedini način da se incident zaustavi." data-en="action is presented as the only way to stop the incident.">radnja se predstavlja kao jedini način da se incident zaustavi.</li>
+            <li data-sr="rok je kratak: „sledećih 10 minuta“, „pre krađa radnog vremena." data-en="deadline is short: &quot;next 10 minutes&quot;, &quot;before end of business&quot;.">rok je kratak: „sledećih 10 minuta“, „pre krađa radnog vremena“.</li>
+            <li data-sr="svaki pokušaj provere se odbija kao „gubitak vremena." data-en="every verification attempt is dismissed as &quot;wasting time&quot;.">svaki pokušaj provere se odbija kao „gubitak vremena“.</li>
           </ul>
         </div>
       </div>
-
-      <div class="callout"
-        data-sr="<strong>Ključna razlika:</strong> kod fišinga meta ima vremena da proveri domen. Kod pozivnih prevara napadač drži tempo i ne pušta pauzu." data-en="<strong>Key difference:</strong> in phishing, the target has time to check the domain. In vishing, the attacker holds tempo and doesn't allow pauses."
-      ><strong>Ključna razlika:</strong> kod fišinga meta ima vremena da proveri domen. Kod pozivnih prevara napadač drži tempo i ne pušta pauzu.</div>
     </section>
 
     <!-- 3) HRONOLOŠKI TOK -->
     <section class="card">
-      <h2 data-sr="Hronološki tok (faze + grananja)" data-en="Timeline (phases + branching)">
-        Hronološki tok (faze + grananja)
-      </h2>
+      <h2
+        data-sr="Hronološki tok: faze vishinga"
+        data-en="Timeline: vishing phases"
+      >Hronološki tok: faze vishinga</h2>
 
       <p class="muted"
-        data-sr="pozivna prevara tok je kompresovan: poziv, scenario, pritisak i prag dolaze u minutima. Faze ispod pokazuju tipičan obrazac." data-en="Vishing flow is compressed: call, scenario, pressure, and threshold arrive in minutes. Phases below show the typical pattern."
-      >Pozivna prevara tok je kompresovan: poziv, scenario, pritisak i prag dolaze u minutima. Faze ispod pokazuju tipičan obrazac.</p>
+        data-sr="Poziv traže 5–30 minuta. Faze se kompresuju, menjaju redosled ili se preskakaju u zavisnosti od taktike."
+        data-en="A call lasts 5–30 minutes. Phases compress, reorder, or skip depending on tactics."
+      >Poziv traže 5–30 minuta. Faze se kompresuju, menjaju redosled ili se preskakaju u zavisnosti od taktike.</p>
 
-      <!-- FAZA 1 -->
+      <!-- Faza 1 -->
       <article class="phase">
-        <h3 class="phase-title" data-sr="Faza 1 — Poziv: autoritet i kontekst" data-en="Phase 1 — Call: authority and context">
-          Faza 1 — Poziv: autoritet i kontekst
-        </h3>
+        <h3 class="phase-title"
+          data-sr="Faza 1 — Kontakt: uspostavljanje autoritetnog okvira"
+          data-en="Phase 1 — Contact: establishing an authoritative frame"
+        >Faza 1 — Kontakt: uspostavljanje autoritetnog okvira</h3>
 
         <p
-          data-sr="Poziv stiže sa brojem koji može da liči na zvaničan (spoofing) ili sa nepoznatog broja uz objašnjenje. Ton je profesionalan, rečnik institucijski. Meta prima informaciju o „problemu” koji zahteva reakciju."
-          data-en="The call arrives from a number that may look official (spoofing) or from an unknown number with an explanation. Tone is professional, vocabulary institutional. The target receives information about a 'problem' requiring action."
-        >Poziv stiže sa brojem koji može da liči na zvaničan (spoofing) ili sa nepoznatog broja uz objašnjenje. Ton je profesionalan, rečnik institucijski. Meta prima informaciju o „problemu” koji zahteva reakciju.</p>
-
-        <div class="grid-2">
-          <div class="phase">
-            <div class="label" data-sr="Tipični scenariji" data-en="Typical scenarios">Tipični scenariji</div>
-            <ul class="bullets">
-              <li data-sr="„banka” — sumnjiva transakcija" data-en="'bank' — suspicious transaction">„banka” — sumnjiva transakcija</li>
-              <li data-sr="„policija” — istraga, blokada" data-en="'police' — investigation, freeze">„policija” — istraga, blokada</li>
-              <li data-sr="„IT podrška” — bezbednosni incident" data-en="'IT support' — security incident">„IT podrška” — bezbednosni incident</li>
-              <li data-sr="„kurir/carina” — paket, taksa" data-en="'courier/customs' — package, fee">„kurir/carina” — paket, taksa</li>
-              <li data-sr="„teleoperater” — problem sa nalogom" data-en="'telecom' — account issue">„teleoperater” — problem sa nalogom</li>
-            </ul>
-          </div>
-          <div class="phase">
-            <div class="label" data-sr="Šta napadač postiže" data-en="What the attacker achieves">Šta napadač postiže</div>
-            <ul class="bullets">
-              <li data-sr="uspostavlja autoritet pre pitanja" data-en="establishes authority before questions">uspostavlja autoritet pre pitanja</li>
-              <li data-sr="uvodi hitnost kao okvir" data-en="introduces urgency as the frame">uvodi hitnost kao okvir</li>
-              <li data-sr="preuzima tok razgovora" data-en="takes control of the conversation flow">preuzima tok razgovora</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="callout"
-          data-sr="<strong>Prag faze:</strong> meta prihvata scenario i ostaje na liniji." data-en="<strong>Threshold:</strong> target accepts the scenario and stays on the line."
-        ><strong>Prag faze:</strong> meta prihvata scenario i ostaje na liniji.</div>
-      </article>
-
-      <!-- FAZA 2 -->
-      <article class="phase">
-        <h3 class="phase-title" data-sr="Faza 2 — Scenario: problem i posledica" data-en="Phase 2 — Scenario: problem and consequence">
-          Faza 2 — Scenario: problem i posledica
-        </h3>
-
-        <p
-          data-sr="Napadač opisuje „problem” sa konkretnim detaljima koji deluju interno: iznos transakcije, datum, lokacija, „case ID”. Detalji stvaraju utisak da pozivalac ima pristup sistemu. Posledica se predstavlja kao ozbiljna: gubitak novca, pravne posledice, blokada."
-          data-en="The attacker describes a 'problem' with concrete details that seem internal: transaction amount, date, location, 'case ID'. Details create the impression the caller has system access. Consequences are framed as serious: money loss, legal issues, account lock."
-        >Napadač opisuje „problem” sa konkretnim detaljima koji deluju interno: iznos transakcije, datum, lokacija, „case ID”. Detalji stvaraju utisak da pozivalac ima pristup sistemu. Posledica se predstavlja kao ozbiljna: gubitak novca, pravne posledice, blokada.</p>
+          data-sr="Poziv stiže sa spoofovanim brojem ili „+0“ prefiksom koji izgleda zvanično. Napadač se predstavlja kao zaposleni u banci, policiji, kurirskoj službi, operateru ili tehničkoj podršci. Incident se uvodi odmah: „detektovali smo sumnjivu aktivnost."
+          data-en="The call arrives with a spoofed number or a &quot;+0&quot; prefix that looks official. The attacker introduces themselves as a bank employee, police officer, courier, carrier, or tech support. The incident is introduced immediately: &quot;we detected suspicious activity&quot;."
+        >Poziv stiže sa spoofovanim brojem ili „+0“ prefiksom koji izgleda zvanično. Napadač se predstavlja kao zaposleni u banci, policiji, kurirskoj službi, operateru ili tehničkoj podršci. Incident se uvodi odmah: „detektovali smo sumnjivu aktivnost“.</p>
 
         <ul class="bullets">
-          <li data-sr="„vidimo transakciju od 847 EUR u 14:32”" data-en="we see a transaction of €847 at 14:32">„vidimo transakciju od 847 EUR u 14:32”</li>
-          <li data-sr="„vaš nalog je kompromitovan”" data-en="your account has been compromised">„vaš nalog je kompromitovan”</li>
-          <li data-sr="„ako ne reagujemo, novac odlazi”" data-en="if we don't act, the money is gone">„ako ne reagujemo, novac odlazi”</li>
-          <li data-sr="„imate pravo na zaštitu, ali morate da sarađujete”" data-en="you're entitled to protection, but you must cooperate">„imate pravo na zaštitu, ali morate da sarađujete”</li>
+          <li data-sr="broj koji poziva izgleda kao broj banke ili institucije." data-en="the calling number looks like a bank or institution number.">broj koji poziva izgleda kao broj banke ili institucije.</li>
+          <li data-sr="napadač odmah pominje puno ime i prezime mete." data-en="the attacker immediately mentions the target's full name.">napadač odmah pominje puno ime i prezime mete.</li>
+          <li data-sr="uvođenje incidenta u prvih 20 sekundi bez pauze." data-en="incident is introduced in the first 20 seconds without pause.">uvođenje incidenta u prvih 20 sekundi bez pauze.</li>
+          <li data-sr="ton je ozbiljan ali profesionalan — ne preteći direktno." data-en="tone is serious but professional — not directly threatening.">ton je ozbiljan ali profesionalan — ne preteći direktno.</li>
         </ul>
 
-        <div class="callout"
-          data-sr="<strong>Prag faze:</strong> meta prihvata hitnost i traži rešenje umesto provere." data-en="<strong>Threshold:</strong> target accepts urgency and seeks a solution instead of verification."
-        ><strong>Prag faze:</strong> meta prihvata hitnost i traži rešenje umesto provere.</div>
+        <p class="muted"
+          data-sr="Prag faze 1: meta prihvata identitet pozivaoca i ulazi u razgovor o incidentu."
+          data-en="Phase 1 threshold: target accepts the caller's identity and engages in the incident conversation."
+        >Prag faze 1: meta prihvata identitet pozivaoca i ulazi u razgovor o incidentu.</p>
       </article>
 
-      <!-- FAZA 3 -->
-      <article class="phase warn">
-        <h3 class="phase-title" data-sr="Faza 3 — Kontrola tempa: vođenje koraka" data-en="Phase 3 — Pace control: guiding steps">
-          Faza 3 — Kontrola tempa: vođenje koraka
-        </h3>
+      <!-- Faza 2 -->
+      <article class="phase">
+        <h3 class="phase-title"
+          data-sr="Faza 2 — Incident: izgradnja hitnosti"
+          data-en="Phase 2 — Incident: building urgency"
+        >Faza 2 — Incident: izgradnja hitnosti</h3>
 
         <p
-          data-sr="Napadač vodi metu kroz korake dok drži liniju otvorenom. Svaki korak deluje kao deo rešenja: „otvorite aplikaciju”, „recite mi kod”, „instalirajte alat za podršku”, „potvrdite transfer”. Meta izvršava jer prekid poziva izgleda kao odustajanje od zaštite."
-          data-en="The attacker guides the target through steps while keeping the line open. Each step appears part of the solution: 'open the app', 'tell me the code', 'install the support tool', 'confirm the transfer'. The target complies because hanging up feels like abandoning protection."
-        >Napadač vodi metu kroz korake dok drži liniju otvorenom. Svaki korak deluje kao deo rešenja: „otvorite aplikaciju”, „recite mi kod”, „instalirajte alat za podršku”, „potvrdite transfer”. Meta izvršava jer prekid poziva izgleda kao odustajanje od zaštite.</p>
-
-        <div class="grid-2">
-          <div class="phase">
-            <div class="label" data-sr="Tipični zahtevi" data-en="Typical requests">Tipični zahtevi</div>
-            <ul class="bullets">
-              <li data-sr="„recite mi kod koji ste dobili”" data-en="tell me the code you received">„recite mi kod koji ste dobili”</li>
-              <li data-sr="„instalirajte AnyDesk/TeamViewer”" data-en="install AnyDesk/TeamViewer">„instalirajte AnyDesk/TeamViewer”</li>
-              <li data-sr="„potvrdite u aplikaciji”" data-en="confirm in the app">„potvrdite u aplikaciji”</li>
-              <li data-sr="„prebacite na siguran račun”" data-en="transfer to a safe account">„prebacite na siguran račun”</li>
-            </ul>
-          </div>
-          <div class="phase">
-            <div class="label" data-sr="Kako drže tempo" data-en="How they maintain pace">Kako drže tempo</div>
-            <ul class="bullets">
-              <li data-sr="ne puštaju pauzu za razmišljanje" data-en="don't allow pause for thinking">ne puštaju pauzu za razmišljanje</li>
-              <li data-sr="svaki korak vodi u sledeći" data-en="each step leads to the next">svaki korak vodi u sledeći</li>
-              <li data-sr="prekid se opisuje kao rizik" data-en="hanging up is framed as risk">prekid se opisuje kao rizik</li>
-              <li data-sr="pitanja se tretiraju kao gubljenje vremena" data-en="questions are treated as wasting time">pitanja se tretiraju kao gubljenje vremena</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="branch">
-          <p><strong data-sr="Grananja u ovoj fazi" data-en="Branching at this phase">Grananja u ovoj fazi</strong></p>
-          <ul class="bullets">
-            <li
-              data-sr="<strong>Tehnička podrška:</strong> program za daljinski pristup kao „pomoć”. (Povezano: tech-support-scam)"
-              data-en="<strong>Tech support:</strong> remote tool as help. (Related: tech-support-scam)"
-            ><strong>Tehnička podrška:</strong> program za daljinski pristup kao „pomoć”. (Povezano: tech-support-scam)</li>
-            <li
-              data-sr="<strong>Fišing eskalacija:</strong> link tokom poziva. (Povezano: <a href='phishing.html'>fišing</a>)" data-en="<strong>Phishing escalation:</strong> link during the call. (Related: <a href='phishing.html'>Phishing</a>)"
-            ><strong>Fišing eskalacija:</strong> link tokom poziva. (Povezano: <a href="phishing.html">fišing</a>)</li>
-          </ul>
-        </div>
-      </article>
-
-      <!-- FAZA 4 -->
-      <article class="phase bad">
-        <h3 class="phase-title" data-sr="Faza 4 — Prag: kod, pristup ili uplata" data-en="Phase 4 — Threshold: code, access, or payment">
-          Faza 4 — Prag: kod, pristup ili uplata
-        </h3>
-
-        <p
-          data-sr="Prag nastaje kada meta preda kontrolu: OTP kod, lozinka, daljinski pristup ili potvrda transakcije. U tom trenutku napadač dobija mogućnost da izvrši radnju koja ima finansijsku posledicu. Meta često ne shvata prag jer radnja izgleda kao zaštita." data-en="The threshold occurs when the target surrenders control: OTP code, password, remote access, or transaction confirmation. At that moment the attacker gains the ability to execute an action with financial consequences. Targets often don't recognize the threshold because the action looks like protection."
-        >Prag nastaje kada meta preda kontrolu: OTP kod, lozinka, daljinski pristup ili potvrda transakcije. U tom trenutku napadač dobija mogućnost da izvrši radnju koja ima finansijsku posledicu. Meta često ne shvata prag jer radnja izgleda kao zaštita.</p>
-
-        <div class="grid-2">
-          <div class="phase">
-            <div class="label" data-sr="Šta se predaje" data-en="What gets surrendered">Šta se predaje</div>
-            <ul class="bullets">
-              <li data-sr="OTP/SMS kod kao autorizacija" data-en="OTP/SMS code as authorization">OTP/SMS kod kao autorizacija</li>
-              <li data-sr="lozinka ili PIN" data-en="password or PIN">lozinka ili PIN</li>
-              <li data-sr="daljinski pristup (AnyDesk/TeamViewer)" data-en="remote access (AnyDesk/TeamViewer)">daljinski pristup (AnyDesk/TeamViewer)</li>
-              <li data-sr="potvrda transakcije u aplikaciji" data-en="in-app transaction confirmation">potvrda transakcije u aplikaciji</li>
-              <li data-sr="podaci kartice" data-en="card details">podaci kartice</li>
-            </ul>
-          </div>
-          <div class="phase">
-            <div class="label" data-sr="Kako se prodaje" data-en="How it's sold">Kako se prodaje</div>
-            <ul class="bullets">
-              <li data-sr="„kod je za verifikaciju”" data-en="the code is for verification">„kod je za verifikaciju”</li>
-              <li data-sr="„prebacujemo na siguran račun”" data-en="we're transferring to a safe account">„prebacujemo na siguran račun”</li>
-              <li data-sr="„daljinski pristup je za zaštitu”" data-en="remote access is for protection">„daljinski pristup je za zaštitu”</li>
-              <li data-sr="„potvrdite da blokirate sumnjivu transakciju”" data-en="confirm to block the suspicious transaction">„potvrdite da blokirate sumnjivu transakciju”</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="callout"
-          data-sr="<strong>Crvena zastavica:</strong> banka nikada ne traži kod, lozinku ili daljinski pristup telefonom." data-en="<strong>Red flag:</strong> banks never ask for codes, passwords, or kontrola računara over the phone."
-        ><strong>Crvena zastavica:</strong> banka nikada ne traži kod, lozinku ili daljinski pristup telefonom.</div>
-      </article>
-
-      <!-- FAZA 5 -->
-      <article class="phase bad">
-        <h3 class="phase-title" data-sr="Faza 5 — Serijske posledice" data-en="Phase 5 — Cascading consequences">
-          Faza 5 — Serijske posledice
-        </h3>
-
-        <p
-          data-sr="Posle praga kreće lanac: naplate, promene lozinki, prijave sa novih uređaja, poruke kontaktima. Ako je daljinski pristup aktivan, napadač može da izvršava radnje direktno. Meta često ostaje na liniji misleći da „rešava problem” dok šteta raste."
-          data-en="After the threshold, a chain starts: charges, password changes, logins from new devices, messages to contacts. If remote access is active, the attacker can execute actions directly. The target often stays on the line thinking they're 'solving the problem' while damage grows."
-        >Posle praga kreće lanac: naplate, promene lozinki, prijave sa novih uređaja, poruke kontaktima. Ako je daljinski pristup aktivan, napadač može da izvršava radnje direktno. Meta često ostaje na liniji misleći da „rešava problem” dok šteta raste.</p>
-
-        <div class="branch">
-          <p><strong data-sr="Grananja posle praga" data-en="Branching after threshold">Grananja posle praga</strong></p>
-          <ul class="bullets">
-            <li
-              data-sr="<strong>preuzimanje naloga:</strong> preuzimanje naloga sa ukradenim kredencijalima. (Povezano: account-takeover)" data-en="<strong>Preuzimanje naloga:</strong> taking over accounts with stolen credentials. (Related: account-takeover)"
-            ><strong>Preuzimanje naloga:</strong> preuzimanje naloga sa ukradenim kredencijalima. (Povezano: account-takeover)</li>
-            <li
-              data-sr="<strong>Avansna uplata:</strong> „takse” kao uslov za povrat. (Povezano: <a href='advance-fee-fraud.html'>avansna uplata</a>)"
-              data-en="<strong>Advance-fee:</strong> fees as a condition for reversal. (Related: <a href='advance-fee-fraud.html'>Advance-fee</a>)"
-            ><strong>Avansna uplata:</strong> „takse” kao uslov za povrat. (Povezano: <a href="advance-fee-fraud.html">avansna uplata</a>)</li>
-          </ul>
-        </div>
-      </article>
-
-      <!-- FAZA 6 -->
-      <article class="phase warn">
-        <h3 class="phase-title" data-sr="Faza 6 — Pritisak i produživanje" data-en="Phase 6 — Pressure and extension">
-          Faza 6 — Pritisak i produživanje
-        </h3>
-
-        <p
-          data-sr="Kada meta posumnja ili pokuša da prekine, napadač pojačava pritisak: posledice, rokovi, krivica, novi identitet („supervizor”, „pravna služba”). Cilj je vratiti metu u tok i izvući još jednu radnju."
-          data-en="When the target doubts or tries to stop, the attacker intensifies pressure: consequences, deadlines, guilt, new identity ('supervisor', 'legal department'). The goal is to pull the target back into the flow and extract another action."
-        >Kada meta posumnja ili pokuša da prekine, napadač pojačava pritisak: posledice, rokovi, krivica, novi identitet („supervizor”, „pravna služba”). Cilj je vratiti metu u tok i izvući još jednu radnju.</p>
+          data-sr="Napadač opisuje incident sa detaljima: iznosi, datumi, lokacije. Meta dobija osećaj da je napadač upoznat sa njenim nalogom ili situacijom. Detalji često potiču iz javno dostupnih podataka ili prethodnih curenja podataka."
+          data-en="The attacker describes the incident with details: amounts, dates, locations. The target feels the attacker knows their account or situation. Details often come from publicly available data or previous data breaches."
+        >Napadač opisuje incident sa detaljima: iznosi, datumi, lokacije. Meta dobija osećaj da je napadač upoznat sa njenim nalogom ili situacijom. Detalji često potiču iz javno dostupnih podataka ili prethodnih curenja podataka.</p>
 
         <ul class="bullets">
-          <li data-sr="„ako prekinete, gubite zaštitu”" data-en="if you hang up, you lose protection">„ako prekinete, gubite zaštitu”</li>
-          <li data-sr="„prebacujem vas na supervizora”" data-en="I'm transferring you to a supervisor">„prebacujem vas na supervizora”</li>
-          <li data-sr="„imate još 10 minuta pre nego što se slučaj zatvori”" data-en="you have 10 minutes before the case closes">„imate još 10 minuta pre nego što se slučaj zatvori”</li>
+          <li data-sr="pominjanje tačnih iznosa, datuma ili lokacija stvara uverenje." data-en="mentioning exact amounts, dates, or locations creates credibility.">pominjanje tačnih iznosa, datuma ili lokacija stvara uverenje.</li>
+          <li data-sr="incident je vremenski ograničen: „sledeća 3 minuta su ključna." data-en="the incident is time-limited: &quot;the next 3 minutes are critical&quot;.">incident je vremenski ograničen: „sledeća 3 minuta su ključna“.</li>
+          <li data-sr="metama se sugeriše da su žrtve krađe ili greške sistema." data-en="targets are suggested to be victims of theft or a system error.">metama se sugeriše da su žrtve krađe ili greške sistema.</li>
+          <li data-sr="eskalacija tona ako meta pokuša da postavi pitanje." data-en="tone escalates if the target tries to ask a question.">eskalacija tona ako meta pokuša da postavi pitanje.</li>
         </ul>
+
+        <p class="muted"
+          data-sr="Prag faze 2: meta veruje da je incident realan i da treba da reaguje brzo."
+          data-en="Phase 2 threshold: target believes the incident is real and that they need to act quickly."
+        >Prag faze 2: meta veruje da je incident realan i da treba da reaguje brzo.</p>
+
+        <div class="note"
+          data-sr="Grananja u ovoj fazi: ako meta ne reaguje na hitnost → prebacivanje na lažnu policiju ili „supervizora“; ako meta traži verifikaciju → „verifikacija se ne može uraditi telefonom."
+          data-en="Branching in this phase: if the target does not respond to urgency → transfer to fake police or a &quot;supervisor&quot;; if the target requests verification → &quot;verification cannot be done over the phone&quot;."
+        >Grananja u ovoj fazi: ako meta ne reaguje na hitnost → prebacivanje na lažnu policiju ili „supervizora“; ako meta traži verifikaciju → „verifikacija se ne može uraditi telefonom“.</div>
       </article>
 
-      <!-- FAZA 7 -->
-      <article class="phase warn">
-        <h3 class="phase-title" data-sr="Faza 7 — Talas povraćaja" data-en="Phase 7 — Recovery wave">
-          Faza 7 — Talas povraćaja
-        </h3>
+      <!-- Faza 3 -->
+      <article class="phase">
+        <h3 class="phase-title"
+          data-sr="Faza 3 — Izolacija: zabrana konsultacije"
+          data-en="Phase 3 — Isolation: blocking consultation"
+        >Faza 3 — Izolacija: zabrana konsultacije</h3>
 
         <p
-          data-sr="Posle incidenta stiže novi kontakt koji nudi povrat uz uplatu. Kontakt koristi detalje prethodnog napada kao „dokaz”. Ovo je tipičan drugi talas koji cilja istu metu."
-          data-en="After the incident, a new contact offers recovery for a payment. They use details from the previous attack as 'proof'. This is a typical second wave targeting the same victim."
-        >Posle incidenta stiže novi kontakt koji nudi povrat uz uplatu. Kontakt koristi detalje prethodnog napada kao „dokaz”. Ovo je tipičan drugi talas koji cilja istu metu.</p>
+          data-sr="Ključna faza vishinga: napadač eksplicitno zabranjuje meti da kontaktira bilo koga, odloži poziv ili proveri pozivaoca. Razlog je uvek „zaštita istrage“ ili „sprečavanje curenja“. U stvarnosti izoluje metu od svakog ko bi mogao prepoznati prevaru."
+          data-en="The critical vishing phase: the attacker explicitly forbids the target from contacting anyone, putting the call on hold, or verifying the caller. The reason is always &quot;protecting the investigation&quot; or &quot;preventing leaks&quot;. In reality it isolates the target from anyone who might recognize the scam."
+        >Ključna faza vishinga: napadač eksplicitno zabranjuje meti da kontaktira bilo koga, odloži poziv ili proveri pozivaoca. Razlog je uvek „zaštita istrage“ ili „sprečavanje curenja“. U stvarnosti izoluje metu od svakog ko bi mogao prepoznati prevaru.</p>
 
-        <div class="branch">
-          <p><strong data-sr="Povezano" data-en="Related">Povezano</strong></p>
-          <ul class="bullets">
-            <li
-              data-sr="<strong>Prevara povraćaja:</strong> povrat kao mamac. (Povezano: <a href='recovery-scam.html'>prevara povraćaja</a>)" data-en="<strong>Recovery scam:</strong> recovery as bait. (Related: <a href='recovery-scam.html'>Recovery</a>)"
-            ><strong>Prevara povraćaja:</strong> povrat kao mamac. (Povezano: <a href="recovery-scam.html">prevara povraćaja</a>)</li>
-          </ul>
-        </div>
+        <ul class="bullets">
+          <li data-sr="„ne sme da odloži slušalicu jer se gubi veza sa sistemom." data-en="&quot;cannot hang up or the system connection will be lost&quot;.">„ne sme da odloži slušalicu jer se gubi veza sa sistemom“.</li>
+          <li data-sr="„ne sme da govori nikome jer je istraga poverljiva." data-en="&quot;cannot tell anyone because the investigation is confidential&quot;.">„ne sme da govori nikome jer je istraga poverljiva“.</li>
+          <li data-sr="„ne sme da zove banku direktno jer su kompromitovani." data-en="&quot;cannot call the bank directly because they are compromised&quot;.">„ne sme da zove banku direktno jer su kompromitovani“.</li>
+          <li data-sr="„ne sme da pita porodicu jer bi to upozorilo prevarante." data-en="&quot;cannot ask family because that would alert the fraudsters&quot;.">„ne sme da pita porodicu jer bi to upozorilo prevarante“.</li>
+        </ul>
+
+        <p class="muted"
+          data-sr="Prag faze 3: meta ostaje na liniji i prestaje da traži nezavisnu potvrdu."
+          data-en="Phase 3 threshold: target stays on the line and stops seeking independent confirmation."
+        >Prag faze 3: meta ostaje na liniji i prestaje da traži nezavisnu potvrdu.</p>
+      </article>
+
+      <!-- Faza 4 -->
+      <article class="phase">
+        <h3 class="phase-title"
+          data-sr="Faza 4 — Prag: izvlačenje autorizacije"
+          data-en="Phase 4 — Threshold: extracting authorization"
+        >Faza 4 — Prag: izvlačenje autorizacije</h3>
+
+        <p
+          data-sr="Napadač traži jedan konkretan korak koji opisuje kao proceduru zaštite. OTP kod je „potreban za blokadu transakcije“. Lozinka je „verifikacija identiteta“. Prenos na „siguran račun“ je „privremena zaštita sredstava“. Svaki od ovih koraka je u stvarnosti autorizacija koju napadač čeka."
+          data-en="The attacker requests one concrete step, described as a protection procedure. The OTP is &quot;needed to block the transaction&quot;. The password is &quot;identity verification&quot;. The transfer to a &quot;safe account&quot; is &quot;temporary asset protection&quot;. Each of these steps is actually the authorization the attacker is waiting for."
+        >Napadač traži jedan konkretan korak koji opisuje kao proceduru zaštite. OTP kod je „potreban za blokadu transakcije“. Lozinka je „verifikacija identiteta“. Prenos na „siguran račun“ je „privremena zaštita sredstava“. Svaki od ovih koraka je u stvarnosti autorizacija koju napadač čeka.</p>
+
+        <ul class="bullets">
+          <li data-sr="OTP kod koji stiže SMS-om — napadač čeka ga u realnom vremenu." data-en="OTP code arriving via SMS — attacker waits for it in real time.">OTP kod koji stiže SMS-om — napadač čeka ga u realnom vremenu.</li>
+          <li data-sr="potvrda u mobilnoj aplikaciji banke pod izgovorom „blokade." data-en="mobile banking app approval under the pretense of &quot;blocking&quot;.">potvrda u mobilnoj aplikaciji banke pod izgovorom „blokade“.</li>
+          <li data-sr="lozinka za nalog ili PIN kartice za „verifikaciju identiteta." data-en="account password or card PIN for &quot;identity verification&quot;.">lozinka za nalog ili PIN kartice za „verifikaciju identiteta“.</li>
+          <li data-sr="prenos novca na „siguran“ ili „privremeni“ nalog." data-en="money transfer to a &quot;safe&quot; or &quot;temporary&quot; account.">prenos novca na „siguran“ ili „privremeni“ nalog.</li>
+          <li data-sr="instalacija aplikacije za daljinski pristup „za dijagnostiku." data-en="installation of a remote access app &quot;for diagnostics&quot;.">instalacija aplikacije za daljinski pristup „za dijagnostiku“.</li>
+        </ul>
+
+        <p class="muted"
+          data-sr="Prag faze 4: meta izvršava traženu radnju. Od ovog trenutka šteta je u toku."
+          data-en="Phase 4 threshold: target executes the requested action. From this point, damage is in progress."
+        >Prag faze 4: meta izvršava traženu radnju. Od ovog trenutka šteta je u toku.</p>
+
+        <div class="note"
+          data-sr="Grananja u ovoj fazi: OTP → preuzimanje naloga; prenos → „siguran nalog“; instalacija → daljinski pristup i dalji nadzor; lozinka → kompromitacija imejl naloga."
+          data-en="Branching in this phase: OTP → account takeover; transfer → &quot;safe account&quot;; installation → remote access and further surveillance; password → email account compromise."
+        >Grananja u ovoj fazi: OTP → preuzimanje naloga; prenos → „siguran nalog“; instalacija → daljinski pristup i dalji nadzor; lozinka → kompromitacija imejl naloga.</div>
+      </article>
+
+      <!-- Faza 5 -->
+      <article class="phase">
+        <h3 class="phase-title"
+          data-sr="Faza 5 — Eskalacija: novi zahtevi"
+          data-en="Phase 5 — Escalation: new demands"
+        >Faza 5 — Eskalacija: novi zahtevi</h3>
+
+        <p
+          data-sr="Kada je prag pređen, napadač nastavlja. Novi incident nastaje: „nalog je i dalje ugrožen“, „treba još jedna potvrda“, „istraga se širi“. Meta se priprema na seriju novih zahteva, jer svaki prethodni korak povećava ulaganje i otežava odustajanje."
+          data-en="Once the threshold is crossed, the attacker continues. A new incident emerges: &quot;the account is still at risk&quot;, &quot;one more confirmation is needed&quot;, &quot;the investigation is expanding&quot;. The target is set up for a series of new demands, because each prior step increases investment and makes stopping harder."
+        >Kada je prag pređen, napadač nastavlja. Novi incident nastaje: „nalog je i dalje ugrožen“, „treba još jedna potvrda“, „istraga se širi“. Meta se priprema na seriju novih zahteva, jer svaki prethodni korak povećava ulaganje i otežava odustajanje.</p>
+
+        <ul class="bullets">
+          <li data-sr="„prenos je delimičan — treba dopuniti da bi zaštita bila potpuna." data-en="&quot;the transfer was partial — it needs to be topped up for full protection&quot;.">„prenos je delimičan — treba dopuniti da bi zaštita bila potpuna“.</li>
+          <li data-sr="prebacivanje na drugog „agenta“ koji ima novi zahtev." data-en="transfer to another &quot;agent&quot; with a new demand.">prebacivanje na drugog „agenta“ koji ima novi zahtev.</li>
+          <li data-sr="„sledeća 24 sata su kritična — nemojte da pravite nikakve transakcije." data-en="&quot;the next 24 hours are critical — do not make any transactions&quot;.">„sledeća 24 sata su kritična — nemojte da pravite nikakve transakcije“.</li>
+          <li data-sr="obećanje povrata svih sredstava po završetku „istrage." data-en="promise of a full refund after the &quot;investigation&quot; concludes.">obećanje povrata svih sredstava po završetku „istrage“.</li>
+        </ul>
+
+        <p class="muted"
+          data-sr="Prag faze 5: meta nastavlja da sarađuje i ne prekida komunikaciju."
+          data-en="Phase 5 threshold: target continues cooperation and does not break communication."
+        >Prag faze 5: meta nastavlja da sarađuje i ne prekida komunikaciju.</p>
+      </article>
+
+      <!-- Faza 6 -->
+      <article class="phase">
+        <h3 class="phase-title"
+          data-sr="Faza 6 — Nestanak i talas prevare povraćaja"
+          data-en="Phase 6 — Disappearance and recovery wave"
+        >Faza 6 — Nestanak i talas prevare povraćaja</h3>
+
+        <p
+          data-sr="Kada napadač izvuče ono što je tražio ili meta postane sumnjičava, kontakt prestaje. Posle toga sledi talas prevare povraćaja: novi poziv od „istražitelja“ koji nudi povrat novca uz novu naknadu. Ovo je sekundarna prevara koja cilja iste žrtve."
+          data-en="Once the attacker extracts what they wanted or the target becomes suspicious, contact ceases. After that comes the recovery wave: a new call from an &quot;investigator&quot; offering to return the money for a new fee. This is a secondary scam targeting the same victims."
+        >Kada napadač izvuče ono što je tražio ili meta postane sumnjičava, kontakt prestaje. Posle toga sledi talas prevare povraćaja: novi poziv od „istražitelja“ koji nudi povrat novca uz novu naknadu. Ovo je sekundarna prevara koja cilja iste žrtve.</p>
+
+        <ul class="bullets">
+          <li data-sr="kontakt iznenada prestaje bez objašnjenja." data-en="contact stops suddenly without explanation.">kontakt iznenada prestaje bez objašnjenja.</li>
+          <li data-sr="meta pokušava da stupi u kontakt i dobija tišinu ili poruku „broj nije u upotrebi." data-en="the target tries to reconnect and gets silence or a &quot;number not in service&quot; message.">meta pokušava da stupi u kontakt i dobija tišinu ili poruku „broj nije u upotrebi“.</li>
+          <li data-sr="danima ili nedelju dana kasnije novi poziv nudi „povrat“ uz uplatu naknade." data-en="days or a week later, a new call offers a &quot;refund&quot; that requires an upfront fee.">danima ili nedelju dana kasnije novi poziv nudi „povrat“ uz uplatu naknade.</li>
+          <li data-sr="meta se prepoznaje kao cilj za recovery prevare jer se zna da je platila." data-en="target is recognized as a recovery scam target because it's known they paid.">meta se prepoznaje kao cilj za recovery prevare jer se zna da je platila.</li>
+        </ul>
+
+        <p class="muted"
+          data-sr="Prag faze 6: meta prihvata i recovery ponudu, čime ulazi u drugi krug gubitaka."
+          data-en="Phase 6 threshold: target accepts the recovery offer, entering a second round of losses."
+        >Prag faze 6: meta prihvata i recovery ponudu, čime ulazi u drugi krug gubitaka.</p>
+      </article>
+
+      <!-- Faza 7 -->
+      <article class="phase">
+        <h3 class="phase-title"
+          data-sr="Faza 7 — Zloupotreba pribavljenih podataka"
+          data-en="Phase 7 — Exploitation of obtained data"
+        >Faza 7 — Zloupotreba pribavljenih podataka</h3>
+
+        <p
+          data-sr="Lozinke, OTP kodovi i podaci pribavljeni vishingom ne nestaju sa završetkom poziva. Napadač ih koristi za preuzimanje naloga, podizanje kredita, otvaranje novih naloga ili prodaju podataka na crnom tržištu."
+          data-en="Passwords, OTP codes, and data obtained through vishing do not disappear when the call ends. The attacker uses them for account takeover, loan applications, opening new accounts, or selling data on dark markets."
+        >Lozinke, OTP kodovi i podaci pribavljeni vishingom ne nestaju sa završetkom poziva. Napadač ih koristi za preuzimanje naloga, podizanje kredita, otvaranje novih naloga ili prodaju podataka na crnom tržištu.</p>
+
+        <ul class="bullets">
+          <li data-sr="preuzimanje email naloga → pristup svim servisima vezanim za email." data-en="email account takeover → access to all services linked to that email.">preuzimanje email naloga → pristup svim servisima vezanim za email.</li>
+          <li data-sr="podizanje pozajmica ili kredita na ime žrtve." data-en="taking out loans or credits in the victim's name.">podizanje pozajmica ili kredita na ime žrtve.</li>
+          <li data-sr="prodaja kompletnog paketa podataka na dark web forumima." data-en="selling the complete data package on dark web forums.">prodaja kompletnog paketa podataka na dark web forumima.</li>
+          <li data-sr="ciljanje porodice i kontakata žrtve novim napadima." data-en="targeting the victim's family and contacts with new attacks.">ciljanje porodice i kontakata žrtve novim napadima.</li>
+        </ul>
+
+        <p class="muted"
+          data-sr="Prag faze 7: podaci koji su pribavljeni vishingom ulaze u širi sistem zloupotrebe."
+          data-en="Phase 7 threshold: data obtained through vishing enters a broader exploitation system."
+        >Prag faze 7: podaci koji su pribavljeni vishingom ulaze u širi sistem zloupotrebe.</p>
       </article>
     </section>
 
-    <!-- 4) TIPIČNE VARIJANTE -->
+    <!-- 4) CRVENE ZASTAVICE -->
     <section class="card">
-      <h2 data-sr="Tipične varijante pozivnih prevara" data-en="Common vishing call variants">
-        Tipične varijante pozivnih prevara
-      </h2>
+      <h2
+        data-sr="Crvene zastavice: šta prepoznati"
+        data-en="Red flags: what to recognize"
+      >Crvene zastavice: šta prepoznati</h2>
 
-      <h3 data-sr="1) Banka / sumnjiva transakcija" data-en="1) Bank / suspicious transaction">
-        1) Banka / sumnjiva transakcija
-      </h3>
       <ul class="bullets">
-        <li data-sr="poziv najavljuje sumnjivu transakciju ili kompromitovan nalog" data-en="call announces suspicious transaction or compromised account">poziv najavljuje sumnjivu transakciju ili kompromitovan nalog</li>
-        <li data-sr="traži OTP kod „za verifikaciju” ili „za blokadu”" data-en="asks for an OTP code 'for verification' or 'to block'">traži OTP kod „za verifikaciju” ili „za blokadu”</li>
-        <li data-sr="Izvor: FTC — vodič za fišing i višing." data-en="Source: FTC — phishing and vishing guidance.">Izvor: FTC — vodič za fišing i višing.</li>
+        <li data-sr="pozivalac odmah uvodi incident bez mogućnosti potvrde." data-en="caller immediately introduces an incident without offering confirmation.">pozivalac odmah uvodi incident bez mogućnosti potvrde.</li>
+        <li data-sr="zabrana da se poziv prekine ili da se sazove neko treće lice." data-en="prohibition on hanging up or involving a third party.">zabrana da se poziv prekine ili da se sazove neko treće lice.</li>
+        <li data-sr="insistiranje da je razgovor poverljiv i da se ne sme deliti." data-en="insistence that the conversation is confidential and must not be shared.">insistiranje da je razgovor poverljiv i da se ne sme deliti.</li>
+        <li data-sr="traženje OTP koda, lozinke ili PIN-a tokom poziva." data-en="requesting OTP code, password, or PIN during the call.">traženje OTP koda, lozinke ili PIN-a tokom poziva.</li>
+        <li data-sr="prenos novca na „siguran“ ili „privremeni“ nalog." data-en="transfer of money to a &quot;safe&quot; or &quot;temporary&quot; account.">prenos novca na „siguran“ ili „privremeni“ nalog.</li>
+        <li data-sr="napadač kaže da „nema vremena za proveru“ ili da je provera nemoguća." data-en="the attacker says there is &quot;no time to verify&quot; or that verification is impossible.">napadač kaže da „nema vremena za proveru“ ili da je provera nemoguća.</li>
+        <li data-sr="poziv dolazi sa brojem koji izgleda kao institucija, ali ne radi kada ga pozoveš direktno." data-en="the call comes from a number that looks like an institution but does not work when you call it directly.">poziv dolazi sa brojem koji izgleda kao institucija, ali ne radi kada ga pozoveš direktno.</li>
+        <li data-sr="povećanje pritiska kada meta pokuša da odloži odluku." data-en="pressure increases when the target tries to delay a decision.">povećanje pritiska kada meta pokuša da odloži odluku.</li>
+        <li data-sr="prebacivanje na „supervizora“ koji ponavlja isti zahtev." data-en="a &quot;supervisor&quot; takes over and repeats the same request.">prebacivanje na „supervizora“ koji ponavlja isti zahtev.</li>
+        <li data-sr="napadač zna detalje koji nisu javni (što zvuči kao dokaz legitimiteta)." data-en="attacker knows non-public details (which seems to prove legitimacy).">napadač zna detalje koji nisu javni (što zvuči kao dokaz legitimiteta).</li>
+        <li data-sr="zahtev za instalacijom aplikacije radi „dijagnostike“ ili „zaštite." data-en="a request to install an app for &quot;diagnostics&quot; or &quot;protection&quot;.">zahtev za instalacijom aplikacije radi „dijagnostike“ ili „zaštite“.</li>
+      </ul>
+    </section>
+
+    <!-- 5) PROVERE -->
+    <section class="card">
+      <h2
+        data-sr="Provere: 8 brzih koraka"
+        data-en="Checks: 8 quick steps"
+      >Provere: 8 brzih koraka</h2>
+
+      <ul class="bullets">
+        <li data-sr="odmah prekini poziv — banka ili institucija neće prigovoriti." data-en="hang up immediately — a real bank or institution will not object.">odmah prekini poziv — banka ili institucija neće prigovoriti.</li>
+        <li data-sr="zovi broj sa poleđine kartice ili sa zvaničnog sajta — ne broj koji ti je dat tokom poziva." data-en="call the number on the back of your card or official website — not the number given during the call.">zovi broj sa poleđine kartice ili sa zvaničnog sajta — ne broj koji ti je dat tokom poziva.</li>
+        <li data-sr="nijedna institucija ne traži OTP kod koji ti stiže SMS-om." data-en="no institution asks for an OTP code that arrives by SMS.">nijedna institucija ne traži OTP kod koji ti stiže SMS-om.</li>
+        <li data-sr="nijedna institucija ne traži lozinku ili PIN tokom poziva." data-en="no institution asks for your password or PIN over the phone.">nijedna institucija ne traži lozinku ili PIN tokom poziva.</li>
+        <li data-sr="prenos na „siguran nalog“ je uvek prevara — banke to ne rade." data-en="a transfer to a &quot;safe account&quot; is always a scam — banks do not do this.">prenos na „siguran nalog“ je uvek prevara — banke to ne rade.</li>
+        <li data-sr="pitaj porodicu ili prijatelja pre nego što uradiš bilo šta — napadač želi da ostaneš sam." data-en="ask family or a friend before doing anything — the attacker wants you alone.">pitaj porodicu ili prijatelja pre nego što uradiš bilo šta — napadač želi da ostaneš sam.</li>
+        <li data-sr="proveri broj koji je pozvao nezavisno — putem pretrage ili direktnog poziva instituciji." data-en="verify the calling number independently — via a search or a direct call to the institution.">proveri broj koji je pozvao nezavisno — putem pretrage ili direktnog poziva instituciji.</li>
+        <li data-sr="ako si već dao podatke — odmah zovi banku i blokiraj karticu." data-en="if you already gave data — call your bank immediately and block the card.">ako si već dao podatke — odmah zovi banku i blokiraj karticu.</li>
+      </ul>
+    </section>
+
+    <!-- 6) CHECKLISTA -->
+    <section class="card">
+      <h2
+        data-sr="Checklista pre radnje tokom poziva"
+        data-en="Checklist before acting during a call"
+      >Checklista pre radnje tokom poziva</h2>
+
+      <ul class="bullets">
+        <li data-sr="da li sam ja inicirao ovaj poziv?" data-en="did I initiate this call myself?">da li sam ja inicirao ovaj poziv?</li>
+        <li data-sr="da li me pozivalac traži da nešto uradim odmah bez pauze?" data-en="is the caller asking me to do something right now without a pause?">da li me pozivalac traži da nešto uradim odmah bez pauze?</li>
+        <li data-sr="da li mi zabranjuju da proverim sa nekom drugom osobom?" data-en="are they forbidding me to check with another person?">da li mi zabranjuju da proverim sa nekom drugom osobom?</li>
+        <li data-sr="da li traže OTP koji mi je upravo stigao?" data-en="are they asking for an OTP that just arrived?">da li traže OTP koji mi je upravo stigao?</li>
+        <li data-sr="da li traže prenos na nalog koji nisam pre koristio?" data-en="are they asking for a transfer to an account I've never used?">da li traže prenos na nalog koji nisam pre koristio?</li>
+        <li data-sr="da li mi govore da je razgovor poverljiv?" data-en="are they telling me the call is confidential?">da li mi govore da je razgovor poverljiv?</li>
+        <li data-sr="da li se broj koji me zove poklapa sa brojem institucije kada ga direktno pozovem?" data-en="does the number that called me match the institution's number when I call it directly?">da li se broj koji me zove poklapa sa brojem institucije kada ga direktno pozovem?</li>
+        <li data-sr="da li mi kažu da ne smem da odložim slušalicu?" data-en="are they saying I cannot hang up?">da li mi kažu da ne smem da odložim slušalicu?</li>
+        <li data-sr="da li traže instalaciju aplikacije radi „zaštite“?" data-en="are they requesting app installation for &quot;protection&quot;?">da li traže instalaciju aplikacije radi „zaštite“?</li>
+        <li data-sr="da li mi je dato dovoljno vremena da potvrdim identitet pozivaoca nezavisno?" data-en="have I been given enough time to independently verify the caller's identity?">da li mi je dato dovoljno vremena da potvrdim identitet pozivaoca nezavisno?</li>
+        <li data-sr="da li obećavaju da će mi novac biti vraćen po završetku „procedure“?" data-en="are they promising my money will be returned after the &quot;procedure&quot; is done?">da li obećavaju da će mi novac biti vraćen po završetku „procedure“?</li>
+        <li data-sr="da li pritisak raste svaki put kada pokušam da usporim tempo?" data-en="does pressure increase every time I try to slow down?">da li pritisak raste svaki put kada pokušam da usporim tempo?</li>
+      </ul>
+    </section>
+
+    <!-- 7) AKO SUMNJA KRENE -->
+    <section class="card">
+      <h2
+        data-sr="Ako sumnja krene: redosled poteza"
+        data-en="If suspicion starts: order of actions"
+      >Ako sumnja krene: redosled poteza</h2>
+
+      <ul class="bullets">
+        <li data-sr="odmah prekini poziv — ne objašnjavaj, samo prekini." data-en="hang up immediately — no need to explain, just hang up.">odmah prekini poziv — ne objašnjavaj, samo prekini.</li>
+        <li data-sr="ne pozivaj nazad na isti broj — kontaktiraj instituciju direktno putem poznatog broja." data-en="do not call back on the same number — contact the institution directly using a known number.">ne pozivaj nazad na isti broj — kontaktiraj instituciju direktno putem poznatog broja.</li>
+        <li data-sr="ako si dao OTP ili lozinku — odmah promeni lozinku i pozovi banku." data-en="if you gave an OTP or password — change password immediately and call the bank.">ako si dao OTP ili lozinku — odmah promeni lozinku i pozovi banku.</li>
+        <li data-sr="ako si dao broj kartice ili PIN — odmah blokiraj karticu." data-en="if you gave a card number or PIN — block the card immediately.">ako si dao broj kartice ili PIN — odmah blokiraj karticu.</li>
+        <li data-sr="ako si instalirao aplikaciju — odmah je deinstaluj i pokreni skeniranje uređaja." data-en="if you installed an app — uninstall it immediately and run a device scan.">ako si instalirao aplikaciju — odmah je deinstaluj i pokreni skeniranje uređaja.</li>
+        <li data-sr="prijavi incident banci, policiji i CERT-u." data-en="report the incident to your bank, police, and CERT.">prijavi incident banci, policiji i CERT-u.</li>
+      </ul>
+    </section>
+
+    <!-- 8) AKO POMAŽEŠ NEKOME -->
+    <section class="card">
+      <h2
+        data-sr="Ako pokušavaš da pomogneš nekome"
+        data-en="If you are trying to help someone"
+      >Ako pokušavaš da pomogneš nekome</h2>
+
+      <p class="muted"
+        data-sr="Pitanja koja rade:"
+        data-en="Questions that work:"
+      >Pitanja koja rade:</p>
+
+      <ul class="bullets">
+        <li data-sr="„Da li si ti pozvao banku ili je banka pozvala tebe?." data-en="&quot;Did you call the bank or did the bank call you?&quot;.">„Da li si ti pozvao banku ili je banka pozvala tebe?“.</li>
+        <li data-sr="„Da li su tražili OTP koji ti je stigao SMS-om?." data-en="&quot;Did they ask for an OTP that arrived by SMS?&quot;.">„Da li su tražili OTP koji ti je stigao SMS-om?“.</li>
+        <li data-sr="„Da li su rekli da ne smeš da govoriš nikome?." data-en="&quot;Did they say you must not tell anyone?&quot;.">„Da li su rekli da ne smeš da govoriš nikome?“.</li>
+        <li data-sr="„Da li su tražili da instaliraš nešto ili da preneseš novac?." data-en="&quot;Did they ask you to install something or transfer money?&quot;.">„Da li su tražili da instaliraš nešto ili da preneseš novac?“.</li>
+      </ul>
+
+      <p class="muted"
+        data-sr="Rečenice koje rade:"
+        data-en="Phrases that work:"
+      >Rečenice koje rade:</p>
+
+      <ul class="bullets">
+        <li data-sr="„Nijedna banka ne traži OTP koji ti stiže SMS-om“.." data-en="&quot;No bank asks for an OTP that arrives by SMS.&quot;.">„Nijedna banka ne traži OTP koji ti stiže SMS-om“.“.</li>
+        <li data-sr="„Ako ti zabrane da proveriš ili da pričaš sa nekim, to je signal“.." data-en="&quot;If they forbid you from verifying or talking to someone, that is the signal.&quot;.">„Ako ti zabrane da proveriš ili da pričaš sa nekim, to je signal“.“.</li>
+        <li data-sr="„Prekini poziv i zovi banku sa broja na poleđini kartice“.." data-en="&quot;Hang up and call the bank using the number on the back of the card.&quot;.">„Prekini poziv i zovi banku sa broja na poleđini kartice“.“.</li>
+        <li data-sr="„Ne instaliraj ništa što ti pošalju dok si na liniji“.." data-en="&quot;Do not install anything they send while you are on the line.&quot;.">„Ne instaliraj ništa što ti pošalju dok si na liniji“.“.</li>
+      </ul>
+    </section>
+
+    <!-- 9) POVEZANE PREVARE -->
+    <section class="content-section">
+      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
+      <ul class="bullets">
+        <li><a href="phishing.html" data-sr="Fišing." data-en="Phishing.">Fišing</a></li>
+        <li><a href="smishing.html" data-sr="Smishing." data-en="Smishing.">Smishing</a></li>
+        <li><a href="fake-call-scam.html" data-sr="Lažni pozivi." data-en="Fake calls.">Lažni pozivi</a></li>
+        <li><a href="bank-impersonation.html" data-sr="Lažna banka." data-en="Bank impersonation.">Lažna banka</a></li>
+        <li><a href="otp-interception.html" data-sr="Presretanje OTP koda." data-en="OTP interception.">Presretanje OTP koda</a></li>
+        <li><a href="account-takeover.html" data-sr="Preuzimanje naloga." data-en="Account takeover.">Preuzimanje naloga</a></li>
       </ul>
     </section>
   `

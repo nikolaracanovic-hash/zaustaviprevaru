@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Reshipping prevara: lažni posao gde žrtva prima ukradenu robu na kućnu adresu i prosleđuje je u inostranstvo."
+    data-sr="Reshipping prevara: lažni posao gde žrtva prima ukradenu robu na kućnu adresu i prosleđuje je u inostranstvo."
+    data-en="Reshipping scam: fake job where the victim receives stolen goods at their home address and forwards them abroad."
+  />
+  <title data-sr="Reshipping prevara" data-en="Reshipping scam">Reshipping prevara</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="ui.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="reshipping-scam.content.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="cases.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+        <div class="brand">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span class="brand-name">Anti-scam</span>
+        </div>
+        <nav aria-label="Glavna navigacija">
+          <ul class="top-nav">
+            <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+            <li><a href="prevare.html" aria-current="page" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          <li><a href="protecting-elderly.html" data-sr="Zaštita" data-en="Protection">Zaštita</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="hero compact">
+        <h1 data-sr="Reshipping prevara" data-en="Reshipping scam">Reshipping prevara</h1>
+        <p class="muted hero-sub"
+           data-sr="Oglas za posao → 'shipping agent' pozicija → kućna adresa za dostavu → prosleđivanje ukradene robe → istraga dolazi do žrtve."
+           data-en="Job ad → shipping agent position → home address for delivery → forwarding stolen goods → investigation traces to victim.">
+          Oglas za posao → 'shipping agent' pozicija → kućna adresa za dostavu → prosleđivanje ukradene robe → istraga dolazi do žrtve.
+        </p>
+        <div id="scam-meta" data-scam="reshipping-scam"></div>
+        <div class="callout"
+             data-sr="<strong>Prag:</strong> prihvatanje prvog paketa na kućnu adresu i prosleđivanje po uputstvima. Kućna adresa žrtve postaje deo kriminalnog lanca."
+             data-en="<strong>Threshold:</strong> accepting the first package at the home address and forwarding it per instructions. The victim's home address becomes part of the criminal chain.">
+          <strong>Prag:</strong> prihvatanje prvog paketa na kućnu adresu i prosleđivanje po uputstvima. Kućna adresa žrtve postaje deo kriminalnog lanca.
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="container" id="scam-content" data-scam="reshipping-scam"></main>
+  <footer class="page-footer">
+    <div class="container">
+      <p data-sr="Anti-scam edukativni portal." data-en="Anti-scam educational portal.">Anti-scam edukativni portal.</p>
+    </div>
+  </footer>
+</body>
+</html>

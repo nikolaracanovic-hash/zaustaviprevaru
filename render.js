@@ -362,7 +362,10 @@
     dedupeFirstCardHeading();
     // If we're on prevare.html, re-render the index list
     if (document.getElementById("scam-index")) {
-      renderIndex();
+      updateCatalogHeroCount();
+      var input = document.getElementById("scam-search");
+      var q = input ? input.value.trim() : "";
+      renderIndexCategorized(getIndexItems(), _activeCatId, q);
     }
     // If we're on a scam page, re-render related/sources blocks
     if (document.querySelector("[data-related]")) {
@@ -371,6 +374,99 @@
     if (document.querySelector("[data-sources]")) {
       renderSources();
     }
+  }
+
+  /* -----------------------------
+     CATALOG COUNT HELPER
+  ----------------------------- */
+  function srCountPhrase(n) {
+    var mod100 = n % 100;
+    var mod10  = n % 10;
+    if (mod100 >= 11 && mod100 <= 20) return String(n);
+    if (mod10 === 1)                  return String(n);
+    if (mod10 >= 2 && mod10 <= 4)     return String(n);
+    return String(n);
+  }
+
+  function enCountPhrase(n) {
+    return String(n);
+  }
+
+  function updateCatalogHeroCount() {
+    var el = document.getElementById("catalog-hero-sub");
+    if (!el) return;
+    var D = db();
+    var count = Object.keys(D).filter(function(s) { return s !== "template-scam" && D[s].hasPage; }).length;
+    var lang = currentLang();
+    var tplAttr = lang === "en" ? "data-en-tpl" : "data-sr-tpl";
+    var tpl = el.getAttribute(tplAttr) || "";
+    var phrase = lang === "en" ? enCountPhrase(count) : srCountPhrase(count);
+    var text = tpl.replace("{COUNT}", phrase);
+    el.setAttribute("data-sr", (el.getAttribute("data-sr-tpl") || "").replace("{COUNT}", srCountPhrase(count)));
+    el.setAttribute("data-en", (el.getAttribute("data-en-tpl") || "").replace("{COUNT}", enCountPhrase(count)));
+    el.textContent = text;
+  }
+  var CATALOG_CATEGORIES = [
+    { id: "identity",    sr: "Identitet i nalozi",          en: "Identity & Accounts" },
+    { id: "payments",    sr: "Pla\u0107anja i banke",       en: "Payments & Banking" },
+    { id: "business",    sr: "Biznis i nabavke",            en: "Business & Procurement" },
+    { id: "investment",  sr: "Investicije i kripto",        en: "Investment & Crypto" },
+    { id: "marketplace", sr: "Oglasi i kupovina",           en: "Marketplace & Shopping" },
+    { id: "delivery",    sr: "Dostava i putovanja",         en: "Delivery & Travel" },
+    { id: "tech",        sr: "Tehni\u010dka podr\u0161ka i malware", en: "Tech Support & Malware" },
+    { id: "extortion",   sr: "Ucene i pretnje",             en: "Extortion & Threats" },
+    { id: "charity",     sr: "Donacije i fondovi",          en: "Charity & Grants" },
+    { id: "seniors",     sr: "Stariji i porodica",          en: "Seniors & Family" },
+    { id: "other",       sr: "Ostalo",                      en: "Other" }
+  ];
+
+  var CATEGORY_DEFAULTS_EXPANDED = ["payments", "identity", "business"];
+
+  function getCategoryId(slug) {
+    var s = slug.toLowerCase();
+
+    if (/phishing|smishing|vishing|account.?takeover|identity.?theft|email.?account.?compromise|otp|sim.?swap|port.?out|account.?recovery|social.?media.?hijack|spear.?phishing|whaling|quishing|qr.?code.?sticker/.test(s)) return "identity";
+
+    if (/payment.?link|qr.?payment|instant.?payment|safe.?account|courier.?fraud|cash.?to.?gold|card.?skimming|atm.?skimming|pos.?skimming|contactless.?card|card.?not.?present|chargeback|overpayment|bank.?transfer.?diversion|bank.?impersonation|port.?out|sim.?swap|otp.?interception|kyc.?aml/.test(s)) return "payments";
+
+    if (/business.?email|invoice.?fraud|mandate.?fraud|payment.?diversion|payroll|procurement|supplier.?onboarding|fake.?audit|fake.?award|fake.?seo|domain.?renewal|directory.?listing|invoice.?collection|bid.?bond|performance.?bond|advance.?payment.?guarantee|co.?financing|project.?partnership|consultant.?guarantee|fake.?training.?cert|invoice.?factoring|sponsorship.?event|compliance.?fee|grant.?intermediary|fake.?government.?tender|public.?procurement|procurement.?award|fake.?audit.?inspection/.test(s)) return "business";
+
+    if (/crypto|investment.?fraud|fake.?broker|clone.?firm|forex|binary.?options|ponzi|pyramid|pump.?and.?dump|pig.?butchering|wallet.?drainer|airdrop|nft|rug.?pull|fake.?crypto.?exchange|romantic.?scam|romance/.test(s)) return "investment";
+
+    if (/marketplace|fake.?webshop|social.?media.?shop|counterfeit|refund.?scam|fake.?returns|subscription.?trap|free.?trial|giveaway|fake.?insurance/.test(s)) return "marketplace";
+
+    if (/fake.?delivery|parcel|package.?redelivery|travel.?booking|airline.?refund|ticket.?scam|escrow|real.?estate.?purchase|rental|moving.?scam|deposit.?scam|real.?estate.?invest|home.?improvement|mortgage/.test(s)) return "delivery";
+
+    if (/tech.?support|scareware|remote.?access|malicious.?app|app.?clone|fake.?update|browser.?extension/.test(s)) return "tech";
+
+    if (/sextortion|recovery.?scam|ddos|ransomware|data.?breach|extortion/.test(s)) return "extortion";
+
+    if (/charity|crowdfunding|disaster.?relief|donation.?crypto|grant.?fund|grant|compliance.?fee|fake.?eu.?program|fake.?ngo|advance.?fee.?fraud|social.?benefits|pension|healthcare.?impersonation|education.?ministry/.test(s)) return "charity";
+
+    if (/grandparent|family.?emergency|lottery|sweepstakes|prize.?scam|gift.?card|fake.?medical|fake.?medicine|tech.?support.?remote/.test(s)) return "seniors";
+
+    return "other";
+  }
+
+  var _catalogCollapseState = null;
+
+  function loadCollapseState() {
+    if (_catalogCollapseState) return _catalogCollapseState;
+    try {
+      var stored = localStorage.getItem("catalog_collapse");
+      if (stored) { _catalogCollapseState = JSON.parse(stored); return _catalogCollapseState; }
+    } catch(e) {}
+    var state = {};
+    CATALOG_CATEGORIES.forEach(function(c) {
+      state[c.id] = CATEGORY_DEFAULTS_EXPANDED.indexOf(c.id) >= 0;
+    });
+    _catalogCollapseState = state;
+    return state;
+  }
+
+  function saveCollapseState(state) {
+    _catalogCollapseState = state;
+    try { localStorage.setItem("catalog_collapse", JSON.stringify(state)); } catch(e) {}
   }
 
   /* -----------------------------
@@ -386,117 +482,164 @@
     }));
 
     items.sort((a, b) => {
-      const ap = a.hasPage ? 0 : 1;
-      const bp = b.hasPage ? 0 : 1;
-      if (ap !== bp) return ap - bp;
-
-      const at = pickLang(a.title) || a.slug;
-      const bt = pickLang(b.title) || b.slug;
-      return String(at).localeCompare(String(bt), "sr");
+      const at = (a.title_en || pickLangForced(a.title, "en") || a.slug).toLowerCase();
+      const bt = (b.title_en || pickLangForced(b.title, "en") || b.slug).toLowerCase();
+      return at.localeCompare(bt, "en");
     });
 
     return items;
   }
 
-  function renderIndexList(items) {
+  function makeCard(it) {
+    const href = it.hasPage ? (it.url || `${it.slug}.html`) : null;
+    const lang = currentLang();
+    const tMain = esc(it.title_en || pickLangForced(it.title, "en") || it.slug);
+    const tSr = it.title_sr || pickLangForced(it.title, "sr") || "";
+    const tSecondary = (lang === "sr" && tSr && tSr !== (it.title_en || "")) ? `(${tSr})` : "";
+    const desc = (lang === "sr")
+      ? (it.summary_sr || pickLangForced(it.subtitle, "sr") || "")
+      : (it.summary_en || pickLangForced(it.subtitle, "en") || "");
+
+    return `<div class="index-card">
+      <div class="index-title">${href ? `<a href="${esc(href)}">${tMain}</a>` : tMain}</div>
+      ${tSecondary ? `<div class="index-sub muted">${esc(tSecondary)}</div>` : ""}
+      ${desc ? `<div class="index-sub">${esc(desc)}</div>` : ""}
+    </div>`;
+  }
+
+  function renderCategoryBar(activeCatId) {
+    const lang = currentLang();
+    const allSr = "Sve";
+    const allEn = "All";
+    const allLabel = lang === "en" ? allEn : allSr;
+    const chips = CATALOG_CATEGORIES.map(function(c) {
+      const label = lang === "en" ? c.en : c.sr;
+      const active = activeCatId === c.id ? ' class="cat-chip active"' : ' class="cat-chip"';
+      return `<button${active} data-catid="${esc(c.id)}" data-sr="${esc(c.sr)}" data-en="${esc(c.en)}" type="button">${esc(label)}</button>`;
+    }).join("");
+    const allActive = !activeCatId ? ' class="cat-chip active"' : ' class="cat-chip"';
+    return `<div class="cat-bar" role="tablist" aria-label="${lang === 'en' ? 'Scam categories' : 'Kategorije prevara'}">
+      <button${allActive} data-catid="" data-sr="${esc(allSr)}" data-en="${esc(allEn)}" type="button">${esc(allLabel)}</button>
+      ${chips}
+    </div>`;
+  }
+
+  function renderIndexCategorized(items, activeCatId, searchQuery) {
     const container = document.getElementById("scam-index");
     if (!container) return;
+    const lang = currentLang();
+    const collapseState = loadCollapseState();
 
-    const pages = items.filter(x => x.hasPage);
-    const others = items.filter(x => !x.hasPage);
-
-    function card(it) {
-      const href = it.hasPage ? (it.url || `${it.slug}.html`) : null;
-
-      const overlaps = (it.overlaps || [])
-        .slice(0, 6)
-        .map((s) => {
-          const h = fileFor(s);
-          if (h) return `<a class="tag" href="${esc(h)}">${esc(labelFor(s))}</a>`;
-          return `<span class="tag">${esc(labelFor(s))}</span>`;
-        })
-        .join(" ");
-
-      const lang = currentLang();
-
-      // Standardized card structure:
-      // - main title: EN always
-      // - secondary title: SR (Latin) in parentheses, only in SR mode
-      // - description: summary_sr / summary_en
-      const tMain = esc(it.title_en || pickLangForced(it.title, "en") || it.slug);
-      const tSr = it.title_sr || pickLangForced(it.title, "sr") || "";
-      const tSecondary = (lang === "sr" && tSr && tSr !== (it.title_en || "")) ? `(${tSr})` : "";
-
-      const desc = (lang === "sr")
-        ? (it.summary_sr || pickLangForced(it.subtitle, "sr") || "")
-        : (it.summary_en || pickLangForced(it.subtitle, "en") || "");
-
-      return `
-        <div class="index-card">
-          <div class="index-title">
-            ${href ? `<a href="${esc(href)}">${tMain}</a>` : `${tMain}`}
-          </div>
-          ${tSecondary ? `<div class="index-sub muted">${esc(tSecondary)}</div>` : ""}
-          ${desc ? `<div class="index-sub">${esc(desc)}</div>` : ""}
-          ${overlaps ? `<div class="meta-tags">${overlaps}</div>` : ""}
-        </div>
-      `;
+    // Filter by category if single-cat view
+    let filteredItems = items;
+    if (activeCatId) {
+      filteredItems = items.filter(function(it) { return getCategoryId(it.slug) === activeCatId; });
     }
 
-    function block(title, list) {
-      if (!list.length) return "";
-      return `
-        <section class="index-block">
-          <h2>${esc(title)}</h2>
-          <div class="index-grid">
-            ${list.map(card).join("")}
-          </div>
-        </section>
-      `;
+    // Apply search
+    if (searchQuery) {
+      const q = searchQuery.toLowerCase();
+      filteredItems = filteredItems.filter(function(it) {
+        const hay = [
+          it.slug, it.title_en, it.title_sr, it.summary_en, it.summary_sr,
+          pickLangForced(it.title, "en"), pickLangForced(it.title, "sr"),
+          pickLangForced(it.subtitle, "en"), pickLangForced(it.subtitle, "sr"),
+          ...(it.tags || []), ...((it.overlaps || []).map(labelFor))
+        ].filter(Boolean).join(" ").toLowerCase();
+        return hay.includes(q);
+      });
     }
 
-    container.innerHTML = `
-      ${block("Stranice", pages)}
-      ${block("Biblioteka", others)}
-    `;
+    let html = renderCategoryBar(activeCatId);
+
+    if (activeCatId) {
+      // Single category view — show expanded, no collapse toggle
+      const catDef = CATALOG_CATEGORIES.find(function(c) { return c.id === activeCatId; });
+      const catLabel = catDef ? (lang === "en" ? catDef.en : catDef.sr) : activeCatId;
+      html += `<section class="index-block cat-section" data-catid="${esc(activeCatId)}">
+        <h2 class="cat-section-head"><span class="cat-label">${esc(catLabel)}</span> <span class="cat-count">(${filteredItems.length})</span></h2>
+        <div class="index-grid">${filteredItems.map(makeCard).join("")}</div>
+      </section>`;
+    } else {
+      // All view — group by category, each collapsible
+      const byCategory = {};
+      CATALOG_CATEGORIES.forEach(function(c) { byCategory[c.id] = []; });
+      filteredItems.forEach(function(it) {
+        const cid = getCategoryId(it.slug);
+        if (!byCategory[cid]) byCategory[cid] = [];
+        byCategory[cid].push(it);
+      });
+
+      CATALOG_CATEGORIES.forEach(function(c) {
+        const list = byCategory[c.id] || [];
+        if (!list.length) return;
+        const catLabel = lang === "en" ? c.en : c.sr;
+        const isExpanded = searchQuery ? true : !!collapseState[c.id];
+        const gridStyle = isExpanded ? "" : ' style="display:none"';
+        const chevron = isExpanded ? "\u25be" : "\u25b8";
+
+        html += `<section class="index-block cat-section" data-catid="${esc(c.id)}">
+          <button class="cat-toggle" type="button" aria-expanded="${isExpanded}" data-catid="${esc(c.id)}" data-sr="${esc(c.sr)}" data-en="${esc(c.en)}">
+            <span class="cat-label">${esc(catLabel)}</span>
+            <span class="cat-count">(${list.length})</span>
+            <span class="cat-chevron" aria-hidden="true">${chevron}</span>
+          </button>
+          <div class="index-grid"${gridStyle}>${list.map(makeCard).join("")}</div>
+        </section>`;
+      });
+    }
+
+    container.innerHTML = html;
+
+    // Attach collapse toggle listeners
+    container.querySelectorAll(".cat-toggle").forEach(function(btn) {
+      btn.addEventListener("click", function() {
+        const cid = btn.getAttribute("data-catid");
+        const grid = btn.parentElement.querySelector(".index-grid");
+        if (!grid) return;
+        const nowExpanded = btn.getAttribute("aria-expanded") === "true";
+        const nextExpanded = !nowExpanded;
+        btn.setAttribute("aria-expanded", String(nextExpanded));
+        btn.querySelector(".cat-chevron").textContent = nextExpanded ? "\u25be" : "\u25b8";
+        grid.style.display = nextExpanded ? "" : "none";
+        const state = loadCollapseState();
+        state[cid] = nextExpanded;
+        saveCollapseState(state);
+      });
+    });
+
+    // Attach category chip listeners
+    container.querySelectorAll(".cat-chip").forEach(function(chip) {
+      chip.addEventListener("click", function() {
+        const cid = chip.getAttribute("data-catid") || "";
+        const input = document.getElementById("scam-search");
+        const q = input ? input.value.trim() : "";
+        renderIndexCategorized(getIndexItems(), cid, q);
+        // store active cat in module-level var
+        _activeCatId = cid;
+      });
+    });
   }
+
+  var _activeCatId = "";
 
   function renderIndex() {
     const container = document.getElementById("scam-index");
     if (!container) return;
 
-    const all = getIndexItems();
-    renderIndexList(all);
+    updateCatalogHeroCount();
+    renderIndexCategorized(getIndexItems(), _activeCatId, "");
 
     const input = document.getElementById("scam-search");
     if (!input) return;
 
-    input.addEventListener("input", () => {
-      const q = input.value.trim().toLowerCase();
-      if (!q) {
-        renderIndexList(all);
-        return;
-      }
+    // Remove any previous listener by replacing input
+    const newInput = input.cloneNode(true);
+    input.parentNode.replaceChild(newInput, input);
 
-      const filtered = all.filter(it => {
-        const hay = [
-          it.slug,
-          it.title_en,
-          it.title_sr,
-          it.summary_en,
-          it.summary_sr,
-          pickLangForced(it.title, "en"),
-          pickLangForced(it.title, "sr"),
-          pickLangForced(it.subtitle, "en"),
-          pickLangForced(it.subtitle, "sr"),
-          ...(it.tags || []),
-          ...((it.overlaps || []).map(labelFor))
-        ].filter(Boolean).join(" ").toLowerCase();
-
-        return hay.includes(q);
-      });
-
-      renderIndexList(filtered);
+    newInput.addEventListener("input", function() {
+      const q = newInput.value.trim();
+      renderIndexCategorized(getIndexItems(), _activeCatId, q);
     });
   }
 

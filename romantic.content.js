@@ -14,14 +14,14 @@ window.SCAM_CONTENT["romantic-scam"] = {
       >Romantična prevara je sistem koji menja stanje mete pre uzimanja novca. Ulog se prvo uzima kroz vreme, pažnju, naviku poruka, intimne detalje i osećaj povezanosti. Taj ulog kasnije štiti tok: meta brani sopstvenu odluku da je odnos stvaran. Kada se ulog nakupi, finansijski zahtev ulazi kao mala stavka u poređenju sa emotivnim značajem. Najveći gubici nastaju kada uplata postane administracija: sledeći korak koji završava slučaj.</p>
 
       <p
-        data-sr="Tok ima kanon: navika → tajnost → izolacija → rok → prag (prva uplata) → serija zahteva → presvlačenje identiteta → grananje u druge šeme → recovery talas. Razlozi se menjaju, funkcija ostaje ista: uslovljavanje novom uplatom da bi se došlo do kraja."
+        data-sr="Tok ima kanon: navika → tajnost → izolacija → rok → prag (prva uplata) → serija zahteva → presvlačenje identiteta → grananje u druge šeme → talas prevare povraćaja. Razlozi se menjaju, funkcija ostaje ista: uslovljavanje novom uplatom da bi se došlo do krađa."
         data-en="The flow follows a canon: habit → secrecy → isolation → deadline → threshold (first payment) → repeated demands → identity switching → branching into other schemes → recovery wave. Labels change; the function stays: conditioning a new payment as the path to the end."
-      >Tok ima kanon: navika → tajnost → izolacija → rok → prag (prva uplata) → serija zahteva → presvlačenje identiteta → grananje u druge šeme → recovery talas. Razlozi se menjaju, funkcija ostaje ista: uslovljavanje novom uplatom da bi se došlo do kraja.</p>
+      >Tok ima kanon: navika → tajnost → izolacija → rok → prag (prva uplata) → serija zahteva → presvlačenje identiteta → grananje u druge šeme → talas prevare povraćaja. Razlozi se menjaju, funkcija ostaje ista: uslovljavanje novom uplatom da bi se došlo do krađa.</p>
 
       <div class="callout"
-        data-sr="<strong>Model:</strong> kontakt → navika → tajnost → izolacija → rok → mala stavka → prag (prva uplata) → serija → identiteti → grananje → recovery"
-        data-en="<strong>Model:</strong> contact → habit → secrecy → isolation → deadline → small ask → threshold (first payment) → series → identities → branching → recovery"
-      ><strong>Model:</strong> kontakt → navika → tajnost → izolacija → rok → mala stavka → prag (prva uplata) → serija → identiteti → grananje → recovery</div>
+        data-sr="<strong>Model:</strong> kontakt → navika → tajnost → izolacija → rok → mala stavka → prag (prva uplata) → serija → identiteti → grananje → recovery."
+        data-en="<strong>Model:</strong> contact → habit → secrecy → isolation → deadline → small ask → threshold (first payment) → series → identities → branching → recovery."
+      ><strong>Model:</strong> kontakt → navika → tajnost → izolacija → rok → mala stavka → prag (prva uplata) → serija → identiteti → grananje → recovery.</div>
 
       <div class="callout"
         data-sr="<strong>Prag:</strong> prva uplata. Posle praga zahtevi se ređaju kao sledeći korak, uz rokove i prepreke."
@@ -29,7 +29,7 @@ window.SCAM_CONTENT["romantic-scam"] = {
       ><strong>Prag:</strong> prva uplata. Posle praga zahtevi se ređaju kao sledeći korak, uz rokove i prepreke.</div>
 
       <p
-        data-sr="Operatori rade paralelno: 50-200 kontakata simultano, automatizovani profili, predefinisane skripte, tim podršku, eskalacija kroz pozive, dokumenti kao scenografija (lažni pasoši, PDF, 'case ID'). Profit dolazi iz 1-3% mete koje pređu prag prve uplate, prosečan gubitak je $5.000-$70.000 po osobi. Kada meta uspori, operatori menjaju identitet: 'agent', 'advokat', 'podrška', 'regulator'."
+        data-sr="Operatori rade paralelno: 50-200 kontakata simultano, automatizovani profili, predefinisane skripte, tim podršku, eskalacija kroz pozive, dokumenti kao scenografija (lažni pasoši, PDF, „case ID“). Profit dolazi iz 1-3% mete koje pređu prag prve uplate, prosečan gubitak je $5.000-$70.000 po osobi. Kada meta uspori, operatori menjaju identitet: „agent“, „advokat“, „podrška“, „regulator."
         data-en="Operators work in parallel: 50-200 contacts simultaneously, automated profiles, pre-scripted messages, team support, escalation through calls, documents as staging (fake passports, PDFs, 'case IDs'). Profit comes from 1-3% of targets who cross the first payment threshold, average loss is $5,000-$70,000 per person. When the target slows down, operators switch identity: 'agent', 'lawyer', 'support', 'regulator'."
       >Operatori rade paralelno: 50-200 kontakata simultano, automatizovani profili, predefinisane skripte, tim podršku, eskalacija kroz pozive, dokumenti kao scenografija (lažni pasoši, PDF, 'case ID'). Profit dolazi iz 1-3% mete koje pređu prag prve uplate, prosečan gubitak je $5.000-$70.000 po osobi. Kada meta uspori, operatori menjaju identitet: 'agent', 'advokat', 'podrška', 'regulator'.</p>
     </section>
@@ -49,20 +49,20 @@ window.SCAM_CONTENT["romantic-scam"] = {
         <div class="phase">
           <div class="label" data-sr="Šta meta oseća" data-en="What the target feels">Šta meta oseća</div>
           <ul class="bullets">
-            <li data-sr="prisustvo kao rutinu" data-en="presence as routine">prisustvo kao rutinu</li>
-            <li data-sr="tajnost kao bliskost" data-en="secrecy as closeness">tajnost kao bliskost</li>
-            <li data-sr="rok kao hitan problem" data-en="deadline as urgent trouble">rok kao hitan problem</li>
-            <li data-sr="uplatu kao pomoć umesto rizika" data-en="payment as help instead of risk">uplatu kao pomoć umesto rizika</li>
+            <li data-sr="prisustvo kao rutinu." data-en="presence as routine.">prisustvo kao rutinu.</li>
+            <li data-sr="tajnost kao bliskost." data-en="secrecy as closeness.">tajnost kao bliskost.</li>
+            <li data-sr="rok kao hitan problem." data-en="deadline as urgent trouble.">rok kao hitan problem.</li>
+            <li data-sr="uplatu kao pomoć umesto rizika." data-en="payment as help instead of risk.">uplatu kao pomoć umesto rizika.</li>
           </ul>
         </div>
 
         <div class="phase">
           <div class="label" data-sr="Šta napadač dobija" data-en="What the attacker gains">Šta napadač dobija</div>
           <ul class="bullets">
-            <li data-sr="kontrolu tempa" data-en="pace control">kontrolu tempa</li>
-            <li data-sr="manje provere identiteta" data-en="less identity verification">manje provere identiteta</li>
-            <li data-sr="manje konsultacije sa okolinom" data-en="less consultation with others">manje konsultacije sa okolinom</li>
-            <li data-sr="prvu uplatu kao ulaz u seriju" data-en="first payment as entry into a series">prvu uplatu kao ulaz u seriju</li>
+            <li data-sr="kontrolu tempa." data-en="pace control.">kontrolu tempa.</li>
+            <li data-sr="manje provere identiteta." data-en="less identity verification.">manje provere identiteta.</li>
+            <li data-sr="manje konsultacije sa okolinom." data-en="less consultation with others.">manje konsultacije sa okolinom.</li>
+            <li data-sr="prvu uplatu kao ulaz u seriju." data-en="first payment as entry into a series.">prvu uplatu kao ulaz u seriju.</li>
           </ul>
         </div>
       </div>
@@ -86,7 +86,7 @@ window.SCAM_CONTENT["romantic-scam"] = {
         </h3>
 
         <p
-          data-sr="Kontakt kreće kao DM, komentar, follow, 'pogrešan broj' ili prijateljski razgovor. U prvih par poruka cilj je odgovor i nastavak. Posle odgovora, tok ide ka privatnom kanalu gde se poruke kontrolišu lakše."
+          data-sr="Kontakt kreće kao DM, komentar, follow, „pogrešan broj“ ili prijateljski razgovor. U prvih par poruka cilj je odgovor i nastavak. Posle odgovora, tok ide ka privatnom kanalu gde se poruke kontrolišu lakše."
           data-en="Contact starts as a DM, comment, follow, 'wrong number,' or friendly chat. In the first few messages the goal is a reply and continuity. After the reply, the flow moves to private channels where messaging is easier to control."
         >Kontakt kreće kao DM, komentar, follow, 'pogrešan broj' ili prijateljski razgovor. U prvih par poruka cilj je odgovor i nastavak. Posle odgovora, tok ide ka privatnom kanalu gde se poruke kontrolišu lakše.</p>
 
@@ -94,26 +94,26 @@ window.SCAM_CONTENT["romantic-scam"] = {
           <div class="phase">
             <div class="label" data-sr="Šta meta vidi" data-en="What the target sees">Šta meta vidi</div>
             <ul class="bullets">
-              <li data-sr="prijatnu normalnost" data-en="friendly normality">prijatnu normalnost</li>
-              <li data-sr="brz interes i pažnju" data-en="fast interest and attention">brz interes i pažnju</li>
-              <li data-sr="predlog za privatni kanal" data-en="a suggestion to move private">predlog za privatni kanal</li>
-              <li data-sr="komplimente i validaciju" data-en="compliments and validation">komplimente i validaciju</li>
+              <li data-sr="prijatnu normalnost." data-en="friendly normality.">prijatnu normalnost.</li>
+              <li data-sr="brz interes i pažnju." data-en="fast interest and attention.">brz interes i pažnju.</li>
+              <li data-sr="predlog za privatni kanal." data-en="a suggestion to more private.">predlog za privatni kanal.</li>
+              <li data-sr="komplimente i validaciju." data-en="compliments and validation.">komplimente i validaciju.</li>
             </ul>
           </div>
           <div class="phase">
             <div class="label" data-sr="Šta napadač radi" data-en="What the attacker does">Šta napadač radi</div>
             <ul class="bullets">
-              <li data-sr="testira spremnost na razgovor" data-en="tests willingness to engage">testira spremnost na razgovor</li>
-              <li data-sr="gura prebacivanje kanala" data-en="pushes channel switch">gura prebacivanje kanala</li>
-              <li data-sr="postavlja ritam od starta" data-en="sets rhythm early">postavlja ritam od starta</li>
-              <li data-sr="prikuplja osnovne podatke" data-en="collects basic data">prikuplja osnovne podatke</li>
+              <li data-sr="testira spremnost na razgovor." data-en="tests willingness to engage.">testira spremnost na razgovor.</li>
+              <li data-sr="gura prebacivanje kanala." data-en="pushes channel switch.">gura prebacivanje kanala.</li>
+              <li data-sr="postavlja ritam od starta." data-en="sets rhythm early.">postavlja ritam od starta.</li>
+              <li data-sr="prikuplja osnovne podatke." data-en="collects basic data.">prikuplja osnovne podatke.</li>
             </ul>
           </div>
         </div>
 
         <div class="callout"
           data-sr="<strong>Prag faze:</strong> prelazak na privatni kanal + nastavak razgovora bez pauze."
-          data-en="<strong>Threshold:</strong> move to private channel + continued chat without pause."
+          data-en="<strong>Threshold:</strong> more to private channel + continued chat without pause."
         ><strong>Prag faze:</strong> prelazak na privatni kanal + nastavak razgovora bez pauze.</div>
 
         <div class="callout"
@@ -137,21 +137,21 @@ window.SCAM_CONTENT["romantic-scam"] = {
           <div class="phase">
             <div class="label" data-sr="Signali u chat-u" data-en="Signals in the chat">Signali u chat-u</div>
             <ul class="bullets">
-              <li data-sr="ritam izgleda kao raspored" data-en="rhythm feels scheduled">ritam izgleda kao raspored</li>
-              <li data-sr="brza bliskost i planovi" data-en="fast closeness and plans">brza bliskost i planovi</li>
-              <li data-sr="izbegavanje stabilnog video poziva" data-en="avoiding stable video calls">izbegavanje stabilnog video poziva</li>
-              <li data-sr="pitanja o finansijama kao upoznavanje" data-en="financial questions framed as getting to know you">pitanja o finansijama kao upoznavanje</li>
-              <li data-sr="ekstremna pažnja i komplimenti" data-en="extreme attention and compliments">ekstremna pažnja i komplimenti</li>
-              <li data-sr="planovi za budućnost posle 1-2 nedelje" data-en="future plans after 1-2 weeks">planovi za budućnost posle 1-2 nedelje</li>
+              <li data-sr="ritam izgleda kao raspored." data-en="rhythm feels scheduled.">ritam izgleda kao raspored.</li>
+              <li data-sr="brza bliskost i plažni." data-en="fast closeness and plans.">brza bliskost i plažni.</li>
+              <li data-sr="izbegavanje stabilnog video poziva." data-en="avoiding stable video calls.">izbegavanje stabilnog video poziva.</li>
+              <li data-sr="pitanja o finansijama kao upoznavanje." data-en="financial questions framed as getting to know you.">pitanja o finansijama kao upoznavanje.</li>
+              <li data-sr="ekstremna pažnja i komplimenti." data-en="extreme attention and compliments.">ekstremna pažnja i komplimenti.</li>
+              <li data-sr="plažni za budućnost posle 1-2 nedelje." data-en="future plans after 1-2 weeks.">plažni za budućnost posle 1-2 nedelje.</li>
             </ul>
           </div>
           <div class="phase">
             <div class="label" data-sr="Pragovi unutar faze" data-en="Phase thresholds">Pragovi unutar faze</div>
             <ul class="bullets">
-              <li data-sr="meta deli privatne detalje" data-en="target shares private details">meta deli privatne detalje</li>
-              <li data-sr="meta brani odnos pred sumnjom" data-en="target defends the relationship">meta brani odnos pred sumnjom</li>
-              <li data-sr="meta menja rutinu zbog poruka" data-en="target changes routine because of messages">meta menja rutinu zbog poruka</li>
-              <li data-sr="meta odgovara u roku od minuta" data-en="target replies within minutes">meta odgovara u roku od minuta</li>
+              <li data-sr="meta deli privatne detalje." data-en="target shares private details.">meta deli privatne detalje.</li>
+              <li data-sr="meta brani odnos pred sumnjom." data-en="target defends the relationship.">meta brani odnos pred sumnjom.</li>
+              <li data-sr="meta menja rutinu zbog poruka." data-en="target changes routine because of messages.">meta menja rutinu zbog poruka.</li>
+              <li data-sr="meta odgovara u roku od minuta." data-en="target replies within minutes.">meta odgovara u roku od minuta.</li>
             </ul>
           </div>
         </div>
@@ -164,8 +164,8 @@ window.SCAM_CONTENT["romantic-scam"] = {
         <div class="branch">
           <p><strong data-sr="Evolucije iz ove faze" data-en="Evolutions from this phase">Evolucije iz ove faze</strong></p>
           <ul class="bullets">
-            <li data-sr="Investicioni okvir (Povezano: <a href='pig-butchering.html'>Pig butchering</a>)" data-en="Investment framing (Related: <a href='pig-butchering.html'>Pig butchering</a>)">Investicioni okvir (Povezano: <a href="pig-butchering.html">Pig butchering</a>)</li>
-            <li data-sr="Kripto platforma (Povezano: <a href='crypto-scam.html'>Crypto scam</a>)" data-en="Crypto platform (Related: <a href='crypto-scam.html'>Crypto scam</a>)">Kripto platforma (Povezano: <a href="crypto-scam.html">Crypto scam</a>)</li>
+            <li><a href="pig-butchering.html" data-sr="Dug odnos + investicija" data-en="Pig butchering">Dug odnos + investicija</a></li>
+            <li><a href="crypto-scam.html" data-sr="Kripto investiciona prevara" data-en="Crypto investment scam">Kripto investiciona prevara</a></li>
           </ul>
         </div>
       </article>
@@ -182,11 +182,11 @@ window.SCAM_CONTENT["romantic-scam"] = {
         >Tajnost se uvodi kao bliskost i zaštita odnosa. Funkcija tajnosti je izolacija: manje konsultacije, manje provere, više zavisnosti od razgovora. U ovoj fazi se pojavljuju rečenice koje zatvaraju pomoć okoline.</p>
 
         <ul class="bullets">
-          <li data-sr="'Između nas'" data-en="'Between us'">'Između nas'</li>
-          <li data-sr="'Nemoj nikome, ljudi komplikuju'" data-en="'Don't tell anyone, people complicate it'">'Nemoj nikome, ljudi komplikuju'</li>
-          <li data-sr="'Ako kažeš porodici, pokvariće'" data-en="'If you tell family, they'll ruin it'">'Ako kažeš porodici, pokvariće'</li>
-          <li data-sr="'Ljudi su zavidni na sreću'" data-en="'People are jealous of happiness'">'Ljudi su zavidni na sreću'</li>
-          <li data-sr="'Molim te veruj mi'" data-en="'Please trust me'">'Molim te veruj mi'</li>
+          <li data-sr="„Između nas„" data-en="“Between us“">'Između nas'</li>
+          <li data-sr="„Nemoj nikome, ljudi komplikuju„" data-en="“Don“t tell anyone, people complicate it'">'Nemoj nikome, ljudi komplikuju'</li>
+          <li data-sr="„Ako kažeš porodici, pokvariće„" data-en="“If you tell family, they“ll ruin it'">'Ako kažeš porodici, pokvariće'</li>
+          <li data-sr="„Ljudi su zavidni na sreću„" data-en="“People are jealous of happiness“">'Ljudi su zavidni na sreću'</li>
+          <li data-sr="„Molim te veruj mi„" data-en="“Please trust me“">'Molim te veruj mi'</li>
         </ul>
 
         <div class="callout"
@@ -224,8 +224,8 @@ window.SCAM_CONTENT["romantic-scam"] = {
         <div class="branch">
           <p><strong data-sr="Grananja iz ove faze" data-en="Branching from this phase">Grananja iz ove faze</strong></p>
           <ul class="bullets">
-            <li data-sr="Advance-fee tok (Povezano: <a href='advance-fee-fraud.html'>Advance-fee</a>)" data-en="Advance-fee flow (Related: <a href='advance-fee-fraud.html'>Advance-fee</a>)">Advance-fee tok (Povezano: <a href="advance-fee-fraud.html">Advance-fee</a>)</li>
-            <li data-sr="Poziv i pritisak (Povezano: <a href='fake-call-scam.html'>Lažni pozivi</a>)" data-en="Calls and pressure (Related: <a href='fake-call-scam.html'>Fake calls</a>)">Poziv i pritisak (Povezano: <a href="fake-call-scam.html">Lažni pozivi</a>)</li>
+            <li><a href="advance-fee-fraud.html" data-sr="Uplata unapred" data-en="Advance-fee fraud">Uplata unapred</a></li>
+            <li><a href="fake-call-scam.html" data-sr="Lažni pozivi" data-en="Fake calls">Lažni pozivi</a></li>
           </ul>
         </div>
       </article>
@@ -245,19 +245,19 @@ window.SCAM_CONTENT["romantic-scam"] = {
           <div class="phase">
             <div class="label" data-sr="Kako raste serija" data-en="How the series grows">Kako raste serija</div>
             <ul class="bullets">
-              <li data-sr="mali iznos kao sitna procedura" data-en="small amount as minor procedure">mali iznos kao sitna procedura</li>
-              <li data-sr="srednji iznos kao osiguranje" data-en="mid amount as insurance">srednji iznos kao osiguranje</li>
-              <li data-sr="veći iznos kao završni korak" data-en="larger amount as final step">veći iznos kao završni korak</li>
-              <li data-sr="završni korak se vrati pod novim imenom" data-en="final step returns under a new label">završni korak se vrati pod novim imenom</li>
+              <li data-sr="mali iznos kao sitna procedura." data-en="small amount as minor procedure.">mali iznos kao sitna procedura.</li>
+              <li data-sr="srednji iznos kao osiguranje." data-en="mid amount as insurance.">srednji iznos kao osiguranje.</li>
+              <li data-sr="veći iznos kao završni korak." data-en="larger amount as final step.">veći iznos kao završni korak.</li>
+              <li data-sr="završni korak se vrati pod novim imenom." data-en="final step returns under a new label.">završni korak se vrati pod novim imenom.</li>
             </ul>
           </div>
           <div class="phase">
             <div class="label" data-sr="Kako se drži tempo" data-en="How pace is maintained">Kako se drži tempo</div>
             <ul class="bullets">
-              <li data-sr="rokovi postaju kraći" data-en="deadlines shrink">rokovi postaju kraći</li>
-              <li data-sr="ton postaje stroži" data-en="tone becomes stricter">ton postaje stroži</li>
-              <li data-sr="poziv preuzima razgovor kad meta uspori" data-en="calls take over when the target slows">poziv preuzima razgovor kad meta uspori</li>
-              <li data-sr="krivica kao poluga" data-en="guilt as leverage">krivica kao poluga</li>
+              <li data-sr="rokovi postaju kraći." data-en="deadlines shrink.">rokovi postaju kraći.</li>
+              <li data-sr="ton postaje stroži." data-en="tone becomes stricter.">ton postaje stroži.</li>
+              <li data-sr="poziv preuzima razgovor kad meta uspori." data-en="calls take over when the target slows.">poziv preuzima razgovor kad meta uspori.</li>
+              <li data-sr="krivica kao poluga." data-en="guilt as leverage.">krivica kao poluga.</li>
             </ul>
           </div>
         </div>
@@ -280,7 +280,7 @@ window.SCAM_CONTENT["romantic-scam"] = {
         >Kada sumnja poraste, ulazi autoritet: podrška, advokat, agent, regulator. Identitet služi da uplata izgleda kao administracija. U ovoj fazi se šalju PDF-ovi, case ID, formalne poruke, kao scenografija.</p>
 
         <div class="callout"
-          data-sr="<strong>Dokumenti kao scenografija:</strong> lažni pasoš, 'visa approval letter', 'customs clearance form', 'insurance policy', 'legal affidavit', 'court order', 'bank transfer confirmation'. Dokumenti su izrađeni sa template-ima i izgledaju legitimno, ali su podaci falsifikovani."
+          data-sr="<strong>Dokumenti kao scenografija:</strong> lažni pasoš, „visa approval letter“, „customs clearance form“, „insurance policy“, „legal affidavit“, „court order“, „bank transfer confirmation“. Dokumenti su izrađeni sa template-ima i izgledaju legitimno, ali su podaci falsifikovani."
           data-en="<strong>Documents as staging:</strong> fake passport, 'visa approval letter', 'customs clearance form', 'insurance policy', 'legal affidavit', 'court order', 'bank transfer confirmation'. Documents are built from templates and look legitimate, but data is falsified."
         ><strong>Dokumenti kao scenografija:</strong> lažni pasoš, 'visa approval letter', 'customs clearance form', 'insurance policy', 'legal affidavit', 'court order', 'bank transfer confirmation'. Dokumenti su izrađeni sa template-ima i izgledaju legitimno, ali su podaci falsifikovani.</div>
       </article>
@@ -292,7 +292,7 @@ window.SCAM_CONTENT["romantic-scam"] = {
         </h3>
 
         <p
-          data-sr="Kada pritisak raste ili meta usporava, operator uvodi audio pozive ili 'video pozive' sa sličnim tehnikama: slaba veza, treperenje, kratki isečci. Pozivi služe da održe emociju i spreče proveru. Glas dolazi iz call center-a, a video je preuzet ili AI-generisan."
+          data-sr="Kada pritisak raste ili meta usporava, operator uvodi audio pozive ili „video pozive“ sa sličnim tehnikama: slaba veza, treperenje, kratki isečci. Pozivi služe da održe emociju i spreče proveru. Glas dolazi iz call center-a, a video je preuzet ili AI-generisan."
           data-en="When pressure rises or the target slows down, the operator introduces audio calls or 'video calls' with similar techniques: bad connection, glitches, short clips. Calls serve to maintain emotion and prevent verification. Voice comes from a call center, and video is stolen or AI-generated."
         >Kada pritisak raste ili meta usporava, operator uvodi audio pozive ili 'video pozive' sa sličnim tehnikama: slaba veza, treperenje, kratki isečci. Pozivi služe da održe emociju i spreče proveru. Glas dolazi iz call center-a, a video je preuzet ili AI-generisan.</p>
 
@@ -331,9 +331,9 @@ window.SCAM_CONTENT["romantic-scam"] = {
         >Kada osnovni izvori novca presušu (štednja, kartice), operator eskalira na kredite, zajmove, prodaju imovine, pozajmice od porodice. Meta u ovoj fazi često pristaje jer vidi kraj kao opravdanje. Operator pozicionira uplatu kao investiciju koja će se vratiti.</p>
 
         <div class="callout"
-          data-sr="<strong>Crvena linija:</strong> ako razgovor gura kredite, zajmove ili prodaju imovine, prekid je hitan. Prosečan gubitak u ovoj fazi prelazi $50.000, a oporavak finansijske situacije traje godinama."
+          data-sr="<strong>Crvena linija:</strong> ako razgovor gura kredite, zajmove ili prodaju imovine, prekid je hitan. Prosečan gubitak u ovoj fazi prelazi $50.000, a oporavak finansijske situacije traže godinama."
           data-en="<strong>Red line:</strong> if the conversation pushes loans, credit, or selling assets, cutoff is urgent. Average loss at this phase exceeds $50,000, and financial recovery takes years."
-        ><strong>Crvena linija:</strong> ako razgovor gura kredite, zajmove ili prodaju imovine, prekid je hitan. Prosečan gubitak u ovoj fazi prelazi $50.000, a oporavak finansijske situacije traje godinama.</div>
+        ><strong>Crvena linija:</strong> ako razgovor gura kredite, zajmove ili prodaju imovine, prekid je hitan. Prosečan gubitak u ovoj fazi prelazi $50.000, a oporavak finansijske situacije traže godinama.</div>
       </article>
 
       <!-- FAZA 10 -->
@@ -355,7 +355,7 @@ window.SCAM_CONTENT["romantic-scam"] = {
 
       <!-- FAZA 11 -->
       <article class="phase bad">
-        <h3 class="phase-title" data-sr="Faza 11 — 'Crisis cascade': niz hitnih problema" data-en="Phase 11 — 'Crisis cascade': series of urgent problems">
+        <h3 class="phase-title" data-sr="Faza 11 — „Crisis cascade„: niz hitnih problema" data-en="Phase 11 — “Crisis cascade“: series of urgent problems">
           Faza 11 — 'Crisis cascade': niz hitnih problema
         </h3>
 
@@ -372,26 +372,23 @@ window.SCAM_CONTENT["romantic-scam"] = {
 
       <!-- FAZA 12 -->
       <article class="phase warn">
-        <h3 class="phase-title" data-sr="Faza 12 — Prekid i recovery talas" data-en="Phase 12 — Break and recovery wave">
-          Faza 12 — Prekid i recovery talas
+        <h3 class="phase-title" data-sr="Faza 12 — Prekid i talas prevare povraćaja" data-en="Phase 12 — Break and recovery wave">
+          Faza 12 — Prekid i talas prevare povraćaja
         </h3>
 
         <p
-          data-sr="Posle prekida stižu novi kontakti: ponuda povrata uz uplatu unapred. To je nastavak iste logike, druga maska. Recovery operator tvrdi da može vratiti novac, ali traži naknadu, taksu, 'pravni trošak'. Meta u ovoj fazi je ranjiva jer želi povratak gubitka i lako pada na recovery prevaru."
+          data-sr="Posle prekida stižu novi kontakti: ponuda povrata uz uplatu unapred. To je nastavak iste logike, druga maska. Recovery operator tvrdi da može vratiti novac, ali traži naknadu, taksu, „pravni trošak“. Meta u ovoj fazi je ranjiva jer želi povratak gubitka i lako pada na recovery prevaru."
           data-en="After you stop, new contacts arrive: recovery offers demanding upfront fees. Same logic, different mask. Recovery operator claims they can recover your money but asks for a fee, tax, 'legal cost'. Target at this phase is vulnerable because they want loss recovery and easily falls for recovery scam."
         >Posle prekida stižu novi kontakti: ponuda povrata uz uplatu unapred. To je nastavak iste logike, druga maska. Recovery operator tvrdi da može vratiti novac, ali traži naknadu, taksu, 'pravni trošak'. Meta u ovoj fazi je ranjiva jer želi povratak gubitka i lako pada na recovery prevaru.</p>
 
         <div class="branch">
           <p><strong data-sr="Povezano" data-en="Related">Povezano</strong></p>
           <ul class="bullets">
-            <li data-sr="Recovery scam (Povezano: <a href='recovery-scam.html'>Recovery</a>)" data-en="Recovery scam (Related: <a href='recovery-scam.html'>Recovery</a>)">Recovery scam (Povezano: <a href="recovery-scam.html">Recovery</a>)</li>
+            <li><a href="recovery-scam.html" data-sr="Prevara povraćaja novca" data-en="Recovery scam">Prevara povraćaja novca</a></li>
           </ul>
         </div>
 
-        <div class="callout"
-          data-sr="<strong>Brzi filter:</strong> povrat + uplata unapred = novi napad. (Povezano: <a href='recovery-scam.html'>Recovery</a>)"
-          data-en="<strong>Fast filter:</strong> recovery + upfront fee = new attack. (Related: <a href='recovery-scam.html'>Recovery</a>)"
-        ><strong>Brzi filter:</strong> povrat + uplata unapred = novi napad. (Povezano: <a href="recovery-scam.html">Recovery</a>)</div>
+        <div class="callout"><strong>Brzi filter:</strong> povrat + uplata unapred = novi napad. (Povezano: <a href="recovery-scam.html">Prevara povraćaja novca</a>)</div>
       </article>
     </section>
 
@@ -410,96 +407,93 @@ window.SCAM_CONTENT["romantic-scam"] = {
         <div class="phase">
           <div class="label" data-sr="Start (prva uplata)" data-en="Entry (first payment)">Start (prva uplata)</div>
           <ul class="bullets">
-            <li data-sr="karta / putni trošak" data-en="ticket / travel cost">karta / putni trošak</li>
-            <li data-sr="carina / dostava / paket stoji" data-en="customs / delivery / package held">carina / dostava / paket stoji</li>
-            <li data-sr="taksa za dokument / potvrdu" data-en="fee for document / confirmation">taksa za dokument / potvrdu</li>
-            <li data-sr="hitno zdravlje / lek / pregled" data-en="urgent health / medicine / exam">hitno zdravlje / lek / pregled</li>
-            <li data-sr="privremeni problem sa računom" data-en="temporary account issue">privremeni problem sa računom</li>
-            <li data-sr="hotel / rezervacija / depozit" data-en="hotel / booking / deposit">hotel / rezervacija / depozit</li>
-            <li data-sr="viza / passport taksa" data-en="visa / passport fee">viza / passport taksa</li>
-            <li data-sr="'mali kredit da premostim'" data-en="'small loan to bridge it'">'mali kredit da premostim'</li>
-            <li data-sr="hitna porodična situacija" data-en="urgent family situation">hitna porodična situacija</li>
-            <li data-sr="'telefon mi je ukraden, treba mi mali iznos'" data-en="'phone stolen, need small amount'">'telefon mi je ukraden, treba mi mali iznos'</li>
+            <li data-sr="karta / putni trošak." data-en="ticket / travel cost.">karta / putni trošak.</li>
+            <li data-sr="carina / dostava / paket stoji." data-en="customs / delivery / package held.">carina / dostava / paket stoji.</li>
+            <li data-sr="taksa za dokument / potvrdu." data-en="fee for document / confirmation.">taksa za dokument / potvrdu.</li>
+            <li data-sr="hitno zdravlje / lek / pregled." data-en="urgent health / medicine / exam.">hitno zdravlje / lek / pregled.</li>
+            <li data-sr="privremeni problem sa računom." data-en="temporary account issue.">privremeni problem sa računom.</li>
+            <li data-sr="hotel / rezervacija / depozit." data-en="hotel / booking / deposit.">hotel / rezervacija / depozit.</li>
+            <li data-sr="viza / passport taksa." data-en="visa / passport fee.">viza / passport taksa.</li>
+            <li data-sr="„mali kredit da premostim„" data-en="“small loan to bridge it“">'mali kredit da premostim'</li>
+            <li data-sr="hitna porodična situacija." data-en="urgent family situation.">hitna porodična situacija.</li>
+            <li data-sr="„telefon mi je ukraden, treba mi mali iznos„" data-en="“phone stolen, need small amount“">'telefon mi je ukraden, treba mi mali iznos'</li>
           </ul>
         </div>
 
         <div class="phase">
-          <div class="label" data-sr="Posle praga (serija)" data-en="After threshold (series)">Posle praga (serija)</div>
+          <div class="label" data-sr="Posle praga (serija)" data-en="After threshold (series).">Posle praga (serija)</div>
           <ul class="bullets">
-            <li data-sr="nova taksa da pusti sistem" data-en="another fee to release the system">nova taksa da pusti sistem</li>
-            <li data-sr="osiguranje / bond / depozit" data-en="insurance / bond / deposit">osiguranje / bond / depozit</li>
-            <li data-sr="porez / tax clearance" data-en="tax / tax clearance">porez / tax clearance</li>
-            <li data-sr="advokat / notar / sudski trošak" data-en="lawyer / notary / court fee">advokat / notar / sudski trošak</li>
-            <li data-sr="kazna zbog kašnjenja" data-en="penalty for delay">kazna zbog kašnjenja</li>
-            <li data-sr="refund uz naknadu" data-en="refund for a fee">refund uz naknadu</li>
-            <li data-sr="'završna taksa za release'" data-en="'final release fee'">'završna taksa za release'</li>
-            <li data-sr="urgentno zdravstveno osiguranje" data-en="urgent health insurance">urgentno zdravstveno osiguranje</li>
-            <li data-sr="'kriminal / kazna / bail'" data-en="'criminal / fine / bail'">'kriminal / kazna / bail'</li>
-            <li data-sr="'bankovni transfer fee'" data-en="'bank transfer fee'">'bankovni transfer fee'</li>
+            <li data-sr="nova taksa da pusti sistem." data-en="another fee to release the system.">nova taksa da pusti sistem.</li>
+            <li data-sr="osiguranje / bond / depozit." data-en="insurance / bond / deposit.">osiguranje / bond / depozit.</li>
+            <li data-sr="porez / tax clearance." data-en="tax / tax clearance.">porez / tax clearance.</li>
+            <li data-sr="advokat / notar / sudski trošak." data-en="lawyer / notary / court fee.">advokat / notar / sudski trošak.</li>
+            <li data-sr="kazna zbog kašnjenja." data-en="penalty for delay.">kazna zbog kašnjenja.</li>
+            <li data-sr="refund uz naknadu." data-en="refund for a fee.">refund uz naknadu.</li>
+            <li data-sr="„završna taksa za release„" data-en="“final release fee“">'završna taksa za release'</li>
+            <li data-sr="urgentno zdravstveno osiguranje." data-en="urgent health insurance.">urgentno zdravstveno osiguranje.</li>
+            <li data-sr="„kriminal / kazna / bail„" data-en="“criminal / fine / bail“">'kriminal / kazna / bail'</li>
+            <li data-sr="„bankovni transfer fee„" data-en="“bank transfer fee“">'bankovni transfer fee'</li>
           </ul>
         </div>
 
         <div class="phase">
-          <div class="label" data-sr="Eskalacija (veće sume)" data-en="Escalation (larger amounts)">Eskalacija (veće sume)</div>
+          <div class="label" data-sr="Eskalacija (veće sume)." data-en="Escalation (larger amounts).">Eskalacija (veće sume)</div>
           <ul class="bullets">
-            <li data-sr="'investicija u zajednički projekat'" data-en="'investment in joint project'">'investicija u zajednički projekat'</li>
-            <li data-sr="'biznis prilika koja zahteva kapital'" data-en="'business opportunity requiring capital'">'biznis prilika koja zahteva kapital'</li>
-            <li data-sr="'kupovina kuće / stana za nas'" data-en="'buying a house / apartment for us'">'kupovina kuće / stana za nas'</li>
-            <li data-sr="'kriza sa firmom / bankrotstvo hitno'" data-en="'company crisis / bankruptcy urgent'">'kriza sa firmom / bankrotstvo hitno'</li>
-            <li data-sr="'velike medicinske operacije'" data-en="'major medical operations'">'velike medicinske operacije'</li>
-            <li data-sr="'pravni problem koji zahteva veliki deposit'" data-en="'legal issue requiring large deposit'">'pravni problem koji zahteva veliki deposit'</li>
-            <li data-sr="'kupovina prava / licence / franšize'" data-en="'buying rights / license / franchise'">'kupovina prava / licence / franšize'</li>
-            <li data-sr="'oslobađanje sredstava sa zamrznutog računa'" data-en="'releasing funds from frozen account'">'oslobađanje sredstava sa zamrznutog računa'</li>
+            <li data-sr="„investicija u zajednički projekat„" data-en="“investment in joint project“">'investicija u zajednički projekat'</li>
+            <li data-sr="„biznis prilika koja zahteva kapital„" data-en="“business opportunity requiring capital“">'biznis prilika koja zahteva kapital'</li>
+            <li data-sr="„kupovina kuće / stana za nas„" data-en="“buying a house / apartment for us“">'kupovina kuće / stana za nas'</li>
+            <li data-sr="„kriza sa firmom / bankrotstvo hitno„" data-en="“company crisis / bankruptcy urgent“">'kriza sa firmom / bankrotstvo hitno'</li>
+            <li data-sr="„velike medicinske operacije„" data-en="“major medical operations“">'velike medicinske operacije'</li>
+            <li data-sr="„pravni problem koji zahteva veliki deposit„" data-en="“legal issue requiring large deposit“">'pravni problem koji zahteva veliki deposit'</li>
+            <li data-sr="„kupovina prava / licence / franšize„" data-en="“buying rights / license / franchise“">'kupovina prava / licence / franšize'</li>
+            <li data-sr="„oslobađanje sredstava sa zamrznutog računa„" data-en="“releasing funds from frozen account“">'oslobađanje sredstava sa zamrznutog računa'</li>
           </ul>
         </div>
 
         <div class="phase">
           <div class="label" data-sr="Phantom meetup razlozi" data-en="Phantom meetup reasons">Phantom meetup razlozi</div>
           <ul class="bullets">
-            <li data-sr="'viza odbijena, treba nova taksa'" data-en="'visa rejected, need new fee'">'viza odbijena, treba nova taksa'</li>
-            <li data-sr="'let otkazan, treba novi tiket'" data-en="'flight cancelled, need new ticket'">'let otkazan, treba novi tiket'</li>
-            <li data-sr="'zadržan na carini, treba bail'" data-en="'detained at customs, need bail'">'zadržan na carini, treba bail'</li>
-            <li data-sr="'medicinska situacija pre polaska'" data-en="'medical situation before departure'">'medicinska situacija pre polaska'</li>
-            <li data-sr="'kriminal na aerodromu / hitna kazna'" data-en="'trouble at airport / urgent fine'">'kriminal na aerodromu / hitna kazna'</li>
-            <li data-sr="'smrt u porodici, hitni troškovi'" data-en="'death in family, urgent costs'">'smrt u porodici, hitni troškovi'</li>
-            <li data-sr="'pasoš ukraden / izgubljen, hitna zamena'" data-en="'passport stolen / lost, urgent replacement'">'pasoš ukraden / izgubljen, hitna zamena'</li>
+            <li data-sr="„viza odbijena, treba nova taksa„" data-en="“visa rejected, need new fee“">'viza odbijena, treba nova taksa'</li>
+            <li data-sr="„let otkazan, treba novi tiket„" data-en="“flight cancelled, need new ticket“">'let otkazan, treba novi tiket'</li>
+            <li data-sr="„zadržan na carini, treba bail„" data-en="“detained at customs, need bail“">'zadržan na carini, treba bail'</li>
+            <li data-sr="„medicinska situacija pre polaska„" data-en="“medical situation before departure“">'medicinska situacija pre polaska'</li>
+            <li data-sr="„kriminal na aerodromu / hitna kazna„" data-en="“trouble at airport / urgent fine“">'kriminal na aerodromu / hitna kazna'</li>
+            <li data-sr="„smrt u porodici, hitni troškovi„" data-en="“death in family, urgent costs“">'smrt u porodici, hitni troškovi'</li>
+            <li data-sr="„pasoš ukraden / izgubljen, hitna zamena„" data-en="“passport stolen / lost, urgent replacement“">'pasoš ukraden / izgubljen, hitna zamena'</li>
           </ul>
         </div>
 
         <div class="phase">
           <div class="label" data-sr="Crisis cascade scenariji" data-en="Crisis cascade scenarios">Crisis cascade scenariji</div>
           <ul class="bullets">
-            <li data-sr="'auto nesreća / popravka hitno'" data-en="'car accident / repair urgent'">'auto nesreća / popravka hitno'</li>
-            <li data-sr="'pljačka / krađa identiteta / blokiran račun'" data-en="'robbery / identity theft / blocked account'">'pljačka / krađa identiteta / blokiran račun'</li>
-            <li data-sr="'sudska tužba / moraju da se plate advokati odmah'" data-en="'lawsuit / must pay lawyers immediately'">'sudska tužba / moraju da se plate advokati odmah'</li>
-            <li data-sr="'pritvor / bail / hitna sudska taksa'" data-en="'detention / bail / urgent court fee'">'pritvor / bail / hitna sudska taksa'</li>
-            <li data-sr="'policijska istraga / naknada za puštanje'" data-en="'police investigation / release fee'">'policijska istraga / naknada za puštanje'</li>
-            <li data-sr="'hospitalizacija bliskog / veoma skup tretman'" data-en="'hospitalization of relative / very expensive treatment'">'hospitalizacija bliskog / veoma skup tretman'</li>
-            <li data-sr="'otmica / ucena / hitno otkup'" data-en="'kidnapping / blackmail / urgent ransom'">'otmica / ucena / hitno otkup'</li>
+            <li data-sr="„auto nesreća / popravka hitno„" data-en="“car accident / repair urgent“">'auto nesreća / popravka hitno'</li>
+            <li data-sr="„pljačka / krađa identiteta / blokiran račun„" data-en="“robbery / identity theft / blocked account“">'pljačka / krađa identiteta / blokiran račun'</li>
+            <li data-sr="„sudska tužba / moraju da se plate advokati odmah„" data-en="“lawsuit / must pay lawyers immediately“">'sudska tužba / moraju da se plate advokati odmah'</li>
+            <li data-sr="„pritvor / bail / hitna sudska taksa„" data-en="“detention / bail / urgent court fee“">'pritvor / bail / hitna sudska taksa'</li>
+            <li data-sr="„policijska istraga / naknada za puštanje„" data-en="“police investigation / release fee“">'policijska istraga / naknada za puštanje'</li>
+            <li data-sr="'hospitalizacija bliskog / veoma skup tretman„" data-en="“hospitalization of relative / very expensive treatment'">'hospitalizacija bliskog / veoma skup tretman'</li>
+            <li data-sr="„otmica / ucena / hitno otkup„" data-en="“kidnapping / blackmail / urgent ransom“">'otmica / ucena / hitno otkup'</li>
           </ul>
         </div>
 
         <div class="phase">
           <div class="label" data-sr="Finansijska ekstremizacija scenariji" data-en="Financial extremization scenarios">Finansijska ekstremizacija scenariji</div>
           <ul class="bullets">
-            <li data-sr="'uzmi kredit, vraćam ti duplo'" data-en="'take a loan, I'll pay you back double'">'uzmi kredit, vraćam ti duplo'</li>
-            <li data-sr="'pozajmi od porodice, hitno je'" data-en="'borrow from family, it's urgent'">'pozajmi od porodice, hitno je'</li>
-            <li data-sr="'prodaj auto / nakit / electronics da premostimo'" data-en="'sell car / jewelry / electronics to bridge it'">'prodaj auto / nakit / electronics da premostimo'</li>
-            <li data-sr="'otvori novu kreditnu karticu za nas'" data-en="'open a new credit card for us'">'otvori novu kreditnu karticu za nas'</li>
-            <li data-sr="'povuci iz penzionog fonda / štednje za hitnost'" data-en="'withdraw money from a retirement fund / emergency savings'">'povuci iz penzionog fonda / štednje za hitnost'</li>
+            <li data-sr="„uzmi kredit, vraćam ti duplo„" data-en="“take a loan, I“ll pay you back double'">'uzmi kredit, vraćam ti duplo'</li>
+            <li data-sr="„pozajmi od porodice, hitno je„" data-en="“borrow from family, it“s urgent'">'pozajmi od porodice, hitno je'</li>
+            <li data-sr="'prodaj auto / nakit / electronics da premostimo„" data-en="“sell car / jewelry / electronics to bridge it'">'prodaj auto / nakit / electronics da premostimo'</li>
+            <li data-sr="„otvori novu kreditnu karticu za nas„" data-en="“open a new credit card for us“">'otvori novu kreditnu karticu za nas'</li>
+            <li data-sr="'povuci iz penzionog fonda / štednje za hitnost„" data-en="“withdraw money from a retirement fund / emergency savings'">'povuci iz penzionog fonda / štednje za hitnost'</li>
           </ul>
         </div>
       </div>
 
-      <div class="callout"
-        data-sr="<strong>Pravilo:</strong> uplata radi povlačenja / oslobađanja / povrata je obrazac. (Povezano: <a href='advance-fee-fraud.html'>Advance-fee</a>, <a href='recovery-scam.html'>Recovery</a>)"
-        data-en="<strong>Rule:</strong> paying to withdraw / release / recover money is a pattern. (Related: <a href='advance-fee-fraud.html'>Advance-fee</a>, <a href='recovery-scam.html'>Recovery</a>)"
-      ><strong>Pravilo:</strong> uplata radi povlačenja / oslobađanja / povrata je obrazac. (Povezano: <a href="advance-fee-fraud.html">Advance-fee</a>, <a href="recovery-scam.html">Recovery</a>)</div>
+      <div class="callout"><strong>Pravilo:</strong> uplata radi povlačenja / oslobađanja / povrata je obrazac. (Povezano: <a href="advance-fee-fraud.html">Uplata unapred</a>, <a href="recovery-scam.html">Prevara povraćaja novca</a>)</div>
     </section>
 
     <!-- 5) SKRIPTE I FRAZE (100+) -->
     <section class="card warn">
-      <h2 data-sr="Tipične poruke i skripte (100+ mape prepoznavanja)" data-en="Typical messages and scripts (100+ recognition maps)">
+      <h2 data-sr="Tipične poruke i skripte (100+ mape prepoznavanja)." data-en="Typical messages and scripts (100+ recognition maps).">
         Tipične poruke i skripte (100+ mape prepoznavanja)
       </h2>
 
@@ -510,126 +504,126 @@ window.SCAM_CONTENT["romantic-scam"] = {
 
       <div class="grid-2">
         <div class="phase">
-          <div class="label" data-sr="Tajnost i izolacija (20+)" data-en="Secrecy and isolation (20+)">Tajnost i izolacija (20+)</div>
+          <div class="label" data-sr="Tajnost i izolacija (20+)." data-en="Secrecy and isolation (20+).">Tajnost i izolacija (20+)</div>
           <ul class="bullets">
-            <li data-sr="'Između nas'" data-en="'Between us'">'Između nas'</li>
-            <li data-sr="'Nemoj nikome, ljudi komplikuju'" data-en="'Don't tell anyone, people complicate it'">'Nemoj nikome, ljudi komplikuju'</li>
-            <li data-sr="'Ako kažeš porodici, stopiraće nas'" data-en="'If you tell your family, they'll stop us'">'Ako kažeš porodici, stopiraće nas'</li>
-            <li data-sr="'Molim te, veruj mi'" data-en="'Please, trust me'">'Molim te, veruj mi'</li>
-            <li data-sr="'Ljudi su zavidni'" data-en="'People are jealous'">'Ljudi su zavidni'</li>
-            <li data-sr="'Mora da ostane privatno'" data-en="'This must stay private'">'Mora da ostane privatno'</li>
-            <li data-sr="'Ako pitaš druge, pokvariće'" data-en="'If you ask others, they'll ruin it'">'Ako pitaš druge, pokvariće'</li>
-            <li data-sr="'Nemoj da praviš dramu'" data-en="'Don't make drama'">'Nemoj da praviš dramu'</li>
-            <li data-sr="'Samo mi ti trebaš'" data-en="'I only need you'">'Samo mi ti trebaš'</li>
-            <li data-sr="'Porodica ne razume'" data-en="'Family doesn't understand'">'Porodica ne razume'</li>
-            <li data-sr="'Prijatelji će te obeshrabriti'" data-en="'Friends will discourage you'">'Prijatelji će te obeshrabriti'</li>
-            <li data-sr="'Nemaš kome da veruješ osim meni'" data-en="'You have no one to trust but me'">'Nemaš kome da veruješ osim meni'</li>
-            <li data-sr="'Ako pitaš, biće kasno'" data-en="'If you ask, it'll be too late'">'Ako pitaš, biće kasno'</li>
-            <li data-sr="'Samo među nama'" data-en="'Just between us'">'Samo među nama'</li>
-            <li data-sr="'Nemoj da deliš sa drugima'" data-en="'Don't share with others'">'Nemoj da deliš sa drugima'</li>
-            <li data-sr="'Mi protiv sveta'" data-en="'Us against the world'">'Mi protiv sveta'</li>
-            <li data-sr="'Njih boli što smo srećni'" data-en="'They're hurt that we're happy'">'Njih boli što smo srećni'</li>
-            <li data-sr="'Neka ostane tajna malo duže'" data-en="'Let it stay secret a bit longer'">'Neka ostane tajna malo duže'</li>
-            <li data-sr="'Ja sam jedini koji te razume'" data-en="'I'm the only one who understands you'">'Ja sam jedini koji te razume'</li>
-            <li data-sr="'Nemoj da im daš da te promene'" data-en="'Don't let them change you'">'Nemoj da im daš da te promene'</li>
+            <li data-sr="„Između nas„" data-en="“Between us“">'Između nas'</li>
+            <li data-sr="„Nemoj nikome, ljudi komplikuju„" data-en="“Don“t tell anyone, people complicate it'">'Nemoj nikome, ljudi komplikuju'</li>
+            <li data-sr="„Ako kažeš porodici, stopiraće nas„" data-en="“If you tell your family, they“ll stop us'">'Ako kažeš porodici, stopiraće nas'</li>
+            <li data-sr="„Molim te, veruj mi„" data-en="“Please, trust me“">'Molim te, veruj mi'</li>
+            <li data-sr="„Ljudi su zavidni„" data-en="“People are jealous“">'Ljudi su zavidni'</li>
+            <li data-sr="„Mora da ostane privatno„" data-en="“This must stay private“">'Mora da ostane privatno'</li>
+            <li data-sr="„Ako pitaš druge, pokvariće„" data-en="“If you ask others, they“ll ruin it'">'Ako pitaš druge, pokvariće'</li>
+            <li data-sr="„Nemoj da praviš dramu„" data-en="“Don“t make drama'">'Nemoj da praviš dramu'</li>
+            <li data-sr="„Samo mi ti trebaš„" data-en="“I only need you“">'Samo mi ti trebaš'</li>
+            <li data-sr="„Porodica ne razume„" data-en="“Family doesn“t understand'">'Porodica ne razume'</li>
+            <li data-sr="„Prijatelji će te obeshrabriti„" data-en="“Friends will discourage you“">'Prijatelji će te obeshrabriti'</li>
+            <li data-sr="„Nemaš kome da veruješ osim meni„" data-en="“You have no one to trust but me“">'Nemaš kome da veruješ osim meni'</li>
+            <li data-sr="„Ako pitaš, biće kasno„" data-en="“If you ask, it“ll be too late'">'Ako pitaš, biće kasno'</li>
+            <li data-sr="„Samo među nama„" data-en="“Just between us“">'Samo među nama'</li>
+            <li data-sr="„Nemoj da deliš sa drugima„" data-en="“Don“t share with others'">'Nemoj da deliš sa drugima'</li>
+            <li data-sr="„Mi protiv sveta„" data-en="“Us against the world“">'Mi protiv sveta'</li>
+            <li data-sr="„Njih boli što smo srećni„" data-en="“They“re hurt that we're happy'">'Njih boli što smo srećni'</li>
+            <li data-sr="„Neka ostane tajna malo duže„" data-en="“Let it stay secret a bit longer“">'Neka ostane tajna malo duže'</li>
+            <li data-sr="„Ja sam jedini koji te razume„" data-en="“I“m the only one who understands you'">'Ja sam jedini koji te razume'</li>
+            <li data-sr="„Nemoj da im daš da te promene„" data-en="“Don“t let them change you'">'Nemoj da im daš da te promene'</li>
           </ul>
         </div>
 
         <div class="phase">
-          <div class="label" data-sr="Rok i hitnost (20+)" data-en="Deadlines and urgency (20+)">Rok i hitnost (20+)</div>
+          <div class="label" data-sr="Rok i hitnost (20+)" data-en="Deadlines and urgency (20+).">Rok i hitnost (20+)</div>
           <ul class="bullets">
-            <li data-sr="'Rok je danas'" data-en="'Deadline is today'">'Rok je danas'</li>
-            <li data-sr="'Posle je kasno'" data-en="'After that it's too late'">'Posle je kasno'</li>
-            <li data-sr="'Rešavamo odmah'" data-en="'We fix this now'">'Rešavamo odmah'</li>
-            <li data-sr="'Ako stopiraš, gubimo'" data-en="'If you stop, we lose'">'Ako stopiraš, gubimo'</li>
-            <li data-sr="'Samo danas'" data-en="'Just today'">'Samo danas'</li>
-            <li data-sr="'Kurir čeka'" data-en="'Courier is waiting'">'Kurir čeka'</li>
-            <li data-sr="'Poslednja šansa'" data-en="'Last chance'">'Poslednja šansa'</li>
-            <li data-sr="'Ako zakasnimo, zatvara se'" data-en="'If we're late, it closes'">'Ako zakasnimo, zatvara se'</li>
-            <li data-sr="'Molim te, nemam vremena'" data-en="'Please, I don't have time'">'Molim te, nemam vremena'</li>
-            <li data-sr="'Samo uradi'" data-en="'Just do it'">'Samo uradi'</li>
-            <li data-sr="'Ističe za 2 sata'" data-en="'Expires in 2 hours'">'Ističe za 2 sata'</li>
-            <li data-sr="'Moramo do ponoći'" data-en="'We must by midnight'">'Moramo do ponoći'</li>
-            <li data-sr="'Slede posledice ako ne uradimo'" data-en="'Consequences follow if we don't'">'Slede posledice ako ne uradimo'</li>
-            <li data-sr="'Sistem se zatvara sada'" data-en="'System is closing now'">'Sistem se zatvara sada'</li>
-            <li data-sr="'Agent čeka odgovor'" data-en="'Agent is waiting for an answer'">'Agent čeka odgovor'</li>
-            <li data-sr="'Služba radi samo do 5'" data-en="'Office only open until 5'">'Služba radi samo do 5'</li>
-            <li data-sr="'Evo ti 30 minuta'" data-en="'You have 30 minutes'">'Evo ti 30 minuta'</li>
-            <li data-sr="'Ne razmišljaj, reaguj'" data-en="'Don't think, react'">'Ne razmišljaj, reaguj'</li>
-            <li data-sr="'Odluči sada ili gubi'" data-en="'Decide now or lose'">'Odluči sada ili gubi'</li>
-            <li data-sr="'Hitno je kao nikad'" data-en="'More urgent than ever'">'Hitno je kao nikad'</li>
+            <li data-sr="„Rok je danas„" data-en="“Deadline is today“">'Rok je danas'</li>
+            <li data-sr="„Posle je kasno„" data-en="“After that it“s too late'">'Posle je kasno'</li>
+            <li data-sr="„Rešavamo odmah„" data-en="“We fix this now“">'Rešavamo odmah'</li>
+            <li data-sr="„Ako stopiraš, gubimo„" data-en="“If you stop, we lose“">'Ako stopiraš, gubimo'</li>
+            <li data-sr="„Samo danas„" data-en="“Just today“">'Samo danas'</li>
+            <li data-sr="„Kurir čeka„" data-en="“Courier is waiting“">'Kurir čeka'</li>
+            <li data-sr="„Poslednja šansa„" data-en="“Last chance“">'Poslednja šansa'</li>
+            <li data-sr="„Ako zakasnimo, zatvara se„" data-en="“If we“re late, it closes'">'Ako zakasnimo, zatvara se'</li>
+            <li data-sr="„Molim te, nemam vremena„" data-en="“Please, I don“t have time'">'Molim te, nemam vremena'</li>
+            <li data-sr="„Samo uradi„" data-en="“Just do it“">'Samo uradi'</li>
+            <li data-sr="„Ističe za 2 sata„" data-en="“Expires in 2 hours“">'Ističe za 2 sata'</li>
+            <li data-sr="„Moramo do ponoći„" data-en="“We must by midnight“">'Moramo do ponoći'</li>
+            <li data-sr="„Slede posledice ako ne uradimo„" data-en="“Consequences follow if we don“t'">'Slede posledice ako ne uradimo'</li>
+            <li data-sr="„Sistem se zatvara sada„" data-en="“System is closing now“">'Sistem se zatvara sada'</li>
+            <li data-sr="„Agent čeka odgovor„" data-en="“Agent is waiting for an answer“">'Agent čeka odgovor'</li>
+            <li data-sr="„Služba radi samo do 5„" data-en="“Office only open until 5“">'Služba radi samo do 5'</li>
+            <li data-sr="„Evo ti 30 minuta„" data-en="“You have 30 minutes“">'Evo ti 30 minuta'</li>
+            <li data-sr="„Ne razmišljaj, reaguj„" data-en="“Don“t think, react'">'Ne razmišljaj, reaguj'</li>
+            <li data-sr="„Odluči sada ili gubi„" data-en="“Decide now or lose“">'Odluči sada ili gubi'</li>
+            <li data-sr="„Hitno je kao nikad„" data-en="“More urgent than ever“">'Hitno je kao nikad'</li>
           </ul>
         </div>
 
         <div class="phase">
-          <div class="label" data-sr="Mala stavka i minimizacija (20+)" data-en="Minimization and small ask (20+)">Mala stavka i minimizacija (20+)</div>
+          <div class="label" data-sr="Mala stavka i minimizacija (20+)." data-en="Minimization and small ask (20+).">Mala stavka i minimizacija (20+)</div>
           <ul class="bullets">
-            <li data-sr="'Mala suma'" data-en="'Small amount'">'Mala suma'</li>
-            <li data-sr="'Samo taksa'" data-en="'Just a fee'">'Samo taksa'</li>
-            <li data-sr="'Vraćam odmah'" data-en="'I'll pay back immediately'">'Vraćam odmah'</li>
-            <li data-sr="'Posle ovoga je gotovo'" data-en="'After this it's done'">'Posle ovoga je gotovo'</li>
-            <li data-sr="'Samo da premostimo'" data-en="'Just to bridge it'">'Samo da premostimo'</li>
-            <li data-sr="'Formalnost'" data-en="'Formality'">'Formalnost'</li>
-            <li data-sr="'Bez toga ne mogu da završim'" data-en="'I can't finish without it'">'Bez toga ne mogu da završim'</li>
-            <li data-sr="'Sutra sve rešavam'" data-en="'Tomorrow I'll fix everything'">'Sutra sve rešavam'</li>
-            <li data-sr="'Poslednja stavka'" data-en="'Last item'">'Poslednja stavka'</li>
-            <li data-sr="'Posle ti šaljem dokaz'" data-en="'Afterwards I'll send proof'">'Posle ti šaljem dokaz'</li>
-            <li data-sr="'Simbolična suma'" data-en="'Symbolic amount'">'Simbolična suma'</li>
-            <li data-sr="'Zadnji dolar koji mi treba'" data-en="'Last dollar I need'">'Zadnji dolar koji mi treba'</li>
-            <li data-sr="'Samo sitniš'" data-en="'Just pocket change'">'Samo sitniš'</li>
-            <li data-sr="'100% vraćam za nedelju'" data-en="'100% return it in a week'">'100% vraćam za nedelju'</li>
-            <li data-sr="'Ništa u poređenju sa onim što dobijamo'" data-en="'Nothing compared to what we get'">'Ništa u poređenju sa onim što dobijamo'</li>
-            <li data-sr="'Minimalna cena da prođemo'" data-en="'Minimum cost to pass'">'Minimalna cena da prođemo'</li>
-            <li data-sr="'Završna procedura'" data-en="'Final procedure'">'Završna procedura'</li>
-            <li data-sr="'Banalnost'" data-en="'Triviality'">'Banalnost'</li>
-            <li data-sr="'Duplo ti vraćam'" data-en="'I'll pay you back double'">'Duplo ti vraćam'</li>
-            <li data-sr="'Zatvaramo slučaj sa ovim'" data-en="'We close the case with this'">'Zatvaramo slučaj sa ovim'</li>
+            <li data-sr="„Mala suma„" data-en="“Small amount“">'Mala suma'</li>
+            <li data-sr="„Samo taksa„" data-en="“Just a fee“">'Samo taksa'</li>
+            <li data-sr="„Vraćam odmah„" data-en="“I“ll pay back immediately'">'Vraćam odmah'</li>
+            <li data-sr="„Posle ovoga je gotovo„" data-en="“After this it“s done'">'Posle ovoga je gotovo'</li>
+            <li data-sr="„Samo da premostimo„" data-en="“Just to bridge it“">'Samo da premostimo'</li>
+            <li data-sr="„Formalnost„" data-en="“Formality“">'Formalnost'</li>
+            <li data-sr="„Bez toga ne mogu da završim„" data-en="“I can“t finish without it'">'Bez toga ne mogu da završim'</li>
+            <li data-sr="„Sutra sve rešavam„" data-en="“Tomorrow I“ll fix everything'">'Sutra sve rešavam'</li>
+            <li data-sr="„Poslednja stavka„" data-en="“Last item“">'Poslednja stavka'</li>
+            <li data-sr="„Posle ti šaljem dokaz„" data-en="“Afterwards I“ll send proof'">'Posle ti šaljem dokaz'</li>
+            <li data-sr="„Simbolična suma„" data-en="“Symbolic amount“">'Simbolična suma'</li>
+            <li data-sr="„Zadnji dolar koji mi treba„" data-en="“Last dollar I need“">'Zadnji dolar koji mi treba'</li>
+            <li data-sr="„Samo sitniš„" data-en="“Just pocket change“">'Samo sitniš'</li>
+            <li data-sr="„100% vraćam za nedelju„" data-en="“100% return it in a week“">'100% vraćam za nedelju'</li>
+            <li data-sr="„Ništa u poređenju sa onim što dobijamo„" data-en="“Nothing compared to what we get“">'Ništa u poređenju sa onim što dobijamo'</li>
+            <li data-sr="„Minimalna cena da prođemo„" data-en="“Minimum cost to pass“">'Minimalna cena da prođemo'</li>
+            <li data-sr="„Završna procedura„" data-en="“Final procedure“">'Završna procedura'</li>
+            <li data-sr="„Banalnost„" data-en="“Triviality“">'Banalnost'</li>
+            <li data-sr="„Duplo ti vraćam„" data-en="“I“ll pay you back double'">'Duplo ti vraćam'</li>
+            <li data-sr="„Zatvaramo slučaj sa ovim„" data-en="“We close the case with this“">'Zatvaramo slučaj sa ovim'</li>
           </ul>
         </div>
 
         <div class="phase bad">
-          <div class="label" data-sr="Krivica, ucena, lomljenje otpora (40+)" data-en="Guilt, coercion, breaking resistance (40+)">Krivica, ucena, lomljenje otpora (40+)</div>
+          <div class="label" data-sr="Krivica, ucena, lomljenje otpora (40+)." data-en="Guilt, coercion, breaking resistance (40+).">Krivica, ucena, lomljenje otpora (40+)</div>
           <ul class="bullets">
-            <li data-sr="'Posle svega, sad mi to radiš?'" data-en="'After everything, you do this now?'">'Posle svega, sad mi to radiš?'</li>
-            <li data-sr="'Ako me voliš, pomoći ćeš'" data-en="'If you love me, you'll help'">'Ako me voliš, pomoći ćeš'</li>
-            <li data-sr="'Znao sam da se ne mogu osloniti'" data-en="'I knew I couldn't rely on you'">'Znao sam da se ne mogu osloniti'</li>
-            <li data-sr="'Tvoj test'" data-en="'Your test'">'Tvoj test'</li>
-            <li data-sr="'Ako odeš, završeno je'" data-en="'If you leave, it's over'">'Ako odeš, završeno je'</li>
-            <li data-sr="'Sve sam ti rekao iskreno'" data-en="'I told you everything honestly'">'Sve sam ti rekao iskreno'</li>
-            <li data-sr="'Ne mogu da verujem da sumnjaš'" data-en="'I can't believe you doubt me'">'Ne mogu da verujem da sumnjaš'</li>
-            <li data-sr="'Samo ti možeš da me spasiš'" data-en="'Only you can save me'">'Samo ti možeš da me spasiš'</li>
-            <li data-sr="'Ako ovo propadne, tvoja je krivica'" data-en="'If this fails, it's your fault'">'Ako ovo propadne, tvoja je krivica'</li>
-            <li data-sr="'Izdao si me'" data-en="'You betrayed me'">'Izdao si me'</li>
-            <li data-sr="'Mislio sam da si drugačiji'" data-en="'I thought you were different'">'Mislio sam da si drugačiji'</li>
-            <li data-sr="'Kako da ti verujem posle ovoga?'" data-en="'How can I trust you after this?'">'Kako da ti verujem posle ovoga?'</li>
-            <li data-sr="'Slomio si me'" data-en="'You broke me'">'Slomio si me'</li>
-            <li data-sr="'Nikad mi niko nije poverovao'" data-en="'No one ever believed me'">'Nikad mi niko nije poverovao'</li>
-            <li data-sr="'Ti si poslednja nada'" data-en="'You're my last hope'">'Ti si poslednja nada'</li>
-            <li data-sr="'Ako me pustiš, umreću'" data-en="'If you leave me, I'll die'">'Ako me pustiš, umreću'</li>
-            <li data-sr="'Ti si razlog što sam još tu'" data-en="'You're the reason I'm still here'">'Ti si razlog što sam još tu'</li>
-            <li data-sr="'Plašim se šta ću kad odem'" data-en="'I'm scared what I'll do if I leave'">'Plašim se šta ću kad odem'</li>
-            <li data-sr="'Nemaš srce'" data-en="'You have no heart'">'Nemaš srce'</li>
-            <li data-sr="'Sebična si'" data-en="'You're selfish'">'Sebična si'</li>
-            <li data-sr="'Mislio sam da mi paše'" data-en="'I thought you cared'">'Mislio sam da mi paše'</li>
-            <li data-sr="'Svi su bili u pravu'" data-en="'Everyone was right'">'Svi su bili u pravu'</li>
-            <li data-sr="'Ne zaslužujem ovo'" data-en="'I don't deserve this'">'Ne zaslužujem ovo'</li>
-            <li data-sr="'Posle svega što sam uložio u nas'" data-en="'After everything I invested in us'">'Posle svega što sam uložio u nas'</li>
-            <li data-sr="'Ti si mi uništio život'" data-en="'You ruined my life'">'Ti si mi uništio život'</li>
-            <li data-sr="'Nikad me nisi voleo'" data-en="'You never loved me'">'Nikad me nisi voleo'</li>
-            <li data-sr="'Lagao si celo vreme'" data-en="'You lied the whole time'">'Lagao si celo vreme'</li>
-            <li data-sr="'Ti si kao svi ostali'" data-en="'You're like everyone else'">'Ti si kao svi ostali'</li>
-            <li data-sr="'Ako me voliš, dokažeš'" data-en="'If you love me, you'll prove it'">'Ako me voliš, dokažeš'</li>
-            <li data-sr="'Rekao si da si tu za mene'" data-en="'You said you were there for me'">'Rekao si da si tu za mene'</li>
-            <li data-sr="'Sećam se kada si obećao'" data-en="'I remember when you promised'">'Sećam se kada si obećao'</li>
-            <li data-sr="'Pusti me da umrem'" data-en="'Let me die'">'Pusti me da umrem'</li>
-            <li data-sr="'Bolje da me nisi upoznao'" data-en="'Better if you never met me'">'Bolje da me nisi upoznao'</li>
-            <li data-sr="'Ti si ubio moju nadu'" data-en="'You killed my hope'">'Ti si ubio moju nadu'</li>
-            <li data-sr="'Plakao sam celu noć'" data-en="'I cried all night'">'Plakao sam celu noć'</li>
-            <li data-sr="'Nisam jeo zbog tebe'" data-en="'I haven't eaten because of you'">'Nisam jeo zbog tebe'</li>
-            <li data-sr="'Ne spavam'" data-en="'I can't sleep'">'Ne spavam'</li>
-            <li data-sr="'Svaki dan mislim na tebe'" data-en="'I think of you every day'">'Svaki dan mislim na tebe'</li>
-            <li data-sr="'Moji planovi su bili sa tobom'" data-en="'My plans were with you'">'Moji planovi su bili sa tobom'</li>
-            <li data-sr="'Ne mogu da zamislim život bez tebe'" data-en="'I can't imagine life without you'">'Ne mogu da zamislim život bez tebe'</li>
+            <li data-sr="„Posle svega, sad mi to radiš?„" data-en="“After everything, you do this now?“">'Posle svega, sad mi to radiš?'</li>
+            <li data-sr="„Ako me voliš, pomoći ćeš„" data-en="“If you love me, you“ll help'">'Ako me voliš, pomoći ćeš'</li>
+            <li data-sr="„Znao sam da se ne mogu osloniti„" data-en="“I knew I couldn“t rely on you'">'Znao sam da se ne mogu osloniti'</li>
+            <li data-sr="„Tvoj test„" data-en="“Your test“">'Tvoj test'</li>
+            <li data-sr="„Ako odeš, završeno je„" data-en="“If you leave, it“s over'">'Ako odeš, završeno je'</li>
+            <li data-sr="„Sve sam ti rekao iskreno„" data-en="“I told you everything honestly“">'Sve sam ti rekao iskreno'</li>
+            <li data-sr="„Ne mogu da verujem da sumnjaš„" data-en="“I can“t believe you doubt me'">'Ne mogu da verujem da sumnjaš'</li>
+            <li data-sr="„Samo ti možeš da me spasiš„" data-en="“Only you can save me“">'Samo ti možeš da me spasiš'</li>
+            <li data-sr="„Ako ovo propadne, tvoja je krivica„" data-en="“If this fails, it“s your fault'">'Ako ovo propadne, tvoja je krivica'</li>
+            <li data-sr="„Izdao si me„" data-en="“You betrayed me“">'Izdao si me'</li>
+            <li data-sr="„Mislio sam da si drugačiji„" data-en="“I thought you were different“">'Mislio sam da si drugačiji'</li>
+            <li data-sr="„Kako da ti verujem posle ovoga?„" data-en="“How can I trust you after this?“">'Kako da ti verujem posle ovoga?'</li>
+            <li data-sr="„Slomio si me„" data-en="“You broke me“">'Slomio si me'</li>
+            <li data-sr="„Nikad mi niko nije poverovao„" data-en="“No one ever believed me“">'Nikad mi niko nije poverovao'</li>
+            <li data-sr="„Ti si poslednja nada„" data-en="“You“re my last hope'">'Ti si poslednja nada'</li>
+            <li data-sr="„Ako me pustiš, umreću„" data-en="“If you leave me, I“ll die'">'Ako me pustiš, umreću'</li>
+            <li data-sr="„Ti si razlog što sam još tu„" data-en="“You“re the reason I'm still here'">'Ti si razlog što sam još tu'</li>
+            <li data-sr="„Plašim se šta ću kad odem„" data-en="“I“m scared what I'll do if I leave'">'Plašim se šta ću kad odem'</li>
+            <li data-sr="„Nemaš srce„" data-en="“You have no heart“">'Nemaš srce'</li>
+            <li data-sr="„Sebična si„" data-en="“You“re selfish'">'Sebična si'</li>
+            <li data-sr="„Mislio sam da mi paše„" data-en="“I thought you cared“">'Mislio sam da mi paše'</li>
+            <li data-sr="„Svi su bili u pravu„" data-en="“Everyone was right“">'Svi su bili u pravu'</li>
+            <li data-sr="„Ne zaslužujem ovo„" data-en="“I don“t deserve this'">'Ne zaslužujem ovo'</li>
+            <li data-sr="„Posle svega što sam uložio u nas„" data-en="“After everything I invested in us“">'Posle svega što sam uložio u nas'</li>
+            <li data-sr="„Ti si mi uništio život„" data-en="“You ruined my life“">'Ti si mi uništio život'</li>
+            <li data-sr="„Nikad me nisi voleo„" data-en="“You never loved me“">'Nikad me nisi voleo'</li>
+            <li data-sr="„Lagao si celo vreme„" data-en="“You lied the whole time“">'Lagao si celo vreme'</li>
+            <li data-sr="„Ti si kao svi ostali„" data-en="“You“re like everyone else'">'Ti si kao svi ostali'</li>
+            <li data-sr="„Ako me voliš, dokažeš„" data-en="“If you love me, you“ll prove it'">'Ako me voliš, dokažeš'</li>
+            <li data-sr="„Rekao si da si tu za mene„" data-en="“You said you were there for me“">'Rekao si da si tu za mene'</li>
+            <li data-sr="„Sećam se kada si obećao„" data-en="“I remember when you promised“">'Sećam se kada si obećao'</li>
+            <li data-sr="„Pusti me da umrem„" data-en="“Let me die“">'Pusti me da umrem'</li>
+            <li data-sr="„Bolje da me nisi upoznao„" data-en="“Better if you never met me“">'Bolje da me nisi upoznao'</li>
+            <li data-sr="„Ti si ubio moju nadu„" data-en="“You killed my hope“">'Ti si ubio moju nadu'</li>
+            <li data-sr="„Plakao sam celu noć„" data-en="“I cried all night“">'Plakao sam celu noć'</li>
+            <li data-sr="„Nisam jeo zbog tebe„" data-en="“I haven“t eaten because of you'">'Nisam jeo zbog tebe'</li>
+            <li data-sr="„Ne spavam„" data-en="“I can“t sleep'">'Ne spavam'</li>
+            <li data-sr="„Svaki dan mislim na tebe„" data-en="“I think of you every day“">'Svaki dan mislim na tebe'</li>
+            <li data-sr="„Moji plažni su bili sa tobom„" data-en="“My plans were with you“">'Moji plažni su bili sa tobom'</li>
+            <li data-sr="„Ne mogu da zamislim život bez tebe„" data-en="“I can“t imagine life without you'">'Ne mogu da zamislim život bez tebe'</li>
           </ul>
         </div>
       </div>
@@ -647,38 +641,38 @@ window.SCAM_CONTENT["romantic-scam"] = {
       </h2>
 
       <p
-        data-sr="Romantične prevare eksploatišu ugrađene kognitivne obrasce: sunk-cost fallacy, commitment-consistency heuristic, reciprocity bias, authority bias, scarcity heuristic, social proof gap (izolacija). Operatori ne izmišljaju psihologiju, mapiraju postojeće slabosti."
+        data-sr="Romantične prevare eksploatišu ugrađene kognitivne obrasce: efekat uloženog troška, potrebu za doslednošću, uzvraćanje, efekat autoriteta, osećaj oskudice i manjak spoljne provere zbog izolacije. Operatori ne izmišljaju psihologiju, mapiraju postojeće slabosti."
         data-en="Romance scams exploit built-in cognitive patterns: sunk-cost fallacy, commitment-consistency heuristic, reciprocity bias, authority bias, scarcity heuristic, social proof gap (isolation). Operators don't invent psychology, they map existing weaknesses."
-      >Romantične prevare eksploatišu ugrađene kognitivne obrasce: sunk-cost fallacy, commitment-consistency heuristic, reciprocity bias, authority bias, scarcity heuristic, social proof gap (izolacija). Operatori ne izmišljaju psihologiju, mapiraju postojeće slabosti.</p>
+      >Romantične prevare eksploatišu ugrađene kognitivne obrasce: efekat uloženog troška, potrebu za doslednošću, uzvraćanje, efekat autoriteta, osećaj oskudice i manjak spoljne provere zbog izolacije. Operatori ne izmišljaju psihologiju, mapiraju postojeće slabosti.</p>
 
       <div class="grid-2">
         <div class="phase">
-          <div class="label" data-sr="Sunk-cost fallacy (uložen kapital)" data-en="Sunk-cost fallacy (invested capital)">Sunk-cost fallacy (uložen kapital)</div>
+          <div class="label" data-sr="Sunk-cost fallacy (uložen kapital)." data-en="Sunk-cost fallacy (invested capital).">Sunk-cost fallacy (uložen kapital)</div>
           <p data-sr="Meta koja je uložila 2 meseca razgovora i $10.000 teže preseca tok jer ulog postaje deo identiteta. Obrazac: veći ulog = veća inercija. Presecanje zahteva priznanje gubitka, što je psihološki bolan korak. Operator svesno gradi ulog kroz vreme pre nego što traži novac." data-en="A target who invested 2 months of conversation and $10,000 finds it harder to cut the flow because the stake becomes part of identity. Pattern: bigger stake = bigger inertia. Cutting requires admitting loss, which is psychologically painful. Operator consciously builds stake through time before asking for money.">Meta koja je uložila 2 meseca razgovora i $10.000 teže preseca tok jer ulog postaje deo identiteta. Obrazac: veći ulog = veća inercija. Presecanje zahteva priznanje gubitka, što je psihološki bolan korak. Operator svesno gradi ulog kroz vreme pre nego što traži novac.</p>
         </div>
 
         <div class="phase">
-          <div class="label" data-sr="Commitment-consistency heuristic (doslednost odluci)" data-en="Commitment-consistency heuristic (consistency to decision)">Commitment-consistency heuristic (doslednost odluci)</div>
-          <p data-sr="Kada meta javno brani odnos (porodici, prijateljima), odluka postaje deo javnog identiteta. Operator koristi tajnost da izoluje, zatim gura malu javnu odbranu ('reci mami da sam dobar'), što aktivira doslednost. Meta kasnije teže menja mišljenje jer bi morala priznati grešku pred drugima." data-en="When target publicly defends the relationship (to family, friends), the decision becomes part of public identity. Operator uses secrecy to isolate, then pushes small public defense ('tell mom I'm good'), which activates consistency. Target later finds it harder to change opinion because they'd have to admit error to others.">Kada meta javno brani odnos (porodici, prijateljima), odluka postaje deo javnog identiteta. Operator koristi tajnost da izoluje, zatim gura malu javnu odbranu ('reci mami da sam dobar'), što aktivira doslednost. Meta kasnije teže menja mišljenje jer bi morala priznati grešku pred drugima.</p>
+          <div class="label" data-sr="Commitment-consistency heuristic (doslednost odluci)." data-en="Commitment-consistency heuristic (consistency to decision).">Commitment-consistency heuristic (doslednost odluci)</div>
+          <p data-sr="Kada meta javno brani odnos (porodici, prijateljima), odluka postaje deo javnog identiteta. Operator koristi tajnost da izoluje, zatim gura malu javnu odbranu („reci mami da sam dobar“), što aktivira doslednost. Meta kasnije teže menja mišljenje jer bi morala priznati grešku pred drugima." data-en="When target publicly defends the relationship (to family, friends), the decision becomes part of public identity. Operator uses secrecy to isolate, then pushes small public defense ('tell mom I'm good'), which activates consistency. Target later finds it harder to change opinion because they'd have to admit error to others.">Kada meta javno brani odnos (porodici, prijateljima), odluka postaje deo javnog identiteta. Operator koristi tajnost da izoluje, zatim gura malu javnu odbranu ('reci mami da sam dobar'), što aktivira doslednost. Meta kasnije teže menja mišljenje jer bi morala priznati grešku pred drugima.</p>
         </div>
 
         <div class="phase">
-          <div class="label" data-sr="Reciprocity bias (reciprocitet)" data-en="Reciprocity bias (reciprocity)">Reciprocity bias (reciprocitet)</div>
-          <p data-sr="Operator daje pažnju, komplimente, 'investira vreme', šalje male poklone (digitalne slike, fiktivni paketi). Meta oseća dug. Kada operator traži novac, to izgleda kao povraćaj uloge, reciprocitet aktivira osećaj obaveze." data-en="Operator gives attention, compliments, 'invests time', sends small gifts (digital images, fictional packages). Target feels debt. When operator asks for money, it looks like role reversal, reciprocity activates sense of obligation.">Operator daje pažnju, komplimente, 'investira vreme', šalje male poklone (digitalne slike, fiktivni paketi). Meta oseća dug. Kada operator traži novac, to izgleda kao povraćaj uloge, reciprocitet aktivira osećaj obaveze.</p>
+          <div class="label" data-sr="Reciprocity bias (reciprocitet)." data-en="Reciprocity bias (reciprocity).">Reciprocity bias (reciprocitet)</div>
+          <p data-sr="Operator daje pažnju, komplimente, „investira vreme“, šalje male poklone (digitalne slike, fiktivni paketi). Meta oseća dug. Kada operator traži novac, to izgleda kao povraćaj uloge, reciprocitet aktivira osećaj obaveze." data-en="Operator gives attention, compliments, 'invests time', sends small gifts (digital images, fictional packages). Target feels debt. When operator asks for money, it looks like role reversal, reciprocity activates sense of obligation.">Operator daje pažnju, komplimente, 'investira vreme', šalje male poklone (digitalne slike, fiktivni paketi). Meta oseća dug. Kada operator traži novac, to izgleda kao povraćaj uloge, reciprocitet aktivira osećaj obaveze.</p>
         </div>
 
         <div class="phase">
-          <div class="label" data-sr="Authority bias (autoritet)" data-en="Authority bias (authority)">Authority bias (autoritet)</div>
-          <p data-sr="Kada sumnja raste, operator uvodi 'agenta', 'advokata', 'regulatora'. Authority bias smanjuje kritiku: meta prihvata zahteve jer dolaze od 'stručnjaka'. Dokumenti (PDF, case ID) pojačavaju autoritet kroz vizuelnu scenografiju." data-en="When doubt rises, operator introduces 'agent', 'lawyer', 'regulator'. Authority bias reduces criticism: target accepts demands because they come from 'expert'. Documents (PDF, case ID) amplify authority through visual staging.">Kada sumnja raste, operator uvodi 'agenta', 'advokata', 'regulatora'. Authority bias smanjuje kritiku: meta prihvata zahteve jer dolaze od 'stručnjaka'. Dokumenti (PDF, case ID) pojačavaju autoritet kroz vizuelnu scenografiju.</p>
+          <div class="label" data-sr="Efekat autoriteta." data-en="Authority bias.">Efekat autoriteta.</div>
+          <p data-sr="Kada sumnja raste, operator uvodi „agenta“, „advokata“ ili „regulatora“. Efekat autoriteta smanjuje kritiku: meta prihvata zahteve jer dolaze od „stručnjaka“. Dokumenti (PDF, case ID) pojačavaju autoritet kroz vizuelnu scenografiju." data-en="When doubt rises, the operator introduces an 'agent', 'lawyer', or 'regulator'. Authority bias reduces criticism: the target accepts demands because they come from an 'expert'. Documents (PDF, case ID) amplify authority through visual staging.">Kada sumnja raste, operator uvodi 'agenta', 'advokata' ili 'regulatora'. Efekat autoriteta smanjuje kritiku: meta prihvata zahteve jer dolaze od 'stručnjaka'. Dokumenti (PDF, case ID) pojačavaju autoritet kroz vizuelnu scenografiju.</p>
         </div>
 
         <div class="phase">
-          <div class="label" data-sr="Scarcity heuristic (oskudica)" data-en="Scarcity heuristic (scarcity)">Scarcity heuristic (oskudica)</div>
-          <p data-sr="Rokovi aktiviraju scarcity heuristic: kada je vreme ograničeno, odluka se donosi brže i sa manje provere. 'Rok je danas' preseca razmišljanje, uplata postaje reflex." data-en="Deadlines activate scarcity heuristic: when time is limited, decision is made faster and with less verification. 'Deadline is today' cuts thinking, payment becomes reflex.">Rokovi aktiviraju scarcity heuristic: kada je vreme ograničeno, odluka se donosi brže i sa manje provere. 'Rok je danas' preseca razmišljanje, uplata postaje reflex.</p>
+          <div class="label" data-sr="Scarcity heuristic (oskudica)." data-en="Scarcity heuristic (scarcity).">Scarcity heuristic (oskudica)</div>
+          <p data-sr="Rokovi aktiviraju scarcity heuristic: kada je vreme ograničeno, odluka se donosi brže i sa manje provere. „Rok je danas“ preseca razmišljanje, uplata postaje reflex." data-en="Deadlines activate scarcity heuristic: when time is limited, decision is made faster and with less verification. 'Deadline is today' cuts thinking, payment becomes reflex.">Rokovi aktiviraju scarcity heuristic: kada je vreme ograničeno, odluka se donosi brže i sa manje provere. 'Rok je danas' preseca razmišljanje, uplata postaje reflex.</p>
         </div>
 
         <div class="phase">
-          <div class="label" data-sr="Social proof gap (izolacija)" data-en="Social proof gap (isolation)">Social proof gap (izolacija)</div>
+          <div class="label" data-sr="Social proof gap (izolacija)." data-en="Social proof gap (isolation).">Social proof gap (izolacija)</div>
           <p data-sr="Ljudi koriste društveni dokaz kao korektiv: pitaju porodicu, prijatelje, proveravaju kako drugi reaguju. Tajnost uklanja social proof, meta odlučuje solo. Izolacija pojačava zavisnost od operatora kao jedinog izvora informacija." data-en="People use social proof as corrective: they ask family, friends, check how others react. Secrecy removes social proof, target decides solo. Isolation amplifies dependence on operator as sole information source.">Ljudi koriste društveni dokaz kao korektiv: pitaju porodicu, prijatelje, proveravaju kako drugi reaguju. Tajnost uklanja social proof, meta odlučuje solo. Izolacija pojačava zavisnost od operatora kao jedinog izvora informacija.</p>
         </div>
       </div>
@@ -704,64 +698,64 @@ window.SCAM_CONTENT["romantic-scam"] = {
         <div class="phase">
           <div class="label" data-sr="CRM sistemi i automatizacija" data-en="CRM systems and automation">CRM sistemi i automatizacija</div>
           <ul class="bullets">
-            <li data-sr="baza mete: ime, detalji, finansijski status, emotivni trigger points" data-en="target database: name, details, financial status, emotional trigger points">baza mete: ime, detalji, finansijski status, emotivni trigger points</li>
-            <li data-sr="predefinisane skripte sa template-ima" data-en="pre-scripted templates">predefinisane skripte sa template-ima</li>
-            <li data-sr="automatizovani odgovori za rutinske poruke" data-en="automated replies for routine messages">automatizovani odgovori za rutinske poruke</li>
-            <li data-sr="schedule slanja poruka (7AM, 12PM, 9PM)" data-en="scheduled message sends (7AM, 12PM, 9PM)">schedule slanja poruka (7AM, 12PM, 9PM)</li>
-            <li data-sr="praćenje faza i pragova po meti" data-en="tracking phases and thresholds per target">praćenje faza i pragova po meti</li>
+            <li data-sr="baza mete: ime, detalji, finansijski status, emotivni trigger points." data-en="target database: name, details, financial status, emotional trigger points.">baza mete: ime, detalji, finansijski status, emotivni trigger points.</li>
+            <li data-sr="predefinisane skripte sa template-ima." data-en="pre-scripted templates.">predefinisane skripte sa template-ima.</li>
+            <li data-sr="automatizovani odgovori za rutinske poruke." data-en="automated replies for routine messages.">automatizovani odgovori za rutinske poruke.</li>
+            <li data-sr="schedule slanja poruka (7AM, 12PM, 9PM)." data-en="scheduled message sends (7AM, 12PM, 9PM).">schedule slanja poruka (7AM, 12PM, 9PM).</li>
+            <li data-sr="praćenje faza i pragova po meti." data-en="tracking phases and thresholds per target.">praćenje faza i pragova po meti.</li>
           </ul>
         </div>
 
         <div class="phase">
           <div class="label" data-sr="Tim struktura" data-en="Team structure">Tim struktura</div>
           <ul class="bullets">
-            <li data-sr="front operator: vodi razgovor, gradi emociju" data-en="front operator: leads conversation, builds emotion">front operator: vodi razgovor, gradi emociju</li>
-            <li data-sr="closer: ulazi kada meta uspori, eskalira pritisak" data-en="closer: enters when target slows, escalates pressure">closer: ulazi kada meta uspori, eskalira pritisak</li>
-            <li data-sr="authority role: advokat, agent, podrška" data-en="authority role: lawyer, agent, support">authority role: advokat, agent, podrška</li>
-            <li data-sr="payment mule: prima transfere, obezbeđuje anonimnost" data-en="payment mule: receives transfers, provides anonymity">payment mule: prima transfere, obezbeđuje anonimnost</li>
-            <li data-sr="document forger: pravi lažne pasoše, PDF-ove" data-en="document forger: creates fake passports, PDFs">document forger: pravi lažne pasoše, PDF-ove</li>
+            <li data-sr="front operator: vodi razgovor, gradi emociju." data-en="front operator: leads conversation, builds emotion.">front operator: vodi razgovor, gradi emociju.</li>
+            <li data-sr="closer: ulazi kada meta uspori, eskalira pritisak." data-en="closer: enters when target slows, escalates pressure.">closer: ulazi kada meta uspori, eskalira pritisak.</li>
+            <li data-sr="authority role: advokat, agent, podrška." data-en="authority role: lawyer, agent, support.">authority role: advokat, agent, podrška.</li>
+            <li data-sr="payment mule: prima transfere, obezbeđuje anonimnost." data-en="payment mule: receives transfers, provides anonymity.">payment mule: prima transfere, obezbeđuje anonimnost.</li>
+            <li data-sr="document forger: pravi lažne pasoše, PDF-ove." data-en="document forger: creates fake passports, PDFs.">document forger: pravi lažne pasoše, PDF-ove.</li>
           </ul>
         </div>
 
         <div class="phase">
           <div class="label" data-sr="AI alati i deepfake" data-en="AI tools and deepfake">AI alati i deepfake</div>
           <ul class="bullets">
-            <li data-sr="AI-generisani profili: fotografije sa AI sistem za pravljenje lažnih slika modela" data-en="AI-generated profiles: photos generated by AI image models">AI-generisani profili: fotografije sa AI sistem za pravljenje lažnih slika modela</li>
-            <li data-sr="deepfake video: kratki klipovi sa AI lip-sync" data-en="deepfake video: short clips with AI lip-sync">deepfake video: kratki klipovi sa AI lip-sync</li>
-            <li data-sr="AI voice synthesis: glas koji zvuči kao živa osoba" data-en="AI voice synthesis: voice that sounds like real person">AI voice synthesis: glas koji zvuči kao živa osoba</li>
-            <li data-sr="ChatGPT za pisanje skripti i odgovora" data-en="ChatGPT for writing scripts and replies">ChatGPT za pisanje skripti i odgovora</li>
+            <li data-sr="AI-generisani profili: fotografije sa AI sistem za pravljenje lažnih slika modela." data-en="AI-generated profiles: photos generated by AI image models.">AI-generisani profili: fotografije sa AI sistem za pravljenje lažnih slika modela.</li>
+            <li data-sr="deepfake video: kratki klipovi sa AI lip-sync." data-en="deepfake video: short clips with AI lip-sync.">deepfake video: kratki klipovi sa AI lip-sync.</li>
+            <li data-sr="AI voice synthesis: glas koji zvuči kao živa osoba." data-en="AI voice synthesis: voice that sounds like real person.">AI voice synthesis: glas koji zvuči kao živa osoba.</li>
+            <li data-sr="ChatGPT za pisanje skripti i odgovora." data-en="ChatGPT for writing scripts and replies.">ChatGPT za pisanje skripti i odgovora.</li>
           </ul>
         </div>
 
         <div class="phase">
           <div class="label" data-sr="Payment infrastruktura" data-en="Payment infrastructure">Payment infrastruktura</div>
           <ul class="bullets">
-            <li data-sr="kripto transferi (Bitcoin, USDT, Ethereum)" data-en="crypto transfers (Bitcoin, USDT, Ethereum)">kripto transferi (Bitcoin, USDT, Ethereum)</li>
-            <li data-sr="money mules: lokalni računi za prijem transfera" data-en="money mules: local accounts for receiving transfers">money mules: lokalni računi za prijem transfera</li>
-            <li data-sr="gift cards (Amazon, Steam, Apple)" data-en="gift cards (Amazon, Steam, Apple)">gift cards (Amazon, Steam, Apple)</li>
-            <li data-sr="Western Union, MoneyGram, Wise" data-en="Western Union, MoneyGram, Wise">Western Union, MoneyGram, Wise</li>
-            <li data-sr="offshore računi sa anonimnim vlasnicima" data-en="offshore accounts with anonymous owners">offshore računi sa anonimnim vlasnicima</li>
+            <li data-sr="kripto transferi (Bitcoin, USDT, Ethereum)." data-en="crypto transfers (Bitcoin, USDT, Ethereum).">kripto transferi (Bitcoin, USDT, Ethereum).</li>
+            <li data-sr="money mules: lokalni računi za prijem transfera." data-en="money mules: local accounts for receiving transfers.">money mules: lokalni računi za prijem transfera.</li>
+            <li data-sr="gift cards (Amazon, Steam, Apple)." data-en="gift cards (Amazon, Steam, Apple).">gift cards (Amazon, Steam, Apple).</li>
+            <li data-sr="Western Union, MoneyGram, Wise." data-en="Western Union, MoneyGram, Wise.">Western Union, MoneyGram, Wise.</li>
+            <li data-sr="offshore računi sa anonimnim vlasnicima." data-en="offshore accounts with anonymous owners.">offshore računi sa anonimnim vlasnicima.</li>
           </ul>
         </div>
 
         <div class="phase">
           <div class="label" data-sr="Dokumenti kao scenografija" data-en="Documents as staging">Dokumenti kao scenografija</div>
           <ul class="bullets">
-            <li data-sr="lažni pasoš sa ukradenim fotografijama" data-en="fake passport with stolen photos">lažni pasoš sa ukradenim fotografijama</li>
-            <li data-sr="'visa approval letter' sa izmišljenim referencama" data-en="'visa approval letter' with fake references">'visa approval letter' sa izmišljenim referencama</li>
-            <li data-sr="'customs clearance form' sa simuliranim pečatima" data-en="'customs clearance form' with simulated stamps">'customs clearance form' sa simuliranim pečatima</li>
-            <li data-sr="'legal affidavit' iz nepostojećih advokatskih kancelarija" data-en="'legal affidavit' from non-existent law firms">'legal affidavit' iz nepostojećih advokatskih kancelarija</li>
-            <li data-sr="'case ID' sa random brojevima koji izgledaju službeno" data-en="'case ID' with random numbers that look official">'case ID' sa random brojevima koji izgledaju službeno</li>
+            <li data-sr="lažni pasoš sa ukradenim fotografijama." data-en="fake passport with stolen photos.">lažni pasoš sa ukradenim fotografijama.</li>
+            <li data-sr="„visa approval letter„ sa izmišljenim referencama." data-en="“visa approval letter“ with fake references.">'visa approval letter' sa izmišljenim referencama.</li>
+            <li data-sr="„customs clearance form„ sa simuliranim pečatima." data-en="“customs clearance form“ with simulated stamps.">'customs clearance form' sa simuliranim pečatima.</li>
+            <li data-sr="„legal affidavit„ iz nepostojećih advokatskih kancelarija." data-en="“legal affidavit“ from non-existent law firms.">'legal affidavit' iz nepostojećih advokatskih kancelarija.</li>
+            <li data-sr="„case ID„ sa random brojevima koji izgledaju službeno." data-en="“case ID“ with random numbers that look official.">'case ID' sa random brojevima koji izgledaju službeno.</li>
           </ul>
         </div>
 
         <div class="phase">
           <div class="label" data-sr="Offshore lokacije" data-en="Offshore locations">Offshore lokacije</div>
           <ul class="bullets">
-            <li data-sr="West Africa (Nigeria, Ghana): istorijski hub" data-en="West Africa (Nigeria, Ghana): historical hub">West Africa (Nigeria, Ghana): istorijski hub</li>
-            <li data-sr="Southeast Asia (Filipini, Tajland, Malezija): call center prevare" data-en="Southeast Asia (Philippines, Thailand, Malaysia): call center scams">Southeast Asia (Filipini, Tajland, Malezija): call center prevare</li>
-            <li data-sr="Istočna Evropa (Rusija, Ukrajina, Rumunija): tehnički sofisticirani" data-en="Eastern Europe (Russia, Ukraine, Romania): technically sophisticated">Istočna Evropa (Rusija, Ukrajina, Rumunija): tehnički sofisticirani</li>
-            <li data-sr="Kina: masovna pig butchering operacija" data-en="China: mass pig butchering operation">Kina: masovna pig butchering operacija</li>
+            <li data-sr="West Africa (Nigeria, Ghana): istorijski hub." data-en="West Africa (Nigeria, Ghana): historical hub.">West Africa (Nigeria, Ghana): istorijski hub.</li>
+            <li data-sr="Southeast Asia (Filipini, Tajland, Malezija): call center prevare." data-en="Southeast Asia (Philippines, Thailand, Malaysia): call center scams.">Southeast Asia (Filipini, Tajland, Malezija): call center prevare.</li>
+            <li data-sr="Istočna Evropa (Rusija, Ukrajina, Rumunija): tehnički sofisticirani." data-en="Eastern Europe (Russia, Ukraine, Romania): technically sophisticated.">Istočna Evropa (Rusija, Ukrajina, Rumunija): tehnički sofisticirani.</li>
+            <li data-sr="Kina: masovna pig butchering operacija." data-en="China: mass pig butchering operation.">Kina: masovna pig butchering operacija.</li>
           </ul>
         </div>
       </div>
@@ -782,16 +776,16 @@ window.SCAM_CONTENT["romantic-scam"] = {
         <div class="phase warn">
           <div class="label" data-sr="Romansa → investicija" data-en="Romance → investment">Romansa → investicija</div>
           <ul class="bullets">
-            <li data-sr="Pig butchering (Povezano: <a href='pig-butchering.html'>Pig butchering</a>)" data-en="Pig butchering (Related: <a href='pig-butchering.html'>Pig butchering</a>)">Pig butchering (Povezano: <a href="pig-butchering.html">Pig butchering</a>)</li>
-            <li data-sr="Crypto scam (Povezano: <a href='crypto-scam.html'>Crypto scam</a>)" data-en="Crypto scam (Related: <a href='crypto-scam.html'>Crypto scam</a>)">Crypto scam (Povezano: <a href="crypto-scam.html">Crypto scam</a>)</li>
+            <li><a href="pig-butchering.html" data-sr="Dug odnos + investicija" data-en="Pig butchering">Dug odnos + investicija</a></li>
+            <li><a href="crypto-scam.html" data-sr="Kripto investiciona prevara" data-en="Crypto investment scam">Kripto investiciona prevara</a></li>
           </ul>
         </div>
 
         <div class="phase warn">
           <div class="label" data-sr="Romansa → takse i procedura" data-en="Romance → fees and procedure">Romansa → takse i procedura</div>
           <ul class="bullets">
-            <li data-sr="Advance-fee (Povezano: <a href='advance-fee-fraud.html'>Advance-fee</a>)" data-en="Advance-fee (Related: <a href='advance-fee-fraud.html'>Advance-fee</a>)">Advance-fee (Povezano: <a href="advance-fee-fraud.html">Advance-fee</a>)</li>
-            <li data-sr="Lažni pozivi (Povezano: <a href='fake-call-scam.html'>Lažni pozivi</a>)" data-en="Fake calls (Related: <a href='fake-call-scam.html'>Fake calls</a>)">Lažni pozivi (Povezano: <a href="fake-call-scam.html">Lažni pozivi</a>)</li>
+            <li><a href="advance-fee-fraud.html" data-sr="Uplata unapred" data-en="Advance-fee fraud">Uplata unapred</a></li>
+            <li><a href="fake-call-scam.html" data-sr="Lažni pozivi" data-en="Fake calls">Lažni pozivi</a></li>
           </ul>
         </div>
       </div>
@@ -799,7 +793,7 @@ window.SCAM_CONTENT["romantic-scam"] = {
       <div class="phase warn">
         <div class="label" data-sr="Posle gubitka" data-en="After the loss">Posle gubitka</div>
         <ul class="bullets">
-          <li data-sr="Recovery scam (Povezano: <a href='recovery-scam.html'>Recovery</a>)" data-en="Recovery scam (Related: <a href='recovery-scam.html'>Recovery</a>)">Recovery scam (Povezano: <a href="recovery-scam.html">Recovery</a>)</li>
+          <li><a href="recovery-scam.html" data-sr="Prevara povraćaja novca" data-en="Recovery scam">Prevara povraćaja novca</a></li>
         </ul>
       </div>
     </section>
@@ -819,23 +813,23 @@ window.SCAM_CONTENT["romantic-scam"] = {
         <div class="phase">
           <div class="label" data-sr="Šta prate kod mete" data-en="What they track">Šta prate kod mete</div>
           <ul class="bullets">
-            <li data-sr="brzinu odgovora" data-en="response speed">brzinu odgovora</li>
-            <li data-sr="spremnost na tajnost" data-en="secrecy tolerance">spremnost na tajnost</li>
-            <li data-sr="prisustvo trećih osoba" data-en="third-party presence">prisustvo trećih osoba</li>
-            <li data-sr="spremnost na uplatu" data-en="readiness to pay">spremnost na uplatu</li>
-            <li data-sr="finansijski status (posao, prihodii, štednja)" data-en="financial status (job, income, savings)">finansijski status (posao, prihodi, štednja)</li>
-            <li data-sr="emotivnu ranjivost (samopouzdanje, prošlost)" data-en="emotional vulnerability (confidence, history)">emotivnu ranjivost (samopouzdanje, prošlost)</li>
+            <li data-sr="brzinu odgovora." data-en="response speed.">brzinu odgovora.</li>
+            <li data-sr="spremnost na tajnost." data-en="secrecy tolerance.">spremnost na tajnost.</li>
+            <li data-sr="prisustvo trećih osoba." data-en="third-party presence.">prisustvo trećih osoba.</li>
+            <li data-sr="spremnost na uplatu." data-en="readiness to pay.">spremnost na uplatu.</li>
+            <li data-sr="finansijski status (posao, prihodii, štednja)." data-en="financial status (job, income, savings).">finansijski status (posao, prihodi, štednja).</li>
+            <li data-sr="emotivnu ranjivost (samopouzdanje, prošlost)." data-en="emotional vulnerability (confidence, history).">emotivnu ranjivost (samopouzdanje, prošlost).</li>
           </ul>
         </div>
 
         <div class="phase">
           <div class="label" data-sr="Kako reaguju kad ih presečeš" data-en="How they react when you cut it">Kako reaguju kad ih presečeš</div>
           <ul class="bullets">
-            <li data-sr="krivica i moralni pritisak" data-en="guilt and moral pressure">krivica i moralni pritisak</li>
-            <li data-sr="rok i posledice" data-en="deadlines and consequences">rok i posledice</li>
-            <li data-sr="novi identitet (agent/podrška)" data-en="new identity (agent/support)">novi identitet (agent/podrška)</li>
-            <li data-sr="prelaz na sledeću metu" data-en="move to next target">prelaz na sledeću metu</li>
-            <li data-sr="recovery talas posle prekida" data-en="recovery wave after break">recovery talas posle prekida</li>
+            <li data-sr="krivica i moralni pritisak." data-en="guilt and moral pressure.">krivica i moralni pritisak.</li>
+            <li data-sr="rok i posledice." data-en="deadlines and consequences.">rok i posledice.</li>
+            <li data-sr="novi identitet (agent/podrška)." data-en="new identity (agent/support).">novi identitet (agent/podrška).</li>
+            <li data-sr="prelaz na sledeću metu." data-en="more to next target.">prelaz na sledeću metu.</li>
+            <li data-sr="talas prevare povraćaja posle prekida." data-en="recovery wave after break.">talas prevare povraćaja posle prekida.</li>
           </ul>
         </div>
       </div>
@@ -845,38 +839,47 @@ window.SCAM_CONTENT["romantic-scam"] = {
     <section class="card">
       <h2 data-sr="Standardna upozorenja" data-en="Standard warnings">Standardna upozorenja</h2>
       <ul class="bullets">
-        <li data-sr="tajnost i zabrana konsultacije su signal kontrole" data-en="secrecy and discouraging consultation are control signals">tajnost i zabrana konsultacije su signal kontrole</li>
-        <li data-sr="rokovi služe za lomljenje provere" data-en="deadlines are used to break verification">rokovi služe za lomljenje provere</li>
-        <li data-sr="prva uplata menja tok u seriju" data-en="the first payment flips the flow into a series">prva uplata menja tok u seriju</li>
-        <li data-sr="uplata radi povrata ili oslobađanja je obrazac" data-en="paying to recover or release is a pattern">uplata radi povrata ili oslobađanja je obrazac</li>
-        <li data-sr="izostanak video poziva ili konstantne tehničke poteškoće = crvena zastava" data-en="no video calls or constant technical issues = znak prevare">izostanak video poziva ili konstantne tehničke poteškoće = crvena zastava</li>
-        <li data-sr="brza bliskost i planovi za budućnost posle 1-2 nedelje = obrazac" data-en="fast closeness and future plans after 1-2 weeks = pattern">brza bliskost i planovi za budućnost posle 1-2 nedelje = obrazac</li>
-        <li data-sr="finansijska ekstremizacija (krediti, zajmovi, prodaja imovine) = crvena linija" data-en="financial extremization (loans, credit, selling assets) = red line">finansijska ekstremizacija (krediti, zajmovi, prodaja imovine) = crvena linija</li>
+        <li data-sr="tajnost i zabrana konsultacije su signal kontrole." data-en="secrecy and discouraging consultation are control signals.">tajnost i zabrana konsultacije su signal kontrole.</li>
+        <li data-sr="rokovi služe za lomljenje provere." data-en="deadlines are used to break verification.">rokovi služe za lomljenje provere.</li>
+        <li data-sr="prva uplata menja tok u seriju." data-en="the first payment flips the flow into a series.">prva uplata menja tok u seriju.</li>
+        <li data-sr="uplata radi povrata ili oslobađanja je obrazac." data-en="paying to recover or release is a pattern.">uplata radi povrata ili oslobađanja je obrazac.</li>
+        <li data-sr="izostanak video poziva ili konstantne tehničke poteškoće = crvena zastava." data-en="no video calls or constant technical issues = znak prevare.">izostanak video poziva ili konstantne tehničke poteškoće = crvena zastava.</li>
+        <li data-sr="brza bliskost i plažni za budućnost posle 1-2 nedelje = obrazac." data-en="fast closeness and future plans after 1-2 weeks = pattern.">brza bliskost i plažni za budućnost posle 1-2 nedelje = obrazac.</li>
+        <li data-sr="finansijska ekstremizacija (krediti, zajmovi, prodaja imovine) = crvena linija." data-en="financial extremization (loans, credit, selling assets) = red line.">finansijska ekstremizacija (krediti, zajmovi, prodaja imovine) = crvena linija.</li>
       </ul>
     </section>
 
     <!-- 11) AKO JE ŠTETA NASTALA -->
     <section class="card">
-      <h2 data-sr="Ako je šteta nastala (redosled poteza)" data-en="If harm happened (action order)">
+      <h2 data-sr="Ako je šteta nastala (redosled poteza)." data-en="If harm happened (action order).">
         Ako je šteta nastala (redosled poteza)
       </h2>
 
       <ol class="steps">
-        <li data-sr="prekid daljih uplata i pauza u komunikaciji" data-en="stop further payments and pause communication">prekid daljih uplata i pauza u komunikaciji</li>
-        <li data-sr="čuvanje dokaza: poruke, datumi, iznosi, nalozi, linkovi" data-en="save evidence: messages, dates, amounts, accounts, links">čuvanje dokaza: poruke, datumi, iznosi, nalozi, linkovi</li>
-        <li data-sr="kontakt banke za kartične uplate i dispute gde je moguće" data-en="contact your bank for card payments and disputes where possible">kontakt banke za kartične uplate i dispute gde je moguće</li>
-        <li data-sr="prijava lokalne policije i cyber crime jedinice" data-en="report to local police and cyber crime unit">prijava lokalne policije i cyber crime jedinice</li>
-        <li data-sr="očekuj recovery poruke uz uplatu i tretiraj ih kao nastavak" data-en="expect paid recovery offers and treat them as continuation">očekuj recovery poruke uz uplatu i tretiraj ih kao nastavak</li>
+        <li data-sr="prekid daljih uplata i pauza u komunikaciji." data-en="stop further payments and pause communication.">prekid daljih uplata i pauza u komunikaciji.</li>
+        <li data-sr="čuvanje dokaza: poruke, datumi, iznosi, nalozi, linkovi." data-en="save evidence: messages, dates, amounts, accounts, links.">čuvanje dokaza: poruke, datumi, iznosi, nalozi, linkovi.</li>
+        <li data-sr="kontakt banke za kartične uplate i dispute gde je moguće." data-en="contact your bank for card payments and disputes where possible.">kontakt banke za kartične uplate i dispute gde je moguće.</li>
+        <li data-sr="prijava lokalne policije i cyber crime jedinice." data-en="report to local police and cyber crime unit.">prijava lokalne policije i cyber crime jedinice.</li>
+        <li data-sr="očekuj recovery poruke uz uplatu i tretiraj ih kao nastavak." data-en="expect paid recovery offers and treat them as continuation.">očekuj recovery poruke uz uplatu i tretiraj ih kao nastavak.</li>
       </ol>
 
-      <div class="callout"
-        data-sr="<strong>Brzi filter:</strong> povrat + uplata unapred = novi napad. (Povezano: <a href='recovery-scam.html'>Recovery</a>)"
-        data-en="<strong>Fast filter:</strong> recovery + upfront fee = new attack. (Related: <a href='recovery-scam.html'>Recovery</a>)"
-      ><strong>Brzi filter:</strong> povrat + uplata unapred = novi napad. (Povezano: <a href="recovery-scam.html">Recovery</a>)</div>
+      <div class="callout"><strong>Brzi filter:</strong> povrat + uplata unapred = novi napad. (Povezano: <a href="recovery-scam.html">Prevara povraćaja novca</a>)</div>
     </section>
 
     <!-- 12) IZVORI -->
-    <section class="card sources" id="sources">
+
+<section class="content-section">
+  <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
+  <ul class="bullets">
+    <li><a href="pig-butchering.html" data-sr="Pig butchering prevara" data-en="Pig butchering scam">Pig butchering prevara</a></li>
+    <li><a href="crypto-scam.html" data-sr="Kripto investiciona prevara" data-en="Crypto investment scam">Kripto investiciona prevara</a></li>
+    <li><a href="advance-fee-fraud.html" data-sr="Uplata unapred" data-en="Advance-fee fraud">Uplata unapred</a></li>
+    <li><a href="sextortion-scam.html" data-sr="Sextortion" data-en="Sextortion">Sextortion</a></li>
+    <li><a href="impersonation-scam.html" data-sr="Lazno predstavljanje" data-en="Impersonation scam">Lazno predstavljanje</a></li>
+  </ul>
+</section>
+
+<section class="card sources" id="sources">
       <h2 data-sr="Izvori" data-en="Sources">Izvori</h2>
       <ul>
         <li><a href="https://consumer.ftc.gov/articles/what-know-about-romance-scams" target="_blank" rel="noopener noreferrer">FTC — What to Know About Romance Scams</a></li>
