@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Chargeback prevara: kupovina → primanje robe/usluge → lažna disputa kod banke → povrat novca → prodavac oštećen"
+    data-sr="Chargeback prevara: kupovina → primanje robe/usluge → lažna disputa kod banke → povrat novca → prodavac oštećen"
+    data-en="Chargeback fraud: purchase → receiving goods/service → false bank dispute → refund → merchant defrauded"
+  />
+  <title data-sr="Lažni chargeback (zloupotreba povrata)" data-en="Chargeback fraud (friendly fraud)">Lažni chargeback (zloupotreba povrata)</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="ui.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="chargeback-fraud.content.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="cases.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+        <div class="brand">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span class="brand-name">Anti-scam</span>
+        </div>
+        <nav aria-label="Glavna navigacija">
+          <ul class="top-nav">
+            <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+            <li><a href="prevare.html" aria-current="page" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          <li><a href="protecting-elderly.html" data-sr="Zaštita" data-en="Protection">Zaštita</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="hero compact">
+        <h1 data-sr="Lažni chargeback (zloupotreba povrata)" data-en="Chargeback fraud (friendly fraud)">Lažni chargeback (zloupotreba povrata)</h1>
+        <p class="muted hero-sub"
+           data-sr="Kupovina → primanje robe/usluge → lažna disputa kod banke → povrat novca → prodavac oštećen"
+           data-en="Purchase → receiving goods/service → false bank dispute → refund → merchant defrauded">Kupovina → primanje robe/usluge → lažna disputa kod banke → povrat novca → prodavac oštećen</p>
+        <div id="scam-meta" data-scam="chargeback-fraud"></div>
+        <div class="callout"
+             data-sr="<strong>Prag:</strong> Prodavac izgubi robu i novac — banka povrati sredstva kupcu koji je lagao o transakciji."
+             data-en="<strong>Threshold:</strong> The merchant loses goods and money — the bank refunds the buyer who lied about the transaction.">
+          <strong>Prag:</strong> Prodavac izgubi robu i novac — banka povrati sredstva kupcu koji je lagao o transakciji.
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    <div data-overview></div>
+    <div data-steps></div>
+    <div data-longform></div>
+    <div data-related></div>
+    <div data-sources></div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <p class="muted" data-sr="Anti-scam projekat — edukacija i analiza" data-en="Anti-scam project — education and analysis">
+        Anti-scam projekat — edukacija i analiza
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

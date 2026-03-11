@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta
+    name="description"
+    content="Zlonameran browser dodatak: proširenje koje čita sve stranice, krade sesije i menja platne podatke."
+    data-sr="Zlonameran browser dodatak: proširenje koje čita sve stranice, krade sesije i menja platne podatke."
+    data-en="Browser extension scam: extension that reads all pages, steals sessions and modifies payment data."
+  />
+
+  <title data-sr="Zlonameran browser dodatak" data-en="Browser extension scam">Zlonameran browser dodatak</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="ui.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="browser-extension-scam.content.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="cases.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+        <div class="brand">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span class="brand-name">Anti-scam</span>
+        </div>
+
+        <nav aria-label="Glavna navigacija">
+          <ul class="top-nav">
+            <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+            <li><a href="prevare.html" aria-current="page" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          <li><a href="protecting-elderly.html" data-sr="Zaštita" data-en="Protection">Zaštita</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="hero compact">
+        <h1 data-sr="Zlonameran browser dodatak" data-en="Browser extension scam">Zlonameran browser dodatak</h1>
+
+        <p class="muted hero-sub"
+           data-sr="Oglas/preporuka → instalacija proširenja → dozvola pristupa stranicama → krađa sesija i platnih podataka → preuzimanje naloga."
+           data-en="Ad/recommendation → extension installation → page access permission → session and payment data theft → account takeover.">
+          Oglas/preporuka → instalacija proširenja → dozvola pristupa stranicama → krađa sesija i platnih podataka → preuzimanje naloga.
+        </p>
+
+        <div id="scam-meta" data-scam="browser-extension-scam"></div>
+
+        <div class="callout"
+             data-sr="<strong>Prag:</strong> odobravanje dozvole 'može čitati i menjati sve podatke na svim veb sajtovima'. Posle toga proširenje ima pristup svemu što korisnik otvori u browser-u."
+             data-en="<strong>Threshold:</strong> approving the 'can read and change all data on all websites' permission. After that the extension has access to everything the user opens in the browser.">
+          <strong>Prag:</strong> odobravanje dozvole „može čitati i menjati sve podatke na svim veb sajtovima". Posle toga proširenje ima pristup svemu što korisnik otvori u browser-u.
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container" id="scam-content" data-scam="browser-extension-scam">
+  </main>
+
+  <footer class="page-footer">
+    <div class="container">
+      <p data-sr="Anti-scam edukativni portal." data-en="Anti-scam educational portal.">Anti-scam edukativni portal.</p>
+    </div>
+  </footer>
+</body>
+</html>

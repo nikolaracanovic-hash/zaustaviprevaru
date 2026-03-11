@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Kurirska prevara: banka/policija → prevara na računu → kurir po karticu → PIN otkrivanje → neovlašćena potrošnja"
+    data-sr="Kurirska prevara: banka/policija → prevara na računu → kurir po karticu → PIN otkrivanje → neovlašćena potrošnja"
+    data-en="Courier fraud: bank/police → account fraud → courier for card → PIN disclosure → unauthorized spending"
+  />
+  <title data-sr="Kurirska prevara" data-en="Courier fraud">Kurirska prevara</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="ui.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="courier-fraud.content.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="cases.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+        <div class="brand">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span class="brand-name">Anti-scam</span>
+        </div>
+        <nav aria-label="Glavna navigacija">
+          <ul class="top-nav">
+            <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+            <li><a href="prevare.html" aria-current="page" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          <li><a href="protecting-elderly.html" data-sr="Zaštita" data-en="Protection">Zaštita</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="hero compact">
+        <h1 data-sr="Kurirska prevara" data-en="Courier fraud">Kurirska prevara</h1>
+        <p class="muted hero-sub"
+           data-sr="Banka/policija → prevara na računu → kurir po karticu → PIN otkrivanje → neovlašćena potrošnja"
+           data-en="Bank/police → account fraud → courier for card → PIN disclosure → unauthorized spending">Banka/policija → prevara na računu → kurir po karticu → PIN otkrivanje → neovlašćena potrošnja</p>
+        <div id="scam-meta" data-scam="courier-fraud"></div>
+        <div class="callout"
+             data-sr="<strong>Prag:</strong> Banka nikad ne šalje kurira po karticu niti traži PIN iz bezbednosnih razloga."
+             data-en="<strong>Threshold:</strong> A bank never sends a courier to collect a card or asks for a PIN for security reasons.">
+          <strong>Prag:</strong> Banka nikad ne šalje kurira po karticu niti traži PIN iz bezbednosnih razloga.
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    <div data-overview></div>
+    <div data-steps></div>
+    <div data-longform></div>
+    <div data-related></div>
+    <div data-sources></div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <p class="muted" data-sr="Anti-scam projekat — edukacija i analiza" data-en="Anti-scam project — education and analysis">
+        Anti-scam projekat — edukacija i analiza
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

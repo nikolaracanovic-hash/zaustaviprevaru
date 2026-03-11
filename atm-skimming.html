@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Skimovanje na bankomatu: Skimmer na bankomatu → kartica ubačena + PIN pritisnut → podaci i PIN prikupljeni → klon kartice → podizanje gotovine"
+    data-sr="Skimovanje na bankomatu: Skimmer na bankomatu → kartica ubačena + PIN pritisnut → podaci i PIN prikupljeni → klon kartice → podizanje gotovine"
+    data-en="ATM skimming: Skimmer on ATM → card inserted + PIN entered → card data and PIN captured → cloned card → cash withdrawal"
+  />
+  <title data-sr="Skimovanje na bankomatu" data-en="ATM skimming">Skimovanje na bankomatu</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="ui.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="atm-skimming.content.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="cases.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+        <div class="brand">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span class="brand-name">Anti-scam</span>
+        </div>
+        <nav aria-label="Glavna navigacija">
+          <ul class="top-nav">
+            <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+            <li><a href="prevare.html" aria-current="page" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          <li><a href="protecting-elderly.html" data-sr="Zaštita" data-en="Protection">Zaštita</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="hero compact">
+        <h1 data-sr="Skimovanje na bankomatu" data-en="ATM skimming">Skimovanje na bankomatu</h1>
+        <p class="muted hero-sub"
+           data-sr="Skimmer na bankomatu → kartica ubačena + PIN pritisnut → podaci i PIN prikupljeni → klon kartice → podizanje gotovine"
+           data-en="Skimmer on ATM → card inserted + PIN entered → card data and PIN captured → cloned card → cash withdrawal">Skimmer na bankomatu → kartica ubačena + PIN pritisnut → podaci i PIN prikupljeni → klon kartice → podizanje gotovine</p>
+        <div id="scam-meta" data-scam="atm-skimming"></div>
+        <div class="callout"
+             data-sr="<strong>Prag:</strong> Kamera ili overlay koji pokriva PIN tasteru bankomata su najlakše uočljivi — uvek pokrivajte ruku pri unosu PIN-a."
+             data-en="<strong>Threshold:</strong> A camera or overlay covering the ATM PIN pad is the easiest to spot — always cover your hand when entering the PIN.">
+          <strong>Prag:</strong> Kamera ili overlay koji pokriva PIN tasteru bankomata su najlakše uočljivi — uvek pokrivajte ruku pri unosu PIN-a.
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    <div data-overview></div>
+    <div data-steps></div>
+    <div data-longform></div>
+    <div data-related></div>
+    <div data-sources></div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <p class="muted" data-sr="Anti-scam projekat — edukacija i analiza" data-en="Anti-scam project — education and analysis">
+        Anti-scam projekat — edukacija i analiza
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -6,21 +6,21 @@
 
   <meta
     name="description"
-    content="Kripto investiciona prevara: lažna platforma, prikaz profita, eskalacija uloga, blokada povlačenja i takse kao uslov. Faze, evolucije i izvori."
-    data-sr="Kripto investiciona prevara: lažna platforma, prikaz profita, eskalacija uloga, blokada povlačenja i takse kao uslov. Faze, evolucije i izvori."
-    data-en="Crypto investment scam: fake platform, profit display, escalating deposits, withdrawal lock, and fees as a condition. Phases, evolutions, and sources."
+    content="CEO prevara: napadač glumi direktora ili finansijskog direktora firme i traži hitan poverljivi transfer koji zaobilazi standardne procedure odobrenja."
+    data-sr="CEO prevara: napadač glumi direktora ili finansijskog direktora firme i traži hitan poverljivi transfer koji zaobilazi standardne procedure odobrenja."
+    data-en="CEO fraud: attacker impersonates a company CEO or CFO and requests an urgent confidential transfer that bypasses standard approval procedures."
   />
 
-  <title data-sr="Kripto investiciona prevara" data-en="Crypto investment scam">Kripto investiciona prevara</title>
+  <title
+    data-sr="CEO prevara"
+    data-en="CEO fraud"
+  >CEO fraud</title>
 
   <link rel="stylesheet" href="style.css" />
 
-  <!-- UI: jezik + tema -->
   <script src="ui.js" defer></script>
-
-  <!-- Redosled je bitan -->
   <script src="data.js" defer></script>
-  <script src="crypto.content.js" defer></script>
+  <script src="ceo-fraud.content.js" defer></script>
   <script src="branches.js" defer></script>
   <script src="cases.js" defer></script>
   <script src="render.js" defer></script>
@@ -45,20 +45,23 @@
       </div>
 
       <div class="hero compact">
-        <h1 data-sr="Kripto investiciona prevara" data-en="Crypto investment scam">Kripto investiciona prevara</h1>
+        <h1
+          data-sr="CEO prevara"
+          data-en="CEO fraud"
+        >CEO fraud</h1>
 
         <p class="muted hero-sub"
-           data-sr="Profit kao mamac → lažna platforma → rast uloga → blokada povlačenja → takse kao uslov → prevara povraćaja novca."
-           data-en="Profit bait → fake platform → escalating deposits → withdrawal lock → fees as a condition → recovery.">
-          Profit kao mamac → lažna platforma → rast uloga → blokada povlačenja → takse kao uslov → prevara povraćaja novca.
+           data-sr="Imejl od 'direktora' → hitan poverljivi transfer → zaobilaženje procedure → novac nestaje."
+           data-en="Email from 'CEO' → urgent confidential transfer → procedure bypass → funds gone.">
+          Imejl od 'direktora' → hitan poverljivi transfer → zaobilaženje procedure → novac nestaje.
         </p>
 
-        <div id="scam-meta" data-scam="crypto-scam"></div>
+        <div id="scam-meta" data-scam="ceo-fraud"></div>
 
         <div class="callout"
-             data-sr="<strong>Prag:</strong> pokušaj povlačenja većeg iznosa. Tu se pojavljuje „procedura“ koja traži novu uplatu kao uslov."
-             data-en="<strong>Threshold:</strong> attempting to withdraw a larger amount. This is where a “procedure” appears demanding a new payment as a condition.">
-          <strong>Prag:</strong> pokušaj povlačenja većeg iznosa. Tu se pojavljuje „procedura“ koja traži novu uplatu kao uslov.
+             data-sr="<strong>Prag:</strong> zaposleni u finansijama izvrši transfer jer smatra da je nalog stigao od direktora, a provera nije izvršena kroz nezavisan kanal."
+             data-en="<strong>Threshold:</strong> a finance employee authorizes a transfer believing the instruction came from the director, without verification through an independent channel.">
+          <strong>Prag:</strong> zaposleni u finansijama izvrši transfer jer smatra da je nalog stigao od direktora, a provera nije izvršena kroz nezavisan kanal.
         </div>
       </div>
     </div>
@@ -67,6 +70,7 @@
   <main class="container">
     <div data-overview></div>
     <div data-steps></div>
+    <div data-scammer-view></div>
 
     <div data-longform></div>
     <div data-related></div>

@@ -6,21 +6,21 @@
 
   <meta
     name="description"
-    content="Charity scam: lažne humanitarne akcije koje koriste tuđu nesreću za izvlačenje novca."
-    data-sr="Charity scam: lažne humanitarne akcije koje koriste tuđu nesreću za izvlačenje novca."
-    data-en="Charity scams: fake humanitarian campaigns that exploit others' misfortune to extract money."
+    content="Kompromitovanje poslovnog imejla (BEC): napadač glumi direktora, dobavljača ili pravnika i traži hitan transfer ili promenu bankovnog računa."
+    data-sr="Kompromitovanje poslovnog imejla (BEC): napadač glumi direktora, dobavljača ili pravnika i traži hitan transfer ili promenu bankovnog računa."
+    data-en="Business email compromise (BEC): attacker impersonates an executive, supplier, or lawyer and requests an urgent transfer or bank account change."
   />
 
   <title
-    data-sr="Charity scam"
-    data-en="Charity scam"
-  >Charity scam</title>
+    data-sr="Kompromitovanje poslovnog imejla (BEC)"
+    data-en="Business email compromise (BEC)"
+  >Business email compromise (BEC)</title>
 
   <link rel="stylesheet" href="style.css" />
 
   <script src="ui.js" defer></script>
   <script src="data.js" defer></script>
-  <script src="charity.content.js" defer></script>
+  <script src="business-email-compromise.content.js" defer></script>
   <script src="branches.js" defer></script>
   <script src="cases.js" defer></script>
   <script src="render.js" defer></script>
@@ -45,20 +45,23 @@
       </div>
 
       <div class="hero compact">
-        <h1 data-sr="Charity scam" data-en="Charity scam">Charity scam</h1>
+        <h1
+          data-sr="Kompromitovanje poslovnog imejla (BEC)"
+          data-en="Business email compromise (BEC)"
+        >Business email compromise (BEC)</h1>
 
         <p class="muted hero-sub"
-           data-sr="Emocionalna priča → hitnost → donacija na privatni račun → novac ne stiže do navodne žrtve."
-           data-en="Emotional story → urgency → donation to private account → money never reaches supposed victim.">
-          Emocionalna priča → hitnost → donacija na privatni račun → novac ne stiže do navodne žrtve.
+           data-sr="Lažni imejl od direktora ili dobavljača → hitan transfer → novi IBAN → novac odlazi."
+           data-en="Fake email from executive or supplier → urgent transfer → new IBAN → funds gone.">
+          Lažni imejl od direktora ili dobavljača → hitan transfer → novi IBAN → novac odlazi.
         </p>
 
-        <div id="scam-meta" data-scam="charity-scam"></div>
+        <div id="scam-meta" data-scam="business-email-compromise"></div>
 
         <div class="callout"
-             data-sr="<strong>Prag:</strong> uplata na neproveren račun. Posle praga novac ide napadaču, ne žrtvi."
-             data-en="<strong>Threshold:</strong> payment to unverified account. After the threshold, money goes to the attacker, not the victim.">
-          <strong>Prag:</strong> uplata na neproveren račun. Posle praga novac ide napadaču, ne žrtvi.
+             data-sr="<strong>Prag:</strong> zaposleni autorizuje uplatu ili promenu podataka za plaćanje na osnovu imejla koji nije prošao nezavisnu verifikaciju."
+             data-en="<strong>Threshold:</strong> employee authorizes a payment or bank detail change based on an email that was never independently verified.">
+          <strong>Prag:</strong> zaposleni autorizuje uplatu ili promenu podataka za plaćanje na osnovu imejla koji nije prošao nezavisnu verifikaciju.
         </div>
       </div>
     </div>

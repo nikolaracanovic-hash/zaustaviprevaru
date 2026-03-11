@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Skimovanje kartice: Skimmer na uređaju → kartica prevučena ili ubačena → podaci prikupljeni → klon ili CNP kupovine → gubitak"
+    data-sr="Skimovanje kartice: Skimmer na uređaju → kartica prevučena ili ubačena → podaci prikupljeni → klon ili CNP kupovine → gubitak"
+    data-en="Card skimming: Skimmer on device → card swiped or inserted → data captured → clone or CNP purchases → loss"
+  />
+  <title data-sr="Skimovanje kartice" data-en="Card skimming">Skimovanje kartice</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="ui.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="card-skimming.content.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="cases.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+        <div class="brand">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span class="brand-name">Anti-scam</span>
+        </div>
+        <nav aria-label="Glavna navigacija">
+          <ul class="top-nav">
+            <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+            <li><a href="prevare.html" aria-current="page" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          <li><a href="protecting-elderly.html" data-sr="Zaštita" data-en="Protection">Zaštita</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="hero compact">
+        <h1 data-sr="Skimovanje kartice" data-en="Card skimming">Skimovanje kartice</h1>
+        <p class="muted hero-sub"
+           data-sr="Skimmer na uređaju → kartica prevučena ili ubačena → podaci prikupljeni → klon ili CNP kupovine → gubitak"
+           data-en="Skimmer on device → card swiped or inserted → data captured → clone or CNP purchases → loss">Skimmer na uređaju → kartica prevučena ili ubačena → podaci prikupljeni → klon ili CNP kupovine → gubitak</p>
+        <div id="scam-meta" data-scam="card-skimming"></div>
+        <div class="callout"
+             data-sr="<strong>Prag:</strong> Svaki neuobičajeni dodatak na čitaču kartice — labav plastični deo, nestandardna boja, skrivena kamera — je alarm za ne korišćenje terminala."
+             data-en="<strong>Threshold:</strong> Any unusual addition on a card reader — a loose plastic part, non-standard color, hidden camera — is an alarm not to use the terminal.">
+          <strong>Prag:</strong> Svaki neuobičajeni dodatak na čitaču kartice — labav plastični deo, nestandardna boja, skrivena kamera — je alarm za ne korišćenje terminala.
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    <div data-overview></div>
+    <div data-steps></div>
+    <div data-longform></div>
+    <div data-related></div>
+    <div data-sources></div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <p class="muted" data-sr="Anti-scam projekat — edukacija i analiza" data-en="Anti-scam project — education and analysis">
+        Anti-scam projekat — edukacija i analiza
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

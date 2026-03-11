@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Airdrop prevara: lažni claim sajt koji aktivira wallet drainer kada korisnik poveže novčanik i potpiše transakciju."
+    data-sr="Airdrop prevara: lažni claim sajt koji aktivira wallet drainer kada korisnik poveže novčanik i potpiše transakciju."
+    data-en="Airdrop scam: fake claim site that activates a wallet drainer when the user connects their wallet and signs a transaction."
+  />
+  <title data-sr="Airdrop prevara" data-en="Airdrop scam">Airdrop prevara</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="ui.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="airdrop-scam.content.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="cases.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+        <div class="brand">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span class="brand-name">Anti-scam</span>
+        </div>
+        <nav aria-label="Glavna navigacija">
+          <ul class="top-nav">
+            <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+            <li><a href="prevare.html" aria-current="page" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          <li><a href="protecting-elderly.html" data-sr="Zaštita" data-en="Protection">Zaštita</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="hero compact">
+        <h1 data-sr="Airdrop prevara" data-en="Airdrop scam">Airdrop prevara</h1>
+        <p class="muted hero-sub"
+           data-sr="Lažni airdrop oglas → claim sajt → wallet connect → potpis drainera → pražnjenje novčanika."
+           data-en="Fake airdrop ad → claim site → wallet connect → drainer signature → wallet drain.">
+          Lažni airdrop oglas → claim sajt → wallet connect → potpis drainera → pražnjenje novčanika.
+        </p>
+        <div id="scam-meta" data-scam="airdrop-scam"></div>
+        <div class="callout"
+             data-sr="<strong>Prag:</strong> potpis 'claim' transakcije. Ona ne isplaćuje airdrop nego daje approval draineru koji odmah praznid novčanik."
+             data-en="<strong>Threshold:</strong> signing the claim transaction. It does not pay out the airdrop but grants approval to the drainer which immediately drains the wallet.">
+          <strong>Prag:</strong> potpis 'claim' transakcije. Ona ne isplaćuje airdrop nego daje approval draineru koji odmah praznid novčanik.
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="container" id="scam-content" data-scam="airdrop-scam"></main>
+  <footer class="page-footer">
+    <div class="container">
+      <p data-sr="Anti-scam edukativni portal." data-en="Anti-scam educational portal.">Anti-scam edukativni portal.</p>
+    </div>
+  </footer>
+</body>
+</html>
