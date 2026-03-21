@@ -4,14 +4,14 @@ window.SCAM_CONTENT["scareware"] = {
   raw_html: `
     <!-- 1) UVOD -->
     <section class="card">
-      <h2 data-sr="Uvod: kako radi program koji plaši" data-en="Introduction: how program koji plaši works">
+      <h2 data-sr="Uvod: kako radi program koji plaši" data-en="Introduction: how scareware works">
         Uvod: kako radi program koji plaši
       </h2>
 
       <p
-        data-sr="Program koji plaši koristi strah kao okidač. Lažno upozorenje na ekranu tvrdi da je uređaj zaražen, kompromitovan, ili da podaci cure. Poruka izgleda sistemski: crvene boje, službeni ton, alarmi. Cilj je da korisnik reaguje pre nego što razmisli — pozove broj, instalira softver, ili plati „zaštitu."
-        data-en="Program koji plaši uses fear as a trigger. A fake on-screen warning claims the device is infected, compromised, or data is leaking. The message looks system-like: red colors, official tone, alarms. The goal is for the user to react before thinking — call a number, install software, or pay for protection."
-      >Program koji plaši koristi strah kao okidač. Lažno upozorenje na ekranu tvrdi da je uređaj zaražen, kompromitovan, ili da podaci cure. Poruka izgleda sistemski: crvene boje, službeni ton, alarmi. Cilj je da korisnik reaguje pre nego što razmisli — pozove broj, instalira softver, ili plati „zaštitu"“.</p>
+        data-sr="Program koji plaši koristi strah kao okidač. Lažno upozorenje na ekranu tvrdi da je uređaj zaražen, kompromitovan, ili da podaci cure. Poruka izgleda sistemski: crvene boje, službeni ton, alarmi. Cilj je da korisnik reaguje pre nego što razmisli — pozove broj, instalira softver, ili plati zaštitu."
+        data-en="Scareware uses fear as a trigger. A fake on-screen warning claims the device is infected, compromised, or data is leaking. The message looks system-like: red colors, official tone, alarms. The goal is for the user to react before thinking — call a number, install software, or pay for protection."
+      >Program koji plaši koristi strah kao okidač. Lažno upozorenje na ekranu tvrdi da je uređaj zaražen, kompromitovan, ili da podaci cure. Poruka izgleda sistemski: crvene boje, službeni ton, alarmi. Cilj je da korisnik reaguje pre nego što razmisli — pozove broj, instalira softver, ili plati zaštitu.</p>
 
       <p
         data-sr="Program koji plaši nije krajnja prevara, nego ulaz. Kada korisnik pozove broj, tok prelazi u prevaru tehničke podrške: daljinski pristup, lažna dijagnoza, naplata. Kada instalira ponuđeni softver, može dobiti zlonamerni program, reklame koje smetaju, ili lažni antivirus koji traži uplatu. Program koji plaši je filter koji selektuje ljude koji reaguju na strah." data-en="Scareware isn't the final scam but an entry point. When the user calls the number, the flow becomes a tech support scam: remote access, fake diagnosis, and charges. When they install the offered software, they may get malware, intrusive ads, or a fake antivirus that demands payment. Scareware is a filter that selects people who react to fear."
@@ -42,23 +42,23 @@ window.SCAM_CONTENT["scareware"] = {
           <div class="label" data-sr="Malvertising" data-en="Malvertising">Malvertising</div>
           <ul class="bullets">
             <li data-sr="zlonamerni oglas na legitimnom sajtu." data-en="malicious ad on legitimate site.">zlonamerni oglas na legitimnom sajtu.</li>
-            <li data-sr="automatski redirect na program koji plaši stranicu." data-en="automatic redirect to program koji plaši page.">automatski redirect na program koji plaši stranicu.</li>
+            <li data-sr="automatski redirect na program koji plaši stranicu." data-en="automatic redirect to a scareware page.">automatski redirect na program koji plaši stranicu.</li>
             <li data-sr="ne zahteva klik da bi se pokrenuo." data-en="doesn't require click to trigger.">ne zahteva klik da bi se pokrenuo.</li>
           </ul>
         </div>
         <div class="phase">
           <div class="label" data-sr="Lažni antivirus softver" data-en="Fake antivirus software">Lažni antivirus softver</div>
           <ul class="bullets">
-            <li data-sr="instaliran kao „besplatna zaštita." data-en="installed as free protection.">instaliran kao „besplatna zaštita“.</li>
-            <li data-sr="prikazuje lažne skenove i „viruse." data-en="shows fake scans and viruses.">prikazuje lažne skenove i „viruse“.</li>
-            <li data-sr="traži uplatu za „čišćenje." data-en="demands payment for cleanup.">traži uplatu za „čišćenje“.</li>
+            <li data-sr="instaliran kao besplatna zaštita." data-en="installed as free protection.">instaliran kao besplatna zaštita.</li>
+            <li data-sr="prikazuje lažne skenove i viruse." data-en="shows fake scans and viruses.">prikazuje lažne skenove i viruse.</li>
+            <li data-sr="traži uplatu za čišćenje." data-en="demands payment for cleanup.">traži uplatu za čišćenje.</li>
           </ul>
         </div>
         <div class="phase">
-          <div class="label" data-sr="imejl / SMS upozorenje" data-en="Imejl / SMS warning">Imejl / SMS upozorenje</div>
+          <div class="label" data-sr="Imejl / SMS upozorenje" data-en="Imejl / SMS warning">Imejl / SMS upozorenje</div>
           <ul class="bullets">
-            <li data-sr="poruka o „detektovanom virusu." data-en="message about a detected virus.">poruka o „detektovanom virusu“.</li>
-            <li data-sr="link ka „skeniranju." data-en="link to scanning or protection.">link ka „skeniranju“.</li>
+            <li data-sr="poruka o detektovanom virusu." data-en="message about a detected virus.">poruka o detektovanom virusu.</li>
+            <li data-sr="link ka skeniranju." data-en="link to scanning or protection.">link ka skeniranju.</li>
             <li data-sr="može preći u fišing tok." data-en="may shift into phishing flow.">može preći u fišing tok.</li>
           </ul>
         </div>
@@ -78,19 +78,19 @@ window.SCAM_CONTENT["scareware"] = {
         </h3>
 
         <p
-          data-sr="Korisnik vidi dramatično upozorenje: „VAŠ RAČUNAR JE ZARAŽEN“, „HAKERI IMAJU PRISTUP“, „PODACI CURE."
+          data-sr="Korisnik vidi dramatično upozorenje: VAŠ RAČUNAR JE ZARAŽEN, HAKERI IMAJU PRISTUP, PODACI CURE."
           data-en="The user sees a dramatic warning: YOUR COMPUTER IS INFECTED, HACKERS HAVE ACCESS, DATA IS LEAKING."
-        >Korisnik vidi dramatično upozorenje: „VAŠ RAČUNAR JE ZARAŽEN", „HAKERI IMAJU PRISTUP", „PODACI CURE"“. Crvene boje, alarmi, službeni izgled“. Poruka blokira normalan rad ili izgleda kao da blokira.</p>
+        >Korisnik vidi dramatično upozorenje: VAŠ RAČUNAR JE ZARAŽEN, HAKERI IMAJU PRISTUP, PODACI CURE. Crvene boje, alarmi, službeni izgled. Poruka blokira normalan rad ili izgleda kao da blokira.</p>
 
         <ul class="bullets">
-          <li data-sr="„KRITIČNO UPOZORENJE: Pronađeno 47 virusa." data-en="CRITICAL WARNING: 47 viruses found.">„KRITIČNO UPOZORENJE: Pronađeno 47 virusa“.</li>
-          <li data-sr="„Vaši podaci se šalju hakerima." data-en="Your data is being sent to hackers.">„Vaši podaci se šalju hakerima“.</li>
-          <li data-sr="„Zovite odmah: 0800-XXX-XXX." data-en="Call immediately: 0800-XXX-XXX.">„Zovite odmah: 0800-XXX-XXX“.</li>
-          <li data-sr="„NE GASITE RAČUNAR." data-en="DO NOT TURN OFF YOUR COMPUTER.">„NE GASITE RAČUNAR“.</li>
+          <li data-sr="KRITIČNO UPOZORENJE: Pronađeno 47 virusa." data-en="CRITICAL WARNING: 47 viruses found.">KRITIČNO UPOZORENJE: Pronađeno 47 virusa.</li>
+          <li data-sr="Vaši podaci se šalju hakerima." data-en="Your data is being sent to hackers.">Vaši podaci se šalju hakerima.</li>
+          <li data-sr="Zovite odmah: 0800-XXX-XXX." data-en="Call immediately: 0800-XXX-XXX.">Zovite odmah: 0800-XXX-XXX.</li>
+          <li data-sr="NE GASITE RAČUNAR." data-en="DO NOT TURN OFF YOUR COMPUTER.">NE GASITE RAČUNAR.</li>
         </ul>
 
         <div class="callout"
-          data-sr="<strong>Prag faze:</strong> korisnik veruje da je problem stvaran." data-en="<strong>Threshold:</strong> user believes the problem is real."
+          data-sr="Threshold:" data-en="<strong>Threshold:</strong> user believes the problem is real."
         ><strong>Prag faze:</strong> korisnik veruje da je problem stvaran.</div>
       </article>
 
@@ -101,16 +101,16 @@ window.SCAM_CONTENT["scareware"] = {
         </h3>
 
         <p
-          data-sr="Korisnik zove broj iz upozorenja ili klikće na „Popravi odmah“ / „Skeniraj."
+          data-sr="Korisnik zove broj iz upozorenja ili klikće na Popravi odmah / Skeniraj."
           data-en="The user calls the number from the warning or clicks Fix Now / Scan."
-        >Korisnik zove broj iz upozorenja ili klikće na „Popravi odmah“ / „Skeniraj“.</p>
+        >Korisnik zove broj iz upozorenja ili klikće na Popravi odmah / Skeniraj.</p>
 
         <div class="grid-2">
           <div class="phase">
             <div class="label" data-sr="Ako pozove" data-en="If they call">Ako pozove</div>
             <ul class="bullets">
               <li data-sr="tok prelazi u prevaru tehničke podrške." data-en="flow becomes a tech support scam.">tok prelazi u prevaru tehničke podrške.</li>
-              <li data-sr="traže daljinski pristup „za pomoć." data-en="they ask for remote access to help.">traže daljinski pristup „za pomoć“.</li>
+              <li data-sr="traže daljinski pristup za pomoć." data-en="they ask for remote access to help.">traže daljinski pristup za pomoć.</li>
               <li data-sr="sledi lažna dijagnoza i naplata." data-en="fake diagnosis and charges follow.">sledi lažna dijagnoza i naplata.</li>
             </ul>
           </div>
@@ -118,8 +118,8 @@ window.SCAM_CONTENT["scareware"] = {
             <div class="label" data-sr="Ako instalira" data-en="If they install">Ako instalira</div>
             <ul class="bullets">
               <li data-sr="može dobiti lažni antivirus." data-en="may get fake antivirus.">može dobiti lažni antivirus.</li>
-              <li data-sr="može dobiti reklame koje smetaju ili zlonamerni program." data-en="may get reklame koje smetaju or virus.">može dobiti reklame koje smetaju ili zlonamerni program.</li>
-              <li data-sr="softver traži uplatu za „zaštitu." data-en="software demands payment for protection.">softver traži uplatu za „zaštitu“.</li>
+              <li data-sr="može dobiti reklame koje smetaju ili zlonamerni program." data-en="may get intrusive ads or malware.">može dobiti reklame koje smetaju ili zlonamerni program.</li>
+              <li data-sr="softver traži uplatu za zaštitu." data-en="software demands payment for protection.">softver traži uplatu za zaštitu.</li>
             </ul>
           </div>
         </div>
@@ -133,7 +133,7 @@ window.SCAM_CONTENT["scareware"] = {
         </div>
 
         <div class="callout"
-          data-sr="<strong>Prag:</strong> poziv ili instalacija. Posle ovog trenutka tok se nastavlja kroz prevaru tehničke podrške ili zlonamerni program." data-en="<strong>Threshold:</strong> call or installation. After this moment the flow continues through a tech support scam or malware."
+          data-sr="Threshold:" data-en="<strong>Threshold:</strong> call or installation. After this moment the flow continues through a tech support scam or malware."
         ><strong>Prag:</strong> poziv ili instalacija. Posle ovog trenutka tok se nastavlja kroz prevaru tehničke podrške ili zlonamerni program.</div>
       </article>
 
@@ -144,9 +144,9 @@ window.SCAM_CONTENT["scareware"] = {
         </h3>
 
         <p
-          data-sr="Ako je put bio poziv: napadač traži daljinski pristup, prikazuje lažnu dijagnozu, naplaćuje „popravku“. Ako je put bio instalacija: lažni softver prikazuje stalne „pretnje“ i traži uplatu za „zaštitu“ ili „premium verziju."
+          data-sr="Ako je put bio poziv: napadač traži daljinski pristup, prikazuje lažnu dijagnozu, naplaćuje popravku. Ako je put bio instalacija: lažni softver prikazuje stalne pretnje i traži uplatu za zaštitu ili premium verziju."
           data-en="If the path was a call: attacker requests remote access, shows fake diagnosis, charges for repair. If the path was installation: fake software displays constant threats and demands payment for protection or a premium version."
-        >Ako je put bio poziv: napadač traži daljinski pristup, prikazuje lažnu dijagnozu, naplaćuje „popravku“. Ako je put bio instalacija: lažni softver prikazuje stalne „pretnje“ i traži uplatu za „zaštitu“ ili „premium verziju“.</p>
+        >Ako je put bio poziv: napadač traži daljinski pristup, prikazuje lažnu dijagnozu, naplaćuje popravku. Ako je put bio instalacija: lažni softver prikazuje stalne pretnje i traži uplatu za zaštitu ili premium verziju.</p>
       </article>
 
       <!-- FAZA 4 -->
@@ -156,9 +156,9 @@ window.SCAM_CONTENT["scareware"] = {
         </h3>
 
         <p
-          data-sr="Posle inicijalne naplate mogu slediti nove: „problem se vratio“, „potrebna nadogradnja“, „godišnja pretplata."
+          data-sr="Posle inicijalne naplate mogu slediti nove: problem se vratio, potrebna nadogradnja, godišnja pretplata."
           data-en="After initial charges, new ones may follow: problem returned, upgrade needed, annual subscription."
-        >Posle inicijalne naplate mogu slediti nove: „problem se vratio“, „potrebna nadogradnja“, „godišnja pretplata“.</p>
+        >Posle inicijalne naplate mogu slediti nove: problem se vratio, potrebna nadogradnja, godišnja pretplata.</p>
 
         <div class="branch">
           <p><strong data-sr="Povezano" data-en="Related">Povezano</strong></p>
@@ -172,7 +172,7 @@ window.SCAM_CONTENT["scareware"] = {
 
     <!-- 4) KAKO PREPOZNATI -->
     <section class="card">
-      <h2 data-sr="Kako prepoznati program koji plaši" data-en="How to recognize program koji plaši">
+      <h2 data-sr="Kako prepoznati program koji plaši" data-en="How to recognize scareware">
         Kako prepoznati program koji plaši
       </h2>
 
@@ -181,7 +181,7 @@ window.SCAM_CONTENT["scareware"] = {
           <div class="label" data-sr="Znaci lažnog upozorenja" data-en="Signs of fake warning">Znaci lažnog upozorenja</div>
           <ul class="bullets">
             <li data-sr="pojavljuje se u browseru, ne iz instaliranog antivirusa." data-en="appears in browser, not from installed antivirus.">pojavljuje se u browseru, ne iz instaliranog antivirusa.</li>
-            <li data-sr="sadrži broj telefona za „podršku." data-en="contains a phone number for support.">sadrži broj telefona za „podršku“.</li>
+            <li data-sr="sadrži broj telefona za podršku." data-en="contains a phone number for support.">sadrži broj telefona za podršku.</li>
             <li data-sr="dramatičan jezik i crvene boje." data-en="dramatic language and red colors.">dramatičan jezik i crvene boje.</li>
             <li data-sr="blokira ekran ili tab." data-en="blocks screen or tab.">blokira ekran ili tab.</li>
             <li data-sr="pušta zvučni alarm." data-en="plays audio alarm.">pušta zvučni alarm.</li>
@@ -199,7 +199,7 @@ window.SCAM_CONTENT["scareware"] = {
       </div>
 
       <div class="callout"
-        data-sr="<strong>Brzi test:</strong> Da li upozorenje dolazi iz browsera? Da li sadrži broj telefona? Ako da — program koji plaši." data-en="<strong>Quick test:</strong> Is the warning from a browser? Does it contain a phone number? If yes — program koji plaši."
+        data-sr="<strong>Brzi test:</strong> da li upozorenje dolazi iz browsera? Da li sadrzi broj telefona? Ako da — program koji plasi." data-en="<strong>Quick test:</strong> Is the warning from a browser? Does it contain a phone number? If yes — scareware."
       ><strong>Brzi test:</strong> Da li upozorenje dolazi iz browsera? Da li sadrži broj telefona? Ako da — program koji plaši.</div>
     </section>
 
@@ -210,7 +210,7 @@ window.SCAM_CONTENT["scareware"] = {
       <ul class="bullets">
         <li data-sr="Microsoft, Apple i antivirus kompanije ne prikazuju upozorenja sa brojem telefona u browseru." data-en="Microsoft, Apple, and antivirus companies don't display browser warnings with phone numbers.">Microsoft, Apple i antivirus kompanije ne prikazuju upozorenja sa brojem telefona u browseru.</li>
         <li data-sr="stvarno upozorenje dolazi iz instaliranog softvera, ne iz web stranice." data-en="real warnings come from installed software, not web pages.">stvarno upozorenje dolazi iz instaliranog softvera, ne iz web stranice.</li>
-        <li data-sr="ako se ekran „zaključa“, često je dovoljno zatvoriti browser (Ctrl+W, Alt+F4, Task Manager)." data-en="if the screen 'locks', it is often enough to close the browser (Ctrl+W, Alt+F4, Task Manager).">ako se ekran „zaključa“, često je dovoljno zatvoriti browser (Ctrl+W, Alt+F4, Task Manager).</li>
+        <li data-sr="ako se ekran zaključa, često je dovoljno zatvoriti browser (Ctrl+W, Alt+F4, Task Manager)." data-en="if the screen 'locks', it is often enough to close the browser (Ctrl+W, Alt+F4, Task Manager).">ako se ekran zaključa, često je dovoljno zatvoriti browser (Ctrl+W, Alt+F4, Task Manager).</li>
       </ul>
     </section>
 
@@ -219,7 +219,7 @@ window.SCAM_CONTENT["scareware"] = {
       <h2 data-sr="Crvene zastavice" data-en="Red flags">Crvene zastavice</h2>
       <ul class="bullets">
         <li data-sr="Upozorenje se pojavljuje u browser prozoru, a ne iz instaliranog antivirusa." data-en="The warning appears in a browser window, not from installed antivirus software.">Upozorenje se pojavljuje u browser prozoru, a ne iz instaliranog antivirusa.</li>
-        <li data-sr="Poruka sadrži broj telefona za hitnu podrsku ili Microsoftovu pomoc." data-en="The message contains a phone number for urgent support or Microsoft help.">Poruka sadrzi broj telefona za hitnu podrsku ili Microsoftovu pomoc.</li>
+        <li data-sr="Poruka sadrzi broj telefona za hitnu podrsku ili Microsoftovu pomoc." data-en="The message contains a phone number for urgent support or Microsoft help.">Poruka sadrzi broj telefona za hitnu podrsku ili Microsoftovu pomoc.</li>
         <li data-sr="Ekran je blokiran ili izgleda kao da je blokiran i ne mozete normalno da radite." data-en="The screen is blocked or appears blocked and you cannot work normally.">Ekran je blokiran ili izgleda kao da je blokiran i ne mozete normalno da radite.</li>
         <li data-sr="Zvucni alarm ili dramatican glas govori da je uredaj zarazen." data-en="An audio alarm or dramatic voice says the device is infected.">Zvucni alarm ili dramatican glas govori da je uredaj zarazen.</li>
         <li data-sr="Poruka tvrdi da su licni podaci kompromitovani i da treba odmah da delujete." data-en="The message claims personal data is compromised and you must act immediately.">Poruka tvrdi da su licni podaci kompromitovani i da treba odmah da delujete.</li>
@@ -297,15 +297,6 @@ window.SCAM_CONTENT["scareware"] = {
     </section>
 
     <!-- POVEZANE PREVARE -->
-    <section class="content-section">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <ul class="bullets">
-        <li><a href="tech-support-scam.html" data-sr="Prevara tehničke podrške — lažna tehnička podrška koja traži daljinski pristup" data-en="Tech support scam — fake technical support requesting remote access">Prevara tehničke podrške — lažna tehnička podrška koja traži daljinski pristup</a></li>
-        <li><a href="tech-support-remote-access-scam.html" data-sr="Tehnička podrška sa daljinskim pristupom — preuzimanje kontrole nad uređajem" data-en="Tech support remote access scam — taking control of the device">Tehnička podrška sa daljinskim pristupom — preuzimanje kontrole nad uređajem</a></li>
-        <li><a href="phishing.html" data-sr="Fišing — lažne stranice i poruke koje kradu podatke" data-en="Phishing — fake pages and messages that steal data">Fišing — lažne stranice i poruke koje kradu podatke</a></li>
-        <li><a href="account-takeover.html" data-sr="Preuzimanje naloga — posledica kompromitovanih podataka" data-en="Account takeover — consequence of compromised credentials">Preuzimanje naloga — posledica kompromitovanih podataka</a></li>
-        <li><a href="subscription-trap.html" data-sr="Zamka pretplate — lažni software koji nastavlja da naplacuje" data-en="Subscription trap — fake software that keeps charging">Zamka pretplate — lažni software koji nastavlja da naplacuje</a></li>
-      </ul>
-    </section>
+    
   `
 };

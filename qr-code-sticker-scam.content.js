@@ -6,8 +6,8 @@ window.SCAM_CONTENT["qr-code-sticker-scam"] = {
       <h2 data-sr="Uvod: kako radi QR nalepnica prevara" data-en="Introduction: how the QR code sticker scam works">Uvod: kako radi QR nalepnica prevara</h2>
       <p data-sr="Napadač lepi lažnu QR nalepnicu direktno preko pravog QR koda — na parkomatima, restoranskim menijima, plakatima, kioscima ili reklamama. Korisnik skenira ono što izgleda kao zvaničan kod i biva preusmeren na lažnu stranicu za plaćanje ili prijavu. Na stranici unosi kartičне podatke ili kredencijale koji odmah odlaze napadaču." data-en="The attacker places a fake QR sticker directly over the real QR code — on parking meters, restaurant menus, posters, kiosks or advertisements. The user scans what looks like an official code and is redirected to a fake payment or login page. On the page they enter card details or credentials which go directly to the attacker.">Napadač lepi lažnu QR nalepnicu direktno preko pravog QR koda — na parkomatima, restoranskim menijima, plakatima, kioscima ili reklamama. Korisnik skenira ono što izgleda kao zvaničan kod i biva preusmeren na lažnu stranicu za plaćanje ili prijavu. Na stranici unosi kartičне podatke ili kredencijale koji odmah odlaze napadaču.</p>
       <p data-sr="Napad je fizički ali rezultat je digitalni. Korisnik nema razloga da posumnja — QR nalepnica izgleda identično pravoj i nalazi se tačno tamo gde se očekuje. URL lažne stranice najčešće imitira zvanični naziv uz malu izmenu koju je teško primetiti na mobilnom ekranu." data-en="The attack is physical but the result is digital. The user has no reason to suspect — the QR sticker looks identical to the real one and is exactly where expected. The fake page URL usually imitates the official name with a small change that is hard to notice on a mobile screen.">Napad je fizički ali rezultat je digitalni. Korisnik nema razloga da posumnja — QR nalepnica izgleda identično pravoj i nalazi se tačno tamo gde se očekuje. URL lažne stranice najčešće imitira zvanični naziv uz malu izmenu koju je teško primetiti na mobilnom ekranu.</p>
-      <div class="callout" data-sr="&lt;strong&gt;Model:&lt;/strong&gt; lažna QR nalepnica → skeniranje → lažna stranica za plaćanje/prijavu → unos kartičnih podataka ili kredencijala → krađa podataka." data-en="&lt;strong&gt;Model:&lt;/strong&gt; fake QR sticker → scan → fake payment/login page → card details or credential entry → data theft."><strong>Model:</strong> lažna QR nalepnica → skeniranje → lažna stranica za plaćanje/prijavu → unos kartičnih podataka ili kredencijala → krađa podataka.</div>
-      <div class="callout" data-sr="&lt;strong&gt;Prag:&lt;/strong&gt; unos kartičnih podataka ili kredencijala na lažnoj stranici. Korisnik ne može znati da je pravi QR kod zamenjene jer nalepnica izgleda identično." data-en="&lt;strong&gt;Threshold:&lt;/strong&gt; entering card details or credentials on the fake page. The user cannot know the real QR code was replaced because the sticker looks identical."><strong>Prag:</strong> unos kartičnih podataka ili kredencijala na lažnoj stranici. Korisnik ne može znati da je pravi QR kod zamenjen jer nalepnica izgleda identično.</div>
+      <div class="callout" data-sr="<strong>Model:</strong> lažna QR nalepnica → skeniranje → lažna stranica za plaćanje/prijavu → unos kartičnih podataka ili kredencijala → krađa podataka." data-en="<strong>Model:</strong> fake QR sticker → scan → fake payment/login page → card details or credential entry → data theft."><strong>Model:</strong> lažna QR nalepnica → skeniranje → lažna stranica za plaćanje/prijavu → unos kartičnih podataka ili kredencijala → krađa podataka.</div>
+      <div class="callout" data-sr="<strong>Prag:</strong> unos kartičnih podataka ili kredencijala na lažnoj stranici. Korisnik ne može znati da je pravi QR kod zamenjen jer nalepnica izgleda identično." data-en="<strong>Threshold:</strong> entering card details or credentials on the fake page. The user cannot know the real QR code was replaced because the sticker looks identical."><strong>Prag:</strong> unos kartičnih podataka ili kredencijala na lažnoj stranici. Korisnik ne može znati da je pravi QR kod zamenjen jer nalepnica izgleda identično.</div>
     </section>
 
     <section class="card">
@@ -25,7 +25,7 @@ window.SCAM_CONTENT["qr-code-sticker-scam"] = {
         <div>
           <h3 data-sr="Kako se vrši krađa" data-en="How the theft happens">Kako se vrši krađa</h3>
           <ul class="bullets">
-            <li data-sr="Lažna stranica traži broj kartice, datum isteka i CVV za &#8222;plaćanje&#8220;." data-en="Fake page requests card number, expiry date and CVV for &ldquo;payment&rdquo;.">Lažna stranica traži broj kartice, datum isteka i CVV za „plaćanje".</li>
+            <li data-sr="Lažna stranica traži broj kartice, datum isteka i CVV za plaćanje." data-en="Fake page requests card number, expiry date and CVV for &ldquo;payment&rdquo;.">Lažna stranica traži broj kartice, datum isteka i CVV za plaćanje.</li>
             <li data-sr="Podaci se šalju napadaču u realnom vremenu i odmah se koriste za CNP prevare." data-en="Data is sent to the attacker in real time and immediately used for CNP fraud.">Podaci se šalju napadaču u realnom vremenu i odmah se koriste za CNP prevare.</li>
             <li data-sr="Lažna stranica može tražiti i prijavu na nalog — korisnički podaci za servis." data-en="Fake page may also request login — user credentials for the service.">Lažna stranica može tražiti i prijavu na nalog — korisnički podaci za servis.</li>
             <li data-sr="Korisnik ne dobija potvrdu plaćanja ili usluga nije isporučena — ali to shvata kasno." data-en="User does not receive payment confirmation or service is not delivered — but realises this late.">Korisnik ne dobija potvrdu plaćanja ili usluga nije isporučena — ali to shvata kasno.</li>
@@ -41,7 +41,7 @@ window.SCAM_CONTENT["qr-code-sticker-scam"] = {
         <div class="label" data-sr="Faza 1: Postavljanje nalepnice" data-en="Phase 1: Sticker placement">Faza 1: Postavljanje nalepnice</div>
         <p data-sr="Napadač fizički posećuje lokaciju i lepi lažnu QR nalepnicu preko pravog koda. Bira mesta sa velikim prometom i kratkim vremenom zadržavanja." data-en="The attacker physically visits the location and places a fake QR sticker over the real code. They choose locations with high traffic and short dwell time.">Napadač fizički posećuje lokaciju i lepi lažnu QR nalepnicu preko pravog koda. Bira mesta sa velikim prometom i kratkim vremenom zadržavanja.</p>
         <ul class="bullets">
-          <li data-sr="Parkomatи, restorani, kafići, kulturne institucije, javni prevoz." data-en="Parking meters, restaurants, cafes, cultural institutions, public transport.">Parkomati, restorani, kafići, kulturne institucije, javni prevoz.</li>
+          <li data-sr="Parkomati, restorani, kafići, kulturne institucije, javni prevoz." data-en="Parking meters, restaurants, cafes, cultural institutions, public transport.">Parkomati, restorani, kafići, kulturne institucije, javni prevoz.</li>
           <li data-sr="Mesta gde korisnici habitualnost skeniraju QR bez razmišljanja." data-en="Places where users habitually scan QR codes without thinking.">Mesta gde korisnici habitualnost skeniraju QR bez razmišljanja.</li>
           <li data-sr="Nalepnica je profesionalno odštampana i teško je videti da je zalepljena odozgo." data-en="Sticker is professionally printed and hard to see that it is placed on top.">Nalepnica je profesionalno odštampana i teško je videti da je zalepljena odozgo.</li>
         </ul>
@@ -61,18 +61,18 @@ window.SCAM_CONTENT["qr-code-sticker-scam"] = {
 
       <div class="phase">
         <div class="label" data-sr="Faza 3: Unos podataka" data-en="Phase 3: Data entry">Faza 3: Unos podataka</div>
-        <p data-sr="Korisnik unosi kartičне podatke ili kredencijale. Stranica može prikazati &#8222;potvrdu&#8220; da bi odložila sumnju." data-en="User enters card details or credentials. The page may show a &ldquo;confirmation&rdquo; to delay suspicion.">Korisnik unosi kartičне podatke ili kredencijale. Stranica može prikazati „potvrdu" da bi odložila sumnju.</p>
+        <p data-sr="Korisnik unosi kartičне podatke ili kredencijale. Stranica može prikazati potvrdu da bi odložila sumnju." data-en="User enters card details or credentials. The page may show a &ldquo;confirmation&rdquo; to delay suspicion.">Korisnik unosi kartičне podatke ili kredencijale. Stranica može prikazati potvrdu da bi odložila sumnju.</p>
         <ul class="bullets">
           <li data-sr="Forma izgleda identično zvaničnoj — polja za broj kartice, datum, CVV." data-en="Form looks identical to the official one — fields for card number, date, CVV.">Forma izgleda identično zvaničnoj — polja za broj kartice, datum, CVV.</li>
           <li data-sr="Podaci idu direktno napadaču — nema stvarne transakcije." data-en="Data goes directly to the attacker — there is no real transaction.">Podaci idu direktno napadaču — nema stvarne transakcije.</li>
-          <li data-sr="Stranica može pokazati lažnu &#8222;potvrdu plaćanja&#8220; da korisnik ne posumnja odmah." data-en="Page may show a fake &ldquo;payment confirmation&rdquo; so the user does not suspect immediately.">Stranica može pokazati lažnu „potvrdu plaćanja" da korisnik ne posumnja odmah.</li>
+          <li data-sr="Stranica može pokazati lažnu potvrdu plaćanja da korisnik ne posumnja odmah." data-en="Page may show a fake &ldquo;payment confirmation&rdquo; so the user does not suspect immediately.">Stranica može pokazati lažnu potvrdu plaćanja da korisnik ne posumnja odmah.</li>
         </ul>
         <p class="phase-threshold" data-sr="Prag faze: podaci kartice su u rukama napadača." data-en="Phase threshold: card data is in the attacker's hands.">Prag faze: podaci kartice su u rukama napadača.</p>
       </div>
 
       <div class="phase">
         <div class="label" data-sr="Faza 4: Zloupotreba podataka" data-en="Phase 4: Data misuse">Faza 4: Zloupotreba podataka</div>
-        <p data-sr="Napadač odmah koristi ukradene kartične podatke za online kupovinu ili ih prodaje dalje. Korisnik otkriva problem tek kada vidi neovlašćene transakcije." data-en="The attacker immediately uses stolen card data for online purchases or sells it on. The user only discovers the problem when they see unauthorised transactions.">Napadač odmah koristi ukradene kartičне podatke za online kupovinu ili ih prodaje dalje. Korisnik otkriva problem tek kada vidi neovlašćene transakcije.</p>
+        <p data-sr="Napadač odmah koristi ukradene kartičне podatke za online kupovinu ili ih prodaje dalje. Korisnik otkriva problem tek kada vidi neovlašćene transakcije." data-en="The attacker immediately uses stolen card data for online purchases or sells it on. The user only discovers the problem when they see unauthorised transactions.">Napadač odmah koristi ukradene kartičне podatke za online kupovinu ili ih prodaje dalje. Korisnik otkriva problem tek kada vidi neovlašćene transakcije.</p>
         <ul class="bullets">
           <li data-sr="CNP (card-not-present) prevare na online prodavnicama sa ukradenim podacima." data-en="CNP (card-not-present) fraud at online stores with the stolen data.">CNP (card-not-present) prevare na online prodavnicama sa ukradenim podacima.</li>
           <li data-sr="Podaci se prodaju na dark web tržištima za dalju eksploataciju." data-en="Data is sold on dark web marketplaces for further exploitation.">Podaci se prodaju na dark web tržištima za dalju eksploataciju.</li>
@@ -82,8 +82,8 @@ window.SCAM_CONTENT["qr-code-sticker-scam"] = {
       </div>
 
       <div class="phase">
-        <div class="label" data-sr="Faza 5: Otkrivanje i prijava" data-en="Phase 5: Discovery and reporting">Faza 5: Discovery and reporting</div>
-        <p data-sr="Korisnik ili primeti neovlašćenu transakciju ili ne dobije očekivanu uslugu (parking nije registrovan, meni ne radi). Prijava banci i lokaciji." data-en="User either notices an unauthorised transaction or does not receive the expected service (parking not registered, menu does not work). Report to bank and location.">Korisnik ili primeти neovlašćenu transakciju ili ne dobije očekivanu uslugu. Prijava banci i lokaciji.</p>
+        <div class="label" data-sr="Faza 5: Discovery and reporting" data-en="Phase 5: Discovery and reporting">Faza 5: Discovery and reporting</div>
+        <p data-sr="Korisnik ili primeти neovlašćenu transakciju ili ne dobije očekivanu uslugu. Prijava banci i lokaciji." data-en="User either notices an unauthorised transaction or does not receive the expected service (parking not registered, menu does not work). Report to bank and location.">Korisnik ili primeти neovlašćenu transakciju ili ne dobije očekivanu uslugu. Prijava banci i lokaciji.</p>
         <ul class="bullets">
           <li data-sr="Banka može poništiti transakciju ako se odmah prijavi." data-en="Bank may reverse the transaction if reported immediately.">Banka može poništiti transakciju ako se odmah prijavi.</li>
           <li data-sr="Lokacija mora biti obaveštena da ukloni lažnu nalepnicu." data-en="Location must be notified to remove the fake sticker.">Lokacija mora biti obaveštena da ukloni lažnu nalepnicu.</li>
@@ -98,7 +98,7 @@ window.SCAM_CONTENT["qr-code-sticker-scam"] = {
       <ul class="bullets">
         <li data-sr="URL koji se otvara nakon skeniranja ne odgovara zvaničnom domenu servisa." data-en="URL that opens after scanning does not match the official service domain.">URL koji se otvara nakon skeniranja ne odgovara zvaničnom domenu servisa.</li>
         <li data-sr="QR nalepnica izgleda kao da je zalepljena odozgo — vidljivi rubovi ili neravnine." data-en="QR sticker looks like it is placed on top — visible edges or bumps.">QR nalepnica izgleda kao da je zalepljena odozgo — vidljivi rubovi ili neravnine.</li>
-        <li data-sr="Stranica traži CVV kod i pun broj kartice za &#8222;plaćanje&#8220; servisa koji obično ne zahteva unos kartice." data-en="Page requests CVV and full card number for &ldquo;payment&rdquo; for a service that does not normally require card entry.">Stranica traži CVV kod i pun broj kartice za „plaćanje" servisa koji obično ne zahteva unos kartice.</li>
+        <li data-sr="Stranica traži CVV kod i pun broj kartice za plaćanje servisa koji obično ne zahteva unos kartice." data-en="Page requests CVV and full card number for &ldquo;payment&rdquo; for a service that does not normally require card entry.">Stranica traži CVV kod i pun broj kartice za plaćanje servisa koji obično ne zahteva unos kartice.</li>
         <li data-sr="Nema SSL sertifikata (https) ili je domen nedavno registrovan." data-en="No SSL certificate (https) or domain was recently registered.">Nema SSL sertifikata (https) ili je domen nedavno registrovan.</li>
         <li data-sr="Potvrda plaćanja ne stiže ili parking nije registrovan u sistemu." data-en="Payment confirmation does not arrive or parking is not registered in the system.">Potvrda plaćanja ne stiže ili parking nije registrovan u sistemu.</li>
         <li data-sr="Stranica izgleda malo drugačije od uobičajene — drugi font, boje, raspored." data-en="Page looks slightly different from usual — different font, colours, layout.">Stranica izgleda malo drugačije od uobičajene — drugi font, boje, raspored.</li>
@@ -146,22 +146,13 @@ window.SCAM_CONTENT["qr-code-sticker-scam"] = {
     <section class="card">
       <h2 data-sr="Ako pokušavaš da pomogneš nekome" data-en="If you are trying to help someone">Ako pokušavaš da pomogneš nekome</h2>
       <ul class="bullets">
-        <li data-sr="'Da li si pročitao URL koji se otvorio pre nego što si uneo podatke kartice?'" data-en="'Did you read the URL that opened before entering card details?'">'Da li si pročitao URL koji se otvorio pre nego što si uneo podatke kartice?'</li>
-        <li data-sr="'Da li je potvrda plaćanja stigla od servisa ili ne?'" data-en="'Did a payment confirmation arrive from the service or not?'">'Da li je potvrda plaćanja stigla od servisa ili ne?'</li>
-        <li data-sr="'Kontaktiraj banku odmah i reci im da si možda uneo podatke kartice na lažnoj stranici.'" data-en="'Contact the bank immediately and tell them you may have entered card details on a fake page.'">'Kontaktiraj banku odmah i reci im da si možda uneo podatke kartice na lažnoj stranici.'</li>
-        <li data-sr="'Uvek proveri URL koji se otvori kada skenirate QR kod — posebno ako traži podatke kartice.'" data-en="'Always check the URL that opens when scanning a QR code — especially if it asks for card details.'">'Uvek proveri URL koji se otvori kada skenirate QR kod — posebno ako traži podatke kartice.'</li>
+        <li data-sr="Da li si pročitao URL koji se otvorio pre nego što si uneo podatke kartice?" data-en="'Did you read the URL that opened before entering card details?">Da li si pročitao URL koji se otvorio pre nego što si uneo podatke kartice?</li>
+        <li data-sr="Da li je potvrda plaćanja stigla od servisa ili ne?" data-en="'Did a payment confirmation arrive from the service or not?">Da li je potvrda plaćanja stigla od servisa ili ne?</li>
+        <li data-sr="Kontaktiraj banku odmah i reci im da si možda uneo podatke kartice na lažnoj stranici." data-en="'Contact the bank immediately and tell them you may have entered card details on a fake page.">Kontaktiraj banku odmah i reci im da si možda uneo podatke kartice na lažnoj stranici.</li>
+        <li data-sr="Uvek proveri URL koji se otvori kada skenirate QR kod — posebno ako traži podatke kartice." data-en="'Always check the URL that opens when scanning a QR code — especially if it asks for card details.">Uvek proveri URL koji se otvori kada skenirate QR kod — posebno ako traži podatke kartice.</li>
       </ul>
     </section>
 
-    <section class="card">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <ul class="bullets">
-        <li><a href="parking-qr-scam.html" data-sr="Lažni QR kodovi na parkiralištima" data-en="Parking QR code scam">Lažni QR kodovi na parkiralištima</a></li>
-        <li><a href="qr-payment-scam.html" data-sr="QR prevara pri plaćanju" data-en="QR payment scam">QR prevara pri plaćanju</a></li>
-        <li><a href="payment-link-scam.html" data-sr="Prevara s linkom za plaćanje" data-en="Payment link scam">Prevara s linkom za plaćanje</a></li>
-        <li><a href="card-not-present-fraud.html" data-sr="Zloupotreba kartice bez fizičkog prisustva" data-en="Card-not-present fraud">Zloupotreba kartice bez fizičkog prisustva</a></li>
-        <li><a href="phishing.html" data-sr="Fišing (Phishing)" data-en="Phishing">Fišing (Phishing)</a></li>
-      </ul>
-    </section>
+    
   `
 };

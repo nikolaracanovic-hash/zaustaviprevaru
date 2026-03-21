@@ -4,10 +4,10 @@ window.SCAM_CONTENT["influencer-impersonation-scam"] = {
   raw_html: `
     <section class="card">
       <h2 data-sr="Uvod: kako radi prevara sa lažnim influenserom" data-en="Introduction: how the influencer impersonation scam works">Uvod: kako radi prevara sa lažnim influenserom</h2>
-      <p data-sr="Napadač kreira lažni nalog koji oponaša poznatog influensera — kopira profilnu sliku, ime i stil. Promoviše lažne investicione prilike, giveawaye ili ekskluzivne ponude pratioцima. Žrtve šalju novac ili lične podatke verujući da je ponuda legitimna jer dolazi od influensera kome veruju." data-en="The attacker creates a fake account imitating a known influencer — copies profile picture, name and style. Promotes fake investment opportunities, giveaways or exclusive offers to followers. Victims send money or personal data believing the offer is legitimate because it comes from an influencer they trust.">Napadač kreira lažni nalog koji oponaša poznatog influensera — kopira profilnu sliku, ime i stil. Promoviše lažne investicione prilike, giveawaye ili ekskluzivne ponude pratiocima. Žrtve šalju novac ili lične podatke verujući da je ponuda legitimna jer dolazi od influensera kome veruju.</p>
-      <p data-sr="Za razliku od prevare sa lažnom zvezdom, influenser prevara se češće odvija kroz objave i stories umesto kroz direktne poruke. Lažni nalog postaovi mamce koji izgledaju kao redovan sadržaj influensera." data-en="Unlike fake celebrity scams, influencer impersonation more often happens through posts and stories rather than direct messages. The fake account posts bait that looks like regular influencer content.">Za razliku od prevare sa lažnom zvezdom, influenser prevara se češće odvija kroz objave i stories umesto kroz direktne poruke. Lažni nalog postavlja mamce koji izgledaju kao redovan sadržaj influensera.</p>
-      <div class="callout" data-sr="&lt;strong&gt;Model:&lt;/strong&gt; lažni nalog influensera → lažna investicija/giveaway → uplata ili podaci → nestanak." data-en="&lt;strong&gt;Model:&lt;/strong&gt; fake influencer account → fake investment/giveaway → payment or data → disappearance."><strong>Model:</strong> lažni nalog influensera → lažna investicija/giveaway → uplata ili podaci → nestanak.</div>
-      <div class="callout" data-sr="&lt;strong&gt;Prag:&lt;/strong&gt; žrtva šalje novac ili podatke na osnovu ponude sa lažnog naloga." data-en="&lt;strong&gt;Threshold:&lt;/strong&gt; victim sends money or data based on an offer from the fake account."><strong>Prag:</strong> žrtva šalje novac ili podatke na osnovu ponude sa lažnog naloga.</div>
+      <p data-sr="Napadač kreira lažni nalog koji oponaša poznatog influensera — kopira profilnu sliku, ime i stil. Promoviše lažne investicione prilike, giveawaye ili ekskluzivne ponude pratiocima. Žrtve šalju novac ili lične podatke verujući da je ponuda legitimna jer dolazi od influensera kome veruju." data-en="The attacker creates a fake account imitating a known influencer — copies profile picture, name and style. Promotes fake investment opportunities, giveaways or exclusive offers to followers. Victims send money or personal data believing the offer is legitimate because it comes from an influencer they trust.">Napadač kreira lažni nalog koji oponaša poznatog influensera — kopira profilnu sliku, ime i stil. Promoviše lažne investicione prilike, giveawaye ili ekskluzivne ponude pratiocima. Žrtve šalju novac ili lične podatke verujući da je ponuda legitimna jer dolazi od influensera kome veruju.</p>
+      <p data-sr="Za razliku od prevare sa lažnom zvezdom, influenser prevara se češće odvija kroz objave i stories umesto kroz direktne poruke. Lažni nalog postavlja mamce koji izgledaju kao redovan sadržaj influensera." data-en="Unlike fake celebrity scams, influencer impersonation more often happens through posts and stories rather than direct messages. The fake account posts bait that looks like regular influencer content.">Za razliku od prevare sa lažnom zvezdom, influenser prevara se češće odvija kroz objave i stories umesto kroz direktne poruke. Lažni nalog postavlja mamce koji izgledaju kao redovan sadržaj influensera.</p>
+      <div class="callout" data-sr="<strong>Model:</strong> lažni nalog influensera → lažna investicija/giveaway → uplata ili podaci → nestanak." data-en="<strong>Model:</strong> fake influencer account → fake investment/giveaway → payment or data → disappearance."><strong>Model:</strong> lažni nalog influensera → lažna investicija/giveaway → uplata ili podaci → nestanak.</div>
+      <div class="callout" data-sr="<strong>Prag:</strong> žrtva šalje novac ili podatke na osnovu ponude sa lažnog naloga." data-en="<strong>Threshold:</strong> victim sends money or data based on an offer from the fake account."><strong>Prag:</strong> žrtva šalje novac ili podatke na osnovu ponude sa lažnog naloga.</div>
     </section>
 
     <section class="card">
@@ -25,9 +25,9 @@ window.SCAM_CONTENT["influencer-impersonation-scam"] = {
         <div>
           <h3 data-sr="Kako se uvodi novac" data-en="How money is introduced">Kako se uvodi novac</h3>
           <ul class="bullets">
-            <li data-sr="Giveaway: prati nalog i pošalji X evra da &#8222;verifikuješ&#8220; i dobiješ nagradu." data-en="Giveaway: follow account and send X euros to &ldquo;verify&rdquo; and win a prize.">Giveaway: prati nalog i pošalji X evra da „verifikuješ" i dobiješ nagradu.</li>
-            <li data-sr="Investiciona ponuda: &#8222;koristim ovu kripto platformu i zaradio sam — pridruži mi se&#8220;." data-en="Investment offer: &ldquo;I use this crypto platform and earned — join me&rdquo;.">Investiciona ponuda: „koristim ovu kripto platformu i zaradio sam — pridruži mi se".</li>
-            <li data-sr="Ekskluzivni kurs ili program: uplata za &#8222;mentorstvo&#8220; koje ne postoji." data-en="Exclusive course or programme: payment for &ldquo;mentorship&rdquo; that does not exist.">Ekskluzivni kurs ili program: uplata za „mentorstvo" koje ne postoji.</li>
+            <li data-sr="Giveaway: prati nalog i pošalji X evra da verifikuješ i dobiješ nagradu." data-en="Giveaway: follow account and send X euros to &ldquo;verify&rdquo; and win a prize.">Giveaway: prati nalog i pošalji X evra da verifikuješ i dobiješ nagradu.</li>
+            <li data-sr="Investiciona ponuda: koristim ovu kripto platformu i zaradio sam — pridruži mi se." data-en="Investment offer: &ldquo;I use this crypto platform and earned — join me&rdquo;.">Investiciona ponuda: koristim ovu kripto platformu i zaradio sam — pridruži mi se.</li>
+            <li data-sr="Ekskluzivni kurs ili program: uplata za mentorstvo koje ne postoji." data-en="Exclusive course or programme: payment for &ldquo;mentorship&rdquo; that does not exist.">Ekskluzivni kurs ili program: uplata za mentorstvo koje ne postoji.</li>
           </ul>
         </div>
       </div>
@@ -71,7 +71,7 @@ window.SCAM_CONTENT["influencer-impersonation-scam"] = {
       <h2 data-sr="Crvene zastavice" data-en="Red flags">Crvene zastavice</h2>
       <ul class="bullets">
         <li data-sr="Nalog nema plavu verifikaciju ili je verifikacija sumnjiva." data-en="Account has no blue verification or verification is suspicious.">Nalog nema plavu verifikaciju ili je verifikacija sumnjiva.</li>
-        <li data-sr="Giveaway traži uplatu za &#8222;verifikaciju&#8220; — legitimni giveaways nikad ne traže novac." data-en="Giveaway requires payment for &ldquo;verification&rdquo; — legitimate giveaways never ask for money.">Giveaway traži uplatu za „verifikaciju" — legitimni giveaways nikad ne traže novac.</li>
+        <li data-sr="Giveaway traži uplatu za verifikaciju — legitimni giveaways nikad ne traže novac." data-en="Giveaway requires payment for &ldquo;verification&rdquo; — legitimate giveaways never ask for money.">Giveaway traži uplatu za verifikaciju — legitimni giveaways nikad ne traže novac.</li>
         <li data-sr="Komentari pod objavom izgledaju generički i ponavljaju se." data-en="Comments under the post look generic and repetitive.">Komentari pod objavom izgledaju generički i ponavljaju se.</li>
         <li data-sr="Naziv naloga se razlikuje od originalnog za jedan znak ili simbol." data-en="Account name differs from the original by one character or symbol.">Naziv naloga se razlikuje od originalnog za jedan znak ili simbol.</li>
         <li data-sr="Influenser promoviše kripto ili investicijsku platformu koju nikad ranije nije pomenuo." data-en="Influencer promotes a crypto or investment platform they have never mentioned before.">Influenser promoviše kripto ili investicijsku platformu koju nikad ranije nije pomenuo.</li>
@@ -111,21 +111,12 @@ window.SCAM_CONTENT["influencer-impersonation-scam"] = {
     <section class="card">
       <h2 data-sr="Ako pokušavaš da pomogneš nekome" data-en="If you are trying to help someone">Ako pokušavaš da pomogneš nekome</h2>
       <ul class="bullets">
-        <li data-sr="'Pogledaj naziv naloga pažljivo — razlikuje li se od originalnog za jedan znak?'" data-en="'Look at the account name carefully — does it differ from the original by one character?'">'Pogledaj naziv naloga pažljivo — razlikuje li se od originalnog za jedan znak?'</li>
-        <li data-sr="'Nijedan legitiman giveaway ne traži novac za učešće.'" data-en="'No legitimate giveaway requires money to participate.'">'Nijedan legitiman giveaway ne traži novac za učešće.'</li>
-        <li data-sr="'Proveri zvaničan verifikovani nalog — da li ista ponuda postoji tamo?'" data-en="'Check the official verified account — does the same offer exist there?'">'Proveri zvaničan verifikovani nalog — da li ista ponuda postoji tamo?'</li>
+        <li data-sr="Pogledaj naziv naloga pažljivo — razlikuje li se od originalnog za jedan znak?" data-en="'Look at the account name carefully — does it differ from the original by one character?">Pogledaj naziv naloga pažljivo — razlikuje li se od originalnog za jedan znak?</li>
+        <li data-sr="Nijedan legitiman giveaway ne traži novac za učešće." data-en="'No legitimate giveaway requires money to participate.">Nijedan legitiman giveaway ne traži novac za učešće.</li>
+        <li data-sr="Proveri zvaničan verifikovani nalog — da li ista ponuda postoji tamo?" data-en="'Check the official verified account — does the same offer exist there?">Proveri zvaničan verifikovani nalog — da li ista ponuda postoji tamo?</li>
       </ul>
     </section>
 
-    <section class="card">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <ul class="bullets">
-        <li><a href="fake-celebrity-scam.html" data-sr="Lažna zvezda" data-en="Fake celebrity scam">Lažna zvezda</a></li>
-        <li><a href="social-media-hijack-scam.html" data-sr="Preuzimanje naloga na društvenim mrežama" data-en="Social media hijack scam">Preuzimanje naloga na društvenim mrežama</a></li>
-        <li><a href="ai-voice-clone-scam.html" data-sr="Prevara sa AI klonom glasa" data-en="AI voice clone scam">Prevara sa AI klonom glasa</a></li>
-        <li><a href="impersonation-scam.html" data-sr="Lažno predstavljanje" data-en="Impersonation scam">Lažno predstavljanje</a></li>
-        <li><a href="investment-fraud.html" data-sr="Investiciona prevara" data-en="Investment fraud">Investiciona prevara</a></li>
-      </ul>
-    </section>
+    
   `
 };

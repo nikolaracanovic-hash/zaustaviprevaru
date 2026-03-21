@@ -3,10 +3,10 @@ window.SCAM_CONTENT = window.SCAM_CONTENT || {};
 window.SCAM_CONTENT["moving-scam"] = {
   raw_html: `
     <section class="card">
-      <h2 data-sr="Uvod: kako radi prevara sa selidbom" data-en="Introduction: how the moving scam works">Uvod: kako radi Prevara sa selidbom</h2>
+      <h2 data-sr="Uvod: kako radi Prevara sa selidbom" data-en="Introduction: how the moving scam works">Uvod: kako radi Prevara sa selidbom</h2>
       <p data-sr="Kompanija za selidbu daje nisku inicijalnu cenu. Nakon što preuzme sve predmete, odbija isporuku na novoj adresi i traži znatno veći iznos od dogovorenog. Vlasnik mora platiti ili ostaje bez stvari. Ugovor je neprecizan ili nepostojeći." data-en="A moving company gives a low initial price. After taking all belongings it refuses delivery to the new address and demands a significantly higher amount than agreed. The owner must pay or loses their belongings. The contract is vague or nonexistent.">Kompanija za selidbu daje nisku inicijalnu cenu. Nakon što preuzme sve predmete, odbija isporuku na novoj adresi i traži znatno veći iznos od dogovorenog. Vlasnik mora platiti ili ostaje bez stvari. Ugovor je neprecizan ili nepostojeći.</p>
-      <div class="callout" data-sr="&lt;strong&gt;Model:&lt;/strong&gt; Niska ponuda → preuzimanje predmeta → tražnja višeg iznosa → predmeti blokirani." data-en="&lt;strong&gt;Model:&lt;/strong&gt; Low offer → taking belongings → demand for higher amount → belongings held hostage."><strong>Model:</strong> Niska ponuda → preuzimanje predmeta → tražnja višeg iznosa → predmeti blokirani.</div>
-      <div class="callout" data-sr="&lt;strong&gt;Prag:&lt;/strong&gt; Kompanija za selidbu preuzima predmete. Od tog trenutka vlasnik mora platiti više da ih dobije." data-en="&lt;strong&gt;Threshold:&lt;/strong&gt; The moving company takes the belongings. From that point the owner must pay more to get them back."><strong>Prag:</strong> Kompanija za selidbu preuzima predmete. Od tog trenutka vlasnik mora platiti više da ih dobije.</div>
+      <div class="callout" data-sr="<strong>Model:</strong> Niska ponuda → preuzimanje predmeta → tražnja višeg iznosa → predmeti blokirani." data-en="<strong>Model:</strong> Low offer → taking belongings → demand for higher amount → belongings held hostage."><strong>Model:</strong> Niska ponuda → preuzimanje predmeta → tražnja višeg iznosa → predmeti blokirani.</div>
+      <div class="callout" data-sr="<strong>Prag:</strong> Kompanija za selidbu preuzima predmete. Od tog trenutka vlasnik mora platiti više da ih dobije." data-en="<strong>Threshold:</strong> The moving company takes the belongings. From that point the owner must pay more to get them back."><strong>Prag:</strong> Kompanija za selidbu preuzima predmete. Od tog trenutka vlasnik mora platiti više da ih dobije.</div>
     </section>
 
     <section class="card">
@@ -115,14 +115,6 @@ window.SCAM_CONTENT["moving-scam"] = {
       </ul>
     </section>
 
-    <section class="card">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <ul class="bullets">
-        <li><a href="home-improvement-scam.html" data-sr="Prevara sa adaptacijom stana" data-en="Home improvement scam">Prevara sa adaptacijom stana</a></li>
-        <li><a href="deposit-scam.html" data-sr="Prevara sa depozitom" data-en="Deposit scam">Prevara sa depozitom</a></li>
-        <li><a href="advance-fee-fraud.html" data-sr="Prevara avansnim plaćanjem" data-en="Advance fee fraud">Prevara avansnim plaćanjem</a></li>
-        <li><a href="escrow-scam.html" data-sr="Escrow prevara" data-en="Escrow scam">Escrow prevara</a></li>
-      </ul>
-    </section>
+    
   `
 };

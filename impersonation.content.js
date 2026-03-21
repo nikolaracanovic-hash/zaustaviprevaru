@@ -65,7 +65,7 @@ window.SCAM_CONTENT["impersonation-scam"] = {
 
     <!-- 3) HRONOLOŠKI TOK -->
     <section class="card">
-      <h2 data-sr="Hronološki tok (faze + grananja)." data-en="Timeline (phases + branching).">Hronološki tok (faze + grananja)</h2>
+      <h2 data-sr="Hronološki tok (faze + grananja)" data-en="Timeline (phases + branching).">Hronološki tok (faze + grananja)</h2>
 
       <!-- FAZA 1 -->
       <article class="phase">
@@ -90,10 +90,10 @@ window.SCAM_CONTENT["impersonation-scam"] = {
         >Napadač uvodi scenario koji zahteva brzu reakciju. Problem je ozbiljan: kompromitovan nalog, sumnjiva transakcija, istraga, hitan poslovni zahtev, porodična nevolja. Hitnost zatvara prostor za proveru i konsultaciju.</p>
 
         <ul class="bullets">
-          <li data-sr="„vidimo sumnjivu aktivnost na vašem nalogu." data-en="we see suspicious activity on your account.">„vidimo sumnjivu aktivnost na vašem nalogu“.</li>
-          <li data-sr="„vaš račun je deo istrage." data-en="your account is part of an investigation.">„vaš račun je deo istrage“.</li>
-          <li data-sr="„hitno mi treba transfer pre sastanka." data-en="I urgently need a transfer before the meeting.">„hitno mi treba transfer pre sastanka“.</li>
-          <li data-sr="„imao sam nezgodu, treba mi pomoć odmah." data-en="I had an accident, I need help immediately.">„imao sam nezgodu, treba mi pomoć odmah“.</li>
+          <li data-sr="vidimo sumnjivu aktivnost na vašem nalogu." data-en="we see suspicious activity on your account.">vidimo sumnjivu aktivnost na vašem nalogu.</li>
+          <li data-sr="vaš račun je deo istrage." data-en="your account is part of an investigation.">vaš račun je deo istrage.</li>
+          <li data-sr="hitno mi treba transfer pre sastanka." data-en="I urgently need a transfer before the meeting.">hitno mi treba transfer pre sastanka.</li>
+          <li data-sr="imao sam nezgodu, treba mi pomoć odmah." data-en="I had an accident, I need help immediately.">imao sam nezgodu, treba mi pomoć odmah.</li>
         </ul>
       </article>
 
@@ -102,9 +102,9 @@ window.SCAM_CONTENT["impersonation-scam"] = {
         <h3 class="phase-title" data-sr="Faza 3 — Zahtev: kod, podaci ili uplata" data-en="Phase 3 — Request: code, data, or payment">Faza 3 — Zahtev: kod, podaci ili uplata</h3>
 
         <p
-          data-sr="Zahtev dolazi kao logičan nastavak scenarija. Maska daje legitimitet: banka traži kod „za verifikaciju.", policija traži podatke „za istragu", direktor traži transfer „za posao", rođak traži novac „za hitnu situaciju"“. Zahtev se prodaje kao standardna procedura ili nužna pomoć."
+          data-sr="Zahtev dolazi kao logičan nastavak scenarija. Maska daje legitimitet: banka traži kod za verifikaciju., policija traži podatke za istragu, direktor traži transfer za posao, rođak traži novac za hitnu situaciju. Zahtev se prodaje kao standardna procedura ili nužna pomoć."
           data-en="The request arrives as a logical continuation of the scenario. The mask provides legitimacy: a bank asks for a code "for verification," police ask for data "for an investigation," a director asks for a transfer "for business," and a relative asks for money "for an emergency." The request is framed as standard procedure or necessary help."
-        >Zahtev dolazi kao logičan nastavak scenarija. Maska daje legitimitet: banka traži kod „za verifikaciju", policija traži podatke „za istragu", direktor traži transfer „za posao", rođak traži novac „za hitnu situaciju"“. Zahtev se prodaje kao standardna procedura ili nužna pomoć“.</p>
+        >Zahtev dolazi kao logičan nastavak scenarija. Maska daje legitimitet: banka traži kod za verifikaciju, policija traži podatke za istragu, direktor traži transfer za posao, rođak traži novac za hitnu situaciju. Zahtev se prodaje kao standardna procedura ili nužna pomoć.</p>
 
         <div class="grid-2">
           <div class="phase">
@@ -112,7 +112,7 @@ window.SCAM_CONTENT["impersonation-scam"] = {
             <ul class="bullets">
               <li data-sr="OTP kod ili lozinka." data-en="OTP code or password.">OTP kod ili lozinka.</li>
               <li data-sr="podaci kartice." data-en="card details.">podaci kartice.</li>
-              <li data-sr="transfer na „siguran račun." data-en="transfer to a &quot;safe account&quot;">transfer na „siguran račun“.</li>
+              <li data-sr="transfer na siguran račun." data-en="transfer to a safe account">transfer na siguran račun.</li>
               <li data-sr="promena podataka za uplatu dobavljaču." data-en="changing supplier payment details.">promena podataka za uplatu dobavljaču.</li>
               <li data-sr="kupovina vaučera/kriptovalute." data-en="buying vouchers/cryptocurrency.">kupovina vaučera/kriptovalute.</li>
             </ul>
@@ -120,10 +120,10 @@ window.SCAM_CONTENT["impersonation-scam"] = {
           <div class="phase">
             <div class="label" data-sr="Kako se prodaje" data-en="How it's sold">Kako se prodaje</div>
             <ul class="bullets">
-              <li data-sr="„standardna procedura." data-en="standard procedure.">„standardna procedura“.</li>
-              <li data-sr="„za vašu zaštitu." data-en="for your protection.">„za vašu zaštitu“.</li>
-              <li data-sr="„obavezno po zakonu." data-en="required by law.">„obavezno po zakonu“.</li>
-              <li data-sr="„samo ti možeš da pomogneš." data-en="only you can help.">„samo ti možeš da pomogneš“.</li>
+              <li data-sr="standardna procedura." data-en="standard procedure.">standardna procedura.</li>
+              <li data-sr="za vašu zaštitu." data-en="for your protection.">za vašu zaštitu.</li>
+              <li data-sr="obavezno po zakonu." data-en="required by law.">obavezno po zakonu.</li>
+              <li data-sr="samo ti možeš da pomogneš." data-en="only you can help.">samo ti možeš da pomogneš.</li>
             </ul>
           </div>
         </div>
@@ -158,7 +158,7 @@ window.SCAM_CONTENT["impersonation-scam"] = {
         <div class="branch">
           <p><strong data-sr="Grananja posle praga" data-en="Branching after threshold">Grananja posle praga</strong></p>
           <ul class="bullets">
-            <li data-sr="<strong>preuzimanje naloga:</strong> preuzimanje naloga. (Povezano: account-takeover)." data-en="<strong>Preuzimanje naloga:</strong> taking over accounts. (Related: account-takeover)."><strong>Preuzimanje naloga:</strong> preuzimanje naloga. (Povezano: account-takeover).</li>
+            <li data-sr="<strong>Preuzimanje naloga:</strong> preuzimanje naloga. (Povezano: account-takeover)." data-en="<strong>Preuzimanje naloga:</strong> taking over accounts. (Related: account-takeover)."><strong>Preuzimanje naloga:</strong> preuzimanje naloga. (Povezano: account-takeover).</li>
           </ul>
         </div>
       </article>
@@ -168,9 +168,9 @@ window.SCAM_CONTENT["impersonation-scam"] = {
         <h3 class="phase-title" data-sr="Faza 6 — Eskalacija i povraćaj kao mamac" data-en="Phase 6 — Escalation and recovery">Faza 6 — Eskalacija i povraćaj kao mamac</h3>
 
         <p
-          data-sr="Ako meta posumnja, napadač eskalira: veći autoritet, nove pretnje, novi identitet. Posle prekida često stiže ponuda za povraćaj: „pomoć“ uz uplatu."
+          data-sr="Ako meta posumnja, napadač eskalira: veći autoritet, nove pretnje, novi identitet. Posle prekida često stiže ponuda za povraćaj: pomoć uz uplatu."
           data-en="If the target doubts, the attacker escalates: higher authority, new threats, and a new identity. After the break, a recovery offer often arrives: "help" for a fee."
-        >Ako meta posumnja, napadač eskalira: veći autoritet, nove pretnje, novi identitet. Posle prekida često stiže ponuda za povraćaj: „pomoć“ uz uplatu.</p>
+        >Ako meta posumnja, napadač eskalira: veći autoritet, nove pretnje, novi identitet. Posle prekida često stiže ponuda za povraćaj: pomoć uz uplatu.</p>
 
         <div class="branch">
           <p><strong data-sr="Povezano" data-en="Related">Povezano</strong></p>
@@ -185,10 +185,10 @@ window.SCAM_CONTENT["impersonation-scam"] = {
     <section class="card">
       <h2 data-sr="Specifične varijante lažnog predstavljanja" data-en="Specific impersonation variants">Specifične varijante lažnog predstavljanja</h2>
 
-      <h3 data-sr="CEO prevara / prevare u firmama (kompromitovanje poslovnog imejla)." data-en="CEO fraud / business scams (Business Email Compromise).">CEO prevara / prevare u firmama (kompromitovanje poslovnog imejla)</h3>
+      <h3 data-sr="CEO prevara / prevare u firmama (kompromitovanje poslovnog imejla)" data-en="CEO fraud / business scams (Business Email Compromise).">CEO prevara / prevare u firmama (kompromitovanje poslovnog imejla)</h3>
       <ul class="bullets">
         <li data-sr="napadač glumi direktora ili višeg menadžera." data-en="attacker impersonates a company director or a senior manager.">napadač glumi direktora ili višeg menadžera.</li>
-        <li data-sr="traži hitan transfer sa objašnjenjem da je „poverl." data-en="requests urgent transfer claiming it's &quot;confidential&quot;">traži hitan transfer sa objašnjenjem da je „poverljivo“.</li>
+        <li data-sr="traži hitan transfer sa objašnjenjem da je poverljivo." data-en="requests urgent transfer claiming it's confidential">traži hitan transfer sa objašnjenjem da je poverljivo.</li>
         <li data-sr="cilja zaposlene u finansijama ili računovodstvu." data-en="targets finance or accounting employees.">cilja zaposlene u finansijama ili računovodstvu.</li>
         <li data-sr="koristi sličan imejl domen ili kompromitovan nalog." data-en="uses similar email domain or compromised account.">koristi sličan imejl domen ili kompromitovan nalog.</li>
       </ul>
@@ -198,13 +198,13 @@ window.SCAM_CONTENT["impersonation-scam"] = {
         <li data-sr="napadač glumi unuka, nećaka ili bliskog rođaka." data-en="attacker impersonates grandchild, nephew, or close relative.">napadač glumi unuka, nećaka ili bliskog rođaka.</li>
         <li data-sr="scenario je hitna situacija: nezgoda, hapšenje, bolnica." data-en="scenario is an emergency: accident, arrest, hospital.">scenario je hitna situacija: nezgoda, hapšenje, bolnica.</li>
         <li data-sr="traži novac odmah, često u gotovini ili vaučerima." data-en="demands money immediately, often in cash or vouchers.">traži novac odmah, često u gotovini ili vaučerima.</li>
-        <li data-sr="insistira na tajnosti: „nemoj reći roditeljima." data-en="insists on secrecy: &quot;don't tell parents&quot;">insistira na tajnosti: „nemoj reći roditeljima“.</li>
+        <li data-sr="insistira na tajnosti: nemoj reći roditeljima." data-en="insists on secrecy: don't tell parents">insistira na tajnosti: nemoj reći roditeljima.</li>
       </ul>
 
       <h3 data-sr="Fake dobavljač / account change" data-en="Fake supplier / account change">Fake dobavljač / account change</h3>
       <ul class="bullets">
         <li data-sr="napadač glumi postojećeg dobavljača." data-en="attacker impersonates existing supplier.">napadač glumi postojećeg dobavljača.</li>
-        <li data-sr="obaveštava o „promeni bankovnog računa." data-en="notifies of &quot;bank account change&quot;">obaveštava o „promeni bankovnog računa“.</li>
+        <li data-sr="obaveštava o promeni bankovnog računa." data-en="notifies of bank account change">obaveštava o promeni bankovnog računa.</li>
         <li data-sr="sledeća faktura ide na račun napadača." data-en="next invoice goes to attacker's account.">sledeća faktura ide na račun napadača.</li>
         <li data-sr="koristi sličan imejl ili kompromitovan nalog dobavljača." data-en="uses similar email or compromised supplier account.">koristi sličan imejl ili kompromitovan nalog dobavljača.</li>
       </ul>
@@ -232,7 +232,7 @@ window.SCAM_CONTENT["impersonation-scam"] = {
           <div class="label" data-sr="Kako reaguju na proveru" data-en="How they react to verification">Kako reaguju na proveru</div>
           <ul class="bullets">
             <li data-sr="pritisak i hitnost da se ne proverava." data-en="pressure and urgency to skip verification.">pritisak i hitnost da se ne proverava.</li>
-            <li data-sr="„nema vremena za procedure." data-en="no time for procedures.">„nema vremena za procedure“.</li>
+            <li data-sr="nema vremena za procedure." data-en="no time for procedures.">nema vremena za procedure.</li>
             <li data-sr="prelaz na sledeću metu ako provera počne." data-en="moving to next target if verification starts.">prelaz na sledeću metu ako provera počne.</li>
           </ul>
         </div>
@@ -244,8 +244,8 @@ window.SCAM_CONTENT["impersonation-scam"] = {
       <h2 data-sr="Standardna upozorenja" data-en="Standard warnings">Standardna upozorenja</h2>
 
       <ul class="bullets">
-        <li data-sr="institucije ne traže kodove, lozinke ili transfer „na siguran račun." data-en="institutions don't ask for codes, passwords, or transfers to"safe accounts" over the phone">institucije ne traže kodove, lozinke ili transfer „na siguran račun" telefonom“.</li>
-        <li data-sr="zahtev za tajnošću („nemoj nikome reći." data-en="a secrecy request ("don't tell anyone") is a manipulation signal">zahtev za tajnošću („nemoj nikome reći") je signal manipulacije“.</li>
+        <li data-sr="institucije ne traže kodove, lozinke ili transfer na siguran račun telefonom." data-en="institutions don't ask for codes, passwords, or transfers tosafe accounts over the phone">institucije ne traže kodove, lozinke ili transfer na siguran račun telefonom.</li>
+        <li data-sr="zahtev za tajnošću (nemoj nikome reći) je signal manipulacije." data-en="a secrecy request (don't tell anyone) is a manipulation signal">zahtev za tajnošću (nemoj nikome reći) je signal manipulacije.</li>
         <li data-sr="promena bankovnog računa dobavljača zahteva nezavisnu verifikaciju." data-en="supplier bank account changes require independent verification.">promena bankovnog računa dobavljača zahteva nezavisnu verifikaciju.</li>
         <li data-sr="hitnost koja ne dozvoljava pauzu je signal kontrole." data-en="urgency that doesn't allow pause is a control signal.">hitnost koja ne dozvoljava pauzu je signal kontrole.</li>
       </ul>
@@ -257,11 +257,11 @@ window.SCAM_CONTENT["impersonation-scam"] = {
 
     <!-- 7) AKO JE ŠTETA NASTALA -->
     <section class="card">
-      <h2 data-sr="Ako je šteta nastala (redosled poteza)." data-en="If damage happened (action order).">Ako je ?teta nastala (redosled poteza)</h2>
+      <h2 data-sr="Ako je šteta nastala (redosled poteza)" data-en="If damage happened (action order).">Ako je šteta nastala (redosled poteza)</h2>
 
       <div class="grid-2">
         <div class="phase">
-          <div class="label" data-sr="Gave data / code" data-en="Gave data / code">Gave data / code</div>
+          <div class="label" data-sr="Dao podatke / kod" data-en="Gave data / code">Dao podatke / kod</div>
           <ol class="steps">
             <li data-sr="promena lozinki na ugroženim nalozima." data-en="change passwords on affected accounts.">promena lozinki na ugroženim nalozima.</li>
             <li data-sr="uključivanje dvofaktorska potvrda." data-en="enable 2FA.">uključivanje dvofaktorska potvrda.</li>
@@ -270,7 +270,7 @@ window.SCAM_CONTENT["impersonation-scam"] = {
           </ol>
         </div>
         <div class="phase">
-          <div class="label" data-sr="Made transfer / payment" data-en="Made transfer / payment">Made transfer / payment</div>
+          <div class="label" data-sr="Uradio transfer / uplatu" data-en="Made transfer / payment">Uradio transfer / uplatu</div>
           <ol class="steps">
             <li data-sr="kontakt banke odmah — mogućnost zaustavljanja transfera." data-en="contact bank immediately — transfer may be stopped.">kontakt banke odmah — mogućnost zaustavljanja transfera.</li>
             <li data-sr="čuvanje dokaza: poruke, emailovi, detalji transakcije." data-en="save evidence: messages, emails, transaction details.">čuvanje dokaza: poruke, emailovi, detalji transakcije.</li>
@@ -291,20 +291,20 @@ window.SCAM_CONTENT["impersonation-scam"] = {
 
       <div class="grid-2">
         <div class="phase">
-          <div class="label" data-sr="FBI IC3 + FTC data (2023)." data-en="FBI IC3 + FTC data (2023).">FBI IC3 + FTC data (2023)</div>
+          <div class="label" data-sr="FBI IC3 + FTC data (2023)" data-en="FBI IC3 + FTC data (2023).">FBI IC3 + FTC data (2023)</div>
           <ul class="bullets">
             <li data-sr="IC3 2023: prevare u firmama kroz kompromitovanje poslovnog imejla (BEC) imale su 21,489 prijava i $2.9B gubitka." data-en="IC3 2023: business scams through Business Email Compromise (BEC) had 21,489 reports and $2.9B in losses.">IC3 2023: prevare u firmama kroz kompromitovanje poslovnog imejla (BEC) imale su 21,489 prijava i $2.9B gubitka.</li>
             <li data-sr="prosečan gubitak po prevara u firmama žrtvi: $137,121." data-en="average loss per business scams victim: $137,121.">prosečan gubitak po prevara u firmama žrtvi: $137,121.</li>
             <li data-sr="Gov Impersonation: 14,190 prijava, $394M gubitak." data-en="Gov Impersonation: 14,190 reports, $394M loss.">Gov Impersonation: 14,190 prijava, $394M gubitak.</li>
             <li data-sr="lažno predstavljanje državnih institucija: $2.7 milijardi (IRS, SSA, policija)." data-en="government impersonation scams: $2.7 billion (IRS, SSA, police).">lažno predstavljanje državnih institucija: $2.7 milijardi (IRS, SSA, policija).</li>
             <li data-sr="lažno predstavljanje tehničke podrške: $1.4 milijarde." data-en="tech support scam losses: $1.4 billion.">lažno predstavljanje tehničke podrške: $1.4 milijarde.</li>
-            <li data-sr="lažna porodična hitnost: $1.2 milijarde (prevara „baka-deka“)." data-en="family/friend emergency: $1.2 billion (grandparent scam).">lažna porodična hitnost: $1.2 milijarde (prevara „baka-deka“).</li>
+            <li data-sr="lažna porodična hitnost: $1.2 milijarde (prevara baka-deka)." data-en="family/friend emergency: $1.2 billion (grandparent scam).">lažna porodična hitnost: $1.2 milijarde (prevara baka-deka).</li>
             <li data-sr="lažno predstavljanje banke/finansija: $2.1 milijarde." data-en="bank/financial impersonation: $2.1 billion.">lažno predstavljanje banke/finansija: $2.1 milijarde.</li>
           </ul>
         </div>
 
         <div class="phase">
-          <div class="label" data-sr="Demografija (prosečni gubici po tipu)." data-en="Demographics (average losses by type).">Demografija (prosečni gubici po tipu)</div>
+          <div class="label" data-sr="Demografija (prosečni gubici po tipu)" data-en="Demographics (average losses by type).">Demografija (prosečni gubici po tipu)</div>
           <ul class="bullets">
             <li data-sr="prevara u firmama avg loss: $125,000 (NAJVIŠI - business targets)." data-en="business scams avg loss: $125,000 (HIGHEST - business targets).">prevara u firmama avg loss: $125,000 (NAJVIŠI - business targets).</li>
             <li data-sr="lažno predstavljanje državnih organa: prosečan gubitak $7,500." data-en="government impersonation scams: average loss $7,500.">lažno predstavljanje državnih organa: prosečan gubitak $7,500.</li>
@@ -316,11 +316,11 @@ window.SCAM_CONTENT["impersonation-scam"] = {
         </div>
 
         <div class="phase">
-          <div class="label" data-sr="Starosna raspodela (najugroženije grupe)." data-en="Age distribution (most vulnerable groups).">Starosna raspodela (najugroženije grupe)</div>
+          <div class="label" data-sr="Starosna raspodela (najugroženije grupe)" data-en="Age distribution (most vulnerable groups).">Starosna raspodela (najugroženije grupe)</div>
           <ul class="bullets">
             <li data-sr="prevara u firmama: starost 35-55 (88% žrtava - empleado/finance roles)." data-en="business scams: age 35-55 (88% of victims - employee/finance roles).">prevara u firmama: starost 35-55 (88% žrtava - empleado/finance roles).</li>
             <li data-sr="državni organi: starost 60+ (65% žrtava - efekat autoriteta)." data-en="government impersonation scams: age 60+ (65% of victims - authority bias).">državni organi: starost 60+ (65% žrtava - efekat autoriteta).</li>
-            <li data-sr="porodična hitnost: starost 60+ (75% žrtava - prevara „baka-deka“)." data-en="family emergency: age 60+ (75% of victims - grandparent scam).">porodična hitnost: starost 60+ (75% žrtava - prevara „baka-deka“).</li>
+            <li data-sr="porodična hitnost: starost 60+ (75% žrtava - prevara baka-deka)." data-en="family emergency: age 60+ (75% of victims - grandparent scam).">porodična hitnost: starost 60+ (75% žrtava - prevara baka-deka).</li>
             <li data-sr="lažna tehnička podrška: starost 50+ (70% žrtava - niža tehnička pismenost)." data-en="tech support: age 50+ (70% of victims - lower tech literacy).">lažna tehnička podrška: starost 50+ (70% žrtava - niža tehnička pismenost).</li>
             <li data-sr="bankarske prevare: svi uzrasti (ravnomerna raspodela, univerzalni rizik)." data-en="bankarske prevare: svi uzrasti (ravnomerna raspodela, univerzalni rizik).">bankarske prevare: svi uzrasti (ravnomerna raspodela, univerzalni rizik).</li>
             <li data-sr="rast AI kopiranja glasa: svi uzrasti su podjednako ranjivi (nova pretnja)." data-en="AI voice cloning rise: all ages are equally vulnerable (new threat).">rast AI kopiranja glasa: svi uzrasti su podjednako ranjivi (nova pretnja).</li>
@@ -346,16 +346,7 @@ window.SCAM_CONTENT["impersonation-scam"] = {
       ><strong>Ekonomski profil:</strong> Lažno predstavljanje ima veoma visok ukupan gubitak među tipovima prevara. Kompromitovanje poslovnog imejla (BEC) ima veoma visok prosečan gubitak po žrtvi, a AI kopiranje glasa dodatno povećava uspešnost porodičnih hitnih prevara. Novi AI alati otvaraju novu fazu prevara lažnim predstavljanjem.</div>
     </section>
 
-<section class="content-section">
-  <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-  <ul class="bullets">
-    <li><a href="fake-call-scam.html" data-sr="Lažni pozivi" data-en="Fake calls">Lažni pozivi</a></li>
-    <li><a href="vishing.html" data-sr="Višing" data-en="Vishing">Višing</a></li>
-    <li><a href="phishing.html" data-sr="Fišing" data-en="Phishing">Fišing</a></li>
-    <li><a href="government-impersonation.html" data-sr="Lažno predstavljanje državnih organa" data-en="Government impersonation scams">Lažno predstavljanje državnih organa</a></li>
-    <li><a href="bank-impersonation.html" data-sr="Lažna banka (bankovni prevarant)" data-en="Bank impersonation scam">Lažna banka (bankovni prevarant)</a></li>
-  </ul>
-</section>
+
 
 `
 };

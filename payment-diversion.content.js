@@ -19,9 +19,9 @@ window.SCAM_CONTENT["payment-diversion"] = {
       >Ovo je šira kategorija koja obuhvata CEO prevaru, prevaru sa fakturama, kompromitovanje imejla dobavljača i mandate fraud. Zajednički imenilac svih varijanti je jedan: napadač se ubacuje u komunikacioni tok koji sadrži instrukciju za plaćanje i menja je pre nego što meta izvrši akciju. Brzina i autoritativni ton zahteva sprečavaju verifikaciju.</p>
 
       <div class="callout"
-        data-sr="<strong>Model:</strong> izviđanje (platnički tok) → pristup kanalu (imejl/poziv/dokument) → izmena IBAN-a ili instrukcije → meta izvršava uplatu → gubitak → mogući recovery talaš."
+        data-sr="<strong>Model:</strong> izviđanje (platnički tok) → pristup kanalu (imejl/poziv/dokument) → izmena IBAN-a ili instrukcije → meta izvršava uplatu → gubitak → moguć talas recovery prevara."
         data-en="<strong>Model:</strong> reconnaissance (payment flow) → channel access (email/call/document) → IBAN or instruction change → target executes payment → loss → possible recovery wave."
-      ><strong>Model:</strong> izviđanje (platnički tok) → pristup kanalu (imejl/poziv/dokument) → izmena IBAN-a ili instrukcije → meta izvršava uplatu → gubitak → mogući recovery talaš.</div>
+      ><strong>Model:</strong> izviđanje (platnički tok) → pristup kanalu (imejl/poziv/dokument) → izmena IBAN-a ili instrukcije → meta izvršava uplatu → gubitak → moguć talas recovery prevara.</div>
 
       <div class="callout"
         data-sr="<strong>Prag:</strong> meta izvrši uplatu ili ažurira IBAN u sistemu bez nezavisne telefonske verifikacije na poznatom broju."
@@ -56,9 +56,9 @@ window.SCAM_CONTENT["payment-diversion"] = {
           <div class="label" data-sr="Kako se uvodi promena instrukcije" data-en="How instruction change is introduced">Kako se uvodi promena instrukcije</div>
           <ul class="bullets">
             <li data-sr="imejl sa obaveštenjem o promeni bankovnog računa." data-en="email notifying of a bank account change.">imejl sa obaveštenjem o promeni bankovnog računa.</li>
-            <li data-sr="telefonski poziv sa „potvrdom." lažnih podataka." data-en="phone call with &ldquo;confirmation&rdquo; of fake details.">telefonski poziv sa „potvrdom" lažnih podataka“.</li>
+            <li data-sr="telefonski poziv sa potvrdom lažnih podataka." data-en="phone call with &ldquo;confirmation&rdquo; of fake details.">telefonski poziv sa potvrdom lažnih podataka.</li>
             <li data-sr="izmenjeni PDF ili Word dokument sa pogrešnim IBAN-om." data-en="modified PDF or Word document with wrong IBAN.">izmenjeni PDF ili Word dokument sa pogrešnim IBAN-om.</li>
-            <li data-sr="direktna instrukcija od lažnog direktora: „hitan transfer na novi račun."." data-en="direct instruction from fake CEO: &ldquo;urgent transfer to new account&rdquo;.">direktna instrukcija od lažnog direktora: „hitan transfer na novi račun"“.</li>
+            <li data-sr="direktna instrukcija od lažnog direktora: hitan transfer na novi račun." data-en="direct instruction from fake CEO: &ldquo;urgent transfer to new account&rdquo;.">direktna instrukcija od lažnog direktora: hitan transfer na novi račun.</li>
           </ul>
         </div>
       </div>
@@ -99,9 +99,9 @@ window.SCAM_CONTENT["payment-diversion"] = {
           Faza 2 — Priprema: kanal i lažni identitet
         </h3>
         <p
-          data-sr="Napadač priprema kanal napada. U imejl varijanti: registruje lookalike domen ili kompromituje pravi nalog. U telefonskoj varijanti: priprema skriptu i spoofuje broj. U dokumentnoj varijanti: modifikuje PDF ili Word sa promenjenim IBAN-om. Prilaže lažnu dokumentaciju kao „potvrdu"."
+          data-sr="Napadač priprema kanal napada. U imejl varijanti: registruje lookalike domen ili kompromituje pravi nalog. U telefonskoj varijanti: priprema skriptu i spoofuje broj. U dokumentnoj varijanti: modifikuje PDF ili Word sa promenjenim IBAN-om. Prilaže lažnu dokumentaciju kao potvrdu."
           data-en="The attacker prepares the attack channel. In the email variant: registers a lookalike domain or compromises a real account. In the phone variant: prepares a script and spoofs the number. In the document variant: modifies PDF or Word with a changed IBAN. Attaches fake documentation as &ldquo;confirmation&rdquo;."
-        >Napadač priprema kanal napada. U imejl varijanti: registruje lookalike domen ili kompromituje pravi nalog. U telefonskoj varijanti: priprema skriptu i spoofuje broj. U dokumentnoj varijanti: modifikuje PDF ili Word sa promenjenim IBAN-om. Prilaže lažnu dokumentaciju kao „potvrdu"“.</p>
+        >Napadač priprema kanal napada. U imejl varijanti: registruje lookalike domen ili kompromituje pravi nalog. U telefonskoj varijanti: priprema skriptu i spoofuje broj. U dokumentnoj varijanti: modifikuje PDF ili Word sa promenjenim IBAN-om. Prilaže lažnu dokumentaciju kao potvrdu.</p>
         <ul class="bullets">
           <li data-sr="signal: domen identičan ali sa crticom, brojem ili drugom TLD." data-en="signal: domain identical but with dash, number, or different TLD.">signal: domen identičan ali sa crticom, brojem ili drugom TLD.</li>
         </ul>
@@ -131,9 +131,9 @@ window.SCAM_CONTENT["payment-diversion"] = {
           data-en="The attacker sends the instruction to change. Tone is bureaucratic, urgent, or authoritative depending on the variant. The request always contains an element that prevents verification: secrecy, unavailability of the real person, or a deadline that does not allow checking. New banking instruction arrives without prior notice."
         >Napadač šalje instrukciju za promenu. Ton je birokratski, hitan ili autoritativan zavisno od varijante. Zahtev uvek sadrži element koji sprečava verifikaciju: tajnost, nedostupnost prave osobe, ili rok koji ne dozvoljava proveru. Nova bankovna instrukcija stiže bez prethodne najave.</p>
         <ul class="bullets">
-          <li data-sr="fraze: „promenili smo banku — ažurirajte IBAN za narednu uplatu."." data-en="phrases: &ldquo;we changed banks — please update the IBAN for the next payment&rdquo;.">fraze: „promenili smo banku — ažurirajte IBAN za narednu uplatu"“.</li>
-          <li data-sr="fraze: „hitan transfer — direktor na putu, ne prima pozive."." data-en="phrases: &ldquo;urgent transfer — director traveling, not taking calls&rdquo;.">fraze: „hitan transfer — direktor na putu, ne prima pozive"“.</li>
-          <li data-sr="fraze: „poverljivo — ne obaveštavati CFO-a."." data-en="phrases: &ldquo;confidential — do not notify CFO&rdquo;.">fraze: „poverljivo — ne obaveštavati CFO-a"“.</li>
+          <li data-sr="fraze: promenili smo banku — ažurirajte IBAN za narednu uplatu." data-en="phrases: &ldquo;we changed banks — please update the IBAN for the next payment&rdquo;.">fraze: promenili smo banku — ažurirajte IBAN za narednu uplatu.</li>
+          <li data-sr="fraze: hitan transfer — direktor na putu, ne prima pozive." data-en="phrases: &ldquo;urgent transfer — director traveling, not taking calls&rdquo;.">fraze: hitan transfer — direktor na putu, ne prima pozive.</li>
+          <li data-sr="fraze: poverljivo — ne obaveštavati CFO-a." data-en="phrases: &ldquo;confidential — do not notify CFO&rdquo;.">fraze: poverljivo — ne obaveštavati CFO-a.</li>
         </ul>
 
         <div class="branch">
@@ -170,7 +170,7 @@ window.SCAM_CONTENT["payment-diversion"] = {
           Faza 5 — Eskalacija: pritisak za potvrdu ili novi zahtev
         </h3>
         <p
-          data-sr="Ako meta okleava, napadač eskalira. Jači autoritet, tvrdi rok, nova „treća strana" koja potvrđuje zahtev“. U naprednim napadima napadač ostaje u kompromitovanom nalogu i presreće odgovore — meta dobija potvrde iz pravog naloga."
+          data-sr="Ako meta okleava, napadač eskalira. Jači autoritet, tvrdi rok, nova treća strana koja potvrđuje zahtev. U naprednim napadima napadač ostaje u kompromitovanom nalogu i presreće odgovore — meta dobija potvrde iz pravog naloga."
           data-en="If the target hesitates, the attacker escalates. Stronger authority, hard deadline, a new third party confirming the request. In advanced attacks the attacker stays in the compromised account and intercepts replies — the target receives confirmations from the real account."
         >Ako meta okleava, napadač eskalira. Jači autoritet, tvrdi rok, nova treća strana koja potvrđuje zahtev. U naprednim napadima napadač ostaje u kompromitovanom nalogu i presreće odgovore — meta dobija potvrde iz pravog naloga.</p>
         <div class="callout"
@@ -336,19 +336,6 @@ window.SCAM_CONTENT["payment-diversion"] = {
     </section>
 
     <!-- 9) POVEZANE PREVARE -->
-    <section class="card">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <div class="branch">
-        <ul class="bullets">
-          <li><a href="business-email-compromise.html" data-sr="Kompromitovanje poslovnog imejla (BEC)" data-en="Business email compromise (BEC)">Kompromitovanje poslovnog imejla (BEC)</a></li>
-          <li><a href="ceo-fraud.html" data-sr="CEO prevara" data-en="CEO fraud">CEO prevara</a></li>
-          <li><a href="invoice-fraud.html" data-sr="Prevara sa fakturama" data-en="Invoice fraud">Prevara sa fakturama</a></li>
-          <li><a href="mandate-fraud.html" data-sr="Prevara sa nalozima za plaćanje" data-en="Mandate fraud">Prevara sa nalozima za plaćanje</a></li>
-          <li><a href="vendor-email-compromise.html" data-sr="Kompromitovanje imejla dobavljača" data-en="Vendor email compromise">Kompromitovanje imejla dobavljača</a></li>
-          <li><a href="payroll-diversion.html" data-sr="Preusmeravanje plata" data-en="Payroll diversion">Preusmeravanje plata</a></li>
-          <li><a href="phishing.html" data-sr="Fišing" data-en="Phishing">Fišing</a></li>
-        </ul>
-      </div>
-    </section>
+    
   `
 };

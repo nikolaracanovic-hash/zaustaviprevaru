@@ -1,11 +1,11 @@
-﻿window.SCAM_CONTENT = window.SCAM_CONTENT || {};
+window.SCAM_CONTENT = window.SCAM_CONTENT || {};
 
 window.SCAM_CONTENT["fake-permit-license-scam"] = {
   raw_html: `
     <section class="card">
       <h2 data-sr="Uvod: kako rade lažne agencije za dozvole i licence" data-en="Introduction: how fake permit and license agency scams work">Uvod: kako rade lažne agencije za dozvole i licence</h2>
-      <p data-sr="Lažne agencije za dozvole i licence eksploatišu administrativnu kompleksnost i neznanje o tome šta je besplatno kroz državne kanale. Prevarant nudi ubrzanu proceduru za dobijanje dozvole, licence, sertifikata ili akreditacije — uz naknadu. Dozvola ili ne stiže, ili stiže kao bezvredni papir, dok je zvanična procedura bila besplatna ili daleko jeftinija." data-en="Fake permit and license agencies exploit administrative complexity and ignorance about what is free through state channels. The fraudster offers an expedited procedure for obtaining a permit, license, certificate, or accreditation — for a fee. The permit either never arrives or arrives as worthless paper, while the official procedure was free or much cheaper.">Lažne agencije nude ubrzanu proceduru za dozvole za naknadu. Dozvola ne stiže ili je bezvredna, a zvanična procedura je bila besplatna ili jeftinija.</p>
-      <p data-sr="Šema je posebno efikasna za vrste dozvola koje su administrativno teže za razumevanje: poslovne registracije, licenciranja za određene delatnosti, potvrde za uvoz i izvoz, sanitarne dozvole. Žrtva ne zna da je mogla dobiti to besplatno direktno od nadležnog organa." data-en="The scheme is particularly effective for types of permits that are administratively harder to understand: business registrations, licenses for specific activities, import and export certificates, sanitary permits. The victim does not know they could have obtained it for free directly from the responsible authority.">Efikasna za administrativno teže dozvole: licenciranja, uvozno-izvozne potvrde, sanitarne dozvole. Žrtva ne zna da su besplatne ili jeftinije kroz zvanične kanale.</p>
+      <p data-sr="Lažne agencije nude ubrzanu proceduru za dozvole za naknadu. Dozvola ne stiže ili je bezvredna, a zvanična procedura je bila besplatna ili jeftinija." data-en="Fake permit and license agencies exploit administrative complexity and ignorance about what is free through state channels. The fraudster offers an expedited procedure for obtaining a permit, license, certificate, or accreditation — for a fee. The permit either never arrives or arrives as worthless paper, while the official procedure was free or much cheaper.">Lažne agencije nude ubrzanu proceduru za dozvole za naknadu. Dozvola ne stiže ili je bezvredna, a zvanična procedura je bila besplatna ili jeftinija.</p>
+      <p data-sr="Efikasna za administrativno teže dozvole: licenciranja, uvozno-izvozne potvrde, sanitarne dozvole. Žrtva ne zna da su besplatne ili jeftinije kroz zvanične kanale." data-en="The scheme is particularly effective for types of permits that are administratively harder to understand: business registrations, licenses for specific activities, import and export certificates, sanitary permits. The victim does not know they could have obtained it for free directly from the responsible authority.">Efikasna za administrativno teže dozvole: licenciranja, uvozno-izvozne potvrde, sanitarne dozvole. Žrtva ne zna da su besplatne ili jeftinije kroz zvanične kanale.</p>
       <div class="callout" data-sr="<strong>Model:</strong> kontakt → agencija za dozvole → brza procedura bez birokratije → naknada → dozvola ne stiže ili je nevažeća." data-en="<strong>Model:</strong> contact → permit agency → fast procedure without bureaucracy → fee → permit never arrives or is invalid."><strong>Model:</strong> kontakt → agencija za dozvole → brza procedura bez birokratije → naknada → dozvola ne stiže ili je nevažeća.</div>
       <div class="callout" data-sr="<strong>Prag:</strong> meta uplati naknadu za dobijanje dozvole ili licence koja nikad ne bude izdata." data-en="<strong>Threshold:</strong> the target pays a fee for a permit or license that is never issued."><strong>Prag:</strong> meta uplati naknadu za dobijanje dozvole ili licence koja nikad ne bude izdata.</div>
     </section>
@@ -19,7 +19,7 @@ window.SCAM_CONTENT["fake-permit-license-scam"] = {
             <li data-sr="profesionalni sajt agencije s logotipima i referencama na državne organe." data-en="professional agency website with logos and references to state authorities.">profesionalni sajt agencije s logotipima i referencama na državne organe.</li>
             <li data-sr="obećanje brzog rešavanja bez birokratije i duge procedure." data-en="promise of quick resolution without bureaucracy and lengthy procedure.">obećanje brzog rešavanja bez birokratije i duge procedure.</li>
             <li data-sr="lažne recenzije i iskustva korisnika koji su dobili dozvolu." data-en="fake reviews and user testimonials from those who received the permit.">lažne recenzije i iskustva korisnika koji su dobili dozvolu.</li>
-            <li data-sr="kontakt osoba koja tvrdi da ima „direktne veze“ s nadležnim organima." data-en="contact person claiming to have direct connections with the responsible authorities.">kontakt osoba koja tvrdi da ima 'direktne veze' s nadležnim organima.</li>
+            <li data-sr="kontakt osoba koja tvrdi da ima 'direktne veze' s nadležnim organima." data-en="contact person claiming to have direct connections with the responsible authorities.">kontakt osoba koja tvrdi da ima 'direktne veze' s nadležnim organima.</li>
           </ul>
         </div>
         <div class="phase">
@@ -28,18 +28,18 @@ window.SCAM_CONTENT["fake-permit-license-scam"] = {
             <li data-sr="avans za pokretanje procedure koji je neophodan pre podnosenja zahteva." data-en="advance for starting the procedure required before submitting the application.">avans za pokretanje procedure koji je neophodan pre podnosenja zahteva.</li>
             <li data-sr="taksena naknada koja se razlikuje od zvanične takse nadležnog organa." data-en="fee amount that differs from the official fee of the responsible authority.">taksena naknada koja se razlikuje od zvanične takse nadležnog organa.</li>
             <li data-sr="posle avansa dolaze novi zahtevi: administrativne takse, troškovi ekspeditve, potvrde." data-en="after the advance, new demands arrive: administrative fees, expediting costs, confirmations.">posle avansa dolaze novi zahtevi: administrativne takse, troškovi ekspeditve, potvrde.</li>
-            <li data-sr="dozvola je uvek „u procesu“ — čeka se samo još jedna formalnost." data-en="permit is always in process — just one more formality is pending.">dozvola je uvek 'u procesu' — čeka se samo još jedna formalnost.</li>
+            <li data-sr="dozvola je uvek 'u procesu' — čeka se samo još jedna formalnost." data-en="permit is always in process — just one more formality is pending.">dozvola je uvek 'u procesu' — čeka se samo još jedna formalnost.</li>
           </ul>
         </div>
       </div>
     </section>
 
     <section class="card">
-      <h2 data-sr="Hronološki tok (faze + evolucije)." data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
+      <h2 data-sr="Hronološki tok (faze + evolucije)" data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
 
       <article class="phase">
         <h3 class="phase-title" data-sr="Faza 1 — Kontakt ili pronalaženje agencije" data-en="Phase 1 — Contact or finding the agency">Faza 1 — Kontakt ili pronalaženje agencije</h3>
-        <p data-sr="Meta pronalazi agenciju online tražeći pomoć s dobijanjem dozvole ili je kontaktiraju direktno. Agencija obećava brzo rešavanje, malo dokumentacije i niski trošak u poređenju s advokatima. Meta ne proverava da li je agencija registrovana kod nadležnog organa." data-en="The target finds the agency online while seeking help with obtaining a permit or is contacted directly. The agency promises quick resolution, little documentation, and low costs compared to lawyers. The target does not check whether the agency is registered with the responsible authority.">Meta pronalazi agenciju online ili je kontaktirana direktno. Obećava brzinu i niski trošak. Meta ne proverava registraciju agencije.</p>
+        <p data-sr="Meta pronalazi agenciju online ili je kontaktirana direktno. Obećava brzinu i niski trošak. Meta ne proverava registraciju agencije." data-en="The target finds the agency online while seeking help with obtaining a permit or is contacted directly. The agency promises quick resolution, little documentation, and low costs compared to lawyers. The target does not check whether the agency is registered with the responsible authority.">Meta pronalazi agenciju online ili je kontaktirana direktno. Obećava brzinu i niski trošak. Meta ne proverava registraciju agencije.</p>
         <ul class="bullets">
           <li data-sr="signal: agencija koja ne može da pokaže registraciju ili licencu za posredovanje nije legitimna." data-en="signal: an agency that cannot show registration or intermediary license is not legitimate.">signal: agencija koja ne može da pokaže registraciju ili licencu za posredovanje nije legitimna.</li>
           <li data-sr="signal: dozvola koja se nudi je besplatna ili dostupna direktno od nadležnog organa." data-en="signal: the permit being offered is free or available directly from the responsible authority.">signal: dozvola koja se nudi je besplatna ili dostupna direktno od nadležnog organa.</li>
@@ -49,7 +49,7 @@ window.SCAM_CONTENT["fake-permit-license-scam"] = {
 
       <article class="phase warn">
         <h3 class="phase-title" data-sr="Faza 2 — Serija uplata pod novim osnovama" data-en="Phase 2 — Series of payments under new bases">Faza 2 — Serija uplata pod novim osnovama</h3>
-        <p data-sr="Posle avansa agencija traži nove uplate: administrativne takse, ekspeditivne naknade, troškove prevoda, potvrde. Svaki novi zahtev ima novu uverljivu osnovu. Dozvola je uvek „u procesu“ — čeka se samo finalna formalnost." data-en="After the advance, the agency requests new payments: administrative fees, expediting costs, translation fees, confirmations. Each new demand has a new convincing basis. The permit is always in process — just the final formality is pending.">Posle avansa: serija novih taksi i naknada. Dozvola je uvek 'u procesu'. Avansna šema u pakovanju posrednika za dozvole.</p>
+        <p data-sr="Posle avansa: serija novih taksi i naknada. Dozvola je uvek 'u procesu'. Avansna šema u pakovanju posrednika za dozvole." data-en="After the advance, the agency requests new payments: administrative fees, expediting costs, translation fees, confirmations. Each new demand has a new convincing basis. The permit is always in process — just the final formality is pending.">Posle avansa: serija novih taksi i naknada. Dozvola je uvek 'u procesu'. Avansna šema u pakovanju posrednika za dozvole.</p>
         <ul class="bullets">
           <li data-sr="signal: zvanične procedure imaju jasno definisane i javno objavljene taksene iznose." data-en="signal: official procedures have clearly defined and publicly listed fee amounts.">signal: zvanične procedure imaju jasno definisane i javno objavljene taksene iznose.</li>
           <li data-sr="signal: serija uplata s novim opravdanjima je definitivni signal avansne šeme." data-en="signal: a series of payments with new justifications is the definitive advance-fee scheme signal.">signal: serija uplata s novim opravdanjima je definitivni signal avansne šeme.</li>
@@ -65,7 +65,7 @@ window.SCAM_CONTENT["fake-permit-license-scam"] = {
 
       <article class="phase bad">
         <h3 class="phase-title" data-sr="Faza 3 — Nestajanje ili bezvredna dozvola" data-en="Phase 3 — Disappearance or worthless permit">Faza 3 — Nestajanje ili bezvredna dozvola</h3>
-        <p data-sr="Na kraju jedan od dva scenarija: agencija nestaje bez isporučene dozvole, ili isporuci dokument koji je estetski uverljiv ali nije izdat od strane nadležnog organa i nema pravnu vrednost. Nadležni organ ne zna za tu agenciju ni za tu dozvolu." data-en="In the end, one of two scenarios: the agency disappears without delivering the permit, or delivers a document that is aesthetically convincing but was not issued by the responsible authority and has no legal value. The responsible authority does not know about the agency or the permit.">Agencija nestaje ili isporuci dokument koji nije izdat od strane nadležnog organa i nema pravnu vrednost.</p>
+        <p data-sr="Agencija nestaje ili isporuci dokument koji nije izdat od strane nadležnog organa i nema pravnu vrednost." data-en="In the end, one of two scenarios: the agency disappears without delivering the permit, or delivers a document that is aesthetically convincing but was not issued by the responsible authority and has no legal value. The responsible authority does not know about the agency or the permit.">Agencija nestaje ili isporuci dokument koji nije izdat od strane nadležnog organa i nema pravnu vrednost.</p>
         <div class="callout" data-sr="<strong>Provera:</strong> svaka legitimna dozvola je registrovana u sistemu nadležnog organa i može se verifikovati direktno kod njega." data-en="<strong>Verification:</strong> every legitimate permit is registered in the responsible authority's system and can be verified directly with them."><strong>Provera:</strong> svaka legitimna dozvola je registrovana u sistemu nadležnog organa i može se verifikovati direktno kod njega.</div>
       </article>
     </section>
@@ -77,7 +77,7 @@ window.SCAM_CONTENT["fake-permit-license-scam"] = {
         <li data-sr="dozvola koja se nudi može se dobiti besplatno direktno od nadležnog organa." data-en="the permit being offered can be obtained for free directly from the responsible authority.">dozvola koja se nudi može se dobiti besplatno direktno od nadležnog organa.</li>
         <li data-sr="avans je neophodan pre podnosenja zahteva nadležnom organu." data-en="an advance is required before submitting the application to the responsible authority.">avans je neophodan pre podnosenja zahteva nadležnom organu.</li>
         <li data-sr="posle avansa stižu novi zahtevi za taksama pod novim opravdanjima." data-en="after the advance, new fee demands arrive under new justifications.">posle avansa stižu novi zahtevi za taksama pod novim opravdanjima.</li>
-        <li data-sr="dozvola je uvek „u procesu“ — nikad se ne isporuci u obećanom roku." data-en="the permit is always in process — never delivered in the promised timeframe.">dozvola je uvek 'u procesu' — nikad se ne isporuci u obećanom roku.</li>
+        <li data-sr="dozvola je uvek 'u procesu' — nikad se ne isporuci u obećanom roku." data-en="the permit is always in process — never delivered in the promised timeframe.">dozvola je uvek 'u procesu' — nikad se ne isporuci u obećanom roku.</li>
         <li data-sr="nadležni organ ne zna za agenciju ni za podnet zahtev." data-en="the responsible authority does not know about the agency or submitted application.">nadležni organ ne zna za agenciju ni za podnet zahtev.</li>
       </ul>
     </section>
@@ -131,15 +131,6 @@ window.SCAM_CONTENT["fake-permit-license-scam"] = {
       </div>
     </section>
 
-    <section class="card sources" id="sources">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <ul class="bullets">
-        <li><a href="government-impersonation.html" data-sr="Lažno predstavljanje državnih organa" data-en="Government impersonation scams">Lažno predstavljanje državnih organa</a></li>
-        <li><a href="municipality-impersonation.html" data-sr="Lažno predstavljanje opštinskih organa" data-en="Municipality impersonation scams">Lažno predstavljanje opštinskih organa</a></li>
-        <li><a href="advance-fee-fraud.html" data-sr="Uplata unapred" data-en="Advance-fee fraud">Uplata unapred</a></li>
-        <li><a href="immigration-visa-scam.html" data-sr="Prevare s vizama i imigracijom" data-en="Immigration and visa scams">Prevare s vizama i imigracijom</a></li>
-        <li><a href="fake-government-tender-portal-scam.html" data-sr="Lažni portali za javne nabavke" data-en="Fake government tender portal scams">Lažni portali za javne nabavke</a></li>
-      </ul>
-    </section>
+    
   `
 };

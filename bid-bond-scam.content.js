@@ -7,7 +7,7 @@ window.SCAM_CONTENT["bid-bond-scam"] = {
       <p data-sr="Licitacijska garancija (bid bond) je instrument koji se koristi u javnim nabavkama: ponuđač je obavezan da obezbedi garanciju da će, ako pobedi na tenderu, ući u ugovor. Prevara licitacijskom garancijom kopira ovaj legitiman zahtev: lažni organizator tendera kontaktira preduzeće i traži uplatu premije garancije pre nego što ponuda bude razmatrana. Garancija nikad ne stiže, a ponuda se ne razmatra." data-en="A bid bond is an instrument used in public procurement: the bidder is required to provide a guarantee that if they win the tender they will enter the contract. Bid bond fraud copies this legitimate requirement: a fake tender organiser contacts the company and demands payment of the bond premium before the bid is considered. The bond never arrives and the bid is never considered.">Licitacijska garancija (bid bond) je instrument koji se koristi u javnim nabavkama: ponuđač je obavezan da obezbedi garanciju da će, ako pobedi na tenderu, ući u ugovor. Prevara licitacijskom garancijom kopira ovaj legitiman zahtev: lažni organizator tendera kontaktira preduzeće i traži uplatu premije garancije pre nego što ponuda bude razmatrana. Garancija nikad ne stiže, a ponuda se ne razmatra.</p>
       <p data-sr="Napadač koristi dokumentaciju koja izgleda kao zvanični tender: referentni broj, rok za dostavljanje ponude, specifikacije projekta i lista zahteva. Kada meta počne da prikuplja dokumentaciju, uvodi se zahtev za garancijom — prezentovan kao standardni uslov tendera." data-en="The attacker uses documentation that looks like an official tender: reference number, bid submission deadline, project specifications, and a list of requirements. When the target begins gathering documentation, the bond demand is introduced — presented as a standard tender condition.">Napadač koristi dokumentaciju koja izgleda kao zvanični tender: referentni broj, rok za dostavljanje ponude, specifikacije projekta i lista zahteva. Kada meta počne da prikuplja dokumentaciju, uvodi se zahtev za garancijom — prezentovan kao standardni uslov tendera.</p>
       <div class="callout" data-sr="<strong>Model:</strong> lažni tender → poziv za ponudu → bid bond kao uslov → uplata premije → garancija ne stiže → nova naknada → nestanak." data-en="<strong>Model:</strong> fake tender → bid invitation → bid bond as condition → premium payment → bond never arrives → new fee → disappearance."><strong>Model:</strong> lažni tender → poziv za ponudu → bid bond kao uslov → uplata premije → garancija ne stiže → nova naknada → nestanak.</div>
-      <div class="callout" data-sr="<strong>Prag:</strong> uplata „premije licitacijske garancije“ ili „depozita za obradu ponude“. Posle praga svaka sledeća naknada koristi prethodnu uplatu kao polugu." data-en="<strong>Threshold:</strong> payment of the 'bid bond premium' or 'bid processing deposit'. After the threshold every subsequent fee uses the previous payment as leverage."><strong>Prag:</strong> uplata 'premije licitacijske garancije' ili 'depozita za obradu ponude'. Posle praga svaka sledeća naknada koristi prethodnu uplatu kao polugu.</div>
+      <div class="callout" data-sr="<strong>Prag:</strong> uplata 'premije licitacijske garancije' ili 'depozita za obradu ponude'. Posle praga svaka sledeća naknada koristi prethodnu uplatu kao polugu." data-en="<strong>Threshold:</strong> payment of the 'bid bond premium' or 'bid processing deposit'. After the threshold every subsequent fee uses the previous payment as leverage."><strong>Prag:</strong> uplata 'premije licitacijske garancije' ili 'depozita za obradu ponude'. Posle praga svaka sledeća naknada koristi prethodnu uplatu kao polugu.</div>
     </section>
 
     <section class="card">
@@ -29,7 +29,7 @@ window.SCAM_CONTENT["bid-bond-scam"] = {
             <li data-sr="bid bond je naveden kao uslov koji stoji u tenderskoj dokumentaciji." data-en="bid bond is listed as a condition in the tender documentation.">bid bond je naveden kao uslov koji stoji u tenderskoj dokumentaciji.</li>
             <li data-sr="iznos premije je manji od vrednosti ugovora — deluje razumno platiti." data-en="the bond premium is smaller than the contract value — paying seems reasonable.">iznos premije je manji od vrednosti ugovora — deluje razumno platiti.</li>
             <li data-sr="uplata ide na privatni račun, a ne na escrow bankarsku garanciju." data-en="payment goes to a private account, not to an escrow bank guarantee.">uplata ide na privatni račun, a ne na escrow bankarsku garanciju.</li>
-            <li data-sr="posle uplate dolazi „potvrda„ ali bid bond dokument ne stiže." data-en="a “confirmation“ arrives after payment but the bid bond document does not.">posle uplate dolazi 'potvrda' ali bid bond dokument ne stiže.</li>
+            <li data-sr="posle uplate dolazi 'potvrda' ali bid bond dokument ne stiže." data-en="a confirmation arrives after payment but the bid bond document does not.">posle uplate dolazi 'potvrda' ali bid bond dokument ne stiže.</li>
           </ul>
         </div>
       </div>
@@ -54,23 +54,23 @@ window.SCAM_CONTENT["bid-bond-scam"] = {
         <h3 class="phase-title" data-sr="Faza 2 — Uslov: bid bond kao obaveza" data-en="Phase 2 — Condition: bid bond as obligation">Faza 2 — Uslov: bid bond kao obaveza</h3>
         <p data-sr="Tokom pripreme ponude napadač šalje dopunu tenderske dokumentacije: bid bond je obavezan uslov. Iznos premije garancije je specificiran, a rok za dostavljanje kraći od prvobitnog roka ponude." data-en="During bid preparation the attacker sends a tender documentation supplement: a bid bond is a mandatory condition. The bond premium amount is specified with a deadline shorter than the original bid deadline.">Tokom pripreme ponude napadač šalje dopunu tenderske dokumentacije: bid bond je obavezan uslov. Iznos premije garancije je specificiran, a rok za dostavljanje kraći od prvobitnog roka ponude.</p>
         <ul class="bullets">
-          <li data-sr="bid bond je opisan kao 'standardni uslov svih javnih nabavki„." data-en="bid bond is described as a “standard condition of all public procurements'.">bid bond je opisan kao 'standardni uslov svih javnih nabavki'.</li>
+          <li data-sr="bid bond je opisan kao 'standardni uslov svih javnih nabavki'." data-en="bid bond is described as a standard condition of all public procurements'.">bid bond je opisan kao 'standardni uslov svih javnih nabavki'.</li>
           <li data-sr="iznos je 1–5% vrednosti ugovora — deluje uobičajeno." data-en="amount is 1–5% of contract value — it seems standard.">iznos je 1–5% vrednosti ugovora — deluje uobičajeno.</li>
-          <li data-sr="nalog za uplatu ide na „escrow račun„ koji je zapravo privatan." data-en="payment instruction goes to an “escrow account“ which is actually private.">nalog za uplatu ide na 'escrow račun' koji je zapravo privatan.</li>
+          <li data-sr="nalog za uplatu ide na 'escrow račun' koji je zapravo privatan." data-en="payment instruction goes to an escrow account which is actually private.">nalog za uplatu ide na 'escrow račun' koji je zapravo privatan.</li>
           <li data-sr="uputa da se garancija ne može pribaviti od banke mete — mora biti kroz nalogodavca." data-en="instruction that the bond cannot be obtained from the target's bank — must be through the contracting authority.">uputa da se garancija ne može pribaviti od banke mete — mora biti kroz nalogodavca.</li>
         </ul>
         <p class="muted" data-sr="Prag faze 2: meta plaća premiju bid bonda." data-en="Phase 2 threshold: target pays the bid bond premium.">Prag faze 2: meta plaća premiju bid bonda.</p>
-        <div class="note" data-sr="Grananja u ovoj fazi: ako meta traži bankarsku garanciju umesto uplate → 'tehnička procedura ne dozvoljava„; ako meta traži proveru nalogodavca → dolazi lažan telefon “službe za nabavke„." data-en="Branching in this phase: if target requests a bank guarantee instead of payment → “technical procedure does not allow it'; if target requests contracting authority verification → a fake 'procurement office' number is provided.">Grananja u ovoj fazi: ako meta traži bankarsku garanciju umesto uplate → 'tehnička procedura ne dozvoljava'; ako meta traži proveru nalogodavca → dolazi lažan telefon 'službe za nabavke'.</div>
+        <div class="note" data-sr="Grananja u ovoj fazi: ako meta traži bankarsku garanciju umesto uplate → 'tehnička procedura ne dozvoljava'; ako meta traži proveru nalogodavca → dolazi lažan telefon 'službe za nabavke'." data-en="Branching in this phase: if target requests a bank guarantee instead of payment → technical procedure does not allow it'; if target requests contracting authority verification → a fake 'procurement office' number is provided.">Grananja u ovoj fazi: ako meta traži bankarsku garanciju umesto uplate → 'tehnička procedura ne dozvoljava'; ako meta traži proveru nalogodavca → dolazi lažan telefon 'službe za nabavke'.</div>
       </article>
 
       <article class="phase">
         <h3 class="phase-title" data-sr="Faza 3 — Blokada: garancija ne stiže" data-en="Phase 3 — Block: bond does not arrive">Faza 3 — Blokada: garancija ne stiže</h3>
-        <p data-sr="Posle uplate premije napadač šalje „potvrdu“, ali sam dokument bid bonda ne stiže. Objašnjenje je uvek proceduralno: „banka kasni“, „verifikacija traže“, „potreban je dodatni dokument„." data-en="After premium payment the attacker sends a “confirmation“, but the actual bid bond document does not arrive. The explanation is always procedural: 'bank delay', 'verification takes time', 'an additional document is required'.">Posle uplate premije napadač šalje 'potvrdu', ali sam dokument bid bonda ne stiže. Objašnjenje je uvek proceduralno: 'banka kasni', 'verifikacija traže', 'potreban je dodatni dokument'.</p>
+        <p data-sr="Posle uplate premije napadač šalje 'potvrdu', ali sam dokument bid bonda ne stiže. Objašnjenje je uvek proceduralno: 'banka kasni', 'verifikacija traže', 'potreban je dodatni dokument'." data-en="After premium payment the attacker sends a confirmation, but the actual bid bond document does not arrive. The explanation is always procedural: 'bank delay', 'verification takes time', 'an additional document is required'.">Posle uplate premije napadač šalje 'potvrdu', ali sam dokument bid bonda ne stiže. Objašnjenje je uvek proceduralno: 'banka kasni', 'verifikacija traže', 'potreban je dodatni dokument'.</p>
         <ul class="bullets">
-          <li data-sr="dokument garancije kasni zbog „bankarske procedure„." data-en="guarantee document delayed due to “bank procedure.">dokument garancije kasni zbog 'bankarske procedure'.</li>
-          <li data-sr="traži se „porez na finansijsku transakciju„ kao nova naknada." data-en="a “financial transaction tax“ is requested as a new fee.">traži se 'porez na finansijsku transakciju' kao nova naknada.</li>
+          <li data-sr="dokument garancije kasni zbog 'bankarske procedure'." data-en="guarantee document delayed due to bank procedure.">dokument garancije kasni zbog 'bankarske procedure'.</li>
+          <li data-sr="traži se 'porez na finansijsku transakciju' kao nova naknada." data-en="a financial transaction tax is requested as a new fee.">traži se 'porez na finansijsku transakciju' kao nova naknada.</li>
           <li data-sr="prethodni iznos se pominje kao razlog zašto ne treba odustati." data-en="the previous amount is referenced as a reason not to give up.">prethodni iznos se pominje kao razlog zašto ne treba odustati.</li>
-          <li data-sr="rok za dostavljanje ponude se produžava — „kao usluga„." data-en="bid submission deadline is extended — “as a courtesy.">rok za dostavljanje ponude se produžava — 'kao usluga'.</li>
+          <li data-sr="rok za dostavljanje ponude se produžava — 'kao usluga'." data-en="bid submission deadline is extended — as a courtesy.">rok za dostavljanje ponude se produžava — 'kao usluga'.</li>
         </ul>
         <p class="muted" data-sr="Prag faze 3: meta plaća drugu naknadu verujući da će garancija stići." data-en="Phase 3 threshold: target pays the second fee believing the guarantee will arrive.">Prag faze 3: meta plaća drugu naknadu verujući da će garancija stići.</p>
       </article>
@@ -79,9 +79,9 @@ window.SCAM_CONTENT["bid-bond-scam"] = {
         <h3 class="phase-title" data-sr="Faza 4 — Serija naknada: lanac procedura" data-en="Phase 4 — Fee series: chain of procedures">Faza 4 — Serija naknada: lanac procedura</h3>
         <p data-sr="Svaka nova naknada nosi novo proceduralno ime. Napadač koristi rokove i pretnje gubitka već uplaćenih sredstava da drži metu u toku." data-en="Each new fee carries a new procedural name. The attacker uses deadlines and threats of losing already paid funds to keep the target engaged.">Svaka nova naknada nosi novo proceduralno ime. Napadač koristi rokove i pretnje gubitka već uplaćenih sredstava da drži metu u toku.</p>
         <ul class="bullets">
-          <li data-sr="'naknada za aktivaciju garancije„, “PDV na finansijsku uslugu„, „osiguranje dokumenta„." data-en="“guarantee activation fee“, “VAT on financial service', 'document insurance'.">'naknada za aktivaciju garancije', 'PDV na finansijsku uslugu', 'osiguranje dokumenta'.</li>
+          <li data-sr="'naknada za aktivaciju garancije', 'PDV na finansijsku uslugu', 'osiguranje dokumenta'." data-en="guarantee activation fee, VAT on financial service', 'document insurance'.">'naknada za aktivaciju garancije', 'PDV na finansijsku uslugu', 'osiguranje dokumenta'.</li>
           <li data-sr="svaka naknada dolazi s novim rokom: 24–48 sati." data-en="each fee comes with a new deadline: 24–48 hours.">svaka naknada dolazi s novim rokom: 24–48 sati.</li>
-          <li data-sr="neplaćanje znači „gubitak prethodne uplate i ponude„." data-en="non-payment means “loss of previous payment and bid.">neplaćanje znači 'gubitak prethodne uplate i ponude'.</li>
+          <li data-sr="neplaćanje znači 'gubitak prethodne uplate i ponude'." data-en="non-payment means loss of previous payment and bid.">neplaćanje znači 'gubitak prethodne uplate i ponude'.</li>
           <li data-sr="napadač postaje sve teže dostupan između zahteva." data-en="attacker becomes increasingly difficult to reach between demands.">napadač postaje sve teže dostupan između zahteva.</li>
         </ul>
         <p class="muted" data-sr="Prag faze 4: meta je u ciklusu u kome svaka nova uplata čuva prethodnu." data-en="Phase 4 threshold: target is in a cycle where each new payment protects the previous one.">Prag faze 4: meta je u ciklusu u kome svaka nova uplata čuva prethodnu.</p>
@@ -89,12 +89,12 @@ window.SCAM_CONTENT["bid-bond-scam"] = {
 
       <article class="phase">
         <h3 class="phase-title" data-sr="Faza 5 — Eskalacija: supervizor" data-en="Phase 5 — Escalation: supervisor">Faza 5 — Eskalacija: supervizor</h3>
-        <p data-sr="Napadač uvodi „supervizora“ koji dodaje novu naknadu ili jednostavno prestaje da odgovara. U oba slučaja meta ostaje bez garancije i bez novca." data-en="The attacker introduces a 'supervisor' who adds a new fee, or simply stops responding. In both cases the target is left without a guarantee and without money.">Napadač uvodi 'supervizora' koji dodaje novu naknadu ili jednostavno prestaje da odgovara. U oba slučaja meta ostaje bez garancije i bez novca.</p>
+        <p data-sr="Napadač uvodi 'supervizora' koji dodaje novu naknadu ili jednostavno prestaje da odgovara. U oba slučaja meta ostaje bez garancije i bez novca." data-en="The attacker introduces a 'supervisor' who adds a new fee, or simply stops responding. In both cases the target is left without a guarantee and without money.">Napadač uvodi 'supervizora' koji dodaje novu naknadu ili jednostavno prestaje da odgovara. U oba slučaja meta ostaje bez garancije i bez novca.</p>
         <ul class="bullets">
-          <li data-sr="„supervizor“ potvrđuje prethodne zahteve i dodaje „naknadu za hitnu obradu„." data-en="“supervisor“ confirms previous demands and adds an 'urgent processing fee'.">'supervizor' potvrđuje prethodne zahteve i dodaje 'naknadu za hitnu obradu'.</li>
+          <li data-sr="'supervizor' potvrđuje prethodne zahteve i dodaje 'naknadu za hitnu obradu'." data-en="supervisor confirms previous demands and adds an 'urgent processing fee'.">'supervizor' potvrđuje prethodne zahteve i dodaje 'naknadu za hitnu obradu'.</li>
           <li data-sr="email adresa nalogodavca prestaje da funkcioniše." data-en="the contracting authority's email address stops functioning.">email adresa nalogodavca prestaje da funkcioniše.</li>
           <li data-sr="sajt tendera nestaje ili gasi podatke o projektu." data-en="the tender website disappears or removes project data.">sajt tendera nestaje ili gasi podatke o projektu.</li>
-          <li data-sr="recovery prevara može kontaktirati metu nudeći „povraćaj premije„." data-en="a recovery scam may contact the target offering a “premium refund.">recovery prevara može kontaktirati metu nudeći 'povraćaj premije'.</li>
+          <li data-sr="recovery prevara može kontaktirati metu nudeći 'povraćaj premije'." data-en="a recovery scam may contact the target offering a premium refund.">recovery prevara može kontaktirati metu nudeći 'povraćaj premije'.</li>
         </ul>
         <p class="muted" data-sr="Prag faze 5: meta prihvata gubitak ili postaje žrtva recovery prevare." data-en="Phase 5 threshold: target accepts the loss or becomes a victim of a recovery scam.">Prag faze 5: meta prihvata gubitak ili postaje žrtva recovery prevare.</p>
       </article>
@@ -169,7 +169,7 @@ window.SCAM_CONTENT["bid-bond-scam"] = {
         <li data-sr="sačuvaj svu dokumentaciju: tender, emailove, potvrde o uplati." data-en="save all documentation: tender, emails, payment confirmations.">sačuvaj svu dokumentaciju: tender, emailove, potvrde o uplati.</li>
         <li data-sr="prijavi incident banci i zatraži blokadu transakcija ka sumnjivom računu." data-en="report the incident to your bank and request blocking of transactions to the suspicious account.">prijavi incident banci i zatraži blokadu transakcija ka sumnjivom računu.</li>
         <li data-sr="prijavi slučaj policiji i portalu javnih nabavki." data-en="report the case to police and the public procurement portal.">prijavi slučaj policiji i portalu javnih nabavki.</li>
-        <li data-sr="ne prihvataj ponude za „povrat premije„ od nepoznatih osoba." data-en="do not accept “premium refund“ offers from unknown people.">ne prihvataj ponude za 'povrat premije' od nepoznatih osoba.</li>
+        <li data-sr="ne prihvataj ponude za 'povrat premije' od nepoznatih osoba." data-en="do not accept premium refund offers from unknown people.">ne prihvataj ponude za 'povrat premije' od nepoznatih osoba.</li>
       </ul>
     </section>
 
@@ -177,30 +177,20 @@ window.SCAM_CONTENT["bid-bond-scam"] = {
       <h2 data-sr="Ako pokušavaš da pomogneš nekome" data-en="If you are trying to help someone">Ako pokušavaš da pomogneš nekome</h2>
       <p class="muted" data-sr="Pitanja koja rade:" data-en="Questions that work:">Pitanja koja rade:</p>
       <ul class="bullets">
-        <li data-sr="„Da li je tender objavljen na zvaničnom portalu javnih nabavki?“" data-en="Is the tender published on an official public procurement portal?">„Da li je tender objavljen na zvaničnom portalu javnih nabavki?“</li>
-        <li data-sr="„Da li si pokušao da pribaviš bid bond od sopstvene banke?“" data-en="Did you try to obtain the bid bond from your own bank?">„Da li si pokušao da pribaviš bid bond od sopstvene banke?“</li>
-        <li data-sr="„Da li si pozvao nalogodavca direktno na zvanični broj?“" data-en="Did you call the contracting authority directly on their official number?">„Da li si pozvao nalogodavca direktno na zvanični broj?“</li>
-        <li data-sr="„Da li je ovo prva naknada u tender procesu ili je već bilo prethodnih?“" data-en="Is this the first fee in the tender process or were there previous ones?">„Da li je ovo prva naknada u tender procesu ili je već bilo prethodnih?“</li>
+        <li data-sr="Da li je tender objavljen na zvaničnom portalu javnih nabavki?" data-en="Is the tender published on an official public procurement portal?">Da li je tender objavljen na zvaničnom portalu javnih nabavki?</li>
+        <li data-sr="Da li si pokušao da pribaviš bid bond od sopstvene banke?" data-en="Did you try to obtain the bid bond from your own bank?">Da li si pokušao da pribaviš bid bond od sopstvene banke?</li>
+        <li data-sr="Da li si pozvao nalogodavca direktno na zvanični broj?" data-en="Did you call the contracting authority directly on their official number?">Da li si pozvao nalogodavca direktno na zvanični broj?</li>
+        <li data-sr="Da li je ovo prva naknada u tender procesu ili je već bilo prethodnih?" data-en="Is this the first fee in the tender process or were there previous ones?">Da li je ovo prva naknada u tender procesu ili je već bilo prethodnih?</li>
       </ul>
       <p class="muted" data-sr="Rečenice koje rade:" data-en="Phrases that work:">Rečenice koje rade:</p>
       <ul class="bullets">
-        <li data-sr="„Bid bond se uvek pribavlja od sopstvene banke ili osiguravajućeg društva — ne od nalogodavca“.“" data-en="Bid bonds are always obtained from your own bank or insurance company — not from the contracting authority.">„Bid bond se uvek pribavlja od sopstvene banke ili osiguravajućeg društva — ne od nalogodavca“.“</li>
-        <li data-sr="„Ako tender nije na zvaničnom portalu, ne postoji“.“" data-en="If the tender is not on an official portal, it does not exist.">„Ako tender nije na zvaničnom portalu, ne postoji“.“</li>
-        <li data-sr="„Rok od 48 sati za uplatu garancije je taktika prevare, ne legitimna procedura“.“" data-en="A 48-hour deadline for bond payment is a scam tactic, not a legitimate procedure.">„Rok od 48 sati za uplatu garancije je taktika prevare, ne legitimna procedura“.“</li>
-        <li data-sr="„Svaka naknada posle prve uplate brani prethodnu, ali ne dovodi do garancije“.“" data-en="Every fee after the first payment protects the previous one, but does not lead to a guarantee.">„Svaka naknada posle prve uplate brani prethodnu, ali ne dovodi do garancije“.“</li>
+        <li data-sr="Bid bond se uvek pribavlja od sopstvene banke ili osiguravajućeg društva — ne od nalogodavca." data-en="Bid bonds are always obtained from your own bank or insurance company — not from the contracting authority.">Bid bond se uvek pribavlja od sopstvene banke ili osiguravajućeg društva — ne od nalogodavca.</li>
+        <li data-sr="Ako tender nije na zvaničnom portalu, ne postoji." data-en="If the tender is not on an official portal, it does not exist.">Ako tender nije na zvaničnom portalu, ne postoji.</li>
+        <li data-sr="Rok od 48 sati za uplatu garancije je taktika prevare, ne legitimna procedura." data-en="A 48-hour deadline for bond payment is a scam tactic, not a legitimate procedure.">Rok od 48 sati za uplatu garancije je taktika prevare, ne legitimna procedura.</li>
+        <li data-sr="Svaka naknada posle prve uplate brani prethodnu, ali ne dovodi do garancije." data-en="Every fee after the first payment protects the previous one, but does not lead to a guarantee.">Svaka naknada posle prve uplate brani prethodnu, ali ne dovodi do garancije.</li>
       </ul>
     </section>
 
-    <section class="content-section">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <ul class="bullets">
-        <li><a href="performance-bond-scam.html" data-sr="Prevara garancijom izvršenja" data-en="Performance bond scam">Prevara garancijom izvršenja</a></li>
-        <li><a href="advance-payment-guarantee-scam.html" data-sr="Prevara garancijom avansnog plaćanja" data-en="Advance payment guarantee scam">Prevara garancijom avansnog plaćanja</a></li>
-        <li><a href="procurement-tender-scam.html" data-sr="Prevara tenderom" data-en="Procurement tender scam">Prevara tenderom</a></li>
-        <li><a href="procurement-award-scam.html" data-sr="Prevara dodelom ugovora" data-en="Procurement award scam">Prevara dodelom ugovora</a></li>
-        <li><a href="advance-fee-fraud.html" data-sr="Uplata unapred" data-en="Advance-fee fraud">Uplata unapred</a></li>
-        <li><a href="impersonation-scam.html" data-sr="Lažno predstavljanje" data-en="Impersonation scam">Lažno predstavljanje</a></li>
-      </ul>
-    </section>
+    
   `
 };

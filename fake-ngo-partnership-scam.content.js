@@ -24,8 +24,8 @@ window.SCAM_CONTENT["fake-ngo-partnership-scam"] = {
     <article>
       <h3 data-sr="Šta gradi autoritet" data-en="What builds authority">Šta gradi autoritet</h3>
       <ul class="bullets">
-        <li data-sr="Naziv NGO-a zvuči etablirano — sadrži reči poput „International“, „Foundation“, „Institute“, „Development“ ili nazive međunarodnih gradova." data-en="The NGO name sounds established — it contains words like 'International', 'Foundation', 'Institute', 'Development', or names of international cities.">Naziv NGO-a zvuči etablirano — sadrži reči poput „International", „Foundation", „Institute", „Development" ili nazive međunarodnih gradova“.</li>
-        <li data-sr="Sajt NGO-a izgleda profesionalno s fotografijama 'projekata u toku„, “partnerskih organizacija„ i „donatora„." data-en="The NGO website looks professional with photographs of “ongoing projects“, “partner organizations', and 'donors.'">Sajt NGO-a izgleda profesionalno s fotografijama „projekata u toku", „partnerskih organizacija" i „donatora"“.</li>
+        <li data-sr="Naziv NGO-a zvuči etablirano — sadrži reči poput International, Foundation, Institute, Development ili nazive međunarodnih gradova." data-en="The NGO name sounds established — it contains words like 'International', 'Foundation', 'Institute', 'Development', or names of international cities.">Naziv NGO-a zvuči etablirano — sadrži reči poput International, Foundation, Institute, Development ili nazive međunarodnih gradova.</li>
+        <li data-sr="Sajt NGO-a izgleda profesionalno s fotografijama projekata u toku, partnerskih organizacija i donatora." data-en="The NGO website looks professional with photographs of ongoing projects, partner organizations', and 'donors.">Sajt NGO-a izgleda profesionalno s fotografijama projekata u toku, partnerskih organizacija i donatora.</li>
         <li data-sr="Ponuda se šalje personalizovano — referencira specifičan projekat mete ili oblast njene ekspertize." data-en="The offer is sent personalized — referencing the target's specific project or area of expertise.">Ponuda se šalje personalizovano — referencira specifičan projekat mete ili oblast njene ekspertize.</li>
         <li data-sr="Navode se lažni partneri — nazivi poznatih međunarodnih organizacija kao UNDP, GIZ ili World Bank s izmenjenim detaljima." data-en="Fake partners are cited — names of well-known international organizations such as UNDP, GIZ, or World Bank with modified details.">Navode se lažni partneri — nazivi poznatih međunarodnih organizacija kao UNDP, GIZ ili World Bank s izmenjenim detaljima.</li>
       </ul>
@@ -33,7 +33,7 @@ window.SCAM_CONTENT["fake-ngo-partnership-scam"] = {
     <article>
       <h3 data-sr="Kako se uvodi naknada" data-en="How the fee is introduced">Kako se uvodi naknada</h3>
       <ul class="bullets">
-        <li data-sr="Naknada je opisana kao „obavezna“ za ulazak u sistem registrovanih partnera NGO-a ili program granta." data-en="The fee is described as 'mandatory' for entry into the NGO's registered partner system or grant program.">Naknada je opisana kao „obavezna" za ulazak u sistem registrovanih partnera NGO-a ili program granta“.</li>
+        <li data-sr="Naknada je opisana kao obavezna za ulazak u sistem registrovanih partnera NGO-a ili program granta." data-en="The fee is described as 'mandatory' for entry into the NGO's registered partner system or grant program.">Naknada je opisana kao obavezna za ulazak u sistem registrovanih partnera NGO-a ili program granta.</li>
         <li data-sr="Iznosi su umereni — 300 do 3.000 EUR — čime se oponaša legitimna administrativna naknada." data-en="Amounts are moderate — 300 to 3,000 EUR — mimicking a legitimate administrative charge.">Iznosi su umereni — 300 do 3.000 EUR — čime se oponaša legitimna administrativna naknada.</li>
         <li data-sr="Naknade se plaćaju na privatne račune, Western Union ili kriptovalutne adrese — ne na institucijski račun." data-en="Fees are paid to private accounts, Western Union, or cryptocurrency addresses — not to an institutional account.">Naknade se plaćaju na privatne račune, Western Union ili kriptovalutne adrese — ne na institucijski račun.</li>
       </ul>
@@ -51,22 +51,22 @@ window.SCAM_CONTENT["fake-ngo-partnership-scam"] = {
       <li data-sr="Ponuda dolazi neočekivano i bez prethodnog kontakta — ali referencira specifičan rad mete što povećava uverljivost." data-en="The offer arrives unexpectedly and without prior contact — but references the target's specific work which increases credibility.">Ponuda dolazi neočekivano i bez prethodnog kontakta — ali referencira specifičan rad mete što povećava uverljivost.</li>
       <li data-sr="Proverite registarski status NGO-a u matičnoj državi pre odgovaranja." data-en="Verify the NGO's registration status in its home country before responding.">Proverite registarski status NGO-a u matičnoj državi pre odgovaranja.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Svaki NGO koji kontaktira bez prethodne veze mora biti verifikovan u zvaničnom registru pre razgovora." data-en="Phase threshold: Every NGO contacting without prior relationship must be verified in the official register before discussion."><strong>Prag faze:</strong> Svaki NGO koji kontaktira bez prethodne veze mora biti verifikovan u zvaničnom registru pre razgovora.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Svaki NGO koji kontaktira bez prethodne veze mora biti verifikovan u zvaničnom registru pre razgovora." data-en="Phase threshold: Every NGO contacting without prior relationship must be verified in the official register before discussion."><strong>Prag faze:</strong> Svaki NGO koji kontaktira bez prethodne veze mora biti verifikovan u zvaničnom registru pre razgovora.</div>
   </div>
 
   <div class="phase">
     <div class="label" data-sr="Faza 2: Formalizacija — sporazum i dokumentacija" data-en="Phase 2: Formalization — agreement and documentation">Faza 2: Formalizacija — sporazum i dokumentacija</div>
-    <p data-sr="NGO šalje sporazum o partnerstvu ili memorandum o razumevanju koji izgleda legitimno. Sporazum precizira rokove, odgovornosti i „grant omotnicu“ koja čeka meta." data-en="The NGO sends a partnership agreement or memorandum of understanding that looks legitimate. The agreement specifies timelines, responsibilities, and the 'grant envelope' awaiting the target.">NGO šalje sporazum o partnerstvu ili memorandum o razumevanju koji izgleda legitimno. Sporazum precizira rokove, odgovornosti i „grant omotnicu" koja čeka metu“.</p>
+    <p data-sr="NGO šalje sporazum o partnerstvu ili memorandum o razumevanju koji izgleda legitimno. Sporazum precizira rokove, odgovornosti i grant omotnicu koja čeka metu." data-en="The NGO sends a partnership agreement or memorandum of understanding that looks legitimate. The agreement specifies timelines, responsibilities, and the 'grant envelope' awaiting the target.">NGO šalje sporazum o partnerstvu ili memorandum o razumevanju koji izgleda legitimno. Sporazum precizira rokove, odgovornosti i grant omotnicu koja čeka metu.</p>
     <ul class="bullets">
       <li data-sr="Sporazum ne može biti verifikovan jer NGO nije registrovan u dostupnom registru." data-en="The agreement cannot be verified because the NGO is not registered in any accessible register.">Sporazum ne može biti verifikovan jer NGO nije registrovan u dostupnom registru.</li>
       <li data-sr="Adresa NGO-a u dokumentu je generička ili vodi na poštanski sandučić, ne na fizičku kancelariju." data-en="The NGO's address in the document is generic or leads to a mailbox, not a physical office.">Adresa NGO-a u dokumentu je generička ili vodi na poštanski sandučić, ne na fizičku kancelariju.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Sporazum s organizacijom koja nije proverljiva u zvaničnom registru nije vredan potpisa." data-en="Phase threshold: An agreement with an organization that is not verifiable in the official register is not worth signing."><strong>Prag faze:</strong> Sporazum s organizacijom koja nije proverljiva u zvaničnom registru nije vredan potpisa.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Sporazum s organizacijom koja nije proverljiva u zvaničnom registru nije vredan potpisa." data-en="Phase threshold: An agreement with an organization that is not verifiable in the official register is not worth signing."><strong>Prag faze:</strong> Sporazum s organizacijom koja nije proverljiva u zvaničnom registru nije vredan potpisa.</div>
   </div>
 
   <div class="phase">
     <div class="label" data-sr="Faza 3: Naknada za registraciju partnera" data-en="Phase 3: Partner registration fee">Faza 3: Naknada za registraciju partnera</div>
-    <p data-sr="Pre nego sporazum stupi na snagu, meta mora platiti naknadu za 'registraciju u sistemu partnera„, “verifikaciju identiteta„ ili “due diligence proceduru„." data-en="Before the agreement comes into force, the target must pay a fee for “registration in the partner system', 'identity verification', or 'due diligence procedure.'">Pre nego sporazum stupi na snagu, meta mora platiti naknadu za „registraciju u sistemu partnera", „verifikaciju identiteta" ili „due diligence proceduru"“.</p>
+    <p data-sr="Pre nego sporazum stupi na snagu, meta mora platiti naknadu za registraciju u sistemu partnera, verifikaciju identiteta ili due diligence proceduru." data-en="Before the agreement comes into force, the target must pay a fee for registration in the partner system', 'identity verification', or 'due diligence procedure.">Pre nego sporazum stupi na snagu, meta mora platiti naknadu za registraciju u sistemu partnera, verifikaciju identiteta ili due diligence proceduru.</p>
     <ul class="bullets">
       <li data-sr="Legitimne organizacije ne naplaćuju partnerima naknadu za registraciju u sistemu — troškove administrativne obrade snosi sama organizacija." data-en="Legitimate organizations do not charge partners a registration fee — administrative processing costs are borne by the organization itself.">Legitimne organizacije ne naplaćuju partnerima naknadu za registraciju u sistemu — troškove administrativne obrade snosi sama organizacija.</li>
       <li data-sr="Naknada se šalje na ime fizičkog lica ili na kriptovalutni novčanik — ne na korporativni bankovni račun NGO-a." data-en="The fee is sent in the name of an individual or to a cryptocurrency wallet — not to the NGO's corporate bank account.">Naknada se šalje na ime fizičkog lica ili na kriptovalutni novčanik — ne na korporativni bankovni račun NGO-a.</li>
@@ -74,31 +74,31 @@ window.SCAM_CONTENT["fake-ngo-partnership-scam"] = {
     <div class="branch">
       <strong data-sr="Grananja u ovoj fazi:" data-en="Branches at this phase:">Grananja u ovoj fazi:</strong>
       <ul class="bullets">
-        <li data-sr="Meta odbija uplatu → NGO preti 'gubitkom mesta u programu„ i insistira na kratkom roku." data-en="Target refuses payment → NGO threatens “loss of program slot' and insists on a short deadline.">Meta odbija uplatu → NGO preti „gubitkom mesta u programu" i insistira na kratkom roku“.</li>
-        <li data-sr="Meta plati → pojavljuje se nova naknada za 'usaglašenost s propisima donatorske institucije„." data-en="Target pays → a new fee appears for “compliance with donor institution regulations.'">Meta plati → pojavljuje se nova naknada za „usaglašenost s propisima donatorske institucije"“.</li>
+        <li data-sr="Meta odbija uplatu → NGO preti gubitkom mesta u programu i insistira na kratkom roku." data-en="Target refuses payment → NGO threatens loss of program slot' and insists on a short deadline.">Meta odbija uplatu → NGO preti gubitkom mesta u programu i insistira na kratkom roku.</li>
+        <li data-sr="Meta plati → pojavljuje se nova naknada za usaglašenost s propisima donatorske institucije." data-en="Target pays → a new fee appears for compliance with donor institution regulations.">Meta plati → pojavljuje se nova naknada za usaglašenost s propisima donatorske institucije.</li>
       </ul>
     </div>
-    <div class="callout" data-sr="Prag faze: Svaka naknada koja se traži pre potpisivanja ili aktiviranja ugovora je alarm." data-en="Phase threshold: Every fee requested before signing or activating a contract is an alarm."><strong>Prag faze:</strong> Svaka naknada koja se traži pre potpisivanja ili aktiviranja ugovora je alarm.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Svaka naknada koja se traži pre potpisivanja ili aktiviranja ugovora je alarm." data-en="Phase threshold: Every fee requested before signing or activating a contract is an alarm."><strong>Prag faze:</strong> Svaka naknada koja se traži pre potpisivanja ili aktiviranja ugovora je alarm.</div>
   </div>
 
   <div class="phase">
     <div class="label" data-sr="Faza 4: Serija usaglašenosti i audit naknada" data-en="Phase 4: Compliance and audit fee series">Faza 4: Serija usaglašenosti i audit naknada</div>
-    <p data-sr="Svaka prethodna naknada aktivira novu. Prevarant uvodi lažne regulatorne zahteve: „donatorska institucija zahteva ISO sertifikaciju“, „potrebna je nezavisna revizija“, „moramo platiti porez na grant unapred." data-en="Every previous fee activates a new one. The fraudster introduces fake regulatory requirements: 'the donor institution requires ISO certification', 'an independent audit is needed', 'we must pay the grant tax upfront.'">Svaka prethodna naknada aktivira novu. Prevarant uvodi lažne regulatorne zahteve: „donatorska institucija zahteva ISO sertifikaciju", „potrebna je nezavisna revizija", „moramo platiti porez na grant unapred"“.</p>
+    <p data-sr="Svaka prethodna naknada aktivira novu. Prevarant uvodi lažne regulatorne zahteve: donatorska institucija zahteva ISO sertifikaciju, potrebna je nezavisna revizija, moramo platiti porez na grant unapred." data-en="Every previous fee activates a new one. The fraudster introduces fake regulatory requirements: 'the donor institution requires ISO certification', 'an independent audit is needed', 'we must pay the grant tax upfront.">Svaka prethodna naknada aktivira novu. Prevarant uvodi lažne regulatorne zahteve: donatorska institucija zahteva ISO sertifikaciju, potrebna je nezavisna revizija, moramo platiti porez na grant unapred.</p>
     <ul class="bullets">
-      <li data-sr="Prevarant gradi pritisak temeljem prethodnih ulaganja: 'ne možete sada odustati kada ste toliko uložili„." data-en="The fraudster builds pressure based on previous investments: “you cannot give up now when you have invested so much.'">Prevarant gradi pritisak temeljem prethodnih ulaganja: „ne možete sada odustati kada ste toliko uložili"“.</li>
-      <li data-sr="Ukupan gubitak može brzo premašiti vrednost obećanog granta ili partnerstava." data-en="The total loss can quickly exceed the value of the promised grant or partnership.">Ukupan gubitak može brzo premašiti vrednost obećanog granta ili partnerstva.</li>
+      <li data-sr="Prevarant gradi pritisak temeljem prethodnih ulaganja: ne možete sada odustati kada ste toliko uložili." data-en="The fraudster builds pressure based on previous investments: you cannot give up now when you have invested so much.">Prevarant gradi pritisak temeljem prethodnih ulaganja: ne možete sada odustati kada ste toliko uložili.</li>
+      <li data-sr="Ukupan gubitak može brzo premašiti vrednost obećanog granta ili partnerstva." data-en="The total loss can quickly exceed the value of the promised grant or partnership.">Ukupan gubitak može brzo premašiti vrednost obećanog granta ili partnerstva.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Druga naknada posle prve uplate je dokaz prevare — odmah zaustavite sve uplate." data-en="Phase threshold: A second fee after the first payment is proof of a scam — stop all payments immediately."><strong>Prag faze:</strong> Druga naknada posle prve uplate je dokaz prevare — odmah zaustavite sve uplate.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Druga naknada posle prve uplate je dokaz prevare — odmah zaustavite sve uplate." data-en="Phase threshold: A second fee after the first payment is proof of a scam — stop all payments immediately."><strong>Prag faze:</strong> Druga naknada posle prve uplate je dokaz prevare — odmah zaustavite sve uplate.</div>
   </div>
 
   <div class="phase">
     <div class="label" data-sr="Faza 5: Nestanak i ponovni kontakt" data-en="Phase 5: Disappearance and re-contact">Faza 5: Nestanak i ponovni kontakt</div>
     <p data-sr="NGO nestaje: sajt se gasi, e-pošta ne odgovara, LinkedIn profil se briše. Meta nema partnerstva, nema granta, nema povrata naknade." data-en="The NGO disappears: the website goes dark, emails go unanswered, the LinkedIn profile is deleted. The target has no partnership, no grant, no fee refund.">NGO nestaje: sajt se gasi, e-pošta ne odgovara, LinkedIn profil se briše. Meta nema partnerstva, nema granta, nema povrata naknade.</p>
     <ul class="bullets">
-      <li data-sr="Prevaranti ponekad kontaktiraju iste mete s novom identitetom i novom ponudom posle određenog vremena." data-en="Fraudsters sometimes contact the same targets with a new identity and a new offer after some time.">Prevaranti ponekad kontaktiraju iste mete s novim identitetom i novom ponudom posle određenog vremena.</li>
+      <li data-sr="Prevaranti ponekad kontaktiraju iste mete s novim identitetom i novom ponudom posle određenog vremena." data-en="Fraudsters sometimes contact the same targets with a new identity and a new offer after some time.">Prevaranti ponekad kontaktiraju iste mete s novim identitetom i novom ponudom posle određenog vremena.</li>
       <li data-sr="Lista kontaktiranih organizacija se prodaje između mreža prevaranata." data-en="The list of contacted organizations is sold between fraudster networks.">Lista kontaktiranih organizacija se prodaje između mreža prevaranata.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Prijavite NGO lokalnoj policiji, nadležnom registru NGO-a i FATF-u radi zaštite budućih žrtava." data-en="Phase threshold: Report the NGO to the local police, the relevant NGO register, and FATF to protect future victims."><strong>Prag faze:</strong> Prijavite NGO lokalnoj policiji, nadležnom registru NGO-a i FATF-u radi zaštite budućih žrtava.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Prijavite NGO lokalnoj policiji, nadležnom registru NGO-a i FATF-u radi zaštite budućih žrtava." data-en="Phase threshold: Report the NGO to the local police, the relevant NGO register, and FATF to protect future victims."><strong>Prag faze:</strong> Prijavite NGO lokalnoj policiji, nadležnom registru NGO-a i FATF-u radi zaštite budućih žrtava.</div>
   </div>
 </section>
 
@@ -134,7 +134,7 @@ window.SCAM_CONTENT["fake-ngo-partnership-scam"] = {
     <li data-sr="Da li sam potvrdio saradnju s navedenim partnerima direktnim kontaktom?" data-en="Have I confirmed the collaboration with listed partners through direct contact?">Da li sam potvrdio saradnju s navedenim partnerima direktnim kontaktom?</li>
     <li data-sr="Da li se traži ikakva naknada pre potpisivanja ili aktiviranja ugovora?" data-en="Is any fee requested before signing or activating the contract?">Da li se traži ikakva naknada pre potpisivanja ili aktiviranja ugovora?</li>
     <li data-sr="Da li ima fizičke kancelarije NGO-a čiju lokaciju mogu nezavisno proveriti?" data-en="Is there a physical NGO office whose location I can independently verify?">Da li ima fizičke kancelarije NGO-a čiju lokaciju mogu nezavisno proveriti?</li>
-    <li data-sr="Da li sam pretražio naziv NGO-a plus 'prevara„ ili „scam„ u onlajn pretragama?" data-en="Have I searched the NGO name plus “scam“ or “fraud' in online searches?">Da li sam pretražio naziv NGO-a plus „prevara" ili „scam" u onlajn pretragama?</li>
+    <li data-sr="Da li sam pretražio naziv NGO-a plus prevara ili scam u onlajn pretragama?" data-en="Have I searched the NGO name plus scam or fraud' in online searches?">Da li sam pretražio naziv NGO-a plus prevara ili scam u onlajn pretragama?</li>
     <li data-sr="Da li je datum registracije domena sajta NGO-a stariji od godinu dana?" data-en="Is the NGO website's domain registration date older than one year?">Da li je datum registracije domena sajta NGO-a stariji od godinu dana?</li>
   </ul>
 </section>
@@ -153,20 +153,12 @@ window.SCAM_CONTENT["fake-ngo-partnership-scam"] = {
 <section class="content-section">
   <h2 data-sr="Ako pokušavaš da pomogneš nekome" data-en="If you are trying to help someone">Ako pokušavaš da pomogneš nekome</h2>
   <ul class="bullets">
-    <li data-sr="Pitaj: „Da li si mogao da pronađeš ovu NGO organizaciju u zvaničnom registru nevladinih organizacija?“" data-en="Ask: 'Were you able to find this NGO in the official register of non-governmental organizations?'">Pitaj: „Da li si mogao da pronađeš ovu NGO organizaciju u zvaničnom registru nevladinih organizacija?“</li>
-    <li data-sr="Pitaj: „Da li su tražili uplatu pre nego što je sporazum bio potpisan?“" data-en="Ask: 'Did they request payment before the agreement was signed?'">Pitaj: „Da li su tražili uplatu pre nego što je sporazum bio potpisan?“</li>
-    <li data-sr="Rečenice koje pomažu: „Legitimne NGO organizacije ne naplaćuju partnerima ulazak u partnerstvo“.“ „Provera registra traže pet minuta — hajde da to uradimo zajedno“.“" data-en="Sentences that help: 'Legitimate NGOs do not charge partners for entering a partnership.' 'A register check takes five minutes — let's do it together.'">Rečenice koje pomažu: „Legitimne NGO organizacije ne naplaćuju partnerima ulazak u partnerstvo“.“ „Provera registra traže pet minuta — hajde da to uradimo zajedno“.“</li>
+    <li data-sr="Pitaj: Da li si mogao da pronađeš ovu NGO organizaciju u zvaničnom registru nevladinih organizacija?" data-en="Ask: Were you able to find this NGO in the official register of non-governmental organizations?">Pitaj: Da li si mogao da pronađeš ovu NGO organizaciju u zvaničnom registru nevladinih organizacija?</li>
+    <li data-sr="Pitaj: Da li su tražili uplatu pre nego što je sporazum bio potpisan?" data-en="Ask: Did they request payment before the agreement was signed?">Pitaj: Da li su tražili uplatu pre nego što je sporazum bio potpisan?</li>
+    <li data-sr="Rečenice koje pomažu: Legitimne NGO organizacije ne naplaćuju partnerima ulazak u partnerstvo. Provera registra traže pet minuta — hajde da to uradimo zajedno." data-en="Sentences that help: Legitimate NGOs do not charge partners for entering a partnership.' 'A register check takes five minutes — let's do it together.">Rečenice koje pomažu: Legitimne NGO organizacije ne naplaćuju partnerima ulazak u partnerstvo. Provera registra traže pet minuta — hajde da to uradimo zajedno.</li>
   </ul>
 </section>
 
-<section class="content-section">
-  <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-  <ul class="bullets">
-    <li><a href="fake-eu-program-scam.html" data-sr="Lažni EU program — isti model unaprednih naknada za nepostojeće fondove" data-en="Fake EU program scam — same upfront fee model for non-existent funds">Lažni EU program — isti model unaprednih naknada za nepostojeće fondove</a></li>
-    <li><a href="grant-intermediary-scam.html" data-sr="Lažni posrednik za grant — konsultanti koji naplaćuju za pristup fondovima" data-en="Grant intermediary scam — consultants charging for fund access">Lažni posrednik za grant — konsultanti koji naplaćuju za pristup fondovima</a></li>
-    <li><a href="compliance-fee-scam.html" data-sr="Prevara s taksama za usaglašenost — lažni regulatorni zahtevi" data-en="Compliance fee scam — fake regulatory requirements">Prevara s taksama za usaglašenost — lažni regulatorni zahtevi</a></li>
-    <li><a href="advance-fee-fraud.html" data-sr="Prevara avansnom naknadom — generalni model unaprednih naknada" data-en="Advance fee fraud — general upfront fee model">Prevara avansnom naknadom — generalni model unaprednih naknada</a></li>
-  </ul>
-</section>
+
 `
 };

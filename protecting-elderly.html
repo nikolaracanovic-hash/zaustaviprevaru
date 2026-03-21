@@ -5,11 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta
     name="description"
-    content="Zaštita od prevara: praktični vodiči organizovani po životnim grupama, svakodnevnim situacijama i obrascima manipulacije."
-    data-sr="Zaštita od prevara: praktični vodiči organizovani po životnim grupama, svakodnevnim situacijama i obrascima manipulacije."
+    content="Prevencija prevara: praktični vodiči organizovani po životnim grupama, svakodnevnim situacijama i obrascima manipulacije."
+    data-sr="Prevencija prevara: praktični vodiči organizovani po životnim grupama, svakodnevnim situacijama i obrascima manipulacije."
     data-en="Protection from scams: practical guides organised by life groups, everyday situations, and manipulation patterns."
   />
-  <title data-sr="Zaštita" data-en="Protection">Zaštita</title>
+  <title data-sr="Prevencija" data-en="Prevention">Prevencija</title>
   <link rel="stylesheet" href="style.css" />
   <script src="ui.js" defer></script>
 </head>
@@ -22,16 +22,17 @@
         <span class="brand-dot" aria-hidden="true"></span>
         <span class="brand-name">Anti-scam</span>
       </div>
+
       <nav aria-label="Glavna navigacija">
         <ul class="top-nav">
           <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
           <li><a href="prevare.html" data-sr="Prevare" data-en="Scams">Prevare</a></li>
-          <li><a href="protecting-elderly.html" aria-current="page" data-sr="Zaštita" data-en="Protection">Zaštita</a></li>
-        </ul>
+          <li><a href="protecting-elderly.html" aria-current="page" data-sr="Prevencija" data-en="Prevention">Prevencija</a></li>                  </ul>
       </nav>
     </div>
-    <div class="hero compact">
-      <h1 data-sr="Zaštita" data-en="Protection">Zaštita</h1>
+
+<div class="hero compact">
+      <h1 data-sr="Prevencija" data-en="Prevention">Prevencija</h1>
       <p style="color:#fff;"
          data-sr="Edukacija i prepoznavanje su najdelotvornije mere zaštite. Prevaranti prilagođavaju metode navikama konkretnih korisničkih grupa — što znači da različite grupe susreću različite rizike."
          data-en="Education and recognition are the most effective protective measures. Scammers adapt their methods to the habits of specific user groups — which means different groups encounter different risks.">
@@ -42,53 +43,401 @@
 </header>
 
 <main class="container">
-
-  <!-- VODIČI PO GRUPAMA -->
   <section class="hub-section">
-    <h2
-      data-sr="Vodiči po grupama"
-      data-en="Guides by group">
-      Vodiči po grupama
-    </h2>
-    <div class="guide-grid guide-grid-3">
+    <h2 data-sr="Vodiči po grupama izloženosti" data-en="Guides by exposure groups">Vodiči po grupama izloženosti</h2>
+    <p class="muted"
+       data-sr="Kategorije su ulazi, ne zatvorene fioke. Isti obrazac prevare često pogađa više grupa u isto vreme."
+       data-en="Categories are entry points, not closed boxes. The same scam pattern often affects several groups at the same time.">
+      Kategorije su ulazi, ne zatvorene fioke. Isti obrazac prevare često pogađa više grupa u isto vreme.
+    </p>
+    <div id="prevention-filter-bar" class="group-chip-bar" role="tablist" aria-label="Grupe izloženosti">
+      <button class="group-chip active" data-filter-id="" data-sr="Sve" data-en="All" type="button">Sve</button>
+      <button class="group-chip" data-filter-id="mladi" data-sr="Mladi" data-en="Young people" type="button">Mladi</button>
+      <button class="group-chip" data-filter-id="odrasli" data-sr="Odrasli" data-en="Adults" type="button">Odrasli</button>
+      <button class="group-chip" data-filter-id="porodice" data-sr="Porodice" data-en="Families" type="button">Porodice</button>
+      <button class="group-chip" data-filter-id="stariji" data-sr="Stariji" data-en="Elderly" type="button">Stariji</button>
+      <button class="group-chip" data-filter-id="vestacka-inteligencija" data-sr="Veštačka inteligencija" data-en="Artificial intelligence" type="button">Veštačka inteligencija</button>
+      <button class="group-chip" data-filter-id="posao-zarada" data-sr="Posao i zarada" data-en="Work and income" type="button">Posao i zarada</button>
+      <button class="group-chip" data-filter-id="kupovina-prodaja" data-sr="Kupovina i prodaja" data-en="Buying and selling" type="button">Kupovina i prodaja</button>
+      <button class="group-chip" data-filter-id="mreze-poruke" data-sr="Mreže i poruke" data-en="Networks and messages" type="button">Mreže i poruke</button>
+      <button class="group-chip" data-filter-id="krizne-situacije" data-sr="Krizne situacije" data-en="Crisis situations" type="button">Krizne situacije</button>
+      <button class="group-chip" data-filter-id="dijaspora-putovanja" data-sr="Dijaspora i putovanja" data-en="Diaspora and travel" type="button">Dijaspora i putovanja</button>
+      <button class="group-chip" data-filter-id="obrazovanje" data-sr="Obrazovanje" data-en="Education" type="button">Obrazovanje</button>
+      <button class="group-chip" data-filter-id="zdravstvo-socijala" data-sr="Zdravstvo i socijala" data-en="Health and social support" type="button">Zdravstvo i socijala</button>
+      <button class="group-chip" data-filter-id="nega-starost" data-sr="Nega i starost" data-en="Care and ageing" type="button">Nega i starost</button>
+      <button class="group-chip" data-filter-id="institucije" data-sr="Institucije" data-en="Institutions" type="button">Institucije</button>
+      <button class="group-chip" data-filter-id="biznis-administracija" data-sr="Biznis i administracija" data-en="Business and administration" type="button">Biznis i administracija</button>
+      <button class="group-chip" data-filter-id="zajednice-udruzenja" data-sr="Zajednice i udruženja" data-en="Communities and associations" type="button">Zajednice i udruženja</button>
+    </div>
 
-      <a href="guide-children.html" class="guide-card guide-card-link">
+    <div id="prevention-guide-grid" class="guide-grid guide-grid-3">
+      <a href="guide-children.html" class="guide-card guide-card-link" data-group-id="mladi" data-overlaps="mreze-poruke,kupovina-prodaja,digitalna-pismenost,posao-zarada">
         <div class="guide-card-body">
-          <h3 data-sr="Mladi" data-en="Young adults">Mladi</h3>
-          <p
-            data-sr="Visoka aktivnost na mrežama i otvorenost ka novim platformama povećavaju izloženost lažnim oglasima, kripto prevarama i fišingu."
-            data-en="High activity on social networks and openness to new platforms increase exposure to fake job ads, crypto scams, and phishing.">
-            Visoka aktivnost na mrežama i otvorenost ka novim platformama povećavaju izloženost lažnim oglasima, kripto prevarama i fišingu.
-          </p>
+          <h3 data-sr="Mladi" data-en="Young people">Mladi</h3>
+          <p data-sr="Brza komunikacija i visok tempo na mrežama povećavaju rizik od lažnih oglasa, naloga i poruka koje liče na svakodnevni sadržaj." data-en="Fast communication and high activity on social platforms increase exposure to fake job offers, fake accounts, and messages that look routine.">Brza komunikacija i visok tempo na mrežama povećavaju rizik od lažnih oglasa, naloga i poruka koje liče na svakodnevni sadržaj.</p>
+          <p class="muted" data-sr="Povezane grupe: Mreže i poruke, Kupovina i prodaja, Digitalna pismenost." data-en="Related groups: Networks and messages, Buying and selling, Digital literacy.">Povezane grupe: Mreže i poruke, Kupovina i prodaja, Digitalna pismenost.</p>
         </div>
       </a>
 
-      <a href="guide-adults.html" class="guide-card guide-card-link">
+      <a href="guide-adults.html" class="guide-card guide-card-link" data-group-id="odrasli" data-overlaps="porodice,posao-zarada,kupovina-prodaja,krizne-situacije">
         <div class="guide-card-body">
           <h3 data-sr="Odrasli" data-en="Adults">Odrasli</h3>
-          <p
-            data-sr="Aktivno korišćenje bankarskih usluga, oglasa i poslovnih platformi donosi izloženost bankarskim prevarama, prevarama na tržištu i lažnim fakturama."
-            data-en="Active use of banking, marketplaces, and business platforms brings exposure to bank scams, marketplace fraud, and fake invoices.">
-            Aktivno korišćenje bankarskih usluga, oglasa i poslovnih platformi donosi izloženost bankarskim prevarama, prevarama na tržištu i lažnim fakturama.
-          </p>
+          <p data-sr="Najčešće mete su poruke koje ulaze kroz banku, dostavu, posao i račune jer deluju kao deo dnevne rutine." data-en="Common attacks arrive through banks, deliveries, work, and billing because they look like part of normal daily routines.">Najčešće mete su poruke koje ulaze kroz banku, dostavu, posao i račune jer deluju kao deo dnevne rutine.</p>
+          <p class="muted" data-sr="Povezane grupe: Porodice, Posao i zarada, Biznis i administracija." data-en="Related groups: Families, Work and income, Business and administration.">Povezane grupe: Porodice, Posao i zarada, Biznis i administracija.</p>
         </div>
       </a>
 
-      <a href="guide-elderly.html" class="guide-card guide-card-link">
+      <a href="guide-families-households.html" class="guide-card guide-card-link" data-group-id="porodice" data-overlaps="stariji,odrasli,krizne-situacije,dijaspora-putovanja">
+        <div class="guide-card-body">
+          <h3 data-sr="Porodice" data-en="Families">Porodice</h3>
+          <p data-sr="Ista prevara često pogađa više članova domaćinstva kroz poruke o paketu, banci, hitnoj pomoći ili rodbini." data-en="The same scam often reaches multiple family members through parcel, bank, emergency, or fake-relative messages.">Ista prevara često pogađa više članova domaćinstva kroz poruke o paketu, banci, hitnoj pomoći ili rodbini.</p>
+          <p class="muted" data-sr="Povezane grupe: Stariji, Krizne situacije, Dijaspora i putovanja." data-en="Related groups: Elderly, Crisis situations, Diaspora and travel.">Povezane grupe: Stariji, Krizne situacije, Dijaspora i putovanja.</p>
+        </div>
+      </a>
+
+      <a href="guide-elderly.html" class="guide-card guide-card-link" data-group-id="stariji" data-overlaps="porodice,digitalna-pismenost,nega-starost,zdravstvo-socijala">
         <div class="guide-card-body">
           <h3 data-sr="Stariji" data-en="Elderly">Stariji</h3>
-          <p
-            data-sr="Prevaranti koriste poverenje u autoritete i hitnost kao psihološke alate — lažni bankarski pozivi, lažna tehnička podrška i prevare s isporukom."
-            data-en="Scammers exploit trust in authority and urgency as psychological tools — fake bank calls, fake technical support, and delivery scams.">
-            Prevaranti koriste poverenje u autoritete i hitnost kao psihološke alate — lažni bankarski pozivi, lažna tehnička podrška i prevare s isporukom.
-          </p>
+          <p data-sr="Prevaranti često koriste autoritet, hitnost i poverenje kroz lažne bankarske, medicinske i službene pozive." data-en="Scammers often exploit authority, urgency, and trust through fake bank, medical, and official calls.">Prevaranti često koriste autoritet, hitnost i poverenje kroz lažne bankarske, medicinske i službene pozive.</p>
+          <p class="muted" data-sr="Povezane grupe: Porodice, Digitalna pismenost, Nega i starost." data-en="Related groups: Families, Digital literacy, Care and ageing.">Povezane grupe: Porodice, Digitalna pismenost, Nega i starost.</p>
         </div>
+      </a>
+
+      <a href="ai-deepfake.html" class="guide-card guide-card-link" data-group-id="vestacka-inteligencija" data-overlaps="mladi,odrasli,stariji,mreze-poruke,posao-zarada,porodice">
+        <div class="guide-card-body">
+          <h3 data-sr="Veštačka inteligencija" data-en="Artificial intelligence">Veštačka inteligencija</h3>
+          <p data-sr="Sve više starih prevara danas dobija ubedljiviji glas, video, poruku ili lažni identitet uz pomoć veštačke inteligencije. Važno je da ne verujete samo utisku, već obrascu prevare i proveri drugim kanalom." data-en="More and more older scams now gain a more convincing voice, video, message, or fake identity through artificial intelligence. The key is not to trust the impression alone, but the scam pattern and verification through another channel.">Sve više starih prevara danas dobija ubedljiviji glas, video, poruku ili lažni identitet uz pomoć veštačke inteligencije. Važno je da ne verujete samo utisku, već obrascu prevare i proveri drugim kanalom.</p>
+          <p class="muted" data-sr="Povezane grupe: Mladi, Odrasli, Stariji, Mreže i poruke, Posao i zarada." data-en="Related groups: Young people, Adults, Elderly, Networks and messages, Work and income.">Povezane grupe: Mladi, Odrasli, Stariji, Mreže i poruke, Posao i zarada.</p>
+        </div>
+      </a>
+
+      <a href="deepfake-celebrity-endorsement-scam.html" class="guide-card guide-card-link" data-group-id="vestacka-inteligencija" data-overlaps="odrasli,posao-zarada,mreze-poruke">
+        <div class="guide-card-body">
+          <h3 data-sr="Lažna preporuka za ulaganje" data-en="Fake investment endorsement">Lažna preporuka za ulaganje</h3>
+          <p data-sr="Kratak snimak poznatog lica ili navodnog stručnjaka koristi se da oglasi lažnu platformu, bot ili posebnu investicionu priliku. Problem nije samo video, već odluka da se novac pošalje zbog utiska." data-en="A short clip of a familiar face or supposed expert is used to promote a fake platform, bot, or special investment opportunity. The danger is not only the clip itself, but the decision to send money because of the impression it creates.">Kratak snimak poznatog lica ili navodnog stručnjaka koristi se da oglasi lažnu platformu, bot ili posebnu investicionu priliku. Problem nije samo video, već odluka da se novac pošalje zbog utiska.</p>
+          <p class="muted" data-sr="Povezane grupe: Odrasli, Posao i zarada, Mreže i poruke." data-en="Related groups: Adults, Work and income, Networks and messages.">Povezane grupe: Odrasli, Posao i zarada, Mreže i poruke.</p>
+        </div>
+      </a>
+
+      <a href="ai-family-emergency-voice-scam.html" class="guide-card guide-card-link" data-group-id="vestacka-inteligencija" data-overlaps="porodice,stariji,krizne-situacije">
+        <div class="guide-card-body">
+          <h3 data-sr="Lažni glas člana porodice" data-en="Fake family voice">Lažni glas člana porodice</h3>
+          <p data-sr="Poziv zvuči kao dete, partner ili drugi član porodice koji traži hitnu pomoć, tajnost i brzu uplatu. Veštačka inteligencija ovde služi da porodična panika deluje još stvarnije." data-en="The call sounds like a child, partner, or another family member asking for urgent help, secrecy, and a fast payment. Artificial intelligence is used here to make family panic feel even more real.">Poziv zvuči kao dete, partner ili drugi član porodice koji traži hitnu pomoć, tajnost i brzu uplatu. Veštačka inteligencija ovde služi da porodična panika deluje još stvarnije.</p>
+          <p class="muted" data-sr="Povezane grupe: Porodice, Stariji, Krizne situacije." data-en="Related groups: Families, Elderly, Crisis situations.">Povezane grupe: Porodice, Stariji, Krizne situacije.</p>
+        </div>
+      </a>
+
+      <a href="deepfake-executive-video-call-scam.html" class="guide-card guide-card-link" data-group-id="vestacka-inteligencija" data-overlaps="biznis-administracija,institucije,posao-zarada">
+        <div class="guide-card-body">
+          <h3 data-sr="Lažni direktor ili rukovodilac" data-en="Fake executive or manager">Lažni direktor ili rukovodilac</h3>
+          <p data-sr="Glasovna poruka ili kratak video-poziv navodno dolazi od rukovodioca i traži hitan transfer, promenu računa ili slanje podataka. Zahtev prolazi jer deluje interno, poznato i vremenski osetljivo." data-en="A voice message or short video call appears to come from an executive and asks for an urgent transfer, an account change, or data release. The request works because it feels internal, familiar, and time-sensitive.">Glasovna poruka ili kratak video-poziv navodno dolazi od rukovodioca i traži hitan transfer, promenu računa ili slanje podataka. Zahtev prolazi jer deluje interno, poznato i vremenski osetljivo.</p>
+          <p class="muted" data-sr="Povezane grupe: Biznis i administracija, Institucije, Posao i zarada." data-en="Related groups: Business and administration, Institutions, Work and income.">Povezane grupe: Biznis i administracija, Institucije, Posao i zarada.</p>
+        </div>
+      </a>
+
+      <a href="deepfake-job-interview-scam.html" class="guide-card guide-card-link" data-group-id="vestacka-inteligencija" data-overlaps="mladi,posao-zarada,obrazovanje">
+        <div class="guide-card-body">
+          <h3 data-sr="Lažni video intervju" data-en="Fake job interview">Lažni video intervju</h3>
+          <p data-sr="Kandidat vidi lice iz firme ili navodnog regrutera i zaključuje da poslodavac postoji. Posle toga lakše prihvata slanje dokumenata, pristup nalogu ili uplatu za opremu, obuku ili verifikaciju." data-en="The candidate sees a company face or supposed recruiter and concludes that the employer must be real. After that, it becomes easier to accept document sharing, account access, or a payment for equipment, training, or verification.">Kandidat vidi lice iz firme ili navodnog regrutera i zaključuje da poslodavac postoji. Posle toga lakše prihvata slanje dokumenata, pristup nalogu ili uplatu za opremu, obuku ili verifikaciju.</p>
+          <p class="muted" data-sr="Povezane grupe: Mladi, Posao i zarada, Obrazovanje." data-en="Related groups: Young people, Work and income, Education.">Povezane grupe: Mladi, Posao i zarada, Obrazovanje.</p>
+        </div>
+      </a>
+
+      <a href="ai-romance-verification-scam.html" class="guide-card guide-card-link" data-group-id="vestacka-inteligencija" data-overlaps="mreze-poruke,mladi,odrasli">
+        <div class="guide-card-body">
+          <h3 data-sr="Romantični kontakt sa lažnom video potvrdom" data-en="Romance contact with fake video proof">Romantični kontakt sa lažnom video potvrdom</h3>
+          <p data-sr="Sumnjiv kontakt pošalje kratak video ili obavi vrlo kratak poziv da ukloni sumnju. Posle toga kreće poznati obrazac: emotivna bliskost, kriza, verifikacija, novac ili investiciona priča." data-en="A suspicious contact sends a short video or does a very short call to remove doubt. After that, the familiar pattern starts: emotional closeness, crisis, verification, money, or an investment story.">Sumnjiv kontakt pošalje kratak video ili obavi vrlo kratak poziv da ukloni sumnju. Posle toga kreće poznati obrazac: emotivna bliskost, kriza, verifikacija, novac ili investiciona priča.</p>
+          <p class="muted" data-sr="Povezane grupe: Mreže i poruke, Mladi, Odrasli." data-en="Related groups: Networks and messages, Young people, Adults.">Povezane grupe: Mreže i poruke, Mladi, Odrasli.</p>
+        </div>
+      </a>
+
+      <a href="ai-multilingual-authority-scam.html" class="guide-card guide-card-link" data-group-id="vestacka-inteligencija" data-overlaps="dijaspora-putovanja,institucije,krizne-situacije">
+        <div class="guide-card-body">
+          <h3 data-sr="Lažni autoritet na više jezika" data-en="Fake multilingual authority">Lažni autoritet na više jezika</h3>
+          <p data-sr="Pozivalac prelazi sa jednog jezika na drugi i glumi službenika koji radi sa putovanjem, pošiljkom, kaznom ili dokumentima. Višejezičnost i službeni ton stvaraju utisak da osoba zaista pripada sistemu." data-en="The caller switches between languages and poses as an official dealing with travel, a shipment, a fine, or documents. The multilingual delivery and official tone create the impression that the person really belongs to the system.">Pozivalac prelazi sa jednog jezika na drugi i glumi službenika koji radi sa putovanjem, pošiljkom, kaznom ili dokumentima. Višejezičnost i službeni ton stvaraju utisak da osoba zaista pripada sistemu.</p>
+          <p class="muted" data-sr="Povezane grupe: Dijaspora i putovanja, Institucije, Krizne situacije." data-en="Related groups: Diaspora and travel, Institutions, Crisis situations.">Povezane grupe: Dijaspora i putovanja, Institucije, Krizne situacije.</p>
+        </div>
+      </a>
+
+      <a href="charity-scam.html" class="guide-card guide-card-link" data-group-id="vestacka-inteligencija" data-overlaps="zajednice-udruzenja,porodice,krizne-situacije">
+        <div class="guide-card-body">
+          <h3 data-sr="Lažni humanitarni apel" data-en="Fake donation appeal">Lažni humanitarni apel</h3>
+          <p data-sr="Snimak navodnog svedoka, roditelja, organizatora ili poznatog lica koristi se da apel deluje hitnije i emotivnije. Cilj ostaje isti: brza uplata pre nego što se proveri ko zaista stoji iza akcije." data-en="A clip of a supposed witness, parent, organiser, or familiar face is used to make the appeal feel more urgent and emotional. The goal stays the same: a fast donation before anyone verifies who is really behind the campaign.">Snimak navodnog svedoka, roditelja, organizatora ili poznatog lica koristi se da apel deluje hitnije i emotivnije. Cilj ostaje isti: brza uplata pre nego što se proveri ko zaista stoji iza akcije.</p>
+          <p class="muted" data-sr="Povezane grupe: Zajednice i udruženja, Porodice, Krizne situacije." data-en="Related groups: Communities and associations, Families, Crisis situations.">Povezane grupe: Zajednice i udruženja, Porodice, Krizne situacije.</p>
+        </div>
+      </a>
+
+      <a href="sextortion-scam.html" class="guide-card guide-card-link" data-group-id="vestacka-inteligencija" data-overlaps="mreze-poruke,mladi,krizne-situacije">
+        <div class="guide-card-body">
+          <h3 data-sr="Lažni kompromitujući snimak" data-en="Fake compromising clip">Lažni kompromitujući snimak</h3>
+          <p data-sr="Žrtvi se šalje navodni dokaz koji treba da izazove sramotu, strah ili paniku. Nekad je snimak potpuno izmišljen, nekad delimično montiran, ali cilj je isti: da osoba plati pre nego što zastane i proveri." data-en="The victim receives supposed proof designed to trigger shame, fear, or panic. Sometimes the clip is fully fabricated, sometimes partly altered, but the goal is the same: get the person to pay before they stop and verify.">Žrtvi se šalje navodni dokaz koji treba da izazove sramotu, strah ili paniku. Nekad je snimak potpuno izmišljen, nekad delimično montiran, ali cilj je isti: da osoba plati pre nego što zastane i proveri.</p>
+          <p class="muted" data-sr="Povezane grupe: Mreže i poruke, Mladi, Krizne situacije." data-en="Related groups: Networks and messages, Young people, Crisis situations.">Povezane grupe: Mreže i poruke, Mladi, Krizne situacije.</p>
+        </div>
+      </a>
+
+      <a href="guide-job-seekers-students.html" class="guide-card guide-card-link" data-group-id="posao-zarada" data-overlaps="mladi,odrasli,biznis-administracija,krizne-situacije">
+        <div class="guide-card-body">
+          <h3 data-sr="Posao i zarada" data-en="Work and income">Posao i zarada</h3>
+          <p data-sr="Lažni oglasi za posao, brzu zaradu i obuku često traže uplatu, dokumenta ili pristup nalogu pre bilo kakvog realnog angažmana." data-en="Fake job ads, quick-income schemes, and training offers often request payments, documents, or account access before any real engagement.">Lažni oglasi za posao, brzu zaradu i obuku često traže uplatu, dokumenta ili pristup nalogu pre bilo kakvog realnog angažmana.</p>
+          <p class="muted" data-sr="Povezane grupe: Mladi, Odrasli, Biznis i administracija." data-en="Related groups: Young people, Adults, Business and administration.">Povezane grupe: Mladi, Odrasli, Biznis i administracija.</p>
+        </div>
+      </a>
+
+      <a href="guide-online-buyers-sellers.html" class="guide-card guide-card-link" data-group-id="kupovina-prodaja" data-overlaps="mladi,odrasli,mreze-poruke,dijaspora-putovanja">
+        <div class="guide-card-body">
+          <h3 data-sr="Kupovina i prodaja" data-en="Buying and selling">Kupovina i prodaja</h3>
+          <p data-sr="Marketplace prevare najčešće ulaze kroz lažne kurire, avanse, povraćaje i QR linkove koji glume zaštitu platforme." data-en="Marketplace scams most often arrive through fake couriers, deposits, refund tricks, and QR links disguised as platform protection.">Marketplace prevare najčešće ulaze kroz lažne kurire, avanse, povraćaje i QR linkove koji glume zaštitu platforme.</p>
+          <p class="muted" data-sr="Povezane grupe: Mladi, Odrasli, Mreže i poruke." data-en="Related groups: Young people, Adults, Networks and messages.">Povezane grupe: Mladi, Odrasli, Mreže i poruke.</p>
+        </div>
+      </a>
+
+      <a href="guide-social-media-messaging.html" class="guide-card guide-card-link" data-group-id="mreze-poruke" data-overlaps="mladi,digitalna-pismenost,kupovina-prodaja,porodice">
+        <div class="guide-card-body">
+          <h3 data-sr="Mreže i poruke" data-en="Networks and messages">Mreže i poruke</h3>
+          <p data-sr="Prevara često počinje u DM-u, grupi ili privatnoj poruci, pa se zatim preliva na lažne linkove, kodove i zahteve za novac." data-en="Scams often start in DMs, groups, or private messages, then move into fake links, codes, and money requests.">Prevara često počinje u DM-u, grupi ili privatnoj poruci, pa se zatim preliva na lažne linkove, kodove i zahteve za novac.</p>
+          <p class="muted" data-sr="Povezane grupe: Mladi, Digitalna pismenost, Kupovina i prodaja." data-en="Related groups: Young people, Digital literacy, Buying and selling.">Povezane grupe: Mladi, Digitalna pismenost, Kupovina i prodaja.</p>
+        </div>
+      </a>
+
+      <a href="guide-crisis-stress.html" class="guide-card guide-card-link" data-group-id="krizne-situacije" data-overlaps="porodice,stariji,posao-zarada,zdravstvo-socijala">
+        <div class="guide-card-body">
+          <h3 data-sr="Krizne situacije" data-en="Crisis situations">Krizne situacije</h3>
+          <p data-sr="U trenucima straha, bolesti, duga ili pritiska raste šansa da poruka autoriteta prođe bez provere." data-en="In moments of fear, illness, debt, or pressure, authority-based messages are more likely to pass without checks.">U trenucima straha, bolesti, duga ili pritiska raste šansa da poruka autoriteta prođe bez provere.</p>
+          <p class="muted" data-sr="Povezane grupe: Porodice, Stariji, Zdravstvo i socijala." data-en="Related groups: Families, Elderly, Health and social support.">Povezane grupe: Porodice, Stariji, Zdravstvo i socijala.</p>
+        </div>
+      </a>
+
+      <a href="guide-diaspora-families.html" class="guide-card guide-card-link" data-group-id="dijaspora-putovanja" data-overlaps="porodice,kupovina-prodaja,krizne-situacije,mreze-poruke">
+        <div class="guide-card-body">
+          <h3 data-sr="Dijaspora i putovanja" data-en="Diaspora and travel">Dijaspora i putovanja</h3>
+          <p data-sr="Prekogranična komunikacija, transferi i putna dokumenta često se zloupotrebljavaju kroz hitne i emotivne poruke." data-en="Cross-border communication, transfers, and travel documents are often abused through urgent and emotional messages.">Prekogranična komunikacija, transferi i putna dokumenta često se zloupotrebljavaju kroz hitne i emotivne poruke.</p>
+          <p class="muted" data-sr="Povezane grupe: Porodice, Kupovina i prodaja, Krizne situacije." data-en="Related groups: Families, Buying and selling, Crisis situations.">Povezane grupe: Porodice, Kupovina i prodaja, Krizne situacije.</p>
+        </div>
+      </a>
+
+      <a href="guide-schools-education.html" class="guide-card guide-card-link" data-group-id="obrazovanje" data-overlaps="mladi,porodice,institucije,digitalna-pismenost">
+        <div class="guide-card-body">
+          <h3 data-sr="Obrazovanje" data-en="Education">Obrazovanje</h3>
+          <p data-sr="Škole, fakulteti i obuke često su meta poruka koje glume obaveštenja o uplati, pristupu nalogu ili konkursu." data-en="Schools, universities, and training programmes are often targeted by messages impersonating payment, account access, or application notices.">Škole, fakulteti i obuke često su meta poruka koje glume obaveštenja o uplati, pristupu nalogu ili konkursu.</p>
+          <p class="muted" data-sr="Povezane grupe: Mladi, Porodice, Institucije." data-en="Related groups: Young people, Families, Institutions.">Povezane grupe: Mladi, Porodice, Institucije.</p>
+        </div>
+      </a>
+
+      <a href="guide-urgent-public-facing-cases.html" class="guide-card guide-card-link" data-group-id="zdravstvo-socijala" data-overlaps="stariji,krizne-situacije,nega-starost,institucije">
+        <div class="guide-card-body">
+          <h3 data-sr="Zdravstvo i socijala" data-en="Health and social support">Zdravstvo i socijala</h3>
+          <p data-sr="Medicinske i socijalne teme nose visok emotivni pritisak, pa lažni troškovi, hitni pozivi i lažni službenici deluju ubedljivo." data-en="Health and social-support themes carry strong emotional pressure, making fake costs, urgent calls, and fake officials more convincing.">Medicinske i socijalne teme nose visok emotivni pritisak, pa lažni troškovi, hitni pozivi i lažni službenici deluju ubedljivo.</p>
+          <p class="muted" data-sr="Povezane grupe: Stariji, Krizne situacije, Nega i starost." data-en="Related groups: Elderly, Crisis situations, Care and ageing.">Povezane grupe: Stariji, Krizne situacije, Nega i starost.</p>
+        </div>
+      </a>
+
+      <a href="guide-care-homes-nursing.html" class="guide-card guide-card-link" data-group-id="nega-starost" data-overlaps="stariji,zdravstvo-socijala,porodice,institucije">
+        <div class="guide-card-body">
+          <h3 data-sr="Nega i starost" data-en="Care and ageing">Nega i starost</h3>
+          <p data-sr="U ustanovama nege i kućnoj brizi prevara često ulazi kroz lažne rođake, lažne medicinske troškove i lažno predstavljanje autoriteta." data-en="In care facilities and home care, scams often enter through fake relatives, fake medical costs, and authority impersonation.">U ustanovama nege i kućnoj brizi prevara često ulazi kroz lažne rođake, lažne medicinske troškove i lažno predstavljanje autoriteta.</p>
+          <p class="muted" data-sr="Povezane grupe: Stariji, Zdravstvo i socijala, Porodice." data-en="Related groups: Elderly, Health and social support, Families.">Povezane grupe: Stariji, Zdravstvo i socijala, Porodice.</p>
+        </div>
+      </a>
+
+      <a href="guide-institutions-public-services.html" class="guide-card guide-card-link" data-group-id="institucije" data-overlaps="biznis-administracija,obrazovanje,zdravstvo-socijala,zajednice-udruzenja">
+        <div class="guide-card-body">
+          <h3 data-sr="Institucije" data-en="Institutions">Institucije</h3>
+          <p data-sr="Službeni dopisi, rokovi i veliki broj zahteva olakšavaju lažno predstavljanje, fišing i lažne naloge za uplatu." data-en="Official notices, deadlines, and high request volume make impersonation, phishing, and fake payment orders easier to execute.">Službeni dopisi, rokovi i veliki broj zahteva olakšavaju lažno predstavljanje, fišing i lažne naloge za uplatu.</p>
+          <p class="muted" data-sr="Povezane grupe: Biznis i administracija, Obrazovanje, Zdravstvo i socijala." data-en="Related groups: Business and administration, Education, Health and social support.">Povezane grupe: Biznis i administracija, Obrazovanje, Zdravstvo i socijala.</p>
+        </div>
+      </a>
+
+      <a href="guide-small-business-entrepreneurs.html" class="guide-card guide-card-link" data-group-id="biznis-administracija" data-overlaps="institucije,posao-zarada,kupovina-prodaja,zajednice-udruzenja">
+        <div class="guide-card-body">
+          <h3 data-sr="Biznis i administracija" data-en="Business and administration">Biznis i administracija</h3>
+          <p data-sr="Lažne fakture, promene računa dobavljača i hitni zahtevi nadređenih prolaze kada poruka izgleda kao redovan poslovni tok." data-en="Fake invoices, supplier account-change requests, and urgent executive demands succeed when they look like regular business workflow.">Lažne fakture, promene računa dobavljača i hitni zahtevi nadređenih prolaze kada poruka izgleda kao redovan poslovni tok.</p>
+          <p class="muted" data-sr="Povezane grupe: Institucije, Posao i zarada, Zajednice i udruženja." data-en="Related groups: Institutions, Work and income, Communities and associations.">Povezane grupe: Institucije, Posao i zarada, Zajednice i udruženja.</p>
+        </div>
+      </a>
+
+      <a href="guide-donors-helpers.html" class="guide-card guide-card-link" data-group-id="zajednice-udruzenja" data-overlaps="institucije,biznis-administracija,porodice,krizne-situacije">
+        <div class="guide-card-body">
+          <h3 data-sr="Zajednice i udruženja" data-en="Communities and associations">Zajednice i udruženja</h3>
+          <p data-sr="Lokalna poverenja i zajedničke akcije često se zloupotrebljavaju kroz lažne humanitarne kampanje i lažne naloge za uplatu." data-en="Local trust and community initiatives are often abused through fake humanitarian campaigns and fake payment requests.">Lokalna poverenja i zajedničke akcije često se zloupotrebljavaju kroz lažne humanitarne kampanje i lažne naloge za uplatu.</p>
+          <p class="muted" data-sr="Povezane grupe: Institucije, Biznis i administracija, Porodice." data-en="Related groups: Institutions, Business and administration, Families.">Povezane grupe: Institucije, Biznis i administracija, Porodice.</p>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <section class="hub-section">
+    <h2
+      data-sr="Kako prevare ulaze u službene procese"
+      data-en="How scams enter official workflows">
+      Kako prevare ulaze u službene procese
+    </h2>
+    <p class="muted"
+       data-sr="Organizacije koje rade sa velikim brojem zahteva, rokova, dopisa, partnera i osetljivih podataka često su meta poruka koje izgledaju kao deo redovnog procesa."
+       data-en="Organisations that handle large volumes of requests, deadlines, notices, partners, and sensitive data are often targeted by messages that look like part of routine workflow.">
+      Organizacije koje rade sa velikim brojem zahteva, rokova, dopisa, partnera i osetljivih podataka često su meta poruka koje izgledaju kao deo redovnog procesa.
+    </p>
+    <div class="situation-grid">
+
+      <a href="guide-applications-grants-subsidies.html" class="situation-card">
+        <div class="situation-label" data-sr="Konkursi i prijave" data-en="Applications and calls">Konkursi i prijave</div>
+        <p
+          data-sr="Prijave, dopune dokumentacije i kratki rokovi otvaraju prostor za lažne portale, lažne zahteve za dopunu i hitne verifikacije naloga."
+          data-en="Applications, document updates, and short deadlines create room for fake portals, fake follow-up requests, and urgent account verification scams.">
+          Prijave, dopune dokumentacije i kratki rokovi otvaraju prostor za lažne portale, lažne zahteve za dopunu i hitne verifikacije naloga.
+        </p>
+      </a>
+
+      <a href="guide-official-notices-alignment.html" class="situation-card">
+        <div class="situation-label" data-sr="Službeni dopisi" data-en="Official notices">Službeni dopisi</div>
+        <p
+          data-sr="Veliki broj formalnih obaveštenja i priloga povećava rizik od lažnih dopisa i poruka koje traže potvrdu podataka ili otvaranje dokumenta."
+          data-en="A high volume of formal notices and attachments increases the risk of fake official messages that ask for data confirmation or document opening.">
+          Veliki broj formalnih obaveštenja i priloga povećava rizik od lažnih dopisa i poruka koje traže potvrdu podataka ili otvaranje dokumenta.
+        </p>
+      </a>
+
+      <a href="guide-invoices-suppliers-account-changes.html" class="situation-card">
+        <div class="situation-label" data-sr="Fakture i računi" data-en="Invoices and account changes">Fakture i računi</div>
+        <p
+          data-sr="Kada postoji više partnera, dobavljača i uplata, lažne fakture i poruke o promeni računa lako liče na redovnu poslovnu komunikaciju."
+          data-en="When there are multiple partners, suppliers, and payments, fake invoices and account-change requests can easily resemble routine business communication.">
+          Kada postoji više partnera, dobavljača i uplata, lažne fakture i poruke o promeni računa lako liče na redovnu poslovnu komunikaciju.
+        </p>
+      </a>
+
+      <a href="guide-urgent-executive-requests.html" class="situation-card">
+        <div class="situation-label" data-sr="Hitni zahtevi" data-en="Urgent executive requests">Hitni zahtevi</div>
+        <p
+          data-sr="Autoritet i vremenski pritisak često služe da se zatraže hitna uplata, slanje podataka ili otvaranje fajla bez uobičajene provere."
+          data-en="Authority and time pressure are often used to trigger urgent payments, data sharing, or file opening without standard verification.">
+          Autoritet i vremenski pritisak često služe da se zatraže hitna uplata, slanje podataka ili otvaranje fajla bez uobičajene provere.
+        </p>
+      </a>
+
+      <a href="guide-partners-projects-international-cooperation.html" class="situation-card">
+        <div class="situation-label" data-sr="Partneri i projekti" data-en="Partners and projects">Partneri i projekti</div>
+        <p
+          data-sr="Ponude za saradnju, finansiranje ili pristup novim platformama mogu biti zloupotrebljene kroz lažno predstavljanje partnera, savetnika ili projektnih kontakata."
+          data-en="Offers of cooperation, funding, or access to new platforms can be abused through impersonation of partners, advisers, or project contacts.">
+          Ponude za saradnju, finansiranje ili pristup novim platformama mogu biti zloupotrebljene kroz lažno predstavljanje partnera, savetnika ili projektnih kontakata.
+        </p>
+      </a>
+
+      <a href="guide-access-security-checks.html" class="situation-card">
+        <div class="situation-label" data-sr="Pristup i verifikacija" data-en="Access and verification">Pristup i verifikacija</div>
+        <p
+          data-sr="Poruke o isteku pristupa, resetu lozinke, incidentu ili novoj bezbednosnoj proveri često vode na lažne login stranice."
+          data-en="Messages about expiring access, password resets, incidents, or new security checks often lead to fake login pages.">
+          Poruke o isteku pristupa, resetu lozinke, incidentu ili novoj bezbednosnoj proveri često vode na lažne login stranice.
+        </p>
+      </a>
+
+      <a href="guide-urgent-public-facing-cases.html" class="situation-card">
+        <div class="situation-label" data-sr="Hitne situacije" data-en="Urgent public-facing cases">Hitne situacije</div>
+        <p
+          data-sr="Hitne poruke, žalbe, molbe i navodna dokumentacija mogu biti iskorišćeni kao mamac za klik, dostavljanje podataka ili otvaranje zaraženog priloga."
+          data-en="Urgent complaints, requests, and supposed supporting documents can be used as bait to trigger clicks, data sharing, or opening infected attachments.">
+          Hitne poruke, žalbe, molbe i navodna dokumentacija mogu biti iskorišćeni kao mamac za klik, dostavljanje podataka ili otvaranje zaraženog priloga.
+        </p>
+      </a>
+
+      <a href="guide-local-offices-field-teams.html" class="situation-card">
+        <div class="situation-label" data-sr="Lokalne kancelarije" data-en="Local offices and field teams">Lokalne kancelarije</div>
+        <p
+          data-sr="Sistemi sa više ispostava i lokalnih kontakata mogu biti posebno izloženi lažnom internom predstavljanju, spoofingu i hitnim zahtevima između kancelarija."
+          data-en="Systems with multiple offices and local contacts can be especially exposed to internal impersonation, spoofing, and urgent cross-office requests.">
+          Sistemi sa više ispostava i lokalnih kontakata mogu biti posebno izloženi lažnom internom predstavljanju, spoofingu i hitnim zahtevima između kancelarija.
+        </p>
+      </a>
+
+      <a href="guide-tenders-document-updates.html" class="situation-card">
+        <div class="situation-label" data-sr="Tenderi i ponude" data-en="Tenders and submissions">Tenderi i ponude</div>
+        <p
+          data-sr="Kada rokovi i formalni uslovi odlučuju o postupku, lažni zahtevi za dopunu, korekciju ili prijavu na portal mogu delovati veoma ubedljivo."
+          data-en="When deadlines and formal requirements shape the process, fake requests for updates, corrections, or portal sign-ins can look very convincing.">
+          Kada rokovi i formalni uslovi odlučuju o postupku, lažni zahtevi za dopunu, korekciju ili prijavu na portal mogu delovati veoma ubedljivo.
+        </p>
+      </a>
+
+      <a href="guide-sensitive-data-records.html" class="situation-card">
+        <div class="situation-label" data-sr="Osetljivi podaci" data-en="Sensitive records">Osetljivi podaci</div>
+        <p
+          data-sr="Službe koje obrađuju lične, finansijske ili druge osetljive podatke često su meta poruka koje glume tehničko usklađivanje ili službenu proveru evidencije."
+          data-en="Services that handle personal, financial, or other sensitive data are often targeted by messages that mimic technical synchronisation or official record checks.">
+          Službe koje obrađuju lične, finansijske ili druge osetljive podatke često su meta poruka koje glume tehničko usklađivanje ili službenu proveru evidencije.
+        </p>
       </a>
 
     </div>
   </section>
 
-  <!-- KAKO PREVARE POČINJU U STVARNOM ŽIVOTU -->
+  <section class="hub-section">
+    <h2
+      data-sr="Kako veštačka inteligencija pojačava stare prevare"
+      data-en="How artificial intelligence amplifies older scams">
+      Kako veštačka inteligencija pojačava stare prevare
+    </h2>
+    <p class="muted"
+       data-sr="Veštačka inteligencija postaje jedan od glavnih alata savremenih prevara jer prevarantima omogućava da stare obrasce obmane učine ubedljivijim kroz glas, video, poruke, slike i lažno predstavljanje identiteta. Ono što je ranije često zvučalo trapavo, danas može delovati smireno, prirodno i ubedljivo već u prvom kontaktu."
+       data-en="Artificial intelligence is becoming one of the main tools behind modern scams because it allows scammers to make older fraud patterns more convincing through voice, video, messages, images, and identity impersonation. What once sounded clumsy can now appear calm, natural, and believable from the very first contact.">
+      Veštačka inteligencija postaje jedan od glavnih alata savremenih prevara jer prevarantima omogućava da stare obrasce obmane učine ubedljivijim kroz glas, video, poruke, slike i lažno predstavljanje identiteta. Ono što je ranije često zvučalo trapavo, danas može delovati smireno, prirodno i ubedljivo već u prvom kontaktu.
+    </p>
+    <p
+      data-sr="To znači da utisak stvarnosti sve manje vredi kao zaštita. Glas može zvučati poznato, video može delovati kao dokaz, a poruka može izgledati kao da ju je napisala prava banka, firma, institucija ili bliska osoba. Zbog toga će sve više klasičnih prevara dobijati ovaj sloj: porodične hitne situacije, lažni bankarski pozivi, prevare sa poslom, lažne fakture, romantične prevare i investicione ponude."
+      data-en="That means the impression of something being real is becoming less reliable as protection. A voice can sound familiar, a video can feel like proof, and a message can look as if it came from a real bank, company, institution, or someone close to you. Because of that, more and more classic scams will gain this layer: family emergencies, fake bank calls, job scams, fake invoices, romance scams, and investment pitches.">
+      To znači da utisak stvarnosti sve manje vredi kao zaštita. Glas može zvučati poznato, video može delovati kao dokaz, a poruka može izgledati kao da ju je napisala prava banka, firma, institucija ili bliska osoba. Zbog toga će sve više klasičnih prevara dobijati ovaj sloj: porodične hitne situacije, lažni bankarski pozivi, prevare sa poslom, lažne fakture, romantične prevare i investicione ponude.
+    </p>
+    <p
+      data-sr="Suština prevare ipak ostaje ista: panika, autoritet, hitnost, emotivni pritisak, izolacija od provere i zahtev za uplatu, kod, dokument ili pristup nalogu. Zato je važno da ljudi razumeju sledeće: ne ulazimo u potpuno novu vrstu obmane, već u fazu u kojoj stari modeli postaju ubedljiviji, brži i teži za prepoznavanje na prvi pogled. Upravo zato obrazac prevare postaje važniji od samog utiska koji glas, slika ili video ostavljaju."
+      data-en="The core scam pattern still stays the same: panic, authority, urgency, emotional pressure, isolation from verification, and a demand for payment, a code, a document, or account access. That is the key point people need to understand: this is not a completely new kind of fraud, but a stage in which older models are becoming more convincing, faster, and harder to recognise at first glance. That is exactly why the scam pattern matters more than the impression created by a voice, an image, or a video.">
+      Suština prevare ipak ostaje ista: panika, autoritet, hitnost, emotivni pritisak, izolacija od provere i zahtev za uplatu, kod, dokument ili pristup nalogu. Zato je važno da ljudi razumeju sledeće: ne ulazimo u potpuno novu vrstu obmane, već u fazu u kojoj stari modeli postaju ubedljiviji, brži i teži za prepoznavanje na prvi pogled. Upravo zato obrazac prevare postaje važniji od samog utiska koji glas, slika ili video ostavljaju.
+    </p>
+    <div class="pattern-list">
+      <div class="pattern-item">
+        <div class="pattern-name" data-sr="Šta to znači" data-en="What this means">Šta to znači</div>
+        <p data-sr="Prevaranti mogu da naprave glas koji liči na člana porodice, direktora, bankarskog službenika ili drugog autoriteta. Mogu da koriste lažan ili izmenjen video i da napišu poruke koje deluju prirodnije i profesionalnije nego ranije." data-en="Scammers can create a voice that sounds like a family member, an executive, a bank employee, or another authority figure. They can use fake or altered video and write messages that feel more natural and professional than before.">Prevaranti mogu da naprave glas koji liči na člana porodice, direktora, bankarskog službenika ili drugog autoriteta. Mogu da koriste lažan ili izmenjen video i da napišu poruke koje deluju prirodnije i profesionalnije nego ranije.</p>
+      </div>
+      <div class="pattern-item">
+        <div class="pattern-name" data-sr="Zašto je opasnije" data-en="Why it is more dangerous">Zašto je opasnije</div>
+        <p data-sr="Glas može zvučati poznato, video može delovati kao dokaz, a poruke više ne moraju imati očigledne greške. Ljudi zato lakše poveruju utisku nego redovnoj proveri." data-en="A voice can sound familiar, a video can feel like proof, and messages no longer need obvious mistakes. Because of that, people more easily trust the impression instead of the normal verification process.">Glas može zvučati poznato, video može delovati kao dokaz, a poruke više ne moraju imati očigledne greške. Ljudi zato lakše poveruju utisku nego redovnoj proveri.</p>
+      </div>
+      <div class="pattern-item">
+        <div class="pattern-name" data-sr="Šta ostaje isto" data-en="What stays the same">Šta ostaje isto</div>
+        <p data-sr="I dalje se traže hitnost, tajnost, autoritet i emotivna reakcija. I dalje sledi ista ključna radnja: uplata, slanje koda, slanje dokumenta, prijava na lažni sajt ili potvrda u aplikaciji." data-en="Urgency, secrecy, authority, and emotional pressure still appear. The same key action still follows: a payment, code sharing, document upload, login on a fake site, or in-app approval.">I dalje se traže hitnost, tajnost, autoritet i emotivna reakcija. I dalje sledi ista ključna radnja: uplata, slanje koda, slanje dokumenta, prijava na lažni sajt ili potvrda u aplikaciji.</p>
+      </div>
+      <div class="pattern-item">
+        <div class="pattern-name" data-sr="Kako da proveriš" data-en="How to verify">Kako da proveriš</div>
+        <p data-sr="Ne veruj samo glasu, slici, videu ili dobro napisanoj poruci. Prekini razgovor, pozovi poznat broj, proveri domen, otvori zvaničnu aplikaciju samostalno i traži drugi kanal potvrde pre bilo kakve uplate ili slanja podataka." data-en="Do not trust only a voice, an image, a video, or a polished message. End the conversation, call a known number, check the domain, open the official app yourself, and use a second confirmation channel before any payment or data sharing.">Ne veruj samo glasu, slici, videu ili dobro napisanoj poruci. Prekini razgovor, pozovi poznat broj, proveri domen, otvori zvaničnu aplikaciju samostalno i traži drugi kanal potvrde pre bilo kakve uplate ili slanja podataka.</p>
+      </div>
+    </div>
+    <div class="situation-grid">
+      <a href="ai-family-emergency-voice-scam.html" class="situation-card">
+        <div class="situation-label" data-sr="Glas člana porodice" data-en="A family member’s voice">Glas člana porodice</div>
+        <p data-sr="Kloniran glas člana porodice može da pojača staru prevaru sa hitnom porodičnom situacijom, ali cilj ostaje isti: da vas natera na hitnu uplatu pre nego što pozovete poznat broj." data-en="A cloned family voice can strengthen the old family emergency scam, but the goal stays the same: push you into an urgent payment before you call a known number.">Kloniran glas člana porodice može da pojača staru prevaru sa hitnom porodičnom situacijom, ali cilj ostaje isti: da vas natera na hitnu uplatu pre nego što pozovete poznat broj.</p>
+      </a>
+      <a href="ai-executive-voice-payment-scam.html" class="situation-card">
+        <div class="situation-label" data-sr="Glas direktora" data-en="An executive’s voice">Glas direktora</div>
+        <p data-sr="U firmama se stari obrazac prevare u ime direktora sada često pojačava kloniranim glasom ili kratkim lažnim pozivom koji treba da preskoči proceduru i ubrza uplatu." data-en="In companies, the old CEO fraud pattern is now often reinforced with a cloned voice or a short fake call designed to skip procedure and speed up payment.">U firmama se stari obrazac prevare u ime direktora sada često pojačava kloniranim glasom ili kratkim lažnim pozivom koji treba da preskoči proceduru i ubrza uplatu.</p>
+      </a>
+      <a href="ai-invoice-approval-scam.html" class="situation-card">
+        <div class="situation-label" data-sr="Lažno odobrenje" data-en="Fake approval">Lažno odobrenje</div>
+        <p data-sr="Kod faktura i promena računa veštačka inteligencija često služi kao lažna potvrda da je nešto odobreno ili provereno, iako je cilj i dalje da novac ode na pogrešan račun." data-en="With invoices and account changes, artificial intelligence often acts as fake proof that something was approved or checked, even though the goal is still to send money to the wrong account.">Kod faktura i promena računa veštačka inteligencija često služi kao lažna potvrda da je nešto odobreno ili provereno, iako je cilj i dalje da novac ode na pogrešan račun.</p>
+      </a>
+      <a href="ai-romance-verification-scam.html" class="situation-card">
+        <div class="situation-label" data-sr="Lažni video dokaz" data-en="Fake video proof">Lažni video dokaz</div>
+        <p data-sr="Kod romantičnih prevara lažni ili izmenjeni video često služi da ukloni poslednju sumnju da osoba ne postoji. Posle toga kreću zahtevi za novac, pomoć ili verifikaciju." data-en="In romance scams, a fake or altered video often removes the last doubt that the person might not be real. After that come requests for money, help, or verification.">Kod romantičnih prevara lažni ili izmenjeni video često služi da ukloni poslednju sumnju da osoba ne postoji. Posle toga kreću zahtevi za novac, pomoć ili verifikaciju.</p>
+      </a>
+      <a href="deepfake-job-interview-scam.html" class="situation-card">
+        <div class="situation-label" data-sr="Lažni intervju" data-en="Fake interview">Lažni intervju</div>
+        <p data-sr="Kod poslova i regrutovanja video razgovor može izgledati kao dokaz da firma postoji, ali obrazac ostaje isti: traže dokumenta, pristup nalogu ili uplatu pre proverljivog ugovora." data-en="In jobs and recruitment, a video interview can look like proof that the company is real, but the pattern stays the same: they ask for documents, account access, or payment before there is a verifiable contract.">Kod poslova i regrutovanja video razgovor može izgledati kao dokaz da firma postoji, ali obrazac ostaje isti: traže dokumenta, pristup nalogu ili uplatu pre proverljivog ugovora.</p>
+      </a>
+      <a href="ai-deepfake.html" class="situation-card">
+        <div class="situation-label" data-sr="Lažni snimci i lažni dokaz" data-en="Fake clips and fake proof">Lažni snimci i lažni dokaz</div>
+        <p data-sr="Najvažnije pravilo je da ne jurite savršeno prepoznavanje snimka. Važnije je da prepoznate obrazac: hitnost, autoritet, tajnost i zahtev da verujete snimku više nego proveri." data-en="The most important rule is not to chase perfect deepfake detection. It is more important to recognise the pattern: urgency, authority, secrecy, and a demand that you trust the clip more than verification.">Najvažnije pravilo je da ne jurite savršeno prepoznavanje snimka. Važnije je da prepoznate obrazac: hitnost, autoritet, tajnost i zahtev da verujete snimku više nego proveri.</p>
+      </a>
+    </div>
+  </section>
+
   <section class="hub-section">
     <h2
       data-sr="Kako prevare počinju u stvarnom životu"
@@ -96,126 +445,63 @@
       Kako prevare počinju u stvarnom životu
     </h2>
     <div class="situation-grid">
-
       <a href="phishing.html" class="situation-card">
         <div class="situation-label" data-sr="Fišing" data-en="Phishing">Fišing</div>
-        <p
-          data-sr="Poruka ili imejl koji glumi banku, dostavu ili servis — link vodi na lažnu stranicu za unos lozinke, kartice ili koda."
-          data-en="A message or email impersonating a bank, delivery service, or platform — the link leads to a fake page for entering a password, card number, or code.">
-          Poruka ili imejl koji glumi banku, dostavu ili servis — link vodi na lažnu stranicu za unos lozinke, kartice ili koda.
-        </p>
+        <p data-sr="Poruka ili imejl koji glumi banku, dostavu ili servis — link vodi na lažnu stranicu za unos lozinke, kartice ili koda." data-en="A message or email impersonating a bank, delivery service, or platform — the link leads to a fake page for entering a password, card number, or code.">Poruka ili imejl koji glumi banku, dostavu ili servis — link vodi na lažnu stranicu za unos lozinke, kartice ili koda.</p>
       </a>
-
       <a href="pig-butchering.html" class="situation-card">
         <div class="situation-label" data-sr="Romantična prevara" data-en="Romance scam">Romantična prevara</div>
-        <p
-          data-sr="Kontakt koji brzo prelazi u poverenje, emotivnu bliskost i zahtev za novac, pomoć ili ulaganje."
-          data-en="Contact that quickly transitions into trust, emotional closeness, and a request for money, help, or investment.">
-          Kontakt koji brzo prelazi u poverenje, emotivnu bliskost i zahtev za novac, pomoć ili ulaganje.
-        </p>
+        <p data-sr="Kontakt koji brzo prelazi u poverenje, emotivnu bliskost i zahtev za novac, pomoć ili ulaganje." data-en="Contact that quickly transitions into trust, emotional closeness, and a request for money, help, or investment.">Kontakt koji brzo prelazi u poverenje, emotivnu bliskost i zahtev za novac, pomoć ili ulaganje.</p>
       </a>
-
       <a href="tech-support-scam.html" class="situation-card">
         <div class="situation-label" data-sr="Tehnička podrška" data-en="Tech support scam">Tehnička podrška</div>
-        <p
-          data-sr="Poziv, poruka ili upozorenje koje tvrdi da postoji problem sa uređajem i traži uplatu ili daljinski pristup."
-          data-en="A call, message, or alert claiming there is a problem with the device and asking for payment or remote access.">
-          Poziv, poruka ili upozorenje koje tvrdi da postoji problem sa uređajem i traži uplatu ili daljinski pristup.
-        </p>
+        <p data-sr="Poziv, poruka ili upozorenje koje tvrdi da postoji problem sa uređajem i traži uplatu ili daljinski pristup." data-en="A call, message, or alert claiming there is a problem with the device and asking for payment or remote access.">Poziv, poruka ili upozorenje koje tvrdi da postoji problem sa uređajem i traži uplatu ili daljinski pristup.</p>
       </a>
-
       <a href="bank-impersonation.html" class="situation-card">
         <div class="situation-label" data-sr="Poziv iz banke" data-en="Bank call">Poziv iz banke</div>
-        <p
-          data-sr="Osoba se predstavlja kao zaposleni u banci i traži kod, transfer ili pristup uređaju."
-          data-en="Someone poses as a bank employee and asks for a code, a transfer, or device access.">
-          Osoba se predstavlja kao zaposleni u banci i traži kod, transfer ili pristup uređaju.
-        </p>
+        <p data-sr="Osoba se predstavlja kao zaposleni u banci i traži kod, transfer ili pristup uređaju." data-en="Someone poses as a bank employee and asks for a code, a transfer, or device access.">Osoba se predstavlja kao zaposleni u banci i traži kod, transfer ili pristup uređaju.</p>
       </a>
-
       <a href="investment-fraud.html" class="situation-card">
         <div class="situation-label" data-sr="Investiciona ponuda" data-en="Investment opportunity">Investiciona ponuda</div>
-        <p
-          data-sr="Garantovani prinos, ekskluzivna platforma ili prilika koja zahteva brzu uplatu."
-          data-en="Guaranteed returns, an exclusive platform, or an opportunity that requires immediate payment.">
-          Garantovani prinos, ekskluzivna platforma ili prilika koja zahteva brzu uplatu.
-        </p>
+        <p data-sr="Garantovani prinos, ekskluzivna platforma ili prilika koja zahteva brzu uplatu." data-en="Guaranteed returns, an exclusive platform, or an opportunity that requires immediate payment.">Garantovani prinos, ekskluzivna platforma ili prilika koja zahteva brzu uplatu.</p>
       </a>
-
       <a href="parcel-scam.html" class="situation-card">
         <div class="situation-label" data-sr="Poruka o dostavi" data-en="Delivery message">Poruka o dostavi</div>
-        <p
-          data-sr="SMS ili imejl da paket čeka — link vodi na lažni portal za uplatu takse."
-          data-en="SMS or email that a parcel is waiting — the link leads to a fake payment portal.">
-          SMS ili imejl da paket čeka — link vodi na lažni portal za uplatu takse.
-        </p>
+        <p data-sr="SMS ili imejl da paket čeka — link vodi na lažni portal za uplatu takse." data-en="SMS or email that a parcel is waiting — the link leads to a fake payment portal.">SMS ili imejl da paket čeka — link vodi na lažni portal za uplatu takse.</p>
       </a>
-
     </div>
   </section>
 
-  <!-- OBRASCI MANIPULACIJE -->
   <section class="hub-section">
-    <h2
-      data-sr="Kako funkcioniše manipulacija"
-      data-en="How manipulation works">
-      Kako funkcioniše manipulacija
-    </h2>
+    <h2 data-sr="Kako funkcioniše manipulacija" data-en="How manipulation works">Kako funkcioniše manipulacija</h2>
     <p class="muted"
        data-sr="Isti obrasci pojavljuju se u različitim tipovima prevara. Prepoznavanje obrasca važnije je od poznavanja svakog konkretnog modela."
        data-en="The same patterns appear across different scam types. Recognising the pattern matters more than knowing every specific model.">
       Isti obrasci pojavljuju se u različitim tipovima prevara. Prepoznavanje obrasca važnije je od poznavanja svakog konkretnog modela.
     </p>
     <div class="pattern-list">
-
       <div class="pattern-item">
         <div class="pattern-name" data-sr="Autoritet" data-en="Authority">Autoritet</div>
-        <p
-          data-sr="Napadač se predstavlja kao banka, policija, institucija ili poznata osoba. Cilj je da meta prihvati poruku bez propitivanja."
-          data-en="The attacker poses as a bank, police force, institution, or known person. The goal is for the target to accept the message without questioning it.">
-          Napadač se predstavlja kao banka, policija, institucija ili poznata osoba. Cilj je da meta prihvati poruku bez propitivanja.
-        </p>
+        <p data-sr="Napadač se predstavlja kao banka, policija, institucija ili poznata osoba. Cilj je da meta prihvati poruku bez propitivanja." data-en="The attacker poses as a bank, police force, institution, or known person. The goal is for the target to accept the message without questioning it.">Napadač se predstavlja kao banka, policija, institucija ili poznata osoba. Cilj je da meta prihvati poruku bez propitivanja.</p>
       </div>
-
       <div class="pattern-item">
         <div class="pattern-name" data-sr="Hitnost" data-en="Urgency">Hitnost</div>
-        <p
-          data-sr="Vremenski pritisak sprečava razmišljanje i proveru. Rok, pretnja gubitkom ili blokadom naloga — sve su to alati za ubrzavanje odluke."
-          data-en="Time pressure prevents thinking and checking. A deadline, threat of loss, or account block — these are all tools for rushing a decision.">
-          Vremenski pritisak sprečava razmišljanje i proveru. Rok, pretnja gubitkom ili blokadom naloga — sve su to alati za ubrzavanje odluke.
-        </p>
+        <p data-sr="Vremenski pritisak sprečava razmišljanje i proveru. Rok, pretnja gubitkom ili blokadom naloga — sve su to alati za ubrzavanje odluke." data-en="Time pressure prevents thinking and checking. A deadline, threat of loss, or account block — these are all tools for rushing a decision.">Vremenski pritisak sprečava razmišljanje i proveru. Rok, pretnja gubitkom ili blokadom naloga — sve su to alati za ubrzavanje odluke.</p>
       </div>
-
       <div class="pattern-item">
         <div class="pattern-name" data-sr="Izolacija" data-en="Isolation">Izolacija</div>
-        <p
-          data-sr="Zahtev za tajnošću odvaja metu od porodice i prijatelja. Bez spoljne provere, manipulacija napreduje lakše."
-          data-en="A demand for secrecy cuts the target off from family and friends. Without an outside check, manipulation progresses more easily.">
-          Zahtev za tajnošću odvaja metu od porodice i prijatelja. Bez spoljne provere, manipulacija napreduje lakše.
-        </p>
+        <p data-sr="Zahtev za tajnošću odvaja metu od porodice i prijatelja. Bez spoljne provere, manipulacija napreduje lakše." data-en="A demand for secrecy cuts the target off from family and friends. Without an outside check, manipulation progresses more easily.">Zahtev za tajnošću odvaja metu od porodice i prijatelja. Bez spoljne provere, manipulacija napreduje lakše.</p>
       </div>
-
       <div class="pattern-item">
         <div class="pattern-name" data-sr="Izgradnja poverenja" data-en="Trust building">Izgradnja poverenja</div>
-        <p
-          data-sr="Prevarant gradi odnos pre nego što postavi zahtev. Što je poverenje veće, to je zahtev teže odbiti."
-          data-en="The scammer builds a relationship before making a request. The greater the trust, the harder the request is to refuse.">
-          Prevarant gradi odnos pre nego što postavi zahtev. Što je poverenje veće, to je zahtev teže odbiti.
-        </p>
+        <p data-sr="Prevarant gradi odnos pre nego što postavi zahtev. Što je poverenje veće, to je zahtev teže odbiti." data-en="The scammer builds a relationship before making a request. The greater the trust, the harder the request is to refuse.">Prevarant gradi odnos pre nego što postavi zahtev. Što je poverenje veće, to je zahtev teže odbiti.</p>
       </div>
-
       <div class="pattern-item">
         <div class="pattern-name" data-sr="Postepena eskalacija" data-en="Gradual escalation">Postepena eskalacija</div>
-        <p
-          data-sr="Zahtevi počinju mali i rastu postepeno. Svaki prethodni korak čini sledeći lakšim za prihvatanje."
-          data-en="Requests start small and grow gradually. Each previous step makes the next one easier to accept.">
-          Zahtevi počinju mali i rastu postepeno. Svaki prethodni korak čini sledeći lakšim za prihvatanje.
-        </p>
+        <p data-sr="Zahtevi počinju mali i rastu postepeno. Svaki prethodni korak čini sledeći lakšim za prihvatanje." data-en="Requests start small and grow gradually. Each previous step makes the next one easier to accept.">Zahtevi počinju mali i rastu postepeno. Svaki prethodni korak čini sledeći lakšim za prihvatanje.</p>
       </div>
-
     </div>
   </section>
-
 </main>
 
 <footer class="footer">
@@ -225,8 +511,12 @@
        data-en="Anti-scam project — education and analysis">
       Anti-scam projekat — edukacija i analiza
     </p>
+    <p class="muted">
+      <a href="obavestenje-o-privatnosti.html" data-sr="Obaveštenje o privatnosti" data-en="Privacy notice">Obaveštenje o privatnosti</a>
+    </p>
   </div>
 </footer>
 
+<script src="protecting-elderly.js" defer></script>
 </body>
 </html>

@@ -46,8 +46,8 @@ window.SCAM_CONTENT["mandate-fraud"] = {
           <ul class="bullets">
             <li data-sr="pravo ime primaoca ili institucije u zahtevu." data-en="real recipient or institution name in the request.">pravo ime primaoca ili institucije u zahtevu.</li>
             <li data-sr="imejl adresa koja vizualno izgleda kao prava." data-en="email address that looks visually like the real one.">imejl adresa koja vizualno izgleda kao prava.</li>
-            <li data-sr="administrativni ton: „bankovne promene.", „reorganizacija", „novi IBAN"." data-en="administrative tone: &ldquo;banking changes&rdquo;, &ldquo;reorganization&rdquo;, &ldquo;new IBAN&rdquo;.">administrativni ton: „bankovne promene", „reorganizacija", „novi IBAN"“.</li>
-            <li data-sr="profesionalni prilog kao „zvanična dokumentacija."." data-en="professional attachment as &ldquo;official documentation&rdquo;.">profesionalni prilog kao „zvanična dokumentacija"“.</li>
+            <li data-sr="administrativni ton: bankovne promene, reorganizacija, novi IBAN." data-en="administrative tone: &ldquo;banking changes&rdquo;, &ldquo;reorganization&rdquo;, &ldquo;new IBAN&rdquo;.">administrativni ton: bankovne promene, reorganizacija, novi IBAN.</li>
+            <li data-sr="profesionalni prilog kao zvanična dokumentacija." data-en="professional attachment as &ldquo;official documentation&rdquo;.">profesionalni prilog kao zvanična dokumentacija.</li>
           </ul>
         </div>
 
@@ -99,9 +99,9 @@ window.SCAM_CONTENT["mandate-fraud"] = {
           Faza 2 — Priprema lažnog identiteta primaoca
         </h3>
         <p
-          data-sr="Napadač registruje lookalike domen primaoca ili kompromituje pravi nalog. Priprema imejl koji imitira stil komunikacije institucije ili dobavljača. Prilaže lažni PDF kao „zvanično obaveštenje o izmeni bankovnih podataka" sa potpisom i pečatom."
+          data-sr="Napadač registruje lookalike domen primaoca ili kompromituje pravi nalog. Priprema imejl koji imitira stil komunikacije institucije ili dobavljača. Prilaže lažni PDF kao zvanično obaveštenje o izmeni bankovnih podataka sa potpisom i pečatom."
           data-en="The attacker registers a lookalike domain of the recipient or compromises a real account. They draft an email imitating the communication style of the institution or supplier. They attach a fake PDF as an &ldquo;official bank detail change notification&rdquo; with signature and stamp."
-        >Napadač registruje lookalike domen primaoca ili kompromituje pravi nalog. Priprema imejl koji imitira stil komunikacije institucije ili dobavljača. Prilaže lažni PDF kao „zvanično obaveštenje o izmeni bankovnih podataka" sa potpisom i pečatom“.</p>
+        >Napadač registruje lookalike domen primaoca ili kompromituje pravi nalog. Priprema imejl koji imitira stil komunikacije institucije ili dobavljača. Prilaže lažni PDF kao zvanično obaveštenje o izmeni bankovnih podataka sa potpisom i pečatom.</p>
         <ul class="bullets">
           <li data-sr="signal: domen identičan ali sadrži crtu ili broj (company-finance.com umesto company.com)." data-en="signal: domain identical but with dash or number (company-finance.com instead of company.com).">signal: domen identičan ali sadrži crtu ili broj (company-finance.com umesto company.com).</li>
         </ul>
@@ -126,13 +126,13 @@ window.SCAM_CONTENT["mandate-fraud"] = {
           Faza 3 — Zahtev za izmenom trajnog naloga
         </h3>
         <p
-          data-sr="Napadač šalje imejl platišu. Poruka izgleda kao administrativna obaveza: „obaveštavamo vas da smo promenili poslovnu banku"“. Ton je birokratski i ne izaziva sumnju. Priložena je lažna dokumentacija. Zahtev je rutinski — samo je potrebno ažurirati IBAN u sistemu ili banci."
+          data-sr="Napadač šalje imejl platišu. Poruka izgleda kao administrativna obaveza: obaveštavamo vas da smo promenili poslovnu banku. Ton je birokratski i ne izaziva sumnju. Priložena je lažna dokumentacija. Zahtev je rutinski — samo je potrebno ažurirati IBAN u sistemu ili banci."
           data-en="The attacker emails the payer. The message looks like an administrative obligation: &ldquo;we inform you that we have changed our business bank&rdquo;. The tone is bureaucratic and raises no suspicion. Fake documentation is attached. The request is routine — just update the IBAN in the system or bank."
-        >Napadač šalje imejl platišu. Poruka izgleda kao administrativna obaveza: „obaveštavamo vas da smo promenili poslovnu banku"“. Ton je birokratski i ne izaziva sumnju. Priložena je lažna dokumentacija. Zahtev je rutinski — samo je potrebno ažurirati IBAN u sistemu ili banci.</p>
+        >Napadač šalje imejl platišu. Poruka izgleda kao administrativna obaveza: obaveštavamo vas da smo promenili poslovnu banku. Ton je birokratski i ne izaziva sumnju. Priložena je lažna dokumentacija. Zahtev je rutinski — samo je potrebno ažurirati IBAN u sistemu ili banci.</p>
         <ul class="bullets">
-          <li data-sr="fraze: „u okviru reorganizacije prešli smo na novu banku."." data-en="phrases: &ldquo;as part of our reorganization we have moved to a new bank&rdquo;.">fraze: „u okviru reorganizacije prešli smo na novu banku"“.</li>
-          <li data-sr="fraze: „molimo ažurirati trajni nalog najkasnije do [datum]."." data-en="phrases: &ldquo;please update the standing order by [date] at the latest&rdquo;.">fraze: „molimo ažurirati trajni nalog najkasnije do [datum]"“.</li>
-          <li data-sr="fraze: „u prilogu je zvanična potvrda od naše banke."." data-en="phrases: &ldquo;attached is the official confirmation from our bank&rdquo;.">fraze: „u prilogu je zvanična potvrda od naše banke"“.</li>
+          <li data-sr="fraze: u okviru reorganizacije prešli smo na novu banku." data-en="phrases: &ldquo;as part of our reorganization we have moved to a new bank&rdquo;.">fraze: u okviru reorganizacije prešli smo na novu banku.</li>
+          <li data-sr="fraze: molimo ažurirati trajni nalog najkasnije do [datum]." data-en="phrases: &ldquo;please update the standing order by [date] at the latest&rdquo;.">fraze: molimo ažurirati trajni nalog najkasnije do [datum].</li>
+          <li data-sr="fraze: u prilogu je zvanična potvrda od naše banke." data-en="phrases: &ldquo;attached is the official confirmation from our bank&rdquo;.">fraze: u prilogu je zvanična potvrda od naše banke.</li>
         </ul>
 
         <div class="branch">
@@ -345,18 +345,6 @@ window.SCAM_CONTENT["mandate-fraud"] = {
     </section>
 
     <!-- 9) POVEZANE PREVARE -->
-    <section class="card">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <div class="branch">
-        <ul class="bullets">
-          <li><a href="business-email-compromise.html" data-sr="Kompromitovanje poslovnog imejla (BEC)" data-en="Business email compromise (BEC)">Kompromitovanje poslovnog imejla (BEC)</a></li>
-          <li><a href="vendor-email-compromise.html" data-sr="Kompromitovanje imejla dobavljača" data-en="Vendor email compromise">Kompromitovanje imejla dobavljača</a></li>
-          <li><a href="invoice-fraud.html" data-sr="Prevara sa fakturama" data-en="Invoice fraud">Prevara sa fakturama</a></li>
-          <li><a href="ceo-fraud.html" data-sr="CEO prevara" data-en="CEO fraud">CEO prevara</a></li>
-          <li><a href="phishing.html" data-sr="Fišing" data-en="Phishing">Fišing</a></li>
-          <li><a href="impersonation-scam.html" data-sr="Lažno predstavljanje" data-en="Impersonation scam">Lažno predstavljanje</a></li>
-        </ul>
-      </div>
-    </section>
+    
   `
 };

@@ -1,11 +1,11 @@
-﻿window.SCAM_CONTENT = window.SCAM_CONTENT || {};
+window.SCAM_CONTENT = window.SCAM_CONTENT || {};
 
 window.SCAM_CONTENT["fake-government-tender-portal-scam"] = {
   raw_html: `
     <section class="card">
       <h2 data-sr="Uvod: kako rade prevare s lažnim tenderskim portalima" data-en="Introduction: how fake government tender portal scams work">Uvod: kako rade prevare s lažnim tenderskim portalima</h2>
-      <p data-sr="Lažni tenderski portal je sajt koji imitira zvanični državni portal javnih nabavki. Prevarant pravi klon sajta s gotovo identičnim izgledom i sličnim domenom, objavljuje lažne tendere s privlačnim uslovima, i naplaćuje komponentama za „registraciju“, „akreditaciju“ ili „pristup tenderu“ pre nego što se kompanije uopšte mogu prijaviti." data-en="A fake tender portal is a website that imitates the official state public procurement portal. The fraudster creates a site clone with a nearly identical appearance and similar domain, publishes fake tenders with attractive terms, and charges fees for registration, accreditation, or tender access before companies can even apply.">Lažni klon državnog portala javnih nabavki s lažnim tenderima i naknadama za registraciju ili pristup. Kompanije uplate, tenderi ne postoje.</p>
-      <p data-sr="Lažni tenderi na portalu izgledaju realno — navode se iznosi, rokovi, predmet, institucija naručioca. Kompanija koja je nova na tržištu i želi da se akredituje lako nasedne. Otkrivanje prevare dolazi tek posle uplate, kada direktna provera kod institucije pokaže da tender ne postoji." data-en="Fake tenders on the portal appear realistic — amounts, deadlines, subject matter, and contracting institution are all listed. A company new to the market eager to get accredited is easily fooled. Discovery comes only after payment, when direct verification with the institution shows the tender does not exist.">Realistično izgledajući lažni tenderi varaju kompanije koje ne proveravaju direktno kod institucije.</p>
+      <p data-sr="Lažni klon državnog portala javnih nabavki s lažnim tenderima i naknadama za registraciju ili pristup. Kompanije uplate, tenderi ne postoje." data-en="A fake tender portal is a website that imitates the official state public procurement portal. The fraudster creates a site clone with a nearly identical appearance and similar domain, publishes fake tenders with attractive terms, and charges fees for registration, accreditation, or tender access before companies can even apply.">Lažni klon državnog portala javnih nabavki s lažnim tenderima i naknadama za registraciju ili pristup. Kompanije uplate, tenderi ne postoje.</p>
+      <p data-sr="Realistično izgledajući lažni tenderi varaju kompanije koje ne proveravaju direktno kod institucije." data-en="Fake tenders on the portal appear realistic — amounts, deadlines, subject matter, and contracting institution are all listed. A company new to the market eager to get accredited is easily fooled. Discovery comes only after payment, when direct verification with the institution shows the tender does not exist.">Realistično izgledajući lažni tenderi varaju kompanije koje ne proveravaju direktno kod institucije.</p>
       <div class="callout" data-sr="<strong>Model:</strong> lažni portal → lažni tenderi → naknade za registraciju/akreditaciju → uplata → tenderi ne postoje." data-en="<strong>Model:</strong> fake portal → fake tenders → registration/accreditation fees → payment → tenders do not exist."><strong>Model:</strong> lažni portal → lažni tenderi → naknade za registraciju/akreditaciju → uplata → tenderi ne postoje.</div>
       <div class="callout" data-sr="<strong>Prag:</strong> kompanija uplati naknadu za akreditaciju ili pristup tenderu na lažnom portalu." data-en="<strong>Threshold:</strong> the company pays an accreditation or tender access fee on the fake portal."><strong>Prag:</strong> kompanija uplati naknadu za akreditaciju ili pristup tenderu na lažnom portalu.</div>
     </section>
@@ -25,30 +25,30 @@ window.SCAM_CONTENT["fake-government-tender-portal-scam"] = {
         <div class="phase">
           <div class="label" data-sr="Kako se uvode naknade" data-en="How fees are introduced">Kako se uvode naknade</div>
           <ul class="bullets">
-            <li data-sr="obavezna „registracija“ za pristup tenderima — plaćanje pre nego što se vide detalji." data-en="mandatory registration for tender access — payment before details are visible.">obavezna 'registracija' za pristup tenderima — plaćanje pre nego što se vide detalji.</li>
-            <li data-sr="naknade za „akreditaciju“ i „verifikaciju“ kompanije koje izgledaju kao standardna procedura." data-en="accreditation and company verification fees that look like standard procedure.">naknade za 'akreditaciju' i 'verifikaciju' kompanije koje izgledaju kao standardna procedura.</li>
-            <li data-sr="posle prve naknade slede zahtevi za dopunskim naknadama za „garancije“ ili „uplatu depozita." data-en="after the first fee, demands for additional fees for guarantees or deposit payments follow.">posle prve naknade slede zahtevi za dopunskim naknadama za 'garancije' ili 'uplatu depozita'.</li>
+            <li data-sr="obavezna 'registracija' za pristup tenderima — plaćanje pre nego što se vide detalji." data-en="mandatory registration for tender access — payment before details are visible.">obavezna 'registracija' za pristup tenderima — plaćanje pre nego što se vide detalji.</li>
+            <li data-sr="naknade za 'akreditaciju' i 'verifikaciju' kompanije koje izgledaju kao standardna procedura." data-en="accreditation and company verification fees that look like standard procedure.">naknade za 'akreditaciju' i 'verifikaciju' kompanije koje izgledaju kao standardna procedura.</li>
+            <li data-sr="posle prve naknade slede zahtevi za dopunskim naknadama za 'garancije' ili 'uplatu depozita'." data-en="after the first fee, demands for additional fees for guarantees or deposit payments follow.">posle prve naknade slede zahtevi za dopunskim naknadama za 'garancije' ili 'uplatu depozita'.</li>
           </ul>
         </div>
       </div>
     </section>
 
     <section class="card">
-      <h2 data-sr="Hronološki tok (faze + evolucije)." data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
+      <h2 data-sr="Hronološki tok (faze + evolucije)" data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
 
       <article class="phase">
         <h3 class="phase-title" data-sr="Faza 1 — Kompanija pronalazi lažni portal" data-en="Phase 1 — Company finds the fake portal">Faza 1 — Kompanija pronalazi lažni portal</h3>
-        <p data-sr="Kompanija traži tendere online, nailazi na lažni portal koji izgleda identično zvaničnom. Portal prikazuje lažne tendere koji odgovaraju delatnosti kompanije. Kompanija se registruje i prima zahtev za naknadom za pristup ili akreditaciju." data-en="The company searches for tenders online and finds the fake portal that appears identical to the official one. The portal shows fake tenders matching the company's industry. The company registers and receives a fee request for access or accreditation.">Kompanija pronalazi lažni portal koji izgleda identično zvaničnom. Registracija vodi do zahteva za naknadom.</p>
+        <p data-sr="Kompanija pronalazi lažni portal koji izgleda identično zvaničnom. Registracija vodi do zahteva za naknadom." data-en="The company searches for tenders online and finds the fake portal that appears identical to the official one. The portal shows fake tenders matching the company's industry. The company registers and receives a fee request for access or accreditation.">Kompanija pronalazi lažni portal koji izgleda identično zvaničnom. Registracija vodi do zahteva za naknadom.</p>
         <ul class="bullets">
           <li data-sr="signal: zvanični URL državnog portala javnih nabavki uvek treba proveriti direktno, ne klikanjem na oglase." data-en="signal: the official URL of the state public procurement portal should always be verified directly, not by clicking ads.">signal: zvanični URL državnog portala javnih nabavki uvek treba proveriti direktno, ne klikanjem na oglase.</li>
           <li data-sr="signal: legitimni zvanični portal ne traži naknade za registraciju ili pristup tenderima." data-en="signal: a legitimate official portal does not charge registration fees or tender access fees.">signal: legitimni zvanični portal ne traži naknade za registraciju ili pristup tenderima.</li>
         </ul>
-        <div class="callout" data-sr="<strong>Prag faze:</strong> kompanija uplati prvu naknadu za „registraciju“ ili „akreditaciju." data-en="<strong>Threshold:</strong> the company pays the first fee for registration or accreditation."><strong>Prag faze:</strong> kompanija uplati prvu naknadu za 'registraciju' ili 'akreditaciju'.</div>
+        <div class="callout" data-sr="<strong>Prag faze:</strong> kompanija uplati prvu naknadu za 'registraciju' ili 'akreditaciju'." data-en="<strong>Threshold:</strong> the company pays the first fee for registration or accreditation."><strong>Prag faze:</strong> kompanija uplati prvu naknadu za 'registraciju' ili 'akreditaciju'.</div>
       </article>
 
       <article class="phase warn">
         <h3 class="phase-title" data-sr="Faza 2 — Serija naknade i nema pristupa tenderima" data-en="Phase 2 — Series of fees and no tender access">Faza 2 — Serija naknade i nema pristupa tenderima</h3>
-        <p data-sr="Posle prve uplate pojavljuju se novi zahtevi — naknade za garancije, depozite, verifikacije. Pristup tenderima se uvek odlaže. Portal može biti dostupan nedelju-dve pre nego što nestane. Tenderi sa portala ne postoje na zvaničnom portalu institucije." data-en="After the first payment, new demands appear — guarantee fees, deposits, verifications. Access to tenders is always delayed. The portal may remain accessible for a week or two before disappearing. Tenders on the portal do not exist on the institution's official portal.">Serija novih naknada bez pristupa tenderima. Portal nestaje posle nekoliko nedelja.</p>
+        <p data-sr="Serija novih naknada bez pristupa tenderima. Portal nestaje posle nekoliko nedelja." data-en="After the first payment, new demands appear — guarantee fees, deposits, verifications. Access to tenders is always delayed. The portal may remain accessible for a week or two before disappearing. Tenders on the portal do not exist on the institution's official portal.">Serija novih naknada bez pristupa tenderima. Portal nestaje posle nekoliko nedelja.</p>
         <div class="branch">
           <p><strong data-sr="Grananja u ovoj fazi" data-en="Branching at this phase">Grananja u ovoj fazi</strong></p>
           <ul class="bullets">
@@ -60,7 +60,7 @@ window.SCAM_CONTENT["fake-government-tender-portal-scam"] = {
 
       <article class="phase bad">
         <h3 class="phase-title" data-sr="Faza 3 — Portal nestaje i novac je izgubljen" data-en="Phase 3 — Portal disappears and money is lost">Faza 3 — Portal nestaje i novac je izgubljen</h3>
-        <p data-sr="Portal prestaje s radom ili se preusmeri na drugu stranicu. Kontakt e-mail i telefon postaju neaktivni. Kompanija otkriva da tenderi sa lažnog portala ne postoje na zvaničnom portalu. Novac je izgubljen i teško ga je povratiti jer je prenet na privatni ili strani nalog." data-en="The portal stops working or redirects to another page. Contact email and phone become inactive. The company discovers that tenders from the fake portal do not exist on the official portal. Money is lost and difficult to recover because it was transferred to a private or foreign account.">Portal nestaje. Tenderi ne postoje na zvaničnom portalu. Novac je izgubljen.</p>
+        <p data-sr="Portal nestaje. Tenderi ne postoje na zvaničnom portalu. Novac je izgubljen." data-en="The portal stops working or redirects to another page. Contact email and phone become inactive. The company discovers that tenders from the fake portal do not exist on the official portal. Money is lost and difficult to recover because it was transferred to a private or foreign account.">Portal nestaje. Tenderi ne postoje na zvaničnom portalu. Novac je izgubljen.</p>
         <div class="callout" data-sr="<strong>Indikator:</strong> direktna provera tenderskog broja na zvaničnom portalu uvek može potvrditi ili demantovati existenciju tendera." data-en="<strong>Indicator:</strong> direct verification of the tender number on the official portal can always confirm or deny the tender's existence."><strong>Indikator:</strong> direktna provera tenderskog broja na zvaničnom portalu uvek može potvrditi ili demantovati existenciju tendera.</div>
       </article>
     </section>
@@ -125,15 +125,6 @@ window.SCAM_CONTENT["fake-government-tender-portal-scam"] = {
       </div>
     </section>
 
-    <section class="card sources" id="sources">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <ul class="bullets">
-        <li><a href="government-impersonation.html" data-sr="Lažno predstavljanje državnih organa" data-en="Government impersonation scams">Lažno predstavljanje državnih organa</a></li>
-        <li><a href="public-procurement-document-fee-scam.html" data-sr="Prevare s naknadama za tendersku dokumentaciju" data-en="Public procurement document fee scams">Prevare s naknadama za tendersku dokumentaciju</a></li>
-        <li><a href="advance-fee-fraud.html" data-sr="Uplata unapred" data-en="Advance-fee fraud">Uplata unapred</a></li>
-        <li><a href="business-email-compromise.html" data-sr="Kompromitovanje poslovnog imejla (BEC)" data-en="Business email compromise (BEC)">Kompromitovanje poslovnog imejla (BEC)</a></li>
-        <li><a href="phishing.html" data-sr="Fišing" data-en="Fišing">Fišing</a></li>
-      </ul>
-    </section>
+    
   `
 };

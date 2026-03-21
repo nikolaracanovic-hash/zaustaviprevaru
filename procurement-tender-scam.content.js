@@ -1,4 +1,4 @@
-﻿window.SCAM_CONTENT = window.SCAM_CONTENT || {};
+window.SCAM_CONTENT = window.SCAM_CONTENT || {};
 
 window.SCAM_CONTENT["procurement-tender-scam"] = {
   raw_html: `
@@ -121,8 +121,8 @@ window.SCAM_CONTENT["procurement-tender-scam"] = {
           data-en="The company receives the tender invitation. The submission deadline is short — 5 to 14 days. To submit a bid, the company must pay a registration fee or fee for access to tender documents. Amounts are smaller: 500 to 3,000 euros. The attacker claims this is standard procedure."
         >Firma prima tender pozivnicu. Rok za prijavu je kratak — 5 do 14 dana. Da bi podnela prijavu, firma mora platiti registracionu naknadu ili naknadu za pristup tender dokumentima. Iznosi su manji: 500 do 3.000 evra. Napadač tvrdi da je ovo standardna procedura.</p>
         <ul class="bullets">
-          <li data-sr="fraze: „registraciona naknada je standardni uslov za pristup tender dokumentima."." data-en="phrases: &ldquo;registration fee is standard requirement for access to tender documents&rdquo;.">fraze: „registraciona naknada je standardni uslov za pristup tender dokumentima"“.</li>
-          <li data-sr="fraze: „rok za podnošenje prijave ističe za X dana — hitno se registrujte."." data-en="phrases: &ldquo;submission deadline expires in X days — register urgently&rdquo;.">fraze: „rok za podnošenje prijave ističe za X dana — hitno se registrujte"“.</li>
+          <li data-sr="fraze: registraciona naknada je standardni uslov za pristup tender dokumentima." data-en="phrases: &ldquo;registration fee is standard requirement for access to tender documents&rdquo;.">fraze: registraciona naknada je standardni uslov za pristup tender dokumentima.</li>
+          <li data-sr="fraze: rok za podnošenje prijave ističe za X dana — hitno se registrujte." data-en="phrases: &ldquo;submission deadline expires in X days — register urgently&rdquo;.">fraze: rok za podnošenje prijave ističe za X dana — hitno se registrujte.</li>
         </ul>
 
         <div class="branch">
@@ -148,8 +148,8 @@ window.SCAM_CONTENT["procurement-tender-scam"] = {
           data-en="After registration the attacker escalates demands. The company must demonstrate financial capacity through a bank deposit or guarantee. Amounts are higher: 5,000 to 50,000 euros. The attacker says the deposit is returned if the company does not win or upon tender completion. The company has already paid registration and does not want to lose the contract opportunity."
         >Posle registracije napadač eskalira zahteve. Firma mora dokazati finansijsku sposobnost kroz bankarski depozit ili garanciju. Iznosi su viši: 5.000 do 50.000 evra. Napadač kaže da se depozit vraća ako firma ne pobedi ili po završetku tendera. Firma je već platila registraciju i ne želi izgubiti šansu za ugovor.</p>
         <ul class="bullets">
-          <li data-sr="fraze: „sve firme su dužne da dostave finansijsku garanciju kao uslov učešća."." data-en="phrases: &ldquo;all companies are required to provide financial guarantee as participation requirement&rdquo;.">fraze: „sve firme su dužne da dostave finansijsku garanciju kao uslov učešća"“.</li>
-          <li data-sr="fraze: „depozit se vraća u roku od 30 dana po okončanju tendera."." data-en="phrases: &ldquo;deposit is returned within 30 days of tender completion&rdquo;.">fraze: „depozit se vraća u roku od 30 dana po okončanju tendera"“.</li>
+          <li data-sr="fraze: sve firme su dužne da dostave finansijsku garanciju kao uslov učešća." data-en="phrases: &ldquo;all companies are required to provide financial guarantee as participation requirement&rdquo;.">fraze: sve firme su dužne da dostave finansijsku garanciju kao uslov učešća.</li>
+          <li data-sr="fraze: depozit se vraća u roku od 30 dana po okončanju tendera." data-en="phrases: &ldquo;deposit is returned within 30 days of tender completion&rdquo;.">fraze: depozit se vraća u roku od 30 dana po okončanju tendera.</li>
         </ul>
         <div class="callout"
           data-sr="<strong>Prag faze:</strong> firma izvrši drugu ili treću uplatu (garancija/depozit)."
@@ -330,17 +330,6 @@ window.SCAM_CONTENT["procurement-tender-scam"] = {
     </section>
 
     <!-- 9) POVEZANE PREVARE -->
-    <section class="card">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <div class="branch">
-        <ul class="bullets">
-          <li><a href="supplier-onboarding-scam.html" data-sr="Prevara pri registraciji dobavljača" data-en="Supplier onboarding scam">Prevara pri registraciji dobavljača</a></li>
-          <li><a href="grant-fund-scam.html" data-sr="Prevara sa grantovima i fondovima" data-en="Grant and fund scam">Prevara sa grantovima i fondovima</a></li>
-          <li><a href="payment-diversion.html" data-sr="Preusmeravanje plaćanja" data-en="Payment diversion">Preusmeravanje plaćanja</a></li>
-          <li><a href="business-email-compromise.html" data-sr="Kompromitovanje poslovnog imejla (BEC)" data-en="Business email compromise (BEC)">Kompromitovanje poslovnog imejla (BEC)</a></li>
-          <li><a href="impersonation-scam.html" data-sr="Lažno predstavljanje" data-en="Impersonation scam">Lažno predstavljanje</a></li>
-        </ul>
-      </div>
-    </section>
+    
   `
 };

@@ -3,7 +3,7 @@ window.SCAM_CONTENT["disaster-relief-scam"] = {
   raw_html: `
 <section class="content-section">
   <h2 data-sr="Uvod: kako radi prevara s pomoći u katastrofi" data-en="Intro: how the disaster relief scam works">Uvod: kako radi prevara s pomoći u katastrofi</h2>
-  <p data-sr="Posle katastrofe, prevaranti se pojavljuju u dva oblika: kao lažne humanitarne organizacije koje prikupljaju donacije, i kao lažni državni agenti koji nude žrtvama pristup fondu za pomoć. Žrtve katastrofe plaćaju „procesnu naknadu“ ili daju lične podatke da bi primile pomoć koja ne postoji. Donatori uplaćuju novac organizacijama koje nikad ne pomažu pravim žrtvama." data-en="After a disaster, fraudsters appear in two forms: as fake charitable organizations collecting donations, and as fake government agents offering disaster victims access to a relief fund. Disaster victims pay a 'processing fee' or provide personal data to receive assistance that does not exist. Donors contribute money to organizations that never help real victims.">Posle katastrofe, prevaranti se pojavljuju u dva oblika: kao lažne humanitarne organizacije koje prikupljaju donacije, i kao lažni državni agenti koji nude žrtvama pristup fondu za pomoć. Žrtve katastrofe plaćaju „procesnu naknadu" ili daju lične podatke da bi primile pomoć koja ne postoji“. Donatori uplaćuju novac organizacijama koje nikad ne pomažu pravim žrtvama.</p>
+  <p data-sr="Posle katastrofe, prevaranti se pojavljuju u dva oblika: kao lažne humanitarne organizacije koje prikupljaju donacije, i kao lažni državni agenti koji nude žrtvama pristup fondu za pomoć. Žrtve katastrofe plaćaju procesnu naknadu ili daju lične podatke da bi primile pomoć koja ne postoji. Donatori uplaćuju novac organizacijama koje nikad ne pomažu pravim žrtvama." data-en="After a disaster, fraudsters appear in two forms: as fake charitable organizations collecting donations, and as fake government agents offering disaster victims access to a relief fund. Disaster victims pay a 'processing fee' or provide personal data to receive assistance that does not exist. Donors contribute money to organizations that never help real victims.">Posle katastrofe, prevaranti se pojavljuju u dva oblika: kao lažne humanitarne organizacije koje prikupljaju donacije, i kao lažni državni agenti koji nude žrtvama pristup fondu za pomoć. Žrtve katastrofe plaćaju procesnu naknadu ili daju lične podatke da bi primile pomoć koja ne postoji. Donatori uplaćuju novac organizacijama koje nikad ne pomažu pravim žrtvama.</p>
 </section>
 
 <section class="content-section">
@@ -33,8 +33,8 @@ window.SCAM_CONTENT["disaster-relief-scam"] = {
     <article>
       <h3 data-sr="Kako se uvodi novac ili podaci" data-en="How money or data is extracted">Kako se uvodi novac ili podaci</h3>
       <ul class="bullets">
-        <li data-sr="Žrtvi se kaže da mora platiti 'procesnu naknadu„ ili “registracionu taksu„ da bi ušla u sistem za pomoć." data-en="The victim is told they must pay a “processing fee' or 'registration charge' to enter the aid system.">Žrtvi se kaže da mora platiti „procesnu naknadu" ili „registracionu taksu" da bi ušla u sistem za pomoć“.</li>
-        <li data-sr="Alternativno, traže se lični podaci i podaci o bankovnom računu 'za isplatu pomoći„." data-en="Alternatively, personal data and bank account details are requested “for aid disbursement.'">Alternativno, traže se lični podaci i podaci o bankovnom računu „za isplatu pomoći"“.</li>
+        <li data-sr="Žrtvi se kaže da mora platiti procesnu naknadu ili registracionu taksu da bi ušla u sistem za pomoć." data-en="The victim is told they must pay a processing fee' or 'registration charge' to enter the aid system.">Žrtvi se kaže da mora platiti procesnu naknadu ili registracionu taksu da bi ušla u sistem za pomoć.</li>
+        <li data-sr="Alternativno, traže se lični podaci i podaci o bankovnom računu za isplatu pomoći." data-en="Alternatively, personal data and bank account details are requested for aid disbursement.">Alternativno, traže se lični podaci i podaci o bankovnom računu za isplatu pomoći.</li>
         <li data-sr="Prikupljeni podaci se koriste za krađu identiteta ili direktno pražnjenje bankovnog računa." data-en="Collected data is used for identity theft or direct draining of the bank account.">Prikupljeni podaci se koriste za krađu identiteta ili direktno pražnjenje bankovnog računa.</li>
       </ul>
     </article>
@@ -51,22 +51,22 @@ window.SCAM_CONTENT["disaster-relief-scam"] = {
       <li data-sr="Brzo reagovanje prevaranata u prvih 24 sata posle katastrofe je pouzdan signal lažne aktivnosti." data-en="Fraudsters' rapid response in the first 24 hours after a disaster is a reliable signal of fake activity.">Brzo reagovanje prevaranata u prvih 24 sata posle katastrofe je pouzdan signal lažne aktivnosti.</li>
       <li data-sr="Prave državne agencije za pomoć nemaju brze sisteme aktivacije — potrebno je nekoliko dana do sedmica za organizaciju." data-en="Real government aid agencies do not have rapid activation systems — several days to weeks are needed for organization.">Prave državne agencije za pomoć nemaju brze sisteme aktivacije — potrebno je nekoliko dana do sedmica za organizaciju.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Svaki kontakt o pomoći u prvim danima posle katastrofe zahteva proveru kod zvaničnih vlasti." data-en="Phase threshold: Any aid contact in the first days after a disaster requires verification with official authorities."><strong>Prag faze:</strong> Svaki kontakt o pomoći u prvim danima posle katastrofe zahteva proveru kod zvaničnih vlasti.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Svaki kontakt o pomoći u prvim danima posle katastrofe zahteva proveru kod zvaničnih vlasti." data-en="Phase threshold: Any aid contact in the first days after a disaster requires verification with official authorities."><strong>Prag faze:</strong> Svaki kontakt o pomoći u prvim danima posle katastrofe zahteva proveru kod zvaničnih vlasti.</div>
   </div>
 
   <div class="phase">
-    <div class="label" data-sr="Faza 2: Kontakt žrtve" data-en="Phase 2: Victim contact">Faza 2: Victim contact</div>
+    <div class="label" data-sr="Faza 2: Victim contact" data-en="Phase 2: Victim contact">Faza 2: Victim contact</div>
     <p data-sr="Žrtva prima poziv, SMS ili e-poruku s obaveštenjem da je registrovana za državni fond za pomoć i da mora potvrditi prijavu i uplatiti procesnu naknadu." data-en="The victim receives a call, SMS, or email informing them they are registered for a government relief fund and must confirm their application and pay a processing fee.">Žrtva prima poziv, SMS ili e-poruku s obaveštenjem da je registrovana za državni fond za pomoć i da mora potvrditi prijavu i uplatiti procesnu naknadu.</p>
     <ul class="bullets">
-      <li data-sr="Prevarant može imati tačne podatke o lokaciji i vrsti imovine žrtve iz javno dostupnih izvora ili procuri podataka." data-en="The fraudster may have exact information about the victim's location and property type from publicly available sources or a data leak.">Prevarant može imati tačne podatke o lokaciji i vrsti imovine žrtve iz javno dostupnih izvora ili procure podataka.</li>
+      <li data-sr="Prevarant može imati tačne podatke o lokaciji i vrsti imovine žrtve iz javno dostupnih izvora ili procure podataka." data-en="The fraudster may have exact information about the victim's location and property type from publicly available sources or a data leak.">Prevarant može imati tačne podatke o lokaciji i vrsti imovine žrtve iz javno dostupnih izvora ili procure podataka.</li>
       <li data-sr="Prava državna registracija za pomoć ne dolazi kroz neočekivani poziv — dolazi poštom ili kroz oficijalni portal." data-en="Real government aid registration does not arrive through an unexpected call — it arrives by post or through an official portal.">Prava državna registracija za pomoć ne dolazi kroz neočekivani poziv — dolazi poštom ili kroz oficijalni portal.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Kontakt o pomoći koji zahteva uplatu ili podatke o bankovnom računu treba ignorisati i proveriti kod nadležne agencije." data-en="Phase threshold: Aid contact requesting payment or bank account details should be ignored and verified with the competent agency."><strong>Prag faze:</strong> Kontakt o pomoći koji zahteva uplatu ili podatke o bankovnom računu treba ignorisati i proveriti kod nadležne agencije.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Kontakt o pomoći koji zahteva uplatu ili podatke o bankovnom računu treba ignorisati i proveriti kod nadležne agencije." data-en="Phase threshold: Aid contact requesting payment or bank account details should be ignored and verified with the competent agency."><strong>Prag faze:</strong> Kontakt o pomoći koji zahteva uplatu ili podatke o bankovnom računu treba ignorisati i proveriti kod nadležne agencije.</div>
   </div>
 
   <div class="phase">
     <div class="label" data-sr="Faza 3: Procesna naknada ili predaja podataka" data-en="Phase 3: Processing fee or data handover">Faza 3: Procesna naknada ili predaja podataka</div>
-    <p data-sr="Žrtva se upućuje na uplatu „registracione naknade“ ili traže se lični podaci i podaci o bankovnom računu „za direktnu isplatu pomoći„." data-en="The victim is directed to pay a “registration fee“ or personal data and bank account details are requested 'for direct aid disbursement.'">Žrtva se upućuje na uplatu „registracione naknade" ili traže se lični podaci i podaci o bankovnom računu „za direktnu isplatu pomoći"“.</p>
+    <p data-sr="Žrtva se upućuje na uplatu registracione naknade ili traže se lični podaci i podaci o bankovnom računu za direktnu isplatu pomoći." data-en="The victim is directed to pay a registration fee or personal data and bank account details are requested 'for direct aid disbursement.">Žrtva se upućuje na uplatu registracione naknade ili traže se lični podaci i podaci o bankovnom računu za direktnu isplatu pomoći.</p>
     <ul class="bullets">
       <li data-sr="Prava državna isplata pomoći ne traži broj bankovnog računa kroz neočekivani poziv." data-en="Real government aid disbursement does not request bank account numbers through an unexpected call.">Prava državna isplata pomoći ne traži broj bankovnog računa kroz neočekivani poziv.</li>
       <li data-sr="Procesna naknada za javnu pomoć ne postoji u zakonodavstvu ni jedne normalne države." data-en="A processing fee for public assistance does not exist in the legislation of any normal state.">Procesna naknada za javnu pomoć ne postoji u zakonodavstvu ni jedne normalne države.</li>
@@ -74,31 +74,31 @@ window.SCAM_CONTENT["disaster-relief-scam"] = {
     <div class="branch">
       <strong data-sr="Grananja u ovoj fazi:" data-en="Branches at this phase:">Grananja u ovoj fazi:</strong>
       <ul class="bullets">
-        <li data-sr="Žrtva odbija uplatu → prevarant preti 'gubitkom prava na pomoć„ i kratkim rokom za odluku." data-en="Victim refuses payment → fraudster threatens “loss of aid entitlement' and a short decision deadline.">Žrtva odbija uplatu → prevarant preti „gubitkom prava na pomoć" i kratkim rokom za odluku“.</li>
+        <li data-sr="Žrtva odbija uplatu → prevarant preti gubitkom prava na pomoć i kratkim rokom za odluku." data-en="Victim refuses payment → fraudster threatens loss of aid entitlement' and a short decision deadline.">Žrtva odbija uplatu → prevarant preti gubitkom prava na pomoć i kratkim rokom za odluku.</li>
         <li data-sr="Žrtva daje podatke → podaci se koriste za krađu identiteta ili pražnjenje računa." data-en="Victim provides data → data is used for identity theft or account draining.">Žrtva daje podatke → podaci se koriste za krađu identiteta ili pražnjenje računa.</li>
       </ul>
     </div>
-    <div class="callout" data-sr="Prag faze: Prekinite kontakt odmah i pozovite nadležnu agenciju za pomoć na zvaničnom broju." data-en="Phase threshold: End contact immediately and call the competent aid agency at the official number."><strong>Prag faze:</strong> Prekinite kontakt odmah i pozovite nadležnu agenciju za pomoć na zvaničnom broju.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Prekinite kontakt odmah i pozovite nadležnu agenciju za pomoć na zvaničnom broju." data-en="Phase threshold: End contact immediately and call the competent aid agency at the official number."><strong>Prag faze:</strong> Prekinite kontakt odmah i pozovite nadležnu agenciju za pomoć na zvaničnom broju.</div>
   </div>
 
   <div class="phase">
-    <div class="label" data-sr="Faza 4: Nestanak" data-en="Phase 4: Disappearance">Faza 4: Disappearance</div>
+    <div class="label" data-sr="Faza 4: Disappearance" data-en="Phase 4: Disappearance">Faza 4: Disappearance</div>
     <p data-sr="Posle uplate ili predaje podataka, kontakt prestaje. Pomoć ne dolazi. Žrtva je sada izložena i finansijskim gubicima i potencijalnoj krađi identiteta." data-en="After payment or data handover, contact ceases. Aid never arrives. The victim is now exposed to both financial losses and potential identity theft.">Posle uplate ili predaje podataka, kontakt prestaje. Pomoć ne dolazi. Žrtva je sada izložena i finansijskim gubicima i potencijalnoj krađi identiteta.</p>
     <ul class="bullets">
-      <li data-sr="Ako su predati podaci o bankovnom računu, blokada kartice i promjena lozinki su hitni prioritet." data-en="If bank account details were provided, card blocking and password changes are an urgent priority.">Ako su predati podaci o bankovnom računu, blokada kartice i promena lozinki su hitni prioritet.</li>
+      <li data-sr="Ako su predati podaci o bankovnom računu, blokada kartice i promena lozinki su hitni prioritet." data-en="If bank account details were provided, card blocking and password changes are an urgent priority.">Ako su predati podaci o bankovnom računu, blokada kartice i promena lozinki su hitni prioritet.</li>
       <li data-sr="Prijavite incident policiji i nadležnoj agenciji za pomoć radi dokumentiranja i zaštite budućih žrtava." data-en="Report the incident to the police and the competent aid agency to document and protect future victims.">Prijavite incident policiji i nadležnoj agenciji za pomoć radi dokumentiranja i zaštite budućih žrtava.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Odmah kontaktirajte banku ako ste dali bilo kakve podatke o računu — ne čekajte da se transakcija pojavi." data-en="Phase threshold: Immediately contact the bank if you provided any account information — do not wait for a transaction to appear."><strong>Prag faze:</strong> Odmah kontaktirajte banku ako ste dali bilo kakve podatke o računu — ne čekajte da se transakcija pojavi.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Odmah kontaktirajte banku ako ste dali bilo kakve podatke o računu — ne čekajte da se transakcija pojavi." data-en="Phase threshold: Immediately contact the bank if you provided any account information — do not wait for a transaction to appear."><strong>Prag faze:</strong> Odmah kontaktirajte banku ako ste dali bilo kakve podatke o računu — ne čekajte da se transakcija pojavi.</div>
   </div>
 
   <div class="phase">
-    <div class="label" data-sr="Faza 5: Sekundarna prevara — „povrat sredstava„" data-en="Phase 5: Secondary scam — “fund recovery“">Faza 5: Sekundarna prevara — „povrat sredstava"</div>
-    <p data-sr="Žrtva može biti kontaktirana od 'agenta za povrat„ koji nudi da vrati izgubljeni novac za naknadu — ili od “tužioca„ koji traži uplatu za pokretanje slučaja." data-en="The victim may be contacted by a “recovery agent' offering to retrieve the lost money for a fee — or by a 'prosecutor' requesting payment to initiate a case.">Žrtva može biti kontaktirana od „agenta za povrat" koji nudi da vrati izgubljeni novac za naknadu — ili od „tužioca" koji traži uplatu za pokretanje slučaja“.</p>
+    <div class="label" data-sr="Faza 5: Sekundarna prevara — povrat sredstava" data-en="Phase 5: Secondary scam — fund recovery">Faza 5: Sekundarna prevara — povrat sredstava</div>
+    <p data-sr="Žrtva može biti kontaktirana od agenta za povrat koji nudi da vrati izgubljeni novac za naknadu — ili od tužioca koji traži uplatu za pokretanje slučaja." data-en="The victim may be contacted by a recovery agent' offering to retrieve the lost money for a fee — or by a 'prosecutor' requesting payment to initiate a case.">Žrtva može biti kontaktirana od agenta za povrat koji nudi da vrati izgubljeni novac za naknadu — ili od tužioca koji traži uplatu za pokretanje slučaja.</p>
     <ul class="bullets">
       <li data-sr="Recovery prevaranti prate javne baze prijavljivanja prevara i ciljaju potvrđene žrtve." data-en="Recovery fraudsters monitor public fraud reporting databases and target confirmed victims.">Recovery prevaranti prate javne baze prijavljivanja prevara i ciljaju potvrđene žrtve.</li>
       <li data-sr="Nijedan legitimni tužilac niti agencija ne traži unaprednu naknadu za pokretanje slučaja." data-en="No legitimate prosecutor or agency requests an upfront fee to initiate a case.">Nijedan legitimni tužilac niti agencija ne traži unaprednu naknadu za pokretanje slučaja.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Svaki ponuđeni 'agent za povrat„ koji traži naknadu je nova prevara — ne plaćajte." data-en="Phase threshold: Any offered “recovery agent' requesting a fee is a new scam — do not pay."><strong>Prag faze:</strong> Svaki ponuđeni „agent za povrat" koji traži naknadu je nova prevara — ne plaćajte“.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Svaki ponuđeni agent za povrat koji traži naknadu je nova prevara — ne plaćajte." data-en="Phase threshold: Any offered recovery agent' requesting a fee is a new scam — do not pay."><strong>Prag faze:</strong> Svaki ponuđeni agent za povrat koji traži naknadu je nova prevara — ne plaćajte.</div>
   </div>
 </section>
 
@@ -150,22 +150,13 @@ window.SCAM_CONTENT["disaster-relief-scam"] = {
 <section class="content-section">
   <h2 data-sr="Ako pokušavaš da pomogneš nekome" data-en="If you are trying to help someone">Ako pokušavaš da pomogneš nekome</h2>
   <ul class="bullets">
-    <li data-sr="Pitaj: „Da li su tražili uplatu pre nego što si dobio bilo kakvu pomoć?“" data-en="Ask: 'Did they request payment before you received any assistance?'">Pitaj: „Da li su tražili uplatu pre nego što si dobio bilo kakvu pomoć?“</li>
-    <li data-sr="Pitaj: „Da li si pozvao agenciju za pomoć na njihovom zvaničnom broju da potvrdiš program?“" data-en="Ask: 'Did you call the aid agency at their official number to confirm the program?'">Pitaj: „Da li si pozvao agenciju za pomoć na njihovom zvaničnom broju da potvrdiš program?“</li>
-    <li data-sr="Rečenice koje pomažu: „Prava državna pomoć ne naplaćuje ulaz“.“ „Pozovimo zajedno zvaničnu agenciju i proverimo da li ovaj program postoji“.“" data-en="Sentences that help: 'Real government aid does not charge for entry.' 'Let's call the official agency together and check whether this program exists.'">Rečenice koje pomažu: „Prava državna pomoć ne naplaćuje ulaz“.“ „Pozovimo zajedno zvaničnu agenciju i proverimo da li ovaj program postoji“.“</li>
+    <li data-sr="Pitaj: Da li su tražili uplatu pre nego što si dobio bilo kakvu pomoć?" data-en="Ask: Did they request payment before you received any assistance?">Pitaj: Da li su tražili uplatu pre nego što si dobio bilo kakvu pomoć?</li>
+    <li data-sr="Pitaj: Da li si pozvao agenciju za pomoć na njihovom zvaničnom broju da potvrdiš program?" data-en="Ask: Did you call the aid agency at their official number to confirm the program?">Pitaj: Da li si pozvao agenciju za pomoć na njihovom zvaničnom broju da potvrdiš program?</li>
+    <li data-sr="Rečenice koje pomažu: Prava državna pomoć ne naplaćuje ulaz. Pozovimo zajedno zvaničnu agenciju i proverimo da li ovaj program postoji." data-en="Sentences that help: Real government aid does not charge for entry.' 'Let's call the official agency together and check whether this program exists.">Rečenice koje pomažu: Prava državna pomoć ne naplaćuje ulaz. Pozovimo zajedno zvaničnu agenciju i proverimo da li ovaj program postoji.</li>
     <li data-sr="Osobe u postkriznom stanju su posebno ranjive — budite strpljivi i ne kritikujte ako su već platile." data-en="Persons in a post-crisis state are especially vulnerable — be patient and do not criticize if they have already paid.">Osobe u postkriznom stanju su posebno ranjive — budite strpljivi i ne kritikujte ako su već platile.</li>
   </ul>
 </section>
 
-<section class="content-section">
-  <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-  <ul class="bullets">
-    <li><a href="charity-disaster-scam.html" data-sr="Lažna humanitarna organizacija — lažne organizacije koje prikupljaju donacije posle katastrofa" data-en="Charity disaster scam — fake organizations collecting donations after disasters">Lažna humanitarna organizacija — lažne organizacije koje prikupljaju donacije posle katastrofa</a></li>
-    <li><a href="crowdfunding-scam.html" data-sr="Prevara s crowdfundingom — lažne kampanje za prikupljanje u kriznim situacijama" data-en="Crowdfunding scam — fake collection campaigns in crisis situations">Prevara s crowdfundingom — lažne kampanje za prikupljanje u kriznim situacijama</a></li>
-    <li><a href="charity-scam.html" data-sr="Prevara s humanitarnom organizacijom — opštiji model lažnih donacija" data-en="Charity scam — general model of fake donations">Prevara s humanitarnom organizacijom — opštiji model lažnih donacija</a></li>
-    <li><a href="impersonation-scam.html" data-sr="Prevara lažnim predstavljanjem — lažni državni agenti u opštijem kontekstu" data-en="Impersonation scam — fake government agents in broader context">Prevara lažnim predstavljanjem — lažni državni agenti u opštijem kontekstu</a></li>
-    <li><a href="advance-fee-fraud.html" data-sr="Prevara avansnom naknadom — naknade za pomoć koja ne dolazi" data-en="Advance fee fraud — fees for assistance that never arrives">Prevara avansnom naknadom — naknade za pomoć koja ne dolazi</a></li>
-  </ul>
-</section>
+
 `
 };

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Imejl o suspenziji naloga → lažna prijava. Scenario fišinga sa pragom, signalima i povezanim modelom."
+    data-sr="Imejl o suspenziji naloga → lažna prijava. Scenario fišinga sa pragom, signalima i povezanim modelom."
+    data-en="Account suspension email → fake login. A phishing scenario with threshold, warning signs, and the related scam model."
+  />
+  <title data-sr="Imejl o suspenziji naloga → lažna prijava" data-en="Account suspension email → fake login">Imejl o suspenziji naloga → lažna prijava</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="ui.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="scenario-phishing-account-suspension.content.js" defer></script>
+  <script src="scenario-page.js" defer></script>
+</head>
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+        <div class="brand">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span class="brand-name">Anti-scam</span>
+        </div>
+        <nav aria-label="Glavna navigacija">
+          <ul class="top-nav">
+            <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+            <li><a href="prevare.html" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+            <li><a href="protecting-elderly.html" data-sr="Prevencija" data-en="Prevention">Prevencija</a></li>
+                      </ul>
+        </nav>
+      </div>
+
+      <div class="hero compact">
+        <h1 data-sr="Imejl o suspenziji naloga → lažna prijava" data-en="Account suspension email → fake login">Imejl o suspenziji naloga → lažna prijava</h1>
+        <p class="muted hero-sub"
+           data-sr="Bezbednosni alarm → klik na link → lažna prijava → unos podataka → takeover."
+           data-en="Security alarm → click the link → fake login → enter data → takeover.">
+          Bezbednosni alarm → klik na link → lažna prijava → unos podataka → takeover.
+        </p>
+        <div id="scenario-meta" data-scenario="scenario-phishing-account-suspension"></div>
+        <div class="callout"
+             data-sr="<strong>Prag:</strong> unos korisničkog imena, lozinke ili dodatnog koda na stranici koju kontroliše napadač."
+             data-en="<strong>Threshold:</strong> entering a username, password, or extra code on a page controlled by the attacker.">
+          <strong>Prag:</strong> unos korisničkog imena, lozinke ili dodatnog koda na stranici koju kontroliše napadač.
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div data-scenario-longform></div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="muted" data-sr="Anti-scam projekat — edukacija i analiza" data-en="Anti-scam project — education and analysis">
+        Anti-scam projekat — edukacija i analiza
+      </p>
+      <p class="muted">
+        <a href="obavestenje-o-privatnosti.html" data-sr="Obaveštenje o privatnosti" data-en="Privacy notice">Obaveštenje o privatnosti</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

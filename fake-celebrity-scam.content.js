@@ -6,8 +6,8 @@ window.SCAM_CONTENT["fake-celebrity-scam"] = {
       <h2 data-sr="Uvod: kako radi prevara sa lažnom zvezdom" data-en="Introduction: how the fake celebrity scam works">Uvod: kako radi prevara sa lažnom zvezdom</h2>
       <p data-sr="Napadač kreira lažni nalog koji oponaša poznatu ličnost — pevača, sportaša, glumca, biznismena. Kontaktira žrtvu sa personalizovanom porukom. Gradi poverenje kroz duži razgovor, zatim uvodi investicionu ponudu, zahtev za novac ili lični odnos sa finansijskom komponentom." data-en="The attacker creates a fake account imitating a famous person — singer, athlete, actor, businessman. Contacts the victim with a personalised message. Builds trust through extended conversation, then introduces an investment offer, money request or personal relationship with a financial component.">Napadač kreira lažni nalog koji oponaša poznatu ličnost — pevača, sportaša, glumca, biznismena. Kontaktira žrtvu sa personalizovanom porukom. Gradi poverenje kroz duži razgovor, zatim uvodi investicionu ponudu, zahtev za novac ili lični odnos sa finansijskom komponentom.</p>
       <p data-sr="Žrtve su najčešće obožavatelji koji su emocionalno vezani za tu osobu. Poverenje prema zvezdi prenosi se na lažni nalog. Napadač koristi javno dostupne informacije o pravoj osobi da bi razgovor izgledao autentično." data-en="Victims are most often fans who are emotionally attached to that person. Trust in the celebrity transfers to the fake account. The attacker uses publicly available information about the real person to make the conversation appear authentic.">Žrtve su najčešće obožavatelji koji su emocionalno vezani za tu osobu. Poverenje prema zvezdi prenosi se na lažni nalog. Napadač koristi javno dostupne informacije o pravoj osobi da bi razgovor izgledao autentično.</p>
-      <div class="callout" data-sr="&lt;strong&gt;Model:&lt;/strong&gt; lažni nalog zvezde → personalizovana poruka → izgradnja poverenja → investicija/zahtev za novac → blokiranje." data-en="&lt;strong&gt;Model:&lt;/strong&gt; fake celebrity account → personalised message → trust building → investment/money request → blocking."><strong>Model:</strong> lažni nalog zvezde → personalizovana poruka → izgradnja poverenja → investicija/zahtev za novac → blokiranje.</div>
-      <div class="callout" data-sr="&lt;strong&gt;Prag:&lt;/strong&gt; žrtva šalje novac ili podatke verujući da komunicira sa pravom poznatom osobom." data-en="&lt;strong&gt;Threshold:&lt;/strong&gt; victim sends money or data believing they are communicating with the real famous person."><strong>Prag:</strong> žrtva šalje novac ili podatke verujući da komunicira sa pravom poznatom osobom.</div>
+      <div class="callout" data-sr="<strong>Model:</strong> lažni nalog zvezde → personalizovana poruka → izgradnja poverenja → investicija/zahtev za novac → blokiranje." data-en="<strong>Model:</strong> fake celebrity account → personalised message → trust building → investment/money request → blocking."><strong>Model:</strong> lažni nalog zvezde → personalizovana poruka → izgradnja poverenja → investicija/zahtev za novac → blokiranje.</div>
+      <div class="callout" data-sr="<strong>Prag:</strong> žrtva šalje novac ili podatke verujući da komunicira sa pravom poznatom osobom." data-en="<strong>Threshold:</strong> victim sends money or data believing they are communicating with the real famous person."><strong>Prag:</strong> žrtva šalje novac ili podatke verujući da komunicira sa pravom poznatom osobom.</div>
     </section>
 
     <section class="card">
@@ -25,9 +25,9 @@ window.SCAM_CONTENT["fake-celebrity-scam"] = {
         <div>
           <h3 data-sr="Kako se uvodi novac" data-en="How money is introduced">Kako se uvodi novac</h3>
           <ul class="bullets">
-            <li data-sr="Investiciona ponuda: &#8222;imam ekskluzivan projekat, želi da te uključim&#8220;." data-en="Investment offer: &ldquo;I have an exclusive project, I want to include you&rdquo;.">Investiciona ponuda: „imam ekskluzivan projekat, želi da te uključim".</li>
-            <li data-sr="Zahtev za &#8222;pokrićem troškova&#8220; za lični susret ili poklon koji treba da stigne." data-en="Request to &ldquo;cover costs&rdquo; for a personal meeting or gift that needs to arrive.">Zahtev za „pokrićem troškova" za lični susret ili poklon koji treba da stigne.</li>
-            <li data-sr="Giveaway koji traži uplatu ili lične podatke za &#8222;verifikaciju&#8220;." data-en="Giveaway requiring payment or personal data for &ldquo;verification&rdquo;.">Giveaway koji traži uplatu ili lične podatke za „verifikaciju".</li>
+            <li data-sr="Investiciona ponuda: imam ekskluzivan projekat, želi da te uključim." data-en="Investment offer: &ldquo;I have an exclusive project, I want to include you&rdquo;.">Investiciona ponuda: imam ekskluzivan projekat, želi da te uključim.</li>
+            <li data-sr="Zahtev za pokrićem troškova za lični susret ili poklon koji treba da stigne." data-en="Request to &ldquo;cover costs&rdquo; for a personal meeting or gift that needs to arrive.">Zahtev za pokrićem troškova za lični susret ili poklon koji treba da stigne.</li>
+            <li data-sr="Giveaway koji traži uplatu ili lične podatke za verifikaciju." data-en="Giveaway requiring payment or personal data for &ldquo;verification&rdquo;.">Giveaway koji traži uplatu ili lične podatke za verifikaciju.</li>
           </ul>
         </div>
       </div>
@@ -40,7 +40,7 @@ window.SCAM_CONTENT["fake-celebrity-scam"] = {
         <div class="label" data-sr="Faza 1: Kreiranje lažnog naloga" data-en="Phase 1: Creating the fake account">Faza 1: Kreiranje lažnog naloga</div>
         <p data-sr="Napadač kopira javni profil poznate osobe — slika, bio, stil. Kreira nalog koji na prvi pogled izgleda autentično." data-en="Attacker copies the public profile of a famous person — photo, bio, style. Creates an account that at first glance looks authentic.">Napadač kopira javni profil poznate osobe — slika, bio, stil. Kreira nalog koji na prvi pogled izgleda autentično.</p>
         <ul class="bullets">
-          <li data-sr="Lažni nalog nema plavу oznaku verifikacije ili ima lažnu koja izgleda slično." data-en="Fake account has no blue verification badge or has a fake one that looks similar.">Lažni nalog nema plavu oznaku verifikacije ili ima lažnu koja izgleda slično.</li>
+          <li data-sr="Lažni nalog nema plavu oznaku verifikacije ili ima lažnu koja izgleda slično." data-en="Fake account has no blue verification badge or has a fake one that looks similar.">Lažni nalog nema plavu oznaku verifikacije ili ima lažnu koja izgleda slično.</li>
           <li data-sr="Broj pratilaca je mali ili veštački uvećan kupljenim pratiocima." data-en="Follower count is small or artificially inflated with purchased followers.">Broj pratilaca je mali ili veštački uvećan kupljenim pratiocima.</li>
         </ul>
         <p class="phase-threshold" data-sr="Prag faze: nalog je kreiran i napadač počinje da kontaktira potencijalne žrtve." data-en="Phase threshold: account is created and attacker begins contacting potential victims.">Prag faze: nalog je kreiran i napadač počinje da kontaktira potencijalne žrtve.</p>
@@ -50,28 +50,28 @@ window.SCAM_CONTENT["fake-celebrity-scam"] = {
         <div class="label" data-sr="Faza 2: Inicijalni kontakt" data-en="Phase 2: Initial contact">Faza 2: Inicijalni kontakt</div>
         <p data-sr="Napadač šalje DM poruku žrtvi — obožavatelju ili pratiocu. Poruka je lična i deluje ekskluzivno." data-en="Attacker sends a DM message to the victim — a fan or follower. The message is personal and feels exclusive.">Napadač šalje DM poruku žrtvi — obožavatelju ili pratiocu. Poruka je lična i deluje ekskluzivno.</p>
         <ul class="bullets">
-          <li data-sr="&#8222;Video sam tvoj komentar — bio je iskren i hteo sam da ti se javim lično.&#8220;" data-en="&ldquo;I saw your comment — it was sincere and I wanted to reach out to you personally.&rdquo;">„Video sam tvoj komentar — bio je iskren i hteo sam da ti se javim lično."</li>
+          <li data-sr="Video sam tvoj komentar — bio je iskren i hteo sam da ti se javim lično." data-en="&ldquo;I saw your comment — it was sincere and I wanted to reach out to you personally.&rdquo;">Video sam tvoj komentar — bio je iskren i hteo sam da ti se javim lično.</li>
           <li data-sr="Žrtva je uzbuđena jer misli da je prava zvezda kontaktirala direktno." data-en="Victim is excited believing the real celebrity contacted them directly.">Žrtva je uzbuđena jer misli da je prava zvezda kontaktirala direktno.</li>
         </ul>
         <p class="phase-threshold" data-sr="Prag faze: žrtva odgovara i komunikacija počinje." data-en="Phase threshold: victim responds and communication begins.">Prag faze: žrtva odgovara i komunikacija počinje.</p>
       </div>
 
       <div class="phase">
-        <div class="label" data-sr="Faza 3: Izgradnja odnosa" data-en="Phase 3: Relationship building">Faza 3: Relationship building</div>
+        <div class="label" data-sr="Faza 3: Relationship building" data-en="Phase 3: Relationship building">Faza 3: Relationship building</div>
         <p data-sr="Napadač gradi emocionalni odnos kroz redovnu komunikaciju. Ne traži odmah ništa. Deli lične detalje koji se podudaraju sa javno poznatim informacijama o zvezdi." data-en="Attacker builds an emotional relationship through regular communication. Does not ask for anything immediately. Shares personal details that match publicly known information about the celebrity.">Napadač gradi emocionalni odnos kroz redovnu komunikaciju. Ne traži odmah ništa. Deli lične detalje koji se podudaraju sa javno poznatim informacijama o zvezdi.</p>
         <ul class="bullets">
           <li data-sr="Razgovor traje dane ili nedelje pre nego što se pomene novac." data-en="Conversation lasts days or weeks before money is mentioned.">Razgovor traje dane ili nedelje pre nego što se pomene novac.</li>
-          <li data-sr="Napadač gradi osećaj posebnog odnosa — &#8222;nisi kao drugi obožavatelji&#8220;." data-en="Attacker builds a sense of a special relationship — &ldquo;you are not like other fans&rdquo;.">Napadač gradi osećaj posebnog odnosa — „nisi kao drugi obožavatelji".</li>
+          <li data-sr="Napadač gradi osećaj posebnog odnosa — nisi kao drugi obožavatelji." data-en="Attacker builds a sense of a special relationship — &ldquo;you are not like other fans&rdquo;.">Napadač gradi osećaj posebnog odnosa — nisi kao drugi obožavatelji.</li>
         </ul>
         <p class="phase-threshold" data-sr="Prag faze: žrtva veruje da ima poseban odnos sa zvezdom i sprema se na finansijsku akciju." data-en="Phase threshold: victim believes they have a special relationship with the celebrity and is prepared for financial action.">Prag faze: žrtva veruje da ima poseban odnos sa zvezdom i sprema se na finansijsku akciju.</p>
       </div>
 
       <div class="phase">
-        <div class="label" data-sr="Faza 4: Finansijski zahtev" data-en="Phase 4: Financial request">Faza 4: Financial request</div>
+        <div class="label" data-sr="Faza 4: Financial request" data-en="Phase 4: Financial request">Faza 4: Financial request</div>
         <p data-sr="Napadač uvodi finansijsku komponentu — investicija, pokrivanje troškova, giveaway verifikacija. Žrtva pristaje jer veruje u odnos." data-en="Attacker introduces the financial component — investment, covering costs, giveaway verification. Victim agrees because they believe in the relationship.">Napadač uvodi finansijsku komponentu — investicija, pokrivanje troškova, giveaway verifikacija. Žrtva pristaje jer veruje u odnos.</p>
         <ul class="bullets">
-          <li data-sr="&#8222;Imam projekat koji bi ti doneo veliku zaradu — trebam da znam da mogu da ti verujem.&#8220;" data-en="&ldquo;I have a project that would bring you great earnings — I need to know I can trust you.&rdquo;">„Imam projekat koji bi ti doneo veliku zaradu — trebam da znam da mogu da ti verujem."</li>
-          <li data-sr="&#8222;Šaljem ti poklon ali treba da pokriješ troškove dostave i carine.&#8220;" data-en="&ldquo;I am sending you a gift but you need to cover delivery and customs costs.&rdquo;">„Šaljem ti poklon ali treba da pokriješ troškove dostave i carine."</li>
+          <li data-sr="Imam projekat koji bi ti doneo veliku zaradu — trebam da znam da mogu da ti verujem." data-en="&ldquo;I have a project that would bring you great earnings — I need to know I can trust you.&rdquo;">Imam projekat koji bi ti doneo veliku zaradu — trebam da znam da mogu da ti verujem.</li>
+          <li data-sr="Šaljem ti poklon ali treba da pokriješ troškove dostave i carine." data-en="&ldquo;I am sending you a gift but you need to cover delivery and customs costs.&rdquo;">Šaljem ti poklon ali treba da pokriješ troškove dostave i carine.</li>
         </ul>
         <p class="phase-threshold" data-sr="Prag faze: žrtva šalje novac ili podatke i napadač nestaje." data-en="Phase threshold: victim sends money or data and attacker disappears.">Prag faze: žrtva šalje novac ili podatke i napadač nestaje.</p>
       </div>
@@ -83,7 +83,7 @@ window.SCAM_CONTENT["fake-celebrity-scam"] = {
         <li data-sr="Prava poznata osoba ne kontaktira obožavatelje direktno kroz DM." data-en="Real famous people do not contact fans directly through DM.">Prava poznata osoba ne kontaktira obožavatelje direktno kroz DM.</li>
         <li data-sr="Nalog nema plavu verifikaciju ili je verifikacija lažna." data-en="Account has no blue verification or the verification is fake.">Nalog nema plavu verifikaciju ili je verifikacija lažna.</li>
         <li data-sr="Razgovor brzo postaje intiman ili ekskluzivan za kratko vreme." data-en="Conversation quickly becomes intimate or exclusive in a short time.">Razgovor brzo postaje intiman ili ekskluzivan za kratko vreme.</li>
-        <li data-sr="Svaki finansijski zahtev od &#8222;poznate osobe&#8220; je signal prevare." data-en="Any financial request from a &ldquo;famous person&rdquo; is a scam signal.">Svaki finansijski zahtev od „poznate osobe" je signal prevare.</li>
+        <li data-sr="Svaki finansijski zahtev od poznate osobe je signal prevare." data-en="Any financial request from a &ldquo;famous person&rdquo; is a scam signal.">Svaki finansijski zahtev od poznate osobe je signal prevare.</li>
         <li data-sr="Nalog je nedavno kreiran ili ima malo objava i pratilaca." data-en="Account was recently created or has few posts and followers.">Nalog je nedavno kreiran ili ima malo objava i pratilaca.</li>
         <li data-sr="Osoba odbija video poziv ili ima izgovor zašto ne može da pokaže lice uživo." data-en="Person refuses a video call or has an excuse for not being able to show their face live.">Osoba odbija video poziv ili ima izgovor zašto ne može da pokaže lice uživo.</li>
       </ul>
@@ -123,21 +123,12 @@ window.SCAM_CONTENT["fake-celebrity-scam"] = {
     <section class="card">
       <h2 data-sr="Ako pokušavaš da pomogneš nekome" data-en="If you are trying to help someone">Ako pokušavaš da pomogneš nekome</h2>
       <ul class="bullets">
-        <li data-sr="'Da li nalog ima verifikaciju — i da li je ista ta osoba dostupna na drugoj platformi?'" data-en="'Does the account have verification — and is the same person available on another platform?'">'Da li nalog ima verifikaciju — i da li je ista ta osoba dostupna na drugoj platformi?'</li>
-        <li data-sr="'Poznate osobe ne kontaktiraju obožavatelje privatno i ne traže novac — to je pravilo bez iznimke.'" data-en="'Famous people do not contact fans privately and do not ask for money — that is a rule without exception.'">'Poznate osobe ne kontaktiraju obožavatelje privatno i ne traže novac — to je pravilo bez iznimke.'</li>
-        <li data-sr="'Zamoli je za video poziv uživo — ako odbije, to je odgovor.'" data-en="'Ask them for a live video call — if they refuse that is your answer.'">'Zamoli je za video poziv uživo — ako odbije, to je odgovor.'</li>
+        <li data-sr="Da li nalog ima verifikaciju — i da li je ista ta osoba dostupna na drugoj platformi?" data-en="'Does the account have verification — and is the same person available on another platform?">Da li nalog ima verifikaciju — i da li je ista ta osoba dostupna na drugoj platformi?</li>
+        <li data-sr="Poznate osobe ne kontaktiraju obožavatelje privatno i ne traže novac — to je pravilo bez izuzetka." data-en="'Famous people do not contact fans privately and do not ask for money — that is a rule without exception.">Poznate osobe ne kontaktiraju obožavatelje privatno i ne traže novac — to je pravilo bez izuzetka.</li>
+        <li data-sr="Zamoli je za video poziv uživo — ako odbije, to je odgovor." data-en="'Ask them for a live video call — if they refuse that is your answer.">Zamoli je za video poziv uživo — ako odbije, to je odgovor.</li>
       </ul>
     </section>
 
-    <section class="card">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <ul class="bullets">
-        <li><a href="influencer-impersonation-scam.html" data-sr="Lažni influenser" data-en="Influencer impersonation scam">Lažni influenser</a></li>
-        <li><a href="ai-voice-clone-scam.html" data-sr="Prevara sa AI klonom glasa" data-en="AI voice clone scam">Prevara sa AI klonom glasa</a></li>
-        <li><a href="social-media-hijack-scam.html" data-sr="Preuzimanje naloga na društvenim mrežama" data-en="Social media hijack scam">Preuzimanje naloga na društvenim mrežama</a></li>
-        <li><a href="romantic-scam.html" data-sr="Romantična prevara" data-en="Romantic scam">Romantična prevara</a></li>
-        <li><a href="investment-fraud.html" data-sr="Investiciona prevara" data-en="Investment fraud">Investiciona prevara</a></li>
-      </ul>
-    </section>
+    
   `
 };

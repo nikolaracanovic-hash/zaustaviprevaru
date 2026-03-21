@@ -14,14 +14,14 @@ window.SCAM_CONTENT["ponzi-scheme"] = {
       >Ponzi šema je prevara u kojoj prevarant obećava visoke prinose na investiciju, ali umesto da stvarno ulaže novac, on samo koristi novac novih investitora da plati stare. Nema pravog poslovanja - sve je samo premeštanje novca od novijih ka starijim žrtvama. Sistem funkcioniše sve dok dolaze novi ulagači, ali matematički je nemoguće da traže zauvek.</p>
 
       <p
-        data-sr="Razlika od piramidalne šeme: u Ponzi šemi žrtve ne znaju da su deo prevare i ne regrutuju aktivno nove ljude. Svi misle da su normalni investitori. Prevarant kontroliše sve - žrtve su potpuno pasivne i čekaju &quot;profit&quot;. Šteta: (1) direktan gubitak uloženog novca, (2) emotivna trauma zbog prevare, (3) pravne posledice ako si nenamerno preporučio šemu drugima."
+        data-sr="Razlika od piramidalne šeme: u Ponzi šemi žrtve ne znaju da su deo prevare i ne regrutuju aktivno nove ljude. Svi misle da su normalni investitori. Prevarant kontroliše sve - žrtve su potpuno pasivne i čekaju profit. Šteta: (1) direktan gubitak uloženog novca, (2) emotivna trauma zbog prevare, (3) pravne posledice ako si nenamerno preporučio šemu drugima."
         data-en="Difference from pyramid scheme: in a Ponzi scheme, victims don't know they're part of a fraud and don't actively recruit new people. Everyone thinks they're normal investors. The scammer controls everything—victims are completely passive and wait for 'profits'. Damage: (1) direct loss of invested money, (2) emotional trauma from being defrauded, (3) legal consequences if you unwittingly recommended the scheme to others."
-      >Razlika od piramidalne šeme: u Ponzi šemi žrtve ne znaju da su deo prevare i ne regrutuju aktivno nove ljude. Svi misle da su normalni investitori. Prevarant kontroliše sve - žrtve su potpuno pasivne i čekaju "profit". Šteta: (1) direktan gubitak uloženog novca, (2) emotivna trauma zbog prevare, (3) pravne posledice ako si nenamerno preporučio šemu drugima.</p>
+      >Razlika od piramidalne šeme: u Ponzi šemi žrtve ne znaju da su deo prevare i ne regrutuju aktivno nove ljude. Svi misle da su normalni investitori. Prevarant kontroliše sve - žrtve su potpuno pasivne i čekaju profit. Šteta: (1) direktan gubitak uloženog novca, (2) emotivna trauma zbog prevare, (3) pravne posledice ako si nenamerno preporučio šemu drugima.</p>
 
       <div class="callout"
-        data-sr="<strong>Model:</strong> investicija → obećani visoki prinos → &quot;profit&quot; plaćen iz novca novih žrtava → privremeno sve izgleda legitimno → sistem propada → svi gube osim organizatora."
+        data-sr="<strong>Model:</strong> investicija → obećani visoki prinos → profit plaćen iz novca novih žrtava → privremeno sve izgleda legitimno → sistem propada → svi gube osim organizatora."
         data-en="<strong>Model:</strong> investment → promised high return → 'profit' paid from new victims' money → temporarily looks legitimate → system collapses → everyone loses except the organizer."
-      ><strong>Model:</strong> investicija → obećani visoki prinos → ."profit" plaćen iz novca novih žrtava → privremeno sve izgleda legitimno → sistem propada → svi gube osim organizatora</div>
+      ><strong>Model:</strong> investicija → obećani visoki prinos → .profit plaćen iz novca novih žrtava → privremeno sve izgleda legitimno → sistem propada → svi gube osim organizatora</div>
     </section>
 
     <!-- 2) POZNATI SLUČAJEVI -->
@@ -32,7 +32,7 @@ window.SCAM_CONTENT["ponzi-scheme"] = {
 
       <div class="grid-2">
         <div class="phase warn">
-          <div class="label" data-sr="Bernie Madoff (1991-2008)." data-en="Bernie Madoff (1991-2008).">Bernie Madoff (1991-2008)</div>
+          <div class="label" data-sr="Bernie Madoff (1991-2008)" data-en="Bernie Madoff (1991-2008).">Bernie Madoff (1991-2008)</div>
           <ul class="bullets">
             <li data-sr="<strong>Ko je bio:</strong> bivši predsednik NASDAQ berze, veoma poštovan finansijski savetnik na Wall Street-u." data-en="<strong>Who he was:</strong> former NASDAQ chairman, highly respected financial advisor on Wall Street."><strong>Ko je bio:</strong> bivši predsednik NASDAQ berze, veoma poštovan finansijski savetnik na Wall Street-u.</li>
             <li data-sr="<strong>Šema:</strong> obećavao stabilne prinose od 10-12% godišnje - novac novih investitora koristio da plati stare." data-en="<strong>Scheme:</strong> promised stable returns of 10-12% yearly - used new investors' money to pay old ones."><strong>Šema:</strong> obećavao stabilne prinose od 10-12% godišnje - novac novih investitora koristio da plati stare.</li>
@@ -47,7 +47,7 @@ window.SCAM_CONTENT["ponzi-scheme"] = {
           <div class="label" data-sr="Charles Ponzi (1920)" data-en="Charles Ponzi (1920)">Charles Ponzi (1920)</div>
           <ul class="bullets">
             <li data-sr="<strong>Ko je bio:</strong> italijanski imigrant u Americi - po njemu je šema dobila ime." data-en="<strong>Who he was:</strong> Italian immigrant in America - the scheme is named after him."><strong>Ko je bio:</strong> italijanski imigrant u Americi - po njemu je šema dobila ime.</li>
-            <li data-sr="<strong>Priča:</strong> obećao 50% profit za 45 dana kroz trgovinu &quot;međunarodnim poštanskim kuponima&quot;." data-en="<strong>Story:</strong> promised 50% profit in 45 days via trading 'international postal reply coupons'."><strong>Priča:</strong> obećao 50% profit za 45 dana kroz trgovinu "međunarodnim poštanskim kuponima".</li>
+            <li data-sr="<strong>Priča:</strong> obećao 50% profit za 45 dana kroz trgovinu međunarodnim poštanskim kuponima." data-en="<strong>Story:</strong> promised 50% profit in 45 days via trading 'international postal reply coupons'."><strong>Priča:</strong> obećao 50% profit za 45 dana kroz trgovinu međunarodnim poštanskim kuponima.</li>
             <li data-sr="<strong>Brzo širenje:</strong> privukao 40,000 ljudi u samo nekoliko meseci, ljudi su mu davali celu ušteđevinu." data-en="<strong>Rapid spread:</strong> attracted 40,000 people in just months, people gave him their life savings."><strong>Brzo širenje:</strong> privukao 40,000 ljudi u samo nekoliko meseci, ljudi su mu davali celu ušteđevinu.</li>
             <li data-sr="<strong>Gubici:</strong> 20 miliona dolara (1920-te) = više od 200 miliona danas." data-en="<strong>Losses:</strong> $20 million (1920s) = over $200 million today."><strong>Gubici:</strong> 20 miliona dolara (1920-te) = više od 200 miliona danas.</li>
             <li data-sr="<strong>Kraj:</strong> propao posle 8 meseci kada su novine otkrile istinu - zatvoren, pa deportovan u Italiju." data-en="<strong>Outcome:</strong> collapsed after 8 months when newspapers uncovered truth - imprisoned, then deported to Italy."><strong>Kraj:</strong> propao posle 8 meseci kada su novine otkrile istinu - zatvoren, pa deportovan u Italiju.</li>
@@ -69,7 +69,7 @@ window.SCAM_CONTENT["ponzi-scheme"] = {
             <li data-sr="Obećanje visokih prinosa bez rizika (10%+ godišnje je sumnjivo)." data-en="Promise of high returns with no risk (10%+ yearly is suspicious).">Obećanje visokih prinosa bez rizika (10%+ godišnje je sumnjivo).</li>
             <li data-sr="Prinosi su stabilni bez obzira na tržišne uslove (nerealno)." data-en="Returns are stable regardless of market conditions (unrealistic).">Prinosi su stabilni bez obzira na tržišne uslove (nerealno).</li>
             <li data-sr="Neregistrovana investiciona kompanija ili osoba." data-en="Unregistered investment company or person.">Neregistrovana investiciona kompanija ili osoba.</li>
-            <li data-sr="Nejasna ili komplikovana strategija zarade (&quot;tajni sistem&quot;)." data-en="Unclear or complicated earning strategy ('secret system').">Nejasna ili komplikovana strategija zarade ("tajni sistem").</li>
+            <li data-sr="Nejasna ili komplikovana strategija zarade (tajni sistem)." data-en="Unclear or complicated earning strategy ('secret system').">Nejasna ili komplikovana strategija zarade (tajni sistem).</li>
             <li data-sr="Problemi sa povlačenjem novca ili odlaganje isplata." data-en="Problems withdrawing money or delayed payouts.">Problemi sa povlačenjem novca ili odlaganje isplata.</li>
             <li data-sr="Nema pisanih ugovora ili dokumentacije o investiciji." data-en="No written contracts or investment documentation.">Nema pisanih ugovora ili dokumentacije o investiciji.</li>
           </ul>
@@ -81,8 +81,8 @@ window.SCAM_CONTENT["ponzi-scheme"] = {
             <li data-sr="Ako zvuči predobro da bi bilo istinito - verovatno NIJE istinito." data-en="If it sounds too good to be true - it probably ISN'T true.">Ako zvuči predobro da bi bilo istinito - verovatno NIJE istinito.</li>
             <li data-sr="Proveri da li je kompanija/osoba registrovana kod Komisije za hartije od vrednosti." data-en="Check if company/person is registered with Securities Commission.">Proveri da li je kompanija/osoba registrovana kod Komisije za hartije od vrednosti.</li>
             <li data-sr="Traži pisanu dokumentaciju i jasno objašnjenje odakle dolazi zarada." data-en="Ask for written documentation and clear explanation of where profit comes from.">Traži pisanu dokumentaciju i jasno objašnjenje odakle dolazi zarada.</li>
-            <li data-sr="Budi skeptičan prema &quot;ekskluzivnim ponudama&quot; i vremenskom pritisku." data-en="Be skeptical of 'exclusive offers' and time pressure.">Budi skeptičan prema "ekskluzivnim ponudama" i vremenskom pritisku.</li>
-            <li data-sr="Ne investiraj pod pritiskom prijatelja/porodice koji su već &quot;u tome&quot;." data-en="Don't invest under pressure from friends/family who are already 'in it'.">Ne investiraj pod pritiskom prijatelja/porodice koji su već "u tome".</li>
+            <li data-sr="Budi skeptičan prema ekskluzivnim ponudama i vremenskom pritisku." data-en="Be skeptical of 'exclusive offers' and time pressure.">Budi skeptičan prema ekskluzivnim ponudama i vremenskom pritisku.</li>
+            <li data-sr="Ne investiraj pod pritiskom prijatelja/porodice koji su već u tome." data-en="Don't invest under pressure from friends/family who are already 'in it'.">Ne investiraj pod pritiskom prijatelja/porodice koji su već u tome.</li>
             <li data-sr="Konsultuj se sa nezavisnim finansijskim savetnikom." data-en="Consult with an independent financial advisor.">Konsultuj se sa nezavisnim finansijskim savetnikom.</li>
           </ul>
         </div>
@@ -140,14 +140,14 @@ window.SCAM_CONTENT["ponzi-scheme"] = {
       <h2 data-sr="Crvene zastavice" data-en="Red flags">Crvene zastavice</h2>
       <ul class="bullets">
         <li data-sr="Prinos koji se nudi je konstantno visok bez obzira na tržišne uslove." data-en="The offered return is consistently high regardless of market conditions.">Prinos koji se nudi je konstantno visok bez obzira na tržišne uslove.</li>
-        <li data-sr="Strategija ulaganja je nejasna ili opisana kao „tajna."." data-en="The investment strategy is vague or described as secret.">Strategija ulaganja je nejasna ili opisana kao „tajna"“.</li>
+        <li data-sr="Strategija ulaganja je nejasna ili opisana kao tajna." data-en="The investment strategy is vague or described as secret.">Strategija ulaganja je nejasna ili opisana kao tajna.</li>
         <li data-sr="Isplate su redovne i stabilne — što je neobično za svako tržišno ulaganje." data-en="Payments are regular and stable — which is unusual for any market-based investment.">Isplate su redovne i stabilne — što je neobično za svako tržišno ulaganje.</li>
         <li data-sr="Teško je ili nemoguće povući novac kad želiš." data-en="It is difficult or impossible to withdraw money when you want.">Teško je ili nemoguće povući novac kad želiš.</li>
         <li data-sr="Organizator nema registrovanu investicionu dozvolu." data-en="The organizer has no registered investment licence.">Organizator nema registrovanu investicionu dozvolu.</li>
         <li data-sr="Finansijski izveštaji su nedostupni ili neproverljivi." data-en="Financial statements are unavailable or unverifiable.">Finansijski izveštaji su nedostupni ili neproverljivi.</li>
-        <li data-sr="Pritisak da ulagaš više novca ili reinvestiraš „profit." umesto da ga podižeš." data-en="Pressure to invest more money or reinvest profit instead of withdrawing it.">Pritisak da ulagaš više novca ili reinvestiraš „profit" umesto da ga podižeš“.</li>
+        <li data-sr="Pritisak da ulagaš više novca ili reinvestiraš profit umesto da ga podižeš." data-en="Pressure to invest more money or reinvest profit instead of withdrawing it.">Pritisak da ulagaš više novca ili reinvestiraš profit umesto da ga podižeš.</li>
         <li data-sr="Na tebe se vrši pritisak da preporučiš šemu prijateljima i porodici." data-en="You are pressured to recommend the scheme to friends and family.">Na tebe se vrši pritisak da preporučiš šemu prijateljima i porodici.</li>
-        <li data-sr="Kompanija tvrdi da je „ekskluzivna." i prihvata samo ograničen broj ulagača." data-en="The company claims to be exclusive and accepts only a limited number of investors.">Kompanija tvrdi da je „ekskluzivna" i prihvata samo ograničen broj ulagača“.</li>
+        <li data-sr="Kompanija tvrdi da je ekskluzivna i prihvata samo ograničen broj ulagača." data-en="The company claims to be exclusive and accepts only a limited number of investors.">Kompanija tvrdi da je ekskluzivna i prihvata samo ograničen broj ulagača.</li>
         <li data-sr="Izveštaji o profitu dolaze samo od organizatora — nema nezavisne provere." data-en="Profit reports come only from the organizer — there is no independent verification.">Izveštaji o profitu dolaze samo od organizatora — nema nezavisne provere.</li>
       </ul>
     </section>
@@ -177,7 +177,7 @@ window.SCAM_CONTENT["ponzi-scheme"] = {
         <li data-sr="Da li mogu lako da povučem novac u bilo kom trenutku?" data-en="Can I easily withdraw my money at any time?">Da li mogu lako da povučem novac u bilo kom trenutku?</li>
         <li data-sr="Da li nezavisni finansijski savetnik smatra ovu investiciju legitimnom?" data-en="Does an independent financial adviser consider this investment legitimate?">Da li nezavisni finansijski savetnik smatra ovu investiciju legitimnom?</li>
         <li data-sr="Da li prinos koji se nudi daleko nadmašuje prosečne tržišne prinose?" data-en="Does the offered return far exceed average market returns?">Da li prinos koji se nudi daleko nadmašuje prosečne tržišne prinose?</li>
-        <li data-sr="Da li postoji pritisak da investiram brzo ili „izgubim šansu."?" data-en="Is there pressure to invest quickly or miss the opportunity?">Da li postoji pritisak da investiram brzo ili „izgubim šansu"?</li>
+        <li data-sr="Da li postoji pritisak da investiram brzo ili izgubim šansu?" data-en="Is there pressure to invest quickly or miss the opportunity?">Da li postoji pritisak da investiram brzo ili izgubim šansu?</li>
         <li data-sr="Da li me neko ko je već u šemi aktivno nagovara da i ja ulažem?" data-en="Is someone who is already in the scheme actively encouraging me to invest too?">Da li me neko ko je već u šemi aktivno nagovara da i ja ulažem?</li>
         <li data-sr="Da li sam proverio kompaniju na listi upozorenja finansijskog regulatora?" data-en="Have I checked the company on the financial regulator's warning list?">Da li sam proverio kompaniju na listi upozorenja finansijskog regulatora?</li>
         <li data-sr="Da li prinos ostaje isti bez obzira što je opšta tržišna situacija promenljiva?" data-en="Does the return stay the same regardless of changing general market conditions?">Da li prinos ostaje isti bez obzira što je opšta tržišna situacija promenljiva?</li>
@@ -210,23 +210,14 @@ window.SCAM_CONTENT["ponzi-scheme"] = {
       </ul>
       <p data-sr="Rečenice koje rade:" data-en="Sentences that help:">Rečenice koje rade:</p>
       <ul class="bullets">
-        <li data-sr="„Prinos koji ne varira s tržištem je matematički sumnjiv — stvarne investicije uvek imaju i loše periode.." data-en="Returns that do not vary with the market are mathematically suspicious — real investments always have bad periods too.">„Prinos koji ne varira s tržištem je matematički sumnjiv — stvarne investicije uvek imaju i loše periode.“.</li>
-        <li data-sr="„Hajde da zajedno proverimo da li je kompanija registrovana kod regulatora — traže pet minuta“.." data-en="Let us check together whether the company is registered with the regulator — it takes five minutes.">„Hajde da zajedno proverimo da li je kompanija registrovana kod regulatora — traže pet minuta“.“.</li>
-        <li data-sr="„Pokušaj da podigneš deo novca — ako odbijaju ili odlažu, to je jasan znak“.." data-en="Try to withdraw part of the money — if they refuse or delay, that is a clear sign.">„Pokušaj da podigneš deo novca — ako odbijaju ili odlažu, to je jasan znak“.“.</li>
-        <li data-sr="„Nije kasno da prestaneš da ulažeš — gubitak postoji, ali može biti manji nego ako nastaviš“.." data-en="It is not too late to stop investing — the loss exists, but it can be smaller than if you continue.">„Nije kasno da prestaneš da ulažeš — gubitak postoji, ali može biti manji nego ako nastaviš“.“.</li>
+        <li data-sr="Prinos koji ne varira s tržištem je matematički sumnjiv — stvarne investicije uvek imaju i loše periode." data-en="Returns that do not vary with the market are mathematically suspicious — real investments always have bad periods too.">Prinos koji ne varira s tržištem je matematički sumnjiv — stvarne investicije uvek imaju i loše periode.</li>
+        <li data-sr="Hajde da zajedno proverimo da li je kompanija registrovana kod regulatora — treba pet minuta." data-en="Let us check together whether the company is registered with the regulator — it takes five minutes.">Hajde da zajedno proverimo da li je kompanija registrovana kod regulatora — treba pet minuta.</li>
+        <li data-sr="Pokušaj da podigneš deo novca — ako odbijaju ili odlažu, to je jasan znak." data-en="Try to withdraw part of the money — if they refuse or delay, that is a clear sign.">Pokušaj da podigneš deo novca — ako odbijaju ili odlažu, to je jasan znak.</li>
+        <li data-sr="Nije kasno da prestaneš da ulažeš — gubitak postoji, ali može biti manji nego ako nastaviš." data-en="It is not too late to stop investing — the loss exists, but it can be smaller than if you continue.">Nije kasno da prestaneš da ulažeš — gubitak postoji, ali može biti manji nego ako nastaviš.</li>
       </ul>
     </section>
 
     <!-- POVEZANE PREVARE -->
-    <section class="content-section">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <ul class="bullets">
-        <li><a href="pyramid-scheme.html" data-sr="Piramidalna šema — aktivno regrutovanje novih člažna za isplatu starih." data-en="Pyramid scheme — active recruitment of new members to pay old ones.">Piramidalna šema — aktivno regrutovanje novih člažna za isplatu starih</a></li>
-        <li><a href="crypto-scam.html" data-sr="Kripto investicione prevare — lažni kripto projekti sa garantovanim prinosima." data-en="Crypto investment scams — fake crypto projects with guaranteed returns.">Kripto investicione prevare — lažni kripto projekti sa garantovanim prinosima</a></li>
-        <li><a href="pig-butchering.html" data-sr="Pig butchering — romantizirane kripto investicione prevare dugog ciklusa." data-en="Pig butchering — romanticized long-cycle crypto investment scams.">Pig butchering — romantizirane kripto investicione prevare dugog ciklusa</a></li>
-        <li><a href="advance-fee-fraud.html" data-sr="Prevara avansnom naknadom — unapredne uplate za lažne prinose." data-en="Advance fee fraud — upfront payments for fake returns.">Prevara avansnom naknadom — unapredne uplate za lažne prinose</a></li>
-        <li><a href="investment-seminar.html" data-sr="Lažni investicioni seminar — skupi kursevi koji uvlače u sheme." data-en="Fake investment seminar — expensive courses that draw into schemes.">Lažni investicioni seminar — skupi kursevi koji uvlače u sheme</a></li>
-      </ul>
-    </section>
+    
   `
 };

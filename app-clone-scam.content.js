@@ -1,4 +1,4 @@
-﻿if (!window.SCAM_CONTENT) window.SCAM_CONTENT = {};
+if (!window.SCAM_CONTENT) window.SCAM_CONTENT = {};
 window.SCAM_CONTENT["app-clone-scam"] = {
   raw_html: `
 <section class="content-section">
@@ -44,17 +44,17 @@ window.SCAM_CONTENT["app-clone-scam"] = {
 </section>
 
 <section class="content-section">
-  <h2 data-sr="Hronološki tok (faze + evolucije)." data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
+  <h2 data-sr="Hronološki tok (faze + evolucije)" data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
 
   <article class="phase">
     <h3 data-sr="Faza 1 — Distribucija klona" data-en="Phase 1 — Clone distribution">Faza 1 — Distribucija klona</h3>
     <p data-sr="Napadač plasira klon kroz lažne prodavnice aplikacija, oglase na društvenim mrežama ili direktne poruke. Korisnik veruje da preuzima zvaničnu verziju." data-en="The attacker places the clone through fake app stores, social media ads or direct messages. The user believes they are downloading the official version.">Napadač plasira klon kroz lažne prodavnice aplikacija, oglase na društvenim mrežama ili direktne poruke. Korisnik veruje da preuzima zvaničnu verziju.</p>
     <ul class="bullets">
       <li data-sr="Oglas imitira zvanično obaveštenje o novoj verziji aplikacije sa linkom koji ne vodi na Google Play." data-en="The ad imitates an official notification about a new app version with a link that does not lead to Google Play.">Oglas imitira zvanično obaveštenje o novoj verziji aplikacije sa linkom koji ne vodi na Google Play.</li>
-      <li data-sr="Fišing imejl od „banke." ili „servisa" traži preuzimanje „bezbednosnog ažuriranja"." data-en="A phishing email from the bank or service requests downloading a security update.">Fišing imejl od „banke" ili „servisa" traži preuzimanje „bezbednosnog ažuriranja"“.</li>
+      <li data-sr="Fišing imejl od banke ili servisa traži preuzimanje bezbednosnog ažuriranja." data-en="A phishing email from the bank or service requests downloading a security update.">Fišing imejl od banke ili servisa traži preuzimanje bezbednosnog ažuriranja.</li>
       <li data-sr="Lažna prodavnica ima gotovo isti URL kao zvanična uz sitnu razliku u domenu." data-en="The fake store has almost the same URL as the official one with a minor difference in the domain.">Lažna prodavnica ima gotovo isti URL kao zvanična uz sitnu razliku u domenu.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Korisnik preuzima APK iz trećeg izvora i odobrava instalaciju iz nepoznatih izvora." data-en="The user downloads an APK from a third-party source and approves installation from unknown sources.">Korisnik preuzima APK iz trećeg izvora i odobrava instalaciju iz nepoznatih izvora.</span></div>
+    <div class="callout"><strong data-sr="Korisnik preuzima APK iz trećeg izvora i odobrava instalaciju iz nepoznatih izvora.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Korisnik preuzima APK iz trećeg izvora i odobrava instalaciju iz nepoznatih izvora." data-en="The user downloads an APK from a third-party source and approves installation from unknown sources.">Korisnik preuzima APK iz trećeg izvora i odobrava instalaciju iz nepoznatih izvora.</span></div>
   </article>
 
   <article class="phase">
@@ -65,7 +65,7 @@ window.SCAM_CONTENT["app-clone-scam"] = {
       <li data-sr="Instalacija je brza i bez grešaka što pojačava osećaj legitimnosti." data-en="Installation is fast and error-free which reinforces the feeling of legitimacy.">Instalacija je brza i bez grešaka što pojačava osećaj legitimnosti.</li>
       <li data-sr="Korisnik se bez oklijevanja prijavljuje kao i uvek jer sve izgleda poznato." data-en="The user logs in without hesitation as usual because everything looks familiar.">Korisnik se bez oklijevanja prijavljuje kao i uvek jer sve izgleda poznato.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Klon je instaliran i korisnik ga smatra zvaničnom aplikacijom." data-en="The clone is installed and the user considers it the official app.">Klon je instaliran i korisnik ga smatra zvaničnom aplikacijom.</span></div>
+    <div class="callout"><strong data-sr="Klon je instaliran i korisnik ga smatra zvaničnom aplikacijom.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Klon je instaliran i korisnik ga smatra zvaničnom aplikacijom." data-en="The clone is installed and the user considers it the official app.">Klon je instaliran i korisnik ga smatra zvaničnom aplikacijom.</span></div>
   </article>
 
   <article class="phase">
@@ -76,7 +76,7 @@ window.SCAM_CONTENT["app-clone-scam"] = {
       <li data-sr="Ako je uključena 2FA, klon presreće OTP kod koji stiže na SMS i prosleđuje napadaču." data-en="If 2FA is enabled the clone intercepts the OTP code that arrives via SMS and forwards it to the attacker.">Ako je uključena 2FA, klon presreće OTP kod koji stiže na SMS i prosleđuje napadaču.</li>
       <li data-sr="Korisnik vidi normalan ekran i veruje da je uspešno prijavljen." data-en="The user sees the normal screen and believes they logged in successfully.">Korisnik vidi normalan ekran i veruje da je uspešno prijavljen.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Napadač ima potpune kredencijale i aktivnu sesiju za finansijske naloge žrtve." data-en="The attacker has complete credentials and an active session for the victim's financial accounts.">Napadač ima potpune kredencijale i aktivnu sesiju za finansijske naloge žrtve.</span></div>
+    <div class="callout"><strong data-sr="Napadač ima potpune kredencijale i aktivnu sesiju za finansijske naloge žrtve.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Napadač ima potpune kredencijale i aktivnu sesiju za finansijske naloge žrtve." data-en="The attacker has complete credentials and an active session for the victim's financial accounts.">Napadač ima potpune kredencijale i aktivnu sesiju za finansijske naloge žrtve.</span></div>
     <div class="branch">
       <strong data-sr="Grananja u ovoj fazi:" data-en="Branching at this phase:">Grananja u ovoj fazi:</strong>
       <ul class="bullets">
@@ -92,9 +92,9 @@ window.SCAM_CONTENT["app-clone-scam"] = {
     <ul class="bullets">
       <li data-sr="Transferi se iniciraju na kratkoročne naloge koji odmah prosleđuju sredstva dalje." data-en="Transfers are initiated to short-term accounts that immediately forward funds further.">Transferi se iniciraju na kratkoročne naloge koji odmah prosleđuju sredstva dalje.</li>
       <li data-sr="Recovery imejl i broj telefona se menjaju da bi se sprečio povratak pristupa." data-en="Recovery email and phone number are changed to prevent access recovery.">Recovery imejl i broj telefona se menjaju da bi se sprečio povratak pristupa.</li>
-      <li data-sr="Napadač može da preuzme i ostale naloge putem „zaboravili ste lozinku." na preuzeti imejl." data-en="The attacker can take over other accounts through forgot-password on the taken-over email.">Napadač može da preuzme i ostale naloge putem „zaboravili ste lozinku" na preuzeti imejl“.</li>
+      <li data-sr="Napadač može da preuzme i ostale naloge putem zaboravili ste lozinku na preuzeti imejl." data-en="The attacker can take over other accounts through forgot-password on the taken-over email.">Napadač može da preuzme i ostale naloge putem zaboravili ste lozinku na preuzeti imejl.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Žrtva pokušava da se prijavi i ne uspeva jer su recovery podaci promenjeni." data-en="The victim tries to log in and fails because recovery data has been changed.">Žrtva pokušava da se prijavi i ne uspeva jer su recovery podaci promenjeni.</span></div>
+    <div class="callout"><strong data-sr="Žrtva pokušava da se prijavi i ne uspeva jer su recovery podaci promenjeni.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Žrtva pokušava da se prijavi i ne uspeva jer su recovery podaci promenjeni." data-en="The victim tries to log in and fails because recovery data has been changed.">Žrtva pokušava da se prijavi i ne uspeva jer su recovery podaci promenjeni.</span></div>
   </article>
 
   <article class="phase">
@@ -105,7 +105,7 @@ window.SCAM_CONTENT["app-clone-scam"] = {
       <li data-sr="Žrtva pronalazi klon aplikaciju tek kada je banka uputi na proveru instaliranih aplikacija." data-en="The victim finds the clone app only when the bank directs them to check installed applications.">Žrtva pronalazi klon aplikaciju tek kada je banka uputi na proveru instaliranih aplikacija.</li>
       <li data-sr="Klon može i dalje da radi i da prikuplja podatke za buduće napade." data-en="The clone may still be running and collecting data for future attacks.">Klon može i dalje da radi i da prikuplja podatke za buduće napade.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Žrtva je kontaktirala banku i pokrenula istragu." data-en="The victim has contacted the bank and started an investigation.">Žrtva je kontaktirala banku i pokrenula istragu.</span></div>
+    <div class="callout"><strong data-sr="Žrtva je kontaktirala banku i pokrenula istragu.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Žrtva je kontaktirala banku i pokrenula istragu." data-en="The victim has contacted the bank and started an investigation.">Žrtva je kontaktirala banku i pokrenula istragu.</span></div>
   </article>
 
   <article class="phase">
@@ -116,7 +116,7 @@ window.SCAM_CONTENT["app-clone-scam"] = {
       <li data-sr="Fabričko resetovanje je najsigurniji način eliminacije malvera koji je mogao biti pridružen klonu." data-en="Factory reset is the safest way to eliminate malware that may have been bundled with the clone.">Fabričko resetovanje je najsigurniji način eliminacije malvera koji je mogao biti pridružen klonu.</li>
       <li data-sr="Sve lozinke se menjaju sa drugog pouzdanog uređaja koji nije instalirao klon." data-en="All passwords are changed from a different trusted device that did not install the clone.">Sve lozinke se menjaju sa drugog pouzdanog uređaja koji nije instalirao klon.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Svi nalozi su osigurani sa novim lozinkama i 2FA resetovanim sa čistog uređaja." data-en="All accounts are secured with new passwords and 2FA reset from a clean device.">Svi nalozi su osigurani sa novim lozinkama i 2FA resetovanim sa čistog uređaja.</span></div>
+    <div class="callout"><strong data-sr="Svi nalozi su osigurani sa novim lozinkama i 2FA resetovanim sa čistog uređaja.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Svi nalozi su osigurani sa novim lozinkama i 2FA resetovanim sa čistog uređaja." data-en="All accounts are secured with new passwords and 2FA reset from a clean device.">Svi nalozi su osigurani sa novim lozinkama i 2FA resetovanim sa čistog uređaja.</span></div>
   </article>
 </section>
 
@@ -130,7 +130,7 @@ window.SCAM_CONTENT["app-clone-scam"] = {
     <li data-sr="Neovlašćene transakcije pojavljuju se bez ikakve radnje sa strane korisnika." data-en="Unauthorized transactions appear without any action on the user's part.">Neovlašćene transakcije pojavljuju se bez ikakve radnje sa strane korisnika.</li>
     <li data-sr="Korisnik ne može da se prijavi na nalog jer su mu podaci za obnovu promenjeni." data-en="The user cannot log into the account because their recovery data has been changed.">Korisnik ne može da se prijavi na nalog jer su mu podaci za obnovu promenjeni.</li>
     <li data-sr="Banka šalje obaveštenje o novom uređaju koji nije korisnikov." data-en="The bank sends a notification about a new device that is not the user's.">Banka šalje obaveštenje o novom uređaju koji nije korisnikov.</li>
-    <li data-sr="Poruka traži „bezbednosno ažuriranje." koje se ne pojavljuje u zvaničnoj prodavnici." data-en="A message requests a security update that does not appear in the official store.">Poruka traži „bezbednosno ažuriranje" koje se ne pojavljuje u zvaničnoj prodavnici“.</li>
+    <li data-sr="Poruka traži bezbednosno ažuriranje koje se ne pojavljuje u zvaničnoj prodavnici." data-en="A message requests a security update that does not appear in the official store.">Poruka traži bezbednosno ažuriranje koje se ne pojavljuje u zvaničnoj prodavnici.</li>
     <li data-sr="Aplikacija funkcioniše normalno ali se pojavljuju neočekivana kašnjenja pri transakcijama." data-en="The app functions normally but unexpected delays appear during transactions.">Aplikacija funkcioniše normalno ali se pojavljuju neočekivana kašnjenja pri transakcijama.</li>
     <li data-sr="Hashovi APK fajla se razlikuju od hashova zvanične verzije na razvojnoj stranici." data-en="The APK file hashes differ from the official version hashes on the developer page.">Hashovi APK fajla se razlikuju od hashova zvanične verzije na razvojnoj stranici.</li>
   </ul>
@@ -141,7 +141,7 @@ window.SCAM_CONTENT["app-clone-scam"] = {
   <ol class="steps">
     <li data-sr="Instaliraj aplikaciju isključivo sa Google Play ili App Store — nikad sa trećih izvora ili linkova u porukama." data-en="Install apps exclusively from Google Play or the App Store — never from third-party sources or links in messages.">Instaliraj aplikaciju isključivo sa Google Play ili App Store — nikad sa trećih izvora ili linkova u porukama.</li>
     <li data-sr="Proveri ime izdavača na Google Play i uporedi ga tačno slovo po slovo sa onim koje se nudi." data-en="Check the publisher name on Google Play and compare it exactly letter by letter with what is being offered.">Proveri ime izdavača na Google Play i uporedi ga tačno slovo po slovo sa onim koje se nudi.</li>
-    <li data-sr="Poseti zvanični sajt servisа i nađi link za preuzimanje aplikacije tamo — ne u porukama." data-en="Visit the official service website and find the app download link there — not in messages.">Poseti zvanični sajt servisa i nađi link za preuzimanje aplikacije tamo — ne u porukama.</li>
+    <li data-sr="Poseti zvanični sajt servisa i nađi link za preuzimanje aplikacije tamo — ne u porukama." data-en="Visit the official service website and find the app download link there — not in messages.">Poseti zvanični sajt servisa i nađi link za preuzimanje aplikacije tamo — ne u porukama.</li>
     <li data-sr="Nikada ne uključuj instalaciju iz nepoznatih izvora osim ako nema legitimnog tehničkog razloga koji si proverio." data-en="Never enable installation from unknown sources unless there is a legitimate technical reason you have verified.">Nikada ne uključuj instalaciju iz nepoznatih izvora osim ako nema legitimnog tehničkog razloga koji si proverio.</li>
     <li data-sr="Pošalji APK fajl na VirusTotal ili sličan skener pre instalacije ako ga nisi preuzeo sa Google Play." data-en="Send the APK file to VirusTotal or a similar scanner before installation if you did not download it from Google Play.">Pošalji APK fajl na VirusTotal ili sličan skener pre instalacije ako ga nisi preuzeo sa Google Play.</li>
     <li data-sr="Aktiviraj obaveštenja o novim prijavama i transakcijama na svim finansijskim nalozima." data-en="Enable notifications for new logins and transactions on all financial accounts.">Aktiviraj obaveštenja o novim prijavama i transakcijama na svim finansijskim nalozima.</li>
@@ -157,9 +157,9 @@ window.SCAM_CONTENT["app-clone-scam"] = {
     <li data-sr="Da li sam ovu aplikaciju pronašao sam tražeći je na Google Play, ili me je neko uputio na poseban link?" data-en="Did I find this app by searching on Google Play myself, or was I directed to a special link?">Da li sam ovu aplikaciju pronašao sam tražeći je na Google Play, ili me je neko uputio na poseban link?</li>
     <li data-sr="Da li se ime izdavača tačno poklapa sa zvaničnom kompanijom koja je razvila aplikaciju?" data-en="Does the publisher name exactly match the official company that developed the app?">Da li se ime izdavača tačno poklapa sa zvaničnom kompanijom koja je razvila aplikaciju?</li>
     <li data-sr="Da li instalacija zahteva da ručno uključim dozvolu za instalaciju iz nepoznatih izvora?" data-en="Does installation require manually enabling permission for installation from unknown sources?">Da li instalacija zahteva da ručno uključim dozvolu za instalaciju iz nepoznatih izvora?</li>
-    <li data-sr="Da li je ovo „bezbednosno ažuriranje." koje je stiglo kroz poruku ili imejl, a ne kroz zvaničnu prodavnicu?" data-en="Is this a security update that arrived through a message or email rather than the official store?">Da li je ovo „bezbednosno ažuriranje" koje je stiglo kroz poruku ili imejl, a ne kroz zvaničnu prodavnicu?</li>
+    <li data-sr="Da li je ovo bezbednosno ažuriranje koje je stiglo kroz poruku ili imejl, a ne kroz zvaničnu prodavnicu?" data-en="Is this a security update that arrived through a message or email rather than the official store?">Da li je ovo bezbednosno ažuriranje koje je stiglo kroz poruku ili imejl, a ne kroz zvaničnu prodavnicu?</li>
     <li data-sr="Da li imam aktivna obaveštenja o transakcijama koja bi me odmah upozorila na zloupotrebe?" data-en="Do I have active transaction notifications that would immediately alert me to any abuse?">Da li imam aktivna obaveštenja o transakcijama koja bi me odmah upozorila na zloupotrebe?</li>
-    <li data-sr="Da li sam provjerio hashove APK fajla sa zvaničnim hashovima razvojne kompanije?" data-en="Have I checked the APK file hashes against the official developer company hashes?">Da li sam proverio hashove APK fajla sa zvaničnim hashovima razvojne kompanije?</li>
+    <li data-sr="Da li sam proverio hashove APK fajla sa zvaničnim hashovima razvojne kompanije?" data-en="Have I checked the APK file hashes against the official developer company hashes?">Da li sam proverio hashove APK fajla sa zvaničnim hashovima razvojne kompanije?</li>
     <li data-sr="Da li se URL prodavnice tačno poklapa sa zvaničnim domenom bez ikakvih varijacija?" data-en="Does the store URL exactly match the official domain without any variations?">Da li se URL prodavnice tačno poklapa sa zvaničnim domenom bez ikakvih varijacija?</li>
     <li data-sr="Da li su se nedavno pojavile neovlašćene transakcije ili neprepoznate prijave na može naloge?" data-en="Have there been recent unauthorized transactions or unrecognized logins to my accounts?">Da li su se nedavno pojavile neovlašćene transakcije ili neprepoznate prijave na može naloge?</li>
     <li data-sr="Da li sam proverio ovu aplikaciju u nezavisnom bezbednosnom alatu pre instalacije?" data-en="Have I checked this app in an independent security tool before installation?">Da li sam proverio ovu aplikaciju u nezavisnom bezbednosnom alatu pre instalacije?</li>
@@ -183,7 +183,7 @@ window.SCAM_CONTENT["app-clone-scam"] = {
   <h2 data-sr="Ako pokušavaš da pomogneš nekome" data-en="If you are trying to help someone">Ako pokušavaš da pomogneš nekome</h2>
   <ul class="bullets">
     <li data-sr="Da li su instalirali aplikaciju van Google Play ili App Store?" data-en="Did they install an app outside Google Play or the App Store?">Da li su instalirali aplikaciju van Google Play ili App Store?</li>
-    <li data-sr="Da li su primili poruku ili imejl sa linkom za „bezbednosno ažuriranje."?" data-en="Did they receive a message or email with a link for a security update?">Da li su primili poruku ili imejl sa linkom za „bezbednosno ažuriranje"?</li>
+    <li data-sr="Da li su primili poruku ili imejl sa linkom za bezbednosno ažuriranje?" data-en="Did they receive a message or email with a link for a security update?">Da li su primili poruku ili imejl sa linkom za bezbednosno ažuriranje?</li>
     <li data-sr="Da li su se pojavile neovlašćene transakcije ili im je nalog zaključan?" data-en="Have unauthorized transactions appeared or has their account been locked?">Da li su se pojavile neovlašćene transakcije ili im je nalog zaključan?</li>
     <li data-sr="Da li je ime izdavača instalirane aplikacije tačno ono što je prikazano na Google Play?" data-en="Is the publisher name of the installed app exactly what is shown on Google Play?">Da li je ime izdavača instalirane aplikacije tačno ono što je prikazano na Google Play?</li>
   </ul>
@@ -196,16 +196,6 @@ window.SCAM_CONTENT["app-clone-scam"] = {
   </ul>
 </section>
 
-<section class="content-section">
-  <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-  <ul class="bullets">
-    <li><a href="malicious-app-scam.html" data-sr="Zlonamerna aplikacija — malver koji se maskira kao koristan alat." data-en="Malicious app scam — malware disguised as a useful tool.">Zlonamerna aplikacija — malver koji se maskira kao koristan alat</a></li>
-    <li><a href="fake-update-scam.html" data-sr="Lažni update — klon koji se distribuira kao sistemsko ažuriranje." data-en="Fake update scam — clone distributed as a system update.">Lažni update — klon koji se distribuira kao sistemsko ažuriranje</a></li>
-    <li><a href="browser-extension-scam.html" data-sr="Zlonameran browser dodatak — klon logike za browser okruženje." data-en="Browser extension scam — clone logic for browser environment.">Zlonameran browser dodatak — klon logike za browser okruženje</a></li>
-    <li><a href="account-takeover.html" data-sr="Preuzimanje naloga — direktna posledica uspešnog kloniranja aplikacije." data-en="Account takeover — direct consequence of successful app cloning.">Preuzimanje naloga — direktna posledica uspešnog kloniranja aplikacije</a></li>
-    <li><a href="phishing.html" data-sr="Fišing — čest vektor za distribuciju klonova kroz lažne imejlove." data-en="Phishing — common distribution vector for clones through fake emails.">Fišing — čest vektor za distribuciju klonova kroz lažne imejlove</a></li>
-    <li><a href="identity-theft.html" data-sr="Krađa identiteta — klon koji prikuplja lične dokumente." data-en="Identity theft — clone that collects personal documents.">Krađa identiteta — klon koji prikuplja lične dokumente</a></li>
-  </ul>
-</section>
+
 `
 };

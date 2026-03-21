@@ -1,4 +1,4 @@
-﻿window.SCAM_CONTENT = window.SCAM_CONTENT || {};
+window.SCAM_CONTENT = window.SCAM_CONTENT || {};
 
 window.SCAM_CONTENT["charity-scam"] = {
   raw_html: `
@@ -37,35 +37,35 @@ window.SCAM_CONTENT["charity-scam"] = {
 
       <div class="grid-2">
         <div class="phase warn">
-          <div class="label" data-sr="Primer 1: Lažna operacija deteta (Srbija)." data-en="Example 1: Fake child surgery (Serbia).">Primer 1: Lažna operacija deteta (Srbija)</div>
+          <div class="label" data-sr="Primer 1: Lažna operacija deteta (Srbija)" data-en="Example 1: Fake child surgery (Serbia).">Primer 1: Lažna operacija deteta (Srbija)</div>
           <p
-            data-sr="Facebook kampanja: „Mali Luka ima tumor, operacija u Nemačkoj košta 80,000 EUR“.&quot; Slike deteta, emocionalna priča, hitnost. Hiljade ljudi donira. Ukupno prikupljeno preko 50,000 EUR. Medicinska dokumentacija nije podeljena. Ljudi počinju da sumnjaju i prijavljuju policiji. Otkriva se: slike su ukradene sa stranog bloga. Pravo dete postoji, ali živi u drugoj zemlji i zdravo je. Organizator kampanje uhapšen, novac nikad vraćen."
+            data-sr="Facebook kampanja: Mali Luka ima tumor, operacija u Nemačkoj košta 80,000 EUR. Slike deteta, emocionalna priča, hitnost. Hiljade ljudi donira. Ukupno prikupljeno preko 50,000 EUR. Medicinska dokumentacija nije podeljena. Ljudi počinju da sumnjaju i prijavljuju policiji. Otkriva se: slike su ukradene sa stranog bloga. Pravo dete postoji, ali živi u drugoj zemlji i zdravo je. Organizator kampanje uhapšen, novac nikad vraćen."
             data-en="Facebook campaign: 'Little Luka has tumor, surgery in Germany costs €80,000.' Child photos, emotional story, urgency. Thousands donate. Total collected over €50,000. Medical documentation not shared. People start suspecting and report to police. Revealed: photos stolen from foreign blog. Real child exists but lives in different country and is healthy. Campaign organizer arrested, money never returned."
-          >Facebook kampanja: „Mali Luka ima tumor, operacija u Nemačkoj košta 80,000 EUR." Slike deteta, emocionalna priča, hitnost. Hiljade ljudi donira. Ukupno prikupljeno preko 50,000 EUR. Medicinska dokumentacija nije podeljena. Ljudi počinju da sumnjaju i prijavljuju policiji. Otkriva se: slike su ukradene sa stranog bloga. Pravo dete postoji, ali živi u drugoj zemlji i zdravo je. Organizator kampanje uhapšen, novac nikad vraćen.</p>
+          >Facebook kampanja: Mali Luka ima tumor, operacija u Nemačkoj košta 80,000 EUR. Slike deteta, emocionalna priča, hitnost. Hiljade ljudi donira. Ukupno prikupljeno preko 50,000 EUR. Medicinska dokumentacija nije podeljena. Ljudi počinju da sumnjaju i prijavljuju policiji. Otkriva se: slike su ukradene sa stranog bloga. Pravo dete postoji, ali živi u drugoj zemlji i zdravo je. Organizator kampanje uhapšen, novac nikad vraćen.</p>
         </div>
 
         <div class="phase warn">
           <div class="label" data-sr="Primer 2: Lažna organizacija posle zemljotresa" data-en="Example 2: Fake organization after earthquake">Primer 2: Lažna organizacija posle zemljotresa</div>
           <p
-            data-sr="Posle zemljotresa u Turskoj 2023, pojavljuje se sajt: „Pomoć za žrtve zemljotresa“.&quot; Koristi stvarne slike iz vesti“. Račun za donacije je lični račun. Ljudi šalju novac jer žele da pomognu hitno. Sajt nestaje posle dve nedelje. Ukupno ukradeno preko $200,000. Pravi humanitarci nisu videli ni dolar."
+            data-sr="Posle zemljotresa u Turskoj 2023, pojavljuje se sajt: Pomoć za žrtve zemljotresa. Koristi stvarne slike iz vesti. Račun za donacije je lični račun. Ljudi šalju novac jer žele da pomognu hitno. Sajt nestaje posle dve nedelje. Ukupno ukradeno preko $200,000. Pravi humanitarci nisu videli ni dolar."
             data-en="After the 2023 Turkey earthquake, a website appears: 'Help for earthquake victims.' It uses real images from the news. The donation account is a personal account. People send money because they want to help urgently. The site disappears after two weeks. Total stolen: over $200,000. Legitimate aid groups didn't see a dollar."
-          >Posle zemljotresa u Turskoj 2023, pojavljuje se sajt: „Pomoć za žrtve zemljotresa." Koristi stvarne slike iz vesti“. Račun za donacije je lični račun. Ljudi šalju novac jer žele da pomognu hitno. Sajt nestaje posle dve nedelje. Ukupno ukradeno preko $200,000. Pravi humanitarci nisu videli ni dolar.</p>
+          >Posle zemljotresa u Turskoj 2023, pojavljuje se sajt: Pomoć za žrtve zemljotresa. Koristi stvarne slike iz vesti. Račun za donacije je lični račun. Ljudi šalju novac jer žele da pomognu hitno. Sajt nestaje posle dve nedelje. Ukupno ukradeno preko $200,000. Pravi humanitarci nisu videli ni dolar.</p>
         </div>
 
         <div class="phase warn">
-          <div class="label" data-sr="Primer 3: Lažni Crveni krst (Hrvatska)." data-en="Example 3: Fake Red Cross (Croatia).">Primer 3: Lažni Crveni krst (Hrvatska)</div>
+          <div class="label" data-sr="Primer 3: Lažni Crveni krst (Hrvatska)" data-en="Example 3: Fake Red Cross (Croatia).">Primer 3: Lažni Crveni krst (Hrvatska)</div>
           <p
-            data-sr="Ljudi dobijaju mejl koji izgleda kao da je od Crvenog krsta. Logo je pravi, dizajn profesionalan. Traži se donacija za decu iz ratnih zona. Link vodi na sajt koji izgleda identično kao pravi Crveni krst. Račun za uplatu je drugačiji. Hiljade ljudi donira. Pravi Crveni krst objavljuje upozorenje: „To nije naš sajt“.&quot; Prevarant nikad uhvaćen."
+            data-sr="Ljudi dobijaju mejl koji izgleda kao da je od Crvenog krsta. Logo je pravi, dizajn profesionalan. Traži se donacija za decu iz ratnih zona. Link vodi na sajt koji izgleda identično kao pravi Crveni krst. Račun za uplatu je drugačiji. Hiljade ljudi donira. Pravi Crveni krst objavljuje upozorenje: To nije naš sajt. Prevarant nikad uhvaćen."
             data-en="People receive an email that looks like it's from the Red Cross. The logo is real, the design is professional. It asks for donations for children in war zones. The link leads to a site that looks identical to the real Red Cross site. The payment account is different. Thousands donate. The real Red Cross posts a warning: 'That's not our site.' The scammer is never caught."
-          >Ljudi dobijaju mejl koji izgleda kao da je od Crvenog krsta. Logo je pravi, dizajn profesionalan. Traži se donacija za decu iz ratnih zona. Link vodi na sajt koji izgleda identično kao pravi Crveni krst. Račun za uplatu je drugačiji. Hiljade ljudi donira. Pravi Crveni krst objavljuje upozorenje: „To nije naš sajt." Prevarant nikad uhvaćen“.</p>
+          >Ljudi dobijaju mejl koji izgleda kao da je od Crvenog krsta. Logo je pravi, dizajn profesionalan. Traži se donacija za decu iz ratnih zona. Link vodi na sajt koji izgleda identično kao pravi Crveni krst. Račun za uplatu je drugačiji. Hiljade ljudi donira. Pravi Crveni krst objavljuje upozorenje: To nije naš sajt. Prevarant nikad uhvaćen.</p>
         </div>
 
         <div class="phase warn">
-          <div class="label" data-sr="Primer 4: Lažna GoFundMe kampanja (SAD)." data-en="Example 4: Fake GoFundMe campaign (USA).">Primer 4: Lažna GoFundMe kampanja (SAD)</div>
+          <div class="label" data-sr="Primer 4: Lažna GoFundMe kampanja (SAD)" data-en="Example 4: Fake GoFundMe campaign (USA).">Primer 4: Lažna GoFundMe kampanja (SAD)</div>
           <p
-            data-sr="Par kreira GoFundMe kampanju: „Beskućnik nam je pomogao kada smo ostali bez benzina, sakupljamo novac da mu kupimo kuću“.&quot; Priča dirljiva, ljudi masovno doniraju. Prikupljeno $400,000. Ispostavlja se: cela priča je izmišljena. Beskućnik je postojao, ali priča je lažna. Par potrošio novac na sebe. Uhapšeni i osuđeni. GoFundMe vratio novac donatorima."
+            data-sr="Par kreira GoFundMe kampanju: Beskućnik nam je pomogao kada smo ostali bez benzina, sakupljamo novac da mu kupimo kuću. Priča dirljiva, ljudi masovno doniraju. Prikupljeno $400,000. Ispostavlja se: cela priča je izmišljena. Beskućnik je postojao, ali priča je lažna. Par potrošio novac na sebe. Uhapšeni i osuđeni. GoFundMe vratio novac donatorima."
             data-en="A couple creates a GoFundMe campaign: 'A homeless man helped us when we ran out of gas, raising money to buy him a house.' The story is touching, and people donate massively. Collected: $400,000. Turns out the entire story was fabricated. The homeless man existed, but the story was fake. The couple spent the money on themselves. They were arrested and convicted. GoFundMe returned the money to donors."
-          >Par kreira GoFundMe kampanju: „Beskućnik nam je pomogao kada smo ostali bez benzina, sakupljamo novac da mu kupimo kuću." Priča dirljiva, ljudi masovno doniraju. Prikupljeno $400,000. Ispostavlja se: cela priča je izmišljena. Beskućnik je postojao, ali priča je lažna. Par potrošio novac na sebe. Uhapšeni i osuđeni. GoFundMe vratio novac donatorima.</p>
+          >Par kreira GoFundMe kampanju: Beskućnik nam je pomogao kada smo ostali bez benzina, sakupljamo novac da mu kupimo kuću. Priča dirljiva, ljudi masovno doniraju. Prikupljeno $400,000. Ispostavlja se: cela priča je izmišljena. Beskućnik je postojao, ali priča je lažna. Par potrošio novac na sebe. Uhapšeni i osuđeni. GoFundMe vratio novac donatorima.</p>
         </div>
       </div>
 
@@ -86,7 +86,7 @@ window.SCAM_CONTENT["charity-scam"] = {
           <div class="label" data-sr="Lažna bolest / operacija" data-en="Fake illness / surgery">Lažna bolest / operacija</div>
           <ul class="bullets">
             <li data-sr="priča o bolesnom detetu ili odraslom." data-en="story about sick child or adult.">priča o bolesnom detetu ili odraslom.</li>
-            <li data-sr="„operacija u inostranstvu košta 50“.000 EUR&quot;" data-en="'surgery abroad costs €50,000'">„operacija u inostranstvu košta 50“.000 EUR"</li>
+            <li data-sr="operacija u inostranstvu košta 50.000 EUR" data-en="'surgery abroad costs €50,000">operacija u inostranstvu košta 50.000 EUR</li>
             <li data-sr="slike su često ukradene ili izmenjene." data-en="photos are often stolen or altered.">slike su često ukradene ili izmenjene.</li>
             <li data-sr="medicinska dokumentacija se ne deli ili je lažna." data-en="medical documents not shared or fake.">medicinska dokumentacija se ne deli ili je lažna.</li>
           </ul>
@@ -169,30 +169,5 @@ window.SCAM_CONTENT["charity-scam"] = {
     </section>
 
     <!-- 7) IZVORI -->
-
-<section class="content-section">
-  <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-  <ul class="bullets">
-    <li><a href="charity-disaster-scam.html" data-sr="Lažna donacija u krizi" data-en="Charity disaster scam">Lažna donacija u krizi</a></li>
-    <li><a href="advance-fee-fraud.html" data-sr="Uplata unapred" data-en="Advance-fee fraud">Uplata unapred</a></li>
-    <li><a href="disaster-relief-scam.html" data-sr="Lažna pomoc u katastrofi" data-en="Disaster relief scam">Lažna pomoc u katastrofi</a></li>
-    <li><a href="crowdfunding-scam.html" data-sr="Lažni crowdfunding" data-en="Crowdfunding scam">Lažni crowdfunding</a></li>
-    <li><a href="impersonation-scam.html" data-sr="Lazno predstavljanje" data-en="Impersonation scam">Lazno predstavljanje</a></li>
-  </ul>
-</section>
-
-<section class="card sources" id="sources">
-      <h2 data-sr="Izvori" data-en="Sources">Izvori</h2>
-      <ul>
-        <li><a href="https://consumer.ftc.gov/articles/charity-scams" target="_blank" rel="noopener noreferrer">FTC — Charity scams</a></li>
-        <li><a href="https://www.fbi.gov/how-we-can-help-you/scams-and-safety/common-frauds-and-scams" target="_blank" rel="noopener noreferrer">FBI — Charity fraud</a></li>
-        <li><a href="https://www.givewell.org/" target="_blank" rel="noopener noreferrer">GiveWell — Charity research</a></li>
-      </ul>
-
-      <p class="muted"
-        data-sr="Izvori pokrivaju: tipove lažnih humanitarnih akcija, slučajeve, metode prevaranata, i zaštitne mere."
-        data-en="Sources cover: fake charity campaign types, cases, scammer methods, and protective measures."
-      >Izvori pokrivaju: tipove lažnih humanitarnih akcija, slučajeve, metode prevaranata, i zaštitne mere.</p>
-    </section>
-  `
+`
 };

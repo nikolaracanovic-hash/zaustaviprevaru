@@ -1,10 +1,10 @@
-﻿if (!window.SCAM_CONTENT) window.SCAM_CONTENT = {};
+if (!window.SCAM_CONTENT) window.SCAM_CONTENT = {};
 window.SCAM_CONTENT["browser-extension-scam"] = {
   raw_html: `
 <section class="content-section">
   <h2 data-sr="Uvod: kako radi prevara sa zlonamernim browser dodatkom" data-en="Introduction: how the browser extension scam works">Uvod: kako radi prevara sa zlonamernim browser dodatkom</h2>
   <p data-sr="Napadač distribuira browser proširenje koje izgleda kao legitiman alat — blokator reklama, password manager, prevodilac, produktivni widget. Posle instalacije proširenje dobija pristup svim otvorenim stranicama i može da čita, menja ili krade sadržaj koji korisnik vidi i unosi, uključujući lozinke, brojeve kartica i sesijske kolačiće." data-en="The attacker distributes a browser extension that looks like a legitimate tool — ad blocker, password manager, translator, productivity widget. After installation the extension gains access to all open pages and can read, modify or steal content the user sees and enters, including passwords, card numbers and session cookies.">Napadač distribuira browser proširenje koje izgleda kao legitiman alat — blokator reklama, password manager, prevodilac, produktivni widget. Posle instalacije proširenje dobija pristup svim otvorenim stranicama i može da čita, menja ili krade sadržaj koji korisnik vidi i unosi, uključujući lozinke, brojeve kartica i sesijske kolačiće.</p>
-  <p data-sr="Browser proširenja su posebno opasna jer im pregledač po defaultu daje širi pristup nego mobilnim aplikacijama. Dozvola „može čitati i menjati sve podatke na svim veb sajtovima" je standardan zahtev koji mnogi korisnici ignorišu kao tehnički neophodan. Napadač upravo to iskorišćava." data-en="Browser extensions are particularly dangerous because the browser by default gives them wider access than mobile apps. The permission can read and change all data on all websites is a standard request that many users ignore as technically necessary. The attacker exploits exactly that.">Browser proširenja su posebno opasna jer im pregledač po defaultu daje širi pristup nego mobilnim aplikacijama. Dozvola „može čitati i menjati sve podatke na svim veb sajtovima" je standardan zahtev koji mnogi korisnici ignorišu kao tehnički neophodan. Napadač upravo to iskorišćava.</p>
+  <p data-sr="Browser proširenja su posebno opasna jer im pregledač po defaultu daje širi pristup nego mobilnim aplikacijama. Dozvola može čitati i menjati sve podatke na svim veb sajtovima je standardan zahtev koji mnogi korisnici ignorišu kao tehnički neophodan. Napadač upravo to iskorišćava." data-en="Browser extensions are particularly dangerous because the browser by default gives them wider access than mobile apps. The permission can read and change all data on all websites is a standard request that many users ignore as technically necessary. The attacker exploits exactly that.">Browser proširenja su posebno opasna jer im pregledač po defaultu daje širi pristup nego mobilnim aplikacijama. Dozvola može čitati i menjati sve podatke na svim veb sajtovima je standardan zahtev koji mnogi korisnici ignorišu kao tehnički neophodan. Napadač upravo to iskorišćava.</p>
 </section>
 
 <section class="content-section">
@@ -15,7 +15,7 @@ window.SCAM_CONTENT["browser-extension-scam"] = {
   </div>
   <div class="callout">
     <strong data-sr="Prag:" data-en="Threshold:">Prag:</strong>
-    <span data-sr="Odobravanje dozvole „može čitati i menjati sve podatke na svim veb sajtovima“. Posle toga proširenje ima pristup svemu što korisnik otvori u browser-u." data-en="Approving the permission can read and change all data on all websites. After that the extension has access to everything the user opens in the browser.">Odobravanje dozvole „može čitati i menjati sve podatke na svim veb sajtovima"“. Posle toga proširenje ima pristup svemu što korisnik otvori u browser-u.</span>
+    <span data-sr="Odobravanje dozvole može čitati i menjati sve podatke na svim veb sajtovima. Posle toga proširenje ima pristup svemu što korisnik otvori u browser-u." data-en="Approving the permission can read and change all data on all websites. After that the extension has access to everything the user opens in the browser.">Odobravanje dozvole može čitati i menjati sve podatke na svim veb sajtovima. Posle toga proširenje ima pristup svemu što korisnik otvori u browser-u.</span>
   </div>
 </section>
 
@@ -44,7 +44,7 @@ window.SCAM_CONTENT["browser-extension-scam"] = {
 </section>
 
 <section class="content-section">
-  <h2 data-sr="Hronološki tok (faze + evolucije)." data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
+  <h2 data-sr="Hronološki tok (faze + evolucije)" data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
 
   <article class="phase">
     <h3 data-sr="Faza 1 — Distribucija i otkrivanje proširenja" data-en="Phase 1 — Distribution and discovery of extension">Faza 1 — Distribucija i otkrivanje proširenja</h3>
@@ -54,7 +54,7 @@ window.SCAM_CONTENT["browser-extension-scam"] = {
       <li data-sr="Preporuka na forumu ili društvenoj mreži dolazi od lažnog naloga koji propagira proširenje." data-en="A recommendation on a forum or social network comes from a fake account that promotes the extension.">Preporuka na forumu ili društvenoj mreži dolazi od lažnog naloga koji propagira proširenje.</li>
       <li data-sr="Legitimno proširenje koje je korisnik koristio prodaje se novom vlasniku koji dodaje maliciozni kod u update." data-en="A legitimate extension the user was using is sold to a new owner who adds malicious code in an update.">Legitimno proširenje koje je korisnik koristio prodaje se novom vlasniku koji dodaje maliciozni kod u update.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Korisnik klikće na dugme za instalaciju proširenja." data-en="The user clicks the extension install button.">Korisnik klikće na dugme za instalaciju proširenja.</span></div>
+    <div class="callout"><strong data-sr="Korisnik klikće na dugme za instalaciju proširenja.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Korisnik klikće na dugme za instalaciju proširenja." data-en="The user clicks the extension install button.">Korisnik klikće na dugme za instalaciju proširenja.</span></div>
   </article>
 
   <article class="phase">
@@ -65,7 +65,7 @@ window.SCAM_CONTENT["browser-extension-scam"] = {
       <li data-sr="Maliciozni kod se aktivira tiho u pozadini paralelno sa korisnom funkcijom." data-en="Malicious code activates silently in the background in parallel with the useful function.">Maliciozni kod se aktivira tiho u pozadini paralelno sa korisnom funkcijom.</li>
       <li data-sr="Korisnik ne vidi nikakav indikator da se nešto sumnjivo dešava u pozadini." data-en="The user sees no indicator that anything suspicious is happening in the background.">Korisnik ne vidi nikakav indikator da se nešto sumnjivo dešava u pozadini.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Dozvola je odobrena — proširenje ima pristup svim otvorenim stranicama u realnom vremenu." data-en="Permission is granted — the extension has access to all open pages in real time.">Dozvola je odobrena — proširenje ima pristup svim otvorenim stranicama u realnom vremenu.</span></div>
+    <div class="callout"><strong data-sr="Dozvola je odobrena — proširenje ima pristup svim otvorenim stranicama u realnom vremenu.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Dozvola je odobrena — proširenje ima pristup svim otvorenim stranicama u realnom vremenu." data-en="Permission is granted — the extension has access to all open pages in real time.">Dozvola je odobrena — proširenje ima pristup svim otvorenim stranicama u realnom vremenu.</span></div>
     <div class="branch">
       <strong data-sr="Grananja u ovoj fazi:" data-en="Branching at this phase:">Grananja u ovoj fazi:</strong>
       <ul class="bullets">
@@ -83,7 +83,7 @@ window.SCAM_CONTENT["browser-extension-scam"] = {
       <li data-sr="Svaki unos u forme na bankarskim ili platnim stranicama se snima i prosleđuje u realnom vremenu." data-en="Every input into forms on banking or payment pages is recorded and forwarded in real time.">Svaki unos u forme na bankarskim ili platnim stranicama se snima i prosleđuje u realnom vremenu.</li>
       <li data-sr="Proširenje može da menja IBAN ili platne podatke na stranici pre nego što korisnik potvrdi transakciju." data-en="The extension can modify IBAN or payment data on the page before the user confirms the transaction.">Proširenje može da menja IBAN ili platne podatke na stranici pre nego što korisnik potvrdi transakciju.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Napadač ima sesijski token bankarskog naloga ili kompletne kredencijale za prijavu." data-en="The attacker has the banking account session token or complete login credentials.">Napadač ima sesijski token bankarskog naloga ili kompletne kredencijale za prijavu.</span></div>
+    <div class="callout"><strong data-sr="Napadač ima sesijski token bankarskog naloga ili kompletne kredencijale za prijavu.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Napadač ima sesijski token bankarskog naloga ili kompletne kredencijale za prijavu." data-en="The attacker has the banking account session token or complete login credentials.">Napadač ima sesijski token bankarskog naloga ili kompletne kredencijale za prijavu.</span></div>
   </article>
 
   <article class="phase">
@@ -91,10 +91,10 @@ window.SCAM_CONTENT["browser-extension-scam"] = {
     <p data-sr="Napadač koristi ukradene podatke da preuzme naloge ili inicira transfere. U slučaju modifikacije platnih podataka, korisnik sam potvrđuje transfer na napadačev nalog misleći da plaća legitimnom primaocu." data-en="The attacker uses stolen data to take over accounts or initiate transfers. In case of payment data modification the user themselves confirms the transfer to the attacker's account thinking they are paying a legitimate recipient.">Napadač koristi ukradene podatke da preuzme naloge ili inicira transfere. U slučaju modifikacije platnih podataka, korisnik sam potvrđuje transfer na napadačev nalog misleći da plaća legitimnom primaocu.</p>
     <ul class="bullets">
       <li data-sr="Korisnik vidi tačan IBAN na ekranu ali proširenje ga je zamenilo napadačevim IBAN-om u formi." data-en="The user sees the correct IBAN on screen but the extension has replaced it with the attacker's IBAN in the form.">Korisnik vidi tačan IBAN na ekranu ali proširenje ga je zamenilo napadačevim IBAN-om u formi.</li>
-      <li data-sr="Transferi su iniciranibrzo na kratkoročne naloge koji odmah prosleđuju sredstva dalje." data-en="Transfers are initiated quickly to short-term accounts that immediately forward funds further.">Transferi su inicirani brzo na kratkoročne naloge koji odmah prosleđuju sredstva dalje.</li>
+      <li data-sr="Transferi su inicirani brzo na kratkoročne naloge koji odmah prosleđuju sredstva dalje." data-en="Transfers are initiated quickly to short-term accounts that immediately forward funds further.">Transferi su inicirani brzo na kratkoročne naloge koji odmah prosleđuju sredstva dalje.</li>
       <li data-sr="Recovery podaci na finansijskim nalozima se menjaju da bi se sprečio povratak pristupa." data-en="Recovery data on financial accounts is changed to prevent access recovery.">Recovery podaci na finansijskim nalozima se menjaju da bi se sprečio povratak pristupa.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Korisnik prima SMS od banke o neuobičajenim transakcijama ili ne može da se prijavi na nalog." data-en="The user receives an SMS from the bank about unusual transactions or cannot log into the account.">Korisnik prima SMS od banke o neuobičajenim transakcijama ili ne može da se prijavi na nalog.</span></div>
+    <div class="callout"><strong data-sr="Korisnik prima SMS od banke o neuobičajenim transakcijama ili ne može da se prijavi na nalog.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Korisnik prima SMS od banke o neuobičajenim transakcijama ili ne može da se prijavi na nalog." data-en="The user receives an SMS from the bank about unusual transactions or cannot log into the account.">Korisnik prima SMS od banke o neuobičajenim transakcijama ili ne može da se prijavi na nalog.</span></div>
   </article>
 
   <article class="phase">
@@ -105,7 +105,7 @@ window.SCAM_CONTENT["browser-extension-scam"] = {
       <li data-sr="Banka identifikuje neuobičajene transakcije i blokira nalog ili karticu." data-en="The bank identifies unusual transactions and blocks the account or card.">Banka identifikuje neuobičajene transakcije i blokira nalog ili karticu.</li>
       <li data-sr="Veza između instaliranog proširenja i incidenta se utvrđuje tek posle detaljnije istrage." data-en="The connection between the installed extension and the incident is established only after a more detailed investigation.">Veza između instaliranog proširenja i incidenta se utvrđuje tek posle detaljnije istrage.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Korisnik identifikuje sumnjivo proširenje i uklanja ga iz browser-a." data-en="The user identifies the suspicious extension and removes it from the browser.">Korisnik identifikuje sumnjivo proširenje i uklanja ga iz browser-a.</span></div>
+    <div class="callout"><strong data-sr="Korisnik identifikuje sumnjivo proširenje i uklanja ga iz browser-a.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Korisnik identifikuje sumnjivo proširenje i uklanja ga iz browser-a." data-en="The user identifies the suspicious extension and removes it from the browser.">Korisnik identifikuje sumnjivo proširenje i uklanja ga iz browser-a.</span></div>
   </article>
 
   <article class="phase">
@@ -116,7 +116,7 @@ window.SCAM_CONTENT["browser-extension-scam"] = {
       <li data-sr="Pregled svih instaliranih proširenja i uklanjanje onih sa prekomjernim dozvolama ili nepoznatim izdavačem." data-en="Review of all installed extensions and removal of those with excessive permissions or unknown publishers.">Pregled svih instaliranih proširenja i uklanjanje onih sa prekomjernim dozvolama ili nepoznatim izdavačem.</li>
       <li data-sr="Aktivno praćenje bankovnih izvoda narednih mesec dana za eventualne zakašnjele transakcije." data-en="Active monitoring of bank statements for the next month for any delayed transactions.">Aktivno praćenje bankovnih izvoda narednih mesec dana za eventualne zakašnjele transakcije.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Proširenje je uklonjeno, sve lozinke su promenjene i 2FA je aktivno na svim nalozima." data-en="The extension is removed, all passwords are changed and 2FA is active on all accounts.">Proširenje je uklonjeno, sve lozinke su promenjene i 2FA je aktivno na svim nalozima.</span></div>
+    <div class="callout"><strong data-sr="Proširenje je uklonjeno, sve lozinke su promenjene i 2FA je aktivno na svim nalozima.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Proširenje je uklonjeno, sve lozinke su promenjene i 2FA je aktivno na svim nalozima." data-en="The extension is removed, all passwords are changed and 2FA is active on all accounts.">Proširenje je uklonjeno, sve lozinke su promenjene i 2FA je aktivno na svim nalozima.</span></div>
   </article>
 </section>
 
@@ -130,7 +130,7 @@ window.SCAM_CONTENT["browser-extension-scam"] = {
     <li data-sr="Korisnik ne može da se prijavi na nalog jer su recovery podaci promenjeni." data-en="The user cannot log into the account because recovery data has been changed.">Korisnik ne može da se prijavi na nalog jer su recovery podaci promenjeni.</li>
     <li data-sr="Browser postaje sporiji ili troši više memorije posle instalacije proširenja." data-en="The browser becomes slower or uses more memory after installing the extension.">Browser postaje sporiji ili troši više memorije posle instalacije proširenja.</li>
     <li data-sr="Transakcija je otišlažna drugi IBAN od onog koji je bio prikazan na ekranu." data-en="A transaction went to a different IBAN from the one displayed on screen.">Transakcija je otišlažna drugi IBAN od onog koji je bio prikazan na ekranu.</li>
-    <li data-sr="Proširenje je dobilo „update." koji je promenio listu traženih dozvola." data-en="The extension received an update that changed the list of requested permissions.">Proširenje je dobilo „update" koji je promenio listu traženih dozvola“.</li>
+    <li data-sr="Proširenje je dobilo update koji je promenio listu traženih dozvola." data-en="The extension received an update that changed the list of requested permissions.">Proširenje je dobilo update koji je promenio listu traženih dozvola.</li>
     <li data-sr="Proširenje ima malo recenzija ali sve su petice pisane istim stilom." data-en="The extension has few reviews but all are five stars written in the same style.">Proširenje ima malo recenzija ali sve su petice pisane istim stilom.</li>
     <li data-sr="Izdavač proširenja je nepoznata kompanija ili privatna osoba bez vidljive istorije." data-en="The extension publisher is an unknown company or private individual without a visible history.">Izdavač proširenja je nepoznata kompanija ili privatna osoba bez vidljive istorije.</li>
   </ul>
@@ -141,7 +141,7 @@ window.SCAM_CONTENT["browser-extension-scam"] = {
   <ol class="steps">
     <li data-sr="Instaliraj proširenja isključivo sa zvanične Chrome Web Store ili Firefox Add-ons stranice — nikad sa direktnih linkova." data-en="Install extensions exclusively from the official Chrome Web Store or Firefox Add-ons page — never from direct links.">Instaliraj proširenja isključivo sa zvanične Chrome Web Store ili Firefox Add-ons stranice — nikad sa direktnih linkova.</li>
     <li data-sr="Proveri listu traženih dozvola pre instalacije i odbaci proširenje koje traži pristup svim stranicama bez jasnog razloga." data-en="Check the list of requested permissions before installation and reject an extension that requests access to all pages without a clear reason.">Proveri listu traženih dozvola pre instalacije i odbaci proširenje koje traži pristup svim stranicama bez jasnog razloga.</li>
-    <li data-sr="Proveri ime izdavača i provjeri da li postoji zvanični sajt kompanije koja ga je razvila." data-en="Check the publisher name and verify that the official website of the company that developed it exists.">Proveri ime izdavača i provjeri da li postoji zvanični sajt kompanije koja ga je razvila.</li>
+    <li data-sr="Proveri ime izdavača i proveri da li postoji zvanični sajt kompanije koja ga je razvila." data-en="Check the publisher name and verify that the official website of the company that developed it exists.">Proveri ime izdavača i proveri da li postoji zvanični sajt kompanije koja ga je razvila.</li>
     <li data-sr="Pročitaj recenzije pažljivo — ako su sve identičnog stila i bez kritike, to je signal za oprez." data-en="Read reviews carefully — if all are the same style and without criticism that is a signal for caution.">Pročitaj recenzije pažljivo — ako su sve identičnog stila i bez kritike, to je signal za oprez.</li>
     <li data-sr="Redovno pregledaj listu instaliranih proširenja i ukloni ona sa prekomjernim dozvolama ili koja ne koristiš." data-en="Regularly review the list of installed extensions and remove those with excessive permissions or that you do not use.">Redovno pregledaj listu instaliranih proširenja i ukloni ona sa prekomjernim dozvolama ili koja ne koristiš.</li>
     <li data-sr="Aktiviraj 2FA na svim finansijskim i imejl nalozima — ukradeni kolačić ne prolazi 2FA na novom uređaju." data-en="Activate 2FA on all financial and email accounts — a stolen cookie does not pass 2FA on a new device.">Aktiviraj 2FA na svim finansijskim i imejl nalozima — ukradeni kolačić ne prolazi 2FA na novom uređaju.</li>
@@ -187,7 +187,7 @@ window.SCAM_CONTENT["browser-extension-scam"] = {
     <li data-sr="Da li su instalirali novo browser proširenje pre nego što su se pojavile neovlašćene transakcije?" data-en="Did they install a new browser extension before unauthorized transactions appeared?">Da li su instalirali novo browser proširenje pre nego što su se pojavile neovlašćene transakcije?</li>
     <li data-sr="Da li je proširenje tražilo dozvolu za čitanje i izmenu podataka na svim stranicama?" data-en="Did the extension request permission to read and modify data on all pages?">Da li je proširenje tražilo dozvolu za čitanje i izmenu podataka na svim stranicama?</li>
     <li data-sr="Da li je transakcija otišlažna IBAN koji je bio drugačiji od onog koji je video na ekranu?" data-en="Did a transaction go to an IBAN that was different from the one they saw on screen?">Da li je transakcija otišlažna IBAN koji je bio drugačiji od onog koji je video na ekranu?</li>
-    <li data-sr="Da li se mogu sjetiti kada su poslednji put instalirali ili ažurirali neko proširenje?" data-en="Can they remember when they last installed or updated an extension?">Da li se mogu setiti kada su poslednji put instalirali ili ažurirali neko proširenje?</li>
+    <li data-sr="Da li se mogu setiti kada su poslednji put instalirali ili ažurirali neko proširenje?" data-en="Can they remember when they last installed or updated an extension?">Da li se mogu setiti kada su poslednji put instalirali ili ažurirali neko proširenje?</li>
   </ul>
   <p data-sr="Rečenice koje rade:" data-en="Sentences that help:">Rečenice koje rade:</p>
   <ul class="bullets">
@@ -198,16 +198,6 @@ window.SCAM_CONTENT["browser-extension-scam"] = {
   </ul>
 </section>
 
-<section class="content-section">
-  <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-  <ul class="bullets">
-    <li><a href="malicious-app-scam.html" data-sr="Zlonamerna aplikacija — ista logika krađe podataka za mobilno okruženje." data-en="Malicious app scam — same data theft logic for mobile environment.">Zlonamerna aplikacija — ista logika krađe podataka za mobilno okruženje</a></li>
-    <li><a href="app-clone-scam.html" data-sr="Klon aplikacija — kopija legitimnog alata sa ugrađenim malverom." data-en="App clone scam — copy of a legitimate tool with embedded malware.">Klon aplikacija — kopija legitimnog alata sa ugrađenim malverom</a></li>
-    <li><a href="fake-update-scam.html" data-sr="Lažni update — isti distribucioni vektor kroz lažna obaveštenja." data-en="Fake update scam — same distribution vector through fake notifications.">Lažni update — isti distribucioni vektor kroz lažna obaveštenja</a></li>
-    <li><a href="account-takeover.html" data-sr="Preuzimanje naloga — direktna posledica krađe sesijskih kolačića." data-en="Account takeover — direct consequence of stealing session cookies.">Preuzimanje naloga — direktna posledica krađe sesijskih kolačića</a></li>
-    <li><a href="phishing.html" data-sr="Fišing — čest vektor distribucije zlonamernih proširenja." data-en="Phishing — common distribution vector for malicious extensions.">Fišing — čest vektor distribucije zlonamernih proširenja</a></li>
-    <li><a href="payment-link-scam.html" data-sr="Payment link scam — proširenje može menjati prikazane platne podatke." data-en="Payment link scam — extension can modify displayed payment data.">Payment link scam — proširenje može menjati prikazane platne podatke</a></li>
-  </ul>
-</section>
+
 `
 };

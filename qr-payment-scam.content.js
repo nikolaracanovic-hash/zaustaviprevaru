@@ -4,8 +4,8 @@ window.SCAM_CONTENT["qr-payment-scam"] = {
   raw_html: `
     <section class="card">
       <h2 data-sr="Uvod: kako radi QR prevara pri plaćanju" data-en="Introduction: how QR payment scam works">Uvod: kako radi QR prevara pri plaćanju</h2>
-      <p data-sr="QR prevara pri plaćanju nastaje kada napadač zameni legitimni QR kod — na platnom terminalu, restoranskom stolu, parkirnoj karti, oglasnoj tabli ili u emailu — zlonamernim kodom koji preusmerava uplatu na nalog pod napadačevom kontrolom. Žrtva skenira kod, veruje da plaća legitimnom primaocu, a novac odlazi napadaču." data-en="QR payment scam occurs when an attacker replaces a legitimate QR code — on a payment terminal, restaurant table, parking ticket, notice board, or in an email — with a malicious code that redirects payment to an account under the attacker's control. The victim scans the code, believing they are paying a legitimate recipient, while money goes to the attacker.">Napadač zamenjuje legitimni QR kod zlonamernim koji preusmerava uplatu na vlastiti nalog. Žrtva skenira i plaća napadaču.</p>
-      <p data-sr="QR kodovi su posebno opasni jer korisnici ne mogu vizualno da provere kuda vode pre skeniranja — kao što mogu s tekstualnim URL-ovima. Nalepnica iznad originalnog koda je jedna od najčešćih metoda. Digitalne varijante uključuju zamenu QR-a u PDF dokumentima, imejlovima i na sajtovima." data-en="QR codes are particularly dangerous because users cannot visually verify where they lead before scanning — as they can with text URLs. A sticker over the original code is one of the most common methods. Digital variants include replacing QR codes in PDF documents, emails, and on websites.">QR kod se ne može vizualno proveriti pre skeniranja. Nalepnica iznad originala je najčešća fizička metoda.</p>
+      <p data-sr="Napadač zamenjuje legitimni QR kod zlonamernim koji preusmerava uplatu na vlastiti nalog. Žrtva skenira i plaća napadaču." data-en="QR payment scam occurs when an attacker replaces a legitimate QR code — on a payment terminal, restaurant table, parking ticket, notice board, or in an email — with a malicious code that redirects payment to an account under the attacker's control. The victim scans the code, believing they are paying a legitimate recipient, while money goes to the attacker.">Napadač zamenjuje legitimni QR kod zlonamernim koji preusmerava uplatu na vlastiti nalog. Žrtva skenira i plaća napadaču.</p>
+      <p data-sr="QR kod se ne može vizualno proveriti pre skeniranja. Nalepnica iznad originala je najčešća fizička metoda." data-en="QR codes are particularly dangerous because users cannot visually verify where they lead before scanning — as they can with text URLs. A sticker over the original code is one of the most common methods. Digital variants include replacing QR codes in PDF documents, emails, and on websites.">QR kod se ne može vizualno proveriti pre skeniranja. Nalepnica iznad originala je najčešća fizička metoda.</p>
       <div class="callout" data-sr="<strong>Model:</strong> legitimni QR zamena zlonamernim nalepnicom ili digitalnom zamenom → skeniranje → preusmeravanje uplate → gubitak." data-en="<strong>Model:</strong> legitimate QR replaced with malicious sticker or digital replacement → scanning → payment redirection → loss."><strong>Model:</strong> legitimni QR zamena zlonamernim nalepnicom ili digitalnom zamenom → skeniranje → preusmeravanje uplate → gubitak.</div>
       <div class="callout" data-sr="<strong>Prag:</strong> QR kod koji nije fizički deo uređaja ili je nalepnica preko originala je visok rizik." data-en="<strong>Threshold:</strong> a QR code that is not physically part of the device or is a sticker over the original is high risk."><strong>Prag:</strong> QR kod koji nije fizički deo uređaja ili je nalepnica preko originala je visok rizik.</div>
     </section>
@@ -17,7 +17,7 @@ window.SCAM_CONTENT["qr-payment-scam"] = {
           <div class="label" data-sr="Fizičke metode zamene QR koda" data-en="Physical QR code replacement methods">Fizičke metode zamene QR koda</div>
           <ul class="bullets">
             <li data-sr="nalepnica s lažnim QR kodom zalepljena preko originalnog na terminalu, stolu ili tabli." data-en="sticker with a fake QR code placed over the original on a terminal, table, or board.">nalepnica s lažnim QR kodom zalepljena preko originalnog na terminalu, stolu ili tabli.</li>
-            <li data-sr="parkirni kazneni nalozi ili vozne karte s lažnim QR za 'plaćanje kazne online„." data-en="parking penalty notices or travel tickets with a fake QR for “paying the fine online'.">parkirni kazneni nalozi ili vozne karte s lažnim QR za 'plaćanje kazne online'.</li>
+            <li data-sr="parkirni kazneni nalozi ili vozne karte s lažnim QR za 'plaćanje kazne online'." data-en="parking penalty notices or travel tickets with a fake QR for paying the fine online'.">parkirni kazneni nalozi ili vozne karte s lažnim QR za 'plaćanje kazne online'.</li>
             <li data-sr="lažni plakati ili brošure sa QR kodovima koji vode na phishing stranice ili lažne naloge." data-en="fake posters or brochures with QR codes leading to phishing pages or fake accounts.">lažni plakati ili brošure sa QR kodovima koji vode na phishing stranice ili lažne naloge.</li>
           </ul>
         </div>
@@ -33,11 +33,11 @@ window.SCAM_CONTENT["qr-payment-scam"] = {
     </section>
 
     <section class="card">
-      <h2 data-sr="Hronološki tok (faze + evolucije)." data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
+      <h2 data-sr="Hronološki tok (faze + evolucije)" data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
 
       <article class="phase">
         <h3 class="phase-title" data-sr="Faza 1 — Zamena legitimnog QR koda" data-en="Phase 1 — Replacing the legitimate QR code">Faza 1 — Zamena legitimnog QR koda</h3>
-        <p data-sr="Napadač fizički ili digitalno zamenjuje legitimni QR kod. Zamena je obično pažljivo izvedena — nalepnica je iste veličine i boje kao original, digitalna zamena je u istom dokumentu." data-en="The attacker physically or digitally replaces the legitimate QR code. The replacement is usually carefully executed — the sticker is the same size and color as the original, the digital replacement is in the same document.">Napadač zamenjuje QR pažljivo — nalepnica odgovara originalu ili digitalna zamena je u istom dokumentu.</p>
+        <p data-sr="Napadač zamenjuje QR pažljivo — nalepnica odgovara originalu ili digitalna zamena je u istom dokumentu." data-en="The attacker physically or digitally replaces the legitimate QR code. The replacement is usually carefully executed — the sticker is the same size and color as the original, the digital replacement is in the same document.">Napadač zamenjuje QR pažljivo — nalepnica odgovara originalu ili digitalna zamena je u istom dokumentu.</p>
         <ul class="bullets">
           <li data-sr="signal: QR kod je nalepnica zalepljena iznad osnove uređaja ili dokumenta." data-en="signal: the QR code is a sticker placed over the base of the device or document.">signal: QR kod je nalepnica zalepljena iznad osnove uređaja ili dokumenta.</li>
           <li data-sr="signal: QR kod nije štampan direktno na dokumentu nego je dodat naknadno." data-en="signal: the QR code is not printed directly on the document but was added afterwards.">signal: QR kod nije štampan direktno na dokumentu nego je dodat naknadno.</li>
@@ -47,7 +47,7 @@ window.SCAM_CONTENT["qr-payment-scam"] = {
 
       <article class="phase warn">
         <h3 class="phase-title" data-sr="Faza 2 — Skeniranje i preusmeravanje uplate" data-en="Phase 2 — Scanning and payment redirection">Faza 2 — Skeniranje i preusmeravanje uplate</h3>
-        <p data-sr="Žrtva skenira QR kod i biva preusmerena na lažni nalog ili lažnu stranicu. Uplata ide na nalog prevaranta, a ne na legitimnog primaoca. Žrtva ne zna dok ne primeti nedostajuću uplatu kod stvarnog primaoca." data-en="The victim scans the QR code and is redirected to a fake account or fake page. Payment goes to the fraudster's account, not to the legitimate recipient. The victim does not know until they notice a missing payment from the real recipient.">Žrtva skenira i plaća napadaču. Greška se otkrije tek kad legitimni primalac ne prima uplatu.</p>
+        <p data-sr="Žrtva skenira i plaća napadaču. Greška se otkrije tek kad legitimni primalac ne prima uplatu." data-en="The victim scans the QR code and is redirected to a fake account or fake page. Payment goes to the fraudster's account, not to the legitimate recipient. The victim does not know until they notice a missing payment from the real recipient.">Žrtva skenira i plaća napadaču. Greška se otkrije tek kad legitimni primalac ne prima uplatu.</p>
         <div class="branch">
           <p><strong data-sr="Grananja u ovoj fazi" data-en="Branching at this phase">Grananja u ovoj fazi</strong></p>
           <ul class="bullets">
@@ -66,7 +66,7 @@ window.SCAM_CONTENT["qr-payment-scam"] = {
         <li data-sr="URL koji se prikazuje nakon skeniranja ne odgovara zvaničnom domenu primaoca." data-en="the URL displayed after scanning does not match the recipient's official domain.">URL koji se prikazuje nakon skeniranja ne odgovara zvaničnom domenu primaoca.</li>
         <li data-sr="ime primaoca plaćanja u aplikaciji ne odgovara imenu kome bi trebalo platiti." data-en="the payment recipient name in the app does not match who you are supposed to pay.">ime primaoca plaćanja u aplikaciji ne odgovara imenu kome bi trebalo platiti.</li>
         <li data-sr="QR kod vodi na stranicu koja traži kartičane podatke — QR za plaćanje nikad ne treba podatke kartice za direktan transfer." data-en="the QR code leads to a page requesting card data — a QR for direct transfer never needs card details.">QR kod vodi na stranicu koja traži kartičane podatke — QR za plaćanje nikad ne treba podatke kartice za direktan transfer.</li>
-        <li data-sr="parkirni ili saobraćajni kazneni nalog s QR kodom za „plaćanje kazne online“ — proverite zvaničnu stranicu institucije." data-en="a parking or traffic penalty notice with a QR code for 'paying the fine online' — verify through the institution's official website.">parkirni ili saobraćajni kazneni nalog s QR kodom za 'plaćanje kazne online' — proverite zvaničnu stranicu institucije.</li>
+        <li data-sr="parkirni ili saobraćajni kazneni nalog s QR kodom za 'plaćanje kazne online' — proverite zvaničnu stranicu institucije." data-en="a parking or traffic penalty notice with a QR code for 'paying the fine online' — verify through the institution's official website.">parkirni ili saobraćajni kazneni nalog s QR kodom za 'plaćanje kazne online' — proverite zvaničnu stranicu institucije.</li>
       </ul>
     </section>
 
@@ -129,15 +129,6 @@ window.SCAM_CONTENT["qr-payment-scam"] = {
       </div>
     </section>
 
-    <section class="card sources" id="sources">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <ul class="bullets">
-        <li><a href="payment-link-scam.html" data-sr="Prevara s linkom za plaćanje" data-en="Payment link scam">Prevara s linkom za plaćanje</a></li>
-        <li><a href="instant-payment-scam.html" data-sr="Prevara s instant plaćanjem" data-en="Instant payment scam">Prevara s instant plaćanjem</a></li>
-        <li><a href="bank-transfer-diversion-scam.html" data-sr="Preusmeravanje bankovnog transfera" data-en="Bank transfer diversion scam">Preusmeravanje bankovnog transfera</a></li>
-        <li><a href="phishing.html" data-sr="Fišing" data-en="Fišing">Fišing</a></li>
-        <li><a href="fake-fine-scam.html" data-sr="Lažne kazne i nalozi za plaćanje" data-en="Fake fines and payment orders">Lažne kazne i nalozi za plaćanje</a></li>
-      </ul>
-    </section>
+    
   `
 };

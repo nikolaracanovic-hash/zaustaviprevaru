@@ -1,4 +1,4 @@
-﻿window.SCAM_CONTENT = window.SCAM_CONTENT || {};
+window.SCAM_CONTENT = window.SCAM_CONTENT || {};
 
 window.SCAM_CONTENT["grant-fund-scam"] = {
   raw_html: `
@@ -19,9 +19,9 @@ window.SCAM_CONTENT["grant-fund-scam"] = {
       >Ovo je adaptacija advance fee prevare za organizacioni kontekst. Efikasnost leži u tome što organizacije koje apliciraju za grantove znaju da grantovi postoje i da ih institucije dodeljuju — napadač iskorišćava tu kontekstualnu legitimnost. Naknada od par hiljada evra izgleda zanemarivo u poređenju s grantom od 100.000 ili više.</p>
 
       <div class="callout"
-        data-sr="<strong>Model:</strong> identifikacija organizacije → priprema lažne dokumentacije → obaveštenje o odabiru → naknada za oslobađanje → eskalacija (porez, garancija, inspekcija) → serija uplata → grant ne postoji → recovery talaš."
+        data-sr="<strong>Model:</strong> identifikacija organizacije → priprema lažne dokumentacije → obaveštenje o odabiru → naknada za oslobađanje → eskalacija (porez, garancija, inspekcija) → serija uplata → grant ne postoji → talas recovery prevara."
         data-en="<strong>Model:</strong> organization identification → fake documentation preparation → selection notification → release fee → escalation (tax, guarantee, inspection) → payment series → grant does not exist → recovery wave."
-      ><strong>Model:</strong> identifikacija organizacije → priprema lažne dokumentacije → obaveštenje o odabiru → naknada za oslobađanje → eskalacija (porez, garancija, inspekcija) → serija uplata → grant ne postoji → recovery talaš.</div>
+      ><strong>Model:</strong> identifikacija organizacije → priprema lažne dokumentacije → obaveštenje o odabiru → naknada za oslobađanje → eskalacija (porez, garancija, inspekcija) → serija uplata → grant ne postoji → talas recovery prevara.</div>
 
       <div class="callout"
         data-sr="<strong>Prag:</strong> organizacija izvrši prvu uplatu pre nego što proveri zvaničnu listu primalaca granta kod navedene institucije."
@@ -121,9 +121,9 @@ window.SCAM_CONTENT["grant-fund-scam"] = {
           data-en="The organization receives notification that it has been selected for a grant. The tone is formal and congratulatory. The grant amount is high. The attacker says the organization was nominated based on previous activities or automatically selected from the registry. To accept the grant, the organization must pay the first fee within a few days."
         >Organizacija prima obaveštenje da je odabrana za grant. Ton je formalan i pozitivan. Suma granta je visoka. Napadač kaže da je organizacija nominovana na osnovu prethodnih aktivnosti ili automatski izabrana iz registra. Da bi prihvatila grant, organizacija mora u roku od nekoliko dana platiti prvu naknadu.</p>
         <ul class="bullets">
-          <li data-sr="fraze: „čestitamo, vaša organizacija je odabrana za grant od [iznos]."." data-en="phrases: &ldquo;congratulations, your organization has been selected for a grant of [amount]&rdquo;.">fraze: „čestitamo, vaša organizacija je odabrana za grant od [iznos]"“.</li>
-          <li data-sr="fraze: „da bismo inicirali transfer, potrebna je registraciona naknada od [iznos]."." data-en="phrases: &ldquo;to initiate the transfer, a registration fee of [amount] is required&rdquo;.">fraze: „da bismo inicirali transfer, potrebna je registraciona naknada od [iznos]"“.</li>
-          <li data-sr="fraze: „organizacija nije aplicirala ali je automatski odabrana na osnovu javno dostupnih podataka."." data-en="phrases: &ldquo;organization did not apply but was automatically selected based on publicly available data&rdquo;.">fraze: „organizacija nije aplicirala ali je automatski odabrana na osnovu javno dostupnih podataka"“.</li>
+          <li data-sr="fraze: čestitamo, vaša organizacija je odabrana za grant od [iznos]." data-en="phrases: &ldquo;congratulations, your organization has been selected for a grant of [amount]&rdquo;.">fraze: čestitamo, vaša organizacija je odabrana za grant od [iznos].</li>
+          <li data-sr="fraze: da bismo inicirali transfer, potrebna je registraciona naknada od [iznos]." data-en="phrases: &ldquo;to initiate the transfer, a registration fee of [amount] is required&rdquo;.">fraze: da bismo inicirali transfer, potrebna je registraciona naknada od [iznos].</li>
+          <li data-sr="fraze: organizacija nije aplicirala ali je automatski odabrana na osnovu javno dostupnih podataka." data-en="phrases: &ldquo;organization did not apply but was automatically selected based on publicly available data&rdquo;.">fraze: organizacija nije aplicirala ali je automatski odabrana na osnovu javno dostupnih podataka.</li>
         </ul>
 
         <div class="branch">
@@ -163,8 +163,8 @@ window.SCAM_CONTENT["grant-fund-scam"] = {
           data-en="After the first payment the attacker introduces new obstacles. Tax that must be paid in the donor country. Bank guarantee. Inspection fee. Anti-money laundering check. Each new fee is accompanied by professional documentation and a new deadline. The organization is increasingly committed because it has already paid and does not want to lose the grant."
         >Posle prve uplate napadač uvodi nove prepreke. Porez koji mora biti plaćen u zemlji donatora. Bankarska garancija. Inspekcijska naknada. Anti-money laundering provera. Svaka nova naknada je praćena profesionalnom dokumentacijom i novim rokom. Organizacija je sve dublje jer je već platila i ne želi izgubiti grant.</p>
         <ul class="bullets">
-          <li data-sr="fraze: „zbog propisa u [zemlji], porez od X% mora biti plaćen pre transfera."." data-en="phrases: &ldquo;due to regulations in [country], a tax of X% must be paid before transfer&rdquo;.">fraze: „zbog propisa u [zemlji], porez od X% mora biti plaćen pre transfera"“.</li>
-          <li data-sr="fraze: „vaša banka zahteva garanciju od [iznos] za prijem ovog iznosa."." data-en="phrases: &ldquo;your bank requires a guarantee of [amount] to receive this amount&rdquo;.">fraze: „vaša banka zahteva garanciju od [iznos] za prijem ovog iznosa"“.</li>
+          <li data-sr="fraze: zbog propisa u [zemlji], porez od X% mora biti plaćen pre transfera." data-en="phrases: &ldquo;due to regulations in [country], a tax of X% must be paid before transfer&rdquo;.">fraze: zbog propisa u [zemlji], porez od X% mora biti plaćen pre transfera.</li>
+          <li data-sr="fraze: vaša banka zahteva garanciju od [iznos] za prijem ovog iznosa." data-en="phrases: &ldquo;your bank requires a guarantee of [amount] to receive this amount&rdquo;.">fraze: vaša banka zahteva garanciju od [iznos] za prijem ovog iznosa.</li>
         </ul>
         <div class="callout"
           data-sr="<strong>Prag faze:</strong> organizacija nastavlja da plaća — sunk cost efekat i nada drže je u procesu."
@@ -339,17 +339,6 @@ window.SCAM_CONTENT["grant-fund-scam"] = {
     </section>
 
     <!-- 9) POVEZANE PREVARE -->
-    <section class="card">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <div class="branch">
-        <ul class="bullets">
-          <li><a href="procurement-tender-scam.html" data-sr="Prevara na tenderu" data-en="Procurement tender scam">Prevara na tenderu</a></li>
-          <li><a href="payment-diversion.html" data-sr="Preusmeravanje plaćanja" data-en="Payment diversion">Preusmeravanje plaćanja</a></li>
-          <li><a href="impersonation-scam.html" data-sr="Lažno predstavljanje" data-en="Impersonation scam">Lažno predstavljanje</a></li>
-          <li><a href="business-email-compromise.html" data-sr="Kompromitovanje poslovnog imejla (BEC)" data-en="Business email compromise (BEC)">Kompromitovanje poslovnog imejla (BEC)</a></li>
-          <li><a href="supplier-onboarding-scam.html" data-sr="Prevara pri registraciji dobavljača" data-en="Supplier onboarding scam">Prevara pri registraciji dobavljača</a></li>
-        </ul>
-      </div>
-    </section>
+    
   `
 };

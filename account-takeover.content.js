@@ -12,9 +12,9 @@ window.SCAM_CONTENT["account-takeover"] = {
       >Preuzimanje naloga (ATO) je stanje u kome napadač kontroliše tuđi nalog: imejl, banku, društvenu mrežu, onlajn prodavnicu. Ovo nije početna prevara, nego posledica prethodnog napada — fišinga, pozivnih prevara, malvera, ili curenja podataka. Jednom kada napadač ima pristup, nalog postaje alat za dalje napade.</p>
 
       <p
-        data-sr="Šteta se realizuje kroz četiri pravca: (1) direktna finansijska šteta (transakcije, kupovine), (2) krađa identiteta i podataka, (3) širenje napada na kontakte, (4) reset lozinki na drugim servisima (imejl je ključ za sve ostale naloge). imejl nalog je najvrednije preuzimanje jer otvara pristup svemu što koristi „zaboravljena lozinka."
-        data-en="Damage occurs through four paths: (1) direct financial loss (transactions, purchases), (2) identity and data theft, (3) spreading attacks to contacts, (4) password resets on other services (email is the key to all other accounts). Email accounts are the most valuable takeover because they unlock access to everything using “forgot password”."
-      >Šteta se realizuje kroz četiri pravca: (1) direktna finansijska šteta (transakcije, kupovine), (2) krađa identiteta i podataka, (3) širenje napada na kontakte, (4) reset lozinki na drugim servisima (imejl je ključ za sve ostale naloge). Imejl nalog je najvrednije preuzimanje jer otvara pristup svemu što koristi „zaboravljena lozinka“.</p>
+        data-sr="Šteta se realizuje kroz četiri pravca: (1) direktna finansijska šteta (transakcije, kupovine), (2) krađa identiteta i podataka, (3) širenje napada na kontakte, (4) reset lozinki na drugim servisima (imejl je ključ za sve ostale naloge). imejl nalog je najvrednije preuzimanje jer otvara pristup svemu što koristi zaboravljena lozinka."
+        data-en="Damage occurs through four paths: (1) direct financial loss (transactions, purchases), (2) identity and data theft, (3) spreading attacks to contacts, (4) password resets on other services (email is the key to all other accounts). Email accounts are the most valuable takeover because they unlock access to everything using forgot password."
+      >Šteta se realizuje kroz četiri pravca: (1) direktna finansijska šteta (transakcije, kupovine), (2) krađa identiteta i podataka, (3) širenje napada na kontakte, (4) reset lozinki na drugim servisima (imejl je ključ za sve ostale naloge). Imejl nalog je najvrednije preuzimanje jer otvara pristup svemu što koristi zaboravljena lozinka.</p>
 
       <div class="callout"
         data-sr="<strong>Model:</strong> inicijalni napad (fišing/pozivna prevara/curenje) → ukradeni kredencijali → pristup → promena podataka za oporavak → serijske posledice → širenje."
@@ -51,9 +51,9 @@ window.SCAM_CONTENT["account-takeover"] = {
       <div class="branch">
         <p><strong data-sr="Povezani napadi koji vode do ATO" data-en="Related attacks leading to ATO">Povezani napadi koji vode do ATO</strong></p>
           <ul class="bullets">
-            <li><strong data-sr="Fišing:" data-en="Phishing:">Fišing:</strong> <span data-sr="najčešći ulaz." data-en="most common entry.">najčešći ulaz.</span> (<a href="phishing.html" data-sr="Povezano: Fišing" data-en="Related: Phishing">Povezano: Fišing</a>)</li>
-            <li><strong data-sr="Pozivna prevara:" data-en="Vishing:">Pozivna prevara:</strong> <span data-sr="poziv kao vektor." data-en="call as vector.">poziv kao vektor.</span> (<a href="vishing.html" data-sr="Povezano: Višing" data-en="Related: Vishing">Povezano: Višing</a>)</li>
-            <li><strong data-sr="Tehnička podrška:" data-en="Tech support:">Tehnička podrška:</strong> <span data-sr="daljinski pristup." data-en="remote access.">daljinski pristup.</span> (<a href="tech-support-scam.html" data-sr="Povezano: Prevara lažne tehničke podrške" data-en="Related: Tech support scam">Povezano: Prevara lažne tehničke podrške</a>)</li>
+            <li><strong data-sr="Povezano: Fišing</a>)" data-en="Phishing:">Fišing:</strong> <span data-sr="najčešći ulaz." data-en="most common entry.">najčešći ulaz.</span> (<a href="phishing.html" data-sr="Povezano: Fišing" data-en="Related: Phishing">Povezano: Fišing</a>)</li>
+            <li><strong data-sr="Povezano: Višing</a>)" data-en="Vishing:">Pozivna prevara:</strong> <span data-sr="poziv kao vektor." data-en="call as vector.">poziv kao vektor.</span> (<a href="vishing.html" data-sr="Povezano: Višing" data-en="Related: Vishing">Povezano: Višing</a>)</li>
+            <li><strong data-sr="Povezano: Prevara lažne tehničke podrške</a>)" data-en="Tech support:">Tehnička podrška:</strong> <span data-sr="daljinski pristup." data-en="remote access.">daljinski pristup.</span> (<a href="tech-support-scam.html" data-sr="Povezano: Prevara lažne tehničke podrške" data-en="Related: Tech support scam">Povezano: Prevara lažne tehničke podrške</a>)</li>
           </ul>
       </div>
     </section>
@@ -116,7 +116,7 @@ window.SCAM_CONTENT["account-takeover"] = {
 
         <div class="grid-2">
           <div class="phase">
-            <div class="label" data-sr="imejl nalog" data-en="Imejl account">Imejl nalog</div>
+            <div class="label" data-sr="Imejl nalog" data-en="Imejl account">Imejl nalog</div>
             <ul class="bullets">
               <li data-sr="reset lozinki na drugim servisima." data-en="password resets on other services.">reset lozinki na drugim servisima.</li>
               <li data-sr="pristup poslovnoj prepisci." data-en="access to business correspondence.">pristup poslovnoj prepisci.</li>
@@ -136,12 +136,12 @@ window.SCAM_CONTENT["account-takeover"] = {
             <div class="label" data-sr="Društvena mreža" data-en="Social network">Društvena mreža</div>
             <ul class="bullets">
               <li data-sr="poruke prijateljima sa linkovima." data-en="messages to friends with links.">poruke prijateljima sa linkovima.</li>
-              <li data-sr="„pomoć“ zahtevi (grandparent scam)." data-en="“help” requests (grandparent scam).">„pomoć“ zahtevi (grandparent scam).</li>
+              <li data-sr="pomoć zahtevi (grandparent scam)." data-en="help requests (grandparent scam).">pomoć zahtevi (grandparent scam).</li>
               <li data-sr="lažni oglasi i investicione ponude." data-en="fake ads and investment offers.">lažni oglasi i investicione ponude.</li>
             </ul>
           </div>
           <div class="phase">
-            <div class="label" data-sr="onlajn prodavnica / marketplace" data-en="E-commerce / marketplace">E-commerce / marketplace</div>
+            <div class="label" data-sr="E-commerce / marketplace" data-en="E-commerce / marketplace">E-commerce / marketplace</div>
             <ul class="bullets">
               <li data-sr="kupovine na sačuvane kartice." data-en="purchases on saved cards.">kupovine na sačuvane kartice.</li>
               <li data-sr="promena adrese dostave." data-en="changing delivery address.">promena adrese dostave.</li>
@@ -247,7 +247,7 @@ window.SCAM_CONTENT["account-takeover"] = {
 
     <!-- 7) AKO JE ŠTETA NASTALA -->
     <section class="card">
-      <h2 data-sr="Ako je nalog kompromitovan (redosled poteza)." data-en="If account is compromised (action order).">Ako je nalog kompromitovan (redosled poteza)</h2>
+      <h2 data-sr="Ako je nalog kompromitovan (redosled poteza)" data-en="If account is compromised (action order).">Ako je nalog kompromitovan (redosled poteza)</h2>
 
       <ol class="steps">
         <li data-sr="pokušaj povratka pristupa kroz zvaničan postupak oporavka naloga." data-en="try to regain access through recovery (official service channel).">pokušaj povratka pristupa kroz zvaničan postupak oporavka naloga.</li>
@@ -272,7 +272,7 @@ window.SCAM_CONTENT["account-takeover"] = {
 
       <div class="grid-2">
         <div class="phase">
-          <div class="label" data-sr="FBI IC3 + Javelin Strategy data (2023)." data-en="FBI IC3 + Javelin Strategy data (2023).">FBI IC3 + Javelin Strategy data (2023)</div>
+          <div class="label" data-sr="FBI IC3 + Javelin Strategy data (2023)" data-en="FBI IC3 + Javelin Strategy data (2023).">FBI IC3 + Javelin Strategy data (2023)</div>
           <ul class="bullets">
             <li data-sr="IC3 2023: Identity Theft 19,778 prijava, $126.2M gubitak." data-en="IC3 2023: Identity Theft 19,778 reports, $126.2M loss.">IC3 2023: Identity Theft 19,778 prijava, $126.2M gubitak.</li>
             <li data-sr="preuzimanje naloga se javlja kroz više kategorija (fišing, lična curenja podataka)." data-en="account takeover appears across multiple categories (phishing, personal data breaches).">preuzimanje naloga se javlja kroz više kategorija (fišing, lična curenja podataka).</li>
@@ -285,7 +285,7 @@ window.SCAM_CONTENT["account-takeover"] = {
         </div>
 
         <div class="phase">
-          <div class="label" data-sr="Raspodela tipova naloga (% preuzimanja)." data-en="Account type distribution (% of takeovers).">Raspodela tipova naloga (% preuzimanja)</div>
+          <div class="label" data-sr="Raspodela tipova naloga (% preuzimanja)" data-en="Account type distribution (% of takeovers).">Raspodela tipova naloga (% preuzimanja)</div>
           <ul class="bullets">
             <li data-sr="imejl nalozi: 35% (KLJUČNI - otvaraju sve ostalo)." data-en="email accounts: 35% (KEY - unlocks everything else).">imejl nalozi: 35% (KLJUČNI - otvaraju sve ostalo).</li>
             <li data-sr="online prodavnice: 28%." data-en="e-commerce platforms: 28%.">online prodavnice: 28%.</li>
@@ -297,7 +297,7 @@ window.SCAM_CONTENT["account-takeover"] = {
         </div>
 
         <div class="phase">
-          <div class="label" data-sr="Raspodela vektora napada (kako se dolazi do kredencijala)." data-en="Attack vector distribution (how credentials are obtained).">Raspodela vektora napada (kako se dolazi do kredencijala)</div>
+          <div class="label" data-sr="Raspodela vektora napada (kako se dolazi do kredencijala)" data-en="Attack vector distribution (how credentials are obtained).">Raspodela vektora napada (kako se dolazi do kredencijala)</div>
           <ul class="bullets">
             <li data-sr="probijanje lozinki (data breaches): 42% (NAJVIŠE)." data-en="credential stuffing (data breaches): 42% (HIGHEST).">probijanje lozinki (data breaches): 42% (NAJVIŠE).</li>
             <li data-sr="fišing: 31% (imejl/SMS lažne forme)." data-en="phishing: 31% (email/SMS fake forms).">fišing: 31% (imejl/SMS lažne forme).</li>
@@ -309,7 +309,7 @@ window.SCAM_CONTENT["account-takeover"] = {
         </div>
 
         <div class="phase">
-          <div class="label" data-sr="Operativna ekonomija (underground market)." data-en="Operational economics (underground market).">Operativna ekonomija (underground market)</div>
+          <div class="label" data-sr="Operativna ekonomija (underground market)" data-en="Operational economics (underground market).">Operativna ekonomija (underground market)</div>
           <ul class="bullets">
             <li data-sr="cena ukradenih kredencijala (dark web): imejl $2-15, banka $40-200, kripto $100-1,000." data-en="stolen credentials price (dark web): email $2-15, bank $40-200, crypto $100-1,000.">cena ukradenih kredencijala (dark web): imejl $2-15, banka $40-200, kripto $100-1,000.</li>
             <li data-sr="cena liste iz curenja podataka: 1M kredencijala = $500-5,000." data-en="curenje podataka list price: 1M credentials = $500-5,000.">cena liste iz curenja podataka: 1M kredencijala = $500-5,000.</li>
@@ -323,7 +323,7 @@ window.SCAM_CONTENT["account-takeover"] = {
 
       <div class="callout"
         data-sr="<strong>Ekonomski profil:</strong> preuzimanje naloga ima najbrži povraćaj ulaganja među prevarama (unovčavanje za manje od 24 sata). Probijanje lozinki košta $500-1,000 za testiranje 1M kombinacija, a stopa uspeha od 0.1-2% znači 1,000-20,000 uspešnih prijava i profit od $50K-200K. Ponovna upotreba lozinki pravi domino efekat."
-        data-en="<strong>Economic profile:</strong> account takeover has FASTEST ROI of all scams (<24h monetization). Credential stuffing costs $500-1,000 to test 1M combos, with 0.1-2% success rate = 1,000-20,000 successful logins = $50K-200K profit. Email account is KEY because it unlocks “forgot password” for ALL other accounts. Password reuse = domino effect."
+        data-en="<strong>Economic profile:</strong> account takeover has FASTEST ROI of all scams (<24h monetization). Credential stuffing costs $500-1,000 to test 1M combos, with 0.1-2% success rate = 1,000-20,000 successful logins = $50K-200K profit. Email account is KEY because it unlocks forgot password for ALL other accounts. Password reuse = domino effect."
       ><strong>Ekonomski profil:</strong> preuzimanje naloga ima najbrži povraćaj ulaganja među prevarama (unovčavanje za manje od 24 sata). Probijanje lozinki košta $500-1,000 za testiranje 1M kombinacija, a stopa uspeha od 0.1-2% znači 1,000-20,000 uspešnih prijava i profit od $50K-200K. Ponovna upotreba lozinki pravi domino efekat.</div>
     </section>
 
@@ -354,7 +354,7 @@ window.SCAM_CONTENT["account-takeover"] = {
         <li data-sr="Proveri sve autorizovane aplikacije i ukloni nepoznate." data-en="Check all authorized apps and remove unknown ones.">Proveri sve autorizovane aplikacije i ukloni nepoznate.</li>
         <li data-sr="Pretraži imejl za poruke o resetovanju lozinki ili promeni podataka." data-en="Search your email for messages about password resets or data changes.">Pretraži imejl za poruke o resetovanju lozinki ili promeni podataka.</li>
         <li data-sr="Proveri da li koristis istu lozinku na vise servisa." data-en="Check whether you use the same password on multiple services.">Proveri da li koristis istu lozinku na vise servisa.</li>
-        <li data-sr="Provjeri status dvofaktorske potvrde na svim vaznim nalozima." data-en="Check the 2FA status on all important accounts.">Provjeri status dvofaktorske potvrde na svim vaznim nalozima.</li>
+        <li data-sr="Proveri status dvofaktorske potvrde na svim važnim nalozima." data-en="Check the 2FA status on all important accounts.">Proveri status dvofaktorske potvrde na svim važnim nalozima.</li>
         <li data-sr="Proveri da li je imejl nalog kompromitovan — on je prioritet jer omogucava reset svega." data-en="Check whether the email account is compromised — it is the priority as it enables resetting everything.">Proveri da li je imejl nalog kompromitovan — on je prioritet jer omogucava reset svega.</li>
         <li data-sr="Kontaktiraj banku ako su finansijski nalozi u riziku i zamrzni kartice." data-en="Contact your bank if financial accounts are at risk and freeze cards.">Kontaktiraj banku ako su finansijski nalozi u riziku i zamrzni kartice.</li>
       </ol>
@@ -395,7 +395,7 @@ window.SCAM_CONTENT["account-takeover"] = {
 
     <!-- AKO POMAŽES NEKOME -->
     <section class="content-section">
-      <h2 data-sr="Ako pokušavaš da pomogneš nekome" data-en="If you are trying to help someone">Ako pokusavas da pomognes nekome</h2>
+      <h2 data-sr="Ako pokusavas da pomognes nekome" data-en="If you are trying to help someone">Ako pokusavas da pomognes nekome</h2>
       <ul class="bullets">
         <li data-sr="Da li im se prikazuje poruka da je lozinka netacna iako je sigurno ispravna?" data-en="Are they getting a message that the password is incorrect even though they are sure it is correct?">Da li im se prikazuje poruka da je lozinka netacna iako je sigurno ispravna?</li>
         <li data-sr="Da li su kontakti prijavili da dobijaju cudne poruke od njihovog naloga?" data-en="Have contacts reported receiving strange messages from their account?">Da li su kontakti prijavili da dobijaju cudne poruke od njihovog naloga?</li>
@@ -412,24 +412,7 @@ window.SCAM_CONTENT["account-takeover"] = {
     </section>
 
     <!-- POVEZANE PREVARE -->
-    <section class="content-section">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <ul class="bullets">
-        <li><a href="phishing.html" data-sr="Fišing — najčešći ulaz za kompromitovanje kredencijala" data-en="Phishing — most common entry point for credential compromise">Fišing — najčešći ulaz za kompromitovanje kredencijala</a></li>
-        <li><a href="vishing.html" data-sr="Višing — telefonska prevara koja traži OTP kodove i lozinke" data-en="Vishing — phone scam requesting OTP codes and passwords">Višing — telefonska prevara koja traži OTP kodove i lozinke</a></li>
-        <li><a href="sim-swap.html" data-sr="SIM swap — preuzimanje broja telefona za bypass dvofaktorske potvrde" data-en="SIM swap — phone number takeover to bypass 2FA">SIM swap — preuzimanje broja telefona za bypass dvofaktorske potvrde</a></li>
-        <li><a href="identity-theft.html" data-sr="Kradja identiteta — sira zloupotreba kompromitovanih licnih podataka" data-en="Identity theft — broader misuse of compromised personal data">Kradja identiteta — sira zloupotreba kompromitovanih licnih podataka</a></li>
-        <li><a href="email-account-compromise.html" data-sr="Kompromitacija imejl naloga — preuzimanje poslovnog imejla" data-en="Email account compromise — takeover of business email">Kompromitacija imejl naloga — preuzimanje poslovnog imejla</a></li>
-      </ul>
-    </section>
+    
 <!-- 9) IZVORI -->
-    <section class="card sources" id="sources">
-      <h2 data-sr="Sources" data-en="Sources">Sources</h2>
-      <ul>
-        <li><a href="https://www.ncsc.gov.uk/guidance/phishing" target="_blank" rel="noopener noreferrer">UK NCSC — Fišing guidance</a></li>
-        <li><a href="https://www.fbi.gov/how-we-can-help-you/scams-and-safety/common-frauds-and-scams" target="_blank" rel="noopener noreferrer">FBI — Common frauds and scams</a></li>
-        <li><a href="https://consumer.ftc.gov/identity-theft-and-online-security" target="_blank" rel="noopener noreferrer">FTC — Account security guidance</a></li>
-      </ul>
-    </section>
-  `
+`
 };

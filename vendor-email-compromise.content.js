@@ -36,9 +36,9 @@ window.SCAM_CONTENT["vendor-email-compromise"] = {
       </h2>
 
       <p
-        data-sr="Napad može doći kroz kompromitovani pravi nalog dobavljača ili kroz lookalike domen. U prvom slučaju napadač čita prepisku nedeljama pre akcije i bira pravi momenat. U drugom slučaju registruje vizualno identičan domen i šalje profesionalnu poruku sa priloženom „zvaničnom dokumentacijom"."
+        data-sr="Napad može doći kroz kompromitovani pravi nalog dobavljača ili kroz lookalike domen. U prvom slučaju napadač čita prepisku nedeljama pre akcije i bira pravi momenat. U drugom slučaju registruje vizualno identičan domen i šalje profesionalnu poruku sa priloženom zvaničnom dokumentacijom."
         data-en="The attack can come through a compromised real supplier account or through a lookalike domain. In the first case, the attacker reads correspondence for weeks before acting and picks the right moment. In the second case, they register a visually identical domain and send a professional message with an attached &ldquo;official document&rdquo;."
-      >Napad može doći kroz kompromitovani pravi nalog dobavljača ili kroz lookalike domen. U prvom slučaju napadač čita prepisku nedeljama pre akcije i bira pravi momenat. U drugom slučaju registruje vizualno identičan domen i šalje profesionalnu poruku sa priloženom „zvaničnom dokumentacijom"“.</p>
+      >Napad može doći kroz kompromitovani pravi nalog dobavljača ili kroz lookalike domen. U prvom slučaju napadač čita prepisku nedeljama pre akcije i bira pravi momenat. U drugom slučaju registruje vizualno identičan domen i šalje profesionalnu poruku sa priloženom zvaničnom dokumentacijom.</p>
 
       <div class="grid-2">
         <div class="phase">
@@ -56,7 +56,7 @@ window.SCAM_CONTENT["vendor-email-compromise"] = {
           <ul class="bullets">
             <li data-sr="napadač registruje vizualno identičan domen: supplier-invoices.com umesto supplier.com." data-en="attacker registers visually identical domain: supplier-invoices.com instead of supplier.com.">napadač registruje vizualno identičan domen: supplier-invoices.com umesto supplier.com.</li>
             <li data-sr="šalje profesionalan imejl sa zahtevom za ažuriranjem bankovnih podataka." data-en="sends professional email requesting banking detail update.">šalje profesionalan imejl sa zahtevom za ažuriranjem bankovnih podataka.</li>
-            <li data-sr="prilaže lažni PDF sa potpisom i pečatom kao „zvanična dokumentacija."." data-en="attaches fake PDF with signature and stamp as &ldquo;official documentation&rdquo;.">prilaže lažni PDF sa potpisom i pečatom kao „zvanična dokumentacija"“.</li>
+            <li data-sr="prilaže lažni PDF sa potpisom i pečatom kao zvanična dokumentacija." data-en="attaches fake PDF with signature and stamp as &ldquo;official documentation&rdquo;.">prilaže lažni PDF sa potpisom i pečatom kao zvanična dokumentacija.</li>
             <li data-sr="otkrivanje moguće samo pažljivim pregledom domene imejla." data-en="detection only possible by carefully checking the email domain.">otkrivanje moguće samo pažljivim pregledom domene imejla.</li>
           </ul>
         </div>
@@ -130,9 +130,9 @@ window.SCAM_CONTENT["vendor-email-compromise"] = {
           data-en="The attacker emails the person in the company who handles payments. The message is professional, uses the real supplier's name and usual communication format. It notifies that the supplier has changed their business bank and requests an update to payment details. The tone is routine — without urgency that would attract attention."
         >Napadač šalje imejl osobi koja plaća račune u firmi. Poruka je profesionalna, koristi pravo ime dobavljača i uobičajeni format komunikacije. Obaveštava da je dobavljač promenio poslovnu banku i traži ažuriranje podataka za buduće uplate. Tonalitet je rutinski — bez hitnosti koja bi privukla pažnju.</p>
         <ul class="bullets">
-          <li data-sr="fraze: „u okviru reorganizacije prešli smo na novu banku."." data-en="phrases: &ldquo;as part of our restructuring we have moved to a new bank&rdquo;.">fraze: „u okviru reorganizacije prešli smo na novu banku"“.</li>
-          <li data-sr="fraze: „stari račun ostaje aktivan samo do krađa meseca."." data-en="phrases: &ldquo;the old account remains active only until end of month&rdquo;.">fraze: „stari račun ostaje aktivan samo do krađa meseca"“.</li>
-          <li data-sr="fraze: „u prilogu je zvanično obaveštenje sa potpisom direktora."." data-en="phrases: &ldquo;attached is the official notification with the director's signature&rdquo;.">fraze: „u prilogu je zvanično obaveštenje sa potpisom direktora"“.</li>
+          <li data-sr="fraze: u okviru reorganizacije prešli smo na novu banku." data-en="phrases: &ldquo;as part of our restructuring we have moved to a new bank&rdquo;.">fraze: u okviru reorganizacije prešli smo na novu banku.</li>
+          <li data-sr="fraze: stari račun ostaje aktivan samo do krađa meseca." data-en="phrases: &ldquo;the old account remains active only until end of month&rdquo;.">fraze: stari račun ostaje aktivan samo do krađa meseca.</li>
+          <li data-sr="fraze: u prilogu je zvanično obaveštenje sa potpisom direktora." data-en="phrases: &ldquo;attached is the official notification with the director's signature&rdquo;.">fraze: u prilogu je zvanično obaveštenje sa potpisom direktora.</li>
         </ul>
 
         <div class="branch">
@@ -343,18 +343,6 @@ window.SCAM_CONTENT["vendor-email-compromise"] = {
     </section>
 
     <!-- 9) POVEZANE PREVARE -->
-    <section class="card">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <div class="branch">
-        <ul class="bullets">
-          <li><a href="business-email-compromise.html" data-sr="Kompromitovanje poslovnog imejla (BEC)" data-en="Business email compromise (BEC)">Kompromitovanje poslovnog imejla (BEC)</a></li>
-          <li><a href="invoice-fraud.html" data-sr="Prevara sa fakturama" data-en="Invoice fraud">Prevara sa fakturama</a></li>
-          <li><a href="mandate-fraud.html" data-sr="Prevara sa nalozima za plaćanje" data-en="Mandate fraud">Prevara sa nalozima za plaćanje</a></li>
-          <li><a href="ceo-fraud.html" data-sr="CEO prevara" data-en="CEO fraud">CEO prevara</a></li>
-          <li><a href="phishing.html" data-sr="Fišing" data-en="Phishing">Fišing</a></li>
-          <li><a href="account-takeover.html" data-sr="Preuzimanje naloga" data-en="Account takeover">Preuzimanje naloga</a></li>
-        </ul>
-      </div>
-    </section>
+    
   `
 };

@@ -3,10 +3,10 @@ window.SCAM_CONTENT = window.SCAM_CONTENT || {};
 window.SCAM_CONTENT["fake-broker-scam"] = {
   raw_html: `
     <section class="card">
-      <h2 data-sr="Uvod: kako radi lažni broker" data-en="Introduction: how the fake broker scam works">Uvod: kako radi Lažni broker</h2>
+      <h2 data-sr="Uvod: kako radi Lažni broker" data-en="Introduction: how the fake broker scam works">Uvod: kako radi Lažni broker</h2>
       <p data-sr="Lažni broker kreira profesionalnu investicionu platformu ili se predstavlja kao licencovani broker. Traži malu inicijalnu uplatu, pokazuje lažni profit na ekranu, pa ubeduje žrtvu da uloži više. Kada žrtva pokuša da povuče — blokada, naknade, nestanak." data-en="The fake broker creates a professional investment platform or poses as a licensed broker. Requests a small initial deposit, shows fake profit on screen, then persuades the victim to invest more. When the victim tries to withdraw — blockage, fees, disappearance.">Lažni broker kreira profesionalnu investicionu platformu ili se predstavlja kao licencovani broker. Traži malu inicijalnu uplatu, pokazuje lažni profit na ekranu, pa ubeduje žrtvu da uloži više. Kada žrtva pokuša da povuče — blokada, naknade, nestanak.</p>
-      <div class="callout" data-sr="&lt;strong&gt;Model:&lt;/strong&gt; Reklama → registracija → mala uplata → lažni profit → veća uplata → nestanak platforme." data-en="&lt;strong&gt;Model:&lt;/strong&gt; Ad/contact → registration → small deposit → fake profit → larger deposit → platform disappearance."><strong>Model:</strong> Reklama → registracija → mala uplata → lažni profit → veća uplata → nestanak platforme.</div>
-      <div class="callout" data-sr="&lt;strong&gt;Prag:&lt;/strong&gt; Prva uplata na platformu. Napadač prima novac i aktivira lažni prikaz profita." data-en="&lt;strong&gt;Threshold:&lt;/strong&gt; First deposit to the platform. The attacker receives money and activates fake profit display."><strong>Prag:</strong> Prva uplata na platformu. Napadač prima novac i aktivira lažni prikaz profita.</div>
+      <div class="callout" data-sr="<strong>Model:</strong> Reklama → registracija → mala uplata → lažni profit → veća uplata → nestanak platforme." data-en="<strong>Model:</strong> Ad/contact → registration → small deposit → fake profit → larger deposit → platform disappearance."><strong>Model:</strong> Reklama → registracija → mala uplata → lažni profit → veća uplata → nestanak platforme.</div>
+      <div class="callout" data-sr="<strong>Prag:</strong> Prva uplata na platformu. Napadač prima novac i aktivira lažni prikaz profita." data-en="<strong>Threshold:</strong> First deposit to the platform. The attacker receives money and activates fake profit display."><strong>Prag:</strong> Prva uplata na platformu. Napadač prima novac i aktivira lažni prikaz profita.</div>
     </section>
 
     <section class="card">
@@ -115,15 +115,6 @@ window.SCAM_CONTENT["fake-broker-scam"] = {
       </ul>
     </section>
 
-    <section class="card">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <ul class="bullets">
-        <li><a href="investment-fraud.html" data-sr="Investiciona prevara" data-en="Investment fraud">Investiciona prevara</a></li>
-        <li><a href="clone-firm-scam.html" data-sr="Prevara sa klonom firme" data-en="Clone firm scam">Prevara sa klonom firme</a></li>
-        <li><a href="forex-scam.html" data-sr="Forex prevara" data-en="Forex scam">Forex prevara</a></li>
-        <li><a href="binary-options-scam.html" data-sr="Prevara sa binarnim opcijama" data-en="Binary options scam">Prevara sa binarnim opcijama</a></li>
-        <li><a href="recovery-scam.html" data-sr="Recovery prevara" data-en="Recovery scam">Recovery prevara</a></li>
-      </ul>
-    </section>
+    
   `
 };

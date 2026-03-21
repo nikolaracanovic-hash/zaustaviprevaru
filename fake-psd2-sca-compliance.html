@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta
+    name="description"
+    content="Imejl ili poziv traži hitnu instalaciju aplikacije, test transakciju ili deljenje OTP koda pod izgovorom SCA ili PSD2."
+    data-sr="Imejl ili poziv traži hitnu instalaciju aplikacije, test transakciju ili deljenje OTP koda pod izgovorom SCA ili PSD2."
+    data-en="Email or call demands urgent app install, test transaction, or OTP sharing under SCA or PSD2 pretense."
+  />
+
+  <title
+    data-sr="Lažna PSD2 / SCA provera"
+    data-en="Fake PSD2 / SCA check"
+  >Fake PSD2 / SCA check</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="ui.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="fake-psd2-sca-compliance.content.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="cases.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+      <div class="brand">
+        <span class="brand-dot" aria-hidden="true"></span>
+        <span class="brand-name">Anti-scam</span>
+      </div>
+
+      <nav aria-label="Glavna navigacija">
+        <ul class="top-nav">
+          <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+          <li><a href="prevare.html" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          <li><a href="protecting-elderly.html" data-sr="Prevencija" data-en="Prevention">Prevencija</a></li>                  </ul>
+      </nav>
+    </div>
+
+<div class="hero compact">
+        <h1
+          data-sr="Lažna PSD2 / SCA provera"
+          data-en="Fake PSD2 / SCA check"
+        >Fake PSD2 / SCA check</h1>
+
+        <p class="muted hero-sub"
+           data-sr="Link vodi van zvaničnog sajta banke → traže kod iz SMS-a → pritisak da ne blokirate račun."
+           data-en="Link leads off the bank&#x27;s real site → SMS code requested → pressure that your account will be blocked.">
+          Link vodi van zvaničnog sajta banke → traže kod iz SMS-a → pritisak da ne blokirate račun.
+        </p>
+
+        <div id="scam-meta" data-scam="fake-psd2-sca-compliance"></div>
+
+        <div class="callout"
+             data-sr="<strong>Prag:</strong> OTP ili aplikacija je prihvaćena sa kontakta koji ne odgovara broju ili domenu na kartici ili ugovoru."
+             data-en="<strong>Threshold:</strong> OTP or app accepted from a contact that does not match the number or domain on your card or contract.">
+          <strong>Prag:</strong> OTP ili aplikacija je prihvaćena sa kontakta koji ne odgovara broju ili domenu na kartici ili ugovoru.
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div data-overview></div>
+    <div data-steps></div>
+    <div data-scammer-view></div>
+
+    <div data-longform></div>
+    <div data-related></div>
+</main>
+
+  <footer class="footer">
+  <div class="container">
+    <p class="muted"
+       data-sr="Anti-scam projekat — edukacija i analiza"
+       data-en="Anti-scam project — education and analysis">
+      Anti-scam projekat — edukacija i analiza
+    </p>
+    <p class="muted">
+      <a href="obavestenje-o-privatnosti.html" data-sr="Obaveštenje o privatnosti" data-en="Privacy notice">Obaveštenje o privatnosti</a>
+    </p>
+  </div>
+</footer>
+</body>
+</html>

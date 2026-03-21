@@ -52,29 +52,29 @@ window.SCAM_CONTENT["fake-webshop"] = {
       <li data-sr="Oglas često koristi fotografije preuzete s legitimnih sajtova bez dozvole." data-en="The ad often uses photographs taken from legitimate sites without permission.">Oglas često koristi fotografije preuzete s legitimnih sajtova bez dozvole.</li>
       <li data-sr="Vremenski ograničene ponude i odbrojavanja povećavaju pritisak i smanjuju vreme za proveru." data-en="Time-limited offers and countdowns increase pressure and reduce time for verification.">Vremenski ograničene ponude i odbrojavanja povećavaju pritisak i smanjuju vreme za proveru.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Proverite prodavnicu u recenzijama i registrima pre nego kliknete na kupovinu — cena koja deluje predobro obično jeste." data-en="Phase threshold: Check the store in reviews and registers before clicking to buy — a price that looks too good usually is."><strong>Prag faze:</strong> Proverite prodavnicu u recenzijama i registrima pre nego kliknete na kupovinu — cena koja deluje predobro obično jeste.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Proverite prodavnicu u recenzijama i registrima pre nego kliknete na kupovinu — cena koja deluje predobro obično jeste." data-en="Phase threshold: Check the store in reviews and registers before clicking to buy — a price that looks too good usually is."><strong>Prag faze:</strong> Proverite prodavnicu u recenzijama i registrima pre nego kliknete na kupovinu — cena koja deluje predobro obično jeste.</div>
   </div>
 
   <div class="phase">
     <div class="label" data-sr="Faza 2: Kupovina i uplata" data-en="Phase 2: Purchase and payment">Faza 2: Kupovina i uplata</div>
-    <p data-sr="Kupac prolazi kroz normalan proces narudžbine, bira veličinu i boju, i plaća karticom ili direktnim transferom. Potvrda narudžbine stiže e-poštom." data-en="The buyer goes through a normal order process, selects size and color, and pays by card or direct transfer. An order confirmation arrives by email.">Kupac prolazi kroz normalan proces narudžbine, bira veličinu i boju, i plaća karticom ili direktnim transferom. Potvrda narudžbine stiže e-poštom.</p>
+    <p data-sr="Kupac prolazi kroz normalan proces porudžbine, bira veličinu i boju, i plaća karticom ili direktnim transferom. Potvrda porudžbine stiže e-poštom." data-en="The buyer goes through a normal order process, selects size and color, and pays by card or direct transfer. An order confirmation arrives by email.">Kupac prolazi kroz normalan proces porudžbine, bira veličinu i boju, i plaća karticom ili direktnim transferom. Potvrda porudžbine stiže e-poštom.</p>
     <ul class="bullets">
-      <li data-sr="Potvrda narudžbine daje lažan osećaj sigurnosti — ne garantuje isporuku." data-en="The order confirmation gives a false sense of security — it does not guarantee delivery.">Potvrda narudžbine daje lažan osećaj sigurnosti — ne garantuje isporuku.</li>
+      <li data-sr="Potvrda porudžbine daje lažan osećaj sigurnosti — ne garantuje isporuku." data-en="The order confirmation gives a false sense of security — it does not guarantee delivery.">Potvrda porudžbine daje lažan osećaj sigurnosti — ne garantuje isporuku.</li>
       <li data-sr="Direktni bankovni transfer je nepovratni metod plaćanja bez zaštite kupca." data-en="Direct bank transfer is an irreversible payment method with no buyer protection.">Direktni bankovni transfer je nepovratni metod plaćanja bez zaštite kupca.</li>
       <li data-sr="Kartično plaćanje ima više zaštite kroz chargeback, ali prodavnica može osporiti s lažnom dokumentacijom." data-en="Card payment has more protection through chargeback, but the store can dispute with fake documentation.">Kartično plaćanje ima više zaštite kroz chargeback, ali prodavnica može osporiti s lažnom dokumentacijom.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Koristite kreditnu karticu ili PayPal — nikad direktan bankovni transfer — za kupovinu u nepoznatoj prodavnici." data-en="Phase threshold: Use a credit card or PayPal — never a direct bank transfer — for purchases in an unknown store."><strong>Prag faze:</strong> Koristite kreditnu karticu ili PayPal — nikad direktan bankovni transfer — za kupovinu u nepoznatoj prodavnici.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Koristite kreditnu karticu ili PayPal — nikad direktan bankovni transfer — za kupovinu u nepoznatoj prodavnici." data-en="Phase threshold: Use a credit card or PayPal — never a direct bank transfer — for purchases in an unknown store."><strong>Prag faze:</strong> Koristite kreditnu karticu ili PayPal — nikad direktan bankovni transfer — za kupovinu u nepoznatoj prodavnici.</div>
   </div>
 
   <div class="phase">
     <div class="label" data-sr="Faza 3: Čekanje i odlaganje" data-en="Phase 3: Waiting and delays">Faza 3: Čekanje i odlaganje</div>
-    <p data-sr="Roba ne stiže u obećanom roku. Prodavnica šalje automatske e-poruke o „odgodama isporuke“, „carinskim problemima“ ili „logističkim problemima." data-en="Goods do not arrive within the promised deadline. The store sends automated emails about 'delivery delays', 'customs issues', or 'logistics problems.'">Roba ne stiže u obećanom roku. Prodavnica šalje automatske e-poruke o „odgodama isporuke", „carinskim problemima" ili „logističkim problemima"“.</p>
+    <p data-sr="Roba ne stiže u obećanom roku. Prodavnica šalje automatske e-poruke o odgodama isporuke, carinskim problemima ili logističkim problemima." data-en="Goods do not arrive within the promised deadline. The store sends automated emails about 'delivery delays', 'customs issues', or 'logistics problems.">Roba ne stiže u obećanom roku. Prodavnica šalje automatske e-poruke o odgodama isporuke, carinskim problemima ili logističkim problemima.</p>
     <ul class="bullets">
       <li data-sr="Odgode se nastavljaju na zahtev kupca s novim datumima koji nikad nisu tačni." data-en="Delays continue on buyer request with new dates that are never accurate.">Odgode se nastavljaju na zahtev kupca s novim datumima koji nikad nisu tačni.</li>
       <li data-sr="Lažni broj za praćenje pošiljke vodi na generički sajt ili pokazuje neinicijaliziranu pošiljku." data-en="A fake tracking number leads to a generic site or shows an uninitialized shipment.">Lažni broj za praćenje pošiljke vodi na generički sajt ili pokazuje neinicijaliziranu pošiljku.</li>
       <li data-sr="Prevarant odgađa dok rok za chargeback (obično 120 dana) ne istekne." data-en="The fraudster delays until the chargeback deadline (usually 120 days) expires.">Prevarant odgađa dok rok za chargeback (obično 120 dana) ne istekne.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Pokrenite chargeback odmah kad primetite odgodu — ne čekajte na finalno objašnjenje prodavnice." data-en="Phase threshold: Initiate a chargeback as soon as you notice a delay — do not wait for the store's final explanation."><strong>Prag faze:</strong> Pokrenite chargeback odmah kad primetite odgodu — ne čekajte na finalno objašnjenje prodavnice.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Pokrenite chargeback odmah kad primetite odgodu — ne čekajte na finalno objašnjenje prodavnice." data-en="Phase threshold: Initiate a chargeback as soon as you notice a delay — do not wait for the store's final explanation."><strong>Prag faze:</strong> Pokrenite chargeback odmah kad primetite odgodu — ne čekajte na finalno objašnjenje prodavnice.</div>
   </div>
 
   <div class="phase">
@@ -82,10 +82,10 @@ window.SCAM_CONTENT["fake-webshop"] = {
     <p data-sr="Umesto naručene robe, kupac prima jeftinu krivotvorinu, potpuno drugu robu ili praznu kutiju. Prodavnica tvrdi da je isporučila tačno naručenu robu." data-en="Instead of the ordered goods, the buyer receives a cheap counterfeit, a completely different item, or an empty box. The store claims to have delivered exactly what was ordered.">Umesto naručene robe, kupac prima jeftinu krivotvorinu, potpuno drugu robu ili praznu kutiju. Prodavnica tvrdi da je isporučila tačno naručenu robu.</p>
     <ul class="bullets">
       <li data-sr="Fotografirajte primljenu robu s pakovanjem odmah po prijemu kao dokaz za chargeback." data-en="Photograph the received goods with packaging immediately upon receipt as evidence for a chargeback.">Fotografirajte primljenu robu s pakovanjem odmah po prijemu kao dokaz za chargeback.</li>
-      <li data-sr="Čuvajte sve e-poruke, potvrde narudžbine i komunikaciju s prodavnicom." data-en="Keep all emails, order confirmations, and communications with the store.">Čuvajte sve e-poruke, potvrde narudžbine i komunikaciju s prodavnicom.</li>
+      <li data-sr="Čuvajte sve e-poruke, potvrde porudžbine i komunikaciju s prodavnicom." data-en="Keep all emails, order confirmations, and communications with the store.">Čuvajte sve e-poruke, potvrde porudžbine i komunikaciju s prodavnicom.</li>
       <li data-sr="Prijavite krivotvorenu robu i carinskim organima — uvoz krivotvorina je ilegalan u većini nadležnosti." data-en="Report counterfeit goods to customs authorities as well — importing counterfeits is illegal in most jurisdictions.">Prijavite krivotvorenu robu i carinskim organima — uvoz krivotvorina je ilegalan u većini nadležnosti.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Dokumentujte krivotvorenu robu fotografijama i pokrenite chargeback odmah — to je jedina realna šansa za povrat." data-en="Phase threshold: Document the counterfeit goods with photographs and initiate a chargeback immediately — that is the only realistic chance of recovery."><strong>Prag faze:</strong> Dokumentujte krivotvorenu robu fotografijama i pokrenite chargeback odmah — to je jedina realna šansa za povrat.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Dokumentujte krivotvorenu robu fotografijama i pokrenite chargeback odmah — to je jedina realna šansa za povrat." data-en="Phase threshold: Document the counterfeit goods with photographs and initiate a chargeback immediately — that is the only realistic chance of recovery."><strong>Prag faze:</strong> Dokumentujte krivotvorenu robu fotografijama i pokrenite chargeback odmah — to je jedina realna šansa za povrat.</div>
   </div>
 
   <div class="phase">
@@ -96,18 +96,18 @@ window.SCAM_CONTENT["fake-webshop"] = {
       <li data-sr="Chargeback direktno kod banke zaobilazi prodavnicu i ne zahteva vraćanje robe prodavcu." data-en="A chargeback directly with the bank bypasses the store and does not require returning the goods to the seller.">Chargeback direktno kod banke zaobilazi prodavnicu i ne zahteva vraćanje robe prodavcu.</li>
       <li data-sr="Pokrenite chargeback pre pokušaja vraćanja robe — banka može osporiti bez fizičkog vraćanja." data-en="Initiate a chargeback before attempting to return goods — the bank may dispute without physical return.">Pokrenite chargeback pre pokušaja vraćanja robe — banka može osporiti bez fizičkog vraćanja.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Kontaktirajte banku radi chargeback-a — ne prodavnicu — ako je roba nevažeća ili nije stigla." data-en="Phase threshold: Contact the bank for a chargeback — not the store — if goods are invalid or have not arrived."><strong>Prag faze:</strong> Kontaktirajte banku radi chargeback-a — ne prodavnicu — ako je roba nevažeća ili nije stigla.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Kontaktirajte banku radi chargeback-a — ne prodavnicu — ako je roba nevažeća ili nije stigla." data-en="Phase threshold: Contact the bank for a chargeback — not the store — if goods are invalid or have not arrived."><strong>Prag faze:</strong> Kontaktirajte banku radi chargeback-a — ne prodavnicu — ako je roba nevažeća ili nije stigla.</div>
   </div>
 
   <div class="phase">
     <div class="label" data-sr="Faza 6: Nestanak prodavnice" data-en="Phase 6: Store disappearance">Faza 6: Nestanak prodavnice</div>
-    <p data-sr="Sajt se gasi ili preimenuje, e-mail adrese prestaju da rade, podrška nestaje. Isti tim lansira novu prodavnicu s drugačijim imenom i domenом." data-en="The site shuts down or is renamed, email addresses stop working, support disappears. The same team launches a new store with a different name and domain.">Sajt se gasi ili preimenuje, e-mail adrese prestaju da rade, podrška nestaje. Isti tim lansira novu prodavnicu s drugačijim imenom i domenom.</p>
+    <p data-sr="Sajt se gasi ili preimenuje, e-mail adrese prestaju da rade, podrška nestaje. Isti tim lansira novu prodavnicu s drugačijim imenom i domenom." data-en="The site shuts down or is renamed, email addresses stop working, support disappears. The same team launches a new store with a different name and domain.">Sajt se gasi ili preimenuje, e-mail adrese prestaju da rade, podrška nestaje. Isti tim lansira novu prodavnicu s drugačijim imenom i domenom.</p>
     <ul class="bullets">
       <li data-sr="Prijavite domenu hosta radi deaktivacije i upozorite potrošačke organizacije." data-en="Report the domain to the host for deactivation and warn consumer organizations.">Prijavite domenu hosta radi deaktivacije i upozorite potrošačke organizacije.</li>
       <li data-sr="Zapis u ScamAdviser, Trustpilot ili sličnim platformama štiti buduće kupce." data-en="A record on ScamAdviser, Trustpilot, or similar platforms protects future buyers.">Zapis u ScamAdviser, Trustpilot ili sličnim platformama štiti buduće kupce.</li>
-      <li data-sr="Prijavite slučaj policiji s punom dokumentacijom narudžbine, uplate i komunikacije." data-en="Report the case to the police with full documentation of the order, payment, and communication.">Prijavite slučaj policiji s punom dokumentacijom narudžbine, uplate i komunikacije.</li>
+      <li data-sr="Prijavite slučaj policiji s punom dokumentacijom porudžbine, uplate i komunikacije." data-en="Report the case to the police with full documentation of the order, payment, and communication.">Prijavite slučaj policiji s punom dokumentacijom porudžbine, uplate i komunikacije.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Prijavite lažnu prodavnicu potrošačkoj zaštiti i hosting provajderu — deaktivacija sajta štiti buduće žrtve." data-en="Phase threshold: Report the fake store to consumer protection and the hosting provider — site deactivation protects future victims."><strong>Prag faze:</strong> Prijavite lažnu prodavnicu potrošačkoj zaštiti i hosting provajderu — deaktivacija sajta štiti buduće žrtve.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Prijavite lažnu prodavnicu potrošačkoj zaštiti i hosting provajderu — deaktivacija sajta štiti buduće žrtve." data-en="Phase threshold: Report the fake store to consumer protection and the hosting provider — site deactivation protects future victims."><strong>Prag faze:</strong> Prijavite lažnu prodavnicu potrošačkoj zaštiti i hosting provajderu — deaktivacija sajta štiti buduće žrtve.</div>
   </div>
 </section>
 
@@ -143,7 +143,7 @@ window.SCAM_CONTENT["fake-webshop"] = {
     <li data-sr="Da li je prodavnica proverena na ScamAdviser ili Trustpilot bez pritužbi?" data-en="Has the store been checked on ScamAdviser or Trustpilot without complaints?">Da li je prodavnica proverena na ScamAdviser ili Trustpilot bez pritužbi?</li>
     <li data-sr="Da li je domen prodavnice stariji od 6 meseci prema WHOIS pretraži?" data-en="Is the store's domain older than 6 months according to WHOIS search?">Da li je domen prodavnice stariji od 6 meseci prema WHOIS pretraži?</li>
     <li data-sr="Da li prodavnica ima proverljivu fizičku adresu i funkcionalan kontakt broj?" data-en="Does the store have a verifiable physical address and a working contact number?">Da li prodavnica ima proverljivu fizičku adresu i funkcionalan kontakt broj?</li>
-    <li data-sr="Da li je cena realalistična u poređenju s tržišnom cenom istog proizvoda?" data-en="Is the price realistic compared to the market price of the same product?">Da li je cena realistična u poređenju s tržišnom cenom istog proizvoda?</li>
+    <li data-sr="Da li je cena realistična u poređenju s tržišnom cenom istog proizvoda?" data-en="Is the price realistic compared to the market price of the same product?">Da li je cena realistična u poređenju s tržišnom cenom istog proizvoda?</li>
     <li data-sr="Da li prodavnica prihvata kreditnu karticu ili PayPal — a ne samo direktan transfer ili kripto?" data-en="Does the store accept credit card or PayPal — not only direct transfer or crypto?">Da li prodavnica prihvata kreditnu karticu ili PayPal — a ne samo direktan transfer ili kripto?</li>
     <li data-sr="Da li politika povrata jasno specifikuje rok, proceduru i adresu za povrat robe?" data-en="Does the return policy clearly specify the deadline, procedure, and return address?">Da li politika povrata jasno specifikuje rok, proceduru i adresu za povrat robe?</li>
     <li data-sr="Da li recenzije izgledaju autentično i uključuju i pozitivne i negativne komentare?" data-en="Do reviews look authentic and include both positive and negative comments?">Da li recenzije izgledaju autentično i uključuju i pozitivne i negativne komentare?</li>
@@ -155,9 +155,9 @@ window.SCAM_CONTENT["fake-webshop"] = {
 <section class="content-section">
   <h2 data-sr="Ako sumnja krene: redosled poteza" data-en="If suspicion arises: order of actions">Ako sumnja krene: redosled poteza</h2>
   <ul class="bullets">
-    <li data-sr="Pokrenite chargeback kod banke odmah — ne čekajte 'finalnu potvrdu„ prodavnice." data-en="Initiate a chargeback with the bank immediately — do not wait for the store“s 'final confirmation.'">Pokrenite chargeback kod banke odmah — ne čekajte „finalnu potvrdu" prodavnice“.</li>
+    <li data-sr="Pokrenite chargeback kod banke odmah — ne čekajte finalnu potvrdu prodavnice." data-en="Initiate a chargeback with the bank immediately — do not wait for the stores 'final confirmation.">Pokrenite chargeback kod banke odmah — ne čekajte finalnu potvrdu prodavnice.</li>
     <li data-sr="Fotografirajte primljenu robu s pakovanjem i pratećim dokumentima kao dokaz za chargeback." data-en="Photograph received goods with packaging and accompanying documents as evidence for the chargeback.">Fotografirajte primljenu robu s pakovanjem i pratećim dokumentima kao dokaz za chargeback.</li>
-    <li data-sr="Sačuvajte sve e-poruke, potvrde narudžbine i snimke ekrana sajta." data-en="Save all emails, order confirmations, and website screenshots.">Sačuvajte sve e-poruke, potvrde narudžbine i snimke ekrana sajta.</li>
+    <li data-sr="Sačuvajte sve e-poruke, potvrde porudžbine i snimke ekrana sajta." data-en="Save all emails, order confirmations, and website screenshots.">Sačuvajte sve e-poruke, potvrde porudžbine i snimke ekrana sajta.</li>
     <li data-sr="Prijavite sajt potrošačkoj zaštiti, hosting provajderu i ScamAdviser radi upozorenja." data-en="Report the site to consumer protection, the hosting provider, and ScamAdviser as a warning.">Prijavite sajt potrošačkoj zaštiti, hosting provajderu i ScamAdviser radi upozorenja.</li>
     <li data-sr="Prijavite slučaj policiji s dokumentacijom za formalni spis." data-en="Report the case to the police with documentation for a formal file.">Prijavite slučaj policiji s dokumentacijom za formalni spis.</li>
   </ul>
@@ -166,21 +166,13 @@ window.SCAM_CONTENT["fake-webshop"] = {
 <section class="content-section">
   <h2 data-sr="Ako pokušavaš da pomogneš nekome" data-en="If you are trying to help someone">Ako pokušavaš da pomogneš nekome</h2>
   <ul class="bullets">
-    <li data-sr="Pitaj: „Da li si proverio prodavnicu na ScamAdviser ili Trustpilot pre kupovine?“" data-en="Ask: 'Did you check the store on ScamAdviser or Trustpilot before purchasing?'">Pitaj: „Da li si proverio prodavnicu na ScamAdviser ili Trustpilot pre kupovine?“</li>
-    <li data-sr="Pitaj: „Kakvim metodom si platio — kreditnom karticom ili direktnim transferom?“" data-en="Ask: 'What payment method did you use — credit card or direct transfer?'">Pitaj: „Kakvim metodom si platio — kreditnom karticom ili direktnim transferom?“</li>
-    <li data-sr="Rečenice koje pomažu: „Cena koja je predobra gotovo uvek znači krivotvorinu ili prevaru“.“ „Ako si platio karticom, chargeback je opcija — pozovimo banku zajedno“.“" data-en="Sentences that help: 'A price that is too good almost always means a counterfeit or fraud.' 'If you paid by card, a chargeback is an option — let's call the bank together.'">Rečenice koje pomažu: „Cena koja je predobra gotovo uvek znači krivotvorinu ili prevaru“.“ „Ako si platio karticom, chargeback je opcija — pozovimo banku zajedno“.“</li>
+    <li data-sr="Pitaj: Da li si proverio prodavnicu na ScamAdviser ili Trustpilot pre kupovine?" data-en="Ask: Did you check the store on ScamAdviser or Trustpilot before purchasing?">Pitaj: Da li si proverio prodavnicu na ScamAdviser ili Trustpilot pre kupovine?</li>
+    <li data-sr="Pitaj: Kakvim metodom si platio — kreditnom karticom ili direktnim transferom?" data-en="Ask: What payment method did you use — credit card or direct transfer?">Pitaj: Kakvim metodom si platio — kreditnom karticom ili direktnim transferom?</li>
+    <li data-sr="Rečenice koje pomažu: Cena koja je predobra gotovo uvek znači krivotvorinu ili prevaru. Ako si platio karticom, chargeback je opcija — pozovimo banku zajedno." data-en="Sentences that help: A price that is too good almost always means a counterfeit or fraud.' 'If you paid by card, a chargeback is an option — let's call the bank together.">Rečenice koje pomažu: Cena koja je predobra gotovo uvek znači krivotvorinu ili prevaru. Ako si platio karticom, chargeback je opcija — pozovimo banku zajedno.</li>
     <li data-sr="Ne kritikuj osobu za kupovinu — lažne prodavnice su profesionalno dizajnirane da izgledaju legitimno." data-en="Do not criticize the person for the purchase — fake stores are professionally designed to look legitimate.">Ne kritikuj osobu za kupovinu — lažne prodavnice su profesionalno dizajnirane da izgledaju legitimno.</li>
   </ul>
 </section>
 
-<section class="content-section">
-  <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-  <ul class="bullets">
-    <li><a href="social-media-shop-scam.html" data-sr="Prevara s prodavnicom na društvenim mrežama — isti model bez sajta" data-en="Social media shop scam — same model without a website">Prevara s prodavnicom na društvenim mrežama — isti model bez sajta</a></li>
-    <li><a href="counterfeit-goods-scam.html" data-sr="Prevara s krivotvorenom robom — naručeno, stiglo, ali lažno" data-en="Counterfeit goods scam — ordered, arrived, but fake">Prevara s krivotvorenom robom — naručeno, stiglo, ali lažno</a></li>
-    <li><a href="marketplace-scam.html" data-sr="Prevara na tržištu — lažni prodavci na legitimnim platformama" data-en="Marketplace scam — fake sellers on legitimate platforms">Prevara na tržištu — lažni prodavci na legitimnim platformama</a></li>
-    <li><a href="phishing.html" data-sr="Fišing — lažni sajtovi koji prikupljaju platne podatke" data-en="Phishing — fake sites collecting payment data">Fišing — lažni sajtovi koji prikupljaju platne podatke</a></li>
-  </ul>
-</section>
+
 `
 };

@@ -1,11 +1,11 @@
-﻿window.SCAM_CONTENT = window.SCAM_CONTENT || {};
+window.SCAM_CONTENT = window.SCAM_CONTENT || {};
 
 window.SCAM_CONTENT["card-not-present-fraud"] = {
   raw_html: `
     <section class="card">
       <h2 data-sr="Uvod: kako radi CNP prevara" data-en="Introduction: how card-not-present fraud works">Uvod: kako radi CNP prevara</h2>
-      <p data-sr="Zloupotreba kartice bez fizičkog prisustva (CNP) je prevara u kojoj kriminalci koriste ukradene podatke kartice — broj, rok važnosti i CVV — za online kupovine ili telefonske transakcije gde fizička kartica nije potrebna. Kartica ostaje kod žrtve, ali su njeni podaci dostupni napadaču." data-en="Card-not-present (CNP) fraud is fraud in which criminals use stolen card data — number, expiry date, and CVV — for online purchases or phone transactions where the physical card is not required. The card remains with the victim, but its data is available to the attacker.">CNP prevara koristi ukradene podatke kartice za online kupovine bez fizičke kartice. Žrtva karticu ima ali podaci su kompromitovani.</p>
-      <p data-sr="CNP prevara je najčešća vrsta platne prevare jer ne zahteva fizički pristup kartici. Podaci se pribavljaju masovno kroz fišing kampanje, proboje podataka e-commerce sajtova, skimmere na bankomatima ili direktnom krađom na fizičkim terminalima. Jednom kupljeni na crnom tržištu, podaci se testiraju u malim iznosima pre veće kupovine." data-en="CNP fraud is the most common type of payment fraud because it requires no physical access to the card. Data is obtained in bulk through phishing campaigns, e-commerce site data breaches, ATM skimmers, or direct theft at physical terminals. Once purchased on the dark market, data is tested in small amounts before larger purchases.">CNP prevara ne zahteva fizički pristup kartici — podaci se kupuju na crnom tržištu i testiraju u malim iznosima.</p>
+      <p data-sr="CNP prevara koristi ukradene podatke kartice za online kupovine bez fizičke kartice. Žrtva karticu ima ali podaci su kompromitovani." data-en="Card-not-present (CNP) fraud is fraud in which criminals use stolen card data — number, expiry date, and CVV — for online purchases or phone transactions where the physical card is not required. The card remains with the victim, but its data is available to the attacker.">CNP prevara koristi ukradene podatke kartice za online kupovine bez fizičke kartice. Žrtva karticu ima ali podaci su kompromitovani.</p>
+      <p data-sr="CNP prevara ne zahteva fizički pristup kartici — podaci se kupuju na crnom tržištu i testiraju u malim iznosima." data-en="CNP fraud is the most common type of payment fraud because it requires no physical access to the card. Data is obtained in bulk through phishing campaigns, e-commerce site data breaches, ATM skimmers, or direct theft at physical terminals. Once purchased on the dark market, data is tested in small amounts before larger purchases.">CNP prevara ne zahteva fizički pristup kartici — podaci se kupuju na crnom tržištu i testiraju u malim iznosima.</p>
       <div class="callout" data-sr="<strong>Model:</strong> krađa podataka kartice → testna mikro-transakcija → veće online kupovine → žrtva prima reklamaciju → finansijski gubitak." data-en="<strong>Model:</strong> card data theft → test micro-transaction → larger online purchases → victim receives claims → financial loss."><strong>Model:</strong> krađa podataka kartice → testna mikro-transakcija → veće online kupovine → žrtva prima reklamaciju → finansijski gubitak.</div>
       <div class="callout" data-sr="<strong>Prag:</strong> broj kartice, datum isteka i CVV su dovoljni za online kupovinu — niko legalan ne treba sve tri vrednosti odjednom." data-en="<strong>Threshold:</strong> card number, expiry date, and CVV are sufficient for online purchases — no legitimate party needs all three at once."><strong>Prag:</strong> broj kartice, datum isteka i CVV su dovoljni za online kupovinu — niko legalan ne treba sve tri vrednosti odjednom.</div>
     </section>
@@ -35,11 +35,11 @@ window.SCAM_CONTENT["card-not-present-fraud"] = {
     </section>
 
     <section class="card">
-      <h2 data-sr="Hronološki tok (faze + evolucije)." data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
+      <h2 data-sr="Hronološki tok (faze + evolucije)" data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
 
       <article class="phase">
         <h3 class="phase-title" data-sr="Faza 1 — Krađa podataka kartice" data-en="Phase 1 — Card data theft">Faza 1 — Krađa podataka kartice</h3>
-        <p data-sr="Podaci kartice se pribavljaju phishingom, curenjem podataka ili skimmerom. Žrtva ne zna da su podaci kompromitovani jer kartica i dalje fizički radi." data-en="Card data is obtained through phishing, data breach, or a skimmer. The victim does not know the data is compromised because the card still physically works.">Podaci kartice su kompromitovani ali kartica fizički funkcioniše — žrtva ne zna.</p>
+        <p data-sr="Podaci kartice su kompromitovani ali kartica fizički funkcioniše — žrtva ne zna." data-en="Card data is obtained through phishing, data breach, or a skimmer. The victim does not know the data is compromised because the card still physically works.">Podaci kartice su kompromitovani ali kartica fizički funkcioniše — žrtva ne zna.</p>
         <ul class="bullets">
           <li data-sr="signal: mala neočekivana transakcija na kartici bez poznatog razloga može biti test CNP aktivnosti." data-en="signal: a small unexpected card transaction without a known reason may be a CNP activity test.">signal: mala neočekivana transakcija na kartici bez poznatog razloga može biti test CNP aktivnosti.</li>
           <li data-sr="signal: obaveštenje o odbijenom pokušaju transakcije za iznos koji vi niste initirali." data-en="signal: notification of a declined transaction attempt for an amount you did not initiate.">signal: obaveštenje o odbijenom pokušaju transakcije za iznos koji vi niste initirali.</li>
@@ -49,7 +49,7 @@ window.SCAM_CONTENT["card-not-present-fraud"] = {
 
       <article class="phase warn">
         <h3 class="phase-title" data-sr="Faza 2 — Serija kupovina i iscrpljivanje" data-en="Phase 2 — Purchase series and card draining">Faza 2 — Serija kupovina i iscrpljivanje</h3>
-        <p data-sr="Napadač vrši seriju online kupovina — digitalna dobra, pretplate, transferi — pre nego banka blokira. Brzina je ključna: napadač zna da ima manje od 24–48 sati pre nego žrtva primeti na izvodu." data-en="The attacker makes a series of online purchases — digital goods, subscriptions, transfers — before the bank blocks the card. Speed is critical: the attacker knows they have less than 24–48 hours before the victim notices on the statement.">Serija kupovina pre nego žrtva primeti na izvodu — digitalna dobra, pretplate, transferi.</p>
+        <p data-sr="Serija kupovina pre nego žrtva primeti na izvodu — digitalna dobra, pretplate, transferi." data-en="The attacker makes a series of online purchases — digital goods, subscriptions, transfers — before the bank blocks the card. Speed is critical: the attacker knows they have less than 24–48 hours before the victim notices on the statement.">Serija kupovina pre nego žrtva primeti na izvodu — digitalna dobra, pretplate, transferi.</p>
         <div class="branch">
           <p><strong data-sr="Grananja u ovoj fazi" data-en="Branching at this phase">Grananja u ovoj fazi</strong></p>
           <ul class="bullets">
@@ -68,7 +68,7 @@ window.SCAM_CONTENT["card-not-present-fraud"] = {
         <li data-sr="transakcija na sajtu koji vi niste nikad koristili ili niste koristili u navedenom periodu." data-en="transaction on a site you have never used or not used in the stated period.">transakcija na sajtu koji vi niste nikad koristili ili niste koristili u navedenom periodu.</li>
         <li data-sr="obaveštenje o odbijenom pokušaju koji vi niste inicirali." data-en="notification of a declined attempt you did not initiate.">obaveštenje o odbijenom pokušaju koji vi niste inicirali.</li>
         <li data-sr="nestanak dijela sredstava bez obaveštenja u sattima kada niste pravili kupovine." data-en="disappearance of funds without notification during hours when you were not making purchases.">nestanak dijela sredstava bez obaveštenja u sattima kada niste pravili kupovine.</li>
-        <li data-sr="phishing stranica je tražila sve podatke kartice za 'verifikaciju„ ili „nagradu„." data-en="a phishing page requested all card details for “verification“ or a “prize'.">phishing stranica je tražila sve podatke kartice za 'verifikaciju' ili 'nagradu'.</li>
+        <li data-sr="phishing stranica je tražila sve podatke kartice za 'verifikaciju' ili 'nagradu'." data-en="a phishing page requested all card details for verification or a prize'.">phishing stranica je tražila sve podatke kartice za 'verifikaciju' ili 'nagradu'.</li>
       </ul>
     </section>
 
@@ -119,16 +119,6 @@ window.SCAM_CONTENT["card-not-present-fraud"] = {
       </div>
     </section>
 
-    <section class="card sources" id="sources">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <ul class="bullets">
-        <li><a href="chargeback-fraud.html" data-sr="Lažni chargeback (zloupotreba povrata plaćanja)" data-en="Chargeback fraud (friendly fraud)">Lažni chargeback (zloupotreba povrata plaćanja)</a></li>
-        <li><a href="email-account-compromise.html" data-sr="Kompromitovanje imejl naloga" data-en="Email account compromise">Kompromitovanje imejl naloga</a></li>
-        <li><a href="phishing.html" data-sr="Fišing" data-en="Fišing">Fišing</a></li>
-        <li><a href="identity-theft.html" data-sr="Krađa identiteta" data-en="Identity theft">Krađa identiteta</a></li>
-        <li><a href="courier-fraud.html" data-sr="Kurirska prevara" data-en="Courier fraud">Kurirska prevara</a></li>
-        <li><a href="account-takeover.html" data-sr="Preuzimanje naloga" data-en="Account takeover">Preuzimanje naloga</a></li>
-      </ul>
-    </section>
+    
   `
 };

@@ -3,10 +3,10 @@ window.SCAM_CONTENT = window.SCAM_CONTENT || {};
 window.SCAM_CONTENT["deposit-scam"] = {
   raw_html: `
     <section class="card">
-      <h2 data-sr="Uvod: kako radi prevara sa depozitom" data-en="Introduction: how the deposit scam works">Uvod: kako radi Prevara sa depozitom</h2>
+      <h2 data-sr="Uvod: kako radi Prevara sa depozitom" data-en="Introduction: how the deposit scam works">Uvod: kako radi Prevara sa depozitom</h2>
       <p data-sr="Lažni oglas za iznajmljivanje stana ili kuće po izuzetno povoljnoj ceni. Napadač se javlja kao vlasnik ili agent, kreira hitnost, traži depozit za rezervaciju. Nakon uplate — nestaje ili traži novi iznos za ključeve." data-en="A fake listing for renting an apartment or house at an exceptionally attractive price. The attacker appears as the owner or agent, creates urgency, requests a deposit to reserve. After payment — disappears or requests a new amount for the keys.">Lažni oglas za iznajmljivanje stana ili kuće po izuzetno povoljnoj ceni. Napadač se javlja kao vlasnik ili agent, kreira hitnost, traži depozit za rezervaciju. Nakon uplate — nestaje ili traži novi iznos za ključeve.</p>
-      <div class="callout" data-sr="&lt;strong&gt;Model:&lt;/strong&gt; Lažni oglas → lični kontakt → urgentnost → uplata depozita → nestanak." data-en="&lt;strong&gt;Model:&lt;/strong&gt; Fake listing → personal contact → urgency → deposit payment → disappearance."><strong>Model:</strong> Lažni oglas → lični kontakt → urgentnost → uplata depozita → nestanak.</div>
-      <div class="callout" data-sr="&lt;strong&gt;Prag:&lt;/strong&gt; Uplata depozita za nekretninu koja ne postoji ili nije dostupna za iznajmljivanje." data-en="&lt;strong&gt;Threshold:&lt;/strong&gt; Payment of a deposit for a property that does not exist or is not available for rent."><strong>Prag:</strong> Uplata depozita za nekretninu koja ne postoji ili nije dostupna za iznajmljivanje.</div>
+      <div class="callout" data-sr="<strong>Model:</strong> Lažni oglas → lični kontakt → urgentnost → uplata depozita → nestanak." data-en="<strong>Model:</strong> Fake listing → personal contact → urgency → deposit payment → disappearance."><strong>Model:</strong> Lažni oglas → lični kontakt → urgentnost → uplata depozita → nestanak.</div>
+      <div class="callout" data-sr="<strong>Prag:</strong> Uplata depozita za nekretninu koja ne postoji ili nije dostupna za iznajmljivanje." data-en="<strong>Threshold:</strong> Payment of a deposit for a property that does not exist or is not available for rent."><strong>Prag:</strong> Uplata depozita za nekretninu koja ne postoji ili nije dostupna za iznajmljivanje.</div>
     </section>
 
     <section class="card">
@@ -115,15 +115,6 @@ window.SCAM_CONTENT["deposit-scam"] = {
       </ul>
     </section>
 
-    <section class="card">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <ul class="bullets">
-        <li><a href="real-estate-investment-scam.html" data-sr="Prevara sa investiranjem u nekretnine" data-en="Real estate investment scam">Prevara sa investiranjem u nekretnine</a></li>
-        <li><a href="mortgage-scam.html" data-sr="Hipotekarna prevara" data-en="Mortgage scam">Hipotekarna prevara</a></li>
-        <li><a href="advance-fee-fraud.html" data-sr="Prevara avansnim plaćanjem" data-en="Advance fee fraud">Prevara avansnim plaćanjem</a></li>
-        <li><a href="escrow-scam.html" data-sr="Escrow prevara" data-en="Escrow scam">Escrow prevara</a></li>
-        <li><a href="real-estate-purchase-scam.html" data-sr="Prevara pri kupovini nekretnine" data-en="Real estate purchase scam">Prevara pri kupovini nekretnine</a></li>
-      </ul>
-    </section>
+    
   `
 };

@@ -126,13 +126,13 @@ window.SCAM_CONTENT["invoice-fraud"] = {
           Faza 3 — Isporuka fakture u pravi momenat
         </h3>
         <p
-          data-sr="Faktura stiže oko datuma kada je redovna faktura inače očekivana. Imejl je profesionalan i ne izaziva sumnju. Iznos je uverljiv — odgovara ranijim fakturama ili je blago viši sa napomenom o „usklađivanju cena“ ili „novim uslugama."
+          data-sr="Faktura stiže oko datuma kada je redovna faktura inače očekivana. Imejl je profesionalan i ne izaziva sumnju. Iznos je uverljiv — odgovara ranijim fakturama ili je blago viši sa napomenom o usklađivanju cena ili novim uslugama."
           data-en="The invoice arrives around the date when the regular invoice is typically expected. The email is professional and raises no suspicion. The amount is plausible — matches earlier invoices or is slightly higher with a note about price adjustment or new services."
         >Faktura stiže oko datuma kada je redovna faktura inače očekivana. Imejl je profesionalan i ne izaziva sumnju. Iznos je uverljiv — odgovara ranijim fakturama ili je blago viši sa napomenom o usklađivanju cena ili novim uslugama.</p>
         <ul class="bullets">
-          <li data-sr="fraze: „mesečna faktura za [usluga]."." data-en="phrases: &ldquo;monthly invoice for [service]&rdquo;.">fraze: „mesečna faktura za [usluga]"“.</li>
-          <li data-sr="fraze: „u prilogu faktura broj [broj] za period [mesec]."." data-en="phrases: &ldquo;attached invoice number [number] for period [month]&rdquo;.">fraze: „u prilogu faktura broj [broj] za period [mesec]"“.</li>
-          <li data-sr="fraze: „napomena — promenili smo banku, molimo koristiti novi IBAN."." data-en="phrases: &ldquo;note — we changed banks, please use the new IBAN&rdquo;.">fraze: „napomena — promenili smo banku, molimo koristiti novi IBAN"“.</li>
+          <li data-sr="fraze: mesečna faktura za [usluga]." data-en="phrases: &ldquo;monthly invoice for [service]&rdquo;.">fraze: mesečna faktura za [usluga].</li>
+          <li data-sr="fraze: u prilogu faktura broj [broj] za period [mesec]." data-en="phrases: &ldquo;attached invoice number [number] for period [month]&rdquo;.">fraze: u prilogu faktura broj [broj] za period [mesec].</li>
+          <li data-sr="fraze: napomena — promenili smo banku, molimo koristiti novi IBAN." data-en="phrases: &ldquo;note — we changed banks, please use the new IBAN&rdquo;.">fraze: napomena — promenili smo banku, molimo koristiti novi IBAN.</li>
         </ul>
 
         <div class="branch">
@@ -188,9 +188,9 @@ window.SCAM_CONTENT["invoice-fraud"] = {
           Faza 6 — Recovery talaš
         </h3>
         <p
-          data-sr="Posle otkrivanja incidenta ponekad stiže kontakt sa ponudom povraćaja sredstava uz uplatu unapred — „forenzička firma", „tracing agent", „chargeback specialist"“. Tretirati kao drugi nezavisni napad."
+          data-sr="Posle otkrivanja incidenta ponekad stiže kontakt sa ponudom povraćaja sredstava uz uplatu unapred — forenzička firma, tracing agent, chargeback specialist. Tretirati kao drugi nezavisni napad."
           data-en="After the incident is discovered, a contact sometimes arrives offering to recover funds for an upfront fee — &ldquo;forensic firm&rdquo;, &ldquo;tracing agent&rdquo;, &ldquo;chargeback specialist&rdquo;. Treat as a second independent attack."
-        >Posle otkrivanja incidenta ponekad stiže kontakt sa ponudom povraćaja sredstava uz uplatu unapred — „forenzička firma", „tracing agent", „chargeback specialist"“. Tretirati kao drugi nezavisni napad“.</p>
+        >Posle otkrivanja incidenta ponekad stiže kontakt sa ponudom povraćaja sredstava uz uplatu unapred — forenzička firma, tracing agent, chargeback specialist. Tretirati kao drugi nezavisni napad.</p>
 
         <div class="branch">
           <p><strong data-sr="Grananja u ovoj fazi" data-en="Branching at this phase">Grananja u ovoj fazi</strong></p>
@@ -214,7 +214,7 @@ window.SCAM_CONTENT["invoice-fraud"] = {
         <li data-sr="imejl adresa pošiljaoca vizualno slična ali pažljivim pregledom drugačija." data-en="sender's email address visually similar but different on closer inspection.">imejl adresa pošiljaoca vizualno slična ali pažljivim pregledom drugačija.</li>
         <li data-sr="faktura stiže iznenada bez prethodne porudžbe ili prethodne komunikacije." data-en="invoice arrives suddenly without a prior order or communication.">faktura stiže iznenada bez prethodne porudžbe ili prethodne komunikacije.</li>
         <li data-sr="neobičan rok plaćanja — kraći od uobičajenog." data-en="unusual payment deadline — shorter than usual.">neobičan rok plaćanja — kraći od uobičajenog.</li>
-        <li data-sr="iznos je viši od uobičajenog uz kratku napomenu o „korekciji cene." data-en="amount is higher than usual with a brief note about price correction.">iznos je viši od uobičajenog uz kratku napomenu o korekciji cene.</li>
+        <li data-sr="iznos je viši od uobičajenog uz kratku napomenu o korekciji cene." data-en="amount is higher than usual with a brief note about price correction.">iznos je viši od uobičajenog uz kratku napomenu o korekciji cene.</li>
         <li data-sr="faktura dolazi sa domena koji nije uobičajen za ovog dobavljača." data-en="invoice comes from a domain that isn't usual for this supplier.">faktura dolazi sa domena koji nije uobičajen za ovog dobavljača.</li>
         <li data-sr="faktura sadrži napomenu o promeni banke — bez prethodnog obaveštenja." data-en="invoice contains a note about bank change — without prior notification.">faktura sadrži napomenu o promeni banke — bez prethodnog obaveštenja.</li>
         <li data-sr="kontakt imejl za reklamacije ili potvrde u fakturi je drugačiji od uobičajenog." data-en="complaints or confirmation contact email in the invoice differs from the usual one.">kontakt imejl za reklamacije ili potvrde u fakturi je drugačiji od uobičajenog.</li>
@@ -328,17 +328,6 @@ window.SCAM_CONTENT["invoice-fraud"] = {
     </section>
 
     <!-- 9) POVEZANE PREVARE -->
-    <section class="card">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <div class="branch">
-        <ul class="bullets">
-          <li><a href="business-email-compromise.html" data-sr="Kompromitovanje poslovnog imejla (BEC)" data-en="Business email compromise (BEC)">Kompromitovanje poslovnog imejla (BEC)</a></li>
-          <li><a href="vendor-email-compromise.html" data-sr="Kompromitovanje imejla dobavljača" data-en="Vendor email compromise">Kompromitovanje imejla dobavljača</a></li>
-          <li><a href="mandate-fraud.html" data-sr="Prevara sa nalozima za plaćanje" data-en="Mandate fraud">Prevara sa nalozima za plaćanje</a></li>
-          <li><a href="ceo-fraud.html" data-sr="CEO prevara" data-en="CEO fraud">CEO prevara</a></li>
-          <li><a href="phishing.html" data-sr="Fišing" data-en="Phishing">Fišing</a></li>
-        </ul>
-      </div>
-    </section>
+    
   `
 };

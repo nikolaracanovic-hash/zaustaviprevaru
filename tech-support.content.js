@@ -9,19 +9,19 @@ window.SCAM_CONTENT["tech-support-scam"] = {
       </h2>
 
       <p
-        data-sr="Vidiš pop-up na ekranu: „KRITIČNO UPOZORENJE: Računar zaražen virusima!" ili te zove neko ko tvrdi da je iz Microsoft podrške“. Kažu da ti računar ima problem. Da bi „pomogli", traže da im daš daljinski pristup računaru“. Instaliraš program koji im omogućava da vide tvoj ekran i kontrolišu miša. Oni te ubede da imaš ozbiljan problem i traže novac da ga „reše"."
+        data-sr="Vidiš pop-up na ekranu: KRITIČNO UPOZORENJE: Računar zaražen virusima! ili te zove neko ko tvrdi da je iz Microsoft podrške. Kažu da ti računar ima problem. Da bi pomogli, traže da im daš daljinski pristup računaru. Instaliraš program koji im omogućava da vide tvoj ekran i kontrolišu miša. Oni te ubede da imaš ozbiljan problem i traže novac da ga reše."
         data-en="You see pop-up on screen: 'CRITICAL WARNING: Computer infected with viruses!' or someone calls claiming to be from Microsoft support. They say your computer has problem. To 'help', they ask for remote access to your computer. You install program allowing them to see your screen and control mouse. They convince you have serious problem and ask for money to 'fix' it."
-      >Vidiš pop-up na ekranu: „KRITIČNO UPOZORENJE: Računar zaražen virusima!" ili te zove neko ko tvrdi da je iz Microsoft podrške“. Kažu da ti računar ima problem. Da bi „pomogli", traže da im daš daljinski pristup računaru“. Instaliraš program koji im omogućava da vide tvoj ekran i kontrolišu miša. Oni te ubede da imaš ozbiljan problem i traže novac da ga „reše"“.</p>
+      >Vidiš pop-up na ekranu: KRITIČNO UPOZORENJE: Računar zaražen virusima! ili te zove neko ko tvrdi da je iz Microsoft podrške. Kažu da ti računar ima problem. Da bi pomogli, traže da im daš daljinski pristup računaru. Instaliraš program koji im omogućava da vide tvoj ekran i kontrolišu miša. Oni te ubede da imaš ozbiljan problem i traže novac da ga reše.</p>
 
       <p
-        data-sr="Prevara funkcioniše zato što ljudi veruju autoritetu. Ako neko kaže „Microsoft" ili „Apple", pretpostavljamo da znaju o čemu govore“. Daljinski pristup izgleda kao legitimna podrška — tehničar mora da vidi problem. Ali kada im daš kontrolu nad računarom, oni mogu da ukradu lozinke, bankarske podatke, fajlove, ili da instaliraju zlonamerni softver."
+        data-sr="Prevara funkcioniše zato što ljudi veruju autoritetu. Ako neko kaže Microsoft ili Apple, pretpostavljamo da znaju o čemu govore. Daljinski pristup izgleda kao legitimna podrška — tehničar mora da vidi problem. Ali kada im daš kontrolu nad računarom, oni mogu da ukradu lozinke, bankarske podatke, fajlove, ili da instaliraju zlonamerni softver."
         data-en="Scam works because people trust authority. If someone says 'Microsoft' or 'Apple', we assume they know what they're talking about. Remote access seems like legitimate support — technician must see problem. But when you give them control over computer, they can steal passwords, banking data, files, or install malicious software."
-      >Prevara funkcioniše zato što ljudi veruju autoritetu. Ako neko kaže „Microsoft" ili „Apple", pretpostavljamo da znaju o čemu govore“. Daljinski pristup izgleda kao legitimna podrška — tehničar mora da vidi problem. Ali kada im daš kontrolu nad računarom, oni mogu da ukradu lozinke, bankarske podatke, fajlove, ili da instaliraju zlonamerni softver.</p>
+      >Prevara funkcioniše zato što ljudi veruju autoritetu. Ako neko kaže Microsoft ili Apple, pretpostavljamo da znaju o čemu govore. Daljinski pristup izgleda kao legitimna podrška — tehničar mora da vidi problem. Ali kada im daš kontrolu nad računarom, oni mogu da ukradu lozinke, bankarske podatke, fajlove, ili da instaliraju zlonamerni softver.</p>
 
       <p
-        data-sr="Šteta se realizuje kroz tri kanala: (1) naplata za lažnu uslugu (čišćenje virusa, licenca, godišnja podrška), (2) krađa podataka dok imaju daljinski pristup (lozinke, bankarski podaci, fajlovi), (3) instalacija malvera ili skrivene rupe za kasniji pristup. Često se kombinuju: naplate te za „popravku" dok istovremeno kradu tvoje podatke."
+        data-sr="Šteta se realizuje kroz tri kanala: (1) naplata za lažnu uslugu (čišćenje virusa, licenca, godišnja podrška), (2) krađa podataka dok imaju daljinski pristup (lozinke, bankarski podaci, fajlovi), (3) instalacija malvera ili skrivene rupe za kasniji pristup. Često se kombinuju: naplate te za popravku dok istovremeno kradu tvoje podatke."
         data-en="Damage occurs through three channels: (1) charges for fake service (virus cleanup, license, annual support), (2) data theft while having remote access (passwords, banking data, files), (3) malware or backdoor installation for later access. Often combined: they charge you for 'repair' while simultaneously stealing your data."
-      >Šteta se realizuje kroz tri kanala: (1) naplata za lažnu uslugu (čišćenje virusa, licenca, godišnja podrška), (2) krađa podataka dok imaju daljinski pristup (lozinke, bankarski podaci, fajlovi), (3) instalacija malvera ili skrivene rupe za kasniji pristup. Često se kombinuju: naplate te za „popravku" dok istovremeno kradu tvoje podatke“.</p>
+      >Šteta se realizuje kroz tri kanala: (1) naplata za lažnu uslugu (čišćenje virusa, licenca, godišnja podrška), (2) krađa podataka dok imaju daljinski pristup (lozinke, bankarski podaci, fajlovi), (3) instalacija malvera ili skrivene rupe za kasniji pristup. Često se kombinuju: naplate te za popravku dok istovremeno kradu tvoje podatke.</p>
 
       <div class="callout"
         data-sr="<strong>Ključna činjenica:</strong> Microsoft, Apple, i Google nikad ne zovu ljude da im kažu da im je računar zaražen. Nikad. Ako te neko zove i kaže da je iz njihove podrške — to je prevara."
@@ -37,10 +37,10 @@ window.SCAM_CONTENT["tech-support-scam"] = {
 
       <div class="grid-2">
         <div class="phase">
-          <div class="label" data-sr="Faza 1: Prvi kontakt (pop-up ili poziv)." data-en="Phase 1: First contact (pop-up or call).">Faza 1: Prvi kontakt (pop-up ili poziv)</div>
+          <div class="label" data-sr="Faza 1: Prvi kontakt (pop-up ili poziv)" data-en="Phase 1: First contact (pop-up or call).">Faza 1: Prvi kontakt (pop-up ili poziv)</div>
           <ul class="bullets">
-            <li data-sr="<strong>Verzija A:</strong> Pop-up na ekranu dok surfuješ — „KRITIČNO: 47 virusa pronađeno! Zovite: 0800-XXX-XXX." data-en="<strong>Version A:</strong> Pop-up on screen while browsing — 'CRITICAL: 47 viruses found! Call: 0800-XXX-XXX'"><strong>Verzija A:</strong> Pop-up na ekranu dok surfuješ — „KRITIČNO: 47 virusa pronađeno! Zovite: 0800-XXX-XXX"“.</li>
-            <li data-sr="<strong>Verzija B:</strong> Neko te zove i kaže: „Zdravo, zovem iz Microsoft podrške“. Vidimo da vaš računar šalje greške."" data-en="<strong>Version B:</strong> Someone calls you saying: 'Hello, calling from Microsoft support. We see your computer sending errors.'"><strong>Verzija B:</strong> Neko te zove i kaže: „Zdravo, zovem iz Microsoft podrške“. Vidimo da vaš računar šalje greške."</li>
+            <li data-sr="<strong>Verzija A:</strong> Pop-up na ekranu dok surfuješ — KRITIČNO: 47 virusa pronađeno! Zovite: 0800-XXX-XXX." data-en="<strong>Version A:</strong> Pop-up on screen while browsing — CRITICAL: 47 viruses found! Call: 0800-XXX-XXX."><strong>Verzija A:</strong> Pop-up na ekranu dok surfuješ — KRITIČNO: 47 virusa pronađeno! Zovite: 0800-XXX-XXX.</li>
+            <li data-sr="<strong>Verzija B:</strong> Neko te zove i kaže: Zdravo, zovem iz Microsoft podrške. Vidimo da vaš računar šalje greške." data-en="<strong>Version B:</strong> Someone calls you saying: Hello, calling from Microsoft support. We see your computer sending errors."><strong>Verzija B:</strong> Neko te zove i kaže: Zdravo, zovem iz Microsoft podrške. Vidimo da vaš računar šalje greške.</li>
             <li data-sr="pop-up često blokira ekran i pušta zvučni alarm da izgleda hitno." data-en="pop-up often locks screen and plays audio alarm to seem urgent.">pop-up često blokira ekran i pušta zvučni alarm da izgleda hitno.</li>
           </ul>
         </div>
@@ -48,9 +48,9 @@ window.SCAM_CONTENT["tech-support-scam"] = {
         <div class="phase">
           <div class="label" data-sr="Faza 2: Scenario problema" data-en="Phase 2: Problem scenario">Faza 2: Scenario problema</div>
           <ul class="bullets">
-            <li data-sr="opisuju „ozbiljan problem": virusi, hakeri, curenje podataka" data-en="describe 'serious problem': viruses, hackers, data leak.">opisuju „ozbiljan problem": virusi, hakeri, curenje podataka“.</li>
+            <li data-sr="opisuju ozbiljan problem: virusi, hakeri, curenje podataka." data-en="describe 'serious problem': viruses, hackers, data leak.">opisuju ozbiljan problem: virusi, hakeri, curenje podataka.</li>
             <li data-sr="kažu da mogu da pomognu ali moraju da vide računar." data-en="say they can help but must see computer.">kažu da mogu da pomognu ali moraju da vide računar.</li>
-            <li data-sr="„problem je ozbiljan, ali možemo ga rešiti ako odmah reagujete." data-en="'problem is serious but we can fix it if you act now'">„problem je ozbiljan, ali možemo ga rešiti ako odmah reagujete"“.</li>
+            <li data-sr="problem je ozbiljan, ali možemo ga rešiti ako odmah reagujete." data-en="the problem is serious, but we can fix it if you act now.">problem je ozbiljan, ali možemo ga rešiti ako odmah reagujete.</li>
           </ul>
         </div>
 
@@ -58,7 +58,7 @@ window.SCAM_CONTENT["tech-support-scam"] = {
           <div class="label" data-sr="Faza 3: Daljinski pristup" data-en="Phase 3: Remote access">Faza 3: Daljinski pristup</div>
           <ul class="bullets">
             <li data-sr="traže da instaliraš program: AnyDesk, TeamViewer, LogMeIn, SupRemo." data-en="ask to install program: AnyDesk, TeamViewer, LogMeIn, SupRemo.">traže da instaliraš program: AnyDesk, TeamViewer, LogMeIn, SupRemo.</li>
-            <li data-sr="kažu: „Samo da vidim šta se dešava, neću ništa dirati." data-en="say: 'Just to see what's happening, won't touch anything'">kažu: „Samo da vidim šta se dešava, neću ništa dirati"“.</li>
+            <li data-sr="kažu: Samo da vidim šta se dešava, neću ništa dirati." data-en="say: Just to see what's happening, we will not touch anything.">kažu: Samo da vidim šta se dešava, neću ništa dirati.</li>
             <li data-sr="daješ im ID broj iz programa — oni sad kontrolišu tvoj računar." data-en="you give them ID number from program — they now control your computer.">daješ im ID broj iz programa — oni sad kontrolišu tvoj računar.</li>
           </ul>
         </div>
@@ -67,8 +67,8 @@ window.SCAM_CONTENT["tech-support-scam"] = {
           <div class="label" data-sr="Faza 4: Lažna dijagnoza" data-en="Phase 4: Fake diagnosis">Faza 4: Lažna dijagnoza</div>
           <ul class="bullets">
             <li data-sr="otvaraju Command Prompt (crni prozor sa tekstom) — izgleda tehnički i strašno." data-en="open Command Prompt (black window with text) — looks technical and scary.">otvaraju Command Prompt (crni prozor sa tekstom) — izgleda tehnički i strašno.</li>
-            <li data-sr="pokazuju normalne sistemske informacije kao „dokaz" problema" data-en="show normal system information as 'proof' of problem.">pokazuju normalne sistemske informacije kao „dokaz" problema“.</li>
-            <li data-sr="„Vidite? Ovde piše ERROR“. Vaš računar je ozbiljno kompromitovan."" data-en="'See? It says ERROR here. Your computer is seriously compromised.'">„Vidite? Ovde piše ERROR“. Vaš računar je ozbiljno kompromitovan."</li>
+            <li data-sr="pokazuju normalne sistemske informacije kao dokaz problema." data-en="show normal system information as 'proof' of problem.">pokazuju normalne sistemske informacije kao dokaz problema.</li>
+            <li data-sr="Vidite? Ovde piše ERROR. Vaš računar je ozbiljno kompromitovan." data-en="See? It says ERROR here. Your computer is seriously compromised.">Vidite? Ovde piše ERROR. Vaš računar je ozbiljno kompromitovan.</li>
             <li data-sr="stvarnost: pokazuju normalne Windows logove koji izgledaju strašno za običnu osobu." data-en="reality: showing normal Windows logs that look scary to regular person.">stvarnost: pokazuju normalne Windows logove koji izgledaju strašno za običnu osobu.</li>
           </ul>
         </div>
@@ -76,8 +76,8 @@ window.SCAM_CONTENT["tech-support-scam"] = {
         <div class="phase bad">
           <div class="label" data-sr="Faza 5: Naplata i krađa" data-en="Phase 5: Charges and theft">Faza 5: Naplata i krađa</div>
           <ul class="bullets">
-            <li data-sr="kažu da mogu da „poprave" ali košta: $199, $499, ili više" data-en="say they can 'fix' but it costs: $199, $499, or more.">kažu da mogu da „poprave" ali košta: $199, $499, ili više“.</li>
-            <li data-sr="traže broj kreditne kartice „za plaćanje usluge." data-en="ask for credit card number 'for service payment'">traže broj kreditne kartice „za plaćanje usluge"“.</li>
+            <li data-sr="kažu da mogu da poprave ali košta: $199, $499, ili više." data-en="say they can 'fix' but it costs: $199, $499, or more.">kažu da mogu da poprave ali košta: $199, $499, ili više.</li>
+            <li data-sr="traže broj kreditne kartice za plaćanje usluge." data-en="ask for a credit card number for service payment.">traže broj kreditne kartice za plaćanje usluge.</li>
             <li data-sr="dok si na telefonu sa njima, oni u pozadini pregledaju fajlove, instaliraju malver i pristupaju bankovnim podacima." data-en="while you're on the phone with them, they browse files, install malware, and access banking data in the background.">dok si na telefonu sa njima, oni u pozadini pregledaju fajlove, instaliraju malver i pristupaju bankovnim podacima.</li>
           </ul>
         </div>
@@ -94,33 +94,33 @@ window.SCAM_CONTENT["tech-support-scam"] = {
         <div class="phase warn">
           <div class="label" data-sr="Primer 1: Penzioner u Beogradu" data-en="Example 1: Retiree in Belgrade">Primer 1: Penzioner u Beogradu</div>
           <p
-            data-sr="Čovek od 68 godina surfuje internet kada vidi pop-up: „Microsoft Security Alert: Računar zaražen! Zovite odmah!" Zove broj“. Osoba na telefonu govori perfektan srpski, zvuči profesionalno. Kaže: „Vidim da imate ozbiljan virus, mogu da pomognem." Traži da instalira AnyDesk“. Čovek to uradi. „Tehničar" pokazuje Command Prompt — crni ekran sa tekstom“. Kaže: „Vidite greške? Vaš računar šalje podatke hakerima." Čovek je uplašen“. „Tehničar" nudi „čišćenje" za 15,000 dinara“. Čovek daje broj kartice“. Posle tri dana otkriva: naplaćeno 45,000 dinara + neko je pokušao da pristupi njegovom bankarskom nalogu."
+            data-sr="Čovek od 68 godina surfuje internet kada vidi pop-up: Microsoft Security Alert: Računar zaražen! Zovite odmah! Zove broj. Osoba na telefonu govori perfektan srpski, zvuči profesionalno. Kaže: Vidim da imate ozbiljan virus, mogu da pomognem. Traži da instalira AnyDesk. Čovek to uradi. Tehničar pokazuje Command Prompt — crni ekran sa tekstom. Kaže: Vidite greške? Vaš računar šalje podatke hakerima. Čovek je uplašen. Tehničar nudi čišćenje za 15,000 dinara. Čovek daje broj kartice. Posle tri dana otkriva: naplaćeno 45,000 dinara + neko je pokušao da pristupi njegovom bankarskom nalogu."
             data-en="68-year-old man browses internet when sees pop-up: 'Microsoft Security Alert: Computer infected! Call now!' Calls number. Person on phone speaks perfect Serbian, sounds professional. Says: 'I see you have serious virus, can help.' Asks to install AnyDesk. Man does it. 'Technician' shows Command Prompt — black screen with text. Says: 'See errors? Your computer sending data to hackers.' Man is scared. 'Technician' offers 'cleanup' for 15,000 dinars. Man gives card number. After three days discovers: charged 45,000 dinars + someone tried to access his bank account."
-          >Čovek od 68 godina surfuje internet kada vidi pop-up: „Microsoft Security Alert: Računar zaražen! Zovite odmah!" Zove broj“. Osoba na telefonu govori perfektan srpski, zvuči profesionalno. Kaže: „Vidim da imate ozbiljan virus, mogu da pomognem." Traži da instalira AnyDesk“. Čovek to uradi. „Tehničar" pokazuje Command Prompt — crni ekran sa tekstom“. Kaže: „Vidite greške? Vaš računar šalje podatke hakerima." Čovek je uplašen“. „Tehničar" nudi „čišćenje" za 15,000 dinara“. Čovek daje broj kartice“. Posle tri dana otkriva: naplaćeno 45,000 dinara + neko je pokušao da pristupi njegovom bankarskom nalogu.</p>
+          >Čovek od 68 godina surfuje internet kada vidi pop-up: Microsoft Security Alert: Računar zaražen! Zovite odmah! Zove broj. Osoba na telefonu govori perfektan srpski, zvuči profesionalno. Kaže: Vidim da imate ozbiljan virus, mogu da pomognem. Traži da instalira AnyDesk. Čovek to uradi. Tehničar pokazuje Command Prompt — crni ekran sa tekstom. Kaže: Vidite greške? Vaš računar šalje podatke hakerima. Čovek je uplašen. Tehničar nudi čišćenje za 15,000 dinara. Čovek daje broj kartice. Posle tri dana otkriva: naplaćeno 45,000 dinara + neko je pokušao da pristupi njegovom bankarskom nalogu.</p>
         </div>
 
         <div class="phase warn">
-          <div class="label" data-sr="Primer 2: Vlasnik male firme (UK)." data-en="Example 2: Small business owner (UK).">Primer 2: Vlasnik male firme (UK)</div>
+          <div class="label" data-sr="Primer 2: Vlasnik male firme (UK)" data-en="Example 2: Small business owner (UK).">Primer 2: Vlasnik male firme (UK)</div>
           <p
-            data-sr="Žena dobija poziv: „Zovemo iz Microsoft“. Vaš server šalje greške." Zvuči legitimno. Ona vodi malu firmu, ima server sa dokumentima klijenata. Uplašena je. Instalira TeamViewer. „Tehničar" pokazuje sistemske logove“. Kaže: „Ovo je ozbiljno“. Hakeri su u vašoj mreži." Nudi „enterprise zaštitu" za £799“. Ona plaća“. Dva dana kasnije: svi dokumenti na serveru enkriptovani ransomware-om. Traže još £5,000 da „otključaju"“. Nije platila“. Izgubila sve podatke klijenata“. Firma propala."
+            data-sr="Žena dobija poziv: Zovemo iz Microsoft. Vaš server šalje greške." Zvuči legitimno. Ona vodi malu firmu, ima server sa dokumentima klijenata. Uplašena je. Instalira TeamViewer. Tehničar pokazuje sistemske logove. Kaže: Ovo je ozbiljno. Hakeri su u vašoj mreži." Nudi enterprise zaštitu za £799. Ona plaća. Dva dana kasnije: svi dokumenti na serveru enkriptovani ransomware-om. Traže još £5,000 da otključaju. Nije platila. Izgubila sve podatke klijenata. Firma propala."
             data-en="Woman receives call: 'Calling from Microsoft. Your server sending errors.' Sounds legitimate. She runs small business, has server with client documents. Scared. Installs TeamViewer. 'Technician' shows system logs. Says: 'This is serious. Hackers in your network.' Offers 'enterprise protection' for £799. She pays. Two days later: all documents on server encrypted with ransomware. They demand £5,000 more to 'unlock'. She didn't pay. Lost all client data. Business collapsed."
-          >Žena dobija poziv: „Zovemo iz Microsoft“. Vaš server šalje greške." Zvuči legitimno“. Ona vodi malu firmu, ima server sa dokumentima klijenata. Uplašena je. Instalira TeamViewer. „Tehničar" pokazuje sistemske logove“. Kaže: „Ovo je ozbiljno“. Hakeri su u vašoj mreži." Nudi „enterprise zaštitu" za £799“. Ona plaća“. Dva dana kasnije: svi dokumenti na serveru enkriptovani ransomware-om. Traže još £5,000 da „otključaju"“. Nije platila“. Izgubila sve podatke klijenata“. Firma propala“.</p>
+          >Žena dobija poziv: Zovemo iz Microsoft. Vaš server šalje greške. Zvuči legitimno. Ona vodi malu firmu, ima server sa dokumentima klijenata. Uplašena je. Instalira TeamViewer. Tehničar pokazuje sistemske logove. Kaže: Ovo je ozbiljno. Hakeri su u vašoj mreži. Nudi enterprise zaštitu za £799. Ona plaća. Dva dana kasnije: svi dokumenti na serveru enkriptovani ransomware-om. Traže još £5,000 da otključaju. Nije platila. Izgubila sve podatke klijenata. Firma propala.</p>
         </div>
 
         <div class="phase warn">
           <div class="label" data-sr="Primer 3: Student u Nemačkoj" data-en="Example 3: Student in Germany">Primer 3: Student u Nemačkoj</div>
           <p
-            data-sr="Student vidi pop-up na laptopu: „Apple Security: Uređaj kompromitovan." Ima MacBook. Pop-up izgleda kao pravi Apple dizajn. Zove broj. Osoba govori engleski sa „američkim" akcentom“. Kaže: „Vidim da neko pokušava da pristupi vašem iCloud-u." Student je zabrinut — sve njegove slike i dokumenti su tamo. Daje pristup preko AnyDesk-a. „Tehničar" otvara Safari, pokazuje „sumnjivu aktivnost"“. Nudi „iCloud Pro Security" za €299“. Student plaća PayPal-om“. Sat vremena kasnije: svi njegovi Apple podaci promenjeni, ne može da pristupi iCloud-u. Telefon i laptop zaključani. Gubio pristup svemu."
+            data-sr="Student vidi pop-up na laptopu: Apple Security: Uređaj kompromitovan. Ima MacBook. Pop-up izgleda kao pravi Apple dizajn. Zove broj. Osoba govori engleski sa američkim akcentom. Kaže: Vidim da neko pokušava da pristupi vašem iCloud-u. Student je zabrinut — sve njegove slike i dokumenti su tamo. Daje pristup preko AnyDesk-a. Tehničar otvara Safari, pokazuje sumnjivu aktivnost. Nudi iCloud Pro Security za €299. Student plaća PayPal-om. Sat vremena kasnije: svi njegovi Apple podaci promenjeni, ne može da pristupi iCloud-u. Telefon i laptop zaključani. Gubio pristup svemu."
             data-en="Student sees pop-up on laptop: 'Apple Security: Device compromised.' Has MacBook. Pop-up looks like real Apple design. Calls number. Person speaks English with 'American' accent. Says: 'I see someone trying to access your iCloud.' Student worried — all his photos and documents there. Gives access via AnyDesk. 'Technician' opens Safari, shows 'suspicious activity'. Offers 'iCloud Pro Security' for €299. Student pays via PayPal. Hour later: all his Apple credentials changed, can't access iCloud. Phone and laptop locked. Lost access to everything."
-          >Student vidi pop-up na laptopu: „Apple Security: Uređaj kompromitovan." Ima MacBook“. Pop-up izgleda kao pravi Apple dizajn. Zove broj. Osoba govori engleski sa „američkim" akcentom“. Kaže: „Vidim da neko pokušava da pristupi vašem iCloud-u." Student je zabrinut — sve njegove slike i dokumenti su tamo. Daje pristup preko AnyDesk-a. „Tehničar" otvara Safari, pokazuje „sumnjivu aktivnost"“. Nudi „iCloud Pro Security" za €299“. Student plaća PayPal-om“. Sat vremena kasnije: svi njegovi Apple podaci promenjeni, ne može da pristupi iCloud-u. Telefon i laptop zaključani. Gubio pristup svemu.</p>
+          >Student vidi pop-up na laptopu: Apple Security: Uređaj kompromitovan. Ima MacBook. Pop-up izgleda kao pravi Apple dizajn. Zove broj. Osoba govori engleski sa američkim akcentom. Kaže: Vidim da neko pokušava da pristupi vašem iCloud-u. Student je zabrinut — sve njegove slike i dokumenti su tamo. Daje pristup preko AnyDesk-a. Tehničar otvara Safari, pokazuje sumnjivu aktivnost. Nudi iCloud Pro Security za €299. Student plaća PayPal-om. Sat vremena kasnije: svi njegovi Apple podaci promenjeni, ne može da pristupi iCloud-u. Telefon i laptop zaključani. Gubio pristup svemu.</p>
         </div>
 
         <div class="phase warn">
-          <div class="label" data-sr="Primer 4: Baka u SAD-u ($14,000)." data-en="Example 4: Grandmother in USA ($14,000).">Primer 4: Baka u SAD-u ($14,000)</div>
+          <div class="label" data-sr="Primer 4: Baka u SAD-u ($14,000)" data-en="Example 4: Grandmother in USA ($14,000).">Primer 4: Baka u SAD-u ($14,000)</div>
           <p
-            data-sr="Žena od 74 godine dobija poziv: „Microsoft podrška“. Vidimo da vaš računar šalje spam." Zvuči profesionalno. Instalira program za daljinski pristup. „Tehničar" pokazuje Event Viewer (Windows greške)“. Kaže: „Ovo je ozbiljno“. Vaš računar je deo bot mreže." Ona ne razume, ali je uplašena“. On kaže: „Mogu da popravim za $299." Ona plaća“. Sat kasnije zove ponovo: „Problem je gori nego što sam mislio“. Treba $999 za dubinsko čišćenje." Ona plaća“. Onda kaže: „Trebamo da zaštitimo vaš bančni račun jer hakeri imaju pristup." Vodi je da prebaci $13,000 na „siguran račun" (njegov račun)“. Ukupan gubitak: $14,000“. Novac nikad vraćen."
+            data-sr="Žena od 74 godine dobija poziv: Microsoft podrška. Vidimo da vaš računar šalje spam." Zvuči profesionalno. Instalira program za daljinski pristup. Tehničar pokazuje Event Viewer (Windows greške). Kaže: Ovo je ozbiljno. Vaš računar je deo bot mreže." Ona ne razume, ali je uplašena. On kaže: Mogu da popravim za $299. Ona plaća. Sat kasnije zove ponovo: Problem je gori nego što sam mislio. Treba $999 za dubinsko čišćenje." Ona plaća. Onda kaže: Trebamo da zaštitimo vaš bančni račun jer hakeri imaju pristup. Vodi je da prebaci $13,000 na siguran račun (njegov račun). Ukupan gubitak: $14,000. Novac nikad vraćen."
             data-en="74-year-old woman receives call: 'Microsoft support. We see your computer sending spam.' Sounds professional. Installs remote access program. 'Technician' shows Event Viewer (Windows errors). Says: 'This is serious. Your computer part of bot network.' She doesn't understand but scared. He says: 'Can fix for $299.' She pays. Hour later calls again: 'Problem worse than thought. Need $999 for deep cleanup.' She pays. Then says: 'Need to protect your bank account because hackers have access.' Guides her to transfer $13,000 to 'safe account' (his account). Total loss: $14,000. Money never recovered."
-          >Žena od 74 godine dobija poziv: „Microsoft podrška“. Vidimo da vaš računar šalje spam." Zvuči profesionalno“. Instalira program za daljinski pristup. „Tehničar" pokazuje Event Viewer (Windows greške)“. Kaže: „Ovo je ozbiljno“. Vaš računar je deo bot mreže." Ona ne razume, ali je uplašena“. On kaže: „Mogu da popravim za $299." Ona plaća“. Sat kasnije zove ponovo: „Problem je gori nego što sam mislio“. Treba $999 za dubinsko čišćenje." Ona plaća“. Onda kaže: „Trebamo da zaštitimo vaš bančni račun jer hakeri imaju pristup." Vodi je da prebaci $13,000 na „siguran račun" (njegov račun)“. Ukupan gubitak: $14,000“. Novac nikad vraćen“.</p>
+          >Žena od 74 godine dobija poziv: Microsoft podrška. Vidimo da vaš računar šalje spam. Zvuči profesionalno. Instalira program za daljinski pristup. Tehničar pokazuje Event Viewer (Windows greške). Kaže: Ovo je ozbiljno. Vaš računar je deo bot mreže. Ona ne razume, ali je uplašena. On kaže: Mogu da popravim za $299. Ona plaća. Sat kasnije zove ponovo: Problem je gori nego što sam mislio. Treba $999 za dubinsko čišćenje. Ona plaća. Onda kaže: Trebamo da zaštitimo vaš bančni račun jer hakeri imaju pristup. Vodi je da prebaci $13,000 na siguran račun (njegov račun). Ukupan gubitak: $14,000. Novac nikad vraćen.</p>
         </div>
       </div>
 
@@ -142,9 +142,9 @@ window.SCAM_CONTENT["tech-support-scam"] = {
           <ul class="bullets">
             <li data-sr="<strong>Pop-up sa brojem telefona = 100% prevara</strong>" data-en="<strong>Pop-up with phone number = 100% scam</strong>"><strong>Pop-up sa brojem telefona = 100% prevara</strong></li>
             <li data-sr="Microsoft/Apple/Google nikad ne zovu ljude da kažu da im je računar zaražen." data-en="Microsoft/Apple/Google never call people to say their computer is infected.">Microsoft/Apple/Google nikad ne zovu ljude da kažu da im je računar zaražen.</li>
-            <li data-sr="traže daljinski pristup „da bi pomogli." data-en="ask for remote access "to help."">traže daljinski pristup „da bi pomogli"“.</li>
-            <li data-sr="pokazuju Command Prompt ili Event Viewer kao „dokaz" problema" data-en="show Command Prompt or Event Viewer as "proof" of a problem.">pokazuju Command Prompt ili Event Viewer kao „dokaz" problema“.</li>
-            <li data-sr="traže plaćanje unapred za „popravku." data-en="ask for upfront payment for "repair."">traže plaćanje unapred za „popravku"“.</li>
+            <li data-sr="traže daljinski pristup da bi pomogli." data-en="ask for remote access to help.">traže daljinski pristup da bi pomogli.</li>
+            <li data-sr="pokazuju Command Prompt ili Event Viewer kao dokaz problema." data-en="show Command Prompt or Event Viewer as proof of a problem.">pokazuju Command Prompt ili Event Viewer kao dokaz problema.</li>
+            <li data-sr="traže plaćanje unapred za popravku." data-en="ask for upfront payment for repair.">traže plaćanje unapred za popravku.</li>
           </ul>
         </div>
 
@@ -206,7 +206,7 @@ window.SCAM_CONTENT["tech-support-scam"] = {
           <ol class="steps">
             <li data-sr="kontaktiraj banku / karticu ODMAH — možda mogu da ospore transakciju." data-en="contact bank / card IMMEDIATELY — might be able to dispute transaction.">kontaktiraj banku / karticu ODMAH — možda mogu da ospore transakciju.</li>
             <li data-sr="prijavi prevaru policiji." data-en="report scam to police.">prijavi prevaru policiji.</li>
-            <li data-sr="sačuvaj sve dokaze: broj telefona, ime „tehničara", potvrde plaćanja" data-en="save all evidence: phone number, 'technician' name, payment confirmations.">sačuvaj sve dokaze: broj telefona, ime „tehničara", potvrde plaćanja“.</li>
+            <li data-sr="sačuvaj sve dokaze: broj telefona, ime tehničara, potvrde plaćanja." data-en="save all evidence: phone number, 'technician' name, payment confirmations.">sačuvaj sve dokaze: broj telefona, ime tehničara, potvrde plaćanja.</li>
           </ol>
         </div>
       </div>
@@ -218,31 +218,5 @@ window.SCAM_CONTENT["tech-support-scam"] = {
     </section>
 
     <!-- 6) IZVORI -->
-
-<section class="content-section">
-  <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-  <ul class="bullets">
-    <li><a href="tech-support-remote-access-scam.html" data-sr="Tehnička podrška sa daljinskim pristupom" data-en="Tech support remote access scam">Tehnička podrška sa daljinskim pristupom</a></li>
-    <li><a href="scareware.html" data-sr="Scareware" data-en="Scareware">Scareware</a></li>
-    <li><a href="fake-call-scam.html" data-sr="Lažni pozivi" data-en="Fake calls">Lažni pozivi</a></li>
-    <li><a href="vishing.html" data-sr="Višing" data-en="Vishing">Višing</a></li>
-    <li><a href="impersonation-scam.html" data-sr="Lazno predstavljanje" data-en="Impersonation scam">Lazno predstavljanje</a></li>
-  </ul>
-</section>
-
-<section class="card sources" id="sources">
-      <h2 data-sr="Izvori" data-en="Sources">Izvori</h2>
-      <ul>
-        <li><a href="https://www.microsoft.com/en-us/wdsi/support/report-scam-contact" target="_blank" rel="noopener noreferrer">Microsoft — Report tech support scam</a></li>
-        <li><a href="https://support.apple.com/en-us/HT204759" target="_blank" rel="noopener noreferrer">Apple — Avoid phishing and tech support scams</a></li>
-        <li><a href="https://consumer.ftc.gov/articles/tech-support-scams" target="_blank" rel="noopener noreferrer">FTC — Tech support scams</a></li>
-        <li><a href="https://www.fbi.gov/how-we-can-help-you/scams-and-safety/common-scams-and-crimes/tech-support-fraud" target="_blank" rel="noopener noreferrer">FBI — Tech support fraud</a></li>
-      </ul>
-
-      <p class="muted"
-        data-sr="Izvori pokrivaju: zvanična upozorenja od Microsoft/Apple, FTC statistike ($800M+ izgubljeno 2023), metode detekcije, prevencija zloupotrebe daljinskog pristupa, i prijave prevara."
-        data-en="Sources cover: official warnings from Microsoft/Apple, FTC statistics ($800M+ lost 2023), detection methods, remote access abuse prevention, and scam reporting."
-      >Izvori pokrivaju: zvanična upozorenja od Microsoft/Apple, FTC statistike ($800M+ izgubljeno 2023), metode detekcije, prevencija zloupotrebe daljinskog pristupa, i prijave prevara.</p>
-    </section>
-  `
+`
 };

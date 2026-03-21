@@ -3,10 +3,10 @@ window.SCAM_CONTENT = window.SCAM_CONTENT || {};
 window.SCAM_CONTENT["binary-options-scam"] = {
   raw_html: `
     <section class="card">
-      <h2 data-sr="Uvod: kako radi prevara sa binarnim opcijama" data-en="Introduction: how the binary options scam works">Uvod: kako radi Prevara sa binarnim opcijama</h2>
+      <h2 data-sr="Uvod: kako radi Prevara sa binarnim opcijama" data-en="Introduction: how the binary options scam works">Uvod: kako radi Prevara sa binarnim opcijama</h2>
       <p data-sr="Platforme za binarne opcije nude jednostavne kladie — cena ide gore ili dole. Platforme su uglavnom neregulisane i manipulišu rezultatima da bi osigurale da korisnik gubi. Broker ubeduje žrtvu da deponuje više ali gubitci su programirani." data-en="Binary options platforms offer simple bets — price goes up or down. Platforms are mostly unregulated and manipulate results to ensure the user loses. The broker convinces the victim to deposit more but the losses are programmed.">Platforme za binarne opcije nude jednostavne kladie — cena ide gore ili dole. Platforme su uglavnom neregulisane i manipulišu rezultatima da bi osigurale da korisnik gubi. Broker ubeduje žrtvu da deponuje više ali gubitci su programirani.</p>
-      <div class="callout" data-sr="&lt;strong&gt;Model:&lt;/strong&gt; Reklama → registracija → depozit → manipulisani rezultati → veći depozit → nestanak." data-en="&lt;strong&gt;Model:&lt;/strong&gt; High return ad → registration → deposit → manipulated results → larger deposit → disappearance."><strong>Model:</strong> Reklama → registracija → depozit → manipulisani rezultati → veći depozit → nestanak.</div>
-      <div class="callout" data-sr="&lt;strong&gt;Prag:&lt;/strong&gt; Depozit na platformi za binarne opcije. Platforma manipuliše ishodima i osigurava gubitke korisnika." data-en="&lt;strong&gt;Threshold:&lt;/strong&gt; Deposit on a binary options platform. The platform manipulates outcomes and ensures user losses."><strong>Prag:</strong> Depozit na platformi za binarne opcije. Platforma manipuliše ishodima i osigurava gubitke korisnika.</div>
+      <div class="callout" data-sr="<strong>Model:</strong> Reklama → registracija → depozit → manipulisani rezultati → veći depozit → nestanak." data-en="<strong>Model:</strong> High return ad → registration → deposit → manipulated results → larger deposit → disappearance."><strong>Model:</strong> Reklama → registracija → depozit → manipulisani rezultati → veći depozit → nestanak.</div>
+      <div class="callout" data-sr="<strong>Prag:</strong> Depozit na platformi za binarne opcije. Platforma manipuliše ishodima i osigurava gubitke korisnika." data-en="<strong>Threshold:</strong> Deposit on a binary options platform. The platform manipulates outcomes and ensures user losses."><strong>Prag:</strong> Depozit na platformi za binarne opcije. Platforma manipuliše ishodima i osigurava gubitke korisnika.</div>
     </section>
 
     <section class="card">
@@ -115,15 +115,6 @@ window.SCAM_CONTENT["binary-options-scam"] = {
       </ul>
     </section>
 
-    <section class="card">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <ul class="bullets">
-        <li><a href="forex-scam.html" data-sr="Forex prevara" data-en="Forex scam">Forex prevara</a></li>
-        <li><a href="fake-broker-scam.html" data-sr="Lažni broker" data-en="Fake broker scam">Lažni broker</a></li>
-        <li><a href="investment-fraud.html" data-sr="Investiciona prevara" data-en="Investment fraud">Investiciona prevara</a></li>
-        <li><a href="clone-firm-scam.html" data-sr="Prevara sa klonom firme" data-en="Clone firm scam">Prevara sa klonom firme</a></li>
-        <li><a href="recovery-scam.html" data-sr="Recovery prevara" data-en="Recovery scam">Recovery prevara</a></li>
-      </ul>
-    </section>
+    
   `
 };

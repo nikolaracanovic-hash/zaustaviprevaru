@@ -1,11 +1,11 @@
-﻿window.SCAM_CONTENT = window.SCAM_CONTENT || {};
+window.SCAM_CONTENT = window.SCAM_CONTENT || {};
 
 window.SCAM_CONTENT["pos-skimming"] = {
   raw_html: `
     <section class="card">
       <h2 data-sr="Uvod: kako radi POS skimming" data-en="Introduction: how POS skimming works">Uvod: kako radi POS skimming</h2>
-      <p data-sr="POS skimming je instalacija uređaja za prikupljanje podataka kartice na POS terminal u maloprodajnom objektu — prodavnici, restoranu, benzinskoj pumpi, hotelu ili kafeteriji. Napadač ili postavljanjem fizičkog skimera na terminal ili uz pomoć saučesničkog zaposlenog koji prevlači karticu kroz poseban uređaj prikuplja podatke magnetne traže i ponekad PIN." data-en="POS skimming is the installation of a card data collection device on a POS terminal in a retail establishment — a shop, restaurant, petrol station, hotel, or cafeteria. The attacker either by installing a physical skimmer on the terminal or with the help of a complicit employee who swipes the card through a separate device collects magnetic stripe data and sometimes the PIN.">POS skimming prikuplja podatke kartice na POS terminalu u prodavnici, restoranu ili hotelu — fizičkim skimerom ili saučesničkim zaposlenim.</p>
-      <p data-sr="Posebno je rizična varijanta gde zaposleni prevlači karticu kroz mali ručni skimer (tzv. „hand skimmer“) pre ubacivanja u legitimni POS terminal. Žrtva ne primeti ništa jer terminal normalno procesira plaćanje — ali podaci su istovremeno prikupljeni." data-en="A particularly risky variant is where an employee swipes the card through a small handheld skimmer (so-called 'hand skimmer') before inserting it into the legitimate POS terminal. The victim notices nothing because the terminal processes the payment normally — but data is simultaneously collected.">Saučesnički zaposleni prevlači karticu kroz hand skimmer pre terminala. Plaćanje prolazi normalno — podaci su ukradeni.</p>
+      <p data-sr="POS skimming prikuplja podatke kartice na POS terminalu u prodavnici, restoranu ili hotelu — fizičkim skimerom ili saučesničkim zaposlenim." data-en="POS skimming is the installation of a card data collection device on a POS terminal in a retail establishment — a shop, restaurant, petrol station, hotel, or cafeteria. The attacker either by installing a physical skimmer on the terminal or with the help of a complicit employee who swipes the card through a separate device collects magnetic stripe data and sometimes the PIN.">POS skimming prikuplja podatke kartice na POS terminalu u prodavnici, restoranu ili hotelu — fizičkim skimerom ili saučesničkim zaposlenim.</p>
+      <p data-sr="Saučesnički zaposleni prevlači karticu kroz hand skimmer pre terminala. Plaćanje prolazi normalno — podaci su ukradeni." data-en="A particularly risky variant is where an employee swipes the card through a small handheld skimmer (so-called 'hand skimmer') before inserting it into the legitimate POS terminal. The victim notices nothing because the terminal processes the payment normally — but data is simultaneously collected.">Saučesnički zaposleni prevlači karticu kroz hand skimmer pre terminala. Plaćanje prolazi normalno — podaci su ukradeni.</p>
       <div class="callout" data-sr="<strong>Model:</strong> skimer na POS terminalu ili hand skimer kod zaposlenog → kartica prevučena → podaci magnetne traže prikupljeni → CNP kupovine ili klon → gubitak." data-en="<strong>Model:</strong> skimmer on POS terminal or hand skimmer with employee → card swiped → magnetic stripe data collected → CNP purchases or clone → loss."><strong>Model:</strong> skimer na POS terminalu ili hand skimer kod zaposlenog → kartica prevučena → podaci magnetne traže prikupljeni → CNP kupovine ili klon → gubitak.</div>
       <div class="callout" data-sr="<strong>Prag:</strong> terminal koji deluje neuobičajeno, ima labav čitač ili je zaposleni izgubio terminal iz vida su znaci POS skimminga." data-en="<strong>Threshold:</strong> a terminal that appears unusual, has a loose reader, or where the employee lost sight of the terminal are signs of POS skimming."><strong>Prag:</strong> terminal koji deluje neuobičajeno, ima labav čitač ili je zaposleni izgubio terminal iz vida su znaci POS skimminga.</div>
     </section>
@@ -33,13 +33,13 @@ window.SCAM_CONTENT["pos-skimming"] = {
     </section>
 
     <section class="card">
-      <h2 data-sr="Hronološki tok (faze + evolucije)." data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
+      <h2 data-sr="Hronološki tok (faze + evolucije)" data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
 
       <article class="phase">
         <h3 class="phase-title" data-sr="Faza 1 — Instalacija ili hand skimming" data-en="Phase 1 — Installation or hand skimming">Faza 1 — Instalacija ili hand skimming</h3>
-        <p data-sr="Napadač instalira skimer na terminal ili je saučesnički zaposleni spreman s hand skimerom. Svaki kupac koji plati karticom daje podatke napadaču bez znanja." data-en="The attacker installs a skimmer on the terminal or the complicit employee is ready with a hand skimmer. Every customer who pays by card gives data to the attacker without knowing.">Svaka kartica prevučena na kompromitovanom terminalu ili kroz hand skimer daje podatke napadaču.</p>
+        <p data-sr="Svaka kartica prevučena na kompromitovanom terminalu ili kroz hand skimer daje podatke napadaču." data-en="The attacker installs a skimmer on the terminal or the complicit employee is ready with a hand skimmer. Every customer who pays by card gives data to the attacker without knowing.">Svaka kartica prevučena na kompromitovanom terminalu ili kroz hand skimer daje podatke napadaču.</p>
         <ul class="bullets">
-          <li data-sr="signal: zaposleni uzima karticu i nosi je izvan vidokruga kupca za 'verifikaciju„ ili “greška na kasi„." data-en="signal: employee takes the card and carries it out of the customer“s sight for 'verification' or 'cash register issue'.">signal: zaposleni uzima karticu i nosi je izvan vidokruga kupca za 'verifikaciju' ili 'greška na kasi'.</li>
+          <li data-sr="signal: zaposleni uzima karticu i nosi je izvan vidokruga kupca za 'verifikaciju' ili 'greška na kasi'." data-en="signal: employee takes the card and carries it out of the customers sight for 'verification' or 'cash register issue'.">signal: zaposleni uzima karticu i nosi je izvan vidokruga kupca za 'verifikaciju' ili 'greška na kasi'.</li>
           <li data-sr="signal: POS terminal ima neobičan plastični nastavak na čitaču kartice." data-en="signal: the POS terminal has an unusual plastic extension on the card reader.">signal: POS terminal ima neobičan plastični nastavak na čitaču kartice.</li>
         </ul>
         <div class="callout" data-sr="<strong>Prag faze:</strong> kartica je prevučena — podaci su prikupljeni bez mogućnosti sprečavanja." data-en="<strong>Threshold:</strong> the card is swiped — data is collected without possibility of prevention."><strong>Prag faze:</strong> kartica je prevučena — podaci su prikupljeni bez mogućnosti sprečavanja.</div>
@@ -47,7 +47,7 @@ window.SCAM_CONTENT["pos-skimming"] = {
 
       <article class="phase warn">
         <h3 class="phase-title" data-sr="Faza 2 — Iskorišćavanje prikupljenih podataka" data-en="Phase 2 — Exploiting collected data">Faza 2 — Iskorišćavanje prikupljenih podataka</h3>
-        <p data-sr="Napadač prodaje podatke ili ih koristi za CNP kupovine. Žrtva otkriva prevaru na kartičnom izvodu, ponekad danima ili nedeljama posle posete ugostiteljskog objekta." data-en="The attacker sells the data or uses it for CNP purchases. The victim discovers the fraud on the card statement, sometimes days or weeks after visiting the establishment.">CNP kupovine se pojavljuju na izvodu. Identifikacija kompromitirajućeg objekta je moguća analizom lokacija plaćanja.</p>
+        <p data-sr="CNP kupovine se pojavljuju na izvodu. Identifikacija kompromitirajućeg objekta je moguća analizom lokacija plaćanja." data-en="The attacker sells the data or uses it for CNP purchases. The victim discovers the fraud on the card statement, sometimes days or weeks after visiting the establishment.">CNP kupovine se pojavljuju na izvodu. Identifikacija kompromitirajućeg objekta je moguća analizom lokacija plaćanja.</p>
         <div class="branch">
           <p><strong data-sr="Grananja u ovoj fazi" data-en="Branching at this phase">Grananja u ovoj fazi</strong></p>
           <ul class="bullets">
@@ -62,7 +62,7 @@ window.SCAM_CONTENT["pos-skimming"] = {
     <section class="card">
       <h2 data-sr="Crvene zastavice" data-en="Red flags">Crvene zastavice</h2>
       <ul class="bullets">
-        <li data-sr="zaposleni nosi karticu izvan vidokruga kupca za „verifikaciju“ ili „drugi terminal„." data-en="employee carries the card out of the customer“s sight for “verification' or 'another terminal'.">zaposleni nosi karticu izvan vidokruga kupca za 'verifikaciju' ili 'drugi terminal'.</li>
+        <li data-sr="zaposleni nosi karticu izvan vidokruga kupca za 'verifikaciju' ili 'drugi terminal'." data-en="employee carries the card out of the customers sight for verification' or 'another terminal'.">zaposleni nosi karticu izvan vidokruga kupca za 'verifikaciju' ili 'drugi terminal'.</li>
         <li data-sr="POS terminal ima neuobičajeni plastični deo ili je vizualno izmenjen od standarda." data-en="the POS terminal has an unusual plastic part or is visually altered from standard.">POS terminal ima neuobičajeni plastični deo ili je vizualno izmenjen od standarda.</li>
         <li data-sr="nepoznate CNP transakcije na izvodu u danima posle plaćanja u ugostiteljskim objektima." data-en="unknown CNP transactions on the statement in the days after paying in hospitality establishments.">nepoznate CNP transakcije na izvodu u danima posle plaćanja u ugostiteljskim objektima.</li>
         <li data-sr="zaposleni koji drži karticu duže nego što je potrebno za procesiranje jedne transakcije." data-en="employee holding the card longer than necessary for processing a single transaction.">zaposleni koji drži karticu duže nego što je potrebno za procesiranje jedne transakcije.</li>
@@ -128,14 +128,6 @@ window.SCAM_CONTENT["pos-skimming"] = {
       </div>
     </section>
 
-    <section class="card sources" id="sources">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <ul class="bullets">
-        <li><a href="card-skimming.html" data-sr="Skimovanje kartice (opšte)" data-en="Card skimming">Skimovanje kartice (opšte)</a></li>
-        <li><a href="atm-skimming.html" data-sr="Skimovanje na bankomatu" data-en="ATM skimming">Skimovanje na bankomatu</a></li>
-        <li><a href="contactless-card-scam.html" data-sr="Prevara beskontaktnom karticom" data-en="Contactless card scam">Prevara beskontaktnom karticom</a></li>
-        <li><a href="card-not-present-fraud.html" data-sr="Zloupotreba kartice bez fizičkog prisustva" data-en="Card-not-present fraud">Zloupotreba kartice bez fizičkog prisustva</a></li>
-      </ul>
-    </section>
+    
   `
 };

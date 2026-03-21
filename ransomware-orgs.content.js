@@ -45,7 +45,7 @@ window.SCAM_CONTENT["ransomware-orgs"] = {
           <div class="label" data-sr="Šta gradi pritisak na organizaciju" data-en="What builds pressure on the organization">Šta gradi pritisak na organizaciju</div>
           <ul class="bullets">
             <li data-sr="enkripcija kritičnih sistema i gubitak operativnog pristupa." data-en="encryption of critical systems and loss of operational access.">enkripcija kritičnih sistema i gubitak operativnog pristupa.</li>
-            <li data-sr="kratki rokovi sa prijetnjom objavom podataka na „leak site-u."." data-en="short deadlines with threats of publishing data on a leak site.">kratki rokovi sa prijetnjom objavom podataka na „leak site-u"“.</li>
+            <li data-sr="kratki rokovi sa pretnjom objavom podataka na leak site-u." data-en="short deadlines with threats of publishing data on a leak site.">kratki rokovi sa pretnjom objavom podataka na leak site-u.</li>
             <li data-sr="dokazi eksfiltracije kao potvrda da napadač poseduje podatke." data-en="exfiltration evidence as proof that the attacker holds the data.">dokazi eksfiltracije kao potvrda da napadač poseduje podatke.</li>
             <li data-sr="kompromitovani backupi koji eliminišu jednostavnu obnovu." data-en="compromised backups that eliminate simple recovery.">kompromitovani backupi koji eliminišu jednostavnu obnovu.</li>
             <li data-sr="eskalacija: kontakt sa medijima, regulatorima, partnerima." data-en="escalation: contact with media, regulators, business partners.">eskalacija: kontakt sa medijima, regulatorima, partnerima.</li>
@@ -57,7 +57,7 @@ window.SCAM_CONTENT["ransomware-orgs"] = {
           <ul class="bullets">
             <li data-sr="napomena o otkupu sadrži kripto adresu i rok za uplatu." data-en="the ransom note contains a crypto address and payment deadline.">napomena o otkupu sadrži kripto adresu i rok za uplatu.</li>
             <li data-sr="portal za pregovore dostupan samo kroz Tor mrežu." data-en="negotiation portal accessible only through the Tor network.">portal za pregovore dostupan samo kroz Tor mrežu.</li>
-            <li data-sr="pregovarač sa „popustom." ako se isplati brzo." data-en="a negotiator offering a discount for quick payment.">pregovarač sa „popustom" ako se isplati brzo“.</li>
+            <li data-sr="pregovarač sa popustom ako se isplati brzo." data-en="a negotiator offering a discount for quick payment.">pregovarač sa popustom ako se isplati brzo.</li>
             <li data-sr="demo dekripcija jednog fajla kao dokaz da ključ postoji." data-en="demo decryption of one file as proof the key exists.">demo dekripcija jednog fajla kao dokaz da ključ postoji.</li>
             <li data-sr="pretnja objavom pre isteka roka radi pojačavanja pritiska." data-en="disclosure threat before deadline to heighten pressure.">pretnja objavom pre isteka roka radi pojačavanja pritiska.</li>
           </ul>
@@ -159,7 +159,7 @@ window.SCAM_CONTENT["ransomware-orgs"] = {
 
         <ul class="bullets">
           <li data-sr="finansijski izveštaji, ugovori, podaci o zaposlenima, klijentima." data-en="financial reports, contracts, employee and client data.">finansijski izveštaji, ugovori, podaci o zaposlenima, klijentima.</li>
-          <li data-sr="intelektualna svojina, plažni razvoja, tehničke specifikacije." data-en="intellectual property, development plans, technical specifications.">intelektualna svojina, plažni razvoja, tehničke specifikacije.</li>
+          <li data-sr="intelektualna svojina, planovi razvoja, tehničke specifikacije." data-en="intellectual property, development plans, technical specifications.">intelektualna svojina, planovi razvoja, tehničke specifikacije.</li>
           <li data-sr="lični podaci koji podležu GDPR ili lokalnim propisima o zaštiti podataka." data-en="personal data subject to GDPR or local data protection regulations.">lični podaci koji podležu GDPR ili lokalnim propisima o zaštiti podataka.</li>
           <li data-sr="korisničke baze podataka sa lozinkama, karticama, nalozima." data-en="user databases containing passwords, card details, accounts.">korisničke baze podataka sa lozinkama, karticama, nalozima.</li>
         </ul>
@@ -224,9 +224,9 @@ window.SCAM_CONTENT["ransomware-orgs"] = {
         >Organizacija ulazi u akutnu krizu. Upravljački tim, IT, pravnici i odeljenje za komunikaciju moraju brzo doneti odluke pod pritiskom i nepotpunim informacijama. Napadač to zna i koristi kratke rokove da spreči smirenu procenu situacije i konzultacije sa stručnjacima.</p>
 
         <ul class="bullets">
-          <li data-sr="napadač šalje „dokaz eksfiltracije." kao pritisak: uzorak ukradenih fajlova." data-en="attacker sends an exfiltration proof as pressure: a sample of stolen files.">napadač šalje „dokaz eksfiltracije" kao pritisak: uzorak ukradenih fajlova“.</li>
+          <li data-sr="napadač šalje dokaz eksfiltracije kao pritisak: uzorak ukradenih fajlova." data-en="attacker sends an exfiltration proof as pressure: a sample of stolen files.">napadač šalje dokaz eksfiltracije kao pritisak: uzorak ukradenih fajlova.</li>
           <li data-sr="napadač nudi demo dekripciju jednog ili dva fajla kao dokaz da ključ postoji." data-en="attacker offers demo decryption of one or two files as proof the key exists.">napadač nudi demo dekripciju jednog ili dva fajla kao dokaz da ključ postoji.</li>
-          <li data-sr="rok se prikazuje kao tvrd: „posle roka cena dupla ili podaci idu javno."." data-en="the deadline is presented as firm: after the deadline the price doubles or data goes public.">rok se prikazuje kao tvrd: „posle roka cena dupla ili podaci idu javno"“.</li>
+          <li data-sr="rok se prikazuje kao tvrd: posle roka cena dupla ili podaci idu javno." data-en="the deadline is presented as firm: after the deadline the price doubles or data goes public.">rok se prikazuje kao tvrd: posle roka cena dupla ili podaci idu javno.</li>
         </ul>
 
         <div class="callout"
@@ -242,9 +242,9 @@ window.SCAM_CONTENT["ransomware-orgs"] = {
         </h3>
 
         <p
-          data-sr="Pregovori se odvijaju kroz Tor portal ili šifrovani čet. Napadač ima iskustvo i skriptu; organizacija najčešće nema. Napadač koristi taktike: smanjivanje iznosa kao „dobra volja", rok koji se privremeno produžava za „popust", javno obelodanjivanje dela podataka kao demonstracija ozbiljnosti."
-          data-en="Negotiations happen through a Tor portal or encrypted chat. The attacker has experience and a script; the organization typically does not. The attacker uses tactics: reducing the amount as a goodwill gesture, temporarily extending the deadline for a discount, publicly disclosing part of the data as a seriousness demonstration."
-        >Pregovori se odvijaju kroz Tor portal ili encrypted chat. Napadač ima iskustvo i skriptu; organizacija najčešće nema. Napadač koristi taktike: smanjivanje iznosa kao „dobra volja", rok koji se privremeno produžava za „popust", javno obelodanjivanje dela podataka kao demonstracija ozbiljnosti“.</p>
+data-sr="Pregovori se odvijaju kroz Tor portal ili šifrovani čet. Napadač ima iskustvo i skriptu; organizacija najčešće nema. Napadač koristi taktike: smanjivanje iznosa kao dobra volja, rok koji se privremeno produžava za popust, javno obelodanjivanje dela podataka kao demonstracija ozbiljnosti."
+        data-en="Negotiations happen through a Tor portal or encrypted chat. The attacker has experience and a script; the organization typically does not. The attacker uses tactics: reducing the amount as a goodwill gesture, temporarily extending the deadline for a discount, publicly disclosing part of the data as a seriousness demonstration."
+        >Pregovori se odvijaju kroz Tor portal ili šifrovani čet. Napadač ima iskustvo i skriptu; organizacija najčešće nema. Napadač koristi taktike: smanjivanje iznosa kao dobra volja, rok koji se privremeno produžava za popust, javno obelodanjivanje dela podataka kao demonstracija ozbiljnosti.</p>
 
         <div class="branch">
           <p><strong data-sr="Tipične evolucije" data-en="Typical evolutions">Tipične evolucije</strong></p>
@@ -262,9 +262,9 @@ window.SCAM_CONTENT["ransomware-orgs"] = {
         </h3>
 
         <p
-          data-sr="Ako organizacija plati, ključ za dekripciju obično stiže — jer napadač želi reputaciju za „ispunjavanje obećanja" radi budućih žrtava“. Međutim, isplata ne garantuje brisanje ukradenih podataka. Napadač može tražiti dodatni otkup mesecima kasnije. Ako organizacija ne plati, podaci se objavljuju na „leak site-u" napadačke grupe."
-          data-en="If the organization pays, the decryption key usually arrives — because the attacker wants a reputation for keeping promises to motivate future victims. However, payment does not guarantee deletion of stolen data. The attacker may demand additional ransom months later. If the organization does not pay, data is published on the attack group's leak site."
-        >Ako organizacija plati, ključ za dekripciju obično stiže — jer napadač želi reputaciju za „ispunjavanje obećanja" radi budućih žrtava“. Međutim, isplata ne garantuje brisanje ukradenih podataka. Napadač može tražiti dodatni otkup mesecima kasnije. Ako organizacija ne plati, podaci se objavljuju na „leak site-u" napadačke grupe“.</p>
+data-sr="Ako organizacija plati, ključ za dekripciju obično stiže — jer napadač želi reputaciju za ispunjavanje obećanja radi budućih žrtava. Međutim, isplata ne garantuje brisanje ukradenih podataka. Napadač može tražiti dodatni otkup mesecima kasnije. Ako organizacija ne plati, podaci se objavljuju na leak site-u napadačke grupe."
+        data-en="If the organization pays, the decryption key usually arrives — because the attacker wants a reputation for keeping promises to motivate future victims. However, payment does not guarantee deletion of stolen data. The attacker may demand additional ransom months later. If the organization does not pay, data is published on the attack group's leak site."
+        >Ako organizacija plati, ključ za dekripciju obično stiže — jer napadač želi reputaciju za ispunjavanje obećanja radi budućih žrtava. Međutim, isplata ne garantuje brisanje ukradenih podataka. Napadač može tražiti dodatni otkup mesecima kasnije. Ako organizacija ne plati, podaci se objavljuju na leak site-u napadačke grupe.</p>
 
         <div class="callout"
           data-sr="<strong>Filter:</strong> isplata ransomware-a ne uklanja napadača iz mreže. Bez kompletnog forenzičkog čišćenja, napadač zadržava backdoor pristup za sledeći napad."
@@ -389,7 +389,7 @@ window.SCAM_CONTENT["ransomware-orgs"] = {
           <ul class="bullets">
             <li data-sr="Hajde da proverimo nomoreransom.org pre nego što odlučimo o isplati." data-en="Let's check nomoreransom.org before we decide on payment.">Hajde da proverimo nomoreransom.org pre nego što odlučimo o isplati.</li>
             <li data-sr="Isplata ne garantuje da napadač nije i dalje u mreži." data-en="Payment does not guarantee the attacker is no longer in the network.">Isplata ne garantuje da napadač nije i dalje u mreži.</li>
-            <li data-sr="Forenzika prvim korakom štiti nas pravno i operativno." data-en="Forensics as the first step protects us legally and operationally.">Forenzika kao prvi korak štiti nas pravno i operativno.</li>
+            <li data-sr="Forenzika kao prvi korak štiti nas pravno i operativno." data-en="Forensics as the first step protects us legally and operationally.">Forenzika kao prvi korak štiti nas pravno i operativno.</li>
             <li data-sr="Rok koji napadač postavlja je pregovarački alat, a ne apsolutna granica." data-en="The deadline the attacker sets is a negotiating tool, not an absolute limit.">Rok koji napadač postavlja je pregovarački alat, a ne apsolutna granica.</li>
           </ul>
         </div>
@@ -397,25 +397,5 @@ window.SCAM_CONTENT["ransomware-orgs"] = {
     </section>
 
     <!-- 9) IZVORI -->
-
-<section class="content-section">
-  <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-  <ul class="bullets">
-    <li><a href="data-breach-extortion.html" data-sr="Iznuda podacima." data-en="Data breach extortion.">Iznuda podacima</a></li>
-    <li><a href="ddos-extortion.html" data-sr="DDoS iznuda." data-en="DDoS extortion.">DDoS iznuda</a></li>
-    <li><a href="phishing.html" data-sr="Fišing." data-en="Phishing.">Fišing</a></li>
-    <li><a href="sextortion-scam.html" data-sr="Sextortion." data-en="Sextortion.">Sextortion</a></li>
-    <li><a href="business-email-compromise.html" data-sr="Kompromitovani poslovni imejl." data-en="Business email compromise.">Kompromitovani poslovni imejl</a></li>
-  </ul>
-</section>
-
-<section class="card sources" id="sources">
-      <h2 data-sr="Izvori" data-en="Sources">Izvori</h2>
-      <ul>
-        <li><a href="https://www.cisa.gov/stopransomware" target="_blank" rel="noopener noreferrer">CISA — StopRansomware.gov</a></li>
-        <li><a href="https://www.ic3.gov" target="_blank" rel="noopener noreferrer">FBI IC3 — Ransomware Reporting</a></li>
-        <li><a href="https://www.nomoreransom.org" target="_blank" rel="noopener noreferrer">No More Ransom — Public Decryptors</a></li>
-      </ul>
-    </section>
-  `
+`
 };

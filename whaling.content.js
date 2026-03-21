@@ -1,4 +1,4 @@
-﻿if (!window.SCAM_CONTENT) window.SCAM_CONTENT = {};
+if (!window.SCAM_CONTENT) window.SCAM_CONTENT = {};
 window.SCAM_CONTENT["whaling"] = {
   raw_html: `
 <section class="content-section">
@@ -33,7 +33,7 @@ window.SCAM_CONTENT["whaling"] = {
     <div class="phase">
       <div class="label" data-sr="Kako se uvodi novac" data-en="How money is introduced">Kako se uvodi novac</div>
       <ul class="bullets">
-        <li data-sr="Urgentni wire transfer „za zatvaranje akvizicije“, „izmirenje obaveze“ ili „depozit za transakciju." data-en="Urgent wire transfer for closing an acquisition, settling an obligation or transaction deposit.">Urgentni wire transfer 'za zatvaranje akvizicije', 'izmirenje obaveze' ili 'depozit za transakciju'.</li>
+        <li data-sr="Urgentni wire transfer 'za zatvaranje akvizicije', 'izmirenje obaveze' ili 'depozit za transakciju'." data-en="Urgent wire transfer for closing an acquisition, settling an obligation or transaction deposit.">Urgentni wire transfer 'za zatvaranje akvizicije', 'izmirenje obaveze' ili 'depozit za transakciju'.</li>
         <li data-sr="Zahtev za poverljivim dokumentima — godišnji izveštaji, poreski dokumenti, ugovorni detalji." data-en="Request for confidential documents — annual reports, tax documents, contract details.">Zahtev za poverljivim dokumentima — godišnji izveštaji, poreski dokumenti, ugovorni detalji.</li>
         <li data-sr="Napadač traži hitno odobrenje bez prolaska kroz uobičajene interne procedure." data-en="The attacker requests urgent approval without going through usual internal procedures.">Napadač traži hitno odobrenje bez prolaska kroz uobičajene interne procedure.</li>
       </ul>
@@ -52,29 +52,29 @@ window.SCAM_CONTENT["whaling"] = {
       <li data-sr="Godišnji finansijski izveštaji otkrivaju veličinu transakcija i poreske obaveze kompanije." data-en="Annual financial reports reveal the size of transactions and the company's tax obligations.">Godišnji finansijski izveštaji otkrivaju veličinu transakcija i poreske obaveze kompanije.</li>
       <li data-sr="Curenja podataka otkrivaju interne email adrese i organizacionu hijerarhiju." data-en="Data breaches reveal internal email addresses and organizational hierarchy.">Curenja podataka otkrivaju interne email adrese i organizacionu hijerarhiju.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Napadač ima dovoljno podataka za konstruisanje uverljivog scenarija koji cilja na tekući poslovni kontekst rukovodioca." data-en="The attacker has enough data to construct a convincing scenario targeting the executive's current business context.">Napadač ima dovoljno podataka za konstruisanje uverljivog scenarija koji cilja na tekući poslovni kontekst rukovodioca.</span></div>
+    <div class="callout"><strong data-sr="Napadač ima dovoljno podataka za konstruisanje uverljivog scenarija koji cilja na tekući poslovni kontekst rukovodioca.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Napadač ima dovoljno podataka za konstruisanje uverljivog scenarija koji cilja na tekući poslovni kontekst rukovodioca." data-en="The attacker has enough data to construct a convincing scenario targeting the executive's current business context.">Napadač ima dovoljno podataka za konstruisanje uverljivog scenarija koji cilja na tekući poslovni kontekst rukovodioca.</span></div>
   </article>
 
   <article class="phase">
-    <h3 data-sr="Faza 2 — Konstruisanje scenarija" data-en="Phase 2 — Scenario construction">Faza 2 — Scenario construction</h3>
+    <h3 data-sr="Faza 2 — Scenario construction" data-en="Phase 2 — Scenario construction">Faza 2 — Scenario construction</h3>
     <p data-sr="Napadač bira scenario koji odgovara trenutnom kontekstu — M&A transakcija, regulatorni zahtev, poreski problem. Kreira lažni domen i mejl koji izgleda kao da dolazi od advokatske firme, revizora ili regulatora." data-en="The attacker chooses a scenario that fits the current context — M&A transaction, regulatory request, tax issue. They create a fake domain and email that appears to come from a law firm, auditor or regulator.">Napadač bira scenario koji odgovara trenutnom kontekstu — M&A transakcija, regulatorni zahtev, poreski problem. Kreira lažni domen i mejl koji izgleda kao da dolazi od advokatske firme, revizora ili regulatora.</p>
     <ul class="bullets">
       <li data-sr="Lažni domen advokatske firme je gotovo identičan pravom domenu sa jednom tihom izmenom." data-en="The fake law firm domain is almost identical to the real one with one subtle change.">Lažni domen advokatske firme je gotovo identičan pravom domenu sa jednom tihom izmenom.</li>
-      <li data-sr="Poruka naglašava tajnost — „ne deliti sa ostalim zaposlenima do završetka transakcije." data-en="The message emphasizes secrecy — do not share with other employees until the transaction is complete.">Poruka naglašava tajnost — 'ne deliti sa ostalim zaposlenima do završetka transakcije'.</li>
-      <li data-sr="Rok je uvek kratak — „potrebno do kraja radnog dana“ ili „rok je sutra u 9." data-en="The deadline is always short — needed by end of business day or deadline is tomorrow at 9.">Rok je uvek kratak — 'potrebno do kraja radnog dana' ili 'rok je sutra u 9'.</li>
+      <li data-sr="Poruka naglašava tajnost — 'ne deliti sa ostalim zaposlenima do završetka transakcije'." data-en="The message emphasizes secrecy — do not share with other employees until the transaction is complete.">Poruka naglašava tajnost — 'ne deliti sa ostalim zaposlenima do završetka transakcije'.</li>
+      <li data-sr="Rok je uvek kratak — 'potrebno do kraja radnog dana' ili 'rok je sutra u 9'." data-en="The deadline is always short — needed by end of business day or deadline is tomorrow at 9.">Rok je uvek kratak — 'potrebno do kraja radnog dana' ili 'rok je sutra u 9'.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Poruka je poslata na privatnu ili poslovnu adresu rukovodioca." data-en="The message is sent to the executive's private or business address.">Poruka je poslata na privatnu ili poslovnu adresu rukovodioca.</span></div>
+    <div class="callout"><strong data-sr="Poruka je poslata na privatnu ili poslovnu adresu rukovodioca.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Poruka je poslata na privatnu ili poslovnu adresu rukovodioca." data-en="The message is sent to the executive's private or business address.">Poruka je poslata na privatnu ili poslovnu adresu rukovodioca.</span></div>
   </article>
 
   <article class="phase">
-    <h3 data-sr="Faza 3 — Ubacivanje CEO fraud varijante" data-en="Phase 3 — CEO fraud variant insertion">Faza 3 — CEO fraud variant insertion</h3>
+    <h3 data-sr="Faza 3 — CEO fraud variant insertion" data-en="Phase 3 — CEO fraud variant insertion">Faza 3 — CEO fraud variant insertion</h3>
     <p data-sr="Alternativna varijanta: napadač se predstavlja kao CEO i šalje poruku CFO-u tražeći hitni transfer. Poruka dolazi sa domena koji izgleda kao interni ali nije." data-en="Alternative variant: the attacker impersonates the CEO and sends a message to the CFO requesting an urgent transfer. The message comes from a domain that looks internal but is not.">Alternativna varijanta: napadač se predstavlja kao CEO i šalje poruku CFO-u tražeći hitni transfer. Poruka dolazi sa domena koji izgleda kao interni ali nije.</p>
     <ul class="bullets">
-      <li data-sr="CFO prima zahtev od „CEO-a“ za hitni poverljivi transfer — bez prolaska kroz normalne procedure." data-en="The CFO receives a request from the CEO for an urgent confidential transfer — without going through normal procedures.">CFO prima zahtev od 'CEO-a' za hitni poverljivi transfer — bez prolaska kroz normalne procedure.</li>
+      <li data-sr="CFO prima zahtev od 'CEO-a' za hitni poverljivi transfer — bez prolaska kroz normalne procedure." data-en="The CFO receives a request from the CEO for an urgent confidential transfer — without going through normal procedures.">CFO prima zahtev od 'CEO-a' za hitni poverljivi transfer — bez prolaska kroz normalne procedure.</li>
       <li data-sr="Tajnost se naglašava da bi se sprečilo da CFO proveri zahtev direktno sa CEO-om." data-en="Secrecy is emphasized to prevent the CFO from verifying the request directly with the CEO.">Tajnost se naglašava da bi se sprečilo da CFO proveri zahtev direktno sa CEO-om.</li>
       <li data-sr="Iznosi su obično visoki jer napadač cilja organizacije sa velikim transakcijama." data-en="Amounts are usually high because the attacker targets organizations with large transactions.">Iznosi su obično visoki jer napadač cilja organizacije sa velikim transakcijama.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Finansijski rukovodilac prima ubedljiv zahtev za hitnom transakcijom od navodnog nadređenog." data-en="The financial executive receives a convincing request for an urgent transaction from an alleged superior.">Finansijski rukovodilac prima ubedljiv zahtev za hitnom transakcijom od navodnog nadređenog.</span></div>
+    <div class="callout"><strong data-sr="Finansijski rukovodilac prima ubedljiv zahtev za hitnom transakcijom od navodnog nadređenog.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Finansijski rukovodilac prima ubedljiv zahtev za hitnom transakcijom od navodnog nadređenog." data-en="The financial executive receives a convincing request for an urgent transaction from an alleged superior.">Finansijski rukovodilac prima ubedljiv zahtev za hitnom transakcijom od navodnog nadređenog.</span></div>
     <div class="branch">
       <strong data-sr="Grananja u ovoj fazi:" data-en="Branching at this phase:">Grananja u ovoj fazi:</strong>
       <ul class="bullets">
@@ -85,36 +85,36 @@ window.SCAM_CONTENT["whaling"] = {
   </article>
 
   <article class="phase">
-    <h3 data-sr="Faza 4 — Odobrenje transakcije" data-en="Phase 4 — Transaction approval">Faza 4 — Transaction approval</h3>
+    <h3 data-sr="Faza 4 — Transaction approval" data-en="Phase 4 — Transaction approval">Faza 4 — Transaction approval</h3>
     <p data-sr="Rukovodilac odobrava transakciju ili deli poverljive informacije verujući da je zahtev legitiman. Napadač prima novac na račun koji kontroliše i odmah ga premešta dalje." data-en="The executive approves the transaction or shares confidential information believing the request is legitimate. The attacker receives the money in an account they control and immediately moves it further.">Rukovodilac odobrava transakciju ili deli poverljive informacije verujući da je zahtev legitiman. Napadač prima novac na račun koji kontroliše i odmah ga premešta dalje.</p>
     <ul class="bullets">
       <li data-sr="Transfer je izvršen i novac je na putu pre nego što organizacija shvati šta se desilo." data-en="The transfer is executed and the money is on its way before the organization realizes what happened.">Transfer je izvršen i novac je na putu pre nego što organizacija shvati šta se desilo.</li>
       <li data-sr="Napadač odmah premešta novac kroz seriju računa da bi otežao praćenje." data-en="The attacker immediately moves the money through a series of accounts to make tracing difficult.">Napadač odmah premešta novac kroz seriju računa da bi otežao praćenje.</li>
-      <li data-sr="Poverljivi dokumenti se eksfiltriraju i mogu biti korišćeni za ucenu ili prodati konkurenciji." data-en="Confidential documents are exfiltrated and can be used for extortion or sold to competitors.">Poverljivi dokumenti se eksfiltriraju i mogu biti korišćeni za ucenu ili prodatu konkurenciji.</li>
+      <li data-sr="Poverljivi dokumenti se eksfiltriraju i mogu biti korišćeni za ucenu ili prodatu konkurenciji." data-en="Confidential documents are exfiltrated and can be used for extortion or sold to competitors.">Poverljivi dokumenti se eksfiltriraju i mogu biti korišćeni za ucenu ili prodatu konkurenciji.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Transakcija je izvršena i sredstva su napustila organizaciju." data-en="The transaction is executed and funds have left the organization.">Transakcija je izvršena i sredstva su napustila organizaciju.</span></div>
+    <div class="callout"><strong data-sr="Transakcija je izvršena i sredstva su napustila organizaciju.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Transakcija je izvršena i sredstva su napustila organizaciju." data-en="The transaction is executed and funds have left the organization.">Transakcija je izvršena i sredstva su napustila organizaciju.</span></div>
   </article>
 
   <article class="phase">
-    <h3 data-sr="Faza 5 — Otkrivanje prevare" data-en="Phase 5 — Fraud discovery">Faza 5 — Fraud discovery</h3>
+    <h3 data-sr="Faza 5 — Fraud discovery" data-en="Phase 5 — Fraud discovery">Faza 5 — Fraud discovery</h3>
     <p data-sr="Organizacija otkriva prevaru kada nalog ili institucija koja je navedno slala zahtev demantuje bilo kakvu komunikaciju. Ili kada redovna revizija uoči neautorizovanu transakciju." data-en="The organization discovers the fraud when the account or institution that allegedly sent the request denies any communication. Or when a regular audit notices an unauthorized transaction.">Organizacija otkriva prevaru kada nalog ili institucija koja je navedno slala zahtev demantuje bilo kakvu komunikaciju. Ili kada redovna revizija uoči neautorizovanu transakciju.</p>
     <ul class="bullets">
       <li data-sr="Pokušaj povlačenja transakcije je skoro uvek prekasno — međunarodni wire transferi su brzi i ireverzibilni." data-en="Attempting to reverse the transaction is almost always too late — international wire transfers are fast and irreversible.">Pokušaj povlačenja transakcije je skoro uvek prekasno — međunarodni wire transferi su brzi i ireverzibilni.</li>
       <li data-sr="Banka može pokušati da zamrzne sredstva ako se odmah kontaktira, ali šanse su male posle 24 sata." data-en="The bank may attempt to freeze funds if contacted immediately but chances are small after 24 hours.">Banka može pokušati da zamrzne sredstva ako se odmah kontaktira, ali šanse su male posle 24 sata.</li>
       <li data-sr="Incident se mora prijaviti policiji i nadležnim finansijskim organima." data-en="The incident must be reported to police and competent financial authorities.">Incident se mora prijaviti policiji i nadležnim finansijskim organima.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Organizacija potvrđuje prevaru i pokreće procedure za prijavljivanje i sanaciju." data-en="The organization confirms the fraud and initiates reporting and remediation procedures.">Organizacija potvrđuje prevaru i pokreće procedure za prijavljivanje i sanaciju.</span></div>
+    <div class="callout"><strong data-sr="Organizacija potvrđuje prevaru i pokreće procedure za prijavljivanje i sanaciju.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Organizacija potvrđuje prevaru i pokreće procedure za prijavljivanje i sanaciju." data-en="The organization confirms the fraud and initiates reporting and remediation procedures.">Organizacija potvrđuje prevaru i pokreće procedure za prijavljivanje i sanaciju.</span></div>
   </article>
 
   <article class="phase">
-    <h3 data-sr="Faza 6 — Sanacija i prevencija" data-en="Phase 6 — Remediation and prevention">Faza 6 — Remediation and prevention</h3>
+    <h3 data-sr="Faza 6 — Remediation and prevention" data-en="Phase 6 — Remediation and prevention">Faza 6 — Remediation and prevention</h3>
     <p data-sr="Organizacija uvodi strože procedure za autorizaciju finansijskih transakcija. Rukovodioci prolaze obuku o whaling napadima. Implementiraju se tehnička rešenja za detekciju sumnjivih domena." data-en="The organization introduces stricter procedures for authorizing financial transactions. Executives undergo training on whaling attacks. Technical solutions are implemented to detect suspicious domains.">Organizacija uvodi strože procedure za autorizaciju finansijskih transakcija. Rukovodioci prolaze obuku o whaling napadima. Implementiraju se tehnička rešenja za detekciju sumnjivih domena.</p>
     <ul class="bullets">
       <li data-sr="Sve transakcije iznad određenog iznosa zahtevaju dva nezavisna odobrenja telefonskim putem." data-en="All transactions above a certain amount require two independent approvals by phone.">Sve transakcije iznad određenog iznosa zahtevaju dva nezavisna odobrenja telefonskim putem.</li>
       <li data-sr="Email filteri sa DMARC i SPF konfiguracijom smanjuju uspešnost lažnih domena." data-en="Email filters with DMARC and SPF configuration reduce the success rate of fake domains.">Email filteri sa DMARC i SPF konfiguracijom smanjuju uspešnost lažnih domena.</li>
       <li data-sr="Procedure za hitne transakcije eksplicitno zahtevaju verifikaciju van email kanala." data-en="Procedures for urgent transactions explicitly require verification outside the email channel.">Procedure za hitne transakcije eksplicitno zahtevaju verifikaciju van email kanala.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Organizacija ima zaštitu koja sprečava ponavljanje istog tipa napada." data-en="The organization has protection that prevents recurrence of the same type of attack.">Organizacija ima zaštitu koja sprečava ponavljanje istog tipa napada.</span></div>
+    <div class="callout"><strong data-sr="Organizacija ima zaštitu koja sprečava ponavljanje istog tipa napada.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Organizacija ima zaštitu koja sprečava ponavljanje istog tipa napada." data-en="The organization has protection that prevents recurrence of the same type of attack.">Organizacija ima zaštitu koja sprečava ponavljanje istog tipa napada.</span></div>
   </article>
 </section>
 
@@ -122,13 +122,13 @@ window.SCAM_CONTENT["whaling"] = {
   <h2 data-sr="Crvene zastavice" data-en="Red flags">Crvene zastavice</h2>
   <ul class="bullets">
     <li data-sr="Zahtev za velikom finansijskom transakcijom dolazi mejlom bez prethodnog usmenog razgovora." data-en="A request for a large financial transaction comes by email without a prior verbal conversation.">Zahtev za velikom finansijskom transakcijom dolazi mejlom bez prethodnog usmenog razgovora.</li>
-    <li data-sr="Transakcija je „hitna i poverljiva“ — ne sme se deliti sa finansijskim timom pre izvršenja." data-en="The transaction is urgent and confidential — must not be shared with the finance team before execution.">Transakcija je 'hitna i poverljiva' — ne sme se deliti sa finansijskim timom pre izvršenja.</li>
+    <li data-sr="Transakcija je 'hitna i poverljiva' — ne sme se deliti sa finansijskim timom pre izvršenja." data-en="The transaction is urgent and confidential — must not be shared with the finance team before execution.">Transakcija je 'hitna i poverljiva' — ne sme se deliti sa finansijskim timom pre izvršenja.</li>
     <li data-sr="Pošiljalac koji navodi svoju titulu (advokat, regulator, CEO) nije dostupan za telefonsku verifikaciju." data-en="The sender citing their title (lawyer, regulator, CEO) is not available for phone verification.">Pošiljalac koji navodi svoju titulu (advokat, regulator, CEO) nije dostupan za telefonsku verifikaciju.</li>
     <li data-sr="Email domen pošiljaoca se razlikuje od poznatog domena firme ili institucije za jedan karakter." data-en="The sender's email domain differs from the known firm or institution domain by one character.">Email domen pošiljaoca se razlikuje od poznatog domena firme ili institucije za jedan karakter.</li>
     <li data-sr="Zahtev zaobilazi normalne interne procedure za odobravanje finansijskih transakcija." data-en="The request bypasses normal internal procedures for approving financial transactions.">Zahtev zaobilazi normalne interne procedure za odobravanje finansijskih transakcija.</li>
     <li data-sr="Scenario se tiče akvizicije, poreske obaveze ili pravnog problema koji nije bio poznat pre ovog mejla." data-en="The scenario involves an acquisition, tax obligation or legal issue that was not known before this email.">Scenario se tiče akvizicije, poreske obaveze ili pravnog problema koji nije bio poznat pre ovog mejla.</li>
     <li data-sr="Napadač aktivno odvraća rukovodioca od konsultacije sa finansijskim ili pravnim timom." data-en="The attacker actively discourages the executive from consulting with the financial or legal team.">Napadač aktivno odvraća rukovodioca od konsultacije sa finansijskim ili pravnim timom.</li>
-    <li data-sr="Vremenski rok je kratak i nema mogućnosti za produženje bez „ozbiljnih posledica." data-en="The deadline is short and there is no possibility of extension without serious consequences.">Vremenski rok je kratak i nema mogućnosti za produženje bez 'ozbiljnih posledica'.</li>
+    <li data-sr="Vremenski rok je kratak i nema mogućnosti za produženje bez 'ozbiljnih posledica'." data-en="The deadline is short and there is no possibility of extension without serious consequences.">Vremenski rok je kratak i nema mogućnosti za produženje bez 'ozbiljnih posledica'.</li>
     <li data-sr="Nalog na koji se traži uplata je nov ili nepoznat — nije u sistemu plaćanja kompanije." data-en="The account where payment is requested is new or unknown — not in the company's payment system.">Nalog na koji se traži uplata je nov ili nepoznat — nije u sistemu plaćanja kompanije.</li>
     <li data-sr="Poruka stiže izvan radnog vremena ili za vreme kada je CEO ili CFO navedno na putu i nedostupan." data-en="The message arrives outside business hours or when the CEO or CFO is allegedly traveling and unavailable.">Poruka stiže izvan radnog vremena ili za vreme kada je CEO ili CFO navedno na putu i nedostupan.</li>
   </ul>
@@ -193,15 +193,6 @@ window.SCAM_CONTENT["whaling"] = {
   </ul>
 </section>
 
-<section class="content-section">
-  <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-  <ul class="bullets">
-    <li><a href="phishing.html" data-sr="Spear phishing — isti ciljani napad na niže nivoe organizacije" data-en="Spear phishing — same targeted attack on lower organizational levels">Spear phishing — isti ciljani napad na niže nivoe organizacije</a></li>
-    <li><a href="business-email-compromise.html" data-sr="BEC — najčešći finansijski ishod whaling napada" data-en="BEC — most common financial outcome of whaling attacks">BEC — najčešći finansijski ishod whaling napada</a></li>
-    <li><a href="invoice-fraud.html" data-sr="Invoice fraud — preusmeravanje plaćanja kroz lažne fakture" data-en="Invoice fraud — redirecting payments through fake invoices">Invoice fraud — preusmeravanje plaćanja kroz lažne fakture</a></li>
-    <li><a href="phishing.html" data-sr="Fišing — masovni oblik iste tehnike lažnog identiteta" data-en="Phishing — mass form of the same fake identity technique">Fišing — masovni oblik iste tehnike lažnog identiteta</a></li>
-    <li><a href="impersonation-scam.html" data-sr="Impersonation — lažno predstavljanje autoritetnih figura" data-en="Impersonation — fake representation of authority figures">Impersonation — lažno predstavljanje autoritetnih figura</a></li>
-  </ul>
-</section>
+
 `
 };

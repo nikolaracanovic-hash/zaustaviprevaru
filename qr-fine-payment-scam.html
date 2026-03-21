@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Lažni QR kod za uplatu kazne, računa ili državne takse: skeniranje vodi na lažni portal — prepoznavanje i zaštita."
+    data-sr="Lažni QR kod za uplatu kazne, računa ili državne takse: skeniranje vodi na lažni portal — prepoznavanje i zaštita."
+    data-en="Fake QR codes for fines, bills, or government fees: scanning leads to a fake payment portal — recognition and protection."
+  />
+  <title
+    data-sr="QR kod za lažnu kaznu ili državni račun"
+    data-en="QR fine and government bill payment scam"
+  >QR kod za lažnu kaznu ili državni račun</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="ui.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="qr-fine-payment-scam.content.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="cases.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+      <div class="brand">
+        <span class="brand-dot" aria-hidden="true"></span>
+        <span class="brand-name">Anti-scam</span>
+      </div>
+
+      <nav aria-label="Glavna navigacija">
+        <ul class="top-nav">
+          <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+          <li><a href="prevare.html" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          <li><a href="protecting-elderly.html" data-sr="Prevencija" data-en="Prevention">Prevencija</a></li>                  </ul>
+      </nav>
+    </div>
+
+<div class="hero compact">
+        <h1
+          data-sr="QR kod za lažnu kaznu ili državni račun"
+          data-en="QR fine and government bill payment scam"
+        >QR kod za lažnu kaznu ili državni račun</h1>
+        <p class="muted hero-sub"
+           data-sr="QR na kazni, računu ili uplatnici → skeniranje → lažni portal → prag (kartica ili prijava), poseban tok od opšteg QR fišinga."
+           data-en="QR on a fine, bill, or payment slip → scan → fake portal → threshold (card or login), a distinct flow from generic QR phishing.">
+          QR na kazni, računu ili uplatnici → skeniranje → lažni portal → prag (kartica ili prijava), poseban tok od opšteg QR fišinga.
+        </p>
+        <div id="scam-meta" data-scam="qr-fine-payment-scam"></div>
+        <div class="callout"
+             data-sr="<strong>Prag:</strong> uplata ili unos osetljivih podataka na stranici otvorenoj isključivo zato što je QR kod izgledao kao zvaničan način plaćanja kazne ili javnog računa."
+             data-en="<strong>Threshold:</strong> paying or entering sensitive data on a page opened only because the QR code looked like an official way to pay a fine or a public bill.">
+          <strong>Prag:</strong> uplata ili unos osetljivih podataka na stranici otvorenoj isključivo zato što je QR kod izgledao kao zvaničan način plaćanja kazne ili javnog računa.
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    <div data-overview></div>
+    <div data-steps></div>
+    <div data-longform></div>
+    <div data-related></div>
+</main>
+  <footer class="footer">
+  <div class="container">
+    <p class="muted"
+       data-sr="Anti-scam projekat — edukacija i analiza"
+       data-en="Anti-scam project — education and analysis">
+      Anti-scam projekat — edukacija i analiza
+    </p>
+    <p class="muted">
+      <a href="obavestenje-o-privatnosti.html" data-sr="Obaveštenje o privatnosti" data-en="Privacy notice">Obaveštenje o privatnosti</a>
+    </p>
+  </div>
+</footer>
+</body>
+</html>

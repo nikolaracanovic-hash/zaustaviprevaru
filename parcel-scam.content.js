@@ -34,7 +34,7 @@ window.SCAM_CONTENT["parcel-scam"] = {
       <h3 data-sr="Šta se dešava na lažnom sajtu" data-en="What happens on the fake site">Šta se dešava na lažnom sajtu</h3>
       <ul class="bullets">
         <li data-sr="Lažni sajt izgleda identično legitimnom sajtu kurirske službe, ali domen je drugačiji." data-en="The fake site looks identical to the courier service's legitimate site, but the domain is different.">Lažni sajt izgleda identično legitimnom sajtu kurirske službe, ali domen je drugačiji.</li>
-        <li data-sr="Žrtva unosi broj kartice i CVV za „malu naknadu“ — podaci se prikupljaju i koriste za veće transakcije." data-en="The victim enters the card number and CVV for the 'small fee' — the data is collected and used for larger transactions.">Žrtva unosi broj kartice i CVV za „malu naknadu" — podaci se prikupljaju i koriste za veće transakcije“.</li>
+        <li data-sr="Žrtva unosi broj kartice i CVV za malu naknadu — podaci se prikupljaju i koriste za veće transakcije." data-en="The victim enters the card number and CVV for the 'small fee' — the data is collected and used for larger transactions.">Žrtva unosi broj kartice i CVV za malu naknadu — podaci se prikupljaju i koriste za veće transakcije.</li>
         <li data-sr="Sajt može inicirati automatsku pretplatu ili probno plaćanje koje postaje mesečno." data-en="The site may initiate an automatic subscription or trial payment that becomes monthly.">Sajt može inicirati automatsku pretplatu ili probno plaćanje koje postaje mesečno.</li>
       </ul>
     </article>
@@ -52,40 +52,40 @@ window.SCAM_CONTENT["parcel-scam"] = {
       <li data-sr="Idite direktno na sajt kurirske službe upisom adrese u pretragivač, ne klikom na link iz poruke." data-en="Go directly to the courier's website by typing the address in the browser, not by clicking the link in the message.">Idite direktno na sajt kurirske službe upisom adrese u pretragivač, ne klikom na link iz poruke.</li>
       <li data-sr="Unesite broj za praćenje koji je dat u poruci direktno na zvaničnom sajtu kurira da proverite da li je validan." data-en="Enter the tracking number given in the message directly on the courier's official site to check whether it is valid.">Unesite broj za praćenje koji je dat u poruci direktno na zvaničnom sajtu kurira da proverite da li je validan.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Nikad ne klikajte na link u SMS-u ili e-pošti od kurirske službe — idite direktno na sajt." data-en="Phase threshold: Never click a link in an SMS or email from a courier service — go directly to the site."><strong>Prag faze:</strong> Nikad ne klikajte na link u SMS-u ili e-pošti od kurirske službe — idite direktno na sajt.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Nikad ne klikajte na link u SMS-u ili e-pošti od kurirske službe — idite direktno na sajt." data-en="Phase threshold: Never click a link in an SMS or email from a courier service — go directly to the site."><strong>Prag faze:</strong> Nikad ne klikajte na link u SMS-u ili e-pošti od kurirske službe — idite direktno na sajt.</div>
   </div>
 
   <div class="phase">
     <div class="label" data-sr="Faza 2: Lažni sajt i zahtev za plaćanjem" data-en="Phase 2: Fake site and payment request">Faza 2: Lažni sajt i zahtev za plaćanjem</div>
-    <p data-sr="Link vodi na sajt koji izgleda identično DHL, FedEx, Post ili UPS sajtu. Sajt traži broj kartice za plaćanje „male naknade za ponovnu isporuku." data-en="The link leads to a site that looks identical to DHL, FedEx, Post, or UPS. The site requests a card number for payment of a 'small re-delivery fee.'">Link vodi na sajt koji izgleda identično DHL, FedEx, Post ili UPS sajtu. Sajt traži broj kartice za plaćanje „male naknade za ponovnu isporuku"“.</p>
+    <p data-sr="Link vodi na sajt koji izgleda identično DHL, FedEx, Post ili UPS sajtu. Sajt traži broj kartice za plaćanje male naknade za ponovnu isporuku." data-en="The link leads to a site that looks identical to DHL, FedEx, Post, or UPS. The site requests a card number for payment of a 'small re-delivery fee.">Link vodi na sajt koji izgleda identično DHL, FedEx, Post ili UPS sajtu. Sajt traži broj kartice za plaćanje male naknade za ponovnu isporuku.</p>
     <ul class="bullets">
       <li data-sr="Proverite URL adresu pažljivo — lažni domeni menjaju jedan karakter ili dodaju sufiks (dhl-delivery.com vs dhl.com)." data-en="Check the URL carefully — fake domains change one character or add a suffix (dhl-delivery.com vs dhl.com).">Proverite URL adresu pažljivo — lažni domeni menjaju jedan karakter ili dodaju sufiks (dhl-delivery.com vs dhl.com).</li>
       <li data-sr="Nikad ne unosite podatke o kartici na sajtu kom ste stigli putem linka iz SMS-a." data-en="Never enter card details on a site you reached via an SMS link.">Nikad ne unosite podatke o kartici na sajtu kom ste stigli putem linka iz SMS-a.</li>
       <li data-sr="Legitimne kurirske naknade se plaćaju pri isporuci gotovinom ili na zvaničnom sajtu — ne putem SMS linka." data-en="Legitimate courier fees are paid upon delivery in cash or on the official website — not via SMS link.">Legitimne kurirske naknade se plaćaju pri isporuci gotovinom ili na zvaničnom sajtu — ne putem SMS linka.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Svaki sajt koji ste dostigli klikom na SMS link koji traži podatke kartice je lažan — zatvorite odmah." data-en="Phase threshold: Any site reached by clicking an SMS link that requests card details is fake — close immediately."><strong>Prag faze:</strong> Svaki sajt koji ste dostigli klikom na SMS link koji traži podatke kartice je lažan — zatvorite odmah.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Svaki sajt koji ste dostigli klikom na SMS link koji traži podatke kartice je lažan — zatvorite odmah." data-en="Phase threshold: Any site reached by clicking an SMS link that requests card details is fake — close immediately."><strong>Prag faze:</strong> Svaki sajt koji ste dostigli klikom na SMS link koji traži podatke kartice je lažan — zatvorite odmah.</div>
   </div>
 
   <div class="phase">
     <div class="label" data-sr="Faza 3: Prikupljanje podataka o kartici" data-en="Phase 3: Card data collection">Faza 3: Prikupljanje podataka o kartici</div>
-    <p data-sr="Žrtva unosi broj kartice i CVV za „naknadu od 2 EUR“. Podaci se prikupljaju i koriste za veće kupovine ili prodaju na crnom tržištu." data-en="The victim enters the card number and CVV for a '2 EUR fee'. Data is collected and used for larger purchases or sold on the black market.">Žrtva unosi broj kartice i CVV za „naknadu od 2 EUR"“. Podaci se prikupljaju i koriste za veće kupovine ili prodaju na crnom tržištu.</p>
+    <p data-sr="Žrtva unosi broj kartice i CVV za naknadu od 2 EUR. Podaci se prikupljaju i koriste za veće kupovine ili prodaju na crnom tržištu." data-en="The victim enters the card number and CVV for a '2 EUR fee'. Data is collected and used for larger purchases or sold on the black market.">Žrtva unosi broj kartice i CVV za naknadu od 2 EUR. Podaci se prikupljaju i koriste za veće kupovine ili prodaju na crnom tržištu.</p>
     <ul class="bullets">
       <li data-sr="Blokirajte karticu odmah ako ste uneli podatke na sumnjivom sajtu — pozovite banku hitno." data-en="Block the card immediately if you entered details on a suspicious site — call the bank urgently.">Blokirajte karticu odmah ako ste uneli podatke na sumnjivom sajtu — pozovite banku hitno.</li>
       <li data-sr="Prevarant ne naplaćuje odmah malu naknadu — naplaćuje veće iznose satima ili danima posle." data-en="The fraudster does not immediately charge the small fee — they charge larger amounts hours or days later.">Prevarant ne naplaćuje odmah malu naknadu — naplaćuje veće iznose satima ili danima posle.</li>
       <li data-sr="Pratite sve transakcije na kartici odmah posle sumnjivog unosa podataka." data-en="Monitor all card transactions immediately after a suspicious data entry.">Pratite sve transakcije na kartici odmah posle sumnjivog unosa podataka.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Unos podataka kartice na lažnom sajtu — blokirajte karticu odmah, ne čekajte prvu lažnu transakciju." data-en="Phase threshold: Card data entry on a fake site — block the card immediately, do not wait for the first fraudulent transaction."><strong>Prag faze:</strong> Unos podataka kartice na lažnom sajtu — blokirajte karticu odmah, ne čekajte prvu lažnu transakciju.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Unos podataka kartice na lažnom sajtu — blokirajte karticu odmah, ne čekajte prvu lažnu transakciju." data-en="Phase threshold: Card data entry on a fake site — block the card immediately, do not wait for the first fraudulent transaction."><strong>Prag faze:</strong> Unos podataka kartice na lažnom sajtu — blokirajte karticu odmah, ne čekajte prvu lažnu transakciju.</div>
   </div>
 
   <div class="phase">
     <div class="label" data-sr="Faza 4: Malver varijanta" data-en="Phase 4: Malware variant">Faza 4: Malver varijanta</div>
     <p data-sr="Umesto sajta za plaćanje, link preuzima aplikaciju ili konfiguracioni profil koji instalira malver na uređaj žrtve. Malver prikuplja sve podatke za prijavu, bankovne podatke i lozinke." data-en="Instead of a payment site, the link downloads an application or configuration profile that installs malware on the victim's device. Malware collects all login data, bank data, and passwords.">Umesto sajta za plaćanje, link preuzima aplikaciju ili konfiguracioni profil koji instalira malver na uređaj žrtve. Malver prikuplja sve podatke za prijavu, bankovne podatke i lozinke.</p>
     <ul class="bullets">
-      <li data-sr="Nikad ne instalirајte aplikacije koje nisu u App Store ili Google Play na zahtev SMS-a." data-en="Never install applications not in the App Store or Google Play at the request of an SMS.">Nikad ne instalirajte aplikacije koje nisu u App Store ili Google Play na zahtev SMS-a.</li>
+      <li data-sr="Nikad ne instalirajte aplikacije koje nisu u App Store ili Google Play na zahtev SMS-a." data-en="Never install applications not in the App Store or Google Play at the request of an SMS.">Nikad ne instalirajte aplikacije koje nisu u App Store ili Google Play na zahtev SMS-a.</li>
       <li data-sr="Konfiguracioni profili na iOS-u koji se instaliraju van App Store-a mogu dati neautorizovan pristup uređaju." data-en="Configuration profiles on iOS installed outside the App Store can give unauthorized access to the device.">Konfiguracioni profili na iOS-u koji se instaliraju van App Store-a mogu dati neautorizovan pristup uređaju.</li>
       <li data-sr="Skenirajte uređaj mobilnim antivirusnim softverom ako ste kliknuli na sumnjivi link." data-en="Scan the device with mobile antivirus software if you clicked a suspicious link.">Skenirajte uređaj mobilnim antivirusnim softverom ako ste kliknuli na sumnjivi link.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Nikad ne instalirajte softver putem linka iz SMS-a ili e-pošte o kurirskim uslugama." data-en="Phase threshold: Never install software via a link from an SMS or email about courier services."><strong>Prag faze:</strong> Nikad ne instalirajte softver putem linka iz SMS-a ili e-pošte o kurirskim uslugama.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Nikad ne instalirajte softver putem linka iz SMS-a ili e-pošte o kurirskim uslugama." data-en="Phase threshold: Never install software via a link from an SMS or email about courier services."><strong>Prag faze:</strong> Nikad ne instalirajte softver putem linka iz SMS-a ili e-pošte o kurirskim uslugama.</div>
   </div>
 
   <div class="phase">
@@ -96,17 +96,17 @@ window.SCAM_CONTENT["parcel-scam"] = {
       <li data-sr="Promenite lozinke za sve onlajn servise koji su koristili isti e-mail ili telefon." data-en="Change passwords for all online services that used the same email or phone.">Promenite lozinke za sve onlajn servise koji su koristili isti e-mail ili telefon.</li>
       <li data-sr="Prijavite incident policiji s opisom lažnog SMS-a i dokumentacijom transakcija." data-en="Report the incident to the police with a description of the fake SMS and transaction documentation.">Prijavite incident policiji s opisom lažnog SMS-a i dokumentacijom transakcija.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Kontaktirajte banku odmah radi blokiranja kartice i chargeback-a za neautorizovane transakcije." data-en="Phase threshold: Contact the bank immediately to block the card and chargeback unauthorized transactions."><strong>Prag faze:</strong> Kontaktirajte banku odmah radi blokiranja kartice i chargeback-a za neautorizovane transakcije.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Kontaktirajte banku odmah radi blokiranja kartice i chargeback-a za neautorizovane transakcije." data-en="Phase threshold: Contact the bank immediately to block the card and chargeback unauthorized transactions."><strong>Prag faze:</strong> Kontaktirajte banku odmah radi blokiranja kartice i chargeback-a za neautorizovane transakcije.</div>
   </div>
 
   <div class="phase">
-    <div class="label" data-sr="Faza 6: Phishing drugi krug" data-en="Phase 6: Phishing second round">Faza 6: Phishing — drugi krug</div>
-    <p data-sr="E-mail adresa ili broj telefona žrtve je potvrđen kao aktivan. Žrtva može primiti novi val phishing poruka o 'vraćanju naplaćenog iznosa„ ili “verifikaciji naloga„." data-en="The victim“s email address or phone number is confirmed as active. The victim may receive a new wave of phishing messages about 'refunding the charged amount' or 'account verification.'">E-mail adresa ili broj telefona žrtve je potvrđen kao aktivan. Žrtva može primiti novi val phishing poruka o „vraćanju naplaćenog iznosa" ili „verifikaciji naloga"“.</p>
+    <div class="label" data-sr="Faza 6: Phishing — drugi krug" data-en="Phase 6: Phishing second round">Faza 6: Phishing — drugi krug</div>
+    <p data-sr="E-mail adresa ili broj telefona žrtve je potvrđen kao aktivan. Žrtva može primiti novi val phishing poruka o vraćanju naplaćenog iznosa ili verifikaciji naloga." data-en="The victims email address or phone number is confirmed as active. The victim may receive a new wave of phishing messages about 'refunding the charged amount' or 'account verification.">E-mail adresa ili broj telefona žrtve je potvrđen kao aktivan. Žrtva može primiti novi val phishing poruka o vraćanju naplaćenog iznosa ili verifikaciji naloga.</p>
     <ul class="bullets">
       <li data-sr="Svaka ponuda kompenzacije od naizgled iste kurirske službe je sekundarna prevara — ne odgovarajte." data-en="Any compensation offer from apparently the same courier service is a secondary fraud — do not respond.">Svaka ponuda kompenzacije od naizgled iste kurirske službe je sekundarna prevara — ne odgovarajte.</li>
       <li data-sr="Prijavite broj telefona ili e-mail adresu pošiljaoca operatoru ili platformi za SMS prevare." data-en="Report the sender's phone number or email address to the operator or SMS fraud platform.">Prijavite broj telefona ili e-mail adresu pošiljaoca operatoru ili platformi za SMS prevare.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Nova kompenzacijska ponuda od iste kurirske prevare je sekundarna prevara — blokirajte i prijavite broj." data-en="Phase threshold: A new compensation offer from the same courier fraud is a secondary fraud — block and report the number."><strong>Prag faze:</strong> Nova kompenzacijska ponuda od iste kurirske prevare je sekundarna prevara — blokirajte i prijavite broj.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Nova kompenzacijska ponuda od iste kurirske prevare je sekundarna prevara — blokirajte i prijavite broj." data-en="Phase threshold: A new compensation offer from the same courier fraud is a secondary fraud — block and report the number."><strong>Prag faze:</strong> Nova kompenzacijska ponuda od iste kurirske prevare je sekundarna prevara — blokirajte i prijavite broj.</div>
   </div>
 </section>
 
@@ -158,21 +158,13 @@ window.SCAM_CONTENT["parcel-scam"] = {
 <section class="content-section">
   <h2 data-sr="Ako pokušavaš da pomogneš nekome" data-en="If you are trying to help someone">Ako pokušavaš da pomogneš nekome</h2>
   <ul class="bullets">
-    <li data-sr="Pitaj: „Da li si kliknuo na link u SMS-u ili otišao direktno na sajt kurira?“" data-en="Ask: 'Did you click the link in the SMS or go directly to the courier's website?'">Pitaj: „Da li si kliknuo na link u SMS-u ili otišao direktno na sajt kurira?“</li>
-    <li data-sr="Pitaj: „Da li si uneo podatke kartice na sajtu koji si dostigao putem linka?“" data-en="Ask: 'Did you enter card details on the site you reached via the link?'">Pitaj: „Da li si uneo podatke kartice na sajtu koji si dostigao putem linka?“</li>
-    <li data-sr="Rečenice koje pomažu: „Legitimne kurirske službe nikad ne traže plaćanje putem SMS linka“.“ „Ako si uneo podatke kartice, pozovimo banku odmah i blokirajmo karticu“.“" data-en="Sentences that help: 'Legitimate courier services never request payment via SMS link.' 'If you entered card details, let's call the bank right now and block the card.'">Rečenice koje pomažu: „Legitimne kurirske službe nikad ne traže plaćanje putem SMS linka“.“ „Ako si uneo podatke kartice, pozovimo banku odmah i blokirajmo karticu“.“</li>
+    <li data-sr="Pitaj: Da li si kliknuo na link u SMS-u ili otišao direktno na sajt kurira?" data-en="Ask: Did you click the link in the SMS or go directly to the courier's website?">Pitaj: Da li si kliknuo na link u SMS-u ili otišao direktno na sajt kurira?</li>
+    <li data-sr="Pitaj: Da li si uneo podatke kartice na sajtu koji si dostigao putem linka?" data-en="Ask: Did you enter card details on the site you reached via the link?">Pitaj: Da li si uneo podatke kartice na sajtu koji si dostigao putem linka?</li>
+    <li data-sr="Rečenice koje pomažu: Legitimne kurirske službe nikad ne traže plaćanje putem SMS linka. Ako si uneo podatke kartice, pozovimo banku odmah i blokirajmo karticu." data-en="Sentences that help: Legitimate courier services never request payment via SMS link.' 'If you entered card details, let's call the bank right now and block the card.">Rečenice koje pomažu: Legitimne kurirske službe nikad ne traže plaćanje putem SMS linka. Ako si uneo podatke kartice, pozovimo banku odmah i blokirajmo karticu.</li>
     <li data-sr="Pomozi osobi da skenira uređaj i promeni lozinke odmah ako je kliknula na link." data-en="Help the person scan the device and change passwords immediately if they clicked the link.">Pomozi osobi da skenira uređaj i promeni lozinke odmah ako je kliknula na link.</li>
   </ul>
 </section>
 
-<section class="content-section">
-  <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-  <ul class="bullets">
-    <li><a href="package-redelivery-scam.html" data-sr="Prevara ponovnom dostavom paketa — varijanta istog modela" data-en="Package redelivery scam — variant of the same model">Prevara ponovnom dostavom paketa — varijanta istog modela</a></li>
-    <li><a href="smishing.html" data-sr="Smishing — SMS phishing širi kontekst" data-en="Smishing — SMS phishing broader context">Smishing — SMS phishing širi kontekst</a></li>
-    <li><a href="fake-delivery.html" data-sr="Prevara lažnom dostavom — lažni kurir na vašim vratima" data-en="Fake delivery scam — fake courier at your door">Prevara lažnom dostavom — lažni kurir na vašim vratima</a></li>
-    <li><a href="phishing.html" data-sr="Fišing — lažni sajtovi za prikupljanje podataka" data-en="Phishing — fake sites for data collection">Fišing — lažni sajtovi za prikupljanje podataka</a></li>
-  </ul>
-</section>
+
 `
 };

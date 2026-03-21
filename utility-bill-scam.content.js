@@ -1,12 +1,12 @@
-﻿window.SCAM_CONTENT = window.SCAM_CONTENT || {};
+window.SCAM_CONTENT = window.SCAM_CONTENT || {};
 
 window.SCAM_CONTENT["utility-bill-scam"] = {
   raw_html: `
     <section class="card">
       <h2 data-sr="Uvod: kako rade lažni računi za komunalne usluge" data-en="Introduction: how fake utility bill scams work">Uvod: kako rade lažni računi za komunalne usluge</h2>
-      <p data-sr="Lažni računi za komunalne usluge imitiraju račune elektrodistribucije, vodovoda, gasovoda ili daljinskog grejanja. Prevarant šalje pismo ili zove tvrdeći da postoji zaostali dug koji nije plaćen i da će usluga biti isključena u roku od 24–48 sati ako se ne izvrši hitna uplata. Uplatne instrukcije vode ka privatnom nalogu ili lažnom portalu, a ne ka žiro računu preduzeća." data-en="Fake utility bill scams imitate bills from electricity distribution, water supply, gas, or district heating companies. The fraudster sends a letter or calls claiming there is an overdue debt that has not been paid and the service will be disconnected within 24–48 hours unless an urgent payment is made. Payment instructions lead to a private account or fake portal, not to the utility company's official account.">Lažni komunalni računi imitiraju elektrodistribuciju, vodosnabdevanje ili grejanje. Prijetnja: isključenje za 24–48h. Uplatne instrukcije vode na lažni nalog.</p>
-      <p data-sr="Šema koristi ozbiljnost pretnje isključenja — bez struje, vode ili grejanja život postaje otežan odmah. Hitnost i konkretna prijetnja smanjuju vreme za proveru i navode žrtve da plate pre nego što plate da provjere." data-en="The scheme uses the seriousness of the disconnection threat — without electricity, water, or heating, life becomes immediately difficult. Urgency and the concrete threat reduce the time for verification and lead victims to pay before checking.">Prijetnja isključenjem je konkretna i hitna. Žrtve plaćaju pre provere jer su posledice vidljive odmah.</p>
-      <div class="callout" data-sr="<strong>Model:</strong> pismo ili poziv → komunalno preduzeće → zaostali dug → rok → prijetnja isključenjem → hitna uplata na lažni nalog." data-en="<strong>Model:</strong> letter or call → utility company → overdue debt → deadline → disconnection threat → urgent payment to fake account."><strong>Model:</strong> pismo ili poziv → komunalno preduzeće → zaostali dug → rok → prijetnja isključenjem → hitna uplata na lažni nalog.</div>
+      <p data-sr="Lažni komunalni računi imitiraju elektrodistribuciju, vodosnabdevanje ili grejanje. Pretnja: isključenje za 24–48h. Uplatne instrukcije vode na lažni nalog." data-en="Fake utility bill scams imitate bills from electricity distribution, water supply, gas, or district heating companies. The fraudster sends a letter or calls claiming there is an overdue debt that has not been paid and the service will be disconnected within 24–48 hours unless an urgent payment is made. Payment instructions lead to a private account or fake portal, not to the utility company's official account.">Lažni komunalni računi imitiraju elektrodistribuciju, vodosnabdevanje ili grejanje. Pretnja: isključenje za 24–48h. Uplatne instrukcije vode na lažni nalog.</p>
+      <p data-sr="Pretnja isključenjem je konkretna i hitna. Žrtve plaćaju pre provere jer su posledice vidljive odmah." data-en="The scheme uses the seriousness of the disconnection threat — without electricity, water, or heating, life becomes immediately difficult. Urgency and the concrete threat reduce the time for verification and lead victims to pay before checking.">Pretnja isključenjem je konkretna i hitna. Žrtve plaćaju pre provere jer su posledice vidljive odmah.</p>
+      <div class="callout" data-sr="<strong>Model:</strong> pismo ili poziv → komunalno preduzeće → zaostali dug → rok → pretnja isključenjem → hitna uplata na lažni nalog." data-en="<strong>Model:</strong> letter or call → utility company → overdue debt → deadline → disconnection threat → urgent payment to fake account."><strong>Model:</strong> pismo ili poziv → komunalno preduzeće → zaostali dug → rok → pretnja isključenjem → hitna uplata na lažni nalog.</div>
       <div class="callout" data-sr="<strong>Prag:</strong> meta prima poslednje upozorenje o isključenju usluge uz nalog za hitnu uplatu." data-en="<strong>Threshold:</strong> the target receives a final disconnection warning with an urgent payment order."><strong>Prag:</strong> meta prima poslednje upozorenje o isključenju usluge uz nalog za hitnu uplatu.</div>
     </section>
 
@@ -28,18 +28,18 @@ window.SCAM_CONTENT["utility-bill-scam"] = {
             <li data-sr="rok 24–48 sati do isključenja — tehnički tačan u nekim situacijama, što povećava ubedljivost." data-en="24–48 hour deadline to disconnection — technically accurate in some situations, which increases credibility.">rok 24–48 sati do isključenja — tehnički tačan u nekim situacijama, što povećava ubedljivost.</li>
             <li data-sr="uplatne instrukcije koje se razlikuju od standardnih uplatnica komunalnog preduzeća." data-en="payment instructions that differ from the utility company's standard payment slips.">uplatne instrukcije koje se razlikuju od standardnih uplatnica komunalnog preduzeća.</li>
             <li data-sr="opcija hitne uplate telefonom karticom ili putem dostavljenog linka." data-en="option for immediate card payment by phone or via the provided link.">opcija hitne uplate telefonom karticom ili putem dostavljenog linka.</li>
-            <li data-sr="prijetnja penalima za troškove ponovnog priključenja posle isključenja." data-en="threat of penalties for reconnection costs after disconnection.">prijetnja penalima za troškove ponovnog priključenja posle isključenja.</li>
+            <li data-sr="pretnja penalima za troškove ponovnog priključenja posle isključenja." data-en="threat of penalties for reconnection costs after disconnection.">pretnja penalima za troškove ponovnog priključenja posle isključenja.</li>
           </ul>
         </div>
       </div>
     </section>
 
     <section class="card">
-      <h2 data-sr="Hronološki tok (faze + evolucije)." data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
+      <h2 data-sr="Hronološki tok (faze + evolucije)" data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
 
       <article class="phase">
         <h3 class="phase-title" data-sr="Faza 1 — Pismo o zaostalom dugu" data-en="Phase 1 — Overdue debt letter">Faza 1 — Pismo o zaostalom dugu</h3>
-        <p data-sr="Meta prima pismo s logotipom komunalnog preduzeća. Pismo tvrdi da postoji zaostali dug koji nije plaćen i da je ovo poslednje obaveštenje pre isključenja. Iznos duga je konkretan i u realnom opsegu za vrstu usluge." data-en="The target receives a letter with the utility company's logo. The letter claims there is an overdue debt that has not been paid and this is the final notice before disconnection. The debt amount is specific and in a realistic range for the type of service.">Pismo s logotipom komunalnog preduzeća. Zaostali dug, poslednje obaveštenje pre isključenja. Iznos je realan.</p>
+        <p data-sr="Pismo s logotipom komunalnog preduzeća. Zaostali dug, poslednje obaveštenje pre isključenja. Iznos je realan." data-en="The target receives a letter with the utility company's logo. The letter claims there is an overdue debt that has not been paid and this is the final notice before disconnection. The debt amount is specific and in a realistic range for the type of service.">Pismo s logotipom komunalnog preduzeća. Zaostali dug, poslednje obaveštenje pre isključenja. Iznos je realan.</p>
         <ul class="bullets">
           <li data-sr="signal: uplatne instrukcije u pismu se razlikuju od onih na redovnim mesečnim računima." data-en="signal: payment instructions in the letter differ from those on regular monthly bills.">signal: uplatne instrukcije u pismu se razlikuju od onih na redovnim mesečnim računima.</li>
           <li data-sr="signal: pismo ne sadrži QR kod za plaćanje koji je u skladu s uplatnicama kompanije." data-en="signal: the letter does not contain a QR code consistent with the company's payment slips.">signal: pismo ne sadrži QR kod za plaćanje koji je u skladu s uplatnicama kompanije.</li>
@@ -49,7 +49,7 @@ window.SCAM_CONTENT["utility-bill-scam"] = {
 
       <article class="phase warn">
         <h3 class="phase-title" data-sr="Faza 2 — Telefonski poziv s urgentnim zahtevom" data-en="Phase 2 — Phone call with urgent demand">Faza 2 — Telefonski poziv s urgentnim zahtevom</h3>
-        <p data-sr="U telefonskoj varijanti prevarant zove u ime komunalnog preduzeća s istim zahtevom. Poziv dolazi u radno vreme radi verodostojnosti. Prevarant nudi hitno plaćanje karticom tokom poziva ili šalje link SMS-om posle razgovora." data-en="In the phone variant, the fraudster calls on behalf of the utility company with the same demand. The call comes during business hours for credibility. The fraudster offers immediate card payment during the call or sends a link by SMS after the conversation.">Telefonska varijanta: poziv u radno vreme, kartica tokom poziva ili SMS link posle razgovora.</p>
+        <p data-sr="Telefonska varijanta: poziv u radno vreme, kartica tokom poziva ili SMS link posle razgovora." data-en="In the phone variant, the fraudster calls on behalf of the utility company with the same demand. The call comes during business hours for credibility. The fraudster offers immediate card payment during the call or sends a link by SMS after the conversation.">Telefonska varijanta: poziv u radno vreme, kartica tokom poziva ili SMS link posle razgovora.</p>
         <ul class="bullets">
           <li data-sr="signal: komunalno preduzeće ne naplaćuje račune telefonom u hitnom roku od 24h." data-en="signal: utility companies do not collect bills by phone on a 24-hour urgent basis.">signal: komunalno preduzeće ne naplaćuje račune telefonom u hitnom roku od 24h.</li>
           <li data-sr="signal: kartica se ne sme davati telefonom nikome ko nije identifikovan kroz zvanični sistem." data-en="signal: a card must not be given over the phone to anyone not identified through an official system.">signal: kartica se ne sme davati telefonom nikome ko nije identifikovan kroz zvanični sistem.</li>
@@ -65,8 +65,8 @@ window.SCAM_CONTENT["utility-bill-scam"] = {
 
       <article class="phase bad">
         <h3 class="phase-title" data-sr="Faza 3 — Lažni portal ili uplata" data-en="Phase 3 — Fake portal or payment">Faza 3 — Lažni portal ili uplata</h3>
-        <p data-sr="Meta klikne link i dođe do portala koji imitira sajt komunalnog preduzeća ili unese karticne podatke tokom telefonskog poziva. Podaci idu prevarantu. Usluga se nastavlja normalno — jer dug nikad nije postojao." data-en="The target clicks the link and arrives at a portal imitating the utility company's website, or enters card details during the phone call. Data goes to the fraudster. The service continues normally — because the debt never existed.">Meta plaća ili predaje podatke kartice. Usluga se nastavlja normalno jer dug nikad nije ni postojao.</p>
-        <div class="callout" data-sr="<strong>Indikator:</strong> komunalni dug se uvek može proveriti na korisničkom portalu preduzeća ili pozivom kol centra. Isključenje bez pisanog rešenja s rokom žalbe nije legalna procedura." data-en="<strong>Indicator:</strong> a utility debt can always be verified on the company's customer portal or by calling their call center. Disconnection without a written decision with appeal deadline is not legal procedure."><strong>Indikator:</strong> komunalni dug se uvek može proveriti na korisničkom portalu preduzeća. Isključenje bez pisanog rešenja s rokom žalbe nije legalna procedura.</div>
+        <p data-sr="Meta plaća ili predaje podatke kartice. Usluga se nastavlja normalno jer dug nikad nije ni postojao." data-en="The target clicks the link and arrives at a portal imitating the utility company's website, or enters card details during the phone call. Data goes to the fraudster. The service continues normally — because the debt never existed.">Meta plaća ili predaje podatke kartice. Usluga se nastavlja normalno jer dug nikad nije ni postojao.</p>
+        <div class="callout" data-sr="<strong>Indikator:</strong> komunalni dug se uvek može proveriti na korisničkom portalu preduzeća. Isključenje bez pisanog rešenja s rokom žalbe nije legalna procedura." data-en="<strong>Indicator:</strong> a utility debt can always be verified on the company's customer portal or by calling their call center. Disconnection without a written decision with appeal deadline is not legal procedure."><strong>Indikator:</strong> komunalni dug se uvek može proveriti na korisničkom portalu preduzeća. Isključenje bez pisanog rešenja s rokom žalbe nije legalna procedura.</div>
       </article>
     </section>
 
@@ -129,15 +129,6 @@ window.SCAM_CONTENT["utility-bill-scam"] = {
       </div>
     </section>
 
-    <section class="card sources" id="sources">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <ul class="bullets">
-        <li><a href="government-impersonation.html" data-sr="Lažno predstavljanje državnih organa" data-en="Government impersonation scams">Lažno predstavljanje državnih organa</a></li>
-        <li><a href="energy-supplier-switch-scam.html" data-sr="Prevare pri prelasku na drugog dobavljača energije" data-en="Energy supplier switch scams">Prevare pri prelasku na drugog dobavljača energije</a></li>
-        <li><a href="telecom-contract-scam.html" data-sr="Prevare pri obnovi telekomunikacionih ugovora" data-en="Telecom contract renewal scams">Prevare pri obnovi telekomunikacionih ugovora</a></li>
-        <li><a href="municipality-impersonation.html" data-sr="Lažno predstavljanje opštinskih organa" data-en="Municipality impersonation scams">Lažno predstavljanje opštinskih organa</a></li>
-        <li><a href="phishing.html" data-sr="Fišing" data-en="Fišing">Fišing</a></li>
-      </ul>
-    </section>
+    
   `
 };

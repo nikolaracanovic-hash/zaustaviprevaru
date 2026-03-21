@@ -9,24 +9,24 @@ window.SCAM_CONTENT["recovery-scam"] = {
       </h2>
 
       <p
-        data-sr="Prevara povraćaja cilja ljude posle gubitka. Ulaz je potreba za poništenjem štete: povrat novca, povrat naloga, „zamrznuta sredstva“, „refund“, „chargeback pomoć“, „tracing“. Ponuda deluje kao izlaz, ali mehanika ostaje ista: uplata unapred kao uslov za „postupak“. U praksi, recovery prevara nastavlja tamo gde je prethodna stala: meta je već u režimu rešavanja problema, samo se promeni kostim."
-        data-en="Recovery scams target people after a loss. The entry point is the need to undo damage: getting money back, restoring accounts, “frozen funds”, “refund”, “chargeback help”, “tracing”. The offer feels like an exit, but the mechanism stays the same: upfront payment as a condition for the “process”. In practice, recovery scams continue where the previous scam stopped: the target is already in problem-solving mode, only the costume changes."
-      >Prevara povraćaja cilja ljude posle gubitka. Ulaz je potreba za poništenjem štete: povrat novca, povrat naloga, „zamrznuta sredstva“, „refund“, „chargeback pomoć“, „tracing“. Ponuda deluje kao izlaz, ali mehanika ostaje ista: uplata unapred kao uslov za „postupak“. U praksi, recovery prevara nastavlja tamo gde je prethodna stala: meta je već u režimu rešavanja problema, samo se promeni kostim.</p>
+        data-sr="Prevara povraćaja cilja ljude posle gubitka. Ulaz je potreba za poništenjem štete: povrat novca, povrat naloga, zamrznuta sredstva, refund, chargeback pomoć, tracing. Ponuda deluje kao izlaz, ali mehanika ostaje ista: uplata unapred kao uslov za postupak. U praksi, recovery prevara nastavlja tamo gde je prethodna stala: meta je već u režimu rešavanja problema, samo se promeni kostim."
+        data-en="Recovery scams target people after a loss. The entry point is the need to undo damage: getting money back, restoring accounts, frozen funds, refund, chargeback help, tracing. The offer feels like an exit, but the mechanism stays the same: upfront payment as a condition for the process. In practice, recovery scams continue where the previous scam stopped: the target is already in problem-solving mode, only the costume changes."
+      >Prevara povraćaja cilja ljude posle gubitka. Ulaz je potreba za poništenjem štete: povrat novca, povrat naloga, zamrznuta sredstva, refund, chargeback pomoć, tracing. Ponuda deluje kao izlaz, ali mehanika ostaje ista: uplata unapred kao uslov za postupak. U praksi, recovery prevara nastavlja tamo gde je prethodna stala: meta je već u režimu rešavanja problema, samo se promeni kostim.</p>
 
       <p
-        data-sr="Recovery se pojavljuje posle skoro svih većih prevara: crypto investicionih prevara, advance-fee serija, lažnih poziva, marketplace napada i fišing preuzimanja naloga. Recovery kontakt često koristi delove prethodnog incidenta: iznos, naziv platforme, datum, kanal komunikacije, broj poruke, TXID ili screenshot. Taj detalj stvara utisak da je kontakt „stručan“ i da „radi na slučaju."
-        data-en="Recovery appears after most major scams: crypto investment fraud, advance-fee series, fake calls, marketplace attacks, and phishing takeovers. A recovery contact often uses fragments of the earlier incident: amount, platform name, date, communication channel, message reference, TXID, or screenshots. That detail creates the impression that the contact is “expert” and “working your case”."
-      >Recovery se pojavljuje posle skoro svih većih prevara: crypto investicionih prevara, advance-fee serija, lažnih poziva, marketplace napada i fišing preuzimanja naloga. Recovery kontakt često koristi delove prethodnog incidenta: iznos, naziv platforme, datum, kanal komunikacije, broj poruke, TXID ili screenshot. Taj detalj stvara utisak da je kontakt „stručan“ i da „radi na slučaju“.</p>
+        data-sr="Recovery se pojavljuje posle skoro svih većih prevara: crypto investicionih prevara, advance-fee serija, lažnih poziva, marketplace napada i fišing preuzimanja naloga. Recovery kontakt često koristi delove prethodnog incidenta: iznos, naziv platforme, datum, kanal komunikacije, broj poruke, TXID ili screenshot. Taj detalj stvara utisak da je kontakt stručan i da radi na slučaju."
+        data-en="Recovery appears after most major scams: crypto investment fraud, advance-fee series, fake calls, marketplace attacks, and phishing takeovers. A recovery contact often uses fragments of the earlier incident: amount, platform name, date, communication channel, message reference, TXID, or screenshots. That detail creates the impression that the contact is expert and working your case."
+      >Recovery se pojavljuje posle skoro svih većih prevara: crypto investicionih prevara, advance-fee serija, lažnih poziva, marketplace napada i fišing preuzimanja naloga. Recovery kontakt često koristi delove prethodnog incidenta: iznos, naziv platforme, datum, kanal komunikacije, broj poruke, TXID ili screenshot. Taj detalj stvara utisak da je kontakt stručan i da radi na slučaju.</p>
 
       <p
-        data-sr="Najopasniji deo recovery prevare je promena okvira: gubitak prestaje da bude incident i postaje procedura. Meta dobija osećaj da postoji put nazad kroz „par formalnosti“. Svaka formalnost ima cenu, a cena se pojavi pre rezultata."
-        data-en="The most dangerous part is the frame shift: a loss stops being an incident and becomes a procedure. The target feels there is a path back through “a few formalities”. Each formality has a price, and the price appears before results."
-      >Najopasniji deo recovery prevare je promena okvira: gubitak prestaje da bude incident i postaje procedura. Meta dobija osećaj da postoji put nazad kroz „par formalnosti“. Svaka formalnost ima cenu, a cena se pojavi pre rezultata.</p>
+        data-sr="Najopasniji deo recovery prevare je promena okvira: gubitak prestaje da bude incident i postaje procedura. Meta dobija osećaj da postoji put nazad kroz par formalnosti. Svaka formalnost ima cenu, a cena se pojavi pre rezultata."
+        data-en="The most dangerous part is the frame shift: a loss stops being an incident and becomes a procedure. The target feels there is a path back through a few formalities. Each formality has a price, and the price appears before results."
+      >Najopasniji deo recovery prevare je promena okvira: gubitak prestaje da bude incident i postaje procedura. Meta dobija osećaj da postoji put nazad kroz par formalnosti. Svaka formalnost ima cenu, a cena se pojavi pre rezultata.</p>
 
       <div class="callout"
-        data-sr="<strong>Prag:</strong> prva uplata „za postupak“. Posle praga kreće serija novih taksi i „još jedan korak."
-        data-en="<strong>Threshold:</strong> the first “process fee”. After the threshold, a series of new fees and “one more step” begins."
-      ><strong>Prag:</strong> prva uplata „za postupak“. Posle praga kreće serija novih taksi i „još jedan korak“.</div>
+        data-sr="<strong>Prag:</strong> prva uplata za postupak. Posle praga kreće serija novih taksi i još jedan korak."
+        data-en="<strong>Threshold:</strong> the first process fee. After the threshold, a series of new fees and one more step begins."
+      ><strong>Prag:</strong> prva uplata za postupak. Posle praga kreće serija novih taksi i još jedan korak.</div>
 
       <div class="callout"
         data-sr="<strong>Filter:</strong> povrat + uplata unapred = obrazac."
@@ -41,18 +41,18 @@ window.SCAM_CONTENT["recovery-scam"] = {
       </h2>
 
       <p
-        data-sr="Posle prevare meta često ulazi u tunelski fokus: povrat deluje kao jedina stvar koja ispravlja situaciju. U tom stanju proceduralni jezik deluje kao put ka izlazu, a autoritet deluje kao rešenje. Prevara povraćaja koristi i sram: meta želi da reši problem bez širenja priče, pa traži brzi, tihi izlaz. To se pretvara u preduslov: „ne pričajte nikome dok traže postupak."
-        data-en="After a scam, targets often enter tunnel focus: recovery feels like the only thing that fixes the situation. In that state, procedural language feels like a path out and authority feels like a solution. Recovery also exploits shame: the target wants a fast, quiet exit without telling others. Recovery turns that into a condition: “don’t tell anyone while the process runs”."
-      >Posle prevare meta često ulazi u tunelski fokus: povrat deluje kao jedina stvar koja ispravlja situaciju. U tom stanju proceduralni jezik deluje kao put ka izlazu, a autoritet deluje kao rešenje. Prevara povraćaja koristi i sram: meta želi da reši problem bez širenja priče, pa traži brzi, tihi izlaz. To se pretvara u preduslov: „ne pričajte nikome dok traže postupak“.</p>
+        data-sr="Posle prevare meta često ulazi u tunelski fokus: povrat deluje kao jedina stvar koja ispravlja situaciju. U tom stanju proceduralni jezik deluje kao put ka izlazu, a autoritet deluje kao rešenje. Prevara povraćaja koristi i sram: meta želi da reši problem bez širenja priče, pa traži brzi, tihi izlaz. To se pretvara u preduslov: ne pričajte nikome dok traže postupak."
+        data-en="After a scam, targets often enter tunnel focus: recovery feels like the only thing that fixes the situation. In that state, procedural language feels like a path out and authority feels like a solution. Recovery also exploits shame: the target wants a fast, quiet exit without telling others. Recovery turns that into a condition: don’t tell anyone while the process runs."
+      >Posle prevare meta često ulazi u tunelski fokus: povrat deluje kao jedina stvar koja ispravlja situaciju. U tom stanju proceduralni jezik deluje kao put ka izlazu, a autoritet deluje kao rešenje. Prevara povraćaja koristi i sram: meta želi da reši problem bez širenja priče, pa traži brzi, tihi izlaz. To se pretvara u preduslov: ne pričajte nikome dok traže postupak.</p>
 
       <div class="grid-2">
         <div class="phase">
           <div class="label" data-sr="What the target often thinks" data-en="What the target often thinks">What the target often thinks</div>
           <ul class="bullets">
-            <li data-sr="„bar da vratim deo." data-en="“at least recover a part”">„bar da vratim deo“.</li>
-            <li data-sr="„ovo je administracija, mora." data-en="“this is admin, it must be done”">„ovo je administracija, mora“.</li>
-            <li data-sr="„oni već znaju detalje." data-en="“they already know the details”">„oni već znaju detalje“.</li>
-            <li data-sr="„ovaj put je stvarno službeno." data-en="“this time it’s truly official”">„ovaj put je stvarno službeno“.</li>
+            <li data-sr="bar da vratim deo." data-en="at least recover a part">bar da vratim deo.</li>
+            <li data-sr="ovo je administracija, mora." data-en="this is admin, it must be done">ovo je administracija, mora.</li>
+            <li data-sr="oni već znaju detalje." data-en="they already know the details">oni već znaju detalje.</li>
+            <li data-sr="ovaj put je stvarno službeno." data-en="this time it’s truly official">ovaj put je stvarno službeno.</li>
           </ul>
         </div>
 
@@ -91,20 +91,20 @@ window.SCAM_CONTENT["recovery-scam"] = {
         </h3>
 
         <p
-          data-sr="Kontakt stiže kao poruka, imejl, poziv ili novi profil. Tema je povrat: „refund“, „recovery“, „case“, „tracing“, „chargeback“. Ulaz često izgleda kao pomoć, ne kao prodaja, jer meta već želi izlaz."
-          data-en="The contact arrives as a message, email, call, or a new profile. The theme is recovery: “refund”, “recovery”, “case”, “tracing”, “chargeback”. Entry often looks like help, not selling, because the target already wants an exit."
-        >Kontakt stiže kao poruka, imejl, poziv ili novi profil. Tema je povrat: „refund“, „recovery“, „case“, „tracing“, „chargeback“. Ulaz često izgleda kao pomoć, ne kao prodaja, jer meta već želi izlaz.</p>
+          data-sr="Kontakt stiže kao poruka, imejl, poziv ili novi profil. Tema je povrat: refund, recovery, case, tracing, chargeback. Ulaz često izgleda kao pomoć, ne kao prodaja, jer meta već želi izlaz."
+          data-en="The contact arrives as a message, email, call, or a new profile. The theme is recovery: refund, recovery, case, tracing, chargeback. Entry often looks like help, not selling, because the target already wants an exit."
+        >Kontakt stiže kao poruka, imejl, poziv ili novi profil. Tema je povrat: refund, recovery, case, tracing, chargeback. Ulaz često izgleda kao pomoć, ne kao prodaja, jer meta već želi izlaz.</p>
 
         <ul class="bullets">
           <li data-sr="signal: kontakt zna detalje incidenta bez jasnog izvora." data-en="signal: contact knows incident details without a clear source.">signal: kontakt zna detalje incidenta bez jasnog izvora.</li>
           <li data-sr="signal: ponuda brzog povrata uz kratke rokove." data-en="signal: fast recovery promise with short deadlines.">signal: ponuda brzog povrata uz kratke rokove.</li>
-          <li data-sr="signal: predlog tajnosti kao „uslov postupka." data-en="signal: secrecy framed as a “process requirement”">signal: predlog tajnosti kao „uslov postupka“.</li>
+          <li data-sr="signal: predlog tajnosti kao uslov postupka." data-en="signal: secrecy framed as a process requirement">signal: predlog tajnosti kao uslov postupka.</li>
         </ul>
 
         <div class="callout"
-          data-sr="<strong>Prag faze:</strong> meta pristaje da uđe u „postupak“ pre nego što proveri identitet."
-          data-en="<strong>Threshold:</strong> the target agrees to enter a “procedure” before verifying identity."
-        ><strong>Prag faze:</strong> meta pristaje da uđe u „postupak“ pre nego što proveri identitet.</div>
+          data-sr="<strong>Prag faze:</strong> meta pristaje da uđe u postupak pre nego što proveri identitet."
+          data-en="<strong>Threshold:</strong> the target agrees to enter a procedure before verifying identity."
+        ><strong>Prag faze:</strong> meta pristaje da uđe u postupak pre nego što proveri identitet.</div>
       </article>
 
       <!-- FAZA 2 -->
@@ -114,9 +114,9 @@ window.SCAM_CONTENT["recovery-scam"] = {
         </h3>
 
         <p
-          data-sr="Slede pitanja koja izgledaju kao priprema slučaja: iznos, datum, platforma, kanal (kripto/kartica/banka), TXID, screenshot. Funkcija pitanja je procena profila mete i priprema priče o „taksi."
+          data-sr="Slede pitanja koja izgledaju kao priprema slučaja: iznos, datum, platforma, kanal (kripto/kartica/banka), TXID, screenshot. Funkcija pitanja je procena profila mete i priprema priče o taksi."
           data-en="Next come questions that look like case preparation: amount, date, platform, rail (crypto/card/bank), TXID, screenshots. The function is to profile the target and prepare the fee narrative."
-        >Slede pitanja koja izgledaju kao priprema slučaja: iznos, datum, platforma, kanal (kripto/kartica/banka), TXID, screenshot. Funkcija pitanja je procena profila mete i priprema priče o „taksi“.</p>
+        >Slede pitanja koja izgledaju kao priprema slučaja: iznos, datum, platforma, kanal (kripto/kartica/banka), TXID, screenshot. Funkcija pitanja je procena profila mete i priprema priče o taksi.</p>
 
         <div class="grid-2">
           <div class="phase">
@@ -134,8 +134,8 @@ window.SCAM_CONTENT["recovery-scam"] = {
             <ul class="bullets">
               <li data-sr="procenu koliko meta može još da uplati." data-en="estimate how much more the target can pay.">procenu koliko meta može još da uplati.</li>
               <li data-sr="izbor maske: advokat, regulator, forenzika." data-en="choose a costume: lawyer, regulator, forensics.">izbor maske: advokat, regulator, forenzika.</li>
-              <li data-sr="materijal za autoritet: „case number“, „report." data-en="authority props: “case number”, “report”">materijal za autoritet: „case number“, „report“.</li>
-              <li data-sr="polugu tajnosti: „ne delite detalje." data-en="secrecy leverage: “do not share details”">polugu tajnosti: „ne delite detalje“.</li>
+              <li data-sr="materijal za autoritet: case number, report." data-en="authority props: case number, report">materijal za autoritet: case number, report.</li>
+              <li data-sr="polugu tajnosti: ne delite detalje." data-en="secrecy leverage: do not share details">polugu tajnosti: ne delite detalje.</li>
             </ul>
           </div>
         </div>
@@ -153,18 +153,18 @@ window.SCAM_CONTENT["recovery-scam"] = {
         >Prva taksa se uvodi kao proceduralna stavka: naknada za obradu, izveštaj, predmet ili verifikaciju. Iznos često deluje izvodljivo u odnosu na gubitak, jer cilj nije jednokratna uplata, već otvaranje serije.</p>
 
         <ul class="bullets">
-          <li data-sr="forma: „bez ove takse postupak ne može da krene." data-en="frame: “without this fee the process cannot start”">forma: „bez ove takse postupak ne može da krene“.</li>
-          <li data-sr="rok: „danas“, „pre zatvaranja slučaja." data-en="deadline: “today”, “before the case closes”">rok: „danas“, „pre zatvaranja slučaja“.</li>
-          <li data-sr="obećanje: „posle takse ide oslobađanje sredstava." data-en="promise: “after the fee comes release”">obećanje: „posle takse ide oslobađanje sredstava“.</li>
+          <li data-sr="forma: bez ove takse postupak ne može da krene." data-en="frame: without this fee the process cannot start">forma: bez ove takse postupak ne može da krene.</li>
+          <li data-sr="rok: danas, pre zatvaranja slučaja." data-en="deadline: today, before the case closes">rok: danas, pre zatvaranja slučaja.</li>
+          <li data-sr="obećanje: posle takse ide oslobađanje sredstava." data-en="promise: after the fee comes release">obećanje: posle takse ide oslobađanje sredstava.</li>
         </ul>
 
         <div class="branch">
           <p><strong data-sr="Grananje: tipovi prvih taksi" data-en="Branching: first-fee types">Grananje: tipovi prvih taksi</strong></p>
           <ul class="bullets">
-            <li data-sr="„report fee“: prodaja izveštaja kao usluge." data-en="“report fee”: selling a report as a service.">„report fee“: prodaja izveštaja kao usluge.</li>
-            <li data-sr="„case fee“: izmišljeni slučaj i broj predmeta." data-en="“case fee”: fake case and case number.">„case fee“: izmišljeni slučaj i broj predmeta.</li>
-            <li data-sr="„verification fee“: validacija identiteta kao prepreka." data-en="“verification fee”: identity validation as obstacle.">„verification fee“: validacija identiteta kao prepreka.</li>
-            <li data-sr="„tax clearance“: porez kao formalni uslov." data-en="“tax clearance”: tax as formal condition.">„tax clearance“: porez kao formalni uslov.</li>
+            <li data-sr="report fee: prodaja izveštaja kao usluge." data-en="report fee: selling a report as a service.">report fee: prodaja izveštaja kao usluge.</li>
+            <li data-sr="case fee: izmišljeni slučaj i broj predmeta." data-en="case fee: fake case and case number.">case fee: izmišljeni slučaj i broj predmeta.</li>
+            <li data-sr="verification fee: validacija identiteta kao prepreka." data-en="verification fee: identity validation as obstacle.">verification fee: validacija identiteta kao prepreka.</li>
+            <li data-sr="tax clearance: porez kao formalni uslov." data-en="tax clearance: tax as formal condition.">tax clearance: porez kao formalni uslov.</li>
           </ul>
         </div>
       </article>
@@ -197,7 +197,7 @@ window.SCAM_CONTENT["recovery-scam"] = {
             <ul class="bullets">
               <li data-sr="rokovi se skraćuju." data-en="deadlines shrink.">rokovi se skraćuju.</li>
               <li data-sr="ton postaje formalniji i stroži." data-en="tone becomes more formal and strict.">ton postaje formalniji i stroži.</li>
-              <li data-sr="uvodi se nova osoba: „senior agent." data-en="a new person enters: “senior agent”">uvodi se nova osoba: „senior agent“.</li>
+              <li data-sr="uvodi se nova osoba: senior agent." data-en="a new person enters: senior agent">uvodi se nova osoba: senior agent.</li>
               <li data-sr="prelazak na poziv radi kontrole tempa." data-en="switch to calls for pace control.">prelazak na poziv radi kontrole tempa.</li>
             </ul>
           </div>
@@ -219,9 +219,9 @@ window.SCAM_CONTENT["recovery-scam"] = {
         </h3>
 
         <p
-          data-sr="Kada se pojavi sumnja, uvodi se autoritet: „advokat“, „regulator“, „forenzika“, „bankarska usklađenost“. Često stiže PDF, logo, broj predmeta, portal ili imejl sa sličnim domenom. Forma izgleda kao legitimna administracija, ali funkcija ostaje finansijska: nova uplata."
-          data-en="When doubt appears, authority is introduced: “lawyer”, “regulator”, “forensics”, “bank compliance”. PDFs, logos, case numbers, portals, look-alike domains often appear. The form looks like legitimate administration, but the function remains financial: another payment."
-        >Kada se pojavi sumnja, uvodi se autoritet: „advokat“, „regulator“, „forenzika“, „bankarska usklađenost“. Često stiže PDF, logo, broj predmeta, portal ili imejl sa sličnim domenom. Forma izgleda kao legitimna administracija, ali funkcija ostaje finansijska: nova uplata.</p>
+          data-sr="Kada se pojavi sumnja, uvodi se autoritet: advokat, regulator, forenzika, bankarska usklađenost. Često stiže PDF, logo, broj predmeta, portal ili imejl sa sličnim domenom. Forma izgleda kao legitimna administracija, ali funkcija ostaje finansijska: nova uplata."
+          data-en="When doubt appears, authority is introduced: lawyer, regulator, forensics, bank compliance. PDFs, logos, case numbers, portals, look-alike domains often appear. The form looks like legitimate administration, but the function remains financial: another payment."
+        >Kada se pojavi sumnja, uvodi se autoritet: advokat, regulator, forenzika, bankarska usklađenost. Često stiže PDF, logo, broj predmeta, portal ili imejl sa sličnim domenom. Forma izgleda kao legitimna administracija, ali funkcija ostaje finansijska: nova uplata.</p>
 
         <div class="callout"
           data-sr="<strong>Tehnički filter:</strong> logo nije dokaz. Domen i nezavisna provera su dokaz."
@@ -236,9 +236,9 @@ window.SCAM_CONTENT["recovery-scam"] = {
         </h3>
 
         <p
-          data-sr="Ako meta uplati, a rezultat izostane, pojavljuje se novi identitet sa novim objašnjenjem: „prethodni agent je pogrešio“, „potreban je viši nivo“, „sad ide stvarni postupak“. Time se prevara povraćaja pretvara u tok prevare povraćaja na prevaru povraćaja."
-          data-en="If the target pays and results don’t appear, a new identity arrives with a new explanation: “the previous agent made a mistake”, “a higher tier is required”, “now the real process starts”. Recovery turns into a recovery-of-recovery loop."
-        >Ako meta uplati, a rezultat izostane, pojavljuje se novi identitet sa novim objašnjenjem: „prethodni agent je pogrešio“, „potreban je viši nivo“, „sad ide stvarni postupak“. Time se prevara povraćaja pretvara u tok prevare povraćaja na prevaru povraćaja.</p>
+          data-sr="Ako meta uplati, a rezultat izostane, pojavljuje se novi identitet sa novim objašnjenjem: prethodni agent je pogrešio, potreban je viši nivo, sad ide stvarni postupak. Time se prevara povraćaja pretvara u tok prevare povraćaja na prevaru povraćaja."
+          data-en="If the target pays and results don’t appear, a new identity arrives with a new explanation: the previous agent made a mistake, a higher tier is required, now the real process starts. Recovery turns into a recovery-of-recovery loop."
+        >Ako meta uplati, a rezultat izostane, pojavljuje se novi identitet sa novim objašnjenjem: prethodni agent je pogrešio, potreban je viši nivo, sad ide stvarni postupak. Time se prevara povraćaja pretvara u tok prevare povraćaja na prevaru povraćaja.</p>
       </article>
     </section>
 
@@ -267,30 +267,30 @@ window.SCAM_CONTENT["recovery-scam"] = {
         <div class="phase">
           <div class="label" data-sr="Advokat / regulator" data-en="Lawyer / regulator">Advokat / regulator</div>
           <ul class="bullets">
-            <li data-sr="ulaz: case number + „postupak." data-en="entry: case number + “procedure”">ulaz: case number + „postupak“.</li>
+            <li data-sr="ulaz: case number + postupak." data-en="entry: case number + procedure">ulaz: case number + postupak.</li>
             <li data-sr="takse: court fišing / notary / tax clearance." data-en="fees: court fišing / notary / tax clearance.">takse: court fišing / notary / tax clearance.</li>
-            <li data-sr="nastavak: bond deposit kao „osiguranje." data-en="next: bond deposit as “insurance”">nastavak: bond deposit kao „osiguranje“.</li>
-            <li data-sr="eskalacija: rok „danas." data-en="escalation: “today” deadline.">eskalacija: rok „danas“.</li>
+            <li data-sr="nastavak: bond deposit kao osiguranje." data-en="next: bond deposit as insurance">nastavak: bond deposit kao osiguranje.</li>
+            <li data-sr="eskalacija: rok danas." data-en="escalation: today deadline.">eskalacija: rok danas.</li>
           </ul>
         </div>
 
         <div class="phase">
           <div class="label" data-sr="Praćenje / forenzika" data-en="Tracing / forensics">Praćenje / forenzika</div>
           <ul class="bullets">
-            <li data-sr="ulaz: „imamo alat“ + TXID priča." data-en="entry: “we have a tool” + TXID narrative.">ulaz: „imamo alat“ + TXID priča.</li>
+            <li data-sr="ulaz: imamo alat + TXID priča." data-en="entry: we have a tool + TXID narrative.">ulaz: imamo alat + TXID priča.</li>
             <li data-sr="takse: report fee." data-en="fees: report fee.">takse: report fee.</li>
-            <li data-sr="nastavak: release fee posle „izveštaja." data-en="next: release fee after the “report”">nastavak: release fee posle „izveštaja“.</li>
+            <li data-sr="nastavak: release fee posle izveštaja." data-en="next: release fee after the report">nastavak: release fee posle izveštaja.</li>
             <li data-sr="eskalacija: nadogradnju paketa." data-en="escalation: package nadogradnju.">eskalacija: nadogradnju paketa.</li>
           </ul>
         </div>
 
         <div class="phase">
-          <div class="label" data-sr="Remote “help”" data-en="Remote “help”">Remote “help”</div>
+          <div class="label" data-sr="Remote help" data-en="Remote help">Remote help</div>
           <ul class="bullets">
-            <li data-sr="ulaz: „pokazaćemo kako da vratite." data-en="entry: “we’ll show you how to recover”">ulaz: „pokazaćemo kako da vratite“.</li>
+            <li data-sr="ulaz: pokazaćemo kako da vratite." data-en="entry: we’ll show you how to recover">ulaz: pokazaćemo kako da vratite.</li>
             <li data-sr="prag: AnyDesk/TeamViewer." data-en="threshold: AnyDesk/TeamViewer.">prag: AnyDesk/TeamViewer.</li>
             <li data-sr="nastavak: vođenje do bank aplikacije." data-en="next: guidance into bank app.">nastavak: vođenje do bank aplikacije.</li>
-            <li data-sr="eskalacija: uplata kao „siguran račun." data-en="escalation: payment as “safe account”">eskalacija: uplata kao „siguran račun“.</li>
+            <li data-sr="eskalacija: uplata kao siguran račun." data-en="escalation: payment as safe account">eskalacija: uplata kao siguran račun.</li>
           </ul>
         </div>
       </div>
@@ -298,7 +298,7 @@ window.SCAM_CONTENT["recovery-scam"] = {
 
     <!-- 5) PRIMERI (CASE LIBRARY) -->
     <section class="card">
-      <h2 data-sr="Primeri (biblioteka slučajeva)." data-en="Examples (case library).">Primeri (biblioteka slučajeva)</h2>
+      <h2 data-sr="Primeri (biblioteka slučajeva)" data-en="Examples (case library).">Primeri (biblioteka slučajeva)</h2>
       <div data-cases></div>
     </section>
 
@@ -341,7 +341,7 @@ window.SCAM_CONTENT["recovery-scam"] = {
 
       <div class="grid-2">
         <div class="phase">
-          <div class="label" data-sr="FTC + FBI IC3 data (2023)." data-en="FTC + FBI IC3 data (2023).">FTC + FBI IC3 data (2023)</div>
+          <div class="label" data-sr="FTC + FBI IC3 data (2023)" data-en="FTC + FBI IC3 data (2023).">FTC + FBI IC3 data (2023)</div>
           <ul class="bullets">
             <li data-sr="prevare povraćaja su sekundarna viktimizacija posle crypto/romance scams." data-en="recovery scams are secondary victimization after crypto/romance scams.">prevare povraćaja su sekundarna viktimizacija posle crypto/romance scams.</li>
             <li data-sr="FBI upozorava: NO legitimate service naplaćuje unapred za povraćaj." data-en="FBI warns: NO legitimate service charges upfront for recovery.">FBI upozorava: NO legitimate service naplaćuje unapred za povraćaj.</li>
@@ -354,13 +354,13 @@ window.SCAM_CONTENT["recovery-scam"] = {
         </div>
 
         <div class="phase">
-          <div class="label" data-sr="Demografija (ko pada na prevaru povraćaja)." data-en="Demographics (who falls for recovery scam).">Demografija (ko pada na prevaru povraćaja)</div>
+          <div class="label" data-sr="Demografija (ko pada na prevaru povraćaja)" data-en="Demographics (who falls for recovery scam).">Demografija (ko pada na prevaru povraćaja)</div>
           <ul class="bullets">
             <li data-sr="starost 45-65: 55% žrtava (higher loss, desperation peak)." data-en="age 45-65: 55% of victims (higher loss, desperation peak).">starost 45-65: 55% žrtava (higher loss, desperation peak).</li>
             <li data-sr="original scam type distribution: crypto/investment (40%), romance (25%), advance-fee (20%), marketplace (10%), other (5%)." data-en="original scam type distribution: crypto/investment (40%), romance (25%), advance-fee (20%), marketplace (10%), other (5%).">original scam type distribution: crypto/investment (40%), romance (25%), advance-fee (20%), marketplace (10%), other (5%).</li>
             <li data-sr="vreme od originalne prevare do kontakta za povraćaj: 1-4 nedelje (medijan: 2 nedelje)." data-en="time from original scam to recovery contact: 1-4 weeks (median: 2 weeks).">vreme od originalne prevare do kontakta za povraćaj: 1-4 nedelje (medijan: 2 nedelje).</li>
             <li data-sr="gender split: 60% ženski, 40% muški (više emocionalna ranjivost)." data-en="gender split: 60% female, 40% male (higher emotional vulnerability).">gender split: 60% ženski, 40% muški (više emocionalna ranjivost).</li>
-            <li data-sr="education: 45% college degree (inteligencija NIJE zaštita, desperation > logic)." data-en="education: 45% college degree (intelligence is NOT protection, desperation > logic).">education: 45% college degree (inteligencija NIJE zaštita, desperation > logic).</li>
+            <li data-sr="education: 45% college degree (inteligencija NIJE zaštita, desperation > logic)." data-en="education: 45% college degree (intelligence is NOT protection, desperation "> logic).">education: 45% college degree (inteligencija NIJE zaštita, desperation > logic).</li>
             <li data-sr="geografija: USA (50%), UK (15%), Canada (10%), Australia (8%), EU (12%)." data-en="geography: USA (50%), UK (15%), Canada (10%), Australia (8%), EU (12%).">geografija: USA (50%), UK (15%), Canada (10%), Australia (8%), EU (12%).</li>
           </ul>
         </div>
@@ -391,9 +391,9 @@ window.SCAM_CONTENT["recovery-scam"] = {
       </div>
 
       <div class="callout"
-        data-sr="<strong>Ekonomski profil:</strong> prevara povraćaja ima viši povraćaj ulaganja od većine originalnih prevara (5,000-10,000%) jer su troškovi niski (liste meta, bez građenja odnosa), a konverzija visoka (15-25% očajnih žrtava). Zato isti prevarant često prvo izvede originalnu prevaru, pa posle dve nedelje kontaktira istu žrtvu kao &quot;agent za povraćaj&quot;. Dvostruka žetva."
-        data-en="<strong>Economic profile:</strong> Recovery scams have a HIGHER ROI than most original scams (5,000-10,000%) because costs are low (lead lists, no relationship building) and conversion is high (15-25% of desperate victims). That's why the same scammer often runs the original scam first, then contacts the same victim 2 weeks later as a &quot;recovery agent&quot;. A double harvest.">
-        <strong>Ekonomski profil:</strong> prevara povraćaja ima viši povraćaj ulaganja od većine originalnih prevara (5,000-10,000%) jer su troškovi niski (liste meta, bez građenja odnosa), a konverzija visoka (15-25% očajnih žrtava). Zato isti prevarant često prvo izvede originalnu prevaru, pa posle dve nedelje kontaktira istu žrtvu kao „agent za povraćaj“. Dvostruka žetva.
+        data-sr="<strong>Ekonomski profil:</strong> prevara povraćaja ima viši povraćaj ulaganja od većine originalnih prevara (5,000-10,000%) jer su troškovi niski (liste meta, bez građenja odnosa), a konverzija visoka (15-25% očajnih žrtava). Zato isti prevarant često prvo izvede originalnu prevaru, pa posle dve nedelje kontaktira istu žrtvu kao agent za povraćaj. Dvostruka žetva."
+        data-en="<strong>Economic profile:</strong> Recovery scams have a HIGHER ROI than most original scams (5,000-10,000%) because costs are low (lead lists, no relationship building) and conversion is high (15-25% of desperate victims). That's why the same scammer often runs the original scam first, then contacts the same victim 2 weeks later as a recovery agent. A double harvest.">
+        <strong>Ekonomski profil:</strong> prevara povraćaja ima viši povraćaj ulaganja od većine originalnih prevara (5,000-10,000%) jer su troškovi niski (liste meta, bez građenja odnosa), a konverzija visoka (15-25% očajnih žrtava). Zato isti prevarant često prvo izvede originalnu prevaru, pa posle dve nedelje kontaktira istu žrtvu kao agent za povraćaj. Dvostruka žetva.
       </div>
 
       <ul class="sources">
@@ -403,16 +403,7 @@ window.SCAM_CONTENT["recovery-scam"] = {
       </ul>
     </section>
 
-<section class="content-section">
-  <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-  <ul class="bullets">
-    <li><a href="advance-fee-fraud.html" data-sr="Uplata unapred" data-en="Advance-fee fraud">Uplata unapred</a></li>
-    <li><a href="crypto-scam.html" data-sr="Kripto investiciona prevara" data-en="Crypto investment scam">Kripto investiciona prevara</a></li>
-    <li><a href="pig-butchering.html" data-sr="Pig butchering prevara" data-en="Pig butchering scam">Pig butchering prevara</a></li>
-    <li><a href="impersonation-scam.html" data-sr="Lazno predstavljanje" data-en="Impersonation scam">Lazno predstavljanje</a></li>
-    <li><a href="fake-call-scam.html" data-sr="Lažni pozivi" data-en="Fake calls">Lažni pozivi</a></li>
-  </ul>
-</section>
+
 
 `
 };

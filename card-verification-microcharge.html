@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta
+    name="description"
+    content="Traže da prijavite mali iznos sa izvoda na tuđoj stranici ili da potvrdite plaćanje kod trgovca koga kontroliše napadač."
+    data-sr="Traže da prijavite mali iznos sa izvoda na tuđoj stranici ili da potvrdite plaćanje kod trgovca koga kontroliše napadač."
+    data-en="You are asked to report a small statement amount on a third-party page or confirm payment at a merchant the attacker controls."
+  />
+
+  <title
+    data-sr="Lažna verifikacija kartice mikroiznosom"
+    data-en="Fake card verification micro-charge"
+  >Fake card verification micro-charge</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="ui.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="card-verification-microcharge.content.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="cases.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+      <div class="brand">
+        <span class="brand-dot" aria-hidden="true"></span>
+        <span class="brand-name">Anti-scam</span>
+      </div>
+
+      <nav aria-label="Glavna navigacija">
+        <ul class="top-nav">
+          <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+          <li><a href="prevare.html" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          <li><a href="protecting-elderly.html" data-sr="Prevencija" data-en="Prevention">Prevencija</a></li>                  </ul>
+      </nav>
+    </div>
+
+<div class="hero compact">
+        <h1
+          data-sr="Lažna verifikacija kartice mikroiznosom"
+          data-en="Fake card verification micro-charge"
+        >Fake card verification micro-charge</h1>
+
+        <p class="muted hero-sub"
+           data-sr="Neobičan naziv trgovca na zaduženju → forma traži pun broj kartice i CVC → hitan rok."
+           data-en="Unusual merchant name on charge → form asks full card number and CVC → urgent deadline.">
+          Neobičan naziv trgovca na zaduženju → forma traži pun broj kartice i CVC → hitan rok.
+        </p>
+
+        <div id="scam-meta" data-scam="card-verification-microcharge"></div>
+
+        <div class="callout"
+             data-sr="<strong>Prag:</strong> puni podaci kartice uneti na sajtu koji nije izdavalac kartice ili 3DS prozor banke."
+             data-en="<strong>Threshold:</strong> full card data entered on a site that is not the issuer or bank 3DS window.">
+          <strong>Prag:</strong> puni podaci kartice uneti na sajtu koji nije izdavalac kartice ili 3DS prozor banke.
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div data-overview></div>
+    <div data-steps></div>
+    <div data-scammer-view></div>
+
+    <div data-longform></div>
+    <div data-related></div>
+</main>
+
+  <footer class="footer">
+  <div class="container">
+    <p class="muted"
+       data-sr="Anti-scam projekat — edukacija i analiza"
+       data-en="Anti-scam project — education and analysis">
+      Anti-scam projekat — edukacija i analiza
+    </p>
+    <p class="muted">
+      <a href="obavestenje-o-privatnosti.html" data-sr="Obaveštenje o privatnosti" data-en="Privacy notice">Obaveštenje o privatnosti</a>
+    </p>
+  </div>
+</footer>
+</body>
+</html>

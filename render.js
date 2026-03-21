@@ -22,6 +22,15 @@
   }
   function isDup(a,b){ return norm(a) && norm(a) === norm(b); }
 
+  function cleanDisplayTitle(text, lang) {
+    var out = String(text || "").trim();
+    if (lang === "sr") {
+      out = out.replace(/^Prevara:\s*/i, "");
+      if (out) out = out.charAt(0).toLocaleUpperCase("sr") + out.slice(1);
+    }
+    return out;
+  }
+
   function db() {
     return (window.SCAM_DB && typeof window.SCAM_DB === "object") ? window.SCAM_DB : {};
   }
@@ -65,7 +74,9 @@
     if (typeof v === "string") return v;
     if (v && typeof v === "object") {
       const lang = currentLang();
-      const a = v[lang] ?? v.sr ?? v.en;
+      const a = (lang === "sr")
+        ? (v.sr ?? v.cyr ?? "")
+        : (v.en ?? "");
       return (typeof a === "string") ? a : "";
     }
     return "";
@@ -74,7 +85,9 @@
   function pickLangForced(v, lang) {
     if (typeof v === "string") return v;
     if (v && typeof v === "object") {
-      const a = v[lang] ?? v.sr ?? v.en;
+      const a = (lang === "sr")
+        ? (v.sr ?? v.cyr ?? "")
+        : (v.en ?? "");
       return (typeof a === "string") ? a : "";
     }
     return "";
@@ -93,14 +106,14 @@
   function srTitleFor(slug) {
     const it = getItem(slug);
     if (!it) return "";
-    return String(it.title_sr || pickLangForced(it.title, "sr") || "");
+    return cleanDisplayTitle(it.title_sr || pickLangForced(it.title, "sr") || "", "sr");
   }
 
   function labelFor(slug) {
     const it = getItem(slug);
     const t = it ? it.title : null;
     const out = pickLang(t);
-    return out || slug;
+    return cleanDisplayTitle(out || "", currentLang());
   }
 
   function subtitleFor(slug) {
@@ -113,13 +126,23 @@
     const it = getItem(slug);
     const t = it ? it.title : null;
     const out = pickLangForced(t, lang);
-    return out || slug;
+    return cleanDisplayTitle(out || "", lang);
   }
 
   function subtitleForLang(slug, lang) {
     const it = getItem(slug);
     const s = it ? it.subtitle : null;
     return pickLangForced(s, lang) || "";
+  }
+
+  function composeDualTitle(sr, en, lang) {
+    const srText = (sr || "").trim();
+    const enText = (en || "").trim();
+    if (!srText && !enText) return "";
+    if (!srText) return enText;
+    if (!enText) return srText;
+    if (isDup(srText, enText)) return lang === "en" ? enText : srText;
+    return lang === "en" ? `${enText} (${srText})` : `${srText} (${enText})`;
   }
 
   function fileFor(slug) {
@@ -162,8 +185,7 @@
       "[data-overview]",
       "[data-steps]",
       "[data-scammer-view]",
-      "[data-related]",
-      "[data-sources]"
+      "[data-related]"
     ];
 
     for (const sel of want) {
@@ -246,10 +268,10 @@
     const h1En = (heroH1 && typeof heroH1.dataset?.en === "string") ? heroH1.dataset.en.trim() : "";
     const h1EnglishOnly = !!h1Sr && !!h1En && h1Sr === h1En;
 
-    const srTitleEffective = (!h1EnglishOnly && h1Sr) ? h1Sr : (srTitle || h1Sr || slug);
+    const srTitleEffective = (!h1EnglishOnly && h1Sr) ? h1Sr : (srTitle || h1Sr || "");
     const titleText = (currentLang() === "sr")
-      ? (srTitleEffective || enTitle || slug)
-      : (enTitle || srTitleEffective || slug);
+      ? (srTitleEffective || "")
+      : (enTitle || slug);
 
     const overlaps = (it.overlaps || [])
       .slice(0, 10)
@@ -258,10 +280,13 @@
         const sr = srTitleFor(s) || labelForLang(s, "sr");
         const en = enTitleFor(s) || labelForLang(s, "en");
         const attrs = pairAttrs(sr, en);
-        const label = esc(currentLang() === "sr" ? (sr || labelFor(s)) : (en || labelFor(s)));
+        const labelText = currentLang() === "sr" ? sr : en;
+        const label = esc(labelText || "");
+        if (!labelText) return "";
         if (!href) return `<span class="tag" ${attrs}>${label}</span>`;
         return `<a class="tag" href="${esc(href)}" ${attrs}>${label}</a>`;
       })
+      .filter(Boolean)
       .join(" ");
 
     const srSub = subtitleForLang(slug, "sr");
@@ -320,35 +345,33 @@
     const enTitle = enTitleFor(slug);
     if (!srTitle && !enTitle) return;
 
+    const lang = currentLang();
     const hero = document.querySelector(".hero");
     if (hero) {
       const h1 = hero.querySelector("h1");
       if (h1) {
-        const dsSr = (typeof h1.dataset?.sr === "string") ? h1.dataset.sr.trim() : "";
+        const dsSr = (typeof h1.dataset?.sr === "string") ? cleanDisplayTitle(h1.dataset.sr.trim(), "sr") : "";
         const dsEn = (typeof h1.dataset?.en === "string") ? h1.dataset.en.trim() : "";
-        const englishOnlyInSr = !!dsSr && !!dsEn && dsSr === dsEn;
+        if (srTitle && typeof h1.dataset?.sr === "string") h1.dataset.sr = srTitle;
+        if (enTitle && typeof h1.dataset?.en === "string") h1.dataset.en = enTitle;
 
-        // Only override SR title when SR is effectively EN-only.
-        if (englishOnlyInSr && typeof h1.dataset?.sr === "string") h1.dataset.sr = srTitle || h1.dataset.sr;
-        if (typeof h1.dataset?.en === "string") h1.dataset.en = enTitle || h1.dataset.en;
-
-        h1.textContent = (currentLang() === "sr")
-          ? ((englishOnlyInSr ? (srTitle || enTitle) : (dsSr || srTitle || enTitle)) || h1.textContent)
-          : ((enTitle || dsEn || srTitle) || h1.textContent);
+        const finalSr = srTitle || dsSr || "";
+        const finalEn = enTitle || dsEn || slug || "";
+        const primaryTitle = lang === "en" ? finalEn : finalSr;
+        h1.textContent = primaryTitle || h1.textContent;
       }
     }
 
     const titleEl = document.querySelector("head title");
     if (titleEl && titleEl.dataset) {
-      const tSr = (typeof titleEl.dataset.sr === "string") ? titleEl.dataset.sr.trim() : "";
+      const tSr = (typeof titleEl.dataset.sr === "string") ? cleanDisplayTitle(titleEl.dataset.sr.trim(), "sr") : "";
       const tEn = (typeof titleEl.dataset.en === "string") ? titleEl.dataset.en.trim() : "";
-      const englishOnlyInSr = !!tSr && !!tEn && tSr === tEn;
-
-      if (englishOnlyInSr && typeof titleEl.dataset.sr === "string") titleEl.dataset.sr = srTitle || titleEl.dataset.sr;
-      if (typeof titleEl.dataset.en === "string") titleEl.dataset.en = enTitle || titleEl.dataset.en;
-      document.title = (currentLang() === "sr")
-        ? ((englishOnlyInSr ? (srTitle || enTitle) : (tSr || srTitle || enTitle)) || document.title)
-        : ((enTitle || tEn || srTitle) || document.title);
+      if (srTitle && typeof titleEl.dataset.sr === "string") titleEl.dataset.sr = srTitle;
+      if (enTitle && typeof titleEl.dataset.en === "string") titleEl.dataset.en = enTitle;
+      const finalSr = srTitle || tSr || "";
+      const finalEn = enTitle || tEn || slug || "";
+      const primaryTitle = lang === "en" ? finalEn : finalSr;
+      document.title = primaryTitle || document.title;
     }
   }
 
@@ -371,9 +394,7 @@
     if (document.querySelector("[data-related]")) {
       renderRelated();
     }
-    if (document.querySelector("[data-sources]")) {
-      renderSources();
-    }
+    // Sources are intentionally disabled for this release pass.
   }
 
   /* -----------------------------
@@ -420,30 +441,416 @@
     { id: "other",       sr: "Ostalo",                      en: "Other" }
   ];
 
+  var CATALOG_SPECIAL_FILTERS = [
+    {
+      id: "most-common",
+      sr: "Najčešće prevare",
+      en: "Most common scams",
+      entries: [
+        { slug: "phishing" },
+        { slug: "smishing" },
+        { slug: "vishing" },
+        { slug: "bank-impersonation" },
+        { slug: "safe-account-scam" },
+        { slug: "fake-delivery" },
+        { slug: "parcel-scam" },
+        { slug: "package-redelivery-scam" },
+        { slug: "payment-link-scam" },
+        { slug: "marketplace-scam" },
+        { slug: "marketplace-buyer-protection-scam" },
+        { slug: "social-media-shop-scam" },
+        { slug: "fake-webshop" },
+        { slug: "qr-payment-scam" },
+        { slug: "quishing" },
+        { slug: "investment-fraud" },
+        { slug: "crypto-scam" },
+        { slug: "pig-butchering" },
+        { slug: "romantic-scam" },
+        { slug: "military-romance-scam" },
+        { slug: "job-scam" },
+        { slug: "work-from-home-scam" },
+        { slug: "task-scam" },
+        { slug: "identity-theft" },
+        { slug: "account-takeover" },
+        { slug: "whatsapp-takeover" },
+        { slug: "tech-support-scam" },
+        { slug: "scareware" },
+        { slug: "government-impersonation" },
+        { slug: "fake-call-scam" }
+      ]
+    },
+    {
+      id: "artificial-intelligence",
+      sr: "Veštačka inteligencija",
+      en: "Artificial Intelligence",
+      intro: {
+        headingSr: "Veštačka inteligencija i savremene prevare",
+        headingEn: "Artificial intelligence and modern scams",
+        leadSr: "Veštačka inteligencija sama po sebi nije prevara. Problem je u tome što prevarantima omogućava da stare obrasce obmane učine ubedljivijim, bržim i težim za prepoznavanje na prvi pogled. Ono što je ranije često delovalo trapavo, kratko ili neubedljivo, sada može da stigne kao miran glas, uredna poruka, lažni video ili vrlo ubedljivo predstavljanje identiteta. Zbog toga prvi utisak više nije dobar oslonac, jer prevara može izgledati ozbiljno i smisleno već u prvom kontaktu.",
+        leadEn: "Artificial intelligence is not a scam by itself. The problem is that scammers now use it to make older fraud patterns more convincing, faster, and harder to spot at first glance. What once looked clumsy, short, or obviously suspicious can now arrive as a calm voice, a polished message, a fake video, or a highly convincing identity claim. That is why first impressions are no longer a safe guide, because a scam can already look serious and coherent in the very first contact.",
+        bodySr: "Danas se lažiraju glas, lice, video, poruke, potvrde, identitet i stil komunikacije. Zato više nije dovoljno da nešto zvuči stvarno ili izgleda stvarno. Osnovna logika prevare ostaje ista: poverenje, panika, autoritet, hitnost, izolacija, pritisak, uplata, predaja podataka ili preuzimanje naloga.",
+        bodyEn: "Today scammers can fake a voice, a face, a video, a message, a document, an identity, and even someone’s style of communication. That is why sounding real or looking real is no longer enough. The underlying scam logic is still the same: trust, panic, authority, urgency, isolation, pressure, payment, data handover, or account takeover.",
+        blocks: [
+          {
+            sr: "Šta znači prevara uz pomoć veštačke inteligencije?",
+            en: "What does a scam using artificial intelligence mean?",
+            pointsSr: [
+              "Prevaranti mogu da naprave glas koji liči na člana porodice, direktora, bankarskog službenika ili drugog autoriteta.",
+              "Mogu da koriste lažan ili izmenjen video da stvore utisak da osoba zaista govori pred kamerom.",
+              "Mogu da napišu poruke koje zvuče prirodnije, urednije i profesionalnije nego ranije.",
+              "Veštačka inteligencija ne menja cilj prevare, već pojačava utisak da je zahtev stvaran."
+            ],
+            pointsEn: [
+              "Scammers can create a voice that sounds like a family member, an executive, a bank employee, or an official.",
+              "They can use fake or altered video to make it look as if a real person is speaking on camera.",
+              "They can write messages that sound more natural, polished, and professional than before.",
+              "Artificial intelligence does not change the goal of the scam; it increases the feeling that the request is real."
+            ]
+          },
+          {
+            sr: "Zašto su ove prevare opasnije nego ranije?",
+            en: "Why are these scams more dangerous than before?",
+            pointsSr: [
+              "Glas može zvučati poznato baš u trenutku kada se traži hitna uplata ili kod.",
+              "Video može delovati kao dokaz iako nije nezavisna potvrda identiteta.",
+              "Poruke više ne moraju imati očigledne greške da bi bile lažne.",
+              "Jedan prevarant može brže voditi više razgovora, na više jezika, uz manje vidljivih propusta."
+            ],
+            pointsEn: [
+              "A voice can sound familiar exactly when someone is asking for an urgent payment or code.",
+              "A video can feel like proof even when it is not an independent identity check.",
+              "Messages no longer need obvious mistakes in order to be fake.",
+              "One scammer can run more conversations at once, in more languages, with fewer visible errors."
+            ]
+          },
+          {
+            sr: "Šta ostaje isto kao kod klasičnih prevara?",
+            en: "What stays the same as in classic scams?",
+            pointsSr: [
+              "I dalje se traže hitnost, tajnost, autoritet ili emotivna reakcija.",
+              "I dalje sledi ista ključna radnja: uplata, slanje koda, slanje dokumenta, prijava na lažni sajt ili potvrda u aplikaciji.",
+              "I dalje pokušavaju da vas odvoje od nezavisne provere drugim kanalom.",
+              "Ne morate savršeno da prepoznate deepfake da biste se zaštitili; važnije je da prepoznate obrazac prevare."
+            ],
+            pointsEn: [
+              "The same pressure points still appear: urgency, secrecy, authority, or emotional shock.",
+              "The same key action still follows: payment, code sharing, sending documents, logging in to a fake site, or approving something in an app.",
+              "The scam still tries to cut you off from independent verification through another channel.",
+              "You do not need perfect deepfake detection to protect yourself; it is more important to recognize the scam pattern."
+            ]
+          },
+          {
+            sr: "Kako je uređena ova kategorija?",
+            en: "How is this category organized?",
+            pointsSr: [
+              "Prvi deo čine prevare gde je veštačka inteligencija glavni alat obmane, kao što su kloniran glas ili lažni video poziv.",
+              "Drugi deo čine klasične prevare koje su sada samo pojačane veštačkom inteligencijom, kao što su porodična hitna situacija, CEO prevara ili romantična prevara.",
+              "Kod svake stavke gledajte dve stvari: gde je upotrebljena veštačka inteligencija i koja se radnja traži od žrtve.",
+              "Najvažnije pravilo ostaje isto: ne verujte samo glasu, slici, videu ili dobro napisanoj poruci; proverite zahtev drugim kanalom."
+            ],
+            pointsEn: [
+              "The first section covers scams where artificial intelligence is the main deception tool, such as a cloned voice or a fake video call.",
+              "The second section covers classic scams that are now amplified by artificial intelligence, such as a family emergency scam, CEO fraud, or a romance scam.",
+              "For each entry, look at two things: where artificial intelligence is used and what action the scammer wants from the victim.",
+              "The most important rule stays the same: do not trust only a voice, an image, a video, or a well-written message; verify the request through another channel."
+            ]
+          }
+        ]
+      },
+      groups: [
+        {
+          id: "ai-core",
+          sr: "Veštačka inteligencija kao glavni alat obmane",
+          en: "Artificial intelligence as the main deception tool",
+          descSr: "Ovde su prevare gde lažni glas, lice, snimak ili automatizovana persona nose glavni teret obmane.",
+          descEn: "These are scams where a fake voice, face, clip, or automated persona does most of the deceptive work.",
+          entries: [
+            { slug: "ai-voice-clone-scam" },
+            { slug: "ai-family-emergency-voice-scam" },
+            { slug: "ai-lawyer-police-callback-scam" },
+            { slug: "ai-multilingual-authority-scam" },
+            { slug: "ai-executive-voice-payment-scam" },
+            { slug: "ai-invoice-approval-scam" },
+            { slug: "ai-invoice-voice-confirmation-scam" },
+            { slug: "ai-romance-verification-scam" },
+            { slug: "ai-deepfake" },
+            { slug: "deepfake-executive-video-call-scam" },
+            { slug: "deepfake-celebrity-endorsement-scam" },
+            { slug: "deepfake-job-interview-scam" },
+            { slug: "ai-trading-bot-scam" }
+          ]
+        },
+        {
+          id: "ai-enhanced",
+          sr: "Klasične prevare pojačane veštačkom inteligencijom",
+          en: "Classic scams amplified by artificial intelligence",
+          descSr: "Ovde je obrazac prevare već poznat, ali veštačka inteligencija pravi ubedljiviji glas, video, poruku ili identitet.",
+          descEn: "These are already familiar scam patterns, but artificial intelligence makes the voice, video, message, or identity more convincing.",
+          entries: [
+            { slug: "family-emergency-scam" },
+            { slug: "grandparent-scam" },
+            { slug: "ceo-fraud" },
+            { slug: "invoice-fraud" },
+            { slug: "vendor-email-compromise" },
+            { slug: "payment-diversion" },
+            { slug: "bank-impersonation" },
+            { slug: "vishing" },
+            { slug: "phishing" },
+            { slug: "romantic-scam" },
+            { slug: "wrong-number-romance-scam" },
+            { slug: "investment-fraud" },
+            { slug: "fake-broker-scam" },
+            { slug: "fake-trading-platform-scam" },
+            { slug: "pig-butchering" },
+            { slug: "sextortion-scam" },
+            { slug: "recovery-scam" },
+            { slug: "job-scam" },
+            { slug: "recruitment-scam" },
+            { slug: "identity-theft" },
+            { slug: "account-takeover" },
+            { slug: "online-dating-verification-fee-scam" },
+            { slug: "hr-file-verification-phishing" },
+            { slug: "tech-support-scam" },
+            { slug: "social-media-hijack-scam" },
+            { slug: "government-impersonation" },
+            { slug: "police-impersonation" },
+            { slug: "fake-call-scam" },
+            { slug: "charity-scam" }
+          ]
+        }
+      ],
+      entries: [
+        { slug: "family-emergency-scam" },
+        { slug: "grandparent-scam" },
+        { slug: "ceo-fraud" },
+        { slug: "invoice-fraud" },
+        { slug: "vendor-email-compromise" },
+        { slug: "payment-diversion" },
+        { slug: "bank-impersonation" },
+        { slug: "vishing" },
+        { slug: "phishing" },
+        { slug: "romantic-scam" },
+        { slug: "wrong-number-romance-scam" },
+        { slug: "investment-fraud" },
+        { slug: "fake-broker-scam" },
+        { slug: "fake-trading-platform-scam" },
+        { slug: "pig-butchering" },
+        { slug: "sextortion-scam" },
+        { slug: "recovery-scam" },
+        { slug: "job-scam" },
+        { slug: "recruitment-scam" },
+        { slug: "deepfake-job-interview-scam" },
+        { slug: "identity-theft" },
+        { slug: "account-takeover" },
+        { slug: "online-dating-verification-fee-scam" },
+        { slug: "hr-file-verification-phishing" },
+        { slug: "tech-support-scam" },
+        { slug: "social-media-hijack-scam" },
+        { slug: "government-impersonation" },
+        { slug: "police-impersonation" },
+        { slug: "fake-call-scam" },
+        { slug: "charity-scam" },
+        { slug: "ai-family-emergency-voice-scam" },
+        { slug: "ai-romance-verification-scam" },
+        { slug: "ai-deepfake" },
+        { slug: "ai-voice-clone-scam" },
+        { slug: "ai-executive-voice-payment-scam" },
+        { slug: "ai-invoice-approval-scam" },
+        { slug: "ai-invoice-voice-confirmation-scam" },
+        { slug: "ai-lawyer-police-callback-scam" },
+        { slug: "ai-multilingual-authority-scam" },
+        { slug: "ai-trading-bot-scam" },
+        { slug: "deepfake-executive-video-call-scam" },
+        { slug: "deepfake-celebrity-endorsement-scam" }
+      ]
+    },
+    {
+      id: "active-in-serbia",
+      sr: "Aktuelno u Srbiji",
+      en: "Active in Serbia",
+      entries: [
+        { slug: "smishing" },
+        { slug: "phishing" },
+        { slug: "fake-delivery" },
+        { slug: "parcel-scam" },
+        { slug: "package-redelivery-scam" },
+        { slug: "bank-impersonation" },
+        { slug: "government-impersonation" },
+        { slug: "fake-call-scam" },
+        { slug: "fake-fine-scam" },
+        { slug: "utility-bill-scam" },
+        { slug: "health-card-renewal-scam", titleEn: "Fake health card renewal scam" },
+        { slug: "fake-delivery" },
+        { slug: "qr-payment-scam" },
+        { slug: "payment-link-scam" }
+      ]
+    },
+    {
+      id: "impersonation",
+      sr: "Lažno predstavljanje",
+      en: "Impersonation",
+      entries: [
+        { slug: "bank-impersonation" },
+        { slug: "government-impersonation" },
+        { slug: "police-impersonation" },
+        { slug: "tax-authority-impersonation" },
+        { slug: "healthcare-impersonation", titleEn: "Health insurance impersonation" },
+        { slug: "pension-impersonation" },
+        { slug: "utility-impersonation" },
+        { slug: "fake-hr-scam" },
+        { slug: "fake-call-scam" },
+        { slug: "ai-voice-clone-scam" },
+        { slug: "ai-deepfake" },
+        { slug: "fake-celebrity-scam" }
+      ]
+    },
+    {
+      id: "jobs-easy-money",
+      sr: "Posao i laka zarada",
+      en: "Jobs & easy money",
+      entries: [
+        { slug: "job-scam" },
+        { slug: "work-from-home-scam" },
+        { slug: "task-scam" },
+        { slug: "recruitment-scam" },
+        { slug: "equipment-reimbursement-scam" },
+        { slug: "background-check-fee-scam" },
+        { slug: "security-clearance-job-scam" },
+        { slug: "seasonal-work-placement-scam" },
+        { slug: "employment-visa-job-scam" },
+        { slug: "money-mule-recruitment" },
+        { slug: "reshipping-scam" },
+        { slug: "mystery-shopper-scam" }
+      ]
+    }
+  ];
+
+  function getSpecialCatalogFilter(id) {
+    return CATALOG_SPECIAL_FILTERS.find(function(f) { return f.id === id; }) || null;
+  }
+
+  function getSpecialFilterEntries(filter) {
+    if (!filter) return [];
+    return Array.isArray(filter.entries)
+      ? filter.entries
+      : Array.isArray(filter.slugs)
+        ? filter.slugs.map(function(slug) { return { slug: slug }; })
+        : [];
+  }
+
+  function resolveSpecialFilterSlugs(filter, items) {
+    var entries = getSpecialFilterEntries(filter);
+    var bySlug = new Map((items || []).map(function(it) { return [it.slug, it]; }));
+    var byTitleEn = new Map((items || []).map(function(it) {
+      return [String(it.title_en || pickLangForced(it.title, "en") || ""), it];
+    }));
+    var resolved = [];
+    var seen = new Set();
+
+    entries.forEach(function(entry) {
+      var ref = (typeof entry === "string") ? { slug: entry } : (entry || {});
+      var item = null;
+
+      if (ref.slug && bySlug.has(ref.slug)) item = bySlug.get(ref.slug);
+      else if (ref.titleEn && byTitleEn.has(ref.titleEn)) item = byTitleEn.get(ref.titleEn);
+
+      if (!item || seen.has(item.slug)) return;
+      seen.add(item.slug);
+      resolved.push(item.slug);
+    });
+
+    return resolved;
+  }
+
+  function renderSpecialFilterIntro(filter) {
+    if (!filter || !filter.intro) return "";
+    const lang = currentLang();
+    const intro = filter.intro;
+    const heading = lang === "en" ? intro.headingEn : intro.headingSr;
+    const lead = lang === "en" ? intro.leadEn : intro.leadSr;
+    const body = lang === "en" ? intro.bodyEn : intro.bodySr;
+    const blocks = Array.isArray(intro.blocks) ? intro.blocks : [];
+
+    const blocksHtml = blocks.map(function(block) {
+      const titleSr = block.sr || "";
+      const titleEn = block.en || "";
+      const points = lang === "en" ? (block.pointsEn || []) : (block.pointsSr || []);
+      const otherPoints = lang === "en" ? (block.pointsSr || []) : (block.pointsEn || []);
+      return `<div class="phase">
+        <div class="label" ${pairAttrs(titleSr, titleEn)}>${esc(lang === "en" ? titleEn : titleSr)}</div>
+        <ul class="bullets">${points.map(function(point, idx) {
+          const srPoint = lang === "en" ? (otherPoints[idx] || "") : (point || "");
+          const enPoint = lang === "en" ? (point || "") : (otherPoints[idx] || "");
+          return `<li ${pairAttrs(srPoint, enPoint)}>${esc(point || "")}</li>`;
+        }).join("")}</ul>
+      </div>`;
+    }).join("");
+
+    return `<section class="card special-filter-intro">
+      ${heading ? `<h2 ${pairAttrs(intro.headingSr || "", intro.headingEn || "")}>${esc(heading)}</h2>` : ""}
+      ${lead ? `<p ${pairAttrs(intro.leadSr || "", intro.leadEn || "")}>${esc(lead)}</p>` : ""}
+      ${body ? `<p ${pairAttrs(intro.bodySr || "", intro.bodyEn || "")}>${esc(body)}</p>` : ""}
+      ${blocksHtml ? `<div class="grid-2">${blocksHtml}</div>` : ""}
+    </section>`;
+  }
+
+  function renderSpecialFilterGroups(filter, allItems, filteredItems) {
+    if (!filter || !Array.isArray(filter.groups) || !filter.groups.length) return "";
+    const lang = currentLang();
+    const filteredBySlug = new Map((filteredItems || []).map(function(it) { return [it.slug, it]; }));
+
+    return filter.groups.map(function(group) {
+      const groupSlugs = resolveSpecialFilterSlugs({ entries: group.entries || [] }, allItems);
+      const list = groupSlugs
+        .filter(function(slug) { return filteredBySlug.has(slug); })
+        .map(function(slug) { return filteredBySlug.get(slug); });
+      if (!list.length) return "";
+
+      const label = lang === "en" ? group.en : group.sr;
+      const desc = lang === "en" ? group.descEn : group.descSr;
+      return `<section class="index-block cat-section" data-catid="${esc(filter.id)}-${esc(group.id || label)}">
+        <h3 class="cat-section-head"><span class="cat-label">${esc(label)}</span> <span class="cat-count">(${list.length})</span></h3>
+        ${desc ? `<p class="muted" ${pairAttrs(group.descSr || "", group.descEn || "")}>${esc(desc)}</p>` : ""}
+        <div class="index-grid">${list.map(makeCard).join("")}</div>
+      </section>`;
+    }).join("");
+  }
+
   var CATEGORY_DEFAULTS_EXPANDED = ["payments", "identity", "business"];
 
   function getCategoryId(slug) {
     var s = slug.toLowerCase();
 
-    if (/phishing|smishing|vishing|account.?takeover|identity.?theft|email.?account.?compromise|otp|sim.?swap|port.?out|account.?recovery|social.?media.?hijack|spear.?phishing|whaling|quishing|qr.?code.?sticker/.test(s)) return "identity";
+    if (/whatsapp.?screen.?sharing.?bank|viber.?bank.?impersonation|qr.?fine.?payment/.test(s)) return "payments";
+    if (/viber.?courier.?phishing/.test(s)) return "delivery";
+    if (/whatsapp.?apk.?attachment|linked.?device.?support|browser.?notification.?phishing/.test(s)) return "tech";
+    if (/deepfake.?celebrity.?endorsement/.test(s)) return "investment";
+    if (/deepfake.?executive.?video|ai.?invoice.?approval/.test(s)) return "business";
+    if (/ai.?romance.?verification/.test(s)) return "seniors";
+    if (/ai.?lawyer.?police|ai.?multilingual.?authority/.test(s)) return "identity";
+    if (/whatsapp|viber/.test(s)) return "identity";
 
-    if (/payment.?link|qr.?payment|instant.?payment|safe.?account|courier.?fraud|cash.?to.?gold|card.?skimming|atm.?skimming|pos.?skimming|contactless.?card|card.?not.?present|chargeback|overpayment|bank.?transfer.?diversion|bank.?impersonation|port.?out|sim.?swap|otp.?interception|kyc.?aml/.test(s)) return "payments";
+    if (/phishing|smishing|vishing|account.?takeover|identity.?theft|email.?account.?compromise|otp|sim.?swap|port.?out|account.?recovery|social.?media.?hijack|spear.?phishing|whaling|quishing|mfa.?fatigue|mfa.?seed|tabnapp|qr.?code.?sticker|evil.?twin|cloud.?account.?compromise|saas.?admin|session.?cookie|browser.?session|otp.?bot|search.?engine.?ad|banking.?app.?screen|whatsapp.?takeover|telegram.?admin|discord.?moderator|number.?verification|sim.?registration|esim.?activation|tax.?refund.?phish|egovernment/.test(s)) return "identity";
 
-    if (/business.?email|invoice.?fraud|mandate.?fraud|payment.?diversion|payroll|procurement|supplier.?onboarding|fake.?audit|fake.?award|fake.?seo|domain.?renewal|directory.?listing|invoice.?collection|bid.?bond|performance.?bond|advance.?payment.?guarantee|co.?financing|project.?partnership|consultant.?guarantee|fake.?training.?cert|invoice.?factoring|sponsorship.?event|compliance.?fee|grant.?intermediary|fake.?government.?tender|public.?procurement|procurement.?award|fake.?audit.?inspection/.test(s)) return "business";
+    if (/payment.?link|qr.?payment|instant.?payment|safe.?account|courier.?fraud|cash.?to.?gold|card.?skimming|atm.?skimming|pos.?skimming|contactless.?card|card.?not.?present|chargeback|overpayment|bank.?transfer.?diversion|bank.?impersonation|port.?out|sim.?swap|otp.?interception|kyc.?aml|authorized.?push|push.?payment|merchant.?terminal|terminal.?replacement|card.?swap|shoulder.?surfing|friendly.?helper.?atm|cash.?trapping|card.?trapping|atm.?assistance|tap.?to.?pay.?relay|nfc.?relay/.test(s)) return "payments";
 
-    if (/crypto|investment.?fraud|fake.?broker|clone.?firm|forex|binary.?options|ponzi|pyramid|pump.?and.?dump|pig.?butchering|wallet.?drainer|airdrop|nft|rug.?pull|fake.?crypto.?exchange|romantic.?scam|romance/.test(s)) return "investment";
+    if (/business.?email|invoice.?fraud|iban|sepa|psd2|swift|acquirer|gateway|microcharge|wallet|direct.?debit|debit.?mandate|payment.?reversal|refund.?capture|instant.?transfer|mandate.?fraud|payment.?diversion|payroll|procurement|supplier.?onboarding|fake.?audit|fake.?award|fake.?seo|domain.?renewal|directory.?listing|invoice.?collection|bid.?bond|performance.?bond|advance.?payment.?guarantee|co.?financing|project.?partnership|consultant.?guarantee|fake.?training.?cert|invoice.?factoring|sponsorship.?event|compliance.?fee|grant.?intermediary|fake.?government.?tender|public.?procurement|procurement.?award|fake.?audit.?inspection|executive.?voice|invoice.?voice|vendor|sanctions|aml.?clearance|customs.?broker|import.?license|export.?compliance|trademark.?renewal|patent.?registration|iso.?certification|ce.?marking|haccp|gdpr.?compliance|accessibility.?compliance|fire.?safety|workplace.?safety|eu.?tender|portal.?clone|bid.?clarification|signature.?release|project.?amendment|deliverable|ngo.?consortium/.test(s)) return "business";
 
-    if (/marketplace|fake.?webshop|social.?media.?shop|counterfeit|refund.?scam|fake.?returns|subscription.?trap|free.?trial|giveaway|fake.?insurance/.test(s)) return "marketplace";
+    if (/crypto|investment.?fraud|fake.?broker|clone.?firm|forex|binary.?options|ponzi|pyramid|pump.?and.?dump|pig.?butchering|wallet.?drainer|livestream|airdrop|nft|rug.?pull|fake.?crypto.?exchange|romantic.?scam|romance|online.?dating|seed.?phrase|wallet.?approval|trading.?platform|task.?scam|web3.?job|wallet.?drain|cold.?wallet|mining|defi|copy.?trading|copy.?signal|signal.?group|insider|managed.?account|account.?manager|wealth.?advisor|pre.?ipo|trading.?bot|binary.?robot|staking|masternode|presale|meme.?coin|stablecoin|arbitrage|otc|tax.?unlock|compliance.?unlock|recovery.?wallet|liquidity/.test(s)) return "investment";
 
-    if (/fake.?delivery|parcel|package.?redelivery|travel.?booking|airline.?refund|ticket.?scam|escrow|real.?estate.?purchase|rental|moving.?scam|deposit.?scam|real.?estate.?invest|home.?improvement|mortgage/.test(s)) return "delivery";
+    if (/marketplace|middleman|fake.?webshop|social.?media.?shop|counterfeit|refund.?scam|fake.?returns|subscription.?trap|free.?trial|giveaway|fake.?insurance|lost-pet|modeling|casting|return.?label/.test(s)) return "marketplace";
 
-    if (/tech.?support|scareware|remote.?access|malicious.?app|app.?clone|fake.?update|browser.?extension/.test(s)) return "tech";
+    if (/fake.?delivery|parcel|package.?redelivery|travel.?booking|airline.?refund|ticket.?scam|escrow|real.?estate.?purchase|rental|moving.?scam|deposit.?scam|real.?estate.?invest|home.?improvement|mortgage|vehicle|history.?report|test.?drive|dealership|flight|rebooking|compensation.?claim|event.?pass|resale.?clone/.test(s)) return "delivery";
 
-    if (/sextortion|recovery.?scam|ddos|ransomware|data.?breach|extortion/.test(s)) return "extortion";
+    if (/tech.?support|scareware|remote.?access|malicious.?app|app.?clone|fake.?update|browser.?extension|browser.?push|push.?malware|captcha|sideload|usb.?baiting/.test(s)) return "tech";
+
+    if (/sextortion|ddos|ransomware|data.?breach|extortion/.test(s) || s === "recovery-scam") return "extortion";
 
     if (/charity|crowdfunding|disaster.?relief|donation.?crypto|grant.?fund|grant|compliance.?fee|fake.?eu.?program|fake.?ngo|advance.?fee.?fraud|social.?benefits|pension|healthcare.?impersonation|education.?ministry/.test(s)) return "charity";
 
     if (/grandparent|family.?emergency|lottery|sweepstakes|prize.?scam|gift.?card|fake.?medical|fake.?medicine|tech.?support.?remote/.test(s)) return "seniors";
+
+    if (/tow-truck|parking-attendant|counterfeit-cash|fake-banknote|wallet-swap|bag-switch|fake-raffle|staged-accident|car-mirror|flat-tire|spill-on-clothes|broken-phone|fake-roadside|fake-mechanic-inspection|street-performer-distraction|jewelry-cleaning|gem-swap|marketplace-meetup|fake-donation-box|restaurant-bill-distraction|menu-switch|weighing-scale|pigeon-drop|distraction-theft|street-gold-ring/.test(s)) return "marketplace";
 
     return "other";
   }
@@ -493,16 +900,15 @@
   function makeCard(it) {
     const href = it.hasPage ? (it.url || `${it.slug}.html`) : null;
     const lang = currentLang();
-    const tMain = esc(it.title_en || pickLangForced(it.title, "en") || it.slug);
-    const tSr = it.title_sr || pickLangForced(it.title, "sr") || "";
-    const tSecondary = (lang === "sr" && tSr && tSr !== (it.title_en || "")) ? `(${tSr})` : "";
+    const tSr = cleanDisplayTitle(it.title_sr || pickLangForced(it.title, "sr") || "", "sr");
+    const tEn = it.title_en || pickLangForced(it.title, "en") || it.slug;
+    const mainTitle = lang === "en" ? (tEn || tSr || it.slug) : (tSr || tEn || it.slug);
     const desc = (lang === "sr")
       ? (it.summary_sr || pickLangForced(it.subtitle, "sr") || "")
       : (it.summary_en || pickLangForced(it.subtitle, "en") || "");
 
     return `<div class="index-card">
-      <div class="index-title">${href ? `<a href="${esc(href)}">${tMain}</a>` : tMain}</div>
-      ${tSecondary ? `<div class="index-sub muted">${esc(tSecondary)}</div>` : ""}
+      <div class="index-title">${href ? `<a href="${esc(href)}">${esc(mainTitle)}</a>` : esc(mainTitle)}</div>
       ${desc ? `<div class="index-sub">${esc(desc)}</div>` : ""}
     </div>`;
   }
@@ -512,6 +918,11 @@
     const allSr = "Sve";
     const allEn = "All";
     const allLabel = lang === "en" ? allEn : allSr;
+    const specialChips = CATALOG_SPECIAL_FILTERS.map(function(f) {
+      const label = lang === "en" ? f.en : f.sr;
+      const active = activeCatId === f.id ? ' class="cat-chip active"' : ' class="cat-chip"';
+      return `<button${active} data-catid="${esc(f.id)}" data-sr="${esc(f.sr)}" data-en="${esc(f.en)}" type="button">${esc(label)}</button>`;
+    }).join("");
     const chips = CATALOG_CATEGORIES.map(function(c) {
       const label = lang === "en" ? c.en : c.sr;
       const active = activeCatId === c.id ? ' class="cat-chip active"' : ' class="cat-chip"';
@@ -520,6 +931,7 @@
     const allActive = !activeCatId ? ' class="cat-chip active"' : ' class="cat-chip"';
     return `<div class="cat-bar" role="tablist" aria-label="${lang === 'en' ? 'Scam categories' : 'Kategorije prevara'}">
       <button${allActive} data-catid="" data-sr="${esc(allSr)}" data-en="${esc(allEn)}" type="button">${esc(allLabel)}</button>
+      ${specialChips}
       ${chips}
     </div>`;
   }
@@ -529,10 +941,18 @@
     if (!container) return;
     const lang = currentLang();
     const collapseState = loadCollapseState();
+    const specialFilter = getSpecialCatalogFilter(activeCatId);
 
-    // Filter by category if single-cat view
+    // Filter by special preset or category if single-filter view
     let filteredItems = items;
-    if (activeCatId) {
+    if (specialFilter) {
+      const specialSlugs = resolveSpecialFilterSlugs(specialFilter, items);
+      const allowed = new Set(specialSlugs);
+      const order = new Map(specialSlugs.map(function(slug, idx) { return [slug, idx]; }));
+      filteredItems = items
+        .filter(function(it) { return allowed.has(it.slug); })
+        .sort(function(a, b) { return order.get(a.slug) - order.get(b.slug); });
+    } else if (activeCatId) {
       filteredItems = items.filter(function(it) { return getCategoryId(it.slug) === activeCatId; });
     }
 
@@ -553,13 +973,21 @@
     let html = renderCategoryBar(activeCatId);
 
     if (activeCatId) {
-      // Single category view — show expanded, no collapse toggle
+      // Single category or preset view — show expanded, no collapse toggle
       const catDef = CATALOG_CATEGORIES.find(function(c) { return c.id === activeCatId; });
-      const catLabel = catDef ? (lang === "en" ? catDef.en : catDef.sr) : activeCatId;
-      html += `<section class="index-block cat-section" data-catid="${esc(activeCatId)}">
-        <h2 class="cat-section-head"><span class="cat-label">${esc(catLabel)}</span> <span class="cat-count">(${filteredItems.length})</span></h2>
-        <div class="index-grid">${filteredItems.map(makeCard).join("")}</div>
-      </section>`;
+      const catLabel = specialFilter
+        ? (lang === "en" ? specialFilter.en : specialFilter.sr)
+        : (catDef ? (lang === "en" ? catDef.en : catDef.sr) : activeCatId);
+      if (specialFilter) html += renderSpecialFilterIntro(specialFilter);
+      const groupedHtml = specialFilter ? renderSpecialFilterGroups(specialFilter, items, filteredItems) : "";
+      if (groupedHtml) {
+        html += groupedHtml;
+      } else {
+        html += `<section class="index-block cat-section" data-catid="${esc(activeCatId)}">
+          <h2 class="cat-section-head"><span class="cat-label">${esc(catLabel)}</span> <span class="cat-count">(${filteredItems.length})</span></h2>
+          <div class="index-grid">${filteredItems.map(makeCard).join("")}</div>
+        </section>`;
+      }
     } else {
       // All view — group by category, each collapsible
       const byCategory = {};
@@ -921,7 +1349,7 @@
 
     section.innerHTML = `
       <h2>Perspektiva scammera</h2>
-      <p class="muted">Kako se tok vodi “sa njihove strane”: rutine, pragovi i prelazi.</p>
+      <p class="muted">Kako se tok vodi sa njihove strane: rutine, pragovi i prelazi.</p>
       ${block("Ciljevi", goals)}
       ${block("Kako rade", workflow)}
       ${block("Šta prate kod mete", measurement)}
@@ -1137,7 +1565,7 @@
       renderOverview();
       renderStepsAndBranches();
       renderScammerView();
-      renderSources();
+      // Sources are intentionally disabled for this release pass.
     }
 
     renderCases();

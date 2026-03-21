@@ -3,7 +3,7 @@ window.SCAM_CONTENT["package-redelivery-scam"] = {
   raw_html: `
 <section class="content-section">
   <h2 data-sr="Uvod: kako radi prevara ponovnom dostavom paketa" data-en="Intro: how the package redelivery scam works">Uvod: kako radi prevara ponovnom dostavom paketa</h2>
-  <p data-sr="Žrtva prima obaveštenje da kurir nije mogao da isporuči paket i da treba zakazati ponovnu isporuku plaćanjem naknade ili unosom adrese. Proces vodi na lažni sajt koji prikuplja platne podatke ili lične informacije. Varijanta: lažni kurir zove telefonom i traži potvrdu adrese plus „malu naknadu“ za ponovnu isporuku." data-en="The victim receives a notification that a courier could not deliver a package and that redelivery must be scheduled by paying a fee or entering an address. The process leads to a fake site that collects payment data or personal information. Variant: a fake courier calls by phone and requests address confirmation plus a 'small fee' for redelivery.">Žrtva prima obaveštenje da kurir nije mogao da isporuči paket i da treba zakazati ponovnu isporuku plaćanjem naknade ili unosom adrese. Proces vodi na lažni sajt koji prikuplja platne podatke ili lične informacije. Varijanta: lažni kurir zove telefonom i traži potvrdu adrese plus „malu naknadu" za ponovnu isporuku“.</p>
+  <p data-sr="Žrtva prima obaveštenje da kurir nije mogao da isporuči paket i da treba zakazati ponovnu isporuku plaćanjem naknade ili unosom adrese. Proces vodi na lažni sajt koji prikuplja platne podatke ili lične informacije. Varijanta: lažni kurir zove telefonom i traži potvrdu adrese plus malu naknadu za ponovnu isporuku." data-en="The victim receives a notification that a courier could not deliver a package and that redelivery must be scheduled by paying a fee or entering an address. The process leads to a fake site that collects payment data or personal information. Variant: a fake courier calls by phone and requests address confirmation plus a 'small fee' for redelivery.">Žrtva prima obaveštenje da kurir nije mogao da isporuči paket i da treba zakazati ponovnu isporuku plaćanjem naknade ili unosom adrese. Proces vodi na lažni sajt koji prikuplja platne podatke ili lične informacije. Varijanta: lažni kurir zove telefonom i traži potvrdu adrese plus malu naknadu za ponovnu isporuku.</p>
 </section>
 
 <section class="content-section">
@@ -25,7 +25,7 @@ window.SCAM_CONTENT["package-redelivery-scam"] = {
       <h3 data-sr="Šta gradi poverenje" data-en="What builds trust">Šta gradi poverenje</h3>
       <ul class="bullets">
         <li data-sr="Obaveštenje koristi logotip i boje poznate kurirske službe i citira broj za praćenje." data-en="The notification uses the logo and colors of a well-known courier service and cites a tracking number.">Obaveštenje koristi logotip i boje poznate kurirske službe i citira broj za praćenje.</li>
-        <li data-sr="Poruka zvuči hitno — 'Paket će biti vraćen pošiljaocu za 48 sati ako se ne zakaže isporuka„." data-en="The message sounds urgent — “Package will be returned to sender in 48 hours if delivery is not scheduled.'">Poruka zvuči hitno — „Paket će biti vraćen pošiljaocu za 48 sati ako se ne zakaže isporuka"“.</li>
+        <li data-sr="Poruka zvuči hitno — Paket će biti vraćen pošiljaocu za 48 sati ako se ne zakaže isporuka." data-en="The message sounds urgent — Package will be returned to sender in 48 hours if delivery is not scheduled.">Poruka zvuči hitno — Paket će biti vraćen pošiljaocu za 48 sati ako se ne zakaže isporuka.</li>
         <li data-sr="Žrtva koja je naručila bilo šta u poslednjim danima lako poveruje da se radi o toj pošiljci." data-en="A victim who has ordered anything in recent days easily believes this is about that shipment.">Žrtva koja je naručila bilo šta u poslednjim danima lako poveruje da se radi o toj pošiljci.</li>
         <li data-sr="Iznos naknade je simboličan — 1–3 EUR — što umanjuje opreznost." data-en="The fee amount is symbolic — 1–3 EUR — which reduces caution.">Iznos naknade je simboličan — 1–3 EUR — što umanjuje opreznost.</li>
       </ul>
@@ -52,7 +52,7 @@ window.SCAM_CONTENT["package-redelivery-scam"] = {
       <li data-sr="Idite direktno na sajt kurirske službe i proverite status pošiljke upisom tracking broja." data-en="Go directly to the courier's website and check shipment status by entering the tracking number.">Idite direktno na sajt kurirske službe i proverite status pošiljke upisom tracking broja.</li>
       <li data-sr="Prave obaveštenja o propuštenoj isporuci dolaze u obliku fizičke napomene na vratima, ne samo SMS-a." data-en="Real missed delivery notifications come in the form of a physical note on the door, not only an SMS.">Prave obaveštenja o propuštenoj isporuci dolaze u obliku fizičke napomene na vratima, ne samo SMS-a.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Nikad ne klikajte na link u SMS-u — idite direktno na sajt kurira i proverite tracking broj." data-en="Phase threshold: Never click the link in an SMS — go directly to the courier's site and check the tracking number."><strong>Prag faze:</strong> Nikad ne klikajte na link u SMS-u — idite direktno na sajt kurira i proverite tracking broj.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Nikad ne klikajte na link u SMS-u — idite direktno na sajt kurira i proverite tracking broj." data-en="Phase threshold: Never click the link in an SMS — go directly to the courier's site and check the tracking number."><strong>Prag faze:</strong> Nikad ne klikajte na link u SMS-u — idite direktno na sajt kurira i proverite tracking broj.</div>
   </div>
 
   <div class="phase">
@@ -63,18 +63,18 @@ window.SCAM_CONTENT["package-redelivery-scam"] = {
       <li data-sr="Proverite URL pažljivo pre unosa bilo kakvih podataka — lažni domen se razlikuje za jedan karakter." data-en="Check the URL carefully before entering any data — the fake domain differs by one character.">Proverite URL pažljivo pre unosa bilo kakvih podataka — lažni domen se razlikuje za jedan karakter.</li>
       <li data-sr="Zakazivanje ponovne isporuke na legitimnim sajtovima kurira ne zahteva plaćanje." data-en="Scheduling a redelivery on legitimate courier sites does not require payment.">Zakazivanje ponovne isporuke na legitimnim sajtovima kurira ne zahteva plaćanje.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Zakazivanje ponovne isporuke bez plaćanja je norma — svaki zahtev za plaćanjem je signal prevare." data-en="Phase threshold: Scheduling a redelivery without payment is the norm — any payment request is a fraud signal."><strong>Prag faze:</strong> Zakazivanje ponovne isporuke bez plaćanja je norma — svaki zahtev za plaćanjem je signal prevare.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Zakazivanje ponovne isporuke bez plaćanja je norma — svaki zahtev za plaćanjem je signal prevare." data-en="Phase threshold: Scheduling a redelivery without payment is the norm — any payment request is a fraud signal."><strong>Prag faze:</strong> Zakazivanje ponovne isporuke bez plaćanja je norma — svaki zahtev za plaćanjem je signal prevare.</div>
   </div>
 
   <div class="phase">
     <div class="label" data-sr="Faza 3: Zahtev za uplatom manje naknade" data-en="Phase 3: Request for small fee payment">Faza 3: Zahtev za uplatom manje naknade</div>
-    <p data-sr="Posle unosa adrese, sajt zahteva plaćanje 1–5 EUR za „ponovnu isporuku“. Stranica za plaćanje izgleda legitimno i prikuplja sve podatke kartice." data-en="After entering the address, the site requests payment of 1–5 EUR for 'redelivery.' The payment page looks legitimate and collects all card data.">Posle unosa adrese, sajt zahteva plaćanje 1–5 EUR za „ponovnu isporuku"“. Stranica za plaćanje izgleda legitimno i prikuplja sve podatke kartice.</p>
+    <p data-sr="Posle unosa adrese, sajt zahteva plaćanje 1–5 EUR za ponovnu isporuku. Stranica za plaćanje izgleda legitimno i prikuplja sve podatke kartice." data-en="After entering the address, the site requests payment of 1–5 EUR for 'redelivery.' The payment page looks legitimate and collects all card data.">Posle unosa adrese, sajt zahteva plaćanje 1–5 EUR za ponovnu isporuku. Stranica za plaćanje izgleda legitimno i prikuplja sve podatke kartice.</p>
     <ul class="bullets">
       <li data-sr="Prave kurirske naknade za ponovnu isporuku se plaćaju pri isporuci ili na zvaničnom sajtu — ne putem SMS linka." data-en="Real courier redelivery fees are paid upon delivery or on the official website — not via SMS link.">Prave kurirske naknade za ponovnu isporuku se plaćaju pri isporuci ili na zvaničnom sajtu — ne putem SMS linka.</li>
       <li data-sr="Blokirajte karticu odmah ako ste uneli podatke na sumnjivom sajtu." data-en="Block the card immediately if you entered details on a suspicious site.">Blokirajte karticu odmah ako ste uneli podatke na sumnjivom sajtu.</li>
       <li data-sr="Prevarant prikuplja sve podatke kartice, ne samo plaćanje od 2 EUR — cilj su veće transakcije." data-en="The fraudster collects all card data, not just the 2 EUR payment — the goal is larger transactions.">Prevarant prikuplja sve podatke kartice, ne samo plaćanje od 2 EUR — cilj su veće transakcije.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Unos podataka kartice za 'naknadu za ponovnu isporuku„ putem SMS linka — blokirajte karticu odmah." data-en="Phase threshold: Card data entry for a “redelivery fee' via SMS link — block the card immediately."><strong>Prag faze:</strong> Unos podataka kartice za „naknadu za ponovnu isporuku" putem SMS linka — blokirajte karticu odmah“.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Unos podataka kartice za naknadu za ponovnu isporuku putem SMS linka — blokirajte karticu odmah." data-en="Phase threshold: Card data entry for a redelivery fee' via SMS link — block the card immediately."><strong>Prag faze:</strong> Unos podataka kartice za naknadu za ponovnu isporuku putem SMS linka — blokirajte karticu odmah.</div>
   </div>
 
   <div class="phase">
@@ -85,7 +85,7 @@ window.SCAM_CONTENT["package-redelivery-scam"] = {
       <li data-sr="Poklon kartice nikad nisu metod plaćanja za kurirske naknade — to je definitivan signal prevare." data-en="Gift cards are never a payment method for courier fees — that is a definitive fraud signal.">Poklon kartice nikad nisu metod plaćanja za kurirske naknade — to je definitivan signal prevare.</li>
       <li data-sr="Prekinite poziv i kontaktirajte kurirsku službu direktno na njenom zvaničnom broju." data-en="End the call and contact the courier service directly at its official number.">Prekinite poziv i kontaktirajte kurirsku službu direktno na njenom zvaničnom broju.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Svaki poziv koji traži plaćanje za ponovnu isporuku je lažni kurir — prekinite i pozovite zvaničan broj." data-en="Phase threshold: Any call requesting payment for redelivery is a fake courier — hang up and call the official number."><strong>Prag faze:</strong> Svaki poziv koji traži plaćanje za ponovnu isporuku je lažni kurir — prekinite i pozovite zvaničan broj.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Svaki poziv koji traži plaćanje za ponovnu isporuku je lažni kurir — prekinite i pozovite zvaničan broj." data-en="Phase threshold: Any call requesting payment for redelivery is a fake courier — hang up and call the official number."><strong>Prag faze:</strong> Svaki poziv koji traži plaćanje za ponovnu isporuku je lažni kurir — prekinite i pozovite zvaničan broj.</div>
   </div>
 
   <div class="phase">
@@ -96,7 +96,7 @@ window.SCAM_CONTENT["package-redelivery-scam"] = {
       <li data-sr="Promenite lozinke za sve servise koji su koristili isti e-mail ili adresu." data-en="Change passwords for all services that used the same email or address.">Promenite lozinke za sve servise koji su koristili isti e-mail ili adresu.</li>
       <li data-sr="Prijavite slučaj policiji s dokumentacijom SMS-a, sajta i transakcija." data-en="Report the case to the police with documentation of the SMS, site, and transactions.">Prijavite slučaj policiji s dokumentacijom SMS-a, sajta i transakcija.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Kontaktirajte banku i promenite lozinke odmah — svaki zakasneli korak povećava potencijalni gubitak." data-en="Phase threshold: Contact the bank and change passwords immediately — every delayed step increases potential loss."><strong>Prag faze:</strong> Kontaktirajte banku i promenite lozinke odmah — svaki zakasneli korak povećava potencijalni gubitak.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Kontaktirajte banku i promenite lozinke odmah — svaki zakasneli korak povećava potencijalni gubitak." data-en="Phase threshold: Contact the bank and change passwords immediately — every delayed step increases potential loss."><strong>Prag faze:</strong> Kontaktirajte banku i promenite lozinke odmah — svaki zakasneli korak povećava potencijalni gubitak.</div>
   </div>
 
   <div class="phase">
@@ -106,7 +106,7 @@ window.SCAM_CONTENT["package-redelivery-scam"] = {
       <li data-sr="Prijavite lažni SMS operatoru (prosleđivanjem na 7726 u nekim mrežama) radi blokiranja pošiljaoca." data-en="Report the fake SMS to the operator (by forwarding to 7726 on some networks) to block the sender.">Prijavite lažni SMS operatoru (prosleđivanjem na 7726 u nekim mrežama) radi blokiranja pošiljaoca.</li>
       <li data-sr="Prijavite lažni domen CERT-u ili antivirusnim platformama za brzo uklanjanje." data-en="Report the fake domain to CERT or antivirus platforms for quick removal.">Prijavite lažni domen CERT-u ili antivirusnim platformama za brzo uklanjanje.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Prijavite lažni SMS operatoru i domen CERT-u — to štiti hiljadu korisnika koji bi inače bili sledeće žrtve." data-en="Phase threshold: Report the fake SMS to the operator and domain to CERT — that protects thousands of users who would otherwise be the next victims."><strong>Prag faze:</strong> Prijavite lažni SMS operatoru i domen CERT-u — to štiti hiljade korisnika koji bi inače bili sledeće žrtve.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Prijavite lažni SMS operatoru i domen CERT-u — to štiti hiljade korisnika koji bi inače bili sledeće žrtve." data-en="Phase threshold: Report the fake SMS to the operator and domain to CERT — that protects thousands of users who would otherwise be the next victims."><strong>Prag faze:</strong> Prijavite lažni SMS operatoru i domen CERT-u — to štiti hiljade korisnika koji bi inače bili sledeće žrtve.</div>
   </div>
 </section>
 
@@ -126,7 +126,7 @@ window.SCAM_CONTENT["package-redelivery-scam"] = {
   <ul class="bullets">
     <li data-sr="Idite direktno na sajt kurirske službe i unesite tracking broj da proverite da li je pošiljka zaista tu." data-en="Go directly to the courier's website and enter the tracking number to verify the shipment is actually there.">Idite direktno na sajt kurirske službe i unesite tracking broj da proverite da li je pošiljka zaista tu.</li>
     <li data-sr="Proverite da li ste zaista naručili nešto od te kurirske službe u poslednje vreme." data-en="Check whether you actually ordered something from that courier service recently.">Proverite da li ste zaista naručili nešto od te kurirske službe u poslednje vreme.</li>
-    <li data-sr="Proverite URL linka pažljivo — mali detalj kao 'dhl-paket.com„ umesto “dhl.com„ je signal prevare." data-en="Check the link URL carefully — a small detail like “dhl-paket.com' instead of 'dhl.com' is a fraud signal.">Proverite URL linka pažljivo — mali detalj kao „dhl-paket“.com" umesto „dhl“.com" je signal prevare“.</li>
+    <li data-sr="Proverite URL linka pažljivo — mali detalj kao dhl-paket.com umesto dhl.com je signal prevare." data-en="Check the link URL carefully — a small detail like dhl-paket.com' instead of 'dhl.com' is a fraud signal.">Proverite URL linka pažljivo — mali detalj kao dhl-paket.com umesto dhl.com je signal prevare.</li>
     <li data-sr="Proverite da li prave kurirske obaveštenja od te kompanije dolaze od istog ili sličnog formata broja." data-en="Check whether real courier notifications from that company come from the same or similar number format.">Proverite da li prave kurirske obaveštenja od te kompanije dolaze od istog ili sličnog formata broja.</li>
     <li data-sr="Pozovite kurirsku službu direktno na njenom zvaničnom broju da proverite status pošiljke." data-en="Call the courier service directly at its official number to check the shipment status.">Pozovite kurirsku službu direktno na njenom zvaničnom broju da proverite status pošiljke.</li>
   </ul>
@@ -158,21 +158,13 @@ window.SCAM_CONTENT["package-redelivery-scam"] = {
 <section class="content-section">
   <h2 data-sr="Ako pokušavaš da pomogneš nekome" data-en="If you are trying to help someone">Ako pokušavaš da pomogneš nekome</h2>
   <ul class="bullets">
-    <li data-sr="Pitaj: „Da li si kliknuo na link u SMS-u ili uneo podatke kartice na sajtu iz linka?“" data-en="Ask: 'Did you click the link in the SMS or enter card details on the site from the link?'">Pitaj: „Da li si kliknuo na link u SMS-u ili uneo podatke kartice na sajtu iz linka?“</li>
-    <li data-sr="Pitaj: „Da li si zaista čekao pošiljku od te kurirske službe u to vreme?“" data-en="Ask: 'Were you actually awaiting a shipment from that courier service at that time?'">Pitaj: „Da li si zaista čekao pošiljku od te kurirske službe u to vreme?“</li>
-    <li data-sr="Rečenice koje pomažu: „Kuriri ne naplaćuju ponovnu isporuku putem SMS linka — to je prevara“.“ „Ako si dao podatke kartice, pozovimo banku odmah da je blokiramo“.“" data-en="Sentences that help: 'Couriers do not charge for redelivery via SMS link — that is a scam.' 'If you gave card details, let's call the bank right now to block.'">Rečenice koje pomažu: „Kuriri ne naplaćuju ponovnu isporuku putem SMS linka — to je prevara“.“ „Ako si dao podatke kartice, pozovimo banku odmah da je blokiramo“.“</li>
+    <li data-sr="Pitaj: Da li si kliknuo na link u SMS-u ili uneo podatke kartice na sajtu iz linka?" data-en="Ask: Did you click the link in the SMS or enter card details on the site from the link?">Pitaj: Da li si kliknuo na link u SMS-u ili uneo podatke kartice na sajtu iz linka?</li>
+    <li data-sr="Pitaj: Da li si zaista čekao pošiljku od te kurirske službe u to vreme?" data-en="Ask: Were you actually awaiting a shipment from that courier service at that time?">Pitaj: Da li si zaista čekao pošiljku od te kurirske službe u to vreme?</li>
+    <li data-sr="Rečenice koje pomažu: Kuriri ne naplaćuju ponovnu isporuku putem SMS linka — to je prevara. Ako si dao podatke kartice, pozovimo banku odmah da je blokiramo." data-en="Sentences that help: Couriers do not charge for redelivery via SMS link — that is a scam.' 'If you gave card details, let's call the bank right now to block.">Rečenice koje pomažu: Kuriri ne naplaćuju ponovnu isporuku putem SMS linka — to je prevara. Ako si dao podatke kartice, pozovimo banku odmah da je blokiramo.</li>
     <li data-sr="Pomozi osobi da skenira uređaj i prijavi lažni SMS operatoru odmah." data-en="Help the person scan the device and report the fake SMS to the operator right away.">Pomozi osobi da skenira uređaj i prijavi lažni SMS operatoru odmah.</li>
   </ul>
 </section>
 
-<section class="content-section">
-  <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-  <ul class="bullets">
-    <li><a href="parcel-scam.html" data-sr="Prevara s paketnom notifikacijom — isti model SMS phishinga" data-en="Parcel scam — same SMS phishing model">Prevara s paketnom notifikacijom — isti model SMS phishinga</a></li>
-    <li><a href="smishing.html" data-sr="Smishing — SMS phishing širi kontekst" data-en="Smishing — SMS phishing broader context">Smishing — SMS phishing širi kontekst</a></li>
-    <li><a href="fake-delivery.html" data-sr="Prevara lažnom dostavom — fizički kurir varijanta" data-en="Fake delivery — physical courier variant">Prevara lažnom dostavom — fizički kurir varijanta</a></li>
-    <li><a href="phishing.html" data-sr="Fišing — lažni sajtovi za prikupljanje podataka" data-en="Phishing — fake sites for data collection">Fišing — lažni sajtovi za prikupljanje podataka</a></li>
-  </ul>
-</section>
+
 `
 };

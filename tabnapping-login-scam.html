@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Tabnapping: zamena taba sa lažnom prijavom u pregledaču — kako prepoznati i sprečiti."
+    data-sr="Tabnapping: zamena taba sa lažnom prijavom u pregledaču — kako prepoznati i sprečiti."
+    data-en="Tabnapping: swapped tab with a fake browser login — how to spot and stop it."
+  />
+  <title data-sr="Tabnapping: lažna prijava u pregledaču" data-en="Tabnapping login scam">Tabnapping: lažna prijava u pregledaču</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="ui.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="tabnapping-login-scam.content.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="cases.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+      <div class="brand">
+        <span class="brand-dot" aria-hidden="true"></span>
+        <span class="brand-name">Anti-scam</span>
+      </div>
+
+      <nav aria-label="Glavna navigacija">
+        <ul class="top-nav">
+          <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+          <li><a href="prevare.html" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          <li><a href="protecting-elderly.html" data-sr="Prevencija" data-en="Prevention">Prevencija</a></li>                  </ul>
+      </nav>
+    </div>
+
+<div class="hero compact">
+        <h1 data-sr="Tabnapping: lažna prijava u pregledaču" data-en="Tabnapping login scam">Tabnapping: lažna prijava u pregledaču</h1>
+        <p class="muted hero-sub"
+           data-sr="Legitiman tab → čekanje u pozadini → zamena stranice za prijavu → unos lozinke → preuzimanje naloga."
+           data-en="Legit tab → background wait → login page swap → password entry → account takeover.">
+          Legitiman tab → čekanje u pozadini → zamena stranice za prijavu → unos lozinke → preuzimanje naloga.
+        </p>
+        <div id="scam-meta" data-scam="tabnapping-login-scam"></div>
+        <div class="callout"
+             data-sr="<strong>Prag:</strong> unos lozinke ili koda na stranici čiji domen niste upravo ručno otvorili."
+             data-en="<strong>Threshold:</strong> entering a password or code on a page whose domain you did not just open yourself.">
+          <strong>Prag:</strong> unos lozinke ili koda na stranici čiji domen niste upravo ručno otvorili.
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="container" id="scam-content" data-scam="tabnapping-login-scam"></main>
+  <footer class="footer">
+  <div class="container">
+    <p class="muted"
+       data-sr="Anti-scam projekat — edukacija i analiza"
+       data-en="Anti-scam project — education and analysis">
+      Anti-scam projekat — edukacija i analiza
+    </p>
+    <p class="muted">
+      <a href="obavestenje-o-privatnosti.html" data-sr="Obaveštenje o privatnosti" data-en="Privacy notice">Obaveštenje o privatnosti</a>
+    </p>
+  </div>
+</footer>
+</body>
+</html>

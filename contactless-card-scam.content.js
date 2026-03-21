@@ -1,11 +1,11 @@
-﻿window.SCAM_CONTENT = window.SCAM_CONTENT || {};
+window.SCAM_CONTENT = window.SCAM_CONTENT || {};
 
 window.SCAM_CONTENT["contactless-card-scam"] = {
   raw_html: `
     <section class="card">
       <h2 data-sr="Uvod: kako radi prevara beskontaktnom karticom" data-en="Introduction: how contactless card scam works">Uvod: kako radi prevara beskontaktnom karticom</h2>
-      <p data-sr="Beskontaktna kartica emituje NFC signal koji može biti pročitan na daljini do 10 centimetara bez fizičkog kontakta. Napadač s prenosnim NFC čitačem može u gužvi, javnom prevozu ili na prometnom mestu inicirati transakciju malog iznosa postavljanjem uređaja pored novčanika ili torbice u kojoj se nalazi kartica." data-en="A contactless card emits an NFC signal that can be read at a range of up to 10 centimeters without physical contact. An attacker with a portable NFC reader can, in a crowd, public transport, or busy location, initiate a low-value transaction by placing the device near a wallet or bag containing the card.">Beskontaktna kartica može biti pročitana do 10 cm. Napadač u gužvi inicira transakciju malih iznosa postavljanjem NFC čitača pored novčanika.</p>
-      <p data-sr="Praktična izvodivost ovog napada je ograničena — moderne kartice imaju granice za beskontaktne transakcije bez PIN-a, a novčanici s više kartica mogu izazvati konflikte u komunikaciji. Ali digitalna krađa podataka za CNP upotrebu je realističnija varijanta od direktnih beskontaktnih transakcija." data-en="The practical feasibility of this attack is limited — modern cards have limits for contactless transactions without a PIN, and wallets with multiple cards can cause communication conflicts. But digital data theft for CNP use is a more realistic variant than direct contactless transactions.">Direktne NFC transakcije su ograničene iznosom i zahtevima za PIN. Krađa podataka za CNP je realističnija varijanta.</p>
+      <p data-sr="Beskontaktna kartica može biti pročitana do 10 cm. Napadač u gužvi inicira transakciju malih iznosa postavljanjem NFC čitača pored novčanika." data-en="A contactless card emits an NFC signal that can be read at a range of up to 10 centimeters without physical contact. An attacker with a portable NFC reader can, in a crowd, public transport, or busy location, initiate a low-value transaction by placing the device near a wallet or bag containing the card.">Beskontaktna kartica može biti pročitana do 10 cm. Napadač u gužvi inicira transakciju malih iznosa postavljanjem NFC čitača pored novčanika.</p>
+      <p data-sr="Direktne NFC transakcije su ograničene iznosom i zahtevima za PIN. Krađa podataka za CNP je realističnija varijanta." data-en="The practical feasibility of this attack is limited — modern cards have limits for contactless transactions without a PIN, and wallets with multiple cards can cause communication conflicts. But digital data theft for CNP use is a more realistic variant than direct contactless transactions.">Direktne NFC transakcije su ograničene iznosom i zahtevima za PIN. Krađa podataka za CNP je realističnija varijanta.</p>
       <div class="callout" data-sr="<strong>Model:</strong> NFC čitač pored novčanika → skeniranje kartice → direktna transakcija malog iznosa ili prikupljanje podataka za CNP upotrebu." data-en="<strong>Model:</strong> NFC reader near wallet → card scanned → direct low-value transaction or data collection for CNP use."><strong>Model:</strong> NFC čitač pored novčanika → skeniranje kartice → direktna transakcija malog iznosa ili prikupljanje podataka za CNP upotrebu.</div>
       <div class="callout" data-sr="<strong>Prag:</strong> beskontaktna kartica može biti pročitana na daljinu do 10 cm bez fizičkog kontakta — zaštitna folija ili metal novčanik blokiraju signal." data-en="<strong>Threshold:</strong> a contactless card can be read at a range of up to 10 cm without physical contact — protective foil or a metal wallet blocks the signal."><strong>Prag:</strong> beskontaktna kartica može biti pročitana na daljinu do 10 cm bez fizičkog kontakta — zaštitna folija ili metal novčanik blokiraju signal.</div>
     </section>
@@ -17,7 +17,7 @@ window.SCAM_CONTENT["contactless-card-scam"] = {
           <div class="label" data-sr="Direktna NFC transakcija" data-en="Direct NFC transaction">Direktna NFC transakcija</div>
           <ul class="bullets">
             <li data-sr="napadač s prenosnim NFC čitačem inicira transakciju bez PIN-a do zakonskog limita." data-en="attacker with a portable NFC reader initiates a transaction without a PIN up to the legal limit.">napadač s prenosnim NFC čitačem inicira transakciju bez PIN-a do zakonskog limita.</li>
-            <li data-sr="transakcija se pojavljuje na izvodu pod imenom 'nepoznat trgovac„ ili stranog subjekta." data-en="transaction appears on the statement under “unknown merchant' or a foreign entity.">transakcija se pojavljuje na izvodu pod imenom 'nepoznat trgovac' ili stranog subjekta.</li>
+            <li data-sr="transakcija se pojavljuje na izvodu pod imenom 'nepoznat trgovac' ili stranog subjekta." data-en="transaction appears on the statement under unknown merchant' or a foreign entity.">transakcija se pojavljuje na izvodu pod imenom 'nepoznat trgovac' ili stranog subjekta.</li>
             <li data-sr="moderni sistemi zahtevaju PIN posle nekoliko uzastopnih beskontaktnih transakcija što ograničava napad." data-en="modern systems require a PIN after several consecutive contactless transactions which limits the attack.">moderni sistemi zahtevaju PIN posle nekoliko uzastopnih beskontaktnih transakcija što ograničava napad.</li>
           </ul>
         </div>
@@ -33,11 +33,11 @@ window.SCAM_CONTENT["contactless-card-scam"] = {
     </section>
 
     <section class="card">
-      <h2 data-sr="Hronološki tok (faze + evolucije)." data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
+      <h2 data-sr="Hronološki tok (faze + evolucije)" data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
 
       <article class="phase">
         <h3 class="phase-title" data-sr="Faza 1 — Fizičko pozicioniranje u blizini žrtve" data-en="Phase 1 — Physical positioning near victim">Faza 1 — Fizičko pozicioniranje u blizini žrtve</h3>
-        <p data-sr="Napadač u gužvi, javnom prevozu ili na stajanju u redu pozicionira NFC čitač u blizini torbice, džepa ili novčanika žrtve. Uređaj je malih dimenzija i lako se skrije." data-en="The attacker in a crowd, public transport, or queue positions an NFC reader near the victim's bag, pocket, or wallet. The device is small and easily concealed.">Napadač pozicionira NFC čitač unutar 10 cm od novčanika žrtve u gužvi ili prevozu.</p>
+        <p data-sr="Napadač pozicionira NFC čitač unutar 10 cm od novčanika žrtve u gužvi ili prevozu." data-en="The attacker in a crowd, public transport, or queue positions an NFC reader near the victim's bag, pocket, or wallet. The device is small and easily concealed.">Napadač pozicionira NFC čitač unutar 10 cm od novčanika žrtve u gužvi ili prevozu.</p>
         <ul class="bullets">
           <li data-sr="signal: nepoznata transakcija malog iznosa na kartičnom izvodu bez poznatog razloga." data-en="signal: unknown low-value transaction on card statement without a known reason.">signal: nepoznata transakcija malog iznosa na kartičnom izvodu bez poznatog razloga.</li>
           <li data-sr="signal: transakcija sa stranog ili nepoznatog maloprodajnog subjekta u vreme kada niste kupovali." data-en="signal: transaction from a foreign or unknown retail entity at a time when you were not shopping.">signal: transakcija sa stranog ili nepoznatog maloprodajnog subjekta u vreme kada niste kupovali.</li>
@@ -47,7 +47,7 @@ window.SCAM_CONTENT["contactless-card-scam"] = {
 
       <article class="phase warn">
         <h3 class="phase-title" data-sr="Faza 2 — Transakcija ili CNP zloupotreba" data-en="Phase 2 — Transaction or CNP misuse">Faza 2 — Transakcija ili CNP zloupotreba</h3>
-        <p data-sr="Direktna transakcija se pojavljuje na izvodu. Ili napadač koristi prikupljene podatke za CNP kupovine. Žrtva otkrije problem pregledom izvoda." data-en="The direct transaction appears on the statement. Or the attacker uses collected data for CNP purchases. The victim discovers the problem by reviewing the statement.">Direktna transakcija ili CNP kupovine se pojavljuju na izvodu. Žrtva otkrije pregledom.</p>
+        <p data-sr="Direktna transakcija ili CNP kupovine se pojavljuju na izvodu. Žrtva otkrije pregledom." data-en="The direct transaction appears on the statement. Or the attacker uses collected data for CNP purchases. The victim discovers the problem by reviewing the statement.">Direktna transakcija ili CNP kupovine se pojavljuju na izvodu. Žrtva otkrije pregledom.</p>
         <div class="branch">
           <p><strong data-sr="Grananja u ovoj fazi" data-en="Branching at this phase">Grananja u ovoj fazi</strong></p>
           <ul class="bullets">
@@ -128,14 +128,6 @@ window.SCAM_CONTENT["contactless-card-scam"] = {
       </div>
     </section>
 
-    <section class="card sources" id="sources">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <ul class="bullets">
-        <li><a href="card-skimming.html" data-sr="Skimovanje kartice (opšte)" data-en="Card skimming">Skimovanje kartice (opšte)</a></li>
-        <li><a href="atm-skimming.html" data-sr="Skimovanje na bankomatu" data-en="ATM skimming">Skimovanje na bankomatu</a></li>
-        <li><a href="pos-skimming.html" data-sr="Skimovanje na POS terminalu" data-en="POS skimming">Skimovanje na POS terminalu</a></li>
-        <li><a href="card-not-present-fraud.html" data-sr="Zloupotreba kartice bez fizičkog prisustva" data-en="Card-not-present fraud">Zloupotreba kartice bez fizičkog prisustva</a></li>
-      </ul>
-    </section>
+    
   `
 };

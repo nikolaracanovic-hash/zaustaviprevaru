@@ -4,8 +4,8 @@ window.SCAM_CONTENT["overpayment-scam"] = {
   raw_html: `
     <section class="card">
       <h2 data-sr="Uvod: kako radi prevara s preplatom" data-en="Introduction: how the overpayment scam works">Uvod: kako radi prevara s preplatom</h2>
-      <p data-sr="Prevara s preplatom cilja prodavce koji nude robu ili usluge — na oglasnim sajtovima, platformama za slobodnjake ili direktnom komunikacijom. Kupac šalje uplatu koja je veća od dogovorenog iznosa, tvrdi da je greška, i traži povrat razlike. Prodavac vrati razliku sopstvenim sredstvima, originalna uplata se poništi ili bude lažna, i prodavac ostane bez robe, bez originalne uplate i minus za iznos vraćene razlike." data-en="The overpayment scam targets sellers offering goods or services — on classified ad sites, freelance platforms, or direct communication. The buyer sends a payment larger than agreed, claims it was a mistake, and requests a refund of the difference. The seller refunds the difference from their own funds, the original payment is reversed or was fake, and the seller ends up with no goods, no original payment, and minus the refunded difference.">Kupac šalje uplatu veću od dogovorene, traži povrat razlike, a originalna uplata se poništi. Prodavac gubi robu, originalnu uplatu i vraćenu razliku.</p>
-      <p data-sr="Originalnu uplatu vrše lažnim čekom koji banka privremeno odobri pre nego ga poništi, ukradenom karticom čija transakcija kasnije bude osporena, ili bankovnim transferom koji se reklamacijom poništi. U svakom slučaju, prodavac koji vrati razliku gotovinom, putem PayPal-a ili instant transferom šalje stvaran novac — a original nikad ne stigne." data-en="The original payment is made with a fake cheque the bank temporarily clears before rejecting it, a stolen card whose transaction is later disputed, or a bank transfer that is reversed upon request. In each case, the seller who refunds the difference in cash, via PayPal, or instant transfer sends real money — while the original never clears.">Originalnu uplatu vrše lažnim čekom, ukradenom karticom ili transferom koji se poništi. Vraćena razlika je uvek stvaran novac.</p>
+      <p data-sr="Kupac šalje uplatu veću od dogovorene, traži povrat razlike, a originalna uplata se poništi. Prodavac gubi robu, originalnu uplatu i vraćenu razliku." data-en="The overpayment scam targets sellers offering goods or services — on classified ad sites, freelance platforms, or direct communication. The buyer sends a payment larger than agreed, claims it was a mistake, and requests a refund of the difference. The seller refunds the difference from their own funds, the original payment is reversed or was fake, and the seller ends up with no goods, no original payment, and minus the refunded difference.">Kupac šalje uplatu veću od dogovorene, traži povrat razlike, a originalna uplata se poništi. Prodavac gubi robu, originalnu uplatu i vraćenu razliku.</p>
+      <p data-sr="Originalnu uplatu vrše lažnim čekom, ukradenom karticom ili transferom koji se poništi. Vraćena razlika je uvek stvaran novac." data-en="The original payment is made with a fake cheque the bank temporarily clears before rejecting it, a stolen card whose transaction is later disputed, or a bank transfer that is reversed upon request. In each case, the seller who refunds the difference in cash, via PayPal, or instant transfer sends real money — while the original never clears.">Originalnu uplatu vrše lažnim čekom, ukradenom karticom ili transferom koji se poništi. Vraćena razlika je uvek stvaran novac.</p>
       <div class="callout" data-sr="<strong>Model:</strong> kupovina → preplata → zahtev za povratom razlike → prodavac vraća razliku → originalna uplata se poništi → gubitak." data-en="<strong>Model:</strong> purchase → overpayment → surplus refund request → seller refunds difference → original payment reversed → loss."><strong>Model:</strong> kupovina → preplata → zahtev za povratom razlike → prodavac vraća razliku → originalna uplata se poništi → gubitak.</div>
       <div class="callout" data-sr="<strong>Prag:</strong> originalna uplata koja je veća nego dogovorena može biti čekom, bankovnim transferom ili kartičnom transakcijom koja će biti poništena." data-en="<strong>Threshold:</strong> an original payment larger than agreed may be by cheque, bank transfer, or card transaction that will later be reversed."><strong>Prag:</strong> originalna uplata koja je veća nego dogovorena može biti čekom, bankovnim transferom ili kartičnom transakcijom koja će biti poništena.</div>
     </section>
@@ -25,19 +25,19 @@ window.SCAM_CONTENT["overpayment-scam"] = {
           <div class="label" data-sr="Kako se uvodi povrat razlike" data-en="How the refund request is introduced">Kako se uvodi povrat razlike</div>
           <ul class="bullets">
             <li data-sr="povrat se traži metodom koji je različit od originalne uplate — instant transfer, PayPal, kripto." data-en="the refund is requested by a method different from the original payment — instant transfer, PayPal, crypto.">povrat se traži metodom koji je različit od originalne uplate — instant transfer, PayPal, kripto.</li>
-            <li data-sr="hitnost: 'treba mi novac za kurir danas„, “gazda čeka potvrdu„ — pritisak na brz povrat." data-en="urgency: “I need the money for the courier today', 'my boss is waiting for confirmation' — pressure for a quick refund.">hitnost: 'treba mi novac za kurir danas', 'gazda čeka potvrdu' — pritisak na brz povrat.</li>
-            <li data-sr="prodavac koji čeka kliring originalne uplate čuje: 'ne brinite, sve je u redu, uplata je u obradi„." data-en="the seller who waits for the original payment to clear hears: “don't worry, everything is fine, it's in clearing'.">prodavac koji čeka kliring originalne uplate čuje: 'ne brinite, sve je u redu, uplata je u obradi'.</li>
+            <li data-sr="hitnost: 'treba mi novac za kurir danas', 'gazda čeka potvrdu' — pritisak na brz povrat." data-en="urgency: I need the money for the courier today', 'my boss is waiting for confirmation' — pressure for a quick refund.">hitnost: 'treba mi novac za kurir danas', 'gazda čeka potvrdu' — pritisak na brz povrat.</li>
+            <li data-sr="prodavac koji čeka kliring originalne uplate čuje: 'ne brinite, sve je u redu, uplata je u obradi'." data-en="the seller who waits for the original payment to clear hears: don't worry, everything is fine, it's in clearing'.">prodavac koji čeka kliring originalne uplate čuje: 'ne brinite, sve je u redu, uplata je u obradi'.</li>
           </ul>
         </div>
       </div>
     </section>
 
     <section class="card">
-      <h2 data-sr="Hronološki tok (faze + evolucije)." data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
+      <h2 data-sr="Hronološki tok (faze + evolucije)" data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
 
       <article class="phase">
         <h3 class="phase-title" data-sr="Faza 1 — Kontakt i dogovaranje kupovine" data-en="Phase 1 — Contact and purchase agreement">Faza 1 — Kontakt i dogovaranje kupovine</h3>
-        <p data-sr="Kupac kontaktira prodavca, postavlja razumna pitanja i dogovara kupovinu. Sve izgleda normalno do trenutka uplate." data-en="The buyer contacts the seller, asks reasonable questions, and agrees on the purchase. Everything appears normal until the payment.">Kupac kontaktira, postavlja razumna pitanja, dogovara kupovinu. Ništa nije sumnjivo do trenutka uplate.</p>
+        <p data-sr="Kupac kontaktira, postavlja razumna pitanja, dogovara kupovinu. Ništa nije sumnjivo do trenutka uplate." data-en="The buyer contacts the seller, asks reasonable questions, and agrees on the purchase. Everything appears normal until the payment.">Kupac kontaktira, postavlja razumna pitanja, dogovara kupovinu. Ništa nije sumnjivo do trenutka uplate.</p>
         <ul class="bullets">
           <li data-sr="signal: kupac traži da se plaćanje obavi čekom ili bankovnim transferom umesto platformom za zaštitu kupca." data-en="signal: buyer requests payment by cheque or bank transfer instead of a buyer-protection platform.">signal: kupac traži da se plaćanje obavi čekom ili bankovnim transferom umesto platformom za zaštitu kupca.</li>
           <li data-sr="signal: kupac koji kupuje bez postavljanja pitanja o kvalitetu ili stanju robe možda ne namerava da zadrži robu." data-en="signal: a buyer who purchases without asking about quality or condition of the goods may not intend to keep them.">signal: kupac koji kupuje bez postavljanja pitanja o kvalitetu ili stanju robe možda ne namerava da zadrži robu.</li>
@@ -47,7 +47,7 @@ window.SCAM_CONTENT["overpayment-scam"] = {
 
       <article class="phase warn">
         <h3 class="phase-title" data-sr="Faza 2 — Preplata i objašnjenje" data-en="Phase 2 — Overpayment and explanation">Faza 2 — Preplata i objašnjenje</h3>
-        <p data-sr="Uplata stiže u iznosu koji je veći od dogovorenog. Kupac se javlja sa objašnjenjem i zahtevom za povratom razlike — odmah, pre nego što se originalna uplata zapravo isknjiga na računu prodavca." data-en="The payment arrives for more than agreed. The buyer contacts with an explanation and a refund request — immediately, before the original payment actually clears in the seller's account.">Uplata je prevelika, kupac traži povrat razlike odmah — pre nego se original zaista isknjiga.</p>
+        <p data-sr="Uplata je prevelika, kupac traži povrat razlike odmah — pre nego se original zaista isknjiga." data-en="The payment arrives for more than agreed. The buyer contacts with an explanation and a refund request — immediately, before the original payment actually clears in the seller's account.">Uplata je prevelika, kupac traži povrat razlike odmah — pre nego se original zaista isknjiga.</p>
         <ul class="bullets">
           <li data-sr="signal: pritisak za hitnim povratom razlike pre nego je originalna uplata potvrđena je definitivan alarm." data-en="signal: pressure for immediate refund of the difference before the original payment is confirmed is a definitive alarm.">signal: pritisak za hitnim povratom razlike pre nego je originalna uplata potvrđena je definitivan alarm.</li>
           <li data-sr="signal: traženi metod povrata razlikuje se od metoda originalne uplate." data-en="signal: the requested refund method differs from the original payment method.">signal: traženi metod povrata razlikuje se od metoda originalne uplate.</li>
@@ -57,7 +57,7 @@ window.SCAM_CONTENT["overpayment-scam"] = {
 
       <article class="phase bad">
         <h3 class="phase-title" data-sr="Faza 3 — Poništenje originalne uplate i gubitak" data-en="Phase 3 — Original payment reversed and loss">Faza 3 — Poništenje originalne uplate i gubitak</h3>
-        <p data-sr="Originalna uplata se poništi — čekovni fond je prazan, kartica je osporena ili transfer je povučen reklamacijom. Prodavac je vratio razliku sopstvenim sredstvima i ostao bez obe uplate i bez robe." data-en="The original payment is reversed — the cheque bounces, the card is disputed, or the transfer is recalled. The seller refunded the difference from their own funds and is left with neither payment nor the goods.">Originalna uplata je poništena. Prodavac je ostao bez robe i bez oba iznosa — originala i vraćene razlike.</p>
+        <p data-sr="Originalna uplata je poništena. Prodavac je ostao bez robe i bez oba iznosa — originala i vraćene razlike." data-en="The original payment is reversed — the cheque bounces, the card is disputed, or the transfer is recalled. The seller refunded the difference from their own funds and is left with neither payment nor the goods.">Originalna uplata je poništena. Prodavac je ostao bez robe i bez oba iznosa — originala i vraćene razlike.</p>
         <div class="branch">
           <p><strong data-sr="Grananja u ovoj fazi" data-en="Branching at this phase">Grananja u ovoj fazi</strong></p>
           <ul class="bullets">
@@ -83,7 +83,7 @@ window.SCAM_CONTENT["overpayment-scam"] = {
     <section class="card">
       <h2 data-sr="Checklista: 10 pitanja pre povrata ikakve razlike" data-en="Checklist: 10 questions before refunding any difference">Checklista: 10 pitanja pre povrata ikakve razlike</h2>
       <ul class="bullets">
-        <li data-sr="Da li je originalna uplata zaista klirirala i dostupna na mom računu — ne samo prikazana kao „na čekanju“?" data-en="Has the original payment truly cleared and is it available in my account — not just showing as 'pending'?">Da li je originalna uplata zaista klirirala i dostupna na mom računu — ne samo prikazana kao 'na čekanju'?</li>
+        <li data-sr="Da li je originalna uplata zaista klirirala i dostupna na mom računu — ne samo prikazana kao 'na čekanju'?" data-en="Has the original payment truly cleared and is it available in my account — not just showing as 'pending'?">Da li je originalna uplata zaista klirirala i dostupna na mom računu — ne samo prikazana kao 'na čekanju'?</li>
         <li data-sr="Da li mi banka može potvrditi da je uplata konačna i ne može biti poništena?" data-en="Can the bank confirm the payment is final and cannot be reversed?">Da li mi banka može potvrditi da je uplata konačna i ne može biti poništena?</li>
         <li data-sr="Zašto kupac traži povrat drugom metodom nego originalnom uplatom?" data-en="Why is the buyer requesting a refund by a different method than the original payment?">Zašto kupac traži povrat drugom metodom nego originalnom uplatom?</li>
         <li data-sr="Da li postoji vremenski pritisak koji me sprečava da sačekam potvrdu originalne uplate?" data-en="Is there time pressure preventing me from waiting for the original payment confirmation?">Da li postoji vremenski pritisak koji me sprečava da sačekam potvrdu originalne uplate?</li>
@@ -112,7 +112,7 @@ window.SCAM_CONTENT["overpayment-scam"] = {
         <div class="phase">
           <div class="label" data-sr="Pitanja koja pomažu" data-en="Helpful questions">Pitanja koja pomažu</div>
           <ul class="bullets">
-            <li data-sr="Da li je originalna uplata zaista dostupna ili je samo prikazana kao „na čekanju“?" data-en="Is the original payment truly available or just showing as pending?">Da li je originalna uplata zaista dostupna ili je samo prikazana kao 'na čekanju'?</li>
+            <li data-sr="Da li je originalna uplata zaista dostupna ili je samo prikazana kao 'na čekanju'?" data-en="Is the original payment truly available or just showing as pending?">Da li je originalna uplata zaista dostupna ili je samo prikazana kao 'na čekanju'?</li>
             <li data-sr="Da li kupac pritiska na hitan povrat razlike pre nego banka potvrdi uplatu?" data-en="Is the buyer pressing for urgent refund before the bank confirms the payment?">Da li kupac pritiska na hitan povrat razlike pre nego banka potvrdi uplatu?</li>
           </ul>
         </div>
@@ -126,14 +126,6 @@ window.SCAM_CONTENT["overpayment-scam"] = {
       </div>
     </section>
 
-    <section class="card sources" id="sources">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <ul class="bullets">
-        <li><a href="chargeback-fraud.html" data-sr="Lažni chargeback (zloupotreba povrata plaćanja)" data-en="Chargeback fraud (friendly fraud)">Lažni chargeback (zloupotreba povrata plaćanja)</a></li>
-        <li><a href="card-not-present-fraud.html" data-sr="Zloupotreba kartice bez fizičkog prisustva" data-en="Card-not-present fraud">Zloupotreba kartice bez fizičkog prisustva</a></li>
-        <li><a href="payment-link-scam.html" data-sr="Prevara s linkom za plaćanje" data-en="Payment link scam">Prevara s linkom za plaćanje</a></li>
-        <li><a href="marketplace-scam.html" data-sr="Prevare na oglasnicima" data-en="Marketplace scams">Prevare na oglasnicima</a></li>
-      </ul>
-    </section>
+    
   `
 };

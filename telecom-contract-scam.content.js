@@ -1,11 +1,11 @@
-﻿window.SCAM_CONTENT = window.SCAM_CONTENT || {};
+window.SCAM_CONTENT = window.SCAM_CONTENT || {};
 
 window.SCAM_CONTENT["telecom-contract-scam"] = {
   raw_html: `
     <section class="card">
       <h2 data-sr="Uvod: kako rade prevare pri obnovi telekomunikacionih ugovora" data-en="Introduction: how telecom contract renewal scams work">Uvod: kako rade prevare pri obnovi telekomunikacionih ugovora</h2>
-      <p data-sr="Telekomunikacione prevarante razlikuje od klasičnih phishing napada to što do žrtve dolaze lično — telefonom ili na vrata. Predstavljaju se kao zastupnici operatera ili ovlašćeni prodajni agenti koji nude obnovu ili poboljšanje ugovora. Žrtvi se prikazuje povoljnija ponuda, a potpisani dokument je zapravo ugovor o prelasku na drugog, skupljeg operatera ili o aktiviranju skupe opcije bez saglasnosti." data-en="Telecom fraudsters differ from classic phishing attacks in that they approach the victim directly — by phone or at the door. They present themselves as operator representatives or authorized sales agents offering contract renewal or upgrade. The victim is shown a better offer, but the signed document is actually a contract to switch to a different, more expensive operator or activate an expensive option without consent.">Telefonski ili terenski agenti nude obnovu ili poboljšanje ugovora, ali potpisani dokument je prelazak na skupljeg operatera ili aktiviranje skupih opcija bez pravog pristanka.</p>
-      <p data-sr="Šema se oslanja na formalni izgled dokumenta, žurbu pri potpisivanju i nepoznavanje ugovornih uslova. Žrtva misli da potpisuje produžetak — a zapravo potpisuje novi ugovor s višim mesečnim iznosom ili dvogodišnom obavezom s penalima za raskid." data-en="The scheme relies on the formal appearance of documents, urgency during signing, and unfamiliarity with contract terms. The victim thinks they are signing an extension — but actually signs a new contract with higher monthly payments or a two-year obligation with cancellation penalties.">Formalni izgled dokumenta + žurba + neznanje o uslovima = novi skupi ugovor umesto obnove starog.</p>
+      <p data-sr="Telefonski ili terenski agenti nude obnovu ili poboljšanje ugovora, ali potpisani dokument je prelazak na skupljeg operatera ili aktiviranje skupih opcija bez pravog pristanka." data-en="Telecom fraudsters differ from classic phishing attacks in that they approach the victim directly — by phone or at the door. They present themselves as operator representatives or authorized sales agents offering contract renewal or upgrade. The victim is shown a better offer, but the signed document is actually a contract to switch to a different, more expensive operator or activate an expensive option without consent.">Telefonski ili terenski agenti nude obnovu ili poboljšanje ugovora, ali potpisani dokument je prelazak na skupljeg operatera ili aktiviranje skupih opcija bez pravog pristanka.</p>
+      <p data-sr="Formalni izgled dokumenta + žurba + neznanje o uslovima = novi skupi ugovor umesto obnove starog." data-en="The scheme relies on the formal appearance of documents, urgency during signing, and unfamiliarity with contract terms. The victim thinks they are signing an extension — but actually signs a new contract with higher monthly payments or a two-year obligation with cancellation penalties.">Formalni izgled dokumenta + žurba + neznanje o uslovima = novi skupi ugovor umesto obnove starog.</p>
       <div class="callout" data-sr="<strong>Model:</strong> poziv ili poseta → ovlašćeni zastupnik → istekao ugovor ili povoljnija ponuda → potpisivanje dokumenta → novi skupi ugovor ili prelazak operatera." data-en="<strong>Model:</strong> call or visit → authorized representative → expired contract or better offer → document signing → new expensive contract or operator switch."><strong>Model:</strong> poziv ili poseta → ovlašćeni zastupnik → istekao ugovor ili povoljnija ponuda → potpisivanje dokumenta → novi skupi ugovor ili prelazak operatera.</div>
       <div class="callout" data-sr="<strong>Prag:</strong> meta potpisuje dokument misleći da produžava ili poboljšava ugovor ali zapravo prelazi na skupljeg operatera." data-en="<strong>Threshold:</strong> the target signs a document believing they are renewing or upgrading a contract but actually switch to a more expensive provider."><strong>Prag:</strong> meta potpisuje dokument misleći da produžava ili poboljšava ugovor ali zapravo prelazi na skupljeg operatera.</div>
     </section>
@@ -35,11 +35,11 @@ window.SCAM_CONTENT["telecom-contract-scam"] = {
     </section>
 
     <section class="card">
-      <h2 data-sr="Hronološki tok (faze + evolucije)." data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
+      <h2 data-sr="Hronološki tok (faze + evolucije)" data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
 
       <article class="phase">
         <h3 class="phase-title" data-sr="Faza 1 — Kontakt i ponuda" data-en="Phase 1 — Contact and offer">Faza 1 — Kontakt i ponuda</h3>
-        <p data-sr="Agent zove ili dolazi na vrata. Navodi da žrtvin ugovor uskoro ističe i da ima posebnu ponudu za obnovu ili nadogradnju. Ponuda uvek zvuči povoljno od tekućeg ugovora. Agent je brz i ne ostavlja previše vremena za čitanje." data-en="The agent calls or comes to the door. They state that the victim's contract is soon expiring and they have a special renewal or upgrade offer. The offer always sounds better than the current contract. The agent is quick and does not leave much time for reading.">Agent zove ili dolazi na vrata s posebnom ponudom za obnovu. Ponuda zvuči povoljno, agent je brz.</p>
+        <p data-sr="Agent zove ili dolazi na vrata s posebnom ponudom za obnovu. Ponuda zvuči povoljno, agent je brz." data-en="The agent calls or comes to the door. They state that the victim's contract is soon expiring and they have a special renewal or upgrade offer. The offer always sounds better than the current contract. The agent is quick and does not leave much time for reading.">Agent zove ili dolazi na vrata s posebnom ponudom za obnovu. Ponuda zvuči povoljno, agent je brz.</p>
         <ul class="bullets">
           <li data-sr="signal: zvanični operater kontaktira telefonom, a ne na vrata, za standardne obnove." data-en="signal: official operators contact by phone, not at the door, for standard renewals.">signal: zvanični operater kontaktira telefonom, a ne na vrata, za standardne obnove.</li>
           <li data-sr="signal: agent insistira na potpisivanju odmah jer ponuda ističe." data-en="signal: agent insists on signing immediately because the offer expires.">signal: agent insistira na potpisivanju odmah jer ponuda ističe.</li>
@@ -49,7 +49,7 @@ window.SCAM_CONTENT["telecom-contract-scam"] = {
 
       <article class="phase warn">
         <h3 class="phase-title" data-sr="Faza 2 — Potpisivanje dokumenta" data-en="Phase 2 — Document signing">Faza 2 — Potpisivanje dokumenta</h3>
-        <p data-sr="Agent predaje dokument na potpis. Dokument ima više strana, sitan font, a agent skreće pažnju samo na prvu stranu s mesečnim iznosom. Deo s promenom operatera, penalima i skritim troškovima je zakopan u sitnom pismu. Agent obeshrabruje čitanje čitavog dokumenta." data-en="The agent presents a document for signature. The document has multiple pages, small font, and the agent only draws attention to the first page with the monthly amount. The part about operator change, penalties, and hidden costs is buried in small print. The agent discourages reading the full document.">Agent predaje dokument za potpis s malim fontom. Skreće pažnju samo na mesečni iznos. Promjena operatera je zakopana u sitnom pismu.</p>
+        <p data-sr="Agent predaje dokument za potpis s malim fontom. Skreće pažnju samo na mesečni iznos. Promjena operatera je zakopana u sitnom pismu." data-en="The agent presents a document for signature. The document has multiple pages, small font, and the agent only draws attention to the first page with the monthly amount. The part about operator change, penalties, and hidden costs is buried in small print. The agent discourages reading the full document.">Agent predaje dokument za potpis s malim fontom. Skreće pažnju samo na mesečni iznos. Promjena operatera je zakopana u sitnom pismu.</p>
         <ul class="bullets">
           <li data-sr="signal: legitimni zastupnik operatera daje vreme za čitanje i objašnjava sve klauzule." data-en="signal: a legitimate operator representative gives time for reading and explains all clauses.">signal: legitimni zastupnik operatera daje vreme za čitanje i objašnjava sve klauzule.</li>
           <li data-sr="signal: dokument koji ne može biti zadržan za čitanje posle potpisivanja nije transparentan." data-en="signal: a document that cannot be kept for reading after signing is not transparent.">signal: dokument koji ne može biti zadržan za čitanje posle potpisivanja nije transparentan.</li>
@@ -64,7 +64,7 @@ window.SCAM_CONTENT["telecom-contract-scam"] = {
 
       <article class="phase bad">
         <h3 class="phase-title" data-sr="Faza 3 — Otkrivanje promena i troškova" data-en="Phase 3 — Discovery of changes and costs">Faza 3 — Otkrivanje promena i troškova</h3>
-        <p data-sr="Mesec dana posle potpisivanja stižu viši mesečni računi od novog operatera. Meta kontaktira prethodnog operatera i saznaje da su prebačena i da ima penale za raskid novog ugovora. Otkazivanje je skuplje nego nastavak skupog ugovora." data-en="A month after signing, higher monthly bills arrive from the new operator. The target contacts the previous operator and learns they were switched and has cancellation penalties for the new contract. Cancellation is more expensive than continuing the expensive contract.">Mesec dana posle potpisivanja stižu viši računi od novog operatera. Raskid novog ugovora je skuplji od nastavka.</p>
+        <p data-sr="Mesec dana posle potpisivanja stižu viši računi od novog operatera. Raskid novog ugovora je skuplji od nastavka." data-en="A month after signing, higher monthly bills arrive from the new operator. The target contacts the previous operator and learns they were switched and has cancellation penalties for the new contract. Cancellation is more expensive than continuing the expensive contract.">Mesec dana posle potpisivanja stižu viši računi od novog operatera. Raskid novog ugovora je skuplji od nastavka.</p>
         <div class="callout" data-sr="<strong>Zakon o zaštiti potrošača:</strong> u većini zemalja postoji pravo na raskid ugovora sklopljenog na vrata ili telefonom u roku od 14 dana. Proveriti lokalni zakon odmah." data-en="<strong>Consumer protection law:</strong> in most countries there is a right to cancel contracts concluded at the door or by phone within 14 days. Check local law immediately."><strong>Zakon o zaštiti potrošača:</strong> u većini zemalja postoji pravo na raskid ugovora sklopljenog na vrata ili telefonom u roku od 14 dana. Proveriti lokalni zakon odmah.</div>
       </article>
     </section>
@@ -92,16 +92,16 @@ window.SCAM_CONTENT["telecom-contract-scam"] = {
         <li data-sr="Da li agent daje dovoljno vremena za čitanje svih strana dokumenta?" data-en="Does the agent give sufficient time to read all pages of the document?">Da li agent daje dovoljno vremena za čitanje svih strana dokumenta?</li>
         <li data-sr="Da li je zvanični kol centar operatera potvrđio ovu ponudu?" data-en="Has the operator's official call center confirmed this offer?">Da li je zvanični kol centar operatera potvrđio ovu ponudu?</li>
         <li data-sr="Da li je agentov ID broj proverljiv kod operatera direktno?" data-en="Is the agent's ID number verifiable with the operator directly?">Da li je agentov ID broj proverljiv kod operatera direktno?</li>
-        <li data-sr="Da li ponuda ističe ako se pauzira i provjeri direktno s operaterom?" data-en="Does the offer expire if paused and verified directly with the operator?">Da li ponuda ističe ako se pauzira i provjeri direktno s operaterom?</li>
+        <li data-sr="Da li ponuda ističe ako se pauzira i proveri direktno s operaterom?" data-en="Does the offer expire if paused and verified directly with the operator?">Da li ponuda ističe ako se pauzira i proveri direktno s operaterom?</li>
       </ul>
     </section>
 
     <section class="card">
       <h2 data-sr="Ako sumnja krene: redosled poteza" data-en="If suspicion starts: action order">Ako sumnja krene: redosled poteza</h2>
       <ol class="steps">
-        <li data-sr="ne potpisivati ništa dok se ne pročita čitav dokument i ne provjeri s kol centrom operatera." data-en="do not sign anything until the full document is read and verified with the operator's call center.">ne potpisivati ništa dok se ne pročita čitav dokument i ne provjeri s kol centrom operatera.</li>
+        <li data-sr="ne potpisivati ništa dok se ne pročita čitav dokument i ne proveri s kol centrom operatera." data-en="do not sign anything until the full document is read and verified with the operator's call center.">ne potpisivati ništa dok se ne pročita čitav dokument i ne proveri s kol centrom operatera.</li>
         <li data-sr="pozovi zvanični kol centar tekućeg operatera i pitaj je li agent ovlašćen." data-en="call the current operator's official call center and ask whether the agent is authorized.">pozovi zvanični kol centar tekućeg operatera i pitaj je li agent ovlašćen.</li>
-        <li data-sr="ako je dokument potpisan, provjeri pravo na raskid u roku od 14 dana (zakon o zaštiti potrošača)." data-en="if the document has been signed, check the right to cancel within 14 days (consumer protection law).">ako je dokument potpisan, provjeri pravo na raskid u roku od 14 dana (zakon o zaštiti potrošača).</li>
+        <li data-sr="ako je dokument potpisan, proveri pravo na raskid u roku od 14 dana (zakon o zaštiti potrošača)." data-en="if the document has been signed, check the right to cancel within 14 days (consumer protection law).">ako je dokument potpisan, proveri pravo na raskid u roku od 14 dana (zakon o zaštiti potrošača).</li>
         <li data-sr="podnesi prigovor regulatoru telekomunikacija ako si prebačen bez saglasnosti." data-en="file a complaint with the telecommunications regulator if you were switched without consent.">podnesi prigovor regulatoru telekomunikacija ako si prebačen bez saglasnosti.</li>
       </ol>
     </section>
@@ -128,14 +128,6 @@ window.SCAM_CONTENT["telecom-contract-scam"] = {
       </div>
     </section>
 
-    <section class="card sources" id="sources">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <ul class="bullets">
-        <li><a href="government-impersonation.html" data-sr="Lažno predstavljanje državnih organa" data-en="Government impersonation scams">Lažno predstavljanje državnih organa</a></li>
-        <li><a href="energy-supplier-switch-scam.html" data-sr="Prevare pri prelasku na drugog dobavljača energije" data-en="Energy supplier switch scams">Prevare pri prelasku na drugog dobavljača energije</a></li>
-        <li><a href="utility-bill-scam.html" data-sr="Lažni računi za komunalne usluge" data-en="Fake utility bill scams">Lažni računi za komunalne usluge</a></li>
-        <li><a href="impersonation-scam.html" data-sr="Lažno predstavljanje" data-en="Impersonation scam">Lažno predstavljanje</a></li>
-      </ul>
-    </section>
+    
   `
 };

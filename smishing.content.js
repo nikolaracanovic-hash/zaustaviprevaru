@@ -72,7 +72,7 @@ window.SCAM_CONTENT["smishing"] = {
         <ul class="bullets">
           <li data-sr="Napadač nestaje čim prestane da dobija novu korist." data-en="The attacker disappears as soon as they stop getting new value.">Napadač nestaje čim prestane da dobija novu korist.</li>
           <li data-sr="Nova poruka o povraćaju je nastavak prevare, a ne pomoć." data-en="A new message about recovery is a continuation of the scam, not help.">Nova poruka o povraćaju je nastavak prevare, a ne pomoć.</li>
-          <li data-sr="Signal: isti događaj sada dobija „spasilačku„ ponudu uz novu naknadu." data-en="Signal: the same event now receives a “rescue“ offer with a new fee.">Signal: isti događaj sada dobija 'spasilačku' ponudu uz novu naknadu.</li>
+          <li data-sr="Signal: isti događaj sada dobija 'spasilačku' ponudu uz novu naknadu." data-en="Signal: the same event now receives a rescue offer with a new fee.">Signal: isti događaj sada dobija 'spasilačku' ponudu uz novu naknadu.</li>
         </ul>
         <div class="callout" data-sr="<strong>Prag faze:</strong> meta poveruje da povraćaj traži novu uplatu." data-en="<strong>Phase threshold:</strong> the target believes recovery requires a new payment."><strong>Prag faze:</strong> meta poveruje da povraćaj traži novu uplatu.</div>
       </article>
@@ -124,19 +124,11 @@ window.SCAM_CONTENT["smishing"] = {
       <ul class="bullets">
         <li data-sr="Pitaj da li su kliknuli na link ili samo pročitali poruku." data-en="Ask whether they clicked the link or only read the message.">Pitaj da li su kliknuli na link ili samo pročitali poruku.</li>
         <li data-sr="Pitaj da li su uneli karticu, lozinku ili OTP kod." data-en="Ask whether they entered card details, a password, or an OTP code.">Pitaj da li su uneli karticu, lozinku ili OTP kod.</li>
-        <li data-sr="Reci: „Nemoj dalje ništa da potvrđuješ, prvo proverimo zvaničan kanal“.“" data-en='Say: "Do not confirm anything else, let us verify the official channel first."'>Reci: „Nemoj dalje ništa da potvrđuješ, prvo proverimo zvaničan kanal“.“</li>
-        <li data-sr="Reci: „SMS može da izgleda uverljivo, ali link odlučuje da li je prevara“.“" data-en='Say: "An SMS can look convincing, but the link decides whether it is a scam."'>Reci: „SMS može da izgleda uverljivo, ali link odlučuje da li je prevara“.“</li>
+        <li data-sr="Reci: Nemoj dalje ništa da potvrđuješ, prvo proverimo zvaničan kanal." data-en="'Say: Do not confirm anything else, let us verify the official channel first.">Reci: Nemoj dalje ništa da potvrđuješ, prvo proverimo zvaničan kanal.</li>
+        <li data-sr="Reci: SMS može da izgleda uverljivo, ali link odlučuje da li je prevara." data-en="'Say: An SMS can look convincing, but the link decides whether it is a scam.">Reci: SMS može da izgleda uverljivo, ali link odlučuje da li je prevara.</li>
       </ul>
     </section>
 
-    <section class="card">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <ul class="bullets">
-        <li><a href="phishing.html" data-sr="Fišing" data-en="Fišing">Fišing</a></li>
-        <li><a href="vishing.html" data-sr="Višing" data-en="Višing">Višing</a></li>
-        <li><a href="fake-delivery.html" data-sr="Lažna dostava / kurir" data-en="Fake delivery / courier">Lažna dostava / kurir</a></li>
-        <li><a href="marketplace-scam.html" data-sr="Prevare na oglasnicima" data-en="Marketplace scams">Prevare na oglasnicima</a></li>
-      </ul>
-    </section>
+    
   `
 };

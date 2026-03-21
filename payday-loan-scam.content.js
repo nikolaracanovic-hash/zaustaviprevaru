@@ -3,10 +3,10 @@ window.SCAM_CONTENT = window.SCAM_CONTENT || {};
 window.SCAM_CONTENT["payday-loan-scam"] = {
   raw_html: `
     <section class="card">
-      <h2 data-sr="Uvod: kako radi prevara sa kratkoročnim kreditom" data-en="Introduction: how the payday loan scam works">Uvod: kako radi Prevara sa kratkoročnim kreditom</h2>
+      <h2 data-sr="Uvod: kako radi Prevara sa kratkoročnim kreditom" data-en="Introduction: how the payday loan scam works">Uvod: kako radi Prevara sa kratkoročnim kreditom</h2>
       <p data-sr="Lažna kreditna kompanija odobrava kredit bez provere kreditne istorije — što je prva crvena zastavica. Pre isplate traži avansnu naknadu za osiguranje, verifikaciju ili troškove obrade. Nakon uplate — firma nestaje ili traži novu naknadu za novi problem." data-en="A fake loan company approves a loan without checking credit history — which is the first red flag. Before disbursement it requests an advance fee for insurance, verification or processing costs. After payment — the firm disappears or requests a new fee for a new problem.">Lažna kreditna kompanija odobrava kredit bez provere kreditne istorije — što je prva crvena zastavica. Pre isplate traži avansnu naknadu za osiguranje, verifikaciju ili troškove obrade. Nakon uplate — firma nestaje ili traži novu naknadu za novi problem.</p>
-      <div class="callout" data-sr="&lt;strong&gt;Model:&lt;/strong&gt; Lažna kreditna firma → odobrenje kredita → avansna naknada → nestanak firme." data-en="&lt;strong&gt;Model:&lt;/strong&gt; Fake loan firm → loan approval → advance fee → firm disappearance."><strong>Model:</strong> Lažna kreditna firma → odobrenje kredita → avansna naknada → nestanak firme.</div>
-      <div class="callout" data-sr="&lt;strong&gt;Prag:&lt;/strong&gt; Uplata avansne naknade za kredit koji nikad ne stiže." data-en="&lt;strong&gt;Threshold:&lt;/strong&gt; Payment of an advance fee for a loan that never arrives."><strong>Prag:</strong> Uplata avansne naknade za kredit koji nikad ne stiže.</div>
+      <div class="callout" data-sr="<strong>Model:</strong> Lažna kreditna firma → odobrenje kredita → avansna naknada → nestanak firme." data-en="<strong>Model:</strong> Fake loan firm → loan approval → advance fee → firm disappearance."><strong>Model:</strong> Lažna kreditna firma → odobrenje kredita → avansna naknada → nestanak firme.</div>
+      <div class="callout" data-sr="<strong>Prag:</strong> Uplata avansne naknade za kredit koji nikad ne stiže." data-en="<strong>Threshold:</strong> Payment of an advance fee for a loan that never arrives."><strong>Prag:</strong> Uplata avansne naknade za kredit koji nikad ne stiže.</div>
     </section>
 
     <section class="card">
@@ -115,14 +115,6 @@ window.SCAM_CONTENT["payday-loan-scam"] = {
       </ul>
     </section>
 
-    <section class="card">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <ul class="bullets">
-        <li><a href="debt-relief-scam.html" data-sr="Prevara sa oprostom duga" data-en="Debt relief scam">Prevara sa oprostom duga</a></li>
-        <li><a href="credit-repair-scam.html" data-sr="Prevara sa popravkom kreditnog skora" data-en="Credit repair scam">Prevara sa popravkom kreditnog skora</a></li>
-        <li><a href="advance-fee-fraud.html" data-sr="Prevara avansnim plaćanjem" data-en="Advance fee fraud">Prevara avansnim plaćanjem</a></li>
-        <li><a href="impersonation-scam.html" data-sr="Lažno predstavljanje" data-en="Impersonation scam">Lažno predstavljanje</a></li>
-      </ul>
-    </section>
+    
   `
 };

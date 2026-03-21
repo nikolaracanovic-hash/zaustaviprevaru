@@ -1,4 +1,4 @@
-﻿window.SCAM_CONTENT = window.SCAM_CONTENT || {};
+window.SCAM_CONTENT = window.SCAM_CONTENT || {};
 
 window.SCAM_CONTENT["data-breach-extortion"] = {
   raw_html: `
@@ -9,19 +9,19 @@ window.SCAM_CONTENT["data-breach-extortion"] = {
       </h2>
 
       <p
-        data-sr="Ucena nakon krađe podataka nastaje kada napadač, nakon što je eksfiltrirao osetljive podatke, kontaktira organizaciju ili osobu sa zahtevom za uplatu pod prijetnjom objavljivanja. Za razliku od ransomware-a, u ovoj varijanti sistemi ne moraju biti enkriptovani — napad je čisto ucenički. Napadač poseduje kopiju podataka i to koristi kao jedino oružje."
+        data-sr="Ucena nakon krađe podataka nastaje kada napadač, nakon što je eksfiltrirao osetljive podatke, kontaktira organizaciju ili osobu sa zahtevom za uplatu pod pretnjom objavljivanja. Za razliku od ransomware-a, u ovoj varijanti sistemi ne moraju biti enkriptovani — napad je čisto ucenički. Napadač poseduje kopiju podataka i to koristi kao jedino oružje."
         data-en="Data breach extortion occurs when an attacker, after exfiltrating sensitive data, contacts an organization or individual with a payment demand under threat of publication. Unlike ransomware, systems do not need to be encrypted — the attack is purely extortive. The attacker holds a copy of the data and uses that as the only leverage."
-      >Ucena nakon krađe podataka nastaje kada napadač, nakon što je eksfiltrirao osetljive podatke, kontaktira organizaciju ili osobu sa zahtevom za uplatu pod prijetnjom objavljivanja. Za razliku od ransomware-a, u ovoj varijanti sistemi ne moraju biti enkriptovani — napad je čisto ucenički. Napadač poseduje kopiju podataka i to koristi kao jedino oružje.</p>
+      >Ucena nakon krađe podataka nastaje kada napadač, nakon što je eksfiltrirao osetljive podatke, kontaktira organizaciju ili osobu sa zahtevom za uplatu pod pretnjom objavljivanja. Za razliku od ransomware-a, u ovoj varijanti sistemi ne moraju biti enkriptovani — napad je čisto ucenički. Napadač poseduje kopiju podataka i to koristi kao jedino oružje.</p>
 
       <p
-        data-sr="Ucena se javlja u dva oblika: organizaciona ucena (kompanija prima zahtev za uplatu pod prijetnjom obelodanjivanja poslovnih tajni, podataka klijenata ili dokumenata koji kompromituju upravu) i individualna ucena (osoba prima zahtev pod prijetnjom objavljivanja privatnih fotografija, poruka ili finansijskih podataka). Oba oblika koriste isti mehanizam: dokaz posedovanja + rok + prijetnja."
+        data-sr="Ucena se javlja u dva oblika: organizaciona ucena (kompanija prima zahtev za uplatu pod pretnjom obelodanjivanja poslovnih tajni, podataka klijenata ili dokumenata koji kompromituju upravu) i individualna ucena (osoba prima zahtev pod pretnjom objavljivanja privatnih fotografija, poruka ili finansijskih podataka). Oba oblika koriste isti mehanizam: dokaz posedovanja + rok + pretnja."
         data-en="Extortion appears in two forms: organizational extortion (company receives a payment demand under threat of disclosing traže secrets, client data, or documents that compromise management) and individual extortion (person receives a demand under threat of publishing private photos, messages, or financial data). Both forms use the same mechanism: proof of possession + deadline + threat."
-      >Ucena se javlja u dva oblika: organizaciona ucena (kompanija prima zahtev za uplatu pod prijetnjom obelodanjivanja poslovnih tajni, podataka klijenata ili dokumenata koji kompromituju upravu) i individualna ucena (osoba prima zahtev pod prijetnjom objavljivanja privatnih fotografija, poruka ili finansijskih podataka). Oba oblika koriste isti mehanizam: dokaz posedovanja + rok + prijetnja.</p>
+      >Ucena se javlja u dva oblika: organizaciona ucena (kompanija prima zahtev za uplatu pod pretnjom obelodanjivanja poslovnih tajni, podataka klijenata ili dokumenata koji kompromituju upravu) i individualna ucena (osoba prima zahtev pod pretnjom objavljivanja privatnih fotografija, poruka ili finansijskih podataka). Oba oblika koriste isti mehanizam: dokaz posedovanja + rok + pretnja.</p>
 
       <div class="callout"
-        data-sr="<strong>Model:</strong> proboj ili curenje → eksfiltracija podataka → ucenička poruka sa dokazom → rok → prijetnja objavom → uplata → ponavljanje ucene ili objava."
+        data-sr="<strong>Model:</strong> proboj ili curenje → eksfiltracija podataka → ucenička poruka sa dokazom → rok → pretnja objavom → uplata → ponavljanje ucene ili objava."
         data-en="<strong>Model:</strong> breach or leak → data exfiltration → extortion message with proof → deadline → disclosure threat → payment → repeated extortion or disclosure."
-      ><strong>Model:</strong> proboj ili curenje → eksfiltracija podataka → ucenička poruka sa dokazom → rok → prijetnja objavom → uplata → ponavljanje ucene ili objava.</div>
+      ><strong>Model:</strong> proboj ili curenje → eksfiltracija podataka → ucenička poruka sa dokazom → rok → pretnja objavom → uplata → ponavljanje ucene ili objava.</div>
 
       <div class="callout"
         data-sr="<strong>Prag:</strong> ucenička poruka stiže sa konkretnim dokazom (uzorak ukradenih fajlova, screenshot interne komunikacije). Taj dokaz je ono što daje uceni kredibilitet."
@@ -44,11 +44,11 @@ window.SCAM_CONTENT["data-breach-extortion"] = {
         <div class="phase">
           <div class="label" data-sr="Šta gradi pritisak na metu" data-en="What builds pressure on the target">Šta gradi pritisak na metu</div>
           <ul class="bullets">
-            <li data-sr="dokaz posedovanja podataka kao potvrda da prijetnja nije prazna." data-en="proof of data possession as confirmation the threat is not empty.">dokaz posedovanja podataka kao potvrda da prijetnja nije prazna.</li>
+            <li data-sr="dokaz posedovanja podataka kao potvrda da pretnja nije prazna." data-en="proof of data possession as confirmation the threat is not empty.">dokaz posedovanja podataka kao potvrda da pretnja nije prazna.</li>
             <li data-sr="kratki rokovi koji sprečavaju mirnu procenu i konsultacije." data-en="short deadlines that prevent calm assessment and consultation.">kratki rokovi koji sprečavaju mirnu procenu i konsultacije.</li>
             <li data-sr="specifičnost podataka: napadač navodi konkretne fajlove ili sadržaj." data-en="specificity of data: attacker names specific files or content.">specifičnost podataka: napadač navodi konkretne fajlove ili sadržaj.</li>
-            <li data-sr="prijetnja regulatornom prijavom (GDPR, NIS2) ako se ne isplati." data-en="threat of regulatory reporting (GDPR, NIS2) if not paid.">prijetnja regulatornom prijavom (GDPR, NIS2) ako se ne isplati.</li>
-            <li data-sr="prijetnja slanjem podataka konkurentima, medijima ili partnerima." data-en="threat of sending data to competitors, media, or partners.">prijetnja slanjem podataka konkurentima, medijima ili partnerima.</li>
+            <li data-sr="pretnja regulatornom prijavom (GDPR, NIS2) ako se ne isplati." data-en="threat of regulatory reporting (GDPR, NIS2) if not paid.">pretnja regulatornom prijavom (GDPR, NIS2) ako se ne isplati.</li>
+            <li data-sr="pretnja slanjem podataka konkurentima, medijima ili partnerima." data-en="threat of sending data to competitors, media, or partners.">pretnja slanjem podataka konkurentima, medijima ili partnerima.</li>
           </ul>
         </div>
 
@@ -57,7 +57,7 @@ window.SCAM_CONTENT["data-breach-extortion"] = {
           <ul class="bullets">
             <li data-sr="specifičan iznos u kriptovaluti sa adresom i rokom." data-en="specific amount in cryptocurrency with address and deadline.">specifičan iznos u kriptovaluti sa adresom i rokom.</li>
             <li data-sr="obećanje brisanja podataka posle isplate (koje se ne može verifikovati)." data-en="promise to delete data after payment (which cannot be verified).">obećanje brisanja podataka posle isplate (koje se ne može verifikovati).</li>
-            <li data-sr="„popust." za brzu uplatu kao mehanizam za ubrzavanje odluke." data-en="a discount for quick payment as a mechanism to accelerate the decision.">„popust" za brzu uplatu kao mehanizam za ubrzavanje odluke“.</li>
+            <li data-sr="popust za brzu uplatu kao mehanizam za ubrzavanje odluke." data-en="a discount for quick payment as a mechanism to accelerate the decision.">popust za brzu uplatu kao mehanizam za ubrzavanje odluke.</li>
             <li data-sr="eskalacija iznosa ako se rok propusti: dvostruka cena ili objava." data-en="amount escalation if the deadline is missed: double price or disclosure.">eskalacija iznosa ako se rok propusti: dvostruka cena ili objava.</li>
           </ul>
         </div>
@@ -101,9 +101,9 @@ window.SCAM_CONTENT["data-breach-extortion"] = {
         </div>
 
         <div class="callout"
-          data-sr="<strong>Prag faze:</strong> napadač poseduje dovoljno vrednih podataka da prijetnja bude kredibilna."
+          data-sr="<strong>Prag faze:</strong> napadač poseduje dovoljno vrednih podataka da pretnja bude kredibilna."
           data-en="<strong>Threshold:</strong> attacker holds enough valuable data for the threat to be credible."
-        ><strong>Prag faze:</strong> napadač poseduje dovoljno vrednih podataka da prijetnja bude kredibilna.</div>
+        ><strong>Prag faze:</strong> napadač poseduje dovoljno vrednih podataka da pretnja bude kredibilna.</div>
       </article>
 
       <!-- FAZA 2 -->
@@ -121,13 +121,13 @@ window.SCAM_CONTENT["data-breach-extortion"] = {
           <li data-sr="poruka sadrži uzorak stvarnih podataka kao dokaz." data-en="message contains a sample of real data as proof.">poruka sadrži uzorak stvarnih podataka kao dokaz.</li>
           <li data-sr="iznos je formulisan u kriptovaluti sa tačnom adresom za uplatu." data-en="amount is stated in cryptocurrency with an exact payment address.">iznos je formulisan u kriptovaluti sa tačnom adresom za uplatu.</li>
           <li data-sr="rok je kratak (24–72 sata) da spreči konsultacije i mirnu procenu." data-en="the deadline is short (24–72 hours) to prevent consultations and calm assessment.">rok je kratak (24–72 sata) da spreči konsultacije i mirnu procenu.</li>
-          <li data-sr="prijetnja je specifična: kome se šalju podaci, koji mediji, koji regulatori." data-en="the threat is specific: who receives data, which media, which regulators.">prijetnja je specifična: kome se šalju podaci, koji mediji, koji regulatori.</li>
+          <li data-sr="pretnja je specifična: kome se šalju podaci, koji mediji, koji regulatori." data-en="the threat is specific: who receives data, which media, which regulators.">pretnja je specifična: kome se šalju podaci, koji mediji, koji regulatori.</li>
         </ul>
 
         <div class="callout"
-          data-sr="<strong>Prag faze:</strong> meta otvori poruku i proceni da je prijetnja stvarna. Panika počinje da ubrzava donošenje odluke."
+          data-sr="<strong>Prag faze:</strong> meta otvori poruku i proceni da je pretnja stvarna. Panika počinje da ubrzava donošenje odluke."
           data-en="<strong>Threshold:</strong> the target opens the message and assesses the threat as real. Panic begins to accelerate decision-making."
-        ><strong>Prag faze:</strong> meta otvori poruku i proceni da je prijetnja stvarna. Panika počinje da ubrzava donošenje odluke.</div>
+        ><strong>Prag faze:</strong> meta otvori poruku i proceni da je pretnja stvarna. Panika počinje da ubrzava donošenje odluke.</div>
       </article>
 
       <!-- FAZA 3 -->
@@ -137,9 +137,9 @@ window.SCAM_CONTENT["data-breach-extortion"] = {
         </h3>
 
         <p
-          data-sr="Ako meta ne reaguje brzo, napadač eskalira pritisak: šalje podsetnik, objavljuje deo podataka javno kao „demonstraciju ozbiljnosti", ili kontaktira medije, regulatora ili konkurenciju da najavi predstojeće obelodanjivanje. Svaka escalacija povećava pritisak i smanjuje vreme za smirenu procenu."
+          data-sr="Ako meta ne reaguje brzo, napadač eskalira pritisak: šalje podsetnik, objavljuje deo podataka javno kao demonstraciju ozbiljnosti, ili kontaktira medije, regulatora ili konkurenciju da najavi predstojeće obelodanjivanje. Svaka escalacija povećava pritisak i smanjuje vreme za smirenu procenu."
           data-en="If the target does not respond quickly, the attacker escalates pressure: sends a reminder, publishes part of the data publicly as a demonstration of seriousness, or contacts media, regulators, or competitors to announce the upcoming disclosure. Each escalation increases pressure and reduces time for calm assessment."
-        >Ako meta ne reaguje brzo, napadač eskalira pritisak: šalje podsetnik, objavljuje deo podataka javno kao „demonstraciju ozbiljnosti", ili kontaktira medije, regulatora ili konkurenciju da najavi predstojeće obelodanjivanje. Svaka escalacija povećava pritisak i smanjuje vreme za smirenu procenu.</p>
+        >Ako meta ne reaguje brzo, napadač eskalira pritisak: šalje podsetnik, objavljuje deo podataka javno kao demonstraciju ozbiljnosti, ili kontaktira medije, regulatora ili konkurenciju da najavi predstojeće obelodanjivanje. Svaka escalacija povećava pritisak i smanjuje vreme za smirenu procenu.</p>
 
         <div class="grid-2">
           <div class="phase">
@@ -224,8 +224,8 @@ window.SCAM_CONTENT["data-breach-extortion"] = {
         <li data-sr="poruka tvrdi da napadač poseduje interne fajlove i navodi konkretne nazive ili sadržaj." data-en="message claims attacker holds internal files and names specific filenames or content.">poruka tvrdi da napadač poseduje interne fajlove i navodi konkretne nazive ili sadržaj.</li>
         <li data-sr="priložen je uzorak stvarnih podataka organizacije ili osobe." data-en="a sample of real organizational or personal data is attached.">priložen je uzorak stvarnih podataka organizacije ili osobe.</li>
         <li data-sr="zahtev je isključivo u kriptovaluti sa kratkim rokom." data-en="demand is exclusively in cryptocurrency with a short deadline.">zahtev je isključivo u kriptovaluti sa kratkim rokom.</li>
-        <li data-sr="pošiljalac navodi konkretne primaoci prijetnje: mediji, regulatori, konkurencija." data-en="sender names specific threat recipients: media, regulators, competitors.">pošiljalac navodi konkretne primaoci prijetnje: mediji, regulatori, konkurencija.</li>
-        <li data-sr="prijetnja se ponavlja posle isplate ili se iznos povećava." data-en="threat repeats after payment or the amount increases.">prijetnja se ponavlja posle isplate ili se iznos povećava.</li>
+        <li data-sr="pošiljalac navodi konkretne primaoci pretnje: mediji, regulatori, konkurencija." data-en="sender names specific threat recipients: media, regulators, competitors.">pošiljalac navodi konkretne primaoci pretnje: mediji, regulatori, konkurencija.</li>
+        <li data-sr="pretnja se ponavlja posle isplate ili se iznos povećava." data-en="threat repeats after payment or the amount increases.">pretnja se ponavlja posle isplate ili se iznos povećava.</li>
         <li data-sr="neobičan odlazni saobraćaj prethodnih dana koji nije bio prijavljen." data-en="unusual outbound traffic in preceding days that was not reported.">neobičan odlazni saobraćaj prethodnih dana koji nije bio prijavljen.</li>
         <li data-sr="pristup osetljivim bazama podataka sa nepoznatih lokacija ili naloga." data-en="access to sensitive databases from unknown locations or accounts.">pristup osetljivim bazama podataka sa nepoznatih lokacija ili naloga.</li>
       </ul>
@@ -236,9 +236,9 @@ window.SCAM_CONTENT["data-breach-extortion"] = {
       <h2 data-sr="Provere: 8 brzih provera" data-en="Checks: 8 quick checks">Provere: 8 brzih provera</h2>
 
       <p
-        data-sr="Cilj provera je utvrditi da li je prijetnja stvarna, koji podaci su kompromitovani i da li je napadač i dalje u sistemu. Ovo menja strategiju odgovora."
+        data-sr="Cilj provera je utvrditi da li je pretnja stvarna, koji podaci su kompromitovani i da li je napadač i dalje u sistemu. Ovo menja strategiju odgovora."
         data-en="The goal of checks is to determine whether the threat is real, which data are compromised, and whether the attacker is still in the system. This changes the response strategy."
-      >Cilj provera je utvrditi da li je prijetnja stvarna, koji podaci su kompromitovani i da li je napadač i dalje u sistemu. Ovo menja strategiju odgovora.</p>
+      >Cilj provera je utvrditi da li je pretnja stvarna, koji podaci su kompromitovani i da li je napadač i dalje u sistemu. Ovo menja strategiju odgovora.</p>
 
       <div class="grid-2">
         <div class="phase">
@@ -283,7 +283,7 @@ window.SCAM_CONTENT["data-breach-extortion"] = {
         <li data-sr="Da li je prijavljen incident policiji pre nego što se razmatra isplata " data-en="Has the incident been reported to police before payment is considered?">Da li je prijavljen incident policiji pre nego što se razmatra isplata </li>
         <li data-sr="Da li postoji garancija da će podaci biti obrisani posle isplate?" data-en="Is there any guarantee data will be deleted after payment?">Da li postoji garancija da će podaci biti obrisani posle isplate?</li>
         <li data-sr="Da li je napadač ranije ispoštovao obećanje brisanja podataka (proverljiva reputacija)?" data-en="Has the attacker previously honored data deletion promises (verifiable reputation)?">Da li je napadač ranije ispoštovao obećanje brisanja podataka (proverljiva reputacija)?</li>
-        <li data-sr="Da li se prijetnja može koristiti kao osnov za krivičnu prijavu?" data-en="Can the threat be used as the basis for a criminal complaint?">Da li se prijetnja može koristiti kao osnov za krivičnu prijavu?</li>
+        <li data-sr="Da li se pretnja može koristiti kao osnov za krivičnu prijavu?" data-en="Can the threat be used as the basis for a criminal complaint?">Da li se pretnja može koristiti kao osnov za krivičnu prijavu?</li>
         <li data-sr="Da li postoji plan za komunikaciju prema klijentima čiji su podaci kompromitovani?" data-en="Is there a plan to communicate with clients whose data are compromised?">Da li postoji plan za komunikaciju prema klijentima čiji su podaci kompromitovani?</li>
       </ul>
     </section>
@@ -339,25 +339,5 @@ window.SCAM_CONTENT["data-breach-extortion"] = {
     </section>
 
     <!-- 9) IZVORI -->
-
-<section class="content-section">
-  <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-  <ul class="bullets">
-    <li><a href="ransomware-orgs.html" data-sr="Ransomware napad." data-en="Ransomware attack.">Ransomware napad</a></li>
-    <li><a href="ddos-extortion.html" data-sr="DDoS iznuda." data-en="DDoS extortion.">DDoS iznuda</a></li>
-    <li><a href="sextortion-scam.html" data-sr="Sextortion." data-en="Sextortion.">Sextortion</a></li>
-    <li><a href="phishing.html" data-sr="Fišing." data-en="Phishing.">Fišing</a></li>
-    <li><a href="identity-theft.html" data-sr="Kradja identiteta." data-en="Identity theft.">Kradja identiteta</a></li>
-  </ul>
-</section>
-
-<section class="card sources" id="sources">
-      <h2 data-sr="Izvori" data-en="Sources">Izvori</h2>
-      <ul>
-        <li><a href="https://www.cisa.gov/resources-tools/resources/data-breach-response-guide" target="_blank" rel="noopener noreferrer">CISA — Data Breach Response Guide</a></li>
-        <li><a href="https://www.ftc.gov/business-guidance/resources/data-breach-response-guide-business" target="_blank" rel="noopener noreferrer">FTC — Data Breach Response Guide for Business</a></li>
-        <li><a href="https://www.ic3.gov" target="_blank" rel="noopener noreferrer">FBI IC3 — Internet Crime Complaint Center</a></li>
-      </ul>
-    </section>
-  `
+`
 };

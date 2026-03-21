@@ -25,8 +25,8 @@ window.SCAM_CONTENT["charity-disaster-scam"] = {
       <h3 data-sr="Šta gradi autoritet i emociju" data-en="What builds authority and emotion">Šta gradi autoritet i emociju</h3>
       <ul class="bullets">
         <li data-sr="Fotografije i video snimci stvarnih katastrofa se preuzimaju bez dozvole i koriste u apelima." data-en="Photographs and video footage of actual disasters are taken without permission and used in appeals.">Fotografije i video snimci stvarnih katastrofa se preuzimaju bez dozvole i koriste u apelima.</li>
-        <li data-sr="Naziv organizacije sadrži reči poput 'Relief„, “Aid„, „Fund„ ili nazive pogođenih zemalja." data-en="The organization“s name includes words like “Relief“, 'Aid', 'Fund', or the names of affected countries.">Naziv organizacije sadrži reči poput „Relief", „Aid", „Fund" ili nazive pogođenih zemalja“.</li>
-        <li data-sr="Domen organizacije je sličan ali ne identičan poznatim organizacijama — npr. 'red-cross-relief.org„ umesto “redcross.org„." data-en="The organization“s domain is similar but not identical to well-known organizations — e.g. 'red-cross-relief.org' instead of 'redcross.org'.">Domen organizacije je sličan ali ne identičan poznatim organizacijama — npr. „red-cross-relief“.org" umesto „redcross“.org"“.</li>
+        <li data-sr="Naziv organizacije sadrži reči poput Relief, Aid, Fund ili nazive pogođenih zemalja." data-en="The organizations name includes words like Relief, 'Aid', 'Fund', or the names of affected countries.">Naziv organizacije sadrži reči poput Relief, Aid, Fund ili nazive pogođenih zemalja.</li>
+        <li data-sr="Domen organizacije je sličan ali ne identičan poznatim organizacijama — npr. red-cross-relief.org umesto redcross.org." data-en="The organizations domain is similar but not identical to well-known organizations — e.g. 'red-cross-relief.org' instead of 'redcross.org'.">Domen organizacije je sličan ali ne identičan poznatim organizacijama — npr. red-cross-relief.org umesto redcross.org.</li>
         <li data-sr="Apeli dolaze odmah po katastrofi, pre nego što su zvanične organizacije pokrenule kampanje." data-en="Appeals arrive immediately after a disaster, before official organizations have launched campaigns.">Apeli dolaze odmah po katastrofi, pre nego što su zvanične organizacije pokrenule kampanje.</li>
       </ul>
     </article>
@@ -49,24 +49,24 @@ window.SCAM_CONTENT["charity-disaster-scam"] = {
     <p data-sr="Katastrofa se dogodi — potres, poplava, rat, epidemija. U roku od nekoliko sati do dana, prevaranti lansiraju apele na društvenim mrežama, e-poštom ili u komentarima vesti." data-en="A disaster occurs — earthquake, flood, war, epidemic. Within hours to days, fraudsters launch appeals on social media, by email, or in news comments.">Katastrofa se dogodi — potres, poplava, rat, epidemija. U roku od nekoliko sati do dana, prevaranti lansiraju apele na društvenim mrežama, e-poštom ili u komentarima vesti.</p>
     <ul class="bullets">
       <li data-sr="Apeli koriste autentične fotografije i emotivan jezik koji opisuje stvarne žrtve." data-en="Appeals use authentic photographs and emotional language describing real victims.">Apeli koriste autentične fotografije i emotivan jezik koji opisuje stvarne žrtve.</li>
-      <li data-sr="Žurnost apela — 'danas„, “sada„, “svaka minuta broji„ — smanjuje vreme za proveru organizacije." data-en="The urgency of the appeal — “today', 'now', 'every minute counts' — reduces time for verifying the organization.">Žurnost apela — „danas", „sada", „svaka minuta broji" — smanjuje vreme za proveru organizacije“.</li>
+      <li data-sr="Žurnost apela — danas, sada, svaka minuta broji — smanjuje vreme za proveru organizacije." data-en="The urgency of the appeal — today', 'now', 'every minute counts' — reduces time for verifying the organization.">Žurnost apela — danas, sada, svaka minuta broji — smanjuje vreme za proveru organizacije.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Svaki apel za donacijom posle katastrofe zahteva proveru registracije organizacije pre doniranja." data-en="Phase threshold: Every donation appeal after a disaster requires verification of the organization's registration before donating."><strong>Prag faze:</strong> Svaki apel za donacijom posle katastrofe zahteva proveru registracije organizacije pre doniranja.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Svaki apel za donacijom posle katastrofe zahteva proveru registracije organizacije pre doniranja." data-en="Phase threshold: Every donation appeal after a disaster requires verification of the organization's registration before donating."><strong>Prag faze:</strong> Svaki apel za donacijom posle katastrofe zahteva proveru registracije organizacije pre doniranja.</div>
   </div>
 
   <div class="phase">
     <div class="label" data-sr="Faza 2: Lažna organizacija" data-en="Phase 2: Fake organization">Faza 2: Lažna organizacija</div>
-    <p data-sr="Organizacija ima sajt koji izgleda profesionalno, s fotografijama polja, timova i „projekata“. Nema proverljivog registarskog broja, nema finansijskih izveštaja, nema javnih podataka o rukovodstvu." data-en="The organization has a professionally looking website, with photographs of field teams and 'projects.' There is no verifiable registration number, no financial reports, no public information about leadership.">Organizacija ima sajt koji izgleda profesionalno, s fotografijama polja, timova i „projekata"“. Nema proverljivog registarskog broja, nema finansijskih izveštaja, nema javnih podataka o rukovodstvu.</p>
+    <p data-sr="Organizacija ima sajt koji izgleda profesionalno, s fotografijama polja, timova i projekata. Nema proverljivog registarskog broja, nema finansijskih izveštaja, nema javnih podataka o rukovodstvu." data-en="The organization has a professionally looking website, with photographs of field teams and 'projects.' There is no verifiable registration number, no financial reports, no public information about leadership.">Organizacija ima sajt koji izgleda profesionalno, s fotografijama polja, timova i projekata. Nema proverljivog registarskog broja, nema finansijskih izveštaja, nema javnih podataka o rukovodstvu.</p>
     <ul class="bullets">
       <li data-sr="Sajt može biti star samo nekoliko dana — WHOIS pretraga otkriva datum registracije domena." data-en="The website may be only a few days old — a WHOIS search reveals the domain registration date.">Sajt može biti star samo nekoliko dana — WHOIS pretraga otkriva datum registracije domena.</li>
-      <li data-sr="Fotografije timova i projekata su preuzete s Stock foto servisa ili s tuđih sajtova." data-en="Team and project photographs are taken from stock photo services or from other websites.">Fotografije timova i projekata su preuzete sa Stock foto servisa ili s tuđih sajtova.</li>
+      <li data-sr="Fotografije timova i projekata su preuzete sa Stock foto servisa ili s tuđih sajtova." data-en="Team and project photographs are taken from stock photo services or from other websites.">Fotografije timova i projekata su preuzete sa Stock foto servisa ili s tuđih sajtova.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Svaka humanitarna organizacija bez registarskog broja koji se može proveriti u državnom registru je alarm." data-en="Phase threshold: Any charitable organization without a registration number verifiable in a state register is an alarm."><strong>Prag faze:</strong> Svaka humanitarna organizacija bez registarskog broja koji se može proveriti u državnom registru je alarm.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Svaka humanitarna organizacija bez registarskog broja koji se može proveriti u državnom registru je alarm." data-en="Phase threshold: Any charitable organization without a registration number verifiable in a state register is an alarm."><strong>Prag faze:</strong> Svaka humanitarna organizacija bez registarskog broja koji se može proveriti u državnom registru je alarm.</div>
   </div>
 
   <div class="phase">
-    <div class="label" data-sr="Faza 3: Kanali doniranja" data-en="Phase 3: Donation channels">Faza 3: Donation channels</div>
-    <p data-sr="Organizacija nudi isključivo neproverljive kanale: kripto adresu, Western Union transfer na privatno ime, prepaid kartice ili direktnu gotovinu „terenskm koordinatoru." data-en="The organization offers only unverifiable channels: a crypto address, a Western Union transfer to a private name, prepaid cards, or direct cash to a 'field coordinator.'">Organizacija nudi isključivo neproverljive kanale: kripto adresu, Western Union transfer na privatno ime, prepaid kartice ili direktnu gotovinu „terenskom koordinatoru"“.</p>
+    <div class="label" data-sr="Faza 3: Donation channels" data-en="Phase 3: Donation channels">Faza 3: Donation channels</div>
+    <p data-sr="Organizacija nudi isključivo neproverljive kanale: kripto adresu, Western Union transfer na privatno ime, prepaid kartice ili direktnu gotovinu terenskom koordinatoru." data-en="The organization offers only unverifiable channels: a crypto address, a Western Union transfer to a private name, prepaid cards, or direct cash to a 'field coordinator.">Organizacija nudi isključivo neproverljive kanale: kripto adresu, Western Union transfer na privatno ime, prepaid kartice ili direktnu gotovinu terenskom koordinatoru.</p>
     <ul class="bullets">
       <li data-sr="Kripto adresa je anonimna i transakcije su nepovratne." data-en="The crypto address is anonymous and transactions are irreversible.">Kripto adresa je anonimna i transakcije su nepovratne.</li>
       <li data-sr="Legitimne organizacije uvek nude bankovni transfer na registrovani poslovni račun s naznakom svrhe." data-en="Legitimate organizations always offer a bank transfer to a registered business account with a stated purpose.">Legitimne organizacije uvek nude bankovni transfer na registrovani poslovni račun s naznakom svrhe.</li>
@@ -75,20 +75,20 @@ window.SCAM_CONTENT["charity-disaster-scam"] = {
       <strong data-sr="Grananja u ovoj fazi:" data-en="Branches at this phase:">Grananja u ovoj fazi:</strong>
       <ul class="bullets">
         <li data-sr="Donator traži potvrdu poreskog odbitka → organizacija ne može da je da jer nije registrovana." data-en="Donor requests tax deduction confirmation → organization cannot provide it because it is not registered.">Donator traži potvrdu poreskog odbitka → organizacija ne može da je da jer nije registrovana.</li>
-        <li data-sr="Donator traži bankovni transfer → organizacija nema poslovni račun ili nudi 'privremeni lični račun koordinatora„." data-en="Donor requests a bank transfer → organization has no business account or offers a “coordinator's temporary personal account.'">Donator traži bankovni transfer → organizacija nema poslovni račun ili nudi „privremeni lični račun koordinatora"“.</li>
+        <li data-sr="Donator traži bankovni transfer → organizacija nema poslovni račun ili nudi privremeni lični račun koordinatora." data-en="Donor requests a bank transfer → organization has no business account or offers a coordinator's temporary personal account.">Donator traži bankovni transfer → organizacija nema poslovni račun ili nudi privremeni lični račun koordinatora.</li>
       </ul>
     </div>
-    <div class="callout" data-sr="Prag faze: Organizacija koja ne može da da potvrdu o donaciji i poresku dokumentaciju nije legitimna." data-en="Phase threshold: An organization that cannot provide a donation receipt and tax documentation is not legitimate."><strong>Prag faze:</strong> Organizacija koja ne može da da potvrdu o donaciji i poresku dokumentaciju nije legitimna.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Organizacija koja ne može da da potvrdu o donaciji i poresku dokumentaciju nije legitimna." data-en="Phase threshold: An organization that cannot provide a donation receipt and tax documentation is not legitimate."><strong>Prag faze:</strong> Organizacija koja ne može da da potvrdu o donaciji i poresku dokumentaciju nije legitimna.</div>
   </div>
 
   <div class="phase">
     <div class="label" data-sr="Faza 4: Pritisak i urgentnost" data-en="Phase 4: Pressure and urgency">Faza 4: Pritisak i urgentnost</div>
-    <p data-sr="Organizacija šalje podsetnike i nova upozorenja: 'žrtve čekaju„, “rok za isporuku hrane je sjutra„, “samo 24 sata ostalo„. Pritisak sprečava proveru." data-en="The organization sends reminders and new warnings: “victims are waiting', 'food delivery deadline is tomorrow', 'only 24 hours left.' Pressure prevents verification.">Organizacija šalje podsetnike i nova upozorenja: „žrtve čekaju", „rok za isporuku hrane je sjutra", „samo 24 sata ostalo"“. Pritisak sprečava proveru“.</p>
+    <p data-sr="Organizacija šalje podsetnike i nova upozorenja: žrtve čekaju, rok za isporuku hrane je sjutra, samo 24 sata ostalo. Pritisak sprečava proveru." data-en="The organization sends reminders and new warnings: victims are waiting', 'food delivery deadline is tomorrow', 'only 24 hours left.' Pressure prevents verification.">Organizacija šalje podsetnike i nova upozorenja: žrtve čekaju, rok za isporuku hrane je sjutra, samo 24 sata ostalo. Pritisak sprečava proveru.</p>
     <ul class="bullets">
-      <li data-sr="Emotivni pritisak je najmoćniji alat — osećaj krivice za nedoniranje blokirа kritičko razmišljanje." data-en="Emotional pressure is the most powerful tool — the feeling of guilt for not donating blocks critical thinking.">Emotivni pritisak je najmoćniji alat — osećaj krivice za nedoniranje blokira kritičko razmišljanje.</li>
-      <li data-sr="Rokovi koji se pomeraju ('sad je zaista poslednji dan„) su signal da urgentnost nije realna." data-en="Deadlines that keep moving (“now it's really the last day') are a signal that the urgency is not real.">Rokovi koji se pomeraju („sad je zaista poslednji dan") su signal da urgentnost nije realna“.</li>
+      <li data-sr="Emotivni pritisak je najmoćniji alat — osećaj krivice za nedoniranje blokira kritičko razmišljanje." data-en="Emotional pressure is the most powerful tool — the feeling of guilt for not donating blocks critical thinking.">Emotivni pritisak je najmoćniji alat — osećaj krivice za nedoniranje blokira kritičko razmišljanje.</li>
+      <li data-sr="Rokovi koji se pomeraju (sad je zaista poslednji dan) su signal da urgentnost nije realna." data-en="Deadlines that keep moving (now it's really the last day') are a signal that the urgency is not real.">Rokovi koji se pomeraju (sad je zaista poslednji dan) su signal da urgentnost nije realna.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Legitimna organizacija pozdravlja proveru — prevarantska organizacija sabotira svaki pokušaj provjere." data-en="Phase threshold: A legitimate organization welcomes verification — a fraudulent organization sabotages every verification attempt."><strong>Prag faze:</strong> Legitimna organizacija pozdravlja proveru — prevarantska organizacija sabotira svaki pokušaj provjere.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Legitimna organizacija pozdravlja proveru — prevarantska organizacija sabotira svaki pokušaj provere." data-en="Phase threshold: A legitimate organization welcomes verification — a fraudulent organization sabotages every verification attempt."><strong>Prag faze:</strong> Legitimna organizacija pozdravlja proveru — prevarantska organizacija sabotira svaki pokušaj provere.</div>
   </div>
 
   <div class="phase">
@@ -98,17 +98,17 @@ window.SCAM_CONTENT["charity-disaster-scam"] = {
       <li data-sr="Kripto donacije su nepovratne bez saradnje primaoca, koji više nije dostupan." data-en="Crypto donations are irreversible without the recipient's cooperation, who is no longer available.">Kripto donacije su nepovratne bez saradnje primaoca, koji više nije dostupan.</li>
       <li data-sr="Lista donatora se ponekad prodaje drugim prevarantima za buduće apele." data-en="The donor list is sometimes sold to other fraudsters for future appeals.">Lista donatora se ponekad prodaje drugim prevarantima za buduće apele.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Donacija koja ne može biti potvrđena prikazanom aktivnošću organizacije u roku od 30–60 dana je izgubljena." data-en="Phase threshold: A donation that cannot be confirmed by demonstrated organizational activity within 30–60 days is lost."><strong>Prag faze:</strong> Donacija koja ne može biti potvrđena prikazanom aktivnošću organizacije u roku od 30–60 dana je izgubljena.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Donacija koja ne može biti potvrđena prikazanom aktivnošću organizacije u roku od 30–60 dana je izgubljena." data-en="Phase threshold: A donation that cannot be confirmed by demonstrated organizational activity within 30–60 days is lost."><strong>Prag faze:</strong> Donacija koja ne može biti potvrđena prikazanom aktivnošću organizacije u roku od 30–60 dana je izgubljena.</div>
   </div>
 
   <div class="phase">
     <div class="label" data-sr="Faza 6: Ponovni kontakt — nova katastrofa" data-en="Phase 6: Re-contact — new disaster">Faza 6: Ponovni kontakt — nova katastrofa</div>
     <p data-sr="Prevaranti recikliraju baze donatora. Donator koji je jednom donirao dobija novi apel za narednu katastrofu ili humanitarnu potrebu." data-en="Fraudsters recycle donor databases. A donor who has given once receives a new appeal for the next disaster or humanitarian need.">Prevaranti recikliraju baze donatora. Donator koji je jednom donirao dobija novi apel za narednu katastrofu ili humanitarnu potrebu.</p>
     <ul class="bullets">
-      <li data-sr="Donatoru se može ponuditi 'redovna mesečna pretplata„ za “kontinuirano humanitarno delovanje„." data-en="The donor may be offered a “regular monthly subscription' for 'continuous humanitarian action.'">Donatoru se može ponuditi „redovna mesečna pretplata" za „kontinuirano humanitarno delovanje"“.</li>
+      <li data-sr="Donatoru se može ponuditi redovna mesečna pretplata za kontinuirano humanitarno delovanje." data-en="The donor may be offered a regular monthly subscription' for 'continuous humanitarian action.">Donatoru se može ponuditi redovna mesečna pretplata za kontinuirano humanitarno delovanje.</li>
       <li data-sr="Svaki ponovni kontakt od iste organizacije treba proveriti isto rigorozno kao i prvu donaciju." data-en="Every re-contact from the same organization should be verified as rigorously as the first donation.">Svaki ponovni kontakt od iste organizacije treba proveriti isto rigorozno kao i prvu donaciju.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Svaka organizacija koja traži ponovnu ili redovnu donaciju bez finansijskog izveštaja za prethodnu period je alarm." data-en="Phase threshold: Any organization requesting a repeat or regular donation without a financial report for the previous period is an alarm."><strong>Prag faze:</strong> Svaka organizacija koja traži ponovnu ili redovnu donaciju bez finansijskog izveštaja za prethodni period je alarm.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Svaka organizacija koja traži ponovnu ili redovnu donaciju bez finansijskog izveštaja za prethodni period je alarm." data-en="Phase threshold: Any organization requesting a repeat or regular donation without a financial report for the previous period is an alarm."><strong>Prag faze:</strong> Svaka organizacija koja traži ponovnu ili redovnu donaciju bez finansijskog izveštaja za prethodni period je alarm.</div>
   </div>
 </section>
 
@@ -148,7 +148,7 @@ window.SCAM_CONTENT["charity-disaster-scam"] = {
     <li data-sr="Da li organizacija može da pruži potvrdu o donaciji s poreskom dokumentacijom?" data-en="Can the organization provide a donation receipt with tax documentation?">Da li organizacija može da pruži potvrdu o donaciji s poreskom dokumentacijom?</li>
     <li data-sr="Da li postoje nezavisne recenzije ili novinarski izveštaji o radu organizacije?" data-en="Are there independent reviews or journalistic reports about the organization's work?">Da li postoje nezavisne recenzije ili novinarski izveštaji o radu organizacije?</li>
     <li data-sr="Da li je apel za donacijom stigao od poznatog prijatelja ili od nepoznate mreže?" data-en="Did the donation appeal come from a known friend or from an unknown network?">Da li je apel za donacijom stigao od poznatog prijatelja ili od nepoznate mreže?</li>
-    <li data-sr="Da li bih se osećao sigurno da donišem direktno etabliranoj organizaciji umesto ovoj?" data-en="Would I feel safe donating directly to an established organization instead of this one?">Da li bih se osećao sigurno da doniram direktno etabliranoj organizaciji umesto ovoj?</li>
+    <li data-sr="Da li bih se osećao sigurno da doniram direktno etabliranoj organizaciji umesto ovoj?" data-en="Would I feel safe donating directly to an established organization instead of this one?">Da li bih se osećao sigurno da doniram direktno etabliranoj organizaciji umesto ovoj?</li>
   </ul>
 </section>
 
@@ -166,22 +166,13 @@ window.SCAM_CONTENT["charity-disaster-scam"] = {
 <section class="content-section">
   <h2 data-sr="Ako pokušavaš da pomogneš nekome" data-en="If you are trying to help someone">Ako pokušavaš da pomogneš nekome</h2>
   <ul class="bullets">
-    <li data-sr="Pitaj: 'Da li si proverio registarski status organizacije pre doniranja?„" data-en="Ask: “Did you verify the organization's registration status before donating?'">Pitaj: „Da li si proverio registarski status organizacije pre doniranja?"</li>
-    <li data-sr="Pitaj: 'Kakvim kanalom si donirao — bankovnim transferom ili kriptom/Western Union-om?„" data-en="Ask: “Through what channel did you donate — bank transfer or crypto/Western Union?'">Pitaj: „Kakvim kanalom si donirao — bankovnim transferom ili kriptom/Western Union-om?"</li>
-    <li data-sr="Rečenice koje pomažu: 'Tvoja želja da pomogneš je potpuno razumna.„ “Prevaranti koriste stvarne fotografije katastrofa — to te nije učinilo naivnim.„" data-en="Sentences that help: “Your desire to help is completely understandable.' 'Fraudsters use real disaster photographs — that did not make you naive.'">Rečenice koje pomažu: „Tvoja želja da pomogneš je potpuno razumna." „Prevaranti koriste stvarne fotografije katastrofa — to te nije učinilo naivnim."</li>
+    <li data-sr="Pitaj: Da li si proverio registarski status organizacije pre doniranja?" data-en="Ask: Did you verify the organization's registration status before donating?">Pitaj: Da li si proverio registarski status organizacije pre doniranja?</li>
+    <li data-sr="Pitaj: Kakvim kanalom si donirao — bankovnim transferom ili kriptom/Western Union-om?" data-en="Ask: Through what channel did you donate — bank transfer or crypto/Western Union?">Pitaj: Kakvim kanalom si donirao — bankovnim transferom ili kriptom/Western Union-om?</li>
+    <li data-sr="Rečenice koje pomažu: Tvoja želja da pomogneš je potpuno razumna. Prevaranti koriste stvarne fotografije katastrofa — to te nije učinilo naivnim." data-en="Sentences that help: Your desire to help is completely understandable.' 'Fraudsters use real disaster photographs — that did not make you naive.">Rečenice koje pomažu: Tvoja želja da pomogneš je potpuno razumna. Prevaranti koriste stvarne fotografije katastrofa — to te nije učinilo naivnim.</li>
     <li data-sr="Ne okrivljuj osobu — emotivno reagovanje na katastrofe je normalno i prevaranti to ciljano iskorišćavaju." data-en="Do not blame the person — emotional reactions to disasters are normal and fraudsters deliberately exploit this.">Ne okrivljuj osobu — emotivno reagovanje na katastrofe je normalno i prevaranti to ciljano iskorišćavaju.</li>
   </ul>
 </section>
 
-<section class="content-section">
-  <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-  <ul class="bullets">
-    <li><a href="charity-scam.html" data-sr="Prevara s humanitarnom organizacijom — opštiji model lažnih humanitarnih apela" data-en="Charity scam — general model of fake humanitarian appeals">Prevara s humanitarnom organizacijom — opštiji model lažnih humanitarnih apela</a></li>
-    <li><a href="disaster-relief-scam.html" data-sr="Prevara s pomoći u katastrofi — lažni fondovi za pomoć žrtvama" data-en="Disaster relief scam — fake funds for disaster victims">Prevara s pomoći u katastrofi — lažni fondovi za pomoć žrtvama</a></li>
-    <li><a href="crowdfunding-scam.html" data-sr="Prevara s crowdfundingom — lažne kampanje za prikupljanje sredstava" data-en="Crowdfunding scam — fake fundraising campaigns">Prevara s crowdfundingom — lažne kampanje za prikupljanje sredstava</a></li>
-    <li><a href="advance-fee-fraud.html" data-sr="Prevara avansnom naknadom — unapredna uplata za pomoć koja ne dolazi" data-en="Advance fee fraud — upfront payment for assistance that never arrives">Prevara avansnom naknadom — unapredna uplata za pomoć koja ne dolazi</a></li>
-    <li><a href="phishing.html" data-sr="Fišing — lažni sajtovi humanitarnih organizacija koji prikupljaju podatke" data-en="Phishing — fake charity websites collecting data">Fišing — lažni sajtovi humanitarnih organizacija koji prikupljaju podatke</a></li>
-  </ul>
-</section>
+
 `
 };

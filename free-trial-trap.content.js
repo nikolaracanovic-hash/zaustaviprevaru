@@ -3,7 +3,7 @@ window.SCAM_CONTENT["free-trial-trap"] = {
   raw_html: `
 <section class="content-section">
   <h2 data-sr="Uvod: kako radi zamka besplatne probe" data-en="Intro: how the free trial trap works">Uvod: kako radi zamka besplatne probe</h2>
-  <p data-sr="Ponuda izgleda benign: 30 dana besplatno, otkaži kad god želiš. U sitnom tisku stoji da se unos kartičnih podataka smatra pristankom na automatsku godišnju ili mesečnu pretplatu. Kad proba istekne, naplata kreće bez upozorenja. Otkaz zahteva specifičan proces — telefonski poziv, pisano zahtevanje, fizičku posetu ili rok koji je već prošao." data-en="The offer looks benign: 30 days free, cancel any time. In fine print it states that entering card details constitutes consent to automatic annual or monthly subscription. When the trial expires, billing starts without notice. Cancellation requires a specific process — a phone call, written request, physical visit, or a deadline that has already passed.">Ponuda izgleda benign: 30 dana besplatno, otkaži kad god želiš. U sitnom tisku stoji da je unos kartičnih podataka pristanak na automatsku godišnju ili mesečnu pretplatu. Kad proba istekne, naplata kreće bez upozorenja. Otkaz zahteva specifičan proces — telefonski poziv, pisano zahtevanje, fizičku posetu ili rok koji je već prošao.</p>
+  <p data-sr="Ponuda izgleda benign: 30 dana besplatno, otkaži kad god želiš. U sitnom tisku stoji da je unos kartičnih podataka pristanak na automatsku godišnju ili mesečnu pretplatu. Kad proba istekne, naplata kreće bez upozorenja. Otkaz zahteva specifičan proces — telefonski poziv, pisano zahtevanje, fizičku posetu ili rok koji je već prošao." data-en="The offer looks benign: 30 days free, cancel any time. In fine print it states that entering card details constitutes consent to automatic annual or monthly subscription. When the trial expires, billing starts without notice. Cancellation requires a specific process — a phone call, written request, physical visit, or a deadline that has already passed.">Ponuda izgleda benign: 30 dana besplatno, otkaži kad god želiš. U sitnom tisku stoji da je unos kartičnih podataka pristanak na automatsku godišnju ili mesečnu pretplatu. Kad proba istekne, naplata kreće bez upozorenja. Otkaz zahteva specifičan proces — telefonski poziv, pisano zahtevanje, fizičku posetu ili rok koji je već prošao.</p>
 </section>
 
 <section class="content-section">
@@ -46,12 +46,12 @@ window.SCAM_CONTENT["free-trial-trap"] = {
 
   <div class="phase">
     <div class="label" data-sr="Faza 1: Ponuda besplatne probe" data-en="Phase 1: Free trial offer">Faza 1: Ponuda besplatne probe</div>
-    <p data-sr="Meta vidi oglas ili pop-up s ponudom: '30 dana besplatno, otkaži kad hoćeš.„ Zahteva se samo ime i e-mail, a zatim i podaci kartice “za verifikaciju„." data-en="Target sees an ad or pop-up with an offer: “30 days free, cancel whenever you want.' Only name and email are required, then card details 'for verification.'">Meta vidi oglas ili pop-up s ponudom: „30 dana besplatno, otkaži kad hoćeš." Zahteva se samo ime i e-mail, a zatim i podaci kartice „za verifikaciju."</p>
+    <p data-sr="Meta vidi oglas ili pop-up s ponudom: 30 dana besplatno, otkaži kad hoćeš. Zahteva se samo ime i e-mail, a zatim i podaci kartice za verifikaciju." data-en="Target sees an ad or pop-up with an offer: 30 days free, cancel whenever you want.' Only name and email are required, then card details 'for verification.">Meta vidi oglas ili pop-up s ponudom: 30 dana besplatno, otkaži kad hoćeš. Zahteva se samo ime i e-mail, a zatim i podaci kartice za verifikaciju.</p>
     <ul class="bullets">
-      <li data-sr="Fraza 'za verifikaciju„ prikriva da se kartica odmah pohranjuje za buduće naplate." data-en="The phrase “for verification' conceals that the card is immediately stored for future charges.">Fraza „za verifikaciju" prikriva da se kartica odmah pohranjuje za buduće naplate“.</li>
+      <li data-sr="Fraza za verifikaciju prikriva da se kartica odmah pohranjuje za buduće naplate." data-en="The phrase for verification' conceals that the card is immediately stored for future charges.">Fraza za verifikaciju prikriva da se kartica odmah pohranjuje za buduće naplate.</li>
       <li data-sr="Polje za saglasnost s pretplatom je unapred označeno i skriveno u obrasce." data-en="The subscription consent box is pre-checked and buried in the form.">Polje za saglasnost s pretplatom je unapred označeno i skriveno u obrasce.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Unos kartičnih podataka je nevidljivi ugovor o pretplati." data-en="Phase threshold: Entering card details is an invisible subscription contract."><strong>Prag faze:</strong> Unos kartičnih podataka je nevidljivi ugovor o pretplati.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Unos kartičnih podataka je nevidljivi ugovor o pretplati." data-en="Phase threshold: Entering card details is an invisible subscription contract."><strong>Prag faze:</strong> Unos kartičnih podataka je nevidljivi ugovor o pretplati.</div>
   </div>
 
   <div class="phase">
@@ -61,14 +61,14 @@ window.SCAM_CONTENT["free-trial-trap"] = {
       <li data-sr="E-poruke kompanije fokusirane su na sadržaj i benefite, ne na datum obnove." data-en="Company emails focus on content and benefits, not the renewal date.">E-poruke kompanije fokusirane su na sadržaj i benefite, ne na datum obnove.</li>
       <li data-sr="Korisnik pretpostavlja da će dobiti upozorenje pre isteka — koje obično ne stiže." data-en="The user assumes they will receive a warning before expiry — which usually does not arrive.">Korisnik pretpostavlja da će dobiti upozorenje pre isteka — koje obično ne stiže.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Korisnik napomnje koji je bio poslednji dan probe tek kad vidi transakciju na izvodu." data-en="Phase threshold: The user notices which was the last day of the trial only when they see the transaction on their statement."><strong>Prag faze:</strong> Korisnik napomnje koji je bio poslednji dan probe tek kad vidi transakciju na izvodu.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Korisnik napomnje koji je bio poslednji dan probe tek kad vidi transakciju na izvodu." data-en="Phase threshold: The user notices which was the last day of the trial only when they see the transaction on their statement."><strong>Prag faze:</strong> Korisnik napomnje koji je bio poslednji dan probe tek kad vidi transakciju na izvodu.</div>
   </div>
 
   <div class="phase">
     <div class="label" data-sr="Faza 3: Naplata bez upozorenja" data-en="Phase 3: Billing without warning">Faza 3: Naplata bez upozorenja</div>
     <p data-sr="Prvog dana po isteku probe kartica se naplaćuje za puni iznos — mesečno ili godišnje. Nema posebnog upozorenja. Naplata se pojavljuje na izvodu s imenom kompanije." data-en="On the first day after the trial expires, the card is charged the full amount — monthly or annually. No specific warning is given. The charge appears on the statement under the company name.">Prvog dana po isteku probe kartica se naplaćuje za puni iznos — mesečno ili godišnje. Nema posebnog upozorenja. Naplata se pojavljuje na izvodu s imenom kompanije.</p>
     <ul class="bullets">
-      <li data-sr="Iznos može biti znatno veći nego što je korisnik očekivao za 'jeftinu„ uslugu." data-en="The amount can be significantly larger than the user expected for a “cheap' service.">Iznos može biti znatno veći nego što je korisnik očekivao za „jeftinu" uslugu“.</li>
+      <li data-sr="Iznos može biti znatno veći nego što je korisnik očekivao za jeftinu uslugu." data-en="The amount can be significantly larger than the user expected for a cheap' service.">Iznos može biti znatno veći nego što je korisnik očekivao za jeftinu uslugu.</li>
       <li data-sr="Naplata može biti godišnja, što čini povrat komplikovanijim." data-en="The charge may be annual, making a refund more complicated.">Naplata može biti godišnja, što čini povrat komplikovanijim.</li>
     </ul>
     <div class="branch">
@@ -78,17 +78,17 @@ window.SCAM_CONTENT["free-trial-trap"] = {
         <li data-sr="Meta kontaktira kompaniju → upućena na proceduru otkaza koja zahteva posebne korake." data-en="Target contacts the company → directed to a cancellation procedure requiring specific steps.">Meta kontaktira kompaniju → upućena na proceduru otkaza koja zahteva posebne korake.</li>
       </ul>
     </div>
-    <div class="callout" data-sr="Prag faze: Naplata je već izvršena — jedini put ka povratu je formalna procedura otkaza ili chargeback." data-en="Phase threshold: The charge has already been made — the only path to a refund is the formal cancellation procedure or a chargeback."><strong>Prag faze:</strong> Naplata je već izvršena — jedini put ka povratu je formalna procedura otkaza ili chargeback.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Naplata je već izvršena — jedini put ka povratu je formalna procedura otkaza ili chargeback." data-en="Phase threshold: The charge has already been made — the only path to a refund is the formal cancellation procedure or a chargeback."><strong>Prag faze:</strong> Naplata je već izvršena — jedini put ka povratu je formalna procedura otkaza ili chargeback.</div>
   </div>
 
   <div class="phase">
     <div class="label" data-sr="Faza 4: Blokiranje otkaza" data-en="Phase 4: Cancellation blocking">Faza 4: Blokiranje otkaza</div>
     <p data-sr="Korisnik pokušava da otkaže. Sistem nudi skrivena dugmad, višestepene potvrde ili rok koji zahteva otkazivanje 7–14 dana pre obnove. Telefonska linija za otkaz je nedostupna ili ima dugačko čekanje." data-en="The user attempts to cancel. The system offers hidden buttons, multi-step confirmations, or a deadline requiring cancellation 7–14 days before renewal. The cancellation phone line is unavailable or has a long wait.">Korisnik pokušava da otkaže. Sistem nudi skrivena dugmad, višestepene potvrde ili rok koji zahteva otkazivanje 7–14 dana pre obnove. Telefonska linija za otkaz je nedostupna ili ima dugačko čekanje.</p>
     <ul class="bullets">
-      <li data-sr="'Dark patterns„ u UI-u namerno otežavaju otkaz: skrivena dugmad, zbunjujući jezik, lažni koraci." data-en="“Dark patterns' in the UI deliberately complicate cancellation: hidden buttons, confusing language, fake steps.">'Dark patterns' u UI-u namerno otežavaju otkaz: skrivena dugmad, zbunjujući jezik, lažni koraci.</li>
+      <li data-sr="'Dark patterns' u UI-u namerno otežavaju otkaz: skrivena dugmad, zbunjujući jezik, lažni koraci." data-en="Dark patterns' in the UI deliberately complicate cancellation: hidden buttons, confusing language, fake steps.">'Dark patterns' u UI-u namerno otežavaju otkaz: skrivena dugmad, zbunjujući jezik, lažni koraci.</li>
       <li data-sr="Kompanija može tvrditi da je otkaz stigao posle roka i naplatiti još jedan period." data-en="The company may claim that cancellation arrived after the deadline and charge another period.">Kompanija može tvrditi da je otkaz stigao posle roka i naplatiti još jedan period.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Svaki servis koji nema jasno vidljivo dugme za otkaz na nalogu korisnika je alarm." data-en="Phase threshold: Any service that does not have a clearly visible cancellation button on the user's account is an alarm."><strong>Prag faze:</strong> Svaki servis koji nema jasno vidljivo dugme za otkaz na nalogu korisnika je alarm.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Svaki servis koji nema jasno vidljivo dugme za otkaz na nalogu korisnika je alarm." data-en="Phase threshold: Any service that does not have a clearly visible cancellation button on the user's account is an alarm."><strong>Prag faze:</strong> Svaki servis koji nema jasno vidljivo dugme za otkaz na nalogu korisnika je alarm.</div>
   </div>
 
   <div class="phase">
@@ -98,7 +98,7 @@ window.SCAM_CONTENT["free-trial-trap"] = {
       <li data-sr="Ukupan gubitak može biti višestruko veći od jedne mesečne naplate." data-en="Total loss can be many times greater than a single monthly charge.">Ukupan gubitak može biti višestruko veći od jedne mesečne naplate.</li>
       <li data-sr="Korisnici često kasno primete jer naplate izgledaju manje i redovne." data-en="Users often notice late because the charges look small and regular.">Korisnici često kasno primete jer naplate izgledaju manje i redovne.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Tri ili više neprepoznatih naplata od iste kompanije zahtevaju hitno blokiranje kartice." data-en="Phase threshold: Three or more unrecognized charges from the same company require immediate card blocking."><strong>Prag faze:</strong> Tri ili više neprepoznatih naplata od iste kompanije zahtevaju hitno blokiranje kartice.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Tri ili više neprepoznatih naplata od iste kompanije zahtevaju hitno blokiranje kartice." data-en="Phase threshold: Three or more unrecognized charges from the same company require immediate card blocking."><strong>Prag faze:</strong> Tri ili više neprepoznatih naplata od iste kompanije zahtevaju hitno blokiranje kartice.</div>
   </div>
 
   <div class="phase">
@@ -108,7 +108,7 @@ window.SCAM_CONTENT["free-trial-trap"] = {
       <li data-sr="Pretnje tužbom za pretplatu od manje stotinu evra su uglavnom blef, ali mogu izgledati autentično." data-en="Lawsuit threats for a subscription of less than a hundred euros are mostly a bluff, but can appear authentic.">Pretnje tužbom za pretplatu od manje stotinu evra su uglavnom blef, ali mogu izgledati autentično.</li>
       <li data-sr="Formalna pritužba regulatornom telu često zaustavlja agresivne naplativaće." data-en="A formal complaint to a regulatory body often stops aggressive collectors.">Formalna pritužba regulatornom telu često zaustavlja agresivne naplativaće.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Kolekcijsko pismo ne znači pravna obaveza — zatražite pisano dokazivanje duga pre ikakve uplate." data-en="Phase threshold: A collection letter does not mean legal obligation — request written proof of debt before any payment."><strong>Prag faze:</strong> Kolekcijsko pismo ne znači pravna obaveza — zatražite pisano dokazivanje duga pre ikakve uplate.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Kolekcijsko pismo ne znači pravna obaveza — zatražite pisano dokazivanje duga pre ikakve uplate." data-en="Phase threshold: A collection letter does not mean legal obligation — request written proof of debt before any payment."><strong>Prag faze:</strong> Kolekcijsko pismo ne znači pravna obaveza — zatražite pisano dokazivanje duga pre ikakve uplate.</div>
   </div>
 </section>
 
@@ -127,7 +127,7 @@ window.SCAM_CONTENT["free-trial-trap"] = {
 <section class="content-section">
   <h2 data-sr="Provere" data-en="Checks">Provere</h2>
   <ul class="bullets">
-    <li data-sr="Pretražite ime kompanije plus 'recenzije„, “prevara„ ili „otkaz„ pre unosa kartičnih podataka." data-en="Search the company name plus “reviews“, “scam', or 'cancellation' before entering card details.">Pretražite ime kompanije plus „recenzije", „prevara" ili „otkaz" pre unosa kartičnih podataka“.</li>
+    <li data-sr="Pretražite ime kompanije plus recenzije, prevara ili otkaz pre unosa kartičnih podataka." data-en="Search the company name plus reviews, scam', or 'cancellation' before entering card details.">Pretražite ime kompanije plus recenzije, prevara ili otkaz pre unosa kartičnih podataka.</li>
     <li data-sr="Pročitajte uslove korišćenja direktno na sajtu — potražite fraze o automatskom obnavljanju pretplate." data-en="Read the terms of service directly on the site — look for phrases about automatic subscription renewal.">Pročitajte uslove korišćenja direktno na sajtu — potražite fraze o automatskom obnavljanju pretplate.</li>
     <li data-sr="Proverite da li postoji jasno vidljivo dugme za otkaz u korisničkom nalogu pre nego se prijavite." data-en="Check whether there is a clearly visible cancellation button in the user account before signing up.">Proverite da li postoji jasno vidljivo dugme za otkaz u korisničkom nalogu pre nego se prijavite.</li>
     <li data-sr="Podesite podsetnik u kalendaru na dan pre isteka probe radi blagovremenog otkaza." data-en="Set a calendar reminder for the day before the trial expires for timely cancellation.">Podesite podsetnik u kalendaru na dan pre isteka probe radi blagovremenog otkaza.</li>
@@ -159,7 +159,7 @@ window.SCAM_CONTENT["free-trial-trap"] = {
     <li data-sr="Otvorite korisnički nalog i potražite opciju za otkaz — snimite ekran potvrde otkaza." data-en="Open the user account and look for the cancellation option — screenshot the cancellation confirmation.">Otvorite korisnički nalog i potražite opciju za otkaz — snimite ekran potvrde otkaza.</li>
     <li data-sr="Ako otkaz nije moguć online, pošaljite pisani zahtev e-poštom s potvrdom prijema." data-en="If cancellation is not possible online, send a written request by email with delivery confirmation.">Ako otkaz nije moguć online, pošaljite pisani zahtev e-poštom s potvrdom prijema.</li>
     <li data-sr="Kontaktirajte banku radi chargeback-a za neovlašćene ili neopravdane naplate." data-en="Contact the bank for a chargeback on unauthorized or unjustified charges.">Kontaktirajte banku radi chargeback-a za neovlašćene ili neopravdane naplate.</li>
-    <li data-sr="Blokirajte karticu ili karticu za jednokratnu upotrebu da sprečite buduće naplate dok se spor rešava." data-en="Block the card or use a single-use card to prevent future charges while the dispute is resolved.">Blokirajte karticu ili koristite karticu za jednokratnu upotrebu da sprečite buduće naplate dok se spor rešava.</li>
+    <li data-sr="Blokirajte karticu ili koristite karticu za jednokratnu upotrebu da sprečite buduće naplate dok se spor rešava." data-en="Block the card or use a single-use card to prevent future charges while the dispute is resolved.">Blokirajte karticu ili koristite karticu za jednokratnu upotrebu da sprečite buduće naplate dok se spor rešava.</li>
     <li data-sr="Prijavite kompaniju potrošačkoj zaštiti ili regulatoru ako se ne poštuju propisi o otkazu." data-en="Report the company to consumer protection or the regulator if cancellation regulations are not respected.">Prijavite kompaniju potrošačkoj zaštiti ili regulatoru ako se ne poštuju propisi o otkazu.</li>
   </ul>
 </section>
@@ -167,20 +167,13 @@ window.SCAM_CONTENT["free-trial-trap"] = {
 <section class="content-section">
   <h2 data-sr="Ako pokušavaš da pomogneš nekome" data-en="If you are trying to help someone">Ako pokušavaš da pomogneš nekome</h2>
   <ul class="bullets">
-    <li data-sr="Pitaj: „Da li si u poslednjih mesec dana uneo kartične podatke za neku besplatnu probu ili registraciju?“" data-en="Ask: 'Have you entered card details for any free trial or registration in the last month?'">Pitaj: „Da li si u poslednjih mesec dana uneo kartične podatke za neku besplatnu probu ili registraciju?“</li>
+    <li data-sr="Pitaj: Da li si u poslednjih mesec dana uneo kartične podatke za neku besplatnu probu ili registraciju?" data-en="Ask: Have you entered card details for any free trial or registration in the last month?">Pitaj: Da li si u poslednjih mesec dana uneo kartične podatke za neku besplatnu probu ili registraciju?</li>
     <li data-sr="Pregledajte zajedno izvod kartice i identifikujte sve ponavljajuće naplate." data-en="Review the card statement together and identify all recurring charges.">Pregledajte zajedno izvod kartice i identifikujte sve ponavljajuće naplate.</li>
-    <li data-sr="Rečenice koje pomažu: „Ovo nije tvoja greška — ovaj model je dizajniran da zaobiđe pažnju“.“ „Možemo da otkažemo i da tražimo povrat — korak po korak“.“" data-en="Sentences that help: 'This is not your fault — this model is designed to bypass attention.' 'We can cancel and request a refund — step by step.'">Rečenice koje pomažu: „Ovo nije tvoja greška — ovaj model je dizajniran da zaobiđe pažnju“.“ „Možemo da otkažemo i da tražimo povrat — korak po korak“.“</li>
+    <li data-sr="Rečenice koje pomažu: Ovo nije tvoja greška — ovaj model je dizajniran da zaobiđe pažnju. Možemo da otkažemo i da tražimo povrat — korak po korak." data-en="Sentences that help: This is not your fault — this model is designed to bypass attention.' 'We can cancel and request a refund — step by step.">Rečenice koje pomažu: Ovo nije tvoja greška — ovaj model je dizajniran da zaobiđe pažnju. Možemo da otkažemo i da tražimo povrat — korak po korak.</li>
     <li data-sr="Ne pritiskaj na brzinu otkaza bez snimanja dokaza svakog koraka — dokazi su bitni za chargeback." data-en="Do not rush cancellation without documenting evidence of each step — evidence is important for a chargeback.">Ne pritiskaj na brzinu otkaza bez snimanja dokaza svakog koraka — dokazi su bitni za chargeback.</li>
   </ul>
 </section>
 
-<section class="content-section">
-  <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-  <ul class="bullets">
-    <li><a href="subscription-trap.html" data-sr="Zamka pretplate — ponavljajuće naplate skrivene u uslovima" data-en="Subscription trap — recurring charges hidden in terms">Zamka pretplate — ponavljajuće naplate skrivene u uslovima</a></li>
-    <li><a href="advance-fee-fraud.html" data-sr="Prevara avansnom naknadom — unapredna uplata za uslugu koja ne dolazi" data-en="Advance fee fraud — upfront payment for a service that never arrives">Prevara avansnom naknadom — unapredna uplata za uslugu koja ne dolazi</a></li>
-    <li><a href="phishing.html" data-sr="Fišing — lažni sajtovi koji prikupljaju kartične podatke" data-en="Phishing — fake sites collecting card details">Fišing — lažni sajtovi koji prikupljaju kartične podatke</a></li>
-  </ul>
-</section>
+
 `
 };

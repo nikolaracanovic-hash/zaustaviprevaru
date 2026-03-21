@@ -19,9 +19,9 @@ window.SCAM_CONTENT["business-email-compromise"] = {
       >BEC nije hakerski napad u tehničkom smislu — radi se o socijalnom inženjering napadu koji koristi autoritet, hitnost i poverenje unutar poslovnih procesa. Prosečan gubitak po incidentu premašuje 100.000 dolara (FBI IC3, 2023). Tehničke odbrane same po sebi ne zaustavljaju BEC.</p>
 
       <div class="callout"
-        data-sr="<strong>Model:</strong> izviđanje (OSINT o firmi) → lažni identitet (direktor/dobavljač/advokat) → scenario (hitan posao / nova instrukcija) → zahtev (transfer / promena IBAN) → prag (uplata izvršena ili IBAN promenjen) → gubitak → mogući recovery talaš."
+        data-sr="<strong>Model:</strong> izviđanje (OSINT o firmi) → lažni identitet (direktor/dobavljač/advokat) → scenario (hitan posao / nova instrukcija) → zahtev (transfer / promena IBAN) → prag (uplata izvršena ili IBAN promenjen) → gubitak → moguć talas recovery prevara."
         data-en="<strong>Model:</strong> reconnaissance (company OSINT) → fake identity (executive/supplier/lawyer) → scenario (urgent deal / new instruction) → request (transfer / IBAN change) → threshold (payment made or IBAN updated) → loss → possible recovery wave."
-      ><strong>Model:</strong> izviđanje (OSINT o firmi) → lažni identitet (direktor/dobavljač/advokat) → scenario (hitan posao / nova instrukcija) → zahtev (transfer / promena IBAN) → prag (uplata izvršena ili IBAN promenjen) → gubitak → mogući recovery talaš.</div>
+      ><strong>Model:</strong> izviđanje (OSINT o firmi) → lažni identitet (direktor/dobavljač/advokat) → scenario (hitan posao / nova instrukcija) → zahtev (transfer / promena IBAN) → prag (uplata izvršena ili IBAN promenjen) → gubitak → moguć talas recovery prevara.</div>
 
       <div class="callout"
         data-sr="<strong>Prag:</strong> zaposleni izvrši uplatu ili unese novi IBAN u sistem bez nezavisne telefonske verifikacije na poznati broj."
@@ -55,10 +55,10 @@ window.SCAM_CONTENT["business-email-compromise"] = {
         <div class="phase">
           <div class="label" data-sr="Kako se uvodi uplata / promena" data-en="How payment / change is introduced">Kako se uvodi uplata / promena</div>
           <ul class="bullets">
-            <li data-sr="scenario koji logično zahteva akciju: „akvizicija.", „promena banke", „regulatorni rok"." data-en="scenario that logically demands action: &ldquo;acquisition&rdquo;, &ldquo;bank change&rdquo;, &ldquo;regulatory deadline&rdquo;.">scenario koji logično zahteva akciju: „akvizicija", „promena banke", „regulatorni rok"“.</li>
-            <li data-sr="rok koji isključuje pauzu: „danas do 15h.", „pre sastanka"." data-en="deadline that excludes pause: &ldquo;today by 3pm&rdquo;, &ldquo;before the meeting&rdquo;.">rok koji isključuje pauzu: „danas do 15h", „pre sastanka"“.</li>
-            <li data-sr="tajnost koja isključuje konsultaciju: „nemoj reći CFO-u.", „poverljivo"." data-en="secrecy that excludes consultation: &ldquo;don't tell CFO&rdquo;, &ldquo;confidential&rdquo;.">tajnost koja isključuje konsultaciju: „nemoj reći CFO-u", „poverljivo"“.</li>
-            <li data-sr="eksplicitna blokada telefonske provere: „na putu sam, ne primam pozive."." data-en="explicit block on phone verification: &ldquo;I'm traveling, not taking calls&rdquo;.">eksplicitna blokada telefonske provere: „na putu sam, ne primam pozive"“.</li>
+            <li data-sr="scenario koji logično zahteva akciju: akvizicija, promena banke, regulatorni rok." data-en="scenario that logically demands action: &ldquo;acquisition&rdquo;, &ldquo;bank change&rdquo;, &ldquo;regulatory deadline&rdquo;.">scenario koji logično zahteva akciju: akvizicija, promena banke, regulatorni rok.</li>
+            <li data-sr="rok koji isključuje pauzu: danas do 15h, pre sastanka." data-en="deadline that excludes pause: &ldquo;today by 3pm&rdquo;, &ldquo;before the meeting&rdquo;.">rok koji isključuje pauzu: danas do 15h, pre sastanka.</li>
+            <li data-sr="tajnost koja isključuje konsultaciju: nemoj reći CFO-u, poverljivo." data-en="secrecy that excludes consultation: &ldquo;don't tell CFO&rdquo;, &ldquo;confidential&rdquo;.">tajnost koja isključuje konsultaciju: nemoj reći CFO-u, poverljivo.</li>
+            <li data-sr="eksplicitna blokada telefonske provere: na putu sam, ne primam pozive." data-en="explicit block on phone verification: &ldquo;I'm traveling, not taking calls&rdquo;.">eksplicitna blokada telefonske provere: na putu sam, ne primam pozive.</li>
           </ul>
         </div>
       </div>
@@ -129,25 +129,25 @@ window.SCAM_CONTENT["business-email-compromise"] = {
           Faza 3 — Imejl sa zahtevom: hitnost + tajnost
         </h3>
         <p
-          data-sr="Imejl stiže u pravom trenutku: kada je direktor na putu, pred kraj radnog dana, na kraju fiskalnog kvartala. Scenario je uvek hitan i poverljiv. Zahtev je konkretan: transfer na novi račun, promena IBAN-a dobavljača, uplata za „akviziciju"“. Tajnost i blokada telefonske provere su eksplicitni deo poruke."
+          data-sr="Imejl stiže u pravom trenutku: kada je direktor na putu, pred kraj radnog dana, na kraju fiskalnog kvartala. Scenario je uvek hitan i poverljiv. Zahtev je konkretan: transfer na novi račun, promena IBAN-a dobavljača, uplata za akviziciju. Tajnost i blokada telefonske provere su eksplicitni deo poruke."
           data-en="The email arrives at the right moment: when the CEO is traveling, near end of day, at the close of a fiscal quarter. The scenario is always urgent and confidential. The request is specific: transfer to a new account, supplier IBAN change, payment for an &ldquo;acquisition&rdquo;. Secrecy and blocking phone verification are explicit parts of the message."
-        >Imejl stiže u pravom trenutku: kada je direktor na putu, pred kraj radnog dana, na kraju fiskalnog kvartala. Scenario je uvek hitan i poverljiv. Zahtev je konkretan: transfer na novi račun, promena IBAN-a dobavljača, uplata za „akviziciju"“. Tajnost i blokada telefonske provere su eksplicitni deo poruke“.</p>
+        >Imejl stiže u pravom trenutku: kada je direktor na putu, pred kraj radnog dana, na kraju fiskalnog kvartala. Scenario je uvek hitan i poverljiv. Zahtev je konkretan: transfer na novi račun, promena IBAN-a dobavljača, uplata za akviziciju. Tajnost i blokada telefonske provere su eksplicitni deo poruke.</p>
 
         <div class="grid-2">
           <div class="phase">
             <div class="label" data-sr="Tipični zahtevi" data-en="Typical requests">Tipični zahtevi</div>
             <ul class="bullets">
-              <li data-sr="hitan transfer na novi račun za „akviziciju."." data-en="urgent transfer to a new account for an &ldquo;acquisition&rdquo;.">hitan transfer na novi račun za „akviziciju"“.</li>
+              <li data-sr="hitan transfer na novi račun za akviziciju." data-en="urgent transfer to a new account for an &ldquo;acquisition&rdquo;.">hitan transfer na novi račun za akviziciju.</li>
               <li data-sr="promena IBAN-a dobavljača za sledeću redovnu uplatu." data-en="supplier IBAN change for next regular payment.">promena IBAN-a dobavljača za sledeću redovnu uplatu.</li>
-              <li data-sr="uplata „zaostale obaveze." pre regulatornog roka." data-en="payment of an &ldquo;outstanding liability&rdquo; before regulatory deadline.">uplata „zaostale obaveze" pre regulatornog roka“.</li>
+              <li data-sr="uplata zaostale obaveze pre regulatornog roka." data-en="payment of an &ldquo;outstanding liability&rdquo; before regulatory deadline.">uplata zaostale obaveze pre regulatornog roka.</li>
             </ul>
           </div>
           <div class="phase">
             <div class="label" data-sr="Taktike zaobilaženja provere" data-en="Verification bypass tactics">Taktike zaobilaženja provere</div>
             <ul class="bullets">
-              <li data-sr="„poverljivo — ne kontaktirati CFO niti pravnika."." data-en="&ldquo;confidential — do not contact CFO or lawyer&rdquo;.">"poverljivo — ne kontaktirati CFO niti pravnika".</li>
-              <li data-sr="„hitno — rok za sat vremena."." data-en="&ldquo;urgent — deadline in one hour&rdquo;.">"hitno — rok za sat vremena".</li>
-              <li data-sr="„na putu sam, ne primam pozive."." data-en="&ldquo;I'm traveling, not taking calls&rdquo;.">"na putu sam, ne primam pozive".</li>
+              <li data-sr="poverljivo — ne kontaktirati CFO niti pravnika." data-en="&ldquo;confidential — do not contact CFO or lawyer&rdquo;.">poverljivo — ne kontaktirati CFO niti pravnika.</li>
+              <li data-sr="hitno — rok za sat vremena." data-en="&ldquo;urgent — deadline in one hour&rdquo;.">hitno — rok za sat vremena.</li>
+              <li data-sr="na putu sam, ne primam pozive." data-en="&ldquo;I'm traveling, not taking calls&rdquo;.">na putu sam, ne primam pozive.</li>
             </ul>
           </div>
         </div>
@@ -198,7 +198,7 @@ window.SCAM_CONTENT["business-email-compromise"] = {
         >Ako meta okleava ili traži verifikaciju, napadač eskalira pritisak: jači autoritet, tvrđi rok, nova pretnja posledicama. U nekim napadima napadač ostaje u kompromitovanom nalogu i presreće odgovore — meta misli da komunicira sa pravom osobom i dobija potvrde iz pravog naloga.</p>
         <ul class="bullets">
           <li data-sr="signal: priča se komplikuje ako meta pokušava da proverava." data-en="signal: story becomes more elaborate if target tries to verify.">signal: priča se komplikuje ako meta pokušava da proverava.</li>
-          <li data-sr="signal: pojavljuje se „treća strana." (pravnik, konsultant) koja potvrđuje zahtev." data-en="signal: a &ldquo;third party&rdquo; (lawyer, consultant) appears to confirm the request.">signal: pojavljuje se „treća strana" (pravnik, konsultant) koja potvrđuje zahtev“.</li>
+          <li data-sr="signal: pojavljuje se treća strana (pravnik, konsultant) koja potvrđuje zahtev." data-en="signal: a &ldquo;third party&rdquo; (lawyer, consultant) appears to confirm the request.">signal: pojavljuje se treća strana (pravnik, konsultant) koja potvrđuje zahtev.</li>
         </ul>
         <div class="callout"
           data-sr="<strong>Prag faze:</strong> meta prihvata eskaliranu potvrdu kao validan dokaz i izvršava zahtev."
@@ -227,9 +227,9 @@ window.SCAM_CONTENT["business-email-compromise"] = {
           Faza 7 — Recovery talaš
         </h3>
         <p
-          data-sr="Posle otkrivenog incidenta stiže novi kontakt sa ponudom „povraćaja" izgubljenih sredstava: „agent", „forenzička firma", „pravni konsultant za međunarodni transfer"“. Uslov je uplata unapred."
+          data-sr="Posle otkrivenog incidenta stiže novi kontakt sa ponudom povraćaja izgubljenih sredstava: agent, forenzička firma, pravni konsultant za međunarodni transfer. Uslov je uplata unapred."
           data-en="After the discovered incident, a new contact arrives offering to &ldquo;recover&rdquo; the lost funds: &ldquo;agent&rdquo;, &ldquo;forensic firm&rdquo;, &ldquo;international transfer legal consultant&rdquo;. The condition is an upfront payment."
-        >Posle otkrivenog incidenta stiže novi kontakt sa ponudom „povraćaja" izgubljenih sredstava: „agent", „forenzička firma", „pravni konsultant za međunarodni transfer"“. Uslov je uplata unapred“.</p>
+        >Posle otkrivenog incidenta stiže novi kontakt sa ponudom povraćaja izgubljenih sredstava: agent, forenzička firma, pravni konsultant za međunarodni transfer. Uslov je uplata unapred.</p>
 
         <div class="branch">
           <p><strong data-sr="Grananja u ovoj fazi" data-en="Branching at this phase">Grananja u ovoj fazi</strong></p>
@@ -368,19 +368,6 @@ window.SCAM_CONTENT["business-email-compromise"] = {
     </section>
 
     <!-- 9) POVEZANE PREVARE -->
-    <section class="card">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <div class="branch">
-        <ul class="bullets">
-          <li><a href="ceo-fraud.html" data-sr="CEO prevara" data-en="CEO fraud">CEO prevara</a></li>
-          <li><a href="vendor-email-compromise.html" data-sr="Kompromitovanje imejla dobavljača" data-en="Vendor email compromise">Kompromitovanje imejla dobavljača</a></li>
-          <li><a href="invoice-fraud.html" data-sr="Prevara sa fakturama" data-en="Invoice fraud">Prevara sa fakturama</a></li>
-          <li><a href="mandate-fraud.html" data-sr="Prevara sa nalozima za plaćanje" data-en="Mandate fraud">Prevara sa nalozima za plaćanje</a></li>
-          <li><a href="phishing.html" data-sr="Fišing" data-en="Phishing">Fišing</a></li>
-          <li><a href="impersonation-scam.html" data-sr="Lažno predstavljanje" data-en="Impersonation scam">Lažno predstavljanje</a></li>
-          <li><a href="account-takeover.html" data-sr="Preuzimanje naloga" data-en="Account takeover">Preuzimanje naloga</a></li>
-        </ul>
-      </div>
-    </section>
+    
   `
 };

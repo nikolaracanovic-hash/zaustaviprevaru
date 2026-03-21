@@ -1,12 +1,12 @@
-﻿window.SCAM_CONTENT = window.SCAM_CONTENT || {};
+window.SCAM_CONTENT = window.SCAM_CONTENT || {};
 
 window.SCAM_CONTENT["court-impersonation"] = {
   raw_html: `
     <section class="card">
       <h2 data-sr="Uvod: kako rade lažni sudski pozivi i taksene prevare" data-en="Introduction: how fake court summons and fee scams work">Uvod: kako rade lažni sudski pozivi i taksene prevare</h2>
-      <p data-sr="Lažni sudski pozivi kombinuju autoritet pravosuđa s nepoznavanjem sudskih procedura. Prevarant šalje pismo ili zove tvrdeći da je sudski službenik, da postoji predmet na sudu na ime žrtve i da je potrebno platiti sudske takse ili troškove postupka pre prvog ročišta. Ako se takse ne plate do roka, sud donosi presudu u odsustvu." data-en="Fake court summons combine the authority of the judiciary with the victim's unfamiliarity with legal procedures. The fraudster sends a letter or calls claiming to be a court official, that there is a case at court in the victim's name, and that court fees or procedural costs must be paid before the first hearing. If fees are not paid by the deadline, the court issues a default judgment.">Lažni sudski pozivi kombinuju autoritet pravosuđa s nepoznavanjem sudskih procedura. Prevarant tvrdi da postoji sudski predmet i da se moraju platiti takse pre ročišta da bi se izbegla presuda u odsustvu.</p>
-      <p data-sr="Šema je efikasna jer se oslanja na dve realne anksioznosti: strah od sudskog postupka i neznanje o tome kako sudski postupci zaista funkcionišu. Većina žrtava nikad nije imala iskustvo s pravosudnim sistemom i ne zna da sudovi ne naplaćuju takse telefonom niti šalju ultimatume s rokom od 48 sati." data-en="The scheme works because it exploits two real anxieties: the fear of legal proceedings and ignorance about how legal proceedings actually work. Most victims have never experienced the judicial system and do not know that courts do not charge fees by phone or send ultimatums with 48-hour deadlines.">Šema funkcioniše jer se oslanja na strah od suda i neznanje o sudskim procedurama. Većina žrtava ne zna da sudovi ne naplaćuju takse telefonom.</p>
-      <div class="callout" data-sr="<strong>Model:</strong> pismo ili poziv → sud + broj predmeta → zahtev za plaćanjem taksi → rok → prijetnja presudom u odsustvu ili nalogom za hapšenje." data-en="<strong>Model:</strong> letter or call → court + case number → fee payment demand → deadline → default judgment or arrest warrant threat."><strong>Model:</strong> pismo ili poziv → sud + broj predmeta → zahtev za plaćanjem taksi → rok → prijetnja presudom u odsustvu ili nalogom za hapšenje.</div>
+      <p data-sr="Lažni sudski pozivi kombinuju autoritet pravosuđa s nepoznavanjem sudskih procedura. Prevarant tvrdi da postoji sudski predmet i da se moraju platiti takse pre ročišta da bi se izbegla presuda u odsustvu." data-en="Fake court summons combine the authority of the judiciary with the victim's unfamiliarity with legal procedures. The fraudster sends a letter or calls claiming to be a court official, that there is a case at court in the victim's name, and that court fees or procedural costs must be paid before the first hearing. If fees are not paid by the deadline, the court issues a default judgment.">Lažni sudski pozivi kombinuju autoritet pravosuđa s nepoznavanjem sudskih procedura. Prevarant tvrdi da postoji sudski predmet i da se moraju platiti takse pre ročišta da bi se izbegla presuda u odsustvu.</p>
+      <p data-sr="Šema funkcioniše jer se oslanja na strah od suda i neznanje o sudskim procedurama. Većina žrtava ne zna da sudovi ne naplaćuju takse telefonom." data-en="The scheme works because it exploits two real anxieties: the fear of legal proceedings and ignorance about how legal proceedings actually work. Most victims have never experienced the judicial system and do not know that courts do not charge fees by phone or send ultimatums with 48-hour deadlines.">Šema funkcioniše jer se oslanja na strah od suda i neznanje o sudskim procedurama. Većina žrtava ne zna da sudovi ne naplaćuju takse telefonom.</p>
+      <div class="callout" data-sr="<strong>Model:</strong> pismo ili poziv → sud + broj predmeta → zahtev za plaćanjem taksi → rok → pretnja presudom u odsustvu ili nalogom za hapšenje." data-en="<strong>Model:</strong> letter or call → court + case number → fee payment demand → deadline → default judgment or arrest warrant threat."><strong>Model:</strong> pismo ili poziv → sud + broj predmeta → zahtev za plaćanjem taksi → rok → pretnja presudom u odsustvu ili nalogom za hapšenje.</div>
       <div class="callout" data-sr="<strong>Prag:</strong> meta prima sudski poziv sa datumom ročišta i zahtevom za plaćanje taksi pre dolaska." data-en="<strong>Threshold:</strong> the target receives a court summons with a hearing date and a demand to pay fees before appearing."><strong>Prag:</strong> meta prima sudski poziv sa datumom ročišta i zahtevom za plaćanje taksi pre dolaska.</div>
     </section>
 
@@ -19,7 +19,7 @@ window.SCAM_CONTENT["court-impersonation"] = {
             <li data-sr="naziv suda, broj predmeta, ime sudije i datum ročišta koji zvuče konkretno." data-en="court name, case number, judge name, and hearing date that sound concrete.">naziv suda, broj predmeta, ime sudije i datum ročišta koji zvuče konkretno.</li>
             <li data-sr="zvanični izgled pismena: zaglavlje, pečat, potpis, referentni broj." data-en="official appearance of the document: header, stamp, signature, reference number.">zvanični izgled pismena: zaglavlje, pečat, potpis, referentni broj.</li>
             <li data-sr="pravna terminologija: tužba, tužilac, tuženi, ročište, presuda u odsustvu." data-en="legal terminology: claim, claimant, defendant, hearing, default judgment.">pravna terminologija: tužba, tužilac, tuženi, ročište, presuda u odsustvu.</li>
-            <li data-sr="prijetnja nalogom za hapšenje ili izvršenjem sudske odluke." data-en="threat of an arrest warrant or enforcement of a court decision.">prijetnja nalogom za hapšenje ili izvršenjem sudske odluke.</li>
+            <li data-sr="pretnja nalogom za hapšenje ili izvršenjem sudske odluke." data-en="threat of an arrest warrant or enforcement of a court decision.">pretnja nalogom za hapšenje ili izvršenjem sudske odluke.</li>
           </ul>
         </div>
         <div class="phase">
@@ -35,21 +35,21 @@ window.SCAM_CONTENT["court-impersonation"] = {
     </section>
 
     <section class="card">
-      <h2 data-sr="Hronološki tok (faze + evolucije)." data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
+      <h2 data-sr="Hronološki tok (faze + evolucije)" data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
 
       <article class="phase">
         <h3 class="phase-title" data-sr="Faza 1 — Pismo ili poziv sa sudskim pozivom" data-en="Phase 1 — Letter or call with court summons">Faza 1 — Pismo ili poziv sa sudskim pozivom</h3>
-        <p data-sr="Meta prima pismo koje izgleda kao zvanično sudsko pismeno, ili zove je neko ko se predstavlja kao sudski referent. Pismeno sadrži naziv suda, broj predmeta, ime sudije, datum ročišta i iznos taksi koji se moraju platiti pre dolaska." data-en="The target receives a letter that looks like official court correspondence, or is called by someone presenting as a court clerk. The document contains the court name, case number, judge name, hearing date, and fee amount to be paid before appearing.">Meta prima sudski poziv koji izgleda zvanično: naziv suda, broj predmeta, datum ročišta, iznos taksi. Pismo je optički uverljivo.</p>
+        <p data-sr="Meta prima sudski poziv koji izgleda zvanično: naziv suda, broj predmeta, datum ročišta, iznos taksi. Pismo je optički uverljivo." data-en="The target receives a letter that looks like official court correspondence, or is called by someone presenting as a court clerk. The document contains the court name, case number, judge name, hearing date, and fee amount to be paid before appearing.">Meta prima sudski poziv koji izgleda zvanično: naziv suda, broj predmeta, datum ročišta, iznos taksi. Pismo je optički uverljivo.</p>
         <ul class="bullets">
           <li data-sr="signal: sudski pozivi u standardnoj proceduri ne zahtevaju unaprednu uplatu taksi." data-en="signal: court summons in standard procedure do not require upfront fee payment.">signal: sudski pozivi u standardnoj proceduri ne zahtevaju unaprednu uplatu taksi.</li>
           <li data-sr="signal: rok za uplatu od 24–72 sata nije standardna sudska praksa." data-en="signal: 24–72 hour payment deadline is not standard court practice.">signal: rok za uplatu od 24–72 sata nije standardna sudska praksa.</li>
         </ul>
-        <div class="callout" data-sr="<strong>Prag faze:</strong> meta prihvati da postoji sudski predmet i pitanje „da li da platim takse“ postaje centralno." data-en="<strong>Threshold:</strong> target accepts that a court case exists and the question becomes whether to pay the fees."><strong>Prag faze:</strong> meta prihvati da postoji sudski predmet i pitanje 'da li da platim takse' postaje centralno.</div>
+        <div class="callout" data-sr="<strong>Prag faze:</strong> meta prihvati da postoji sudski predmet i pitanje 'da li da platim takse' postaje centralno." data-en="<strong>Threshold:</strong> target accepts that a court case exists and the question becomes whether to pay the fees."><strong>Prag faze:</strong> meta prihvati da postoji sudski predmet i pitanje 'da li da platim takse' postaje centralno.</div>
       </article>
 
       <article class="phase warn">
         <h3 class="phase-title" data-sr="Faza 2 — Pritisak roka i eskalacija" data-en="Phase 2 — Deadline pressure and escalation">Faza 2 — Pritisak roka i eskalacija</h3>
-        <p data-sr="Ako meta pita kako da proveri predmet ili kaže da želi da konsultuje advokata, kontakt postaje hitan: ročište je za 48 sati, advokat će koštati više od taksi, svaki sat bez uplate povećava troškove. Cilj je sprečiti nezavisnu verifikaciju." data-en="If the target asks how to verify the case or says they want to consult a lawyer, the contact becomes urgent: the hearing is in 48 hours, a lawyer will cost more than the fees, every hour without payment increases costs. The goal is preventing independent verification.">Kada meta traži proveru ili konsultaciju, kontakt eskalira: ročište je za 48h, advokat košta više od taksi. Cilj je sprečiti nezavisnu verifikaciju.</p>
+        <p data-sr="Kada meta traži proveru ili konsultaciju, kontakt eskalira: ročište je za 48h, advokat košta više od taksi. Cilj je sprečiti nezavisnu verifikaciju." data-en="If the target asks how to verify the case or says they want to consult a lawyer, the contact becomes urgent: the hearing is in 48 hours, a lawyer will cost more than the fees, every hour without payment increases costs. The goal is preventing independent verification.">Kada meta traži proveru ili konsultaciju, kontakt eskalira: ročište je za 48h, advokat košta više od taksi. Cilj je sprečiti nezavisnu verifikaciju.</p>
         <ul class="bullets">
           <li data-sr="signal: legitimni sud dozvoljava više vremena i konsultacije sa advokatom." data-en="signal: a legitimate court allows more time and legal consultations.">signal: legitimni sud dozvoljava više vremena i konsultacije sa advokatom.</li>
           <li data-sr="signal: eskalacija pritiska pri prvom pitanju je karakteristika prevare." data-en="signal: pressure escalation at the first question is a scam characteristic.">signal: eskalacija pritiska pri prvom pitanju je karakteristika prevare.</li>
@@ -65,7 +65,7 @@ window.SCAM_CONTENT["court-impersonation"] = {
 
       <article class="phase bad">
         <h3 class="phase-title" data-sr="Faza 3 — Uplata taksi" data-en="Phase 3 — Fee payment">Faza 3 — Uplata taksi</h3>
-        <p data-sr="Meta plaća iznos taksi na nalog koji nije žiro račun suda. Nalog je privatni, na nepoznatu firmu ili na adresu u inostranstvu. Sudska taksa u standardnoj proceduri plaća se na žiro račun suda koji je javno objavljen." data-en="The target pays the fee amount to an account that is not the court's official bank account. The account is private, in an unknown company's name, or at an address abroad. Actual court fees are paid to the court's publicly listed bank account.">Meta plaća na privatni nalog. Standardna sudska taksa plaća se na zvanični žiro račun suda — javno objavljen.</p>
+        <p data-sr="Meta plaća na privatni nalog. Standardna sudska taksa plaća se na zvanični žiro račun suda — javno objavljen." data-en="The target pays the fee amount to an account that is not the court's official bank account. The account is private, in an unknown company's name, or at an address abroad. Actual court fees are paid to the court's publicly listed bank account.">Meta plaća na privatni nalog. Standardna sudska taksa plaća se na zvanični žiro račun suda — javno objavljen.</p>
         <ul class="bullets">
           <li data-sr="signal: uplatni nalog nije javno objavljen žiro račun suda koji se može proveriti na sajtu pravosuđa." data-en="signal: the payment account is not the court's publicly listed account verifiable on the justice website.">signal: uplatni nalog nije javno objavljen žiro račun suda koji se može proveriti na sajtu pravosuđa.</li>
           <li data-sr="signal: iznos taksi nije u skladu s tabelom taksi objavljenoj na sajtu suda." data-en="signal: the fee amount does not match the fee schedule published on the court website.">signal: iznos taksi nije u skladu s tabelom taksi objavljenoj na sajtu suda.</li>
@@ -75,13 +75,13 @@ window.SCAM_CONTENT["court-impersonation"] = {
 
       <article class="phase bad">
         <h3 class="phase-title" data-sr="Faza 4 — Nove takse i troškovi" data-en="Phase 4 — New fees and costs">Faza 4 — Nove takse i troškovi</h3>
-        <p data-sr="Posle prve uplate dolaze nove: troškovi prevoda, pristojba za anonimnost, depozit za veštaka. Svaki novi zahtev ima novu pravnu osnovu i kraći rok. Ovo je avansna šema primenjena na sudski kontekst." data-en="After the first payment, new ones arrive: translation costs, anonymity fee, expert deposit. Each new demand has a new legal basis and a shorter deadline. This is the advance-fee scheme applied to a court context.">Posle prve uplate dolaze nove takse pod različitim osnovama. Avansna šema u sudskom pakovanju.</p>
+        <p data-sr="Posle prve uplate dolaze nove takse pod različitim osnovama. Avansna šema u sudskom pakovanju." data-en="After the first payment, new ones arrive: translation costs, anonymity fee, expert deposit. Each new demand has a new legal basis and a shorter deadline. This is the advance-fee scheme applied to a court context.">Posle prve uplate dolaze nove takse pod različitim osnovama. Avansna šema u sudskom pakovanju.</p>
         <div class="callout" data-sr="<strong>Filter:</strong> legitimni sud ne zahteva višestruke avansne uplate pre ročišta. Svaka nova taksa je signal da je prethodni zahtev bio lažan." data-en="<strong>Filter:</strong> a legitimate court does not request multiple advance payments before a hearing. Each new fee is a signal that the previous demand was fraudulent."><strong>Filter:</strong> legitimni sud ne zahteva višestruke avansne uplate pre ročišta. Svaka nova taksa je signal da je prethodni zahtev bio lažan.</div>
       </article>
 
       <article class="phase warn">
         <h3 class="phase-title" data-sr="Faza 5 — Provera predmeta i otkrivanje prevare" data-en="Phase 5 — Case verification and scam discovery">Faza 5 — Provera predmeta i otkrivanje prevare</h3>
-        <p data-sr="Kada meta pozove zvanični telefon suda ili poseti sud, saznaje da predmet ne postoji. Broj predmeta je izmišljen ili je broj realnog predmeta koji ne tiče žrtve. Kontakt prestaje odmah čim meta nagovesti da je proverila." data-en="When the target calls the court's official phone or visits the court, they learn the case does not exist. The case number is fabricated or belongs to a real case that has nothing to do with the victim. Contact ends immediately once the target hints they have checked.">Meta proverava u sudu i saznaje da predmet ne postoji. Kontakt odmah prestaje kada se nagovesti provera.</p>
+        <p data-sr="Meta proverava u sudu i saznaje da predmet ne postoji. Kontakt odmah prestaje kada se nagovesti provera." data-en="When the target calls the court's official phone or visits the court, they learn the case does not exist. The case number is fabricated or belongs to a real case that has nothing to do with the victim. Contact ends immediately once the target hints they have checked.">Meta proverava u sudu i saznaje da predmet ne postoji. Kontakt odmah prestaje kada se nagovesti provera.</p>
       </article>
     </section>
 
@@ -168,15 +168,6 @@ window.SCAM_CONTENT["court-impersonation"] = {
       </div>
     </section>
 
-    <section class="card sources" id="sources">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <ul class="bullets">
-        <li><a href="government-impersonation.html" data-sr="Lažno predstavljanje državnih organa" data-en="Government impersonation scams">Lažno predstavljanje državnih organa</a></li>
-        <li><a href="police-impersonation.html" data-sr="Lažno predstavljanje policije" data-en="Police impersonation scams">Lažno predstavljanje policije</a></li>
-        <li><a href="fake-fine-scam.html" data-sr="Lažne kazne i nalozi za plaćanje" data-en="Fake fines and payment orders">Lažne kazne i nalozi za plaćanje</a></li>
-        <li><a href="advance-fee-fraud.html" data-sr="Uplata unapred" data-en="Advance-fee fraud">Uplata unapred</a></li>
-        <li><a href="impersonation-scam.html" data-sr="Lažno predstavljanje" data-en="Impersonation scam">Lažno predstavljanje</a></li>
-      </ul>
-    </section>
+    
   `
 };

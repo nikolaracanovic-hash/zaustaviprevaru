@@ -9,14 +9,14 @@ window.SCAM_CONTENT["phishing"] = {
       </h2>
 
       <p
-        data-sr="Fišing radi kao ulazni sistem: poruka glumi autoritet, link glumi zvaničan kanal, a forma glumi standardnu proceduru. Jednim klikom meta prelazi u okruženje koje kontroliše napadač. U tom okruženju meta sama predaje podatke ili potvrđuje radnju koja ima finansijsku posledicu. Šteta se obično završi u dve kategorije: (1) preuzimanje pristupa (imejl, lozinka, OTP, dvofaktorska potvrda), (2) naplata ili preusmeravanje novca (kartica, „mala taksa“, promena podataka za uplatu, potvrda transfera)."
-        data-en="Phishing is an entry system: the message impersonates authority, the link impersonates an official channel, and the form impersonates a standard procedure. One click moves the target into an attacker-controlled environment. Inside it, the target hands over data or confirms an action with financial consequences. Damage typically falls into two categories: (1) access takeover (email, password, OTP, 2FA), (2) charging or redirecting money (card, “small fee”, changing payout details, confirming a transfer)."
-      >Fišing radi kao ulazni sistem: poruka glumi autoritet, link glumi zvaničan kanal, a forma glumi standardnu proceduru. Jednim klikom meta prelazi u okruženje koje kontroliše napadač. U tom okruženju meta sama predaje podatke ili potvrđuje radnju koja ima finansijsku posledicu. Šteta se obično završi u dve kategorije: (1) preuzimanje pristupa (imejl, lozinka, OTP, dvofaktorska potvrda), (2) naplata ili preusmeravanje novca (kartica, „mala taksa“, promena podataka za uplatu, potvrda transfera).</p>
+        data-sr="Fišing radi kao ulazni sistem: poruka glumi autoritet, link glumi zvaničan kanal, a forma glumi standardnu proceduru. Jednim klikom meta prelazi u okruženje koje kontroliše napadač. U tom okruženju meta sama predaje podatke ili potvrđuje radnju koja ima finansijsku posledicu. Šteta se obično završi u dve kategorije: (1) preuzimanje pristupa (imejl, lozinka, OTP, dvofaktorska potvrda), (2) naplata ili preusmeravanje novca (kartica, mala taksa, promena podataka za uplatu, potvrda transfera)."
+        data-en="Phishing is an entry system: the message impersonates authority, the link impersonates an official channel, and the form impersonates a standard procedure. One click moves the target into an attacker-controlled environment. Inside it, the target hands over data or confirms an action with financial consequences. Damage typically falls into two categories: (1) access takeover (email, password, OTP, 2FA), (2) charging or redirecting money (card, small fee, changing payout details, confirming a transfer)."
+      >Fišing radi kao ulazni sistem: poruka glumi autoritet, link glumi zvaničan kanal, a forma glumi standardnu proceduru. Jednim klikom meta prelazi u okruženje koje kontroliše napadač. U tom okruženju meta sama predaje podatke ili potvrđuje radnju koja ima finansijsku posledicu. Šteta se obično završi u dve kategorije: (1) preuzimanje pristupa (imejl, lozinka, OTP, dvofaktorska potvrda), (2) naplata ili preusmeravanje novca (kartica, mala taksa, promena podataka za uplatu, potvrda transfera).</p>
 
       <p
-        data-sr="Mehanika se oslanja na refleks i naviku. Poruka izgleda kao deo rutine: „potvrdi nalog“, „resetuj lozinku“, „pogledaj dokument“, „prati pošiljku“, „plati carinu“, „proveri transakciju“. Cilj je brzina i automatizam, uz minimalan prostor za proveru domena i logike radnje. Najveća prednost phishinga nije dizajn stranice, već činjenica da meta u trenutku klika veruje da rešava rutinski problem."
-        data-en="The mechanism relies on reflex and habit. The message looks routine: “confirm account”, “reset password”, “view document”, “track shipment”, “pay customs”, “verify transaction”. The goal is speed and autopilot with minimal time to verify the domain and the logic of the action. Phishing’s biggest advantage is not page design; it’s that at the click moment the target believes they are resolving a routine issue."
-      >Mehanika se oslanja na refleks i naviku. Poruka izgleda kao deo rutine: „potvrdi nalog“, „resetuj lozinku“, „pogledaj dokument“, „prati pošiljku“, „plati carinu“, „proveri transakciju“. Cilj je brzina i automatizam, uz minimalan prostor za proveru domena i logike radnje. Najveća prednost phishinga nije dizajn stranice, već činjenica da meta u trenutku klika veruje da rešava rutinski problem.</p>
+        data-sr="Mehanika se oslanja na refleks i naviku. Poruka izgleda kao deo rutine: potvrdi nalog, resetuj lozinku, pogledaj dokument, prati pošiljku, plati carinu, proveri transakciju. Cilj je brzina i automatizam, uz minimalan prostor za proveru domena i logike radnje. Najveća prednost phishinga nije dizajn stranice, već činjenica da meta u trenutku klika veruje da rešava rutinski problem."
+        data-en="The mechanism relies on reflex and habit. The message looks routine: confirm account, reset password, view document, track shipment, pay customs, verify transaction. The goal is speed and autopilot with minimal time to verify the domain and the logic of the action. Phishing’s biggest advantage is not page design; it’s that at the click moment the target believes they are resolving a routine issue."
+      >Mehanika se oslanja na refleks i naviku. Poruka izgleda kao deo rutine: potvrdi nalog, resetuj lozinku, pogledaj dokument, prati pošiljku, plati carinu, proveri transakciju. Cilj je brzina i automatizam, uz minimalan prostor za proveru domena i logike radnje. Najveća prednost phishinga nije dizajn stranice, već činjenica da meta u trenutku klika veruje da rešava rutinski problem.</p>
 
       <div class="callout"
         data-sr="<strong>Prag:</strong> unos kredencijala, kartice ili potvrda OTP koda. Pre praga postoji prostor za proveru domena i logike radnje. Posle praga napadač dobija pristup ili autorizaciju, pa tok prelazi u serijske posledice."
@@ -36,9 +36,9 @@ window.SCAM_CONTENT["phishing"] = {
       </h2>
 
       <p
-        data-sr="fišing kopira normalne navike: potvrde naloga, plaćanje sitnih troškova dostave, otvaranje dokumenata, reset lozinki, brza „bezbednosna“ potvrda. Poruka se postavlja kao rutinski sistemski korak, uz hitnost koja skraćuje proveru. Napadač ne mora da ubedi argumentima, dovoljno je da ubaci metu u tok gde klik deluje kao najkraći put ka rešenju."
-        data-en="Phishing copies normal habits: account confirmations, paying small delivery fees, opening documents, password resets, quick “security” confirmations. The message frames itself as a routine system step with urgency that compresses verification. The attacker doesn’t need to persuade with arguments; it’s enough to push the target into a flow where clicking feels like the shortest path to resolution."
-      >Fišing kopira normalne navike: potvrde naloga, plaćanje sitnih troškova dostave, otvaranje dokumenata, reset lozinki, brza „bezbednosna“ potvrda. Poruka se postavlja kao rutinski sistemski korak, uz hitnost koja skraćuje proveru. Napadač ne mora da ubedi argumentima, dovoljno je da ubaci metu u tok gde klik deluje kao najkraći put ka rešenju.</p>
+        data-sr="fišing kopira normalne navike: potvrde naloga, plaćanje sitnih troškova dostave, otvaranje dokumenata, reset lozinki, brza bezbednosna potvrda. Poruka se postavlja kao rutinski sistemski korak, uz hitnost koja skraćuje proveru. Napadač ne mora da ubedi argumentima, dovoljno je da ubaci metu u tok gde klik deluje kao najkraći put ka rešenju."
+        data-en="Phishing copies normal habits: account confirmations, paying small delivery fees, opening documents, password resets, quick security confirmations. The message frames itself as a routine system step with urgency that compresses verification. The attacker doesn’t need to persuade with arguments; it’s enough to push the target into a flow where clicking feels like the shortest path to resolution."
+      >Fišing kopira normalne navike: potvrde naloga, plaćanje sitnih troškova dostave, otvaranje dokumenata, reset lozinki, brza bezbednosna potvrda. Poruka se postavlja kao rutinski sistemski korak, uz hitnost koja skraćuje proveru. Napadač ne mora da ubedi argumentima, dovoljno je da ubaci metu u tok gde klik deluje kao najkraći put ka rešenju.</p>
 
       <div class="grid-2">
         <div class="phase">
@@ -47,10 +47,10 @@ window.SCAM_CONTENT["phishing"] = {
           </div>
           <ul class="bullets">
             <li data-sr="autoritet: banka, pošta, kurir, platforma, IT, institucija." data-en="authority: bank, post, courier, platform, IT, institution.">autoritet: banka, pošta, kurir, platforma, IT, institucija.</li>
-            <li data-sr="hitnost: rok, blokada, „poslednja opomena“, „sumnjiva aktivnost." data-en="urgency: deadline, lock, “final notice”, “suspicious activity”">hitnost: rok, blokada, „poslednja opomena“, „sumnjiva aktivnost“.</li>
+            <li data-sr="hitnost: rok, blokada, poslednja opomena, sumnjiva aktivnost." data-en="urgency: deadline, lock, final notice, suspicious activity">hitnost: rok, blokada, poslednja opomena, sumnjiva aktivnost.</li>
             <li data-sr="jedan korak: klik i forma sa malim naporom." data-en="one step: click + low-effort form.">jedan korak: klik i forma sa malim naporom.</li>
             <li data-sr="maskiranje rutine: poruka liči na svakodnevne obaveze." data-en="routine mask: the message resembles daily tasks.">maskiranje rutine: poruka liči na svakodnevne obaveze.</li>
-            <li data-sr="prebacivanje odgovornosti: „sistem traži“, „pravila“, „procedura." data-en="responsibility shifting: “system requires”, “rules”, “procedure”">prebacivanje odgovornosti: „sistem traži“, „pravila“, „procedura“.</li>
+            <li data-sr="prebacivanje odgovornosti: sistem traži, pravila, procedura." data-en="responsibility shifting: system requires, rules, procedure">prebacivanje odgovornosti: sistem traži, pravila, procedura.</li>
           </ul>
         </div>
 
@@ -62,15 +62,15 @@ window.SCAM_CONTENT["phishing"] = {
             <li data-sr="fokus na logo i dizajn umesto na domen." data-en="focus on logo/design instead of the domain.">fokus na logo i dizajn umesto na domen.</li>
             <li data-sr="prihvatanje hitnosti kao realne, bez potvrde kroz zvaničan kanal." data-en="accepting urgency as real without confirming via an official channel.">prihvatanje hitnosti kao realne, bez potvrde kroz zvaničan kanal.</li>
             <li data-sr="unos više podataka nego što radnja traži." data-en="entering more data than the action requires.">unos više podataka nego što radnja traži.</li>
-            <li data-sr="OTP tretman kao „informacija“, a OTP je autorizacija." data-en="treating OTP as “information”, while OTP is authorization.">OTP tretman kao „informacija“, a OTP je autorizacija.</li>
+            <li data-sr="OTP tretman kao informacija, a OTP je autorizacija." data-en="treating OTP as information, while OTP is authorization.">OTP tretman kao informacija, a OTP je autorizacija.</li>
           </ul>
         </div>
       </div>
 
       <div class="callout"
-        data-sr="<strong>Tipičan promašaj:</strong> dizajn nosi masku, URL nosi istinu. Provera domena i logike radnje ima veću vrednost od „urednog izgleda."
-        data-en="<strong>Typical failure mode:</strong> design carries the mask; the URL carries truth. Checking the domain and action logic matters more than a “clean look”."
-      ><strong>Tipičan promašaj:</strong> dizajn nosi masku, URL nosi istinu. Provera domena i logike radnje ima veću vrednost od „urednog izgleda“.</div>
+        data-sr="<strong>Tipičan promašaj:</strong> dizajn nosi masku, URL nosi istinu. Provera domena i logike radnje ima veću vrednost od urednog izgleda."
+        data-en="<strong>Typical failure mode:</strong> design carries the mask; the URL carries truth. Checking the domain and action logic matters more than a clean look."
+      ><strong>Tipičan promašaj:</strong> dizajn nosi masku, URL nosi istinu. Provera domena i logike radnje ima veću vrednost od urednog izgleda.</div>
     </section>
 
     <!-- 3) HRONOLOŠKI TOK (DETALJNO) + GRANANJA PO FAZAMA -->
@@ -91,19 +91,19 @@ window.SCAM_CONTENT["phishing"] = {
         </h3>
 
         <p
-          data-sr="Kontakt stiže kao imejl, SMS, poruka na mreži ili poruka u poslovnom kanalu. Uvek postoji „situacija“ i sledeći korak: potvrda, pregled, uplata, reset. U ovoj fazi napadač bira temu koja liči na realan problem, jer realan problem skraćuje sumnju."
-          data-en="Contact arrives via email, SMS, social message, or a business channel. There is always a “situation” and a next step: confirm, view, pay, reset. Here the attacker chooses a theme that resembles a real problem because real problems compress skepticism."
-        >Kontakt stiže kao imejl, SMS, poruka na mreži ili poruka u poslovnom kanalu. Uvek postoji „situacija“ i sledeći korak: potvrda, pregled, uplata, reset. U ovoj fazi napadač bira temu koja liči na realan problem, jer realan problem skraćuje sumnju.</p>
+          data-sr="Kontakt stiže kao imejl, SMS, poruka na mreži ili poruka u poslovnom kanalu. Uvek postoji situacija i sledeći korak: potvrda, pregled, uplata, reset. U ovoj fazi napadač bira temu koja liči na realan problem, jer realan problem skraćuje sumnju."
+          data-en="Contact arrives via email, SMS, social message, or a business channel. There is always a situation and a next step: confirm, view, pay, reset. Here the attacker chooses a theme that resembles a real problem because real problems compress skepticism."
+        >Kontakt stiže kao imejl, SMS, poruka na mreži ili poruka u poslovnom kanalu. Uvek postoji situacija i sledeći korak: potvrda, pregled, uplata, reset. U ovoj fazi napadač bira temu koja liči na realan problem, jer realan problem skraćuje sumnju.</p>
 
         <div class="grid-2">
           <div class="phase">
             <div class="label" data-sr="Primeri tema" data-en="Theme examples">Primeri tema</div>
             <ul class="bullets">
-              <li data-sr="„nalog je pod rizikom — potvrdi identitet." data-en="“account at risk — confirm identity”">„nalog je pod rizikom — potvrdi identitet“.</li>
-              <li data-sr="„pošiljka stoji — potvrdi adresu." data-en="“shipment on hold — confirm address”">„pošiljka stoji — potvrdi adresu“.</li>
-              <li data-sr="„sumnjiva aktivnost — proveri nalog." data-en="“suspicious activity — verify account”">„sumnjiva aktivnost — proveri nalog“.</li>
-              <li data-sr="„stigao dokument — otvori." data-en="“document received — open”">„stigao dokument — otvori“.</li>
-              <li data-sr="„kazna/dug — plati do roka." data-en="“fine/debt — pay by deadline”">„kazna/dug — plati do roka“.</li>
+              <li data-sr="nalog je pod rizikom — potvrdi identitet." data-en="account at risk — confirm identity">nalog je pod rizikom — potvrdi identitet.</li>
+              <li data-sr="pošiljka stoji — potvrdi adresu." data-en="shipment on hold — confirm address">pošiljka stoji — potvrdi adresu.</li>
+              <li data-sr="sumnjiva aktivnost — proveri nalog." data-en="suspicious activity — verify account">sumnjiva aktivnost — proveri nalog.</li>
+              <li data-sr="stigao dokument — otvori." data-en="document received — open">stigao dokument — otvori.</li>
+              <li data-sr="kazna/dug — plati do roka." data-en="fine/debt — pay by deadline">kazna/dug — plati do roka.</li>
             </ul>
           </div>
 
@@ -130,15 +130,15 @@ window.SCAM_CONTENT["phishing"] = {
         </h3>
 
         <p
-          data-sr="Poruka imitira radnje koje ljudi već rade: login, reset, tracking, potvrda, „security check“. Meta želi brzo zatvaranje problema. U ovoj fazi se gubi navika da se čita domen, a dobijaju se mikro-odluke koje izgledaju bezopasno."
-          data-en="The message imitates actions people već do: login, reset, tracking, confirmation, “security check”. The target wants quick closure. Here the habit of reading the domain fades and micro-decisions that seem harmless take over."
-        >Poruka imitira radnje koje ljudi već rade: login, reset, tracking, potvrda, „security check“. Meta želi brzo zatvaranje problema. U ovoj fazi se gubi navika da se čita domen, a dobijaju se mikro-odluke koje izgledaju bezopasno.</p>
+          data-sr="Poruka imitira radnje koje ljudi već rade: login, reset, tracking, potvrda, security check. Meta želi brzo zatvaranje problema. U ovoj fazi se gubi navika da se čita domen, a dobijaju se mikro-odluke koje izgledaju bezopasno."
+          data-en="The message imitates actions people već do: login, reset, tracking, confirmation, security check. The target wants quick closure. Here the habit of reading the domain fades and micro-decisions that seem harmless take over."
+        >Poruka imitira radnje koje ljudi već rade: login, reset, tracking, potvrda, security check. Meta želi brzo zatvaranje problema. U ovoj fazi se gubi navika da se čita domen, a dobijaju se mikro-odluke koje izgledaju bezopasno.</p>
 
         <ul class="bullets">
-          <li data-sr="rečnik zvuči „sistemski“: verifikacija, potvrda, update." data-en="system-like language: verification, confirmation, update.">rečnik zvuči „sistemski“: verifikacija, potvrda, update.</li>
+          <li data-sr="rečnik zvuči sistemski: verifikacija, potvrda, update." data-en="system-like language: verification, confirmation, update.">rečnik zvuči sistemski: verifikacija, potvrda, update.</li>
           <li data-sr="radnja traže kratko i izgleda kao kraj incidenta." data-en="the action is short and feels like closure.">radnja traže kratko i izgleda kao kraj incidenta.</li>
           <li data-sr="poruka pogađa trenutak zauzetosti ili žurbe." data-en="the message hits a moment of distraction or hurry.">poruka pogađa trenutak zauzetosti ili žurbe.</li>
-          <li data-sr="klik se tretira kao „bezbedan“ jer je tema poznata." data-en="click feels “safe” because the theme is familiar.">klik se tretira kao „bezbedan“ jer je tema poznata.</li>
+          <li data-sr="klik se tretira kao bezbedan jer je tema poznata." data-en="click feels safe because the theme is familiar.">klik se tretira kao bezbedan jer je tema poznata.</li>
         </ul>
 
         <div class="branch">
@@ -177,7 +177,7 @@ window.SCAM_CONTENT["phishing"] = {
             <div class="label" data-sr="Operativni cilj" data-en="Operational goal">Operativni cilj</div>
             <ul class="bullets">
               <li data-sr="meta sama unosi podatke." data-en="the target enters data themselves.">meta sama unosi podatke.</li>
-              <li data-sr="OTP se traži kao „potvrda“, OTP radi kao autorizacija." data-en="OTP is requested as “confirmation”, OTP works as authorization.">OTP se traži kao „potvrda“, OTP radi kao autorizacija.</li>
+              <li data-sr="OTP se traži kao potvrda, OTP radi kao autorizacija." data-en="OTP is requested as confirmation, OTP works as authorization.">OTP se traži kao potvrda, OTP radi kao autorizacija.</li>
               <li data-sr="ulaz se završava za 20–60 sekundi." data-en="entry completes in 20–60 seconds.">ulaz se završava za 20–60 sekundi.</li>
             </ul>
           </div>
@@ -196,11 +196,11 @@ window.SCAM_CONTENT["phishing"] = {
         >Hitnost skraćuje proveru. Poruka uvodi posledicu: blokada, kazna, gubitak pristupa, bezbednosni incident, obustava usluge. Rok cilja impuls i zatvara prostor za konsultaciju.</p>
 
         <ul class="bullets">
-          <li data-sr="„u narednih 30 minuta." data-en="“within 30 minutes”">„u narednih 30 minuta“.</li>
-          <li data-sr="„danas do 20h." data-en="“today by 8pm”">„danas do 20h“.</li>
-          <li data-sr="„poslednja opomena." data-en="“final notice”">„poslednja opomena“.</li>
-          <li data-sr="„odmah potvrdi." data-en="“confirm now”">„odmah potvrdi“.</li>
-          <li data-sr="„ako prekineš, nalog se zaključava." data-en="“if you stop, the account locks”">„ako prekineš, nalog se zaključava“.</li>
+          <li data-sr="u narednih 30 minuta." data-en="within 30 minutes">u narednih 30 minuta.</li>
+          <li data-sr="danas do 20h." data-en="today by 8pm">danas do 20h.</li>
+          <li data-sr="poslednja opomena." data-en="final notice">poslednja opomena.</li>
+          <li data-sr="odmah potvrdi." data-en="confirm now">odmah potvrdi.</li>
+          <li data-sr="ako prekineš, nalog se zaključava." data-en="if you stop, the account locks">ako prekineš, nalog se zaključava.</li>
         </ul>
 
         <div class="branch">
@@ -208,7 +208,7 @@ window.SCAM_CONTENT["phishing"] = {
           <ul class="bullets">
             <li><strong>SMS prevara:</strong> SMS varijanta sa kratkim linkom. (Povezano: <a href="smishing.html">Smišing</a>).</li>
 
-            <li><strong>Poziv kao eskalacija:</strong> „podrška“ zove i vodi korake uživo. (Povezano: <a href="fake-call-scam.html">Lažni pozivi</a>).</li>
+            <li><strong>Poziv kao eskalacija:</strong> podrška zove i vodi korake uživo. (Povezano: <a href="fake-call-scam.html">Lažni pozivi</a>).</li>
           </ul>
         </div>
       </article>
@@ -230,7 +230,7 @@ window.SCAM_CONTENT["phishing"] = {
             <ul class="bullets">
               <li data-sr="kredencijali: login podaci za servis." data-en="credentials: login data for a service.">kredencijali: login podaci za servis.</li>
               <li data-sr="OTP: autorizacija prijave ili transakcije." data-en="OTP: authorization of a login or transaction.">OTP: autorizacija prijave ili transakcije.</li>
-              <li data-sr="kartica: mogućnost naplate pod maskom „sitnog troška." data-en="card: ability to charge under a “small fee” mask.">kartica: mogućnost naplate pod maskom „sitnog troška“.</li>
+              <li data-sr="kartica: mogućnost naplate pod maskom sitnog troška." data-en="card: ability to charge under a small fee mask.">kartica: mogućnost naplate pod maskom sitnog troška.</li>
               <li data-sr="session/token: trajanje pristupa bez lozinke." data-en="session/token: access without password for a period.">session/token: trajanje pristupa bez lozinke.</li>
             </ul>
           </div>
@@ -270,7 +270,7 @@ window.SCAM_CONTENT["phishing"] = {
           <div class="phase">
             <div class="label" data-sr="Kako se održava tok" data-en="How the flow is maintained">Kako se održava tok</div>
             <ul class="bullets">
-              <li data-sr="svaka posledica se opisuje kao „još jedan korak." data-en="each consequence is framed as “one more step”">svaka posledica se opisuje kao „još jedan korak“.</li>
+              <li data-sr="svaka posledica se opisuje kao još jedan korak." data-en="each consequence is framed as one more step">svaka posledica se opisuje kao još jedan korak.</li>
               <li data-sr="rokovi i upozorenja drže fokus u uskom tunelu." data-en="deadlines and warnings keep attention in a narrow tunnel.">rokovi i upozorenja drže fokus u uskom tunelu.</li>
               <li data-sr="meta pokušava da završi proceduru umesto da prekine tok." data-en="the target tries to finish the procedure instead of cutting the flow.">meta pokušava da završi proceduru umesto da prekine tok.</li>
             </ul>
@@ -280,7 +280,7 @@ window.SCAM_CONTENT["phishing"] = {
         <div class="branch">
           <p><strong data-sr="Grananja posle praga" data-en="Branching after the threshold">Grananja posle praga</strong></p>
           <ul class="bullets">
-            <li><strong>Advance-fee obrazac:</strong> „takse“ kao nastavak procesa. (Povezano: <a href="advance-fee-fraud.html">Uplata unapred</a>).</li>
+            <li><strong>Advance-fee obrazac:</strong> takse kao nastavak procesa. (Povezano: <a href="advance-fee-fraud.html">Uplata unapred</a>).</li>
 
             <li><strong>Marketplace nastavak:</strong> ukradeni nalozi služe za oglase i nove kontakte. (Povezano: <a href="marketplace-scam.html">Prevare na oglasnicima</a>).</li>
           </ul>
@@ -294,9 +294,9 @@ window.SCAM_CONTENT["phishing"] = {
         </h3>
 
         <p
-          data-sr="Kad se pojavi sumnja, stiže dodatna poruka, formalniji ton, chat „podrška“ ili poziv. Funkcija je zatvaranje pauze i povratak na korake. U varijanti sa „pomoći“, traži se nova potvrda ili instalacija alata."
-          data-en="When doubt appears, an extra message, a more formal tone, “support” chat, or a call follows. The function is to close the pause and return to steps. In the “help” variant, another confirmation or tool installation is requested."
-        >Kad se pojavi sumnja, stiže dodatna poruka, formalniji ton, chat „podrška“ ili poziv. Funkcija je zatvaranje pauze i povratak na korake. U varijanti sa „pomoći“, traži se nova potvrda ili instalacija alata.</p>
+          data-sr="Kad se pojavi sumnja, stiže dodatna poruka, formalniji ton, chat podrška ili poziv. Funkcija je zatvaranje pauze i povratak na korake. U varijanti sa pomoći, traži se nova potvrda ili instalacija alata."
+          data-en="When doubt appears, an extra message, a more formal tone, support chat, or a call follows. The function is to close the pause and return to steps. In the help variant, another confirmation or tool installation is requested."
+        >Kad se pojavi sumnja, stiže dodatna poruka, formalniji ton, chat podrška ili poziv. Funkcija je zatvaranje pauze i povratak na korake. U varijanti sa pomoći, traži se nova potvrda ili instalacija alata.</p>
 
         <div class="branch">
           <p><strong data-sr="Grananje: kontrola tempa" data-en="Branching: pace control">Grananje: kontrola tempa</strong></p>
@@ -313,14 +313,14 @@ window.SCAM_CONTENT["phishing"] = {
         </h3>
 
         <p
-          data-sr="fišing služi kao ulaz u širi ekosistem. Posle inicijalnog praga tok prelazi u druge šeme: lažni poziv kao autoritet, „takse“ kao uslov, širenje kroz kontakte, ciljanje većeg iznosa kroz novu priču."
-          data-en="Phishing is an entry into a broader ecosystem. After the initial threshold, the flow branches into other schemes: fake calls as authority, “fees” as conditions, spreading through contacts, targeting larger amounts with a new narrative."
-        >Fišing služi kao ulaz u širi ekosistem. Posle inicijalnog praga tok prelazi u druge šeme: lažni poziv kao autoritet, „takse“ kao uslov, širenje kroz kontakte, ciljanje većeg iznosa kroz novu priču.</p>
+          data-sr="fišing služi kao ulaz u širi ekosistem. Posle inicijalnog praga tok prelazi u druge šeme: lažni poziv kao autoritet, takse kao uslov, širenje kroz kontakte, ciljanje većeg iznosa kroz novu priču."
+          data-en="Phishing is an entry into a broader ecosystem. After the initial threshold, the flow branches into other schemes: fake calls as authority, fees as conditions, spreading through contacts, targeting larger amounts with a new narrative."
+        >Fišing služi kao ulaz u širi ekosistem. Posle inicijalnog praga tok prelazi u druge šeme: lažni poziv kao autoritet, takse kao uslov, širenje kroz kontakte, ciljanje većeg iznosa kroz novu priču.</p>
 
         <div class="branch">
           <p><strong data-sr="Praktična grananja" data-en="Practical branching">Praktična grananja</strong></p>
           <ul class="bullets">
-            <li><strong>Advance-fee:</strong> „takse“ kao uslov za „odblokiranje“. (Povezano: <a href="advance-fee-fraud.html">Uplata unapred</a>).</li>
+            <li><strong>Advance-fee:</strong> takse kao uslov za odblokiranje. (Povezano: <a href="advance-fee-fraud.html">Uplata unapred</a>).</li>
 
             <li><strong>Crypto prelaz:</strong> kontakt i autoritet prelaze u investicioni okvir. (Povezano: <a href="crypto-scam.html">Kripto investiciona prevara</a>).</li>
           </ul>
@@ -334,9 +334,9 @@ window.SCAM_CONTENT["phishing"] = {
         </h3>
 
         <p
-          data-sr="Posle incidenta stižu ponude za „pomoć“: povrat naloga, povrat novca, „forenzika“. Uslov je uplata unapred. Ovaj kontakt koristi želju mete da poništi gubitak i zatvori priču."
-          data-en="After an incident, “help” offers appear: account recovery, money recovery, “forensics”. The condition is an upfront payment. This contact exploits the target’s desire to undo the loss and close the story."
-        >Posle incidenta stižu ponude za „pomoć“: povrat naloga, povrat novca, „forenzika“. Uslov je uplata unapred. Ovaj kontakt koristi želju mete da poništi gubitak i zatvori priču.</p>
+          data-sr="Posle incidenta stižu ponude za pomoć: povrat naloga, povrat novca, forenzika. Uslov je uplata unapred. Ovaj kontakt koristi želju mete da poništi gubitak i zatvori priču."
+          data-en="After an incident, help offers appear: account recovery, money recovery, forensics. The condition is an upfront payment. This contact exploits the target’s desire to undo the loss and close the story."
+        >Posle incidenta stižu ponude za pomoć: povrat naloga, povrat novca, forenzika. Uslov je uplata unapred. Ovaj kontakt koristi želju mete da poništi gubitak i zatvori priču.</p>
 
         <div class="branch">
           <p><strong data-sr="Povezano" data-en="Related">Povezano</strong></p>
@@ -389,8 +389,8 @@ window.SCAM_CONTENT["phishing"] = {
         <li data-sr="posle pristupa mailu dolaze promene na uplatama i dokumentima." data-en="after mailbox access come changes to payments and documents.">posle pristupa mailu dolaze promene na uplatama i dokumentima.</li>
       </ul>
 
-      <h3 data-sr="5) „Support“ tok (poziv + daljinski pristup)." data-en="5) “Support” flow (call + kontrola računara).">
-        5) „Support“ tok (poziv + daljinski pristup)
+      <h3 data-sr="5) Support tok (poziv + daljinski pristup)." data-en="5) Support flow (call + kontrola računara).">
+        5) Support tok (poziv + daljinski pristup)
       </h3>
       <ul class="bullets">
         <li data-sr="poruka uvodi pomoć kroz chat ili poziv." data-en="message introduces help via chat or call.">poruka uvodi pomoć kroz chat ili poziv.</li>
@@ -410,7 +410,7 @@ window.SCAM_CONTENT["phishing"] = {
           <div class="label" data-sr="Pre klika" data-en="Before clicking">Pre klika</div>
           <ul class="bullets">
             <li data-sr="poruka uvodi hitnost i posledicu." data-en="the message introduces urgency and consequence.">poruka uvodi hitnost i posledicu.</li>
-            <li data-sr="poruka traži jedan brz korak koji „zatvara problem." data-en="it demands one fast step that “closes the issue”">poruka traži jedan brz korak koji „zatvara problem“.</li>
+            <li data-sr="poruka traži jedan brz korak koji zatvara problem." data-en="it demands one fast step that closes the issue">poruka traži jedan brz korak koji zatvara problem.</li>
             <li data-sr="tema pogađa rutinu: banka, dostava, nalog, dokument." data-en="topic hits routine: bank, delivery, account, document.">tema pogađa rutinu: banka, dostava, nalog, dokument.</li>
             <li data-sr="poruka nema dovoljno detalja, ali traži radnju." data-en="the message lacks details but demands action.">poruka nema dovoljno detalja, ali traži radnju.</li>
           </ul>
@@ -480,9 +480,9 @@ window.SCAM_CONTENT["phishing"] = {
       </h2>
 
       <p
-        data-sr="fišing kampanje rade kao industrija: šabloni se rotiraju, domeni se menjaju, a meta se meri po reakciji. Brz klik daje signal da se napad isplati. Sporost i pitanja traže skuplji kanal: poziv, „podrška“, nova poruka, nova forma. Nakon praga tok prelazi u operativu: reset lozinki, promene podataka za oporavak, nove potvrde, transferi, širenje napada kroz kontakte."
-        data-en="Phishing campaigns operate like an industry: templates rotate, domains change, and targets are measured by response. A fast click signals value. Hesitation and questions require a more expensive channel: calls, “support”, a new message, a new form. After the threshold the operation begins: password resets, recovery changes, new approvals, transfers, spreading through contacts."
-      >Fišing kampanje rade kao industrija: šabloni se rotiraju, domeni se menjaju, a meta se meri po reakciji. Brz klik daje signal da se napad isplati. Sporost i pitanja traže skuplji kanal: poziv, „podrška“, nova poruka, nova forma. Nakon praga tok prelazi u operativu: reset lozinki, promene podataka za oporavak, nove potvrde, transferi, širenje napada kroz kontakte.</p>
+        data-sr="fišing kampanje rade kao industrija: šabloni se rotiraju, domeni se menjaju, a meta se meri po reakciji. Brz klik daje signal da se napad isplati. Sporost i pitanja traže skuplji kanal: poziv, podrška, nova poruka, nova forma. Nakon praga tok prelazi u operativu: reset lozinki, promene podataka za oporavak, nove potvrde, transferi, širenje napada kroz kontakte."
+        data-en="Phishing campaigns operate like an industry: templates rotate, domains change, and targets are measured by response. A fast click signals value. Hesitation and questions require a more expensive channel: calls, support, a new message, a new form. After the threshold the operation begins: password resets, recovery changes, new approvals, transfers, spreading through contacts."
+      >Fišing kampanje rade kao industrija: šabloni se rotiraju, domeni se menjaju, a meta se meri po reakciji. Brz klik daje signal da se napad isplati. Sporost i pitanja traže skuplji kanal: poziv, podrška, nova poruka, nova forma. Nakon praga tok prelazi u operativu: reset lozinki, promene podataka za oporavak, nove potvrde, transferi, širenje napada kroz kontakte.</p>
 
       <div class="grid-2">
         <div class="phase">
@@ -559,31 +559,11 @@ window.SCAM_CONTENT["phishing"] = {
       <ul class="bullets">
         <li data-sr="poruka sa linkom i rokom traži pauzu i proveru domena." data-en="a message with a link and a deadline deserves a pause and domain check.">poruka sa linkom i rokom traži pauzu i proveru domena.</li>
         <li data-sr="OTP i potvrda u aplikaciji predstavljaju autorizaciju." data-en="OTP and in-app approvals are authorization.">OTP i potvrda u aplikaciji predstavljaju autorizaciju.</li>
-        <li data-sr="forma koja traži karticu pod maskom „sitnog troška“ je visok rizik." data-en="a card form masked as a “small fee” is high risk.">forma koja traži karticu pod maskom „sitnog troška“ je visok rizik.</li>
+        <li data-sr="forma koja traži karticu pod maskom sitnog troška je visok rizik." data-en="a card form masked as a small fee is high risk.">forma koja traži karticu pod maskom sitnog troška je visok rizik.</li>
         <li data-sr="posle incidenta očekuj poruke o povraćaju uz uplatu." data-en="after an incident, expect paid recovery messages.">posle incidenta očekuj poruke o povraćaju uz uplatu.</li>
       </ul>
     </section>
 
     <!-- 9) IZVORI -->
-
-<section class="content-section">
-  <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-  <ul class="bullets">
-    <li><a href="smishing.html" data-sr="Smishing" data-en="Smishing">Smishing</a></li>
-    <li><a href="vishing.html" data-sr="Višing" data-en="Vishing">Višing</a></li>
-    <li><a href="account-takeover.html" data-sr="Preuzimanje naloga" data-en="Account takeover">Preuzimanje naloga</a></li>
-    <li><a href="fake-call-scam.html" data-sr="Lažni pozivi" data-en="Fake calls">Lažni pozivi</a></li>
-    <li><a href="impersonation-scam.html" data-sr="Lazno predstavljanje" data-en="Impersonation scam">Lazno predstavljanje</a></li>
-  </ul>
-</section>
-
-<section class="card sources" id="sources">
-      <h2 data-sr="Izvori" data-en="Sources">Izvori</h2>
-      <ul>
-        <li><a href="https://www.ncsc.gov.uk/guidance/phishing" target="_blank" rel="noopener noreferrer">UK NCSC — Fišing guidance</a></li>
-        <li><a href="https://consumer.ftc.gov/scams" target="_blank" rel="noopener noreferrer">FTC — Scam guidance</a></li>
-        <li><a href="https://www.fbi.gov/how-we-can-help-you/scams-and-safety/common-frauds-and-scams" target="_blank" rel="noopener noreferrer">FBI — Common frauds and scams</a></li>
-      </ul>
-    </section>
-  `
+`
 };

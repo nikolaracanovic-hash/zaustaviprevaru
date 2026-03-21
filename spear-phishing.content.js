@@ -35,7 +35,7 @@ window.SCAM_CONTENT["spear-phishing"] = {
       <ul class="bullets">
         <li data-sr="Link vodi na lažnu login stranicu koja vizuelno oponaša internu platformu ili servis." data-en="The link leads to a fake login page that visually mimics an internal platform or service.">Link vodi na lažnu login stranicu koja vizuelno oponaša internu platformu ili servis.</li>
         <li data-sr="Prilog sadrži makro ili exploit koji instalira keylogger ili backdoor pri otvaranju." data-en="The attachment contains a macro or exploit that installs a keylogger or backdoor upon opening.">Prilog sadrži makro ili exploit koji instalira keylogger ili backdoor pri otvaranju.</li>
-        <li data-sr="Urgentnost je prisutna — rok za potpisivanje, hitna verifikacija, „pre isteka dana." data-en="Urgency is present — signing deadline, urgent verification, before end of day.">Urgentnost je prisutna — rok za potpisivanje, hitna verifikacija, 'pre isteka dana'.</li>
+        <li data-sr="Urgentnost je prisutna — rok za potpisivanje, hitna verifikacija, 'pre isteka dana'." data-en="Urgency is present — signing deadline, urgent verification, before end of day.">Urgentnost je prisutna — rok za potpisivanje, hitna verifikacija, 'pre isteka dana'.</li>
       </ul>
     </div>
   </div>
@@ -52,18 +52,18 @@ window.SCAM_CONTENT["spear-phishing"] = {
       <li data-sr="Interesi, nedavni intervjui i objave na društvenim mrežama daju materijal za personalizaciju." data-en="Interests, recent interviews and social media posts provide material for personalization.">Interesi, nedavni intervjui i objave na društvenim mrežama daju materijal za personalizaciju.</li>
       <li data-sr="Curenja podataka otkrivaju lozinke, navike i interne detalje koji povećavaju uverljivost." data-en="Data breaches reveal passwords, habits and internal details that increase credibility.">Curenja podataka otkrivaju lozinke, navike i interne detalje koji povećavaju uverljivost.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Napadač ima dovoljno informacija za konstruisanje uverljive personalizovane poruke." data-en="The attacker has enough information to construct a convincing personalized message.">Napadač ima dovoljno informacija za konstruisanje uverljive personalizovane poruke.</span></div>
+    <div class="callout"><strong data-sr="Napadač ima dovoljno informacija za konstruisanje uverljive personalizovane poruke.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Napadač ima dovoljno informacija za konstruisanje uverljive personalizovane poruke." data-en="The attacker has enough information to construct a convincing personalized message.">Napadač ima dovoljno informacija za konstruisanje uverljive personalizovane poruke.</span></div>
   </article>
 
   <article class="phase">
-    <h3 data-sr="Faza 2 — Konstruisanje poruke" data-en="Phase 2 — Message construction">Faza 2 — Message construction</h3>
+    <h3 data-sr="Faza 2 — Message construction" data-en="Phase 2 — Message construction">Faza 2 — Message construction</h3>
     <p data-sr="Napadač registruje lažni domen i konstruiše mejl koji izgleda kao da ga šalje kolega, HR, IT ili partner. Poruka sadrži konkretne detalje koji povećavaju poverenje." data-en="The attacker registers a fake domain and constructs an email that appears to come from a colleague, HR, IT or partner. The message contains specific details that increase trust.">Napadač registruje lažni domen i konstruiše mejl koji izgleda kao da ga šalje kolega, HR, IT ili partner. Poruka sadrži konkretne detalje koji povećavaju poverenje.</p>
     <ul class="bullets">
       <li data-sr="Lažni domen se razlikuje od pravog za jedan karakter koji je lako previdjeti." data-en="The fake domain differs from the real one by one character that is easy to overlook.">Lažni domen se razlikuje od pravog za jedan karakter koji je lako previdjeti.</li>
       <li data-sr="Potpis mejla sadrži tačne kontakt detalje i titulu preuzetih sa javnih izvora." data-en="The email signature contains accurate contact details and title taken from public sources.">Potpis mejla sadrži tačne kontakt detalje i titulu preuzetih sa javnih izvora.</li>
       <li data-sr="Poruka sadrži detalje aktuelnog projekta ili nedavnog događaja koji napadač zna iz istraživanja." data-en="The message contains details of a current project or recent event the attacker knows from research.">Poruka sadrži detalje aktuelnog projekta ili nedavnog događaja koji napadač zna iz istraživanja.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Poruka je poslata i čeka na reakciju žrtve." data-en="The message is sent and awaits the victim's reaction.">Poruka je poslata i čeka na reakciju žrtve.</span></div>
+    <div class="callout"><strong data-sr="Poruka je poslata i čeka na reakciju žrtve.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Poruka je poslata i čeka na reakciju žrtve." data-en="The message is sent and awaits the victim's reaction.">Poruka je poslata i čeka na reakciju žrtve.</span></div>
   </article>
 
   <article class="phase">
@@ -74,7 +74,7 @@ window.SCAM_CONTENT["spear-phishing"] = {
       <li data-sr="Malver u prilogu instalira se tiho i otvara backdoor za napadačevu dalju kontrolu." data-en="Malware in the attachment installs silently and opens a backdoor for the attacker's further control.">Malver u prilogu instalira se tiho i otvara backdoor za napadačevu dalju kontrolu.</li>
       <li data-sr="Napadač odmah koristi dobijene kredencijale pre nego što žrtva promeni lozinku." data-en="The attacker immediately uses the obtained credentials before the victim changes the password.">Napadač odmah koristi dobijene kredencijale pre nego što žrtva promeni lozinku.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Napadač ima pristup sistemu ili nalozima žrtve." data-en="The attacker has access to the victim's systems or accounts.">Napadač ima pristup sistemu ili nalozima žrtve.</span></div>
+    <div class="callout"><strong data-sr="Napadač ima pristup sistemu ili nalozima žrtve.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Napadač ima pristup sistemu ili nalozima žrtve." data-en="The attacker has access to the victim's systems or accounts.">Napadač ima pristup sistemu ili nalozima žrtve.</span></div>
     <div class="branch">
       <strong data-sr="Grananja u ovoj fazi:" data-en="Branching at this phase:">Grananja u ovoj fazi:</strong>
       <ul class="bullets">
@@ -92,7 +92,7 @@ window.SCAM_CONTENT["spear-phishing"] = {
       <li data-sr="Napadač istražuje interne dokumente da pronađe finansijske tokove i kontakte za BEC." data-en="The attacker researches internal documents to find financial flows and contacts for BEC.">Napadač istražuje interne dokumente da pronađe finansijske tokove i kontakte za BEC.</li>
       <li data-sr="Malver snima sve tastere i pristup širi se postepeno kroz mrežu organizacije." data-en="Malware records all keystrokes and access spreads gradually through the organization's network.">Malver snima sve tastere i pristup širi se postepeno kroz mrežu organizacije.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Napadač ima pristup finansijskim ili kritičnim sistemima i može izvesti primarni napad." data-en="The attacker has access to financial or critical systems and can execute the primary attack.">Napadač ima pristup finansijskim ili kritičnim sistemima i može izvesti primarni napad.</span></div>
+    <div class="callout"><strong data-sr="Napadač ima pristup finansijskim ili kritičnim sistemima i može izvesti primarni napad.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Napadač ima pristup finansijskim ili kritičnim sistemima i može izvesti primarni napad." data-en="The attacker has access to financial or critical systems and can execute the primary attack.">Napadač ima pristup finansijskim ili kritičnim sistemima i može izvesti primarni napad.</span></div>
   </article>
 
   <article class="phase">
@@ -103,7 +103,7 @@ window.SCAM_CONTENT["spear-phishing"] = {
       <li data-sr="Podaci se eksfiltriraju i prodaju ili koriste za ucenu putem ransomwarea." data-en="Data is exfiltrated and sold or used for extortion via ransomware.">Podaci se eksfiltriraju i prodaju ili koriste za ucenu putem ransomwarea.</li>
       <li data-sr="Napadač briše logove pristupa da produži vreme pre detekcije." data-en="The attacker deletes access logs to extend the time before detection.">Napadač briše logove pristupa da produži vreme pre detekcije.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Napad je izvršen i napadač napušta sistem ili ostaje skriven za buduće operacije." data-en="The attack is executed and the attacker leaves the system or remains hidden for future operations.">Napad je izvršen i napadač napušta sistem ili ostaje skriven za buduće operacije.</span></div>
+    <div class="callout"><strong data-sr="Napad je izvršen i napadač napušta sistem ili ostaje skriven za buduće operacije.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Napad je izvršen i napadač napušta sistem ili ostaje skriven za buduće operacije." data-en="The attack is executed and the attacker leaves the system or remains hidden for future operations.">Napad je izvršen i napadač napušta sistem ili ostaje skriven za buduće operacije.</span></div>
   </article>
 
   <article class="phase">
@@ -114,7 +114,7 @@ window.SCAM_CONTENT["spear-phishing"] = {
       <li data-sr="Incident se prijavljuje nadležnim organima i CERT timovima za koordinaciju." data-en="The incident is reported to competent authorities and CERT teams for coordination.">Incident se prijavljuje nadležnim organima i CERT timovima za koordinaciju.</li>
       <li data-sr="Zaposleni prolaze kroz obuku za prepoznavanje spear phishinga posle incidenta." data-en="Employees go through training for recognizing spear phishing after the incident.">Zaposleni prolaze kroz obuku za prepoznavanje spear phishinga posle incidenta.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Organizacija je sanirala pristup i uvela mere za sprečavanje ponavljanja." data-en="The organization has remediated access and implemented measures to prevent recurrence.">Organizacija je sanirala pristup i uvela mere za sprečavanje ponavljanja.</span></div>
+    <div class="callout"><strong data-sr="Organizacija je sanirala pristup i uvela mere za sprečavanje ponavljanja.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Organizacija je sanirala pristup i uvela mere za sprečavanje ponavljanja." data-en="The organization has remediated access and implemented measures to prevent recurrence.">Organizacija je sanirala pristup i uvela mere za sprečavanje ponavljanja.</span></div>
   </article>
 </section>
 
@@ -125,7 +125,7 @@ window.SCAM_CONTENT["spear-phishing"] = {
     <li data-sr="Poruka traži hitnu akciju bez prethodne najave — promenu lozinke, potvrdu uplate, otvaranje dokumenta." data-en="The message requests urgent action without prior notice — password change, payment confirmation, opening a document.">Poruka traži hitnu akciju bez prethodne najave — promenu lozinke, potvrdu uplate, otvaranje dokumenta.</li>
     <li data-sr="Pošiljalac koji je naveden kao kolega ili nadređeni ne bi normalno slao ovakav zahtev." data-en="The sender listed as a colleague or superior would not normally send such a request.">Pošiljalac koji je naveden kao kolega ili nadređeni ne bi normalno slao ovakav zahtev.</li>
     <li data-sr="Link vodi na domen koji nije deo poznatih internih ili partnerskih sistema." data-en="The link leads to a domain that is not part of known internal or partner systems.">Link vodi na domen koji nije deo poznatih internih ili partnerskih sistema.</li>
-    <li data-sr="Prilog ima neobičan naziv ili format — .exe masiran kao .pdf, .docm sa makroima." data-en="The attachment has an unusual name or format — .exe disguised as .pdf, .docm with macros.">.Prilog ima neobičan naziv ili format — .exe masiran kao .pdf, .docm sa makroima.</li>
+    <li data-sr=".Prilog ima neobičan naziv ili format — .exe masiran kao .pdf, .docm sa makroima." data-en="The attachment has an unusual name or format — .exe disguised as .pdf, .docm with macros.">.Prilog ima neobičan naziv ili format — .exe masiran kao .pdf, .docm sa makroima.</li>
     <li data-sr="Poruka sadrži tačne detalje koji nisu javni što znači da je istraživanje prethodilo napadu." data-en="The message contains accurate non-public details which means research preceded the attack.">Poruka sadrži tačne detalje koji nisu javni što znači da je istraživanje prethodilo napadu.</li>
     <li data-sr="Zahtev se tiče finansija, lozinki ili poverljivih podataka sa urgentnim obrazloženjem." data-en="The request concerns finances, passwords or confidential data with an urgent rationale.">Zahtev se tiče finansija, lozinki ili poverljivih podataka sa urgentnim obrazloženjem.</li>
     <li data-sr="Kolega čiji nalog šalje poruku nije dostupan za direktnu verifikaciju telefonom ili lično." data-en="The colleague whose account is sending the message is not available for direct verification by phone or in person.">Kolega čiji nalog šalje poruku nije dostupan za direktnu verifikaciju telefonom ili lično.</li>
@@ -192,16 +192,6 @@ window.SCAM_CONTENT["spear-phishing"] = {
   </ul>
 </section>
 
-<section class="content-section">
-  <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-  <ul class="bullets">
-    <li><a href="whaling.html" data-sr="Whaling — spear phishing usmeren na izvršni nivo organizacije" data-en="Whaling — spear phishing targeting executive level of an organization">Whaling — spear phishing usmeren na izvršni nivo organizacije</a></li>
-    <li><a href="phishing.html" data-sr="Fišing — masovni oblik iste tehnike bez personalizacije" data-en="Phishing — mass form of the same technique without personalization">Fišing — masovni oblik iste tehnike bez personalizacije</a></li>
-    <li><a href="business-email-compromise.html" data-sr="BEC — najčešći finansijski ishod uspešnog spear phishinga" data-en="BEC — most common financial outcome of successful spear phishing">BEC — najčešći finansijski ishod uspešnog spear phishinga</a></li>
-    <li><a href="impersonation-scam.html" data-sr="Impersonation — ista tehnika lažnog identiteta bez tehničke kompromitacije" data-en="Impersonation — same fake identity technique without technical compromise">Impersonation — ista tehnika lažnog identiteta bez tehničke kompromitacije</a></li>
-    <li><a href="account-takeover.html" data-sr="Preuzimanje naloga — direktan ishod krađe kredencijala spear phishingom" data-en="Account takeover — direct outcome of credential theft through spear phishing">Preuzimanje naloga — direktan ishod krađe kredencijala spear phishingom</a></li>
-    <li><a href="invoice-fraud.html" data-sr="Invoice fraud — finansijska prevara koja sledi kompromitaciju mejla" data-en="Invoice fraud — financial scam that follows email compromise">Invoice fraud — finansijska prevara koja sledi kompromitaciju mejla</a></li>
-  </ul>
-</section>
+
 `
 };

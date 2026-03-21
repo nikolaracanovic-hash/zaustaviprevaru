@@ -1,4 +1,4 @@
-﻿window.SCAM_CONTENT = window.SCAM_CONTENT || {};
+window.SCAM_CONTENT = window.SCAM_CONTENT || {};
 
 window.SCAM_CONTENT["payroll-diversion"] = {
   raw_html: `
@@ -56,7 +56,7 @@ window.SCAM_CONTENT["payroll-diversion"] = {
           <ul class="bullets">
             <li data-sr="imejl sa zahtevom za promenu bankovnih podataka." data-en="email requesting bank details change.">imejl sa zahtevom za promenu bankovnih podataka.</li>
             <li data-sr="priloženi lažni formular ili pismo sa potpisom." data-en="attached fake form or signed letter.">priloženi lažni formular ili pismo sa potpisom.</li>
-            <li data-sr="zahtev dolazi kratko pred isplatni dan: „za sledeću uplatu."." data-en="request arrives just before payday: &ldquo;for the next payment&rdquo;.">zahtev dolazi kratko pred isplatni dan: „za sledeću uplatu"“.</li>
+            <li data-sr="zahtev dolazi kratko pred isplatni dan: za sledeću uplatu." data-en="request arrives just before payday: &ldquo;for the next payment&rdquo;.">zahtev dolazi kratko pred isplatni dan: za sledeću uplatu.</li>
             <li data-sr="napadač daje izgovor: seli se, menja banku, zatvara stari račun." data-en="attacker provides excuse: moving, changing banks, closing old account.">napadač daje izgovor: seli se, menja banku, zatvara stari račun.</li>
           </ul>
         </div>
@@ -127,9 +127,9 @@ window.SCAM_CONTENT["payroll-diversion"] = {
           data-en="The attacker sends the bank details change request to HR. Tactic: request arrives shortly before payday. The reason is always legitimate: moving, new bank, closing old account. Attachment is a form or signed letter that looks like a standard document."
         >Napadač šalje zahtev za promenu bankovnih podataka HR-u. Taktika: zahtev dolazi kratko pred isplatni dan. Razlog je uvek legitiman: seljenje, nova banka, zatvaranje starog računa. Prilog je formular ili potpisano pismo koje izgleda kao standardni dokument.</p>
         <ul class="bullets">
-          <li data-sr="fraze: „promenio/la sam banku, molim vas ažurirajte za narednu uplatu."." data-en="phrases: &ldquo;I changed banks, please update for the next payment&rdquo;.">fraze: „promenio/la sam banku, molim vas ažurirajte za narednu uplatu"“.</li>
-          <li data-sr="fraze: „u prilogu je potpisani formular za promenu računa."." data-en="phrases: &ldquo;attached is the signed form for account change&rdquo;.">fraze: „u prilogu je potpisani formular za promenu računa"“.</li>
-          <li data-sr="fraze: „stari račun zatvaram krajem meseca, potrebno je ažurirati pre isplate."." data-en="phrases: &ldquo;I am closing the old account end of month, needs updating before payment&rdquo;.">fraze: „stari račun zatvaram krajem meseca, potrebno je ažurirati pre isplate"“.</li>
+          <li data-sr="fraze: promenio/la sam banku, molim vas ažurirajte za narednu uplatu." data-en="phrases: &ldquo;I changed banks, please update for the next payment&rdquo;.">fraze: promenio/la sam banku, molim vas ažurirajte za narednu uplatu.</li>
+          <li data-sr="fraze: u prilogu je potpisani formular za promenu računa." data-en="phrases: &ldquo;attached is the signed form for account change&rdquo;.">fraze: u prilogu je potpisani formular za promenu računa.</li>
+          <li data-sr="fraze: stari račun zatvaram krajem meseca, potrebno je ažurirati pre isplate." data-en="phrases: &ldquo;I am closing the old account end of month, needs updating before payment&rdquo;.">fraze: stari račun zatvaram krajem meseca, potrebno je ažurirati pre isplate.</li>
         </ul>
         <div class="callout"
           data-sr="<strong>Prag faze:</strong> HR prima i razmatra zahtev bez aktivnog sumnjičenja."
@@ -323,19 +323,6 @@ window.SCAM_CONTENT["payroll-diversion"] = {
     </section>
 
     <!-- 9) POVEZANE PREVARE -->
-    <section class="card">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <div class="branch">
-        <ul class="bullets">
-          <li><a href="payment-diversion.html" data-sr="Preusmeravanje plaćanja" data-en="Payment diversion">Preusmeravanje plaćanja</a></li>
-          <li><a href="business-email-compromise.html" data-sr="Kompromitovanje poslovnog imejla (BEC)" data-en="Business email compromise (BEC)">Kompromitovanje poslovnog imejla (BEC)</a></li>
-          <li><a href="ceo-fraud.html" data-sr="CEO prevara" data-en="CEO fraud">CEO prevara</a></li>
-          <li><a href="phishing.html" data-sr="Fišing" data-en="Phishing">Fišing</a></li>
-          <li><a href="account-takeover.html" data-sr="Preuzimanje naloga" data-en="Account takeover">Preuzimanje naloga</a></li>
-          <li><a href="invoice-fraud.html" data-sr="Prevara sa fakturama" data-en="Invoice fraud">Prevara sa fakturama</a></li>
-          <li><a href="impersonation-scam.html" data-sr="Lažno predstavljanje" data-en="Impersonation scam">Lažno predstavljanje</a></li>
-        </ul>
-      </div>
-    </section>
+    
   `
 };

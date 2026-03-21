@@ -36,9 +36,9 @@ window.SCAM_CONTENT["ceo-fraud"] = {
       </h2>
 
       <p
-        data-sr="CEO fraud koristi hijerarhiju kao infrastrukturu kontrole. Kada zahtev dolazi od „direktora", zaposleni reaguje na poziciju, ne na sadržaj“. Napadač to zna i konstruiše zahtev koji maksimizira hijerarhijski pritisak i minimizira prostor za verifikaciju."
+        data-sr="CEO fraud koristi hijerarhiju kao infrastrukturu kontrole. Kada zahtev dolazi od direktora, zaposleni reaguje na poziciju, ne na sadržaj. Napadač to zna i konstruiše zahtev koji maksimizira hijerarhijski pritisak i minimizira prostor za verifikaciju."
         data-en="CEO fraud uses hierarchy as a control infrastructure. When a request comes from &ldquo;the CEO&rdquo;, the employee reacts to position, not content. The attacker knows this and constructs a request that maximizes hierarchical pressure and minimizes room for verification."
-      >CEO fraud koristi hijerarhiju kao infrastrukturu kontrole. Kada zahtev dolazi od „direktora", zaposleni reaguje na poziciju, ne na sadržaj“. Napadač to zna i konstruiše zahtev koji maksimizira hijerarhijski pritisak i minimizira prostor za verifikaciju.</p>
+      >CEO fraud koristi hijerarhiju kao infrastrukturu kontrole. Kada zahtev dolazi od direktora, zaposleni reaguje na poziciju, ne na sadržaj. Napadač to zna i konstruiše zahtev koji maksimizira hijerarhijski pritisak i minimizira prostor za verifikaciju.</p>
 
       <div class="grid-2">
         <div class="phase">
@@ -55,9 +55,9 @@ window.SCAM_CONTENT["ceo-fraud"] = {
         <div class="phase">
           <div class="label" data-sr="Kako se uvodi izolacija od provere" data-en="How isolation from verification is introduced">Kako se uvodi izolacija od provere</div>
           <ul class="bullets">
-            <li data-sr="„na putu sam i ne primam pozive do sutra."." data-en="&ldquo;I'm traveling and won't take calls until tomorrow&rdquo;.">"na putu sam i ne primam pozive do sutra".</li>
-            <li data-sr="„nemoj kontaktirati CFO-a niti pravnika — ovo je poverljivo."." data-en="&ldquo;do not contact the CFO or lawyer — this is confidential&rdquo;.">"nemoj kontaktirati CFO-a niti pravnika — ovo je poverljivo".</li>
-            <li data-sr="„ovo je vremenski osetljivo — rok je kraj radnog dana."." data-en="&ldquo;this is time-sensitive — deadline is end of business today&rdquo;.">"ovo je vremenski osetljivo — rok je kraj radnog dana".</li>
+            <li data-sr="na putu sam i ne primam pozive do sutra." data-en="&ldquo;I'm traveling and won't take calls until tomorrow&rdquo;.">na putu sam i ne primam pozive do sutra.</li>
+            <li data-sr="nemoj kontaktirati CFO-a niti pravnika — ovo je poverljivo." data-en="&ldquo;do not contact the CFO or lawyer — this is confidential&rdquo;.">nemoj kontaktirati CFO-a niti pravnika — ovo je poverljivo.</li>
+            <li data-sr="ovo je vremenski osetljivo — rok je kraj radnog dana." data-en="&ldquo;this is time-sensitive — deadline is end of business today&rdquo;.">ovo je vremenski osetljivo — rok je kraj radnog dana.</li>
             <li data-sr="AI glasovna imitacija u telefonskim napadima — rastuća pretnja." data-en="AI voice cloning in phone attacks — growing threat.">AI glasovna imitacija u telefonskim napadima — rastuća pretnja.</li>
           </ul>
         </div>
@@ -131,9 +131,9 @@ window.SCAM_CONTENT["ceo-fraud"] = {
           data-en="The email arrives to the CFO or the person who authorizes payments. The message is short, direct, and looks authentic. The scenario is urgent and confidential. The deadline is today or tomorrow morning. Secrecy demand and block on phone verification are explicit."
         >Imejl stiže finansijskom direktoru ili osobi koja autorizuje uplate. Poruka je kratka, direktna i izgleda autentično. Scenario je hitan i poverljiv. Rok je danas ili sutra ujutru. Zahtev za tajnošću i blokada telefonske provere su eksplicitni.</p>
         <ul class="bullets">
-          <li data-sr="fraze: „hitan transfer za akviziciju — poverljivo."." data-en="phrases: &ldquo;urgent transfer for acquisition — confidential&rdquo;.">fraze: „hitan transfer za akviziciju — poverljivo"“.</li>
-          <li data-sr="fraze: „nemoj kontaktirati CFO-a dok se ne čujemo sutra."." data-en="phrases: &ldquo;don't contact the CFO until we speak tomorrow&rdquo;.">fraze: „nemoj kontaktirati CFO-a dok se ne čujemo sutra"“.</li>
-          <li data-sr="fraze: „potvrdi mi kada je uplata izvršena — na putu sam."." data-en="phrases: &ldquo;confirm when payment is done — I'm traveling&rdquo;.">fraze: „potvrdi mi kada je uplata izvršena — na putu sam"“.</li>
+          <li data-sr="fraze: hitan transfer za akviziciju — poverljivo." data-en="phrases: &ldquo;urgent transfer for acquisition — confidential&rdquo;.">fraze: hitan transfer za akviziciju — poverljivo.</li>
+          <li data-sr="fraze: nemoj kontaktirati CFO-a dok se ne čujemo sutra." data-en="phrases: &ldquo;don't contact the CFO until we speak tomorrow&rdquo;.">fraze: nemoj kontaktirati CFO-a dok se ne čujemo sutra.</li>
+          <li data-sr="fraze: potvrdi mi kada je uplata izvršena — na putu sam." data-en="phrases: &ldquo;confirm when payment is done — I'm traveling&rdquo;.">fraze: potvrdi mi kada je uplata izvršena — na putu sam.</li>
         </ul>
 
         <div class="branch">
@@ -156,12 +156,12 @@ window.SCAM_CONTENT["ceo-fraud"] = {
           Faza 4 — Eskalacija ako meta okleava
         </h3>
         <p
-          data-sr="Ako meta okleava, napadač eskalira pritisak: jači autoritet, tvrđi rok, nova pretnja posledicama za kašnjenje. Ponekad se pojavi „treća strana" — pravnik ili konsultant — koji „potvrđuje" zahtev“. U slučaju kompromitovanog pravog naloga, napadač presreće odgovore i meta dobija potvrde iz pravog imejla direktora."
+          data-sr="Ako meta okleava, napadač eskalira pritisak: jači autoritet, tvrđi rok, nova pretnja posledicama za kašnjenje. Ponekad se pojavi treća strana — pravnik ili konsultant — koji potvrđuje zahtev. U slučaju kompromitovanog pravog naloga, napadač presreće odgovore i meta dobija potvrde iz pravog imejla direktora."
           data-en="If the target hesitates, the attacker escalates pressure: stronger authority, harder deadline, new threat of consequences for delay. Sometimes a &ldquo;third party&rdquo; appears — a lawyer or consultant — who &ldquo;confirms&rdquo; the request. With a compromised real account, the attacker intercepts replies and the target receives confirmations from the real CEO email."
-        >Ako meta okleava, napadač eskalira pritisak: jači autoritet, tvrđi rok, nova pretnja posledicama za kašnjenje. Ponekad se pojavi „treća strana" — pravnik ili konsultant — koji „potvrđuje" zahtev“. U slučaju kompromitovanog pravog naloga, napadač presreće odgovore i meta dobija potvrde iz pravog imejla direktora.</p>
+        >Ako meta okleava, napadač eskalira pritisak: jači autoritet, tvrđi rok, nova pretnja posledicama za kašnjenje. Ponekad se pojavi treća strana — pravnik ili konsultant — koji potvrđuje zahtev. U slučaju kompromitovanog pravog naloga, napadač presreće odgovore i meta dobija potvrde iz pravog imejla direktora.</p>
         <ul class="bullets">
           <li data-sr="signal: priča postaje kompleksnija ako meta postavlja pitanja." data-en="signal: story becomes more complex if target asks questions.">signal: priča postaje kompleksnija ako meta postavlja pitanja.</li>
-          <li data-sr="signal: pojavljuje se nova „potvrda." iz drugog izvora." data-en="signal: new &ldquo;confirmation&rdquo; appears from another source.">signal: pojavljuje se nova „potvrda" iz drugog izvora“.</li>
+          <li data-sr="signal: pojavljuje se nova potvrda iz drugog izvora." data-en="signal: new &ldquo;confirmation&rdquo; appears from another source.">signal: pojavljuje se nova potvrda iz drugog izvora.</li>
         </ul>
         <div class="callout"
           data-sr="<strong>Prag faze:</strong> meta prihvata eskaliranu potvrdu kao validan dokaz i pristupa izvršavanju."
@@ -175,9 +175,9 @@ window.SCAM_CONTENT["ceo-fraud"] = {
           Faza 5 — Prag: uplata izvršena
         </h3>
         <p
-          data-sr="Zaposleni izvrši transfer. Napadač odmah prebacuje sredstva dalje. Napadač potvrdi da je „primio" uplatu i zatvori komunikaciju“. Otkrivanje dolazi kada se pravi direktor vrati i ne zna ništa o transferu, ili kada banka registruje sumnjivu transakciju."
+          data-sr="Zaposleni izvrši transfer. Napadač odmah prebacuje sredstva dalje. Napadač potvrdi da je primio uplatu i zatvori komunikaciju. Otkrivanje dolazi kada se pravi direktor vrati i ne zna ništa o transferu, ili kada banka registruje sumnjivu transakciju."
           data-en="The employee processes the transfer. The attacker immediately moves funds onward. The attacker confirms they &ldquo;received&rdquo; the payment and closes communication. Discovery comes when the real CEO returns and knows nothing about the transfer, or when the bank flags a suspicious transaction."
-        >Zaposleni izvrši transfer. Napadač odmah prebacuje sredstva dalje. Napadač potvrdi da je „primio" uplatu i zatvori komunikaciju“. Otkrivanje dolazi kada se pravi direktor vrati i ne zna ništa o transferu, ili kada banka registruje sumnjivu transakciju.</p>
+        >Zaposleni izvrši transfer. Napadač odmah prebacuje sredstva dalje. Napadač potvrdi da je primio uplatu i zatvori komunikaciju. Otkrivanje dolazi kada se pravi direktor vrati i ne zna ništa o transferu, ili kada banka registruje sumnjivu transakciju.</p>
         <div class="callout"
           data-sr="<strong>Prag faze:</strong> uplata izvršena — novac uglavnom izgubljen u prvih 24–72 sata."
           data-en="<strong>Phase threshold:</strong> payment made — money is usually gone within 24–72 hours."
@@ -186,13 +186,13 @@ window.SCAM_CONTENT["ceo-fraud"] = {
 
       <!-- FAZA 6 -->
       <article class="phase warn">
-        <h3 class="phase-title" data-sr="Faza 6 — Otkrivanje i recovery talaš" data-en="Phase 6 — Discovery and recovery wave">
-          Faza 6 — Otkrivanje i recovery talaš
+        <h3 class="phase-title" data-sr="Faza 6 — Otkrivanje i talas recovery prevara" data-en="Phase 6 — Discovery and recovery wave">
+          Faza 6 — Otkrivanje i talas recovery prevara
         </h3>
         <p
-          data-sr="Posle otkrivanja incidenta često stiže novi kontakt sa ponudom „povraćaja" izgubljenih sredstava uz uplatu unapred“. Posle CEO fraud incidenta firme su posebno ranjive na recovery prevare jer su pod pritiskom da povrate novac."
+          data-sr="Posle otkrivanja incidenta često stiže novi kontakt sa ponudom povraćaja izgubljenih sredstava uz uplatu unapred. Posle CEO fraud incidenta firme su posebno ranjive na recovery prevare jer su pod pritiskom da povrate novac."
           data-en="After the incident is discovered, a new contact often arrives offering to &ldquo;recover&rdquo; lost funds for an upfront fee. After a CEO fraud incident, companies are particularly vulnerable to recovery scams because they are under pressure to retrieve the money."
-        >Posle otkrivanja incidenta često stiže novi kontakt sa ponudom „povraćaja" izgubljenih sredstava uz uplatu unapred“. Posle CEO fraud incidenta firme su posebno ranjive na recovery prevare jer su pod pritiskom da povrate novac.</p>
+        >Posle otkrivanja incidenta često stiže novi kontakt sa ponudom povraćaja izgubljenih sredstava uz uplatu unapred. Posle CEO fraud incidenta firme su posebno ranjive na recovery prevare jer su pod pritiskom da povrate novac.</p>
 
         <div class="branch">
           <p><strong data-sr="Grananja u ovoj fazi" data-en="Branching at this phase">Grananja u ovoj fazi</strong></p>
@@ -202,9 +202,9 @@ window.SCAM_CONTENT["ceo-fraud"] = {
         </div>
 
         <div class="callout"
-          data-sr="<strong>Filter:</strong> svaka ponuda „povraćaja" uz uplatu unapred = novi napad, ne rešenje."
+          data-sr="<strong>Filter:</strong> svaka ponuda povraćaja uz uplatu unapred = novi napad, ne rešenje."
           data-en="<strong>Filter:</strong> every &ldquo;recovery&rdquo; offer with an upfront payment = new attack, not a solution."
-        ><strong>Filter:</strong> svaka ponuda „povraćaja" uz uplatu unapred = novi napad, ne rešenje“.</div>
+        ><strong>Filter:</strong> svaka ponuda povraćaja uz uplatu unapred = novi napad, ne rešenje.</div>
       </article>
     </section>
 
@@ -330,18 +330,6 @@ window.SCAM_CONTENT["ceo-fraud"] = {
     </section>
 
     <!-- 9) POVEZANE PREVARE -->
-    <section class="card">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <div class="branch">
-        <ul class="bullets">
-          <li><a href="business-email-compromise.html" data-sr="Kompromitovanje poslovnog imejla (BEC)" data-en="Business email compromise (BEC)">Kompromitovanje poslovnog imejla (BEC)</a></li>
-          <li><a href="vendor-email-compromise.html" data-sr="Kompromitovanje imejla dobavljača" data-en="Vendor email compromise">Kompromitovanje imejla dobavljača</a></li>
-          <li><a href="invoice-fraud.html" data-sr="Prevara sa fakturama" data-en="Invoice fraud">Prevara sa fakturama</a></li>
-          <li><a href="mandate-fraud.html" data-sr="Prevara sa nalozima za plaćanje" data-en="Mandate fraud">Prevara sa nalozima za plaćanje</a></li>
-          <li><a href="ai-deepfake.html" data-sr="Prevare sa AI lažnim snimcima" data-en="AI Deepfake scams">Prevare sa AI lažnim snimcima</a></li>
-          <li><a href="impersonation-scam.html" data-sr="Lažno predstavljanje" data-en="Impersonation scam">Lažno predstavljanje</a></li>
-        </ul>
-      </div>
-    </section>
+    
   `
 };

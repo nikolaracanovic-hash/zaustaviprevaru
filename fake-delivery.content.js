@@ -1,4 +1,4 @@
-﻿window.SCAM_CONTENT = window.SCAM_CONTENT || {};
+window.SCAM_CONTENT = window.SCAM_CONTENT || {};
 
 window.SCAM_CONTENT["fake-delivery"] = {
   raw_html: `
@@ -19,9 +19,9 @@ window.SCAM_CONTENT["fake-delivery"] = {
       >Šteta se realizuje kroz tri kanala: direktna naplata sa kartice, krađa podataka za kasniju upotrebu, ili OTP fišing gde se kod koristi za veću transakciju. Iznos iz poruke je uvek mali da bi delovao bezazleno. Stvarna šteta može biti višestruko veća.</p>
 
       <div class="callout"
-        data-sr="<strong>Zašto radi:</strong> Mnogi kupuju online i očekuju pakete. Poruka pogađa realan kontekst — „imam paket koji čekam, možda je ovo o njemu“. Ta verovatnost čini prevaru efikasnom."
+        data-sr="<strong>Zašto radi:</strong> Mnogi kupuju online i očekuju pakete. Poruka pogađa realan kontekst — imam paket koji čekam, možda je ovo o njemu. Ta verovatnost čini prevaru efikasnom."
         data-en="<strong>Why it works:</strong> Many shop online and expect packages. Message hits real context — 'I have a package I'm waiting for, maybe this is about it'. That plausibility makes the scam effective."
-      ><strong>Zašto radi:</strong> Mnogi kupuju online i očekuju pakete. Poruka pogađa realan kontekst — „imam paket koji čekam, možda je ovo o njemu“. Ta verovatnost čini prevaru efikasnom.</div>
+      ><strong>Zašto radi:</strong> Mnogi kupuju online i očekuju pakete. Poruka pogađa realan kontekst — imam paket koji čekam, možda je ovo o njemu. Ta verovatnost čini prevaru efikasnom.</div>
     </section>
 
     <!-- 2) TIPOVI LAŽNIH DOSTAVA -->
@@ -43,7 +43,7 @@ window.SCAM_CONTENT["fake-delivery"] = {
           <div class="label" data-sr="Problem sa adresom" data-en="Address problem">Problem sa adresom</div>
           <ul class="bullets">
             <li data-sr="poruka tvrdi da adresa nije kompletna." data-en="message claims address incomplete.">poruka tvrdi da adresa nije kompletna.</li>
-            <li data-sr="traži se „potvrda“ sa podacima kartice." data-en="confirmation with card details requested.">traži se „potvrda“ sa podacima kartice.</li>
+            <li data-sr="traži se potvrda sa podacima kartice." data-en="confirmation with card details requested.">traži se potvrda sa podacima kartice.</li>
             <li data-sr="forma izgleda kao zvanična kurirska." data-en="form looks like official courier form.">forma izgleda kao zvanična kurirska.</li>
           </ul>
         </div>
@@ -51,7 +51,7 @@ window.SCAM_CONTENT["fake-delivery"] = {
           <div class="label" data-sr="Propuštena dostava" data-en="Missed delivery">Propuštena dostava</div>
           <ul class="bullets">
             <li data-sr="poruka tvrdi da kurir nije mogao da isporuči." data-en="message claims courier couldn't deliver.">poruka tvrdi da kurir nije mogao da isporuči.</li>
-            <li data-sr="traži se zakazivanje nove dostave uz „verifikaciju." data-en="rescheduling requested with verification.">traži se zakazivanje nove dostave uz „verifikaciju“.</li>
+            <li data-sr="traži se zakazivanje nove dostave uz verifikaciju." data-en="rescheduling requested with verification.">traži se zakazivanje nove dostave uz verifikaciju.</li>
             <li data-sr="verifikacija = unos podataka kartice." data-en="verification = entering card details.">verifikacija = unos podataka kartice.</li>
           </ul>
         </div>
@@ -76,7 +76,7 @@ window.SCAM_CONTENT["fake-delivery"] = {
         <li data-sr="prevarant šalje masovne poruke (SMS, Viber, imejl)." data-en="scammer sends mass messages (SMS, Viber, email).">prevarant šalje masovne poruke (SMS, Viber, imejl).</li>
         <li data-sr="poruka tvrdi problem sa dostavom i sadrži link." data-en="message claims delivery problem and contains link.">poruka tvrdi problem sa dostavom i sadrži link.</li>
         <li data-sr="link vodi na lažnu stranicu koja imitira kurira." data-en="link leads to fake page imitating courier.">link vodi na lažnu stranicu koja imitira kurira.</li>
-        <li data-sr="žrtva unosi podatke kartice za „malu doplatu." data-en="victim enters card details for small fee.">žrtva unosi podatke kartice za „malu doplatu“.</li>
+        <li data-sr="žrtva unosi podatke kartice za malu doplatu." data-en="victim enters card details for small fee.">žrtva unosi podatke kartice za malu doplatu.</li>
         <li data-sr="prevarant ili naplaćuje direktno, ili čuva podatke za kasnije." data-en="scammer either charges directly or saves data for later.">prevarant ili naplaćuje direktno, ili čuva podatke za kasnije.</li>
         <li data-sr="ako traži OTP kod — koristi ga za veću transakciju." data-en="if asks for OTP code — uses it for larger transaction.">ako traži OTP kod — koristi ga za veću transakciju.</li>
       </ol>
@@ -93,7 +93,7 @@ window.SCAM_CONTENT["fake-delivery"] = {
         <li data-sr="link ne vodi na zvaničan domen kurirske službe." data-en="link doesn't lead to official courier domain.">link ne vodi na zvaničan domen kurirske službe.</li>
         <li data-sr="traži se uplata za nešto što bi trebalo da bude besplatno." data-en="payment requested for something that should be free.">traži se uplata za nešto što bi trebalo da bude besplatno.</li>
         <li data-sr="forma traži CVV i PIN — legitimni kuriri to nikad ne traže." data-en="form asks for CVV and PIN — legitimate couriers never ask for this.">forma traži CVV i PIN — legitimni kuriri to nikad ne traže.</li>
-        <li data-sr="hitnost: „paket će biti vraćen za 24h." data-en="urgency: package will be returned in 24h.">hitnost: „paket će biti vraćen za 24h“.</li>
+        <li data-sr="hitnost: paket će biti vraćen za 24h." data-en="urgency: package will be returned in 24h.">hitnost: paket će biti vraćen za 24h.</li>
         <li data-sr="poruka nema detalje o pošiljci (broj, pošiljalac)." data-en="message has no shipment details (number, sender).">poruka nema detalje o pošiljci (broj, pošiljalac).</li>
       </ul>
 
@@ -175,12 +175,12 @@ window.SCAM_CONTENT["fake-delivery"] = {
       <h2 data-sr="Checklista: pitanja pre klika na link o dostavi" data-en="Checklist: questions before clicking a delivery link">Checklista: pitanja pre klika na link o dostavi</h2>
       <ul class="bullets">
         <li data-sr="Da li sam zaista naručio nešto što čekam?" data-en="Did I actually order something I am waiting for?">Da li sam zaista naručio nešto što čekam?</li>
-        <li data-sr="Da li sam dobio potvrdu narudžbine od prodavca?" data-en="Did I receive an order confirmation from the seller?">Da li sam dobio potvrdu narudžbine od prodavca?</li>
+        <li data-sr="Da li sam dobio potvrdu porudžbine od prodavca?" data-en="Did I receive an order confirmation from the seller?">Da li sam dobio potvrdu porudžbine od prodavca?</li>
         <li data-sr="Da li link vodi na zvaničan domen kurirske službe?" data-en="Does the link lead to the official courier domain?">Da li link vodi na zvaničan domen kurirske službe?</li>
         <li data-sr="Da li poruka sadrži broj pošiljke koji mogu da proverim?" data-en="Does the message include a tracking number I can verify?">Da li poruka sadrži broj pošiljke koji mogu da proverim?</li>
         <li data-sr="Da li zvanična kurirska služba traži podatke kartice putem SMS-a?" data-en="Does an official courier ask for card details via SMS?">Da li zvanična kurirska služba traži podatke kartice putem SMS-a?</li>
         <li data-sr="Da li je iznos koji traže veoma mali kako bi izgledao bezazleno?" data-en="Is the amount requested very small to appear harmless?">Da li je iznos koji traže veoma mali kako bi izgledao bezazleno?</li>
-        <li data-sr="Da li poruka stvara pritisak vremena — „paket se vraća za 24h."?" data-en="Does the message create time pressure — package returned in 24h?">Da li poruka stvara pritisak vremena — „paket se vraća za 24h"?</li>
+        <li data-sr="Da li poruka stvara pritisak vremena — paket se vraća za 24h?" data-en="Does the message create time pressure — package returned in 24h?">Da li poruka stvara pritisak vremena — paket se vraća za 24h?</li>
         <li data-sr="Da li sam pre klika proverio broj pošiljke direktno na sajtu kurira?" data-en="Did I verify the tracking number directly on the courier site before clicking?">Da li sam pre klika proverio broj pošiljke direktno na sajtu kurira?</li>
         <li data-sr="Da li stranica na koju link vodi izgleda drugačije od zvanične?" data-en="Does the page the link leads to look different from the official site?">Da li stranica na koju link vodi izgleda drugačije od zvanične?</li>
         <li data-sr="Da li forma traži CVV, PIN, ili OTP kod — koje kuriri nikada ne traže?" data-en="Does the form ask for CVV, PIN, or OTP — which couriers never request?">Da li forma traži CVV, PIN, ili OTP kod — koje kuriri nikada ne traže?</li>
@@ -209,37 +209,20 @@ window.SCAM_CONTENT["fake-delivery"] = {
         <li data-sr="Da li su primili poruku o dostavi i odmah kliknuli na link?" data-en="Did they receive a delivery message and immediately click the link?">Da li su primili poruku o dostavi i odmah kliknuli na link?</li>
         <li data-sr="Da li su uneli podatke kartice na stranici na koju su bili preusmereni?" data-en="Did they enter card details on the page they were redirected to?">Da li su uneli podatke kartice na stranici na koju su bili preusmereni?</li>
         <li data-sr="Da li su dobili SMS sa OTP kodom koji su uneli na stranici?" data-en="Did they receive an OTP SMS that they entered on the page?">Da li su dobili SMS sa OTP kodom koji su uneli na stranici?</li>
-        <li data-sr="Da li su proverili narudžbinu kod prodavca pre nego što su reagovali na poruku?" data-en="Did they check the order with the seller before responding to the message?">Da li su proverili narudžbinu kod prodavca pre nego što su reagovali na poruku?</li>
+        <li data-sr="Da li su proverili porudžbinu kod prodavca pre nego što su reagovali na poruku?" data-en="Did they check the order with the seller before responding to the message?">Da li su proverili porudžbinu kod prodavca pre nego što su reagovali na poruku?</li>
       </ul>
       <p data-sr="Rečenice koje rade:" data-en="Sentences that help:">Rečenice koje rade:</p>
       <ul class="bullets">
-        <li data-sr="„Kuriri ne traže podatke kartice putem SMS-a — to je uvek lažno." data-en="Couriers never ask for card details via SMS — that is always fake.">"Kuriri ne traže podatke kartice putem SMS-a — to je uvek lažno.".</li>
-        <li data-sr="„Carina se plaća na šalteru pri preuzimanju, nikad unapred putem linka." data-en="Customs are paid at the counter upon pickup, never in advance via a link.">"Carina se plaća na šalteru pri preuzimanju, nikad unapred putem linka.".</li>
-        <li data-sr="„Ako si uneo podatke kartice, blokiraj je odmah — ne čekaj da vidiš da li će biti naplate." data-en="If you entered card details, block it immediately — don't wait to see if charges appear.">"Ako si uneo podatke kartice, blokiraj je odmah — ne čekaj da vidiš da li će biti naplate.".</li>
-        <li data-sr="„Broj pošiljke iz poruke možeš proveriti direktno na sajtu kurira bez klika na link." data-en="The tracking number from the message can be checked directly on the courier website without clicking the link.">"Broj pošiljke iz poruke možeš proveriti direktno na sajtu kurira bez klika na link.".</li>
+        <li data-sr="Kuriri ne traže podatke kartice putem SMS-a — to je uvek lažno." data-en="Couriers never ask for card details via SMS — that is always fake.">Kuriri ne traže podatke kartice putem SMS-a — to je uvek lažno.</li>
+        <li data-sr="Carina se plaća na šalteru pri preuzimanju, nikad unapred putem linka." data-en="Customs are paid at the counter upon pickup, never in advance via a link.">Carina se plaća na šalteru pri preuzimanju, nikad unapred putem linka.</li>
+        <li data-sr="Ako si uneo podatke kartice, blokiraj je odmah — ne čekaj da vidiš da li će biti naplate." data-en="If you entered card details, block it immediately — don't wait to see if charges appear.">Ako si uneo podatke kartice, blokiraj je odmah — ne čekaj da vidiš da li će biti naplate.</li>
+        <li data-sr="Broj pošiljke iz poruke možeš proveriti direktno na sajtu kurira bez klika na link." data-en="The tracking number from the message can be checked directly on the courier website without clicking the link.">Broj pošiljke iz poruke možeš proveriti direktno na sajtu kurira bez klika na link.</li>
       </ul>
     </section>
 
     <!-- POVEZANE PREVARE -->
-    <section class="content-section">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <ul class="bullets">
-        <li><a href="parcel-scam.html" data-sr="Prevara s paketom — lažne obaveštenja o pošiljkama sa zahtevom za uplatu." data-en="Parcel scam — fake shipment notifications requesting payment.">Prevara s paketom — lažne obaveštenja o pošiljkama sa zahtevom za uplatu</a></li>
-        <li><a href="package-redelivery-scam.html" data-sr="Prevara s ponovnom dostavom — lažni zahtevi za zakazivanje dostave." data-en="Package redelivery scam — fake requests to reschedule delivery.">Prevara s ponovnom dostavom — lažni zahtevi za zakazivanje dostave</a></li>
-        <li><a href="smishing.html" data-sr="Smishing — SMS prevare sa lažnim linkovima." data-en="Smishing — SMS scams with fake links.">Smishing — SMS prevare sa lažnim linkovima</a></li>
-        <li><a href="phishing.html" data-sr="Fišing — lažne stranice koje kradu podatke." data-en="Phishing — fake pages that steal data.">Fišing — lažne stranice koje kradu podatke</a></li>
-        <li><a href="card-not-present-fraud.html" data-sr="Card-not-present prevara — zloupotreba ukradenih podataka kartice." data-en="Card-not-present fraud — misuse of stolen card data.">Card-not-present prevara — zloupotreba ukradenih podataka kartice</a></li>
-      </ul>
-    </section>
+    
 
     <!-- 8) IZVORI -->
-    <section class="card sources" id="sources">
-      <h2 data-sr="Izvori" data-en="Sources">Izvori</h2>
-      <ul>
-        <li><a href="https://www.dhl.com/global-en/home/footer/fraud-awareness.html" target="_blank" rel="noopener noreferrer">DHL — Fraud awareness</a></li>
-        <li><a href="https://www.ups.com/us/en/support/fraud-protection.page" target="_blank" rel="noopener noreferrer">UPS — Fraud protection</a></li>
-        <li><a href="https://consumer.ftc.gov/articles/delivery-scams-and-what-do-about-them" target="_blank" rel="noopener noreferrer">FTC — Delivery scams</a></li>
-      </ul>
-    </section>
-  `
+`
 };

@@ -1,4 +1,4 @@
-﻿window.SCAM_CONTENT = window.SCAM_CONTENT || {};
+window.SCAM_CONTENT = window.SCAM_CONTENT || {};
 
 window.SCAM_CONTENT["ddos-extortion"] = {
   raw_html: `
@@ -14,19 +14,19 @@ window.SCAM_CONTENT["ddos-extortion"] = {
       >DDoS ucena je šema u kojoj napadač lansira ili preti distribuiranim napadom uskraćivanja usluge (DDoS) i zahteva uplatu da bi napad zaustavio ili sprečio. Napadač ne mora da probije sisteme organizacije — dovoljno je da može da ih učini nedostupnima za korisnike. Trošak zastoja (izgubljeni prihodi, reputaciona šteta, regulatorne kazne) napadač koristi kao osnov za cenu otkupa.</p>
 
       <p
-        data-sr="Postoje dva oblika DDoS ucene: ucena bez prethodnog napada (napadač šalje prijetnju sa dokazom kapaciteta — npr. referencom na prethodni napad neke organizacije — i traži uplatu pre napada) i ucena uz probni napad (napadač prvo lansira kratki napad da bi demonstrirao kapacitet, zatim šalje zahtev za uplatu uz rok). Drugi oblik je ubedljiviji i češći jer prijetnja nije samo reč."
+        data-sr="Postoje dva oblika DDoS ucene: ucena bez prethodnog napada (napadač šalje pretnju sa dokazom kapaciteta — npr. referencom na prethodni napad neke organizacije — i traži uplatu pre napada) i ucena uz probni napad (napadač prvo lansira kratki napad da bi demonstrirao kapacitet, zatim šalje zahtev za uplatu uz rok). Drugi oblik je ubedljiviji i češći jer pretnja nije samo reč."
         data-en="DDoS extortion appears in two forms: extortion without a prior attack (the attacker sends a threat with proof of capacity — e.g., referencing a previous attack on another organization — and demands payment before launching) and extortion with a warning attack (the attacker first launches a brief attack to demonstrate capability, then sends a payment demand with a deadline). The second form is more convincing and more common because the threat is not just words."
-      >Postoje dva oblika DDoS ucene: ucena bez prethodnog napada (napadač šalje prijetnju sa dokazom kapaciteta — npr. referencom na prethodni napad neke organizacije — i traži uplatu pre napada) i ucena uz probni napad (napadač prvo lansira kratki napad da bi demonstrirao kapacitet, zatim šalje zahtev za uplatu uz rok). Drugi oblik je ubedljiviji i češći jer prijetnja nije samo reč.</p>
+      >Postoje dva oblika DDoS ucene: ucena bez prethodnog napada (napadač šalje pretnju sa dokazom kapaciteta — npr. referencom na prethodni napad neke organizacije — i traži uplatu pre napada) i ucena uz probni napad (napadač prvo lansira kratki napad da bi demonstrirao kapacitet, zatim šalje zahtev za uplatu uz rok). Drugi oblik je ubedljiviji i češći jer pretnja nije samo reč.</p>
 
       <div class="callout"
-        data-sr="<strong>Model:</strong> identifikacija mete → probni napad ili prijetnja → ucenička poruka sa rokom → eskalacija napada ako se ne isplati → pregovori → uplata ili kontinuirani napad."
+        data-sr="<strong>Model:</strong> identifikacija mete → probni napad ili pretnja → ucenjivačka poruka sa rokom → eskalacija napada ako se ne isplati → pregovori → uplata ili kontinuirani napad."
         data-en="<strong>Model:</strong> target identification → warning attack or threat → extortion message with deadline → attack escalation if unpaid → negotiations → payment or continued attack."
-      ><strong>Model:</strong> identifikacija mete → probni napad ili prijetnja → ucenička poruka sa rokom → eskalacija napada ako se ne isplati → pregovori → uplata ili kontinuirani napad.</div>
+      ><strong>Model:</strong> identifikacija mete → probni napad ili pretnja → ucenjivačka poruka sa rokom → eskalacija napada ako se ne isplati → pregovori → uplata ili kontinuirani napad.</div>
 
       <div class="callout"
-        data-sr="<strong>Prag:</strong> servisna disrupcija ili ucenička poruka sa konkretnim zahtevom. Organizacija mora brzo da odluči: platiti, mitigovati napad ili ignorisati prijetnju."
+        data-sr="<strong>Prag:</strong> servisna disrupcija ili ucenjivačka poruka sa konkretnim zahtevom. Organizacija mora brzo da odluči: platiti, mitigovati napad ili ignorisati pretnju."
         data-en="<strong>Threshold:</strong> service disruption or extortion message with a concrete demand. The organization must quickly decide: pay, mitigate the attack, or ignore the threat."
-      ><strong>Prag:</strong> servisna disrupcija ili ucenička poruka sa konkretnim zahtevom. Organizacija mora brzo da odluči: platiti, mitigovati napad ili ignorisati prijetnju.</div>
+      ><strong>Prag:</strong> servisna disrupcija ili ucenjivačka poruka sa konkretnim zahtevom. Organizacija mora brzo da odluči: platiti, mitigovati napad ili ignorisati pretnju.</div>
     </section>
 
     <!-- 2) KAKO GENERALNO RADI -->
@@ -56,7 +56,7 @@ window.SCAM_CONTENT["ddos-extortion"] = {
           <ul class="bullets">
             <li data-sr="RDDoS grupe sa ustaljenim imenima i dokazanom istorijom napada." data-en="RDDoS groups with established names and a proven attack history.">RDDoS grupe sa ustaljenim imenima i dokazanom istorijom napada.</li>
             <li data-sr="imitatori koji kopiraju ime poznate grupe bez stvarnog kapaciteta." data-en="imitators who copy the name of a known group without real capacity.">imitatori koji kopiraju ime poznate grupe bez stvarnog kapaciteta.</li>
-            <li data-sr="napadači koji kombinuju DDoS sa ransomwareom ili ucenoj podataka." data-en="attackers who combine DDoS with ransomware or data extortion.">napadači koji kombinuju DDoS sa ransomwareom ili ucenoj podataka.</li>
+            <li data-sr="napadači koji kombinuju DDoS sa ransomwareom ili iznudom podataka." data-en="attackers who combine DDoS with ransomware or data extortion.">napadači koji kombinuju DDoS sa ransomwareom ili iznudom podataka.</li>
             <li data-sr="konkurenti koji iznajmljuju DDoS servis kao poslovni alat." data-en="competitors who rent DDoS services as a business tool.">konkurenti koji iznajmljuju DDoS servis kao poslovni alat.</li>
           </ul>
         </div>
@@ -98,19 +98,19 @@ window.SCAM_CONTENT["ddos-extortion"] = {
 
       <!-- FAZA 2 -->
       <article class="phase warn">
-        <h3 class="phase-title" data-sr="Faza 2 — Probni napad i ucenička poruka" data-en="Phase 2 — Warning attack and extortion message">
-          Faza 2 — Probni napad i ucenička poruka
+        <h3 class="phase-title" data-sr="Faza 2 — Probni napad i ucenjivačka poruka" data-en="Phase 2 — Warning attack and extortion message">
+          Faza 2 — Probni napad i ucenjivačka poruka
         </h3>
 
         <p
-          data-sr="Napadač lansira kratak DDoS napad (najčešće 15–30 minuta) koji uzrokuje primetnu servisnu degradaciju ili potpuni zastoj. Odmah zatim, ili pre napada u nekim varijantama, šalje ucenjivačku poruku sa iznosom i rokom. Kratki napad služi kao demonstracija i dokaz da prijetnja nije prazna."
+          data-sr="Napadač lansira kratak DDoS napad (najčešće 15–30 minuta) koji uzrokuje primetnu servisnu degradaciju ili potpuni zastoj. Odmah zatim, ili pre napada u nekim varijantama, šalje ucenjivačku poruku sa iznosom i rokom. Kratki napad služi kao demonstracija i dokaz da pretnja nije prazna."
           data-en="The attacker launches a brief DDoS attack (typically 15–30 minutes) that causes noticeable service degradation or complete outage. Immediately after, or before the attack in some variants, an extortion message is sent with an amount and deadline. The brief attack serves as a demonstration and proof that the threat is not empty."
-        >Napadač lansira kratak DDoS napad (najčešće 15–30 minuta) koji uzrokuje primetnu servisnu degradaciju ili potpuni zastoj. Odmah zatim, ili pre napada u nekim varijantama, šalje ucenjivačku poruku sa iznosom i rokom. Kratki napad služi kao demonstracija i dokaz da prijetnja nije prazna.</p>
+        >Napadač lansira kratak DDoS napad (najčešće 15–30 minuta) koji uzrokuje primetnu servisnu degradaciju ili potpuni zastoj. Odmah zatim, ili pre napada u nekim varijantama, šalje ucenjivačku poruku sa iznosom i rokom. Kratki napad služi kao demonstracija i dokaz da pretnja nije prazna.</p>
 
         <ul class="bullets">
           <li data-sr="poruka naznačava konkretnu grupu ili pseudonim koji meta može proveriti online." data-en="message identifies a specific group or pseudonym the target can verify online.">poruka naznačava konkretnu grupu ili pseudonim koji meta može proveriti online.</li>
           <li data-sr="iznos je izračunat u odnosu na procenjeni trošak zastoja za metu." data-en="amount is calculated relative to the estimated downtime cost for the target.">iznos je izračunat u odnosu na procenjeni trošak zastoja za metu.</li>
-          <li data-sr="rok je kratak: 24–72 sata, uz prijetnju trajnog ili ponavljanog napada." data-en="deadline is short: 24–72 hours, with a threat of a permanent or repeated attack.">rok je kratak: 24–72 sata, uz prijetnju trajnog ili ponavljanog napada.</li>
+          <li data-sr="rok je kratak: 24–72 sata, uz pretnju trajnog ili ponavljanog napada." data-en="deadline is short: 24–72 hours, with a threat of a permanent or repeated attack.">rok je kratak: 24–72 sata, uz pretnju trajnog ili ponavljanog napada.</li>
         </ul>
 
         <div class="callout"
@@ -126,9 +126,9 @@ window.SCAM_CONTENT["ddos-extortion"] = {
         </h3>
 
         <p
-          data-sr="Ako rok prođe bez isplate, napadač ima dve opcije: lansira puni napad ili prolongira prijetnju uz povećanje iznosa. Potpuni napad može biti volumetrički (preplavljuje mrežnu propusnost), protokolarni (iscrpljuje resurse mrežne opreme) ili aplikativni (ciljane HTTP zahteve ka određenim funkcijama). Svaka vrsta zahteva različitu mitigaciju."
+          data-sr="Ako rok prođe bez isplate, napadač ima dve opcije: lansira puni napad ili prolongira pretnju uz povećanje iznosa. Potpuni napad može biti volumetrički (preplavljuje mrežnu propusnost), protokolarni (iscrpljuje resurse mrežne opreme) ili aplikativni (ciljane HTTP zahteve ka određenim funkcijama). Svaka vrsta zahteva različitu mitigaciju."
           data-en="If the deadline passes without payment, the attacker has two options: launch the full attack or extend the threat while increasing the amount. A full attack can be volumetric (floods network bandwidth), protocol-based (exhausts network equipment resources), or application-layer (targeted HTTP requests against specific functions). Each type requires different mitigation."
-        >Ako rok prođe bez isplate, napadač ima dve opcije: lansira puni napad ili prolongira prijetnju uz povećanje iznosa. Potpuni napad može biti volumetrički (preplavljuje mrežnu propusnost), protokolarni (iscrpljuje resurse mrežne opreme) ili aplikativni (ciljane HTTP zahteve ka određenim funkcijama). Svaka vrsta zahteva različitu mitigaciju.</p>
+        >Ako rok prođe bez isplate, napadač ima dve opcije: lansira puni napad ili prolongira pretnju uz povećanje iznosa. Potpuni napad može biti volumetrički (preplavljuje mrežnu propusnost), protokolarni (iscrpljuje resurse mrežne opreme) ili aplikativni (ciljane HTTP zahteve ka određenim funkcijama). Svaka vrsta zahteva različitu mitigaciju.</p>
 
         <div class="grid-2">
           <div class="phase">
@@ -168,14 +168,14 @@ window.SCAM_CONTENT["ddos-extortion"] = {
         </h3>
 
         <p
-          data-sr="Ako organizacija reaguje i kontaktira napadača, napadač može ponuditi smanjenje iznosa ili produženje roka kao „dobru volju"“. Cilj je uplata pre nego što mitigacija stupi na snagu“. Ako organizacija angažuje DDoS mitigacijski servis, napadač može povećati intenzitet ili promeniti vektore napada da zaobiđe mitigaciju."
+          data-sr="Ako organizacija reaguje i kontaktira napadača, napadač može ponuditi smanjenje iznosa ili produženje roka kao dobru volju. Cilj je uplata pre nego što mitigacija stupi na snagu. Ako organizacija angažuje DDoS mitigacijski servis, napadač može povećati intenzitet ili promeniti vektore napada da zaobiđe mitigaciju."
           data-en="If the organization responds and contacts the attacker, the attacker may offer a reduced amount or deadline extension as a goodwill gesture. The goal is payment before mitigation takes effect. If the organization engages a DDoS mitigation service, the attacker may increase attack intensity or change attack vectors to bypass mitigation."
-        >Ako organizacija reaguje i kontaktira napadača, napadač može ponuditi smanjenje iznosa ili produženje roka kao „dobru volju"“. Cilj je uplata pre nego što mitigacija stupi na snagu“. Ako organizacija angažuje DDoS mitigacijski servis, napadač može povećati intenzitet ili promeniti vektore napada da zaobiđe mitigaciju.</p>
+        >Ako organizacija reaguje i kontaktira napadača, napadač može ponuditi smanjenje iznosa ili produženje roka kao dobru volju. Cilj je uplata pre nego što mitigacija stupi na snagu. Ako organizacija angažuje DDoS mitigacijski servis, napadač može povećati intenzitet ili promeniti vektore napada da zaobiđe mitigaciju.</p>
 
         <ul class="bullets">
           <li data-sr="uplata ne garantuje permanentni prestanak napada od iste grupe." data-en="payment does not guarantee a permanent end to attacks from the same group.">uplata ne garantuje permanentni prestanak napada od iste grupe.</li>
           <li data-sr="uplata može signalizirati drugima da je organizacija platila i da će platiti ponovo." data-en="payment can signal to others that the organization paid and will pay again.">uplata može signalizirati drugima da je organizacija platila i da će platiti ponovo.</li>
-          <li data-sr="imitatori koji čuju za napad mogu poslati sopstvene ucenničke poruke." data-en="imitators who hear about the attack may send their own extortion messages.">imitatori koji čuju za napad mogu poslati sopstvene ucenničke poruke.</li>
+          <li data-sr="imitatori koji čuju za napad mogu poslati sopstvene ucenjivačke poruke." data-en="imitators who hear about the attack may send their own extortion messages.">imitatori koji čuju za napad mogu poslati sopstvene ucenjivačke poruke.</li>
         </ul>
 
         <div class="callout"
@@ -208,9 +208,9 @@ window.SCAM_CONTENT["ddos-extortion"] = {
       <ul class="bullets">
         <li data-sr="servis postaje spor ili nedostupan bez poznate tehničke greške." data-en="service becomes slow or unavailable without a known technical error.">servis postaje spor ili nedostupan bez poznate tehničke greške.</li>
         <li data-sr="enormna količina saobraćaja iz geografski raštrkanih IP adresa u kratkom periodu." data-en="enormous traffic volume from geographically scattered IP addresses in a short period.">enormna količina saobraćaja iz geografski raštrkanih IP adresa u kratkom periodu.</li>
-        <li data-sr="ucenička poruka stiže uz tvrdnju da su napadači odgovorni za disrupciju." data-en="extortion message arrives claiming the attackers are responsible for the disruption.">ucenička poruka stiže uz tvrdnju da su napadači odgovorni za disrupciju.</li>
+        <li data-sr="ucenjivačka poruka stiže uz tvrdnju da su napadači odgovorni za disrupciju." data-en="extortion message arrives claiming the attackers are responsible for the disruption.">ucenjivačka poruka stiže uz tvrdnju da su napadači odgovorni za disrupciju.</li>
         <li data-sr="poruka sadrži kriptovalutnu adresu i kratak rok za uplatu." data-en="message contains a cryptocurrency address and a short payment deadline.">poruka sadrži kriptovalutnu adresu i kratak rok za uplatu.</li>
-        <li data-sr="napadač se identifikuje kao poznata RDDoS grupa sa verifikabilnom istorijom." data-en="attacker identifies as a known RDDoS group with a verifiable history.">napadač se identifikuje kao poznata RDDoS grupa sa verifikabilnom historijom.</li>
+        <li data-sr="napadač se identifikuje kao poznata RDDoS grupa sa verifikabilnom historijom." data-en="attacker identifies as a known RDDoS group with a verifiable history.">napadač se identifikuje kao poznata RDDoS grupa sa verifikabilnom historijom.</li>
         <li data-sr="kratki probni napad prethodi ucenjivačkoj poruci." data-en="a brief warning attack precedes the extortion message.">kratki probni napad prethodi ucenjivačkoj poruci.</li>
         <li data-sr="napadač preti napadima u vrhunskim sezoni ako se ne isplati sada." data-en="attacker threatens attacks during peak season if not paid now.">napadač preti napadima u vrhunskim sezoni ako se ne isplati sada.</li>
       </ul>
@@ -221,18 +221,18 @@ window.SCAM_CONTENT["ddos-extortion"] = {
       <h2 data-sr="Provere: 8 brzih provera" data-en="Checks: 8 quick checks">Provere: 8 brzih provera</h2>
 
       <p
-        data-sr="Cilj provera je utvrditi da li je napadač zaista sposoban za napad koji preti, ili je prijetnja prazna imitacija. Ovo menja ekonomičnost odgovora."
+        data-sr="Cilj provera je utvrditi da li je napadač zaista sposoban za napad koji preti, ili je pretnja prazna imitacija. Ovo menja ekonomičnost odgovora."
         data-en="The goal of checks is to determine whether the attacker is genuinely capable of the threatened attack, or whether the threat is an empty imitation. This changes the economics of the response."
-      >Cilj provera je utvrditi da li je napadač zaista sposoban za napad koji preti, ili je prijetnja prazna imitacija. Ovo menja ekonomičnost odgovora.</p>
+      >Cilj provera je utvrditi da li je napadač zaista sposoban za napad koji preti, ili je pretnja prazna imitacija. Ovo menja ekonomičnost odgovora.</p>
 
       <div class="grid-2">
         <div class="phase">
-          <div class="label" data-sr="Procena prijetnje" data-en="Threat assessment">Procena prijetnje</div>
+          <div class="label" data-sr="Procena pretnje" data-en="Threat assessment">Procena pretnje</div>
           <ul class="bullets">
             <li data-sr="da li je probni napad dokumentovan u saobraćajnim logovima?" data-en="is the warning attack documented in traffic logs?">da li je probni napad dokumentovan u saobraćajnim logovima?</li>
             <li data-sr="da li je napadačeva grupa poznata i da li ima verifikabilnu istoriju?" data-en="is the attacker group known and does it have a verifiable history?">da li je napadačeva grupa poznata i da li ima verifikabilnu istoriju?</li>
             <li data-sr="da li su volumeni napada u skladu sa najavom ili su manji?" data-en="are attack volumes consistent with the announcement or smaller?">da li su volumeni napada u skladu sa najavom ili su manji?</li>
-            <li data-sr="da li je prijetnja poslata masovno ili specifično za ovu organizaciju?" data-en="was the threat sent massively or specifically targeting this organization?">da li je prijetnja poslata masovno ili specifično za ovu organizaciju?</li>
+            <li data-sr="da li je pretnja poslata masovno ili specifično za ovu organizaciju?" data-en="was the threat sent massively or specifically targeting this organization?">da li je pretnja poslata masovno ili specifično za ovu organizaciju?</li>
           </ul>
         </div>
 
@@ -253,12 +253,12 @@ window.SCAM_CONTENT["ddos-extortion"] = {
       <h2 data-sr="Checklista: 10 pitanja pre odluke o odgovoru na DDoS ucenu" data-en="Checklist: 10 questions before deciding on DDoS extortion response">Checklista: 10 pitanja pre odluke o odgovoru na DDoS ucenu</h2>
 
       <p class="muted"
-        data-sr="Odgovor na DDoS ucenu mora biti brz ali ne i paniičan. Ovaj blok daje okvir za smirenu procenu."
+        data-sr="Odgovor na DDoS ucenu mora biti brz ali ne i paničan. Ovaj blok daje okvir za smirenu procenu."
         data-en="The response to DDoS extortion must be fast but not panicked. This block provides a framework for calm assessment."
-      >Odgovor na DDoS ucenu mora biti brz ali ne i paniičan. Ovaj blok daje okvir za smirenu procenu.</p>
+      >Odgovor na DDoS ucenu mora biti brz ali ne i paničan. Ovaj blok daje okvir za smirenu procenu.</p>
 
       <ul class="bullets">
-        <li data-sr="Da li saobraćajni logovi potvrđuju probni napad ili je to samo prijetnja bez dokaza?" data-en="Do traffic logs confirm a warning attack, or is it only a threat without evidence?">Da li saobraćajni logovi potvrđuju probni napad ili je to samo prijetnja bez dokaza?</li>
+        <li data-sr="Da li saobraćajni logovi potvrđuju probni napad ili je to samo pretnja bez dokaza?" data-en="Do traffic logs confirm a warning attack, or is it only a threat without evidence?">Da li saobraćajni logovi potvrđuju probni napad ili je to samo pretnja bez dokaza?</li>
         <li data-sr="Da li je napadačeva grupa poznata i da li ima istoriju ispoštovanih obećanja posle isplate?" data-en="Is the attacker group known and does it have a history of honoring promises after payment?">Da li je napadačeva grupa poznata i da li ima istoriju ispoštovanih obećanja posle isplate?</li>
         <li data-sr="Da li je mitigacijski servis (CDN, scrubbing centar) dostupan i koliko brzo se aktivira?" data-en="Is a mitigation service (CDN, scrubbing center) available and how quickly can it be activated?">Da li je mitigacijski servis (CDN, scrubbing centar) dostupan i koliko brzo se aktivira?</li>
         <li data-sr="Koji je trošak zastoja po satu u poređenju sa zahtevom za otkupom?" data-en="What is the downtime cost per hour compared to the ransom demand?">Koji je trošak zastoja po satu u poređenju sa zahtevom za otkupom?</li>
@@ -267,7 +267,7 @@ window.SCAM_CONTENT["ddos-extortion"] = {
         <li data-sr="Da li je incident prijavljen policiji i CERT-u?" data-en="Has the incident been reported to police and CERT?">Da li je incident prijavljen policiji i CERT-u?</li>
         <li data-sr="Da li postoji plan komunikacije prema klijentima o eventualnom zastoju?" data-en="Is there a communication plan for clients about a potential outage?">Da li postoji plan komunikacije prema klijentima o eventualnom zastoju?</li>
         <li data-sr="Da li ISP može privremeno da filtrira saobraćaj pre aktivacije mitigacije?" data-en="Can the ISP temporarily filter traffic before mitigation is activated?">Da li ISP može privremeno da filtrira saobraćaj pre aktivacije mitigacije?</li>
-        <li data-sr="Da li je ovo masovna prijetnja poslata hiljadama organizacija ili ciljana?" data-en="Is this a mass threat sent to thousands of organizations or a targeted one?">Da li je ovo masovna prijetnja poslata hiljadama organizacija ili ciljana?</li>
+        <li data-sr="Da li je ovo masovna pretnja poslata hiljadama organizacija ili ciljana?" data-en="Is this a mass threat sent to thousands of organizations or a targeted one?">Da li je ovo masovna pretnja poslata hiljadama organizacija ili ciljana?</li>
       </ul>
     </section>
 
@@ -304,7 +304,7 @@ window.SCAM_CONTENT["ddos-extortion"] = {
           <ul class="bullets">
             <li data-sr="Da li saobraćajni logovi potvrđuju probni napad pre poruke?" data-en="Do traffic logs confirm a warning attack before the message?">Da li saobraćajni logovi potvrđuju probni napad pre poruke?</li>
             <li data-sr="Da li je mitigacijski servis dostupan i za koliko vremena može biti aktivan?" data-en="Is a mitigation service available and how quickly can it be active?">Da li je mitigacijski servis dostupan i za koliko vremena može biti aktivan?</li>
-            <li data-sr="Da li je ovo masovna prijetnja ili ciljani napad na ovu organizaciju?" data-en="Is this a mass threat or a targeted attack on this organization?">Da li je ovo masovna prijetnja ili ciljani napad na ovu organizaciju?</li>
+            <li data-sr="Da li je ovo masovna pretnja ili ciljani napad na ovu organizaciju?" data-en="Is this a mass threat or a targeted attack on this organization?">Da li je ovo masovna pretnja ili ciljani napad na ovu organizaciju?</li>
             <li data-sr="Koji je trošak mitigacije u poređenju sa zahtevom za otkupom?" data-en="What is the mitigation cost compared to the ransom demand?">Koji je trošak mitigacije u poređenju sa zahtevom za otkupom?</li>
           </ul>
         </div>
@@ -312,34 +312,15 @@ window.SCAM_CONTENT["ddos-extortion"] = {
         <div class="phase">
           <div class="label" data-sr="Rečenice koje rade" data-en="Phrases that work">Rečenice koje rade</div>
           <ul class="bullets">
-            <li data-sr="Najpre proverimo logove — ako nema potvrde probnog napada, prijetnja je možda prazna." data-en="First let's check the logs — if there is no confirmation of a warning attack, the threat may be empty.">Najpre proverimo logove — ako nema potvrde probnog napada, prijetnja je možda prazna.</li>
+            <li data-sr="Najpre proverimo logove — ako nema potvrde probnog napada, pretnja je možda prazna." data-en="First let's check the logs — if there is no confirmation of a warning attack, the threat may be empty.">Najpre proverimo logove — ako nema potvrde probnog napada, pretnja je možda prazna.</li>
             <li data-sr="Mitigacijski servis aktiviran sada smanjuje atraktivnost mete za napadača." data-en="A mitigation service activated now reduces target attractiveness for the attacker.">Mitigacijski servis aktiviran sada smanjuje atraktivnost mete za napadača.</li>
             <li data-sr="Isplata signalizira da organizacija plaća, što privlači nove zahteve." data-en="Payment signals that the organization pays, which attracts new demands.">Isplata signalizira da organizacija plaća, što privlači nove zahteve.</li>
-            <li data-sr="Prijava policiji ne koštate vreme — vođenje tog procesa može ići paralelno." data-en="Reporting to police doesn't cost time — that process can run in parallel.">Prijava policiji ne koštate vreme — vođenje tog procesa može ići paralelno.</li>
+            <li data-sr="Prijava policiji ne košta vreme — vođenje tog procesa može ići paralelno." data-en="Reporting to police doesn't cost time — that process can run in parallel.">Prijava policiji ne košta vreme — vođenje tog procesa može ići paralelno.</li>
           </ul>
         </div>
       </div>
     </section>
 
     <!-- 9) IZVORI -->
-
-<section class="content-section">
-  <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-  <ul class="bullets">
-    <li><a href="ransomware-orgs.html" data-sr="Ransomware napad" data-en="Ransomware attack">Ransomware napad</a></li>
-    <li><a href="data-breach-extortion.html" data-sr="Iznuda podacima" data-en="Data breach extortion">Iznuda podacima</a></li>
-    <li><a href="phishing.html" data-sr="Fišing" data-en="Phishing">Fišing</a></li>
-    <li><a href="impersonation-scam.html" data-sr="Lazno predstavljanje" data-en="Impersonation scam">Lazno predstavljanje</a></li>
-  </ul>
-</section>
-
-<section class="card sources" id="sources">
-      <h2 data-sr="Izvori" data-en="Sources">Izvori</h2>
-      <ul>
-        <li><a href="https://www.cisa.gov/news-events/news/understanding-and-responding-ddos-attacks" target="_blank" rel="noopener noreferrer">CISA — Understanding and Responding to DDoS Attacks</a></li>
-        <li><a href="https://www.ic3.gov" target="_blank" rel="noopener noreferrer">FBI IC3 — Internet Crime Complaint Center</a></li>
-        <li><a href="https://www.cloudflare.com/learning/ddos/ddos-ransom-attack/" target="_blank" rel="noopener noreferrer">Cloudflare — DDoS Ransom Attacks</a></li>
-      </ul>
-    </section>
-  `
+`
 };

@@ -20,9 +20,9 @@ window.SCAM_CONTENT["vishing"] = {
       >Napadač ne prodaje ništa i ne nudi nagradu. Rešava problem koji je sam konstruisao. Tempo razgovora drži napadač: pitanja su presecana, verifikacija je odlagana, hitnost se pojačava sa svakim minutom. Poziv je operacija, ne razgovor.</p>
 
       <div class="callout"
-        data-sr="<strong>Prag:</strong> čitanje OTP koda, potvrda u aplikaciji, davanje lozinke, prenos na „siguran račun", instalacija aplikacije“. Posle praga napadač preuzima kontrolu nad nalogom, karticom ili sredstvima."
-        data-en="<strong>Threshold:</strong> reading an OTP code, app approval, giving a password, transferring to a &quot;safe account&quot;, installing an app. After the threshold, the attacker gains control over the account, card, or funds."
-      ><strong>Prag:</strong> čitanje OTP koda, potvrda u aplikaciji, davanje lozinke, prenos na „siguran račun“, instalacija aplikacije. Posle praga napadač preuzima kontrolu nad nalogom, karticom ili sredstvima.</div>
+        data-sr="<strong>Prag:</strong> čitanje OTP koda, potvrda u aplikaciji, davanje lozinke, prenos na siguran račun, instalacija aplikacije. Posle praga napadač preuzima kontrolu nad nalogom, karticom ili sredstvima."
+        data-en="<strong>Threshold:</strong> reading an OTP code, app approval, giving a password, transferring to a safe account, installing an app. After the threshold, the attacker gains control over the account, card, or funds."
+      ><strong>Prag:</strong> čitanje OTP koda, potvrda u aplikaciji, davanje lozinke, prenos na siguran račun, instalacija aplikacije. Posle praga napadač preuzima kontrolu nad nalogom, karticom ili sredstvima.</div>
 
       <div class="callout"
         data-sr="<strong>Model:</strong> poziv + autoritet → incident + rok → izolacija od provere → prag (OTP/lozinka/prenos/pristup) → serijska šteta → talas prevare povraćaja."
@@ -48,8 +48,8 @@ window.SCAM_CONTENT["vishing"] = {
           <ul class="bullets">
             <li data-sr="spoofovani broj koji izgleda kao banka ili institucija." data-en="spoofed number appearing as a bank or institution.">spoofovani broj koji izgleda kao banka ili institucija.</li>
             <li data-sr="službeni ton, terminologija, broj predmeta ili slučaja." data-en="official tone, terminology, case or reference number.">službeni ton, terminologija, broj predmeta ili slučaja.</li>
-            <li data-sr="„prebacivanje na supervizora“ kao pojačanje autoriteta." data-en="&quot;transferring to a supervisor&quot; as an authority boost.">„prebacivanje na supervizora“ kao pojačanje autoriteta.</li>
-            <li data-sr="insistiranje da meta „ne sme da otkriva nikome." data-en="insisting that the target &quot;must not tell anyone&quot;.">insistiranje da meta „ne sme da otkriva nikome“.</li>
+            <li data-sr="prebacivanje na supervizora kao pojačanje autoriteta." data-en="transferring to a supervisor as an authority boost.">prebacivanje na supervizora kao pojačanje autoriteta.</li>
+            <li data-sr="insistiranje da meta ne sme da otkriva nikome." data-en="insisting that the target must not tell anyone.">insistiranje da meta ne sme da otkriva nikome.</li>
           </ul>
         </div>
 
@@ -58,8 +58,8 @@ window.SCAM_CONTENT["vishing"] = {
           <ul class="bullets">
             <li data-sr="incident postavlja hitnost: transakcija, istraga, paket, SIM." data-en="incident sets urgency: transaction, investigation, package, SIM.">incident postavlja hitnost: transakcija, istraga, paket, SIM.</li>
             <li data-sr="radnja se predstavlja kao jedini način da se incident zaustavi." data-en="action is presented as the only way to stop the incident.">radnja se predstavlja kao jedini način da se incident zaustavi.</li>
-            <li data-sr="rok je kratak: „sledećih 10 minuta“, „pre krađa radnog vremena." data-en="deadline is short: &quot;next 10 minutes&quot;, &quot;before end of business&quot;.">rok je kratak: „sledećih 10 minuta“, „pre krađa radnog vremena“.</li>
-            <li data-sr="svaki pokušaj provere se odbija kao „gubitak vremena." data-en="every verification attempt is dismissed as &quot;wasting time&quot;.">svaki pokušaj provere se odbija kao „gubitak vremena“.</li>
+            <li data-sr="rok je kratak: sledećih 10 minuta, pre krađa radnog vremena." data-en="deadline is short: next 10 minutes, before end of business.">rok je kratak: sledećih 10 minuta, pre krađa radnog vremena.</li>
+            <li data-sr="svaki pokušaj provere se odbija kao gubitak vremena." data-en="every verification attempt is dismissed as wasting time.">svaki pokušaj provere se odbija kao gubitak vremena.</li>
           </ul>
         </div>
       </div>
@@ -85,9 +85,9 @@ window.SCAM_CONTENT["vishing"] = {
         >Faza 1 — Kontakt: uspostavljanje autoritetnog okvira</h3>
 
         <p
-          data-sr="Poziv stiže sa spoofovanim brojem ili „+0“ prefiksom koji izgleda zvanično. Napadač se predstavlja kao zaposleni u banci, policiji, kurirskoj službi, operateru ili tehničkoj podršci. Incident se uvodi odmah: „detektovali smo sumnjivu aktivnost."
-          data-en="The call arrives with a spoofed number or a &quot;+0&quot; prefix that looks official. The attacker introduces themselves as a bank employee, police officer, courier, carrier, or tech support. The incident is introduced immediately: &quot;we detected suspicious activity&quot;."
-        >Poziv stiže sa spoofovanim brojem ili „+0“ prefiksom koji izgleda zvanično. Napadač se predstavlja kao zaposleni u banci, policiji, kurirskoj službi, operateru ili tehničkoj podršci. Incident se uvodi odmah: „detektovali smo sumnjivu aktivnost“.</p>
+          data-sr="Poziv stiže sa spoofovanim brojem ili +0 prefiksom koji izgleda zvanično. Napadač se predstavlja kao zaposleni u banci, policiji, kurirskoj službi, operateru ili tehničkoj podršci. Incident se uvodi odmah: detektovali smo sumnjivu aktivnost."
+          data-en="The call arrives with a spoofed number or a +0 prefix that looks official. The attacker introduces themselves as a bank employee, police officer, courier, carrier, or tech support. The incident is introduced immediately: we detected suspicious activity."
+        >Poziv stiže sa spoofovanim brojem ili +0 prefiksom koji izgleda zvanično. Napadač se predstavlja kao zaposleni u banci, policiji, kurirskoj službi, operateru ili tehničkoj podršci. Incident se uvodi odmah: detektovali smo sumnjivu aktivnost.</p>
 
         <ul class="bullets">
           <li data-sr="broj koji poziva izgleda kao broj banke ili institucije." data-en="the calling number looks like a bank or institution number.">broj koji poziva izgleda kao broj banke ili institucije.</li>
@@ -116,7 +116,7 @@ window.SCAM_CONTENT["vishing"] = {
 
         <ul class="bullets">
           <li data-sr="pominjanje tačnih iznosa, datuma ili lokacija stvara uverenje." data-en="mentioning exact amounts, dates, or locations creates credibility.">pominjanje tačnih iznosa, datuma ili lokacija stvara uverenje.</li>
-          <li data-sr="incident je vremenski ograničen: „sledeća 3 minuta su ključna." data-en="the incident is time-limited: &quot;the next 3 minutes are critical&quot;.">incident je vremenski ograničen: „sledeća 3 minuta su ključna“.</li>
+          <li data-sr="incident je vremenski ograničen: sledeća 3 minuta su ključna." data-en="the incident is time-limited: the next 3 minutes are critical.">incident je vremenski ograničen: sledeća 3 minuta su ključna.</li>
           <li data-sr="metama se sugeriše da su žrtve krađe ili greške sistema." data-en="targets are suggested to be victims of theft or a system error.">metama se sugeriše da su žrtve krađe ili greške sistema.</li>
           <li data-sr="eskalacija tona ako meta pokuša da postavi pitanje." data-en="tone escalates if the target tries to ask a question.">eskalacija tona ako meta pokuša da postavi pitanje.</li>
         </ul>
@@ -127,9 +127,9 @@ window.SCAM_CONTENT["vishing"] = {
         >Prag faze 2: meta veruje da je incident realan i da treba da reaguje brzo.</p>
 
         <div class="note"
-          data-sr="Grananja u ovoj fazi: ako meta ne reaguje na hitnost → prebacivanje na lažnu policiju ili „supervizora“; ako meta traži verifikaciju → „verifikacija se ne može uraditi telefonom."
-          data-en="Branching in this phase: if the target does not respond to urgency → transfer to fake police or a &quot;supervisor&quot;; if the target requests verification → &quot;verification cannot be done over the phone&quot;."
-        >Grananja u ovoj fazi: ako meta ne reaguje na hitnost → prebacivanje na lažnu policiju ili „supervizora“; ako meta traži verifikaciju → „verifikacija se ne može uraditi telefonom“.</div>
+          data-sr="Grananja u ovoj fazi: ako meta ne reaguje na hitnost → prebacivanje na lažnu policiju ili supervizora; ako meta traži verifikaciju → verifikacija se ne može uraditi telefonom."
+          data-en="Branching in this phase: if the target does not respond to urgency → transfer to fake police or a supervisor; if the target requests verification → verification cannot be done over the phone."
+        >Grananja u ovoj fazi: ako meta ne reaguje na hitnost → prebacivanje na lažnu policiju ili supervizora; ako meta traži verifikaciju → verifikacija se ne može uraditi telefonom.</div>
       </article>
 
       <!-- Faza 3 -->
@@ -140,15 +140,15 @@ window.SCAM_CONTENT["vishing"] = {
         >Faza 3 — Izolacija: zabrana konsultacije</h3>
 
         <p
-          data-sr="Ključna faza vishinga: napadač eksplicitno zabranjuje meti da kontaktira bilo koga, odloži poziv ili proveri pozivaoca. Razlog je uvek „zaštita istrage“ ili „sprečavanje curenja“. U stvarnosti izoluje metu od svakog ko bi mogao prepoznati prevaru."
-          data-en="The critical vishing phase: the attacker explicitly forbids the target from contacting anyone, putting the call on hold, or verifying the caller. The reason is always &quot;protecting the investigation&quot; or &quot;preventing leaks&quot;. In reality it isolates the target from anyone who might recognize the scam."
-        >Ključna faza vishinga: napadač eksplicitno zabranjuje meti da kontaktira bilo koga, odloži poziv ili proveri pozivaoca. Razlog je uvek „zaštita istrage“ ili „sprečavanje curenja“. U stvarnosti izoluje metu od svakog ko bi mogao prepoznati prevaru.</p>
+          data-sr="Ključna faza vishinga: napadač eksplicitno zabranjuje meti da kontaktira bilo koga, odloži poziv ili proveri pozivaoca. Razlog je uvek zaštita istrage ili sprečavanje curenja. U stvarnosti izoluje metu od svakog ko bi mogao prepoznati prevaru."
+          data-en="The critical vishing phase: the attacker explicitly forbids the target from contacting anyone, putting the call on hold, or verifying the caller. The reason is always protecting the investigation or preventing leaks. In reality it isolates the target from anyone who might recognize the scam."
+        >Ključna faza vishinga: napadač eksplicitno zabranjuje meti da kontaktira bilo koga, odloži poziv ili proveri pozivaoca. Razlog je uvek zaštita istrage ili sprečavanje curenja. U stvarnosti izoluje metu od svakog ko bi mogao prepoznati prevaru.</p>
 
         <ul class="bullets">
-          <li data-sr="„ne sme da odloži slušalicu jer se gubi veza sa sistemom." data-en="&quot;cannot hang up or the system connection will be lost&quot;.">„ne sme da odloži slušalicu jer se gubi veza sa sistemom“.</li>
-          <li data-sr="„ne sme da govori nikome jer je istraga poverljiva." data-en="&quot;cannot tell anyone because the investigation is confidential&quot;.">„ne sme da govori nikome jer je istraga poverljiva“.</li>
-          <li data-sr="„ne sme da zove banku direktno jer su kompromitovani." data-en="&quot;cannot call the bank directly because they are compromised&quot;.">„ne sme da zove banku direktno jer su kompromitovani“.</li>
-          <li data-sr="„ne sme da pita porodicu jer bi to upozorilo prevarante." data-en="&quot;cannot ask family because that would alert the fraudsters&quot;.">„ne sme da pita porodicu jer bi to upozorilo prevarante“.</li>
+          <li data-sr="ne sme da odloži slušalicu jer se gubi veza sa sistemom." data-en="cannot hang up or the system connection will be lost.">ne sme da odloži slušalicu jer se gubi veza sa sistemom.</li>
+          <li data-sr="ne sme da govori nikome jer je istraga poverljiva." data-en="cannot tell anyone because the investigation is confidential.">ne sme da govori nikome jer je istraga poverljiva.</li>
+          <li data-sr="ne sme da zove banku direktno jer su kompromitovani." data-en="cannot call the bank directly because they are compromised.">ne sme da zove banku direktno jer su kompromitovani.</li>
+          <li data-sr="ne sme da pita porodicu jer bi to upozorilo prevarante." data-en="cannot ask family because that would alert the fraudsters.">ne sme da pita porodicu jer bi to upozorilo prevarante.</li>
         </ul>
 
         <p class="muted"
@@ -165,16 +165,16 @@ window.SCAM_CONTENT["vishing"] = {
         >Faza 4 — Prag: izvlačenje autorizacije</h3>
 
         <p
-          data-sr="Napadač traži jedan konkretan korak koji opisuje kao proceduru zaštite. OTP kod je „potreban za blokadu transakcije“. Lozinka je „verifikacija identiteta“. Prenos na „siguran račun“ je „privremena zaštita sredstava“. Svaki od ovih koraka je u stvarnosti autorizacija koju napadač čeka."
-          data-en="The attacker requests one concrete step, described as a protection procedure. The OTP is &quot;needed to block the transaction&quot;. The password is &quot;identity verification&quot;. The transfer to a &quot;safe account&quot; is &quot;temporary asset protection&quot;. Each of these steps is actually the authorization the attacker is waiting for."
-        >Napadač traži jedan konkretan korak koji opisuje kao proceduru zaštite. OTP kod je „potreban za blokadu transakcije“. Lozinka je „verifikacija identiteta“. Prenos na „siguran račun“ je „privremena zaštita sredstava“. Svaki od ovih koraka je u stvarnosti autorizacija koju napadač čeka.</p>
+          data-sr="Napadač traži jedan konkretan korak koji opisuje kao proceduru zaštite. OTP kod je potreban za blokadu transakcije. Lozinka je verifikacija identiteta. Prenos na siguran račun je privremena zaštita sredstava. Svaki od ovih koraka je u stvarnosti autorizacija koju napadač čeka."
+          data-en="The attacker requests one concrete step, described as a protection procedure. The OTP is needed to block the transaction. The password is identity verification. The transfer to a safe account is temporary asset protection. Each of these steps is actually the authorization the attacker is waiting for."
+        >Napadač traži jedan konkretan korak koji opisuje kao proceduru zaštite. OTP kod je potreban za blokadu transakcije. Lozinka je verifikacija identiteta. Prenos na siguran račun je privremena zaštita sredstava. Svaki od ovih koraka je u stvarnosti autorizacija koju napadač čeka.</p>
 
         <ul class="bullets">
           <li data-sr="OTP kod koji stiže SMS-om — napadač čeka ga u realnom vremenu." data-en="OTP code arriving via SMS — attacker waits for it in real time.">OTP kod koji stiže SMS-om — napadač čeka ga u realnom vremenu.</li>
-          <li data-sr="potvrda u mobilnoj aplikaciji banke pod izgovorom „blokade." data-en="mobile banking app approval under the pretense of &quot;blocking&quot;.">potvrda u mobilnoj aplikaciji banke pod izgovorom „blokade“.</li>
-          <li data-sr="lozinka za nalog ili PIN kartice za „verifikaciju identiteta." data-en="account password or card PIN for &quot;identity verification&quot;.">lozinka za nalog ili PIN kartice za „verifikaciju identiteta“.</li>
-          <li data-sr="prenos novca na „siguran“ ili „privremeni“ nalog." data-en="money transfer to a &quot;safe&quot; or &quot;temporary&quot; account.">prenos novca na „siguran“ ili „privremeni“ nalog.</li>
-          <li data-sr="instalacija aplikacije za daljinski pristup „za dijagnostiku." data-en="installation of a remote access app &quot;for diagnostics&quot;.">instalacija aplikacije za daljinski pristup „za dijagnostiku“.</li>
+          <li data-sr="potvrda u mobilnoj aplikaciji banke pod izgovorom blokade." data-en="mobile banking app approval under the pretense of blocking.">potvrda u mobilnoj aplikaciji banke pod izgovorom blokade.</li>
+          <li data-sr="lozinka za nalog ili PIN kartice za verifikaciju identiteta." data-en="account password or card PIN for identity verification.">lozinka za nalog ili PIN kartice za verifikaciju identiteta.</li>
+          <li data-sr="prenos novca na siguran ili privremeni nalog." data-en="money transfer to a safe or temporary account.">prenos novca na siguran ili privremeni nalog.</li>
+          <li data-sr="instalacija aplikacije za daljinski pristup za dijagnostiku." data-en="installation of a remote access app for diagnostics.">instalacija aplikacije za daljinski pristup za dijagnostiku.</li>
         </ul>
 
         <p class="muted"
@@ -183,9 +183,9 @@ window.SCAM_CONTENT["vishing"] = {
         >Prag faze 4: meta izvršava traženu radnju. Od ovog trenutka šteta je u toku.</p>
 
         <div class="note"
-          data-sr="Grananja u ovoj fazi: OTP → preuzimanje naloga; prenos → „siguran nalog“; instalacija → daljinski pristup i dalji nadzor; lozinka → kompromitacija imejl naloga."
-          data-en="Branching in this phase: OTP → account takeover; transfer → &quot;safe account&quot;; installation → remote access and further surveillance; password → email account compromise."
-        >Grananja u ovoj fazi: OTP → preuzimanje naloga; prenos → „siguran nalog“; instalacija → daljinski pristup i dalji nadzor; lozinka → kompromitacija imejl naloga.</div>
+          data-sr="Grananja u ovoj fazi: OTP → preuzimanje naloga; prenos → siguran nalog; instalacija → daljinski pristup i dalji nadzor; lozinka → kompromitacija imejl naloga."
+          data-en="Branching in this phase: OTP → account takeover; transfer → safe account; installation → remote access and further surveillance; password → email account compromise."
+        >Grananja u ovoj fazi: OTP → preuzimanje naloga; prenos → siguran nalog; instalacija → daljinski pristup i dalji nadzor; lozinka → kompromitacija imejl naloga.</div>
       </article>
 
       <!-- Faza 5 -->
@@ -196,15 +196,15 @@ window.SCAM_CONTENT["vishing"] = {
         >Faza 5 — Eskalacija: novi zahtevi</h3>
 
         <p
-          data-sr="Kada je prag pređen, napadač nastavlja. Novi incident nastaje: „nalog je i dalje ugrožen“, „treba još jedna potvrda“, „istraga se širi“. Meta se priprema na seriju novih zahteva, jer svaki prethodni korak povećava ulaganje i otežava odustajanje."
-          data-en="Once the threshold is crossed, the attacker continues. A new incident emerges: &quot;the account is still at risk&quot;, &quot;one more confirmation is needed&quot;, &quot;the investigation is expanding&quot;. The target is set up for a series of new demands, because each prior step increases investment and makes stopping harder."
-        >Kada je prag pređen, napadač nastavlja. Novi incident nastaje: „nalog je i dalje ugrožen“, „treba još jedna potvrda“, „istraga se širi“. Meta se priprema na seriju novih zahteva, jer svaki prethodni korak povećava ulaganje i otežava odustajanje.</p>
+          data-sr="Kada je prag pređen, napadač nastavlja. Novi incident nastaje: nalog je i dalje ugrožen, treba još jedna potvrda, istraga se širi. Meta se priprema na seriju novih zahteva, jer svaki prethodni korak povećava ulaganje i otežava odustajanje."
+          data-en="Once the threshold is crossed, the attacker continues. A new incident emerges: the account is still at risk, one more confirmation is needed, the investigation is expanding. The target is set up for a series of new demands, because each prior step increases investment and makes stopping harder."
+        >Kada je prag pređen, napadač nastavlja. Novi incident nastaje: nalog je i dalje ugrožen, treba još jedna potvrda, istraga se širi. Meta se priprema na seriju novih zahteva, jer svaki prethodni korak povećava ulaganje i otežava odustajanje.</p>
 
         <ul class="bullets">
-          <li data-sr="„prenos je delimičan — treba dopuniti da bi zaštita bila potpuna." data-en="&quot;the transfer was partial — it needs to be topped up for full protection&quot;.">„prenos je delimičan — treba dopuniti da bi zaštita bila potpuna“.</li>
-          <li data-sr="prebacivanje na drugog „agenta“ koji ima novi zahtev." data-en="transfer to another &quot;agent&quot; with a new demand.">prebacivanje na drugog „agenta“ koji ima novi zahtev.</li>
-          <li data-sr="„sledeća 24 sata su kritična — nemojte da pravite nikakve transakcije." data-en="&quot;the next 24 hours are critical — do not make any transactions&quot;.">„sledeća 24 sata su kritična — nemojte da pravite nikakve transakcije“.</li>
-          <li data-sr="obećanje povrata svih sredstava po završetku „istrage." data-en="promise of a full refund after the &quot;investigation&quot; concludes.">obećanje povrata svih sredstava po završetku „istrage“.</li>
+          <li data-sr="prenos je delimičan — treba dopuniti da bi zaštita bila potpuna." data-en="the transfer was partial — it needs to be topped up for full protection.">prenos je delimičan — treba dopuniti da bi zaštita bila potpuna.</li>
+          <li data-sr="prebacivanje na drugog agenta koji ima novi zahtev." data-en="transfer to another agent with a new demand.">prebacivanje na drugog agenta koji ima novi zahtev.</li>
+          <li data-sr="sledeća 24 sata su kritična — nemojte da pravite nikakve transakcije." data-en="the next 24 hours are critical — do not make any transactions.">sledeća 24 sata su kritična — nemojte da pravite nikakve transakcije.</li>
+          <li data-sr="obećanje povrata svih sredstava po završetku istrage." data-en="promise of a full refund after the investigation concludes.">obećanje povrata svih sredstava po završetku istrage.</li>
         </ul>
 
         <p class="muted"
@@ -221,14 +221,14 @@ window.SCAM_CONTENT["vishing"] = {
         >Faza 6 — Nestanak i talas prevare povraćaja</h3>
 
         <p
-          data-sr="Kada napadač izvuče ono što je tražio ili meta postane sumnjičava, kontakt prestaje. Posle toga sledi talas prevare povraćaja: novi poziv od „istražitelja“ koji nudi povrat novca uz novu naknadu. Ovo je sekundarna prevara koja cilja iste žrtve."
-          data-en="Once the attacker extracts what they wanted or the target becomes suspicious, contact ceases. After that comes the recovery wave: a new call from an &quot;investigator&quot; offering to return the money for a new fee. This is a secondary scam targeting the same victims."
-        >Kada napadač izvuče ono što je tražio ili meta postane sumnjičava, kontakt prestaje. Posle toga sledi talas prevare povraćaja: novi poziv od „istražitelja“ koji nudi povrat novca uz novu naknadu. Ovo je sekundarna prevara koja cilja iste žrtve.</p>
+          data-sr="Kada napadač izvuče ono što je tražio ili meta postane sumnjičava, kontakt prestaje. Posle toga sledi talas prevare povraćaja: novi poziv od istražitelja koji nudi povrat novca uz novu naknadu. Ovo je sekundarna prevara koja cilja iste žrtve."
+          data-en="Once the attacker extracts what they wanted or the target becomes suspicious, contact ceases. After that comes the recovery wave: a new call from an investigator offering to return the money for a new fee. This is a secondary scam targeting the same victims."
+        >Kada napadač izvuče ono što je tražio ili meta postane sumnjičava, kontakt prestaje. Posle toga sledi talas prevare povraćaja: novi poziv od istražitelja koji nudi povrat novca uz novu naknadu. Ovo je sekundarna prevara koja cilja iste žrtve.</p>
 
         <ul class="bullets">
           <li data-sr="kontakt iznenada prestaje bez objašnjenja." data-en="contact stops suddenly without explanation.">kontakt iznenada prestaje bez objašnjenja.</li>
-          <li data-sr="meta pokušava da stupi u kontakt i dobija tišinu ili poruku „broj nije u upotrebi." data-en="the target tries to reconnect and gets silence or a &quot;number not in service&quot; message.">meta pokušava da stupi u kontakt i dobija tišinu ili poruku „broj nije u upotrebi“.</li>
-          <li data-sr="danima ili nedelju dana kasnije novi poziv nudi „povrat“ uz uplatu naknade." data-en="days or a week later, a new call offers a &quot;refund&quot; that requires an upfront fee.">danima ili nedelju dana kasnije novi poziv nudi „povrat“ uz uplatu naknade.</li>
+          <li data-sr="meta pokušava da stupi u kontakt i dobija tišinu ili poruku broj nije u upotrebi." data-en="the target tries to reconnect and gets silence or a number not in service message.">meta pokušava da stupi u kontakt i dobija tišinu ili poruku broj nije u upotrebi.</li>
+          <li data-sr="danima ili nedelju dana kasnije novi poziv nudi povrat uz uplatu naknade." data-en="days or a week later, a new call offers a refund that requires an upfront fee.">danima ili nedelju dana kasnije novi poziv nudi povrat uz uplatu naknade.</li>
           <li data-sr="meta se prepoznaje kao cilj za recovery prevare jer se zna da je platila." data-en="target is recognized as a recovery scam target because it's known they paid.">meta se prepoznaje kao cilj za recovery prevare jer se zna da je platila.</li>
         </ul>
 
@@ -276,13 +276,13 @@ window.SCAM_CONTENT["vishing"] = {
         <li data-sr="zabrana da se poziv prekine ili da se sazove neko treće lice." data-en="prohibition on hanging up or involving a third party.">zabrana da se poziv prekine ili da se sazove neko treće lice.</li>
         <li data-sr="insistiranje da je razgovor poverljiv i da se ne sme deliti." data-en="insistence that the conversation is confidential and must not be shared.">insistiranje da je razgovor poverljiv i da se ne sme deliti.</li>
         <li data-sr="traženje OTP koda, lozinke ili PIN-a tokom poziva." data-en="requesting OTP code, password, or PIN during the call.">traženje OTP koda, lozinke ili PIN-a tokom poziva.</li>
-        <li data-sr="prenos novca na „siguran“ ili „privremeni“ nalog." data-en="transfer of money to a &quot;safe&quot; or &quot;temporary&quot; account.">prenos novca na „siguran“ ili „privremeni“ nalog.</li>
-        <li data-sr="napadač kaže da „nema vremena za proveru“ ili da je provera nemoguća." data-en="the attacker says there is &quot;no time to verify&quot; or that verification is impossible.">napadač kaže da „nema vremena za proveru“ ili da je provera nemoguća.</li>
+        <li data-sr="prenos novca na siguran ili privremeni nalog." data-en="transfer of money to a safe or temporary account.">prenos novca na siguran ili privremeni nalog.</li>
+        <li data-sr="napadač kaže da nema vremena za proveru ili da je provera nemoguća." data-en="the attacker says there is no time to verify or that verification is impossible.">napadač kaže da nema vremena za proveru ili da je provera nemoguća.</li>
         <li data-sr="poziv dolazi sa brojem koji izgleda kao institucija, ali ne radi kada ga pozoveš direktno." data-en="the call comes from a number that looks like an institution but does not work when you call it directly.">poziv dolazi sa brojem koji izgleda kao institucija, ali ne radi kada ga pozoveš direktno.</li>
         <li data-sr="povećanje pritiska kada meta pokuša da odloži odluku." data-en="pressure increases when the target tries to delay a decision.">povećanje pritiska kada meta pokuša da odloži odluku.</li>
-        <li data-sr="prebacivanje na „supervizora“ koji ponavlja isti zahtev." data-en="a &quot;supervisor&quot; takes over and repeats the same request.">prebacivanje na „supervizora“ koji ponavlja isti zahtev.</li>
+        <li data-sr="prebacivanje na supervizora koji ponavlja isti zahtev." data-en="a supervisor takes over and repeats the same request.">prebacivanje na supervizora koji ponavlja isti zahtev.</li>
         <li data-sr="napadač zna detalje koji nisu javni (što zvuči kao dokaz legitimiteta)." data-en="attacker knows non-public details (which seems to prove legitimacy).">napadač zna detalje koji nisu javni (što zvuči kao dokaz legitimiteta).</li>
-        <li data-sr="zahtev za instalacijom aplikacije radi „dijagnostike“ ili „zaštite." data-en="a request to install an app for &quot;diagnostics&quot; or &quot;protection&quot;.">zahtev za instalacijom aplikacije radi „dijagnostike“ ili „zaštite“.</li>
+        <li data-sr="zahtev za instalacijom aplikacije radi dijagnostike ili zaštite." data-en="a request to install an app for diagnostics or protection.">zahtev za instalacijom aplikacije radi dijagnostike ili zaštite.</li>
       </ul>
     </section>
 
@@ -298,7 +298,7 @@ window.SCAM_CONTENT["vishing"] = {
         <li data-sr="zovi broj sa poleđine kartice ili sa zvaničnog sajta — ne broj koji ti je dat tokom poziva." data-en="call the number on the back of your card or official website — not the number given during the call.">zovi broj sa poleđine kartice ili sa zvaničnog sajta — ne broj koji ti je dat tokom poziva.</li>
         <li data-sr="nijedna institucija ne traži OTP kod koji ti stiže SMS-om." data-en="no institution asks for an OTP code that arrives by SMS.">nijedna institucija ne traži OTP kod koji ti stiže SMS-om.</li>
         <li data-sr="nijedna institucija ne traži lozinku ili PIN tokom poziva." data-en="no institution asks for your password or PIN over the phone.">nijedna institucija ne traži lozinku ili PIN tokom poziva.</li>
-        <li data-sr="prenos na „siguran nalog“ je uvek prevara — banke to ne rade." data-en="a transfer to a &quot;safe account&quot; is always a scam — banks do not do this.">prenos na „siguran nalog“ je uvek prevara — banke to ne rade.</li>
+        <li data-sr="prenos na siguran nalog je uvek prevara — banke to ne rade." data-en="a transfer to a safe account is always a scam — banks do not do this.">prenos na siguran nalog je uvek prevara — banke to ne rade.</li>
         <li data-sr="pitaj porodicu ili prijatelja pre nego što uradiš bilo šta — napadač želi da ostaneš sam." data-en="ask family or a friend before doing anything — the attacker wants you alone.">pitaj porodicu ili prijatelja pre nego što uradiš bilo šta — napadač želi da ostaneš sam.</li>
         <li data-sr="proveri broj koji je pozvao nezavisno — putem pretrage ili direktnog poziva instituciji." data-en="verify the calling number independently — via a search or a direct call to the institution.">proveri broj koji je pozvao nezavisno — putem pretrage ili direktnog poziva instituciji.</li>
         <li data-sr="ako si već dao podatke — odmah zovi banku i blokiraj karticu." data-en="if you already gave data — call your bank immediately and block the card.">ako si već dao podatke — odmah zovi banku i blokiraj karticu.</li>
@@ -321,9 +321,9 @@ window.SCAM_CONTENT["vishing"] = {
         <li data-sr="da li mi govore da je razgovor poverljiv?" data-en="are they telling me the call is confidential?">da li mi govore da je razgovor poverljiv?</li>
         <li data-sr="da li se broj koji me zove poklapa sa brojem institucije kada ga direktno pozovem?" data-en="does the number that called me match the institution's number when I call it directly?">da li se broj koji me zove poklapa sa brojem institucije kada ga direktno pozovem?</li>
         <li data-sr="da li mi kažu da ne smem da odložim slušalicu?" data-en="are they saying I cannot hang up?">da li mi kažu da ne smem da odložim slušalicu?</li>
-        <li data-sr="da li traže instalaciju aplikacije radi „zaštite“?" data-en="are they requesting app installation for &quot;protection&quot;?">da li traže instalaciju aplikacije radi „zaštite“?</li>
+        <li data-sr="da li traže instalaciju aplikacije radi zaštite?" data-en="are they requesting app installation for protection?">da li traže instalaciju aplikacije radi zaštite?</li>
         <li data-sr="da li mi je dato dovoljno vremena da potvrdim identitet pozivaoca nezavisno?" data-en="have I been given enough time to independently verify the caller's identity?">da li mi je dato dovoljno vremena da potvrdim identitet pozivaoca nezavisno?</li>
-        <li data-sr="da li obećavaju da će mi novac biti vraćen po završetku „procedure“?" data-en="are they promising my money will be returned after the &quot;procedure&quot; is done?">da li obećavaju da će mi novac biti vraćen po završetku „procedure“?</li>
+        <li data-sr="da li obećavaju da će mi novac biti vraćen po završetku procedure?" data-en="are they promising my money will be returned after the procedure is done?">da li obećavaju da će mi novac biti vraćen po završetku procedure?</li>
         <li data-sr="da li pritisak raste svaki put kada pokušam da usporim tempo?" data-en="does pressure increase every time I try to slow down?">da li pritisak raste svaki put kada pokušam da usporim tempo?</li>
       </ul>
     </section>
@@ -358,10 +358,10 @@ window.SCAM_CONTENT["vishing"] = {
       >Pitanja koja rade:</p>
 
       <ul class="bullets">
-        <li data-sr="„Da li si ti pozvao banku ili je banka pozvala tebe?." data-en="&quot;Did you call the bank or did the bank call you?&quot;.">„Da li si ti pozvao banku ili je banka pozvala tebe?“.</li>
-        <li data-sr="„Da li su tražili OTP koji ti je stigao SMS-om?." data-en="&quot;Did they ask for an OTP that arrived by SMS?&quot;.">„Da li su tražili OTP koji ti je stigao SMS-om?“.</li>
-        <li data-sr="„Da li su rekli da ne smeš da govoriš nikome?." data-en="&quot;Did they say you must not tell anyone?&quot;.">„Da li su rekli da ne smeš da govoriš nikome?“.</li>
-        <li data-sr="„Da li su tražili da instaliraš nešto ili da preneseš novac?." data-en="&quot;Did they ask you to install something or transfer money?&quot;.">„Da li su tražili da instaliraš nešto ili da preneseš novac?“.</li>
+        <li data-sr="Da li si ti pozvao banku ili je banka pozvala tebe?" data-en="Did you call the bank or did the bank call you?">Da li si ti pozvao banku ili je banka pozvala tebe?</li>
+        <li data-sr="Da li su tražili OTP koji ti je stigao SMS-om?" data-en="Did they ask for an OTP that arrived by SMS?">Da li su tražili OTP koji ti je stigao SMS-om?</li>
+        <li data-sr="Da li su rekli da ne smeš da govoriš nikome?" data-en="Did they say you must not tell anyone?">Da li su rekli da ne smeš da govoriš nikome?</li>
+        <li data-sr="Da li su tražili da instaliraš nešto ili da preneseš novac?" data-en="Did they ask you to install something or transfer money?">Da li su tražili da instaliraš nešto ili da preneseš novac?</li>
       </ul>
 
       <p class="muted"
@@ -370,24 +370,14 @@ window.SCAM_CONTENT["vishing"] = {
       >Rečenice koje rade:</p>
 
       <ul class="bullets">
-        <li data-sr="„Nijedna banka ne traži OTP koji ti stiže SMS-om“.." data-en="&quot;No bank asks for an OTP that arrives by SMS.&quot;.">„Nijedna banka ne traži OTP koji ti stiže SMS-om“.“.</li>
-        <li data-sr="„Ako ti zabrane da proveriš ili da pričaš sa nekim, to je signal“.." data-en="&quot;If they forbid you from verifying or talking to someone, that is the signal.&quot;.">„Ako ti zabrane da proveriš ili da pričaš sa nekim, to je signal“.“.</li>
-        <li data-sr="„Prekini poziv i zovi banku sa broja na poleđini kartice“.." data-en="&quot;Hang up and call the bank using the number on the back of the card.&quot;.">„Prekini poziv i zovi banku sa broja na poleđini kartice“.“.</li>
-        <li data-sr="„Ne instaliraj ništa što ti pošalju dok si na liniji“.." data-en="&quot;Do not install anything they send while you are on the line.&quot;.">„Ne instaliraj ništa što ti pošalju dok si na liniji“.“.</li>
+        <li data-sr="Nijedna banka ne traži OTP koji ti stiže SMS-om." data-en="No bank asks for an OTP that arrives by SMS.">Nijedna banka ne traži OTP koji ti stiže SMS-om.</li>
+        <li data-sr="Ako ti zabrane da proveriš ili da pričaš sa nekim, to je signal." data-en="If they forbid you from verifying or talking to someone, that is a signal.">Ako ti zabrane da proveriš ili da pričaš sa nekim, to je signal.</li>
+        <li data-sr="Prekini poziv i zovi banku sa broja na poleđini kartice." data-en="Hang up and call the bank using the number on the back of the card.">Prekini poziv i zovi banku sa broja na poleđini kartice.</li>
+        <li data-sr="Ne instaliraj ništa što ti pošalju dok si na liniji." data-en="Do not install anything they send while you are on the line.">Ne instaliraj ništa što ti pošalju dok si na liniji.</li>
       </ul>
     </section>
 
     <!-- 9) POVEZANE PREVARE -->
-    <section class="content-section">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <ul class="bullets">
-        <li><a href="phishing.html" data-sr="Fišing." data-en="Phishing.">Fišing</a></li>
-        <li><a href="smishing.html" data-sr="Smishing." data-en="Smishing.">Smishing</a></li>
-        <li><a href="fake-call-scam.html" data-sr="Lažni pozivi." data-en="Fake calls.">Lažni pozivi</a></li>
-        <li><a href="bank-impersonation.html" data-sr="Lažna banka." data-en="Bank impersonation.">Lažna banka</a></li>
-        <li><a href="otp-interception.html" data-sr="Presretanje OTP koda." data-en="OTP interception.">Presretanje OTP koda</a></li>
-        <li><a href="account-takeover.html" data-sr="Preuzimanje naloga." data-en="Account takeover.">Preuzimanje naloga</a></li>
-      </ul>
-    </section>
+    
   `
 };

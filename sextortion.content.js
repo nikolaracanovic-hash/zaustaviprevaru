@@ -1,4 +1,4 @@
-﻿window.SCAM_CONTENT = window.SCAM_CONTENT || {};
+window.SCAM_CONTENT = window.SCAM_CONTENT || {};
 
 window.SCAM_CONTENT["sextortion-scam"] = {
   raw_html: `
@@ -33,7 +33,7 @@ window.SCAM_CONTENT["sextortion-scam"] = {
 
       <div class="grid-2">
         <div class="phase">
-          <div class="label" data-sr="Romance-based (stvarni sadržaj)." data-en="Romance-based (real content).">Romance-based (stvarni sadržaj)</div>
+          <div class="label" data-sr="Romance-based (stvarni sadržaj)" data-en="Romance-based (real content).">Romance-based (stvarni sadržaj)</div>
           <ul class="bullets">
             <li data-sr="žrtva je podelila intimne slike/video tokom online veze." data-en="victim shared intimate images/video during online relationship.">žrtva je podelila intimne slike/video tokom online veze.</li>
             <li data-sr="napadač preti da će ih poslati kontaktima." data-en="attacker threatens to send them to contacts.">napadač preti da će ih poslati kontaktima.</li>
@@ -41,10 +41,10 @@ window.SCAM_CONTENT["sextortion-scam"] = {
           </ul>
         </div>
         <div class="phase">
-          <div class="label" data-sr="Blef imejl (nema stvarnog sadržaja)." data-en="Bluff imejl (no real content).">Blef imejl (nema stvarnog sadržaja)</div>
+          <div class="label" data-sr="Blef imejl (nema stvarnog sadržaja)" data-en="Bluff imejl (no real content).">Blef imejl (nema stvarnog sadržaja)</div>
           <ul class="bullets">
             <li data-sr="masovni imejl tvrdi da ima snimak sa web kamere." data-en="mass email claims to have webcam recording.">masovni imejl tvrdi da ima snimak sa web kamere.</li>
-            <li data-sr="koristi staru lozinku iz breach-a kao „dokaz." data-en="uses an old leaked password as &quot;proof&quot;">koristi staru lozinku iz breach-a kao „dokaz“.</li>
+            <li data-sr="koristi staru lozinku iz breach-a kao dokaz." data-en="uses an old leaked password as proof">koristi staru lozinku iz breach-a kao dokaz.</li>
             <li data-sr="zahteva uplatu u Bitcoinu." data-en="demands payment in Bitcoin.">zahteva uplatu u Bitcoinu.</li>
           </ul>
         </div>
@@ -52,7 +52,7 @@ window.SCAM_CONTENT["sextortion-scam"] = {
           <div class="label" data-sr="Catfishing / honey trap" data-en="Catfishing / honey trap">Catfishing / honey trap</div>
           <ul class="bullets">
             <li data-sr="napadač koristi lažni profil da privuče žrtvu." data-en="attacker uses fake profile to attract victim.">napadač koristi lažni profil da privuče žrtvu.</li>
-            <li data-sr="razmena sadržaja tokom „veze." data-en="content exchange during an online &quot;relationship&quot;">razmena sadržaja tokom „veze“.</li>
+            <li data-sr="razmena sadržaja tokom veze." data-en="content exchange during an online relationship">razmena sadržaja tokom veze.</li>
             <li data-sr="prelazak u ucenu posle dobijanja materijala." data-en="shift to blackmail after getting material.">prelazak u ucenu posle dobijanja materijala.</li>
           </ul>
         </div>
@@ -61,7 +61,7 @@ window.SCAM_CONTENT["sextortion-scam"] = {
           <ul class="bullets">
             <li data-sr="sadržaj ukraden sa uređaja ili cloud-a." data-en="content stolen from device or cloud.">sadržaj ukraden sa uređaja ili cloud-a.</li>
             <li data-sr="prikazuje se screenshot kao dokaz." data-en="screenshot shown as proof.">prikazuje se screenshot kao dokaz.</li>
-            <li data-sr="zahtev za uplatom da se sadržaj „obriše." data-en="payment demanded for the content to be &quot;deleted&quot;">zahtev za uplatom da se sadržaj „obriše“.</li>
+            <li data-sr="zahtev za uplatom da se sadržaj obriše." data-en="payment demanded for the content to be deleted">zahtev za uplatom da se sadržaj obriše.</li>
           </ul>
         </div>
       </div>
@@ -80,9 +80,9 @@ window.SCAM_CONTENT["sextortion-scam"] = {
         </h3>
 
         <p
-          data-sr="U romance varijanti: napadač gradi vezu, traži intimni sadržaj kao deo „veze&quot;“. U blef varijanti: masovni email stiže sa pretnjom i lozinkom kao „dokazom&quot;“. Kontakt može doći i posle hakovanja ili razmene sadržaja na platformama."
-          data-en="In romance variant: attacker builds relationship, requests intimate content as part of the &quot;relationship&quot;. In bluff variant: mass email arrives with threat and password as &quot;proof&quot;. Contact may also come after hacking or content exchange on platforms."
-        >U romance varijanti: napadač gradi vezu, traži intimni sadržaj kao deo „veze"“. U blef varijanti: masovni imejl stiže sa pretnjom i lozinkom kao „dokazom"“. Kontakt može doći i posle hakovanja ili razmene sadržaja na platformama.</p>
+          data-sr="U romance varijanti: napadač gradi vezu, traži intimni sadržaj kao deo veze. U blef varijanti: masovni email stiže sa pretnjom i lozinkom kao dokazom. Kontakt može doći i posle hakovanja ili razmene sadržaja na platformama."
+          data-en="In romance variant: attacker builds relationship, requests intimate content as part of the relationship. In bluff variant: mass email arrives with threat and password as proof. Contact may also come after hacking or content exchange on platforms."
+        >U romance varijanti: napadač gradi vezu, traži intimni sadržaj kao deo veze. U blef varijanti: masovni imejl stiže sa pretnjom i lozinkom kao dokazom. Kontakt može doći i posle hakovanja ili razmene sadržaja na platformama.</p>
 
         <div class="branch">
           <p><strong data-sr="Povezano" data-en="Related">Povezano</strong></p>
@@ -93,20 +93,20 @@ window.SCAM_CONTENT["sextortion-scam"] = {
       </article>
 
       <!-- FAZA 2 -->
-      <article class=&quot;phase warn">
+      <article class=phase warn">
         <h3 class="phase-title" data-sr="Faza 2 — Pretnja: strah od izlaganja" data-en="Phase 2 — Threat: fear of exposure">
           Faza 2 — Pretnja: strah od izlaganja
         </h3>
 
         <p
-          data-sr="Pretnja je eksplicitna: „imam tvoje slike/video, poslaću porodici, prijateljima, poslodavcu&quot;“. Napadač može prikazati screenshot, navesti imena kontakata iz društvenih mreža, ili opisati sadržaj. Cilj je maksimalni strah i osećaj da nema izlaza."
-          data-en="The threat is explicit: &quot;I have your pictures/video, I'll send to family, friends, employer&quot;. The attacker may show a screenshot, list contact names from social media, or describe the content. The goal is maximum fear and a feeling that there's no way out."
-        >Pretnja je eksplicitna: „imam tvoje slike/video, poslaću porodici, prijateljima, poslodavcu"“. Napadač može prikazati screenshot, navesti imena kontakata iz društvenih mreža, ili opisati sadržaj. Cilj je maksimalni strah i osećaj da nema izlaza.</p>
+          data-sr="Pretnja je eksplicitna: imam tvoje slike/video, poslaću porodici, prijateljima, poslodavcu. Napadač može prikazati screenshot, navesti imena kontakata iz društvenih mreža, ili opisati sadržaj. Cilj je maksimalni strah i osećaj da nema izlaza."
+          data-en="The threat is explicit: I have your pictures/video, I'll send to family, friends, employer. The attacker may show a screenshot, list contact names from social media, or describe the content. The goal is maximum fear and a feeling that there's no way out."
+        >Pretnja je eksplicitna: imam tvoje slike/video, poslaću porodici, prijateljima, poslodavcu. Napadač može prikazati screenshot, navesti imena kontakata iz društvenih mreža, ili opisati sadržaj. Cilj je maksimalni strah i osećaj da nema izlaza.</p>
 
         <ul class="bullets">
-          <li data-sr="„znam ko su ti prijatelji na Facebooku." data-en="I know who your Facebook friends are.">„znam ko su ti prijatelji na Facebooku“.</li>
-          <li data-sr="„poslaću video tvom šefu." data-en="I'll send the video to your boss.">„poslaću video tvom šefu“.</li>
-          <li data-sr="„imaš 24 sata da platiš." data-en="You have 24 hours to pay.">„imaš 24 sata da platiš“.</li>
+          <li data-sr="znam ko su ti prijatelji na Facebooku." data-en="I know who your Facebook friends are.">znam ko su ti prijatelji na Facebooku.</li>
+          <li data-sr="poslaću video tvom šefu." data-en="I'll send the video to your boss.">poslaću video tvom šefu.</li>
+          <li data-sr="imaš 24 sata da platiš." data-en="You have 24 hours to pay.">imaš 24 sata da platiš.</li>
         </ul>
       </article>
 
@@ -117,9 +117,9 @@ window.SCAM_CONTENT["sextortion-scam"] = {
         </h3>
 
         <p
-          data-sr="Zahtev je za određeni iznos, obično u kripto valuti (teško pratljivo). Iznosi variraju: 200–5000+ EUR. Rok je kratak. Poruka sugeriše da će uplata „rešiti problem&quot; i da će se sadržaj obrisati."
-          data-en="The demand is for a specific amount, usually in cryptocurrency (hard to traže). Amounts vary: €200–5000+. Deadline is short. The message suggests payment will &quot;solve the problem&quot; and content will be deleted."
-        >Zahtev je za određeni iznos, obično u kripto valuti (teško pratljivo). Iznosi variraju: 200–5000+ EUR. Rok je kratak. Poruka sugeriše da će uplata „rešiti problem" i da će se sadržaj obrisati“.</p>
+        data-sr="Zahtev je za određeni iznos, obično u kripto valuti (teško pratljivo). Iznosi variraju: 200–5000+ EUR. Rok je kratak. Poruka sugeriše da će uplata rešiti problem i da će se sadržaj obrisati."
+          data-en="The demand is for a specific amount, usually in cryptocurrency (hard to traže). Amounts vary: €200–5000+. Deadline is short. The message suggests payment will solve the problem and content will be deleted."
+        >Zahtev je za određeni iznos, obično u kripto valuti (teško pratljivo). Iznosi variraju: 200–5000+ EUR. Rok je kratak. Poruka sugeriše da će uplata rešiti problem i da će se sadržaj obrisati.</p>
       </article>
 
       <!-- FAZA 4 -->
@@ -146,9 +146,9 @@ window.SCAM_CONTENT["sextortion-scam"] = {
         </h3>
 
         <p
-          data-sr="Napadač se vraća: veći iznos, novi rok, nove pretnje. „Uplatio si 500, ali trebaš mi 1000 za konačno brisanje“.&quot; Ciklus se ponavlja dok žrtva ima resurse ili dok ne prekine kontakt."
-          data-en="The attacker returns: higher amount, new deadline, new threats. &quot;You paid 500, but I need 1000 for final deletion.&quot; The cycle repeats while the victim has resources or until they break contact."
-        >Napadač se vraća: veći iznos, novi rok, nove pretnje. „Uplatio si 500, ali trebaš mi 1000 za konačno brisanje." Ciklus se ponavlja dok žrtva ima resurse ili dok ne prekine kontakt.</p>
+          data-sr="Napadač se vraća: veći iznos, novi rok, nove pretnje. Uplatio si 500, ali trebaš mi 1000 za konačno brisanje. Ciklus se ponavlja dok žrtva ima resurse ili dok ne prekine kontakt."
+          data-en="The attacker returns: higher amount, new deadline, new threats. You paid 500, but I need 1000 for final deletion. The cycle repeats while the victim has resources or until they break contact."
+        >Napadač se vraća: veći iznos, novi rok, nove pretnje. Uplatio si 500, ali trebaš mi 1000 za konačno brisanje. Ciklus se ponavlja dok žrtva ima resurse ili dok ne prekine kontakt.</p>
       </article>
     </section>
 
@@ -236,7 +236,7 @@ window.SCAM_CONTENT["sextortion-scam"] = {
 
       <div class="grid-2">
         <div class="phase">
-          <div class="label" data-sr="FBI IC3 + Thorn data (2023)." data-en="FBI IC3 + Thorn data (2023).">FBI IC3 + Thorn data (2023)</div>
+          <div class="label" data-sr="FBI IC3 + Thorn data (2023)" data-en="FBI IC3 + Thorn data (2023).">FBI IC3 + Thorn data (2023)</div>
           <ul class="bullets">
             <li data-sr="IC3 2023: Extortion 48,223 prijava, $74.8M gubitak (uključuje sextortion)." data-en="IC3 2023: Extortion 48,223 reports, $74.8M loss (includes sextortion).">IC3 2023: Extortion 48,223 prijava, $74.8M gubitak (uključuje sextortion).</li>
             <li data-sr="prosečan gubitak po žrtvi: $4,800 (median: $1,200)." data-en="average loss per victim: $4,800 (median: $1,200).">prosečan gubitak po žrtvi: $4,800 (median: $1,200).</li>
@@ -248,7 +248,7 @@ window.SCAM_CONTENT["sextortion-scam"] = {
         </div>
 
         <div class="phase">
-          <div class="label" data-sr="Demografija (ko je najranjiviji)." data-en="Demographics (most vulnerable).">Demografija (ko je najranjiviji)</div>
+          <div class="label" data-sr="Demografija (ko je najranjiviji)" data-en="Demographics (most vulnerable).">Demografija (ko je najranjiviji)</div>
           <ul class="bullets">
             <li data-sr="starost 15-25: 58% žrtava (highest social media usage)." data-en="age 15-25: 58% of victims (highest social media usage).">starost 15-25: 58% žrtava (highest social media usage).</li>
             <li data-sr="MINORS (13-17): 35% svih sextortion žrtava (EKSTREMNO ranjivi)." data-en="MINORS (13-17): 35% of all sextortion victims (EXTREMELY vulnerable).">MINORS (13-17): 35% svih sextortion žrtava (EKSTREMNO ranjivi).</li>
@@ -274,7 +274,7 @@ window.SCAM_CONTENT["sextortion-scam"] = {
           <div class="label" data-sr="Operativna ekonomija" data-en="Operational economics">Operativna ekonomija</div>
           <ul class="bullets">
             <li data-sr="bluff imejl cost: $0.001 per imejl (mass campaign)." data-en="bluff email cost: $0.001 per email (mass campaign).">bluff imejl cost: $0.001 per imejl (mass campaign).</li>
-            <li data-sr="breach password lists: $50-500 za 1M emails+passwords (adds " data-en="breach password lists: $50-500 for 1M emails+passwords (adds &quot;credibility&quot;).">breach password lists: $50-500 za 1M emails+passwords (adds "credibility").</li>
+            <li data-sr="breach password lists: $50-500 za 1M emails+passwords (adds credibility)." data-en="breach password lists: $50-500 for 1M emails+passwords (adds credibility).">breach password lists: $50-500 za 1M emails+passwords (adds credibility).</li>
             <li data-sr="uspešnost prevare (bluff): 0.1-0.5% (ali HUGE volume)." data-en="uspešnost prevare (bluff): 0.1-0.5% (but HUGE volume).">uspešnost prevare (bluff): 0.1-0.5% (ali HUGE volume).</li>
             <li data-sr="uspešnost prevare (real content): 40-60% (extreme fear)." data-en="uspešnost prevare (real content): 40-60% (extreme fear).">uspešnost prevare (real content): 40-60% (extreme fear).</li>
             <li data-sr="average payment: $500-2,000 (crypto, untraceable)." data-en="average payment: $500-2,000 (crypto, untraceable).">average payment: $500-2,000 (crypto, untraceable).</li>
@@ -307,7 +307,7 @@ window.SCAM_CONTENT["sextortion-scam"] = {
             <li data-sr="scammer prikuplja JAVNE fotografije sa Instagram/Facebook/LinkedIn." data-en="scammer collects PUBLIC photos from Instagram/Facebook/LinkedIn.">scammer prikuplja JAVNE fotografije sa Instagram/Facebook/LinkedIn.</li>
             <li data-sr="AI tool (DeepNude-style app) generiše FAKE intimne slike sa žrtvinim licem." data-en="AI tool (DeepNude-style app) generates FAKE intimate images with victim's face.">AI tool (DeepNude-style app) generiše FAKE intimne slike sa žrtvinim licem.</li>
             <li data-sr="rezultat: REALISTIČNA slika koja izgleda kao da je STVARNA." data-en="result: REALISTIC image that looks like it's REAL.">rezultat: REALISTIČNA slika koja izgleda kao da je STVARNA.</li>
-            <li data-sr="scammer šalje screenshot žrtvi: " data-en="scammer sends screenshot to victim: &quot;I have this, pay or I send to everyone&quot;">scammer šalje screenshot žrtvi: "imam ovo, plati ili šaljem svima"</li>
+            <li data-sr="scammer šalje screenshot žrtvi: imam ovo, plati ili šaljem svima" data-en="scammer sends screenshot to victim: I have this, pay or I send to everyone">scammer šalje screenshot žrtvi: imam ovo, plati ili šaljem svima</li>
             <li data-sr="žrtva VERUJE da je slika stvarna (jer izgleda kao njihovo lice)." data-en="victim BELIEVES image is real (because it looks like their face).">žrtva VERUJE da je slika stvarna (jer izgleda kao njihovo lice).</li>
             <li data-sr="cost: $0-50 per deepfake (tools su FREE ili cheap)." data-en="cost: $0-50 per deepfake (tools are FREE or cheap).">cost: $0-50 per deepfake (tools su FREE ili cheap).</li>
           </ul>
@@ -319,7 +319,7 @@ window.SCAM_CONTENT["sextortion-scam"] = {
             <li data-sr="žrtva NE MORA da je podelila ikakav intiman sadržaj = BILO KO može biti meta." data-en="victim DOESN'T HAVE TO have shared any intimate content = ANYONE can be target.">žrtva NE MORA da je podelila ikakav intiman sadržaj = BILO KO može biti meta.</li>
             <li data-sr="javne fotografije SA BILO KOJE social media = dovoljan input za AI." data-en="public photos FROM ANY social media = sufficient input for AI.">javne fotografije SA BILO KOJE social media = dovoljan input za AI.</li>
             <li data-sr="deepfake je NERAZLUČIV od real content za većinu ljudi." data-en="deepfake is INDISTINGUISHABLE from real content for most people.">deepfake je NERAZLUČIV od real content za većinu ljudi.</li>
-            <li data-sr="" data-en="&quot;denial&quot; doesn't work because image REALLY looks like victim.">"denial" ne radi jer slika STVARNO izgleda kao žrtva.</li>
+            <li data-sr="denial ne radi jer slika STVARNO izgleda kao žrtva." data-en="denial doesn't work because image REALLY looks like victim.">denial ne radi jer slika STVARNO izgleda kao žrtva.</li>
             <li data-sr="targeting je LAKO: celebs, influencers, politicians, običan ljudi = SVI ranjivi." data-en="targeting is EASY: celebs, influencers, politicians, regular people = ALL vulnerable.">targeting je LAKO: celebs, influencers, politicians, običan ljudi = SVI ranjivi.</li>
             <li data-sr="rast 2022-2024: 500% porast AI deepfake sextortion (novi AI tools)." data-en="growth 2022-2024: 500% increase in AI deepfake sextortion (new AI tools).">rast 2022-2024: 500% porast AI deepfake sextortion (novi AI tools).</li>
           </ul>
@@ -363,37 +363,35 @@ window.SCAM_CONTENT["sextortion-scam"] = {
       </h2>
 
       <p
-        data-sr="Sextortion koristi NAJMOĆNIJE psihološke poluge: stid, strah od suda, socijalna anksioznost, izolacija. Scammer ZELI da žrtva oseti paniku i osamljenje jer to smanjuje logično razmišljanje i povećava verovatnoću plaćanja. Underreporting rate 90-95% pokazuje koliko je stid efikasna kontrola."
-        data-en="Sextortion uses MOST POWERFUL psychological levers: shame, fear of judgment, social anxiety, isolation. Scammer WANTS victim to feel panic and loneliness because it reduces logical thinking and increases payment probability. Underreporting rate 90-95% shows how effective shame is as control."
-      >Sextortion koristi NAJMOĆNIJE psihološke poluge: stid, strah od suda, socijalna anksioznost, izolacija. Scammer ZELI da žrtva oseti paniku i osamljenje jer to smanjuje logično razmišljanje i povećava verovatnoću plaćanja. Underreporting rate 90-95% pokazuje koliko je stid efikasna kontrola.</p>
+        data-sr="Sextortion se oslanja na stid, strah od osude, socijalnu anksioznost i izolaciju. Ucenjivač pokušava da žrtva ostane sama sa panikom, jer to smanjuje proveru činjenica i povećava verovatnoću plaćanja."
+        data-en="Sextortion relies on shame, fear of judgment, social anxiety, and isolation. The blackmailer tries to keep the victim alone with panic, because that reduces fact-checking and increases the chance of payment."
+      >Sextortion se oslanja na stid, strah od osude, socijalnu anksioznost i izolaciju. Ucenjivač pokušava da žrtva ostane sama sa panikom, jer to smanjuje proveru činjenica i povećava verovatnoću plaćanja.</p>
 
       <div class="grid-2">
         <div class="phase">
-          <div class="label" data-sr="Zašto žrtve plaćaju (psychological drivers)." data-en="Why victims pay (psychological drivers).">Zašto žrtve plaćaju (psychological drivers)</div>
+          <div class="label" data-sr="Zašto žrtve plaćaju" data-en="Why victims pay">Zašto žrtve plaćaju</div>
           <ul class="bullets">
-            <li data-sr="<strong>Acute shame:</strong> intimni sadržaj = najdublji stid, strah od suda." data-en="<strong>Acute shame:</strong> intimate content = deepest shame, fear of judgment."><strong>Acute shame:</strong> intimni sadržaj = najdublji stid, strah od suda.</li>
-            <li data-sr="<strong>Social anxiety:</strong> strah da će porodica/prijatelji/posao saznati." data-en="<strong>Social anxiety:</strong> fear that family/friends/work will find out."><strong>Social anxiety:</strong> strah da će porodica/prijatelji/posao saznati.</li>
-            <li data-sr="<strong><strong>Isolation:</strong> </li>
-            <li data-sr=&quot;<strong>Panic response:</strong> pretnja + deadline = emotional hijacking, nije logičko razmišljanje" data-en="<strong>Panic response:</strong> threat + deadline = emotional hijacking, not logical thinking."><strong>Panic response:</strong> pretnja + deadline = emotional hijacking, nije logičko razmišljanje.</li>
-            <li data-sr="<strong><strong>Minimization thinking:</strong> </li>
-            <li data-sr=&quot;<strong><strong>Hope bias:</strong> </li>
+            <li data-sr="<strong>Akutni stid:</strong> intimni sadržaj pogađa najosetljiviji deo privatnosti i pojačava strah od osude." data-en="<strong>Acute shame:</strong> intimate content hits the most sensitive part of privacy and intensifies fear of judgment."><strong>Akutni stid:</strong> intimni sadržaj pogađa najosetljiviji deo privatnosti i pojačava strah od osude.</li>
+            <li data-sr="<strong>Socijalna anksioznost:</strong> strah da će porodica, prijatelji ili posao saznati gura žrtvu ka brzom rešenju." data-en="<strong>Social anxiety:</strong> fear that family, friends, or work will find out pushes the victim toward a quick fix."><strong>Socijalna anksioznost:</strong> strah da će porodica, prijatelji ili posao saznati gura žrtvu ka brzom rešenju.</li>
+            <li data-sr="<strong>Izolacija:</strong> ucenjivač insistira da nikome ne kaže, pa žrtva ostaje bez provere realnosti." data-en="<strong>Isolation:</strong> the blackmailer insists the victim tell nobody, leaving them without a reality check."><strong>Izolacija:</strong> ucenjivač insistira da nikome ne kaže, pa žrtva ostaje bez provere realnosti.</li>
+            <li data-sr="<strong>Panična reakcija:</strong> pretnja plus rok potiskuju logično razmišljanje i pojačavaju impuls da se odmah plati." data-en="<strong>Panic response:</strong> threat plus deadline suppress logical thinking and strengthen the impulse to pay immediately."><strong>Panična reakcija:</strong> pretnja plus rok potiskuju logično razmišljanje i pojačavaju impuls da se odmah plati.</li>
+            <li data-sr="<strong>Lažna nada:</strong> žrtva veruje da će se problem završiti jednom uplatom, iako ucena obično tek tada počinje da se širi." data-en="<strong>False hope:</strong> the victim believes the problem will end with one payment, even though extortion usually expands after that point."><strong>Lažna nada:</strong> žrtva veruje da će se problem završiti jednom uplatom, iako ucena obično tek tada počinje da se širi.</li>
           </ul>
         </div>
 
-        <div class=&quot;phase">
-          <div class="label" data-sr="Scammer scare tactics (kako pojačavaju strah)." data-en="Scammer scare tactics (how they amplify fear).">Scammer scare tactics (kako pojačavaju strah)</div>
+        <div class="phase">
+          <div class="label" data-sr="Kako ucenjivač pojačava strah" data-en="How the blackmailer amplifies fear">Kako ucenjivač pojačava strah</div>
           <ul class="bullets">
-            <li data-sr="<strong><strong>Countdown timer:</strong> </li>
-            <li data-sr=&quot;<strong><strong>Contact list threat:</strong> pokazuje screenshot tvojih kontakata = </li>
-            <li data-sr=&quot;<strong><strong>Specific targeting:</strong> spominje employer/school name = </li>
-            <li data-sr=&quot;<strong><strong>Escalation threat:</strong> </li>
-            <li data-sr=&quot;<strong><strong>Crypto-only payment:</strong> Bitcoin = </li>
-            <li data-sr=&quot;<strong><strong></li>
+            <li data-sr="<strong>Odbrojavanje:</strong> kratki rokovi stvaraju osećaj da nema vremena za proveru ili razgovor s drugima." data-en="<strong>Countdown:</strong> short deadlines create the feeling that there is no time for verification or for talking to others."><strong>Odbrojavanje:</strong> kratki rokovi stvaraju osećaj da nema vremena za proveru ili razgovor s drugima.</li>
+            <li data-sr="<strong>Pretnja kontakt listom:</strong> screenshot kontakata ili društvenih mreža služi da ucena izgleda odmah izvršiva." data-en="<strong>Contact-list threat:</strong> a screenshot of contacts or social accounts makes the extortion look immediately executable."><strong>Pretnja kontakt listom:</strong> screenshot kontakata ili društvenih mreža služi da ucena izgleda odmah izvršiva.</li>
+            <li data-sr="<strong>Specifično ciljanje:</strong> pominjanje škole, poslodavca ili članova porodice pojačava utisak da napadač zaista ima pristup žrtvinom krugu." data-en="<strong>Specific targeting:</strong> mentioning a school, employer, or family members intensifies the sense that the attacker truly has access to the victim's circle."><strong>Specifično ciljanje:</strong> pominjanje škole, poslodavca ili članova porodice pojačava utisak da napadač zaista ima pristup žrtvinom krugu.</li>
+            <li data-sr="<strong>Eskalacija pretnje:</strong> posle prvog odbijanja poruke postaju grublje, češće i preciznije." data-en="<strong>Threat escalation:</strong> after the first refusal, messages become harsher, more frequent, and more specific."><strong>Eskalacija pretnje:</strong> posle prvog odbijanja poruke postaju grublje, češće i preciznije.</li>
+            <li data-sr="<strong>Samo kripto:</strong> zahtev za Bitcoin ili slična plaćanja smanjuje šansu za povraćaj i prikriva trag novca." data-en="<strong>Crypto only:</strong> a demand for Bitcoin or similar payments reduces the chance of recovery and hides the money trail."><strong>Samo kripto:</strong> zahtev za Bitcoin ili slična plaćanja smanjuje šansu za povraćaj i prikriva trag novca.</li>
           </ul>
         </div>
 
-        <div class=&quot;phase">
-          <div class="label" data-sr="Kako prekinuti panic cycle (breaking out)." data-en="How to break panic cycle (breaking out).">Kako prekinuti panic cycle (breaking out)</div>
+        <div class="phase">
+          <div class="label" data-sr="Kako prekinuti panični ciklus" data-en="How to break the panic cycle">Kako prekinuti panični ciklus</div>
           <ul class="bullets">
             <li data-sr="<strong>24h pause:</strong> NE REAGUJ odmah. Sačekaj 24h = emotional cooldown." data-en="<strong>24h pause:</strong> DON'T REACT immediately. Wait 24h = emotional cooldown."><strong>24h pause:</strong> NE REAGUJ odmah. Sačekaj 24h = emotional cooldown.</li>
             <li data-sr="<strong>Talk to someone:</strong> RECI prijatelju/porodici = break isolation." data-en="<strong>Talk to someone:</strong> TELL friend/family = break isolation."><strong>Talk to someone:</strong> RECI prijatelju/porodici = break isolation.</li>
@@ -405,14 +403,14 @@ window.SCAM_CONTENT["sextortion-scam"] = {
         </div>
 
         <div class="phase">
-          <div class="label" data-sr="VAŽNA REALNOST (truth about exposure)." data-en="IMPORTANT REALITY (truth about exposure).">VAŽNA REALNOST (truth about exposure)</div>
+          <div class="label" data-sr="VAŽNA REALNOST (truth about exposure)" data-en="IMPORTANT REALITY (truth about exposure).">VAŽNA REALNOST (truth about exposure)</div>
           <ul class="bullets">
             <li data-sr="u 95% slučajeva sadržaj se NIKADA NE OBJAVLJUJE (FBI data)." data-en="in 95% of cases content is NEVER PUBLISHED (FBI data).">u 95% slučajeva sadržaj se NIKADA NE OBJAVLJUJE (FBI data).</li>
             <li data-sr="scammer HOĆE NOVAC, ne izlaganje (izlaganje = loss of leverage)." data-en="scammer WANTS MONEY, not exposure (exposure = loss of leverage).">scammer HOĆE NOVAC, ne izlaganje (izlaganje = loss of leverage).</li>
-            <li data-sr="ako plaćaš, scammer Zना da si vulnerable = traži još (2-5x repeat demands)." data-en="if you pay, scammer KNOWS you're vulnerable = asks for more (2-5x repeat demands).">ako plaćaš, scammer ZNA da si vulnerable = traži još (2-5x repeat demands).</li>
+            <li data-sr="ako plaćaš, scammer ZNA da si vulnerable = traži još (2-5x repeat demands)." data-en="if you pay, scammer KNOWS you're vulnerable = asks for more (2-5x repeat demands).">ako plaćaš, scammer ZNA da si vulnerable = traži još (2-5x repeat demands).</li>
             <li data-sr="plaćanje = INFINITE cycle, ne-plaćanje = scammer moves on (no profit = no interest)." data-en="paying = INFINITE cycle, not-paying = scammer moves on (no profit = no interest).">plaćanje = INFINITE cycle, ne-plaćanje = scammer moves on (no profit = no interest).</li>
             <li data-sr="family/friends će te PODRŽATI, ne osuditi (važnije od stida)." data-en="family/friends will SUPPORT you, not judge (more important than shame).">family/friends će te PODRŽATI, ne osuditi (važnije od stida).</li>
-            <li data-sr="teške mentalne krize povezano sa sextortion = DON„T SUFFER ALONE, traži pomoć." data-en="teške mentalne krize linked to sextortion = DON“T SUFFER ALONE, seek help.">teške mentalne krize povezano sa sextortion = DON'T SUFFER ALONE, traži pomoć.</li>
+            <li data-sr="teške mentalne krize povezane sa sextortion prevarom: DON'T SUFFER ALONE, traži pomoć." data-en="severe mental-health crises linked to sextortion: DON'T SUFFER ALONE, seek help.">teške mentalne krize povezane sa sextortion prevarom: DON'T SUFFER ALONE, traži pomoć.</li>
           </ul>
         </div>
       </div>
@@ -437,25 +435,5 @@ window.SCAM_CONTENT["sextortion-scam"] = {
     </section>
 
     <!-- 8) IZVORI -->
-
-<section class="content-section">
-  <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-  <ul class="bullets">
-    <li><a href="romantic-scam.html" data-sr="Romanticne prevare" data-en="Romance scams">Romanticne prevare</a></li>
-    <li><a href="phishing.html" data-sr="Fišing" data-en="Phishing">Fišing</a></li>
-    <li><a href="account-takeover.html" data-sr="Preuzimanje naloga" data-en="Account takeover">Preuzimanje naloga</a></li>
-    <li><a href="identity-theft.html" data-sr="Kradja identiteta" data-en="Identity theft">Kradja identiteta</a></li>
-    <li><a href="data-breach-extortion.html" data-sr="Iznuda podacima" data-en="Data breach extortion">Iznuda podacima</a></li>
-  </ul>
-</section>
-
-<section class="card sources" id="sources">
-      <h2 data-sr="Izvori" data-en="Sources">Izvori</h2>
-      <ul>
-        <li><a href="https://www.fbi.gov/how-we-can-help-you/scams-and-safety/common-frauds-and-scams/sextortion" target="_blank" rel="noopener noreferrer">FBI — Sextortion</a></li>
-        <li><a href="https://www.ncsc.gov.uk/guidance/sextortion-scams-how-to-protect-yourself" target="_blank" rel="noopener noreferrer">UK NCSC — Sextortion guidance</a></li>
-        <li><a href="https://consumer.ftc.gov/articles/what-know-about-sextortion" target="_blank" rel="noopener noreferrer">FTC — What to know about sextortion</a></li>
-      </ul>
-    </section>
-  `
+`
 };

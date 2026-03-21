@@ -6,111 +6,83 @@
 
   <meta
     name="description"
-    content="Interaktivna mapa svih prevara - kako su povezane, kako teku, gde vode."
-    data-sr="Interaktivna mapa svih prevara - kako su povezane, kako teku, gde vode."
-    data-en="Interactive scam map - how they connect, how they flow, where they lead."
+    content="Složeni scenariji koje su prevaranti zaista koristili."
+    data-sr="Složeni scenariji koje su prevaranti zaista koristili."
+    data-en="Complex scenarios that scammers have actually used."
   />
 
   <title
-    data-sr="Mapa prevara"
-    data-en="Scam Map"
-  >Mapa prevara</title>
+    data-sr="Složeni scenariji koje su prevaranti zaista koristili"
+    data-en="Complex scenarios that scammers have actually used"
+  >Složeni scenariji koje su prevaranti zaista koristili</title>
 
   <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="scam-map.css" />
 
   <script src="ui.js" defer></script>
   <script src="data.js" defer></script>
-  <script src="scam-map.js" defer></script>
+  <script src="scenario-data.js" defer></script>
+  <script src="scenarios.js" defer></script>
 </head>
 
 <body>
   <header class="page-header">
     <div class="container">
       <div class="topbar">
-        <div class="brand">
-          <span class="brand-dot" aria-hidden="true"></span>
-          <span class="brand-name">Anti-scam</span>
-        </div>
-
-        <nav aria-label="Glavna navigacija">
-          <ul class="top-nav">
-            <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
-            <li><a href="prevare.html" aria-current="page" data-sr="Prevare" data-en="Scams">Prevare</a></li>
-          <li><a href="protecting-elderly.html" data-sr="Zaštita" data-en="Protection">Zaštita</a></li>
-          </ul>
-        </nav>
+      <div class="brand">
+        <span class="brand-dot" aria-hidden="true"></span>
+        <span class="brand-name">Anti-scam</span>
       </div>
 
-      <div class="hero compact">
-        <h1 data-sr="Mapa prevara" data-en="Scam Map">Mapa prevara</h1>
+      <nav aria-label="Glavna navigacija">
+        <ul class="top-nav">
+          <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+          <li><a href="prevare.html" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          <li><a href="protecting-elderly.html" data-sr="Prevencija" data-en="Prevention">Prevencija</a></li>
+                  </ul>
+      </nav>
+    </div>
+
+<div class="hero compact">
+        <h1 data-sr="Složeni scenariji koje su prevaranti zaista koristili" data-en="Complex scenarios that scammers have actually used">Složeni scenariji koje su prevaranti zaista koristili</h1>
 
         <p class="muted hero-sub"
-           data-sr="Kako su prevare povezane. Klikni na bilo koju da vidiš detalje."
-           data-en="How scams connect. Click any to see details.">
-          Kako su prevare povezane. Klikni na bilo koju da vidiš detalje.
+           data-sr="Stvarni tokovi: kako scenario počinje, gde ulazi pritisak i kada prelazi u pun model prevare."
+           data-en="Real flows: how a scenario starts, where pressure enters, and when it turns into a full scam model.">
+          Stvarni tokovi: kako scenario počinje, gde ulazi pritisak i kada prelazi u pun model prevare.
         </p>
       </div>
     </div>
   </header>
 
-  <main class="container map-container">
-    <!-- Legenda -->
-    <div class="map-legend">
-      <div class="legend-item">
-        <span class="legend-dot entry"></span>
-        <span data-sr="Ulažne tačke" data-en="Entry points">Ulažne tačke</span>
-      </div>
-      <div class="legend-item">
-        <span class="legend-dot authority"></span>
-        <span data-sr="Autoritet / pritisak" data-en="Authority / pressure">Autoritet / pritisak</span>
-      </div>
-      <div class="legend-item">
-        <span class="legend-dot relationship"></span>
-        <span data-sr="Odnos / poverenje" data-en="Relationship / trust">Odnos / poverenje</span>
-      </div>
-      <div class="legend-item">
-        <span class="legend-dot investment"></span>
-        <span data-sr="Investicije" data-en="Investment">Investicije</span>
-      </div>
-      <div class="legend-item">
-        <span class="legend-dot fee"></span>
-        <span data-sr="Uplate unapred" data-en="Advance fees">Uplate unapred</span>
-      </div>
-      <div class="legend-item">
-        <span class="legend-dot outcome"></span>
-        <span data-sr="Ishodi / posledice" data-en="Outcomes">Ishodi / posledice</span>
-      </div>
-    </div>
-
-    <!-- Grid Map Container -->
-    <div class="map-wrapper">
-      <!-- JS generates grid here -->
-    </div>
-
-    <!-- Detail Panel (shows on click) -->
-    <div id="detail-panel">
-      <!-- JS popunjava -->
-    </div>
-
-    <!-- Info panel -->
-    <div class="map-info">
+  <main class="container">
+    <section class="card">
+      <p
+        data-sr="Ovde su scenario stranice sa malim opisom i linkom ka punom prikazu. Svaki unos pokazuje gde kontakt počinje, kako se legitimitet gradi i u kom trenutku priča prelazi u stvarnu finansijsku ili identitetsku štetu."
+        data-en="This page lists scenario entries with a short description and a link to the full page. Each entry shows where the contact begins, how legitimacy is built, and at what point the story turns into real financial or identity damage.">
+        Ovde su scenario stranice sa malim opisom i linkom ka punom prikazu. Svaki unos pokazuje gde kontakt počinje, kako se legitimitet gradi i u kom trenutku priča prelazi u stvarnu finansijsku ili identitetsku štetu.
+      </p>
       <div class="callout"
-           data-sr="<strong>Kako čitati mapu:</strong> Linije pokazuju kako prevare prelaze jedna u drugu. Prevarant često koristi više metoda u istom napadu."
-           data-en="<strong>How to read the map:</strong> Lines show how scams transition into each other. Scammers often use multiple methods in the same attack.">
-        <strong>Kako čitati mapu:</strong> Linije pokazuju kako prevare prelaze jedna u drugu. Prevarant često koristi više metoda u istom napadu.
+           data-sr="<strong>Napomena:</strong> Scenariji su anonimizovani i urednički složeni iz javnih obrazaca, bez ličnih podataka i bez identifikacije stvarnih lica."
+           data-en="<strong>Note:</strong> The scenarios are anonymized and editorially assembled from public patterns, without personal data or identification of real persons.">
+        <strong>Napomena:</strong> Scenariji su anonimizovani i urednički složeni iz javnih obrazaca, bez ličnih podataka i bez identifikacije stvarnih lica.
       </div>
-    </div>
+      <div id="scenario-summary" class="hub-chips"></div>
+    </section>
+
+    <div id="scenario-list"></div>
   </main>
 
   <footer class="footer">
-    <div class="container">
-      <p class="muted"
-         data-sr="Anti-scam projekat — edukacija i analiza"
-         data-en="Anti-scam project — education and analysis">
-        Anti-scam projekat — edukacija i analiza
-      </p>
-    </div>
-  </footer>
+  <div class="container">
+    <p class="muted"
+       data-sr="Anti-scam projekat — edukacija i analiza"
+       data-en="Anti-scam project — education and analysis">
+      Anti-scam projekat — edukacija i analiza
+    </p>
+    <p class="muted">
+      <a href="obavestenje-o-privatnosti.html" data-sr="Obaveštenje o privatnosti" data-en="Privacy notice">Obaveštenje o privatnosti</a>
+    </p>
+  </div>
+</footer>
 </body>
 </html>

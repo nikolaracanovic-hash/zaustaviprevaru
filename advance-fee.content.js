@@ -14,9 +14,9 @@ window.SCAM_CONTENT["advance-fee-fraud"] = {
       >Advance-fee prevara je obrazac u kome uplata unapred postaje uslov za isplatu, oslobađanje sredstava, završetak procedure ili navodno otključavanje naloga. Tema se menja (paket, nagrada, kredit, investicija, povraćaj novca), dok mehanizam ostaje stabilan: postoji prepreka, a uplata je predstavljena kao jedini ključ.</p>
 
       <p
-        data-sr="Ovaj obrazac često predstavlja završni sloj drugih prevara: blokada povlačenja kod lažnih investicija, kapare kod oglasa, lažni pozivi o „sigurnom računu“, SMS prevara priče o dostavi, fišing „verifikacije“, recovery ponude. U praksi, advance-fee je tačka gde šteta prelazi iz događaja u proces."
-        data-en="This pattern often becomes the final layer of other scams: podizanje para locks in fake investments, deposits in marketplaces, fake calls about “safe accounts”, smishing delivery stories, phishing “verification”, and recovery offers. In practice, advance-fee is the point where damage shifts from an incident into a process."
-      >Ovaj obrazac često predstavlja završni sloj drugih prevara: blokada povlačenja kod lažnih investicija, kapare kod oglasa, lažni pozivi o „sigurnom računu“, smišing priče o dostavi, fišing „verifikacije“, recovery ponude. U praksi, advance-fee je tačka gde šteta prelazi iz događaja u proces.</p>
+        data-sr="Ovaj obrazac često predstavlja završni sloj drugih prevara: blokada povlačenja kod lažnih investicija, kapare kod oglasa, lažni pozivi o sigurnom računu, SMS prevara priče o dostavi, fišing verifikacije, recovery ponude. U praksi, advance-fee je tačka gde šteta prelazi iz događaja u proces."
+        data-en="This pattern often becomes the final layer of other scams: podizanje para locks in fake investments, deposits in marketplaces, fake calls about safe accounts, smishing delivery stories, phishing verification, and recovery offers. In practice, advance-fee is the point where damage shifts from an incident into a process."
+      >Ovaj obrazac često predstavlja završni sloj drugih prevara: blokada povlačenja kod lažnih investicija, kapare kod oglasa, lažni pozivi o sigurnom računu, smišing priče o dostavi, fišing verifikacije, recovery ponude. U praksi, advance-fee je tačka gde šteta prelazi iz događaja u proces.</p>
 
       <div class="callout"
         data-sr="<strong>Prag:</strong> prva uplata. Posle praga meta ulazi u režim završavanja: svaki sledeći zahtev izgleda kao uslov da prethodni dobije smisao."
@@ -24,9 +24,9 @@ window.SCAM_CONTENT["advance-fee-fraud"] = {
       ><strong>Prag:</strong> prva uplata. Posle praga meta ulazi u režim završavanja: svaki sledeći zahtev izgleda kao uslov da prethodni dobije smisao.</div>
 
       <div class="callout"
-        data-sr="<strong>Model:</strong> obećanje → prepreka → „taksa“ → prag → serija taksi → pritisak i rokovi → presvlačenje identiteta → talas prevare povraćaja."
-        data-en="<strong>Model:</strong> promise → obstacle → “fee” → threshold → fee series → pressure and deadlines → identity switching → recovery wave."
-      ><strong>Model:</strong> obećanje → prepreka → „taksa“ → prag → serija taksi → pritisak i rokovi → presvlačenje identiteta → talas prevare povraćaja.</div>
+        data-sr="<strong>Model:</strong> obećanje → prepreka → taksa → prag → serija taksi → pritisak i rokovi → presvlačenje identiteta → talas prevare povraćaja."
+        data-en="<strong>Model:</strong> promise → obstacle → fee → threshold → fee series → pressure and deadlines → identity switching → recovery wave."
+      ><strong>Model:</strong> obećanje → prepreka → taksa → prag → serija taksi → pritisak i rokovi → presvlačenje identiteta → talas prevare povraćaja.</div>
     </section>
 
     <!-- 2) OPŠTA MEHANIKA -->
@@ -36,9 +36,9 @@ window.SCAM_CONTENT["advance-fee-fraud"] = {
       </h2>
 
       <p
-        data-sr="Advance-fee koristi racionalan okvir: taksa izgleda kao administrativan trošak koji „svaki sistem ima“. Iznos se bira tako da deluje izvodljivo u odnosu na obećani ishod. Prva uplata postavlja odnos meta–proces, posle čega fokus prelazi sa provere na izvršavanje."
-        data-en="Advance-fee relies on a rational frame: the fee looks like an administrative cost that “every system has”. The amount is chosen to feel manageable relative to the promised outcome. The first payment creates a target–process relationship, shifting focus from verification to execution."
-      >Advance-fee koristi racionalan okvir: taksa izgleda kao administrativan trošak koji „svaki sistem ima“. Iznos se bira tako da deluje izvodljivo u odnosu na obećani ishod. Prva uplata postavlja odnos meta–proces, posle čega fokus prelazi sa provere na izvršavanje.</p>
+        data-sr="Advance-fee koristi racionalan okvir: taksa izgleda kao administrativan trošak koji svaki sistem ima. Iznos se bira tako da deluje izvodljivo u odnosu na obećani ishod. Prva uplata postavlja odnos meta–proces, posle čega fokus prelazi sa provere na izvršavanje."
+        data-en="Advance-fee relies on a rational frame: the fee looks like an administrative cost that every system has. The amount is chosen to feel manageable relative to the promised outcome. The first payment creates a target–process relationship, shifting focus from verification to execution."
+      >Advance-fee koristi racionalan okvir: taksa izgleda kao administrativan trošak koji svaki sistem ima. Iznos se bira tako da deluje izvodljivo u odnosu na obećani ishod. Prva uplata postavlja odnos meta–proces, posle čega fokus prelazi sa provere na izvršavanje.</p>
 
       <ul class="bullets">
         <li data-sr="asimetrija: mali trošak naspram velikog obećanja." data-en="asymmetry: small cost vs big promise.">asimetrija: mali trošak naspram velikog obećanja.</li>
@@ -49,9 +49,9 @@ window.SCAM_CONTENT["advance-fee-fraud"] = {
       </ul>
 
       <div class="callout"
-        data-sr="<strong>Praktični indikator:</strong> „poslednji korak“ koji se ponavlja pod novim nazivima označava seriju."
-        data-en="<strong>Practical indicator:</strong> a “final step” that repeats under new labels signals a series."
-      ><strong>Praktični indikator:</strong> „poslednji korak“ koji se ponavlja pod novim nazivima označava seriju.</div>
+        data-sr="<strong>Praktični indikator:</strong> poslednji korak koji se ponavlja pod novim nazivima označava seriju."
+        data-en="<strong>Practical indicator:</strong> a final step that repeats under new labels signals a series."
+      ><strong>Praktični indikator:</strong> poslednji korak koji se ponavlja pod novim nazivima označava seriju.</div>
     </section>
 
     <!-- 3) HRONOLOŠKI TOK (DETALJNO) + GRANANJA -->
@@ -72,20 +72,20 @@ window.SCAM_CONTENT["advance-fee-fraud"] = {
         </h3>
 
         <p
-          data-sr="Obećanje postavlja okvir: novac ili ishod već postoji, samo je „zadržan“ ili „na čekanju“. Tema može biti nagrada, paket, kredit, refund, investicija ili pravni slučaj."
-          data-en="The promise locks the frame: the money or outcome već exists, it’s just “held” or “pending”. The theme may be a prize, package, loan, refund, investment, or a legal case."
-        >Obećanje postavlja okvir: novac ili ishod već postoji, samo je „zadržan“ ili „na čekanju“. Tema može biti nagrada, paket, kredit, refund, investicija ili pravni slučaj.</p>
+          data-sr="Obećanje postavlja okvir: novac ili ishod već postoji, samo je zadržan ili na čekanju. Tema može biti nagrada, paket, kredit, refund, investicija ili pravni slučaj."
+          data-en="The promise locks the frame: the money or outcome već exists, it’s just held or pending. The theme may be a prize, package, loan, refund, investment, or a legal case."
+        >Obećanje postavlja okvir: novac ili ishod već postoji, samo je zadržan ili na čekanju. Tema može biti nagrada, paket, kredit, refund, investicija ili pravni slučaj.</p>
 
         <ul class="bullets">
           <li data-sr="poruka naglašava dobitak ili povrat." data-en="message emphasizes a gain or refund.">poruka naglašava dobitak ili povrat.</li>
-          <li data-sr="uveden je razlog „zašto baš ti“ (izbor, slučaj, kampanja)." data-en="a reason why “you” (selection, case, campaign) is introduced.">uveden je razlog „zašto baš ti“ (izbor, slučaj, kampanja).</li>
+          <li data-sr="uveden je razlog zašto baš ti (izbor, slučaj, kampanja)." data-en="a reason why you (selection, case, campaign) is introduced.">uveden je razlog zašto baš ti (izbor, slučaj, kampanja).</li>
           <li data-sr="postavlja se sledeći korak kao rutina (potvrdi, aktiviraj, preuzmi)." data-en="the next step is framed as routine (confirm, activate, claim).">postavlja se sledeći korak kao rutina (potvrdi, aktiviraj, preuzmi).</li>
         </ul>
 
         <div class="callout"
-          data-sr="<strong>Prag ove faze:</strong> meta prihvata okvir da „vredi nastaviti proces."
-          data-en="<strong>Threshold of this phase:</strong> the target accepts that the “process is worth continuing”."
-        ><strong>Prag ove faze:</strong> meta prihvata okvir da „vredi nastaviti proces“.</div>
+          data-sr="<strong>Prag ove faze:</strong> meta prihvata okvir da vredi nastaviti proces."
+          data-en="<strong>Threshold of this phase:</strong> the target accepts that the process is worth continuing."
+        ><strong>Prag ove faze:</strong> meta prihvata okvir da vredi nastaviti proces.</div>
       </article>
 
       <!-- FAZA 2 -->
@@ -100,17 +100,17 @@ window.SCAM_CONTENT["advance-fee-fraud"] = {
         >Uvedeni su termini koji zvuče standardno: obrada, verifikacija, carina, porez, provera identiteta, policy, revizija. Forma izgleda kao sistem.</p>
 
         <ul class="bullets">
-          <li data-sr="uveden je „case number“ ili status slučaja." data-en="a “case number” or case status appears.">uveden je „case number“ ili status slučaja.</li>
-          <li data-sr="zahtev za „potvrdom“ izgleda kao korak koji zatvara temu." data-en="a “confirmation” request looks like it will close the issue.">zahtev za „potvrdom“ izgleda kao korak koji zatvara temu.</li>
+          <li data-sr="uveden je case number ili status slučaja." data-en="a case number or case status appears.">uveden je case number ili status slučaja.</li>
+          <li data-sr="zahtev za potvrdom izgleda kao korak koji zatvara temu." data-en="a confirmation request looks like it will close the issue.">zahtev za potvrdom izgleda kao korak koji zatvara temu.</li>
           <li data-sr="komunikacija prelazi u privatni kanal radi kontrole tempa." data-en="communication moves to a private channel to control pace.">komunikacija prelazi u privatni kanal radi kontrole tempa.</li>
         </ul>
 
         <div class="branch">
           <p><strong data-sr="Grananje u ovoj fazi" data-en="Branching at this phase">Grananje u ovoj fazi</strong></p>
           <ul class="bullets">
-            <li><strong>Fišing:</strong> link ka „potvrdi nalog/uplatu“ ili „verifikaciji“. Cilj: kartica, login, OTP. (Povezano: <a href="phishing.html">Fišing</a>).</li>
+            <li><strong>Fišing:</strong> link ka potvrdi nalog/uplatu ili verifikaciji. Cilj: kartica, login, OTP. (Povezano: <a href="phishing.html">Fišing</a>).</li>
 
-            <li><strong>Lažni poziv:</strong> „podrška“ objašnjava proceduru uživo i ubrzava sledeći korak. Cilj: uplata pod pritiskom. (Povezano: <a href="fake-call-scam.html">Lažni pozivi</a>).</li>
+            <li><strong>Lažni poziv:</strong> podrška objašnjava proceduru uživo i ubrzava sledeći korak. Cilj: uplata pod pritiskom. (Povezano: <a href="fake-call-scam.html">Lažni pozivi</a>).</li>
           </ul>
         </div>
       </article>
@@ -130,20 +130,20 @@ window.SCAM_CONTENT["advance-fee-fraud"] = {
           <div class="phase">
             <div class="label" data-sr="Šta traže" data-en="What they demand">Šta traže</div>
             <ul class="bullets">
-              <li data-sr="„processing fee“ ili „trošak obrade." data-en="“processing fee”">„processing fee“ ili „trošak obrade“.</li>
-              <li data-sr="„verification fee“ ili „potvrda identiteta." data-en="“verification fee” / identity confirmation.">„verification fee“ ili „potvrda identiteta“.</li>
-              <li data-sr="„tax clearance“ / „porez." data-en="“tax clearance” / “tax”">„tax clearance“ / „porez“.</li>
-              <li data-sr="„deposit“ / „security bond." data-en="“deposit” / “security bond”">„deposit“ / „security bond“.</li>
+              <li data-sr="processing fee ili trošak obrade." data-en="processing fee">processing fee ili trošak obrade.</li>
+              <li data-sr="verification fee ili potvrda identiteta." data-en="verification fee / identity confirmation.">verification fee ili potvrda identiteta.</li>
+              <li data-sr="tax clearance / porez." data-en="tax clearance / tax">tax clearance / porez.</li>
+              <li data-sr="deposit / security bond." data-en="deposit / security bond">deposit / security bond.</li>
             </ul>
           </div>
 
           <div class="phase">
             <div class="label" data-sr="Kako prodaju uplatu" data-en="How they frame payment">Kako prodaju uplatu</div>
             <ul class="bullets">
-              <li data-sr="„standardno je, svi prolaze to." data-en="“standard, everyone goes through it”">„standardno je, svi prolaze to“.</li>
-              <li data-sr="„bez toga sistem ne pušta." data-en="“the system won’t release without it”">„bez toga sistem ne pušta“.</li>
-              <li data-sr="„rok je danas." data-en="“deadline is today”">„rok je danas“.</li>
-              <li data-sr="„posle ovoga ide isplata." data-en="“after this comes payout”">„posle ovoga ide isplata“.</li>
+              <li data-sr="standardno je, svi prolaze to." data-en="standard, everyone goes through it">standardno je, svi prolaze to.</li>
+              <li data-sr="bez toga sistem ne pušta." data-en="the system won’t release without it">bez toga sistem ne pušta.</li>
+              <li data-sr="rok je danas." data-en="deadline is today">rok je danas.</li>
+              <li data-sr="posle ovoga ide isplata." data-en="after this comes payout">posle ovoga ide isplata.</li>
             </ul>
           </div>
         </div>
@@ -166,9 +166,9 @@ window.SCAM_CONTENT["advance-fee-fraud"] = {
         >Prva uplata menja stanje. Meta prelazi iz procene u režim završavanja i pokušava da zatvori proces koji je već pokrenut.</p>
 
         <ul class="bullets">
-          <li data-sr="iznos često deluje kao „sitnica“ u odnosu na obećani ishod." data-en="the amount often feels “small” compared to the promised outcome.">iznos često deluje kao „sitnica“ u odnosu na obećani ishod.</li>
+          <li data-sr="iznos često deluje kao sitnica u odnosu na obećani ishod." data-en="the amount often feels small compared to the promised outcome.">iznos često deluje kao sitnica u odnosu na obećani ishod.</li>
           <li data-sr="uplate se često traže kroz kanale koji otežavaju povraćaj." data-en="payments are often pushed through rails with lower reversibility.">uplate se često traže kroz kanale koji otežavaju povraćaj.</li>
-          <li data-sr="posle uplate stiže potvrda ili poruka „processing." data-en="after paying, a confirmation or “processing” message arrives.">posle uplate stiže potvrda ili poruka „processing“.</li>
+          <li data-sr="posle uplate stiže potvrda ili poruka processing." data-en="after paying, a confirmation or processing message arrives.">posle uplate stiže potvrda ili poruka processing.</li>
         </ul>
 
         <div class="branch">
@@ -176,7 +176,7 @@ window.SCAM_CONTENT["advance-fee-fraud"] = {
           <ul class="bullets">
             <li><strong>Lažni poziv:</strong> ubrzanje procesa kroz glas i instrukcije. (Povezano: <a href="fake-call-scam.html">Lažni pozivi</a>).</li>
 
-            <li><strong>Recovery priprema:</strong> pominjanje „refund“ ili „release“ kao sledećeg koraka uz novu uplatu. (Povezano: <a href="recovery-scam.html">Prevara povraćaja novca</a>).</li>
+            <li><strong>Recovery priprema:</strong> pominjanje refund ili release kao sledećeg koraka uz novu uplatu. (Povezano: <a href="recovery-scam.html">Prevara povraćaja novca</a>).</li>
           </ul>
         </div>
       </article>
@@ -193,16 +193,16 @@ window.SCAM_CONTENT["advance-fee-fraud"] = {
         >Nakon prve uplate pojavljuju se novi zahtevi pod različitim nazivima. Razlozi se rotiraju, iznosi se podešavaju, rokovi se skraćuju. Svaki zahtev izgleda kao poslednji.</p>
 
         <ul class="bullets">
-          <li data-sr="„dopuna“ zbog greške ili pogrešnog pokušaja." data-en="a “top-up” due to an error or wrong attempt.">„dopuna“ zbog greške ili pogrešnog pokušaja.</li>
-          <li data-sr="novi „porez“ ili „osiguranje“ kao obavezna stavka." data-en="a new “tax” or “insurance” as mandatory item.">novi „porez“ ili „osiguranje“ kao obavezna stavka.</li>
-          <li data-sr="„policy update“ ili „audit“ kao formalna prepreka." data-en="a “policy update” or “audit” as a formal obstacle.">„policy update“ ili „audit“ kao formalna prepreka.</li>
+          <li data-sr="dopuna zbog greške ili pogrešnog pokušaja." data-en="a top-up due to an error or wrong attempt.">dopuna zbog greške ili pogrešnog pokušaja.</li>
+          <li data-sr="novi porez ili osiguranje kao obavezna stavka." data-en="a new tax or insurance as mandatory item.">novi porez ili osiguranje kao obavezna stavka.</li>
+          <li data-sr="policy update ili audit kao formalna prepreka." data-en="a policy update or audit as a formal obstacle.">policy update ili audit kao formalna prepreka.</li>
           <li data-sr="rokovi postaju kraći da bi odluka došla brzo." data-en="deadlines shrink to force fast decisions.">rokovi postaju kraći da bi odluka došla brzo.</li>
         </ul>
 
         <div class="branch">
           <p><strong data-sr="Grananja koja se često pojavljuju" data-en="Common branching paths">Grananja koja se često pojavljuju</strong></p>
           <ul class="bullets">
-            <li><strong>Crypto povlačenje:</strong> „provera protiv pranja novca/tax fee“ kao uslov povlačenja profita. (Povezano: <a href="crypto-scam.html">Kripto investiciona prevara</a>).</li>
+            <li><strong>Crypto povlačenje:</strong> provera protiv pranja novca/tax fee kao uslov povlačenja profita. (Povezano: <a href="crypto-scam.html">Kripto investiciona prevara</a>).</li>
 
             <li><strong>Marketplace kapara:</strong> prvi iznos kao rezervacija, zatim serija troškova. (Povezano: <a href="marketplace-scam.html">Prevare na oglasnicima</a>).</li>
           </ul>
@@ -216,14 +216,14 @@ window.SCAM_CONTENT["advance-fee-fraud"] = {
         </h3>
 
         <p
-          data-sr="Kad se pojavi usporavanje, komunikacija prelazi u formalniji ton: „podrška“, „advokat“, „regulator“, „compliance“. Uplata se predstavlja kao obavezna administrativna radnja."
-          data-en="When the target slows down, communication shifts to a more formal tone: “support”, “lawyer”, “regulator”, “compliance”. Payment is framed as mandatory administration."
-        >Kad se pojavi usporavanje, komunikacija prelazi u formalniji ton: „podrška“, „advokat“, „regulator“, „compliance“. Uplata se predstavlja kao obavezna administrativna radnja.</p>
+          data-sr="Kad se pojavi usporavanje, komunikacija prelazi u formalniji ton: podrška, advokat, regulator, compliance. Uplata se predstavlja kao obavezna administrativna radnja."
+          data-en="When the target slows down, communication shifts to a more formal tone: support, lawyer, regulator, compliance. Payment is framed as mandatory administration."
+        >Kad se pojavi usporavanje, komunikacija prelazi u formalniji ton: podrška, advokat, regulator, compliance. Uplata se predstavlja kao obavezna administrativna radnja.</p>
 
         <ul class="bullets">
           <li data-sr="pominju se posledice: zamrzavanje, zatvaranje slučaja, gubitak prava." data-en="consequences are introduced: freeze, case closure, loss of rights.">pominju se posledice: zamrzavanje, zatvaranje slučaja, gubitak prava.</li>
           <li data-sr="traži se tajnost i izbegavanje konsultacije." data-en="secrecy and avoiding consultation are pushed.">traži se tajnost i izbegavanje konsultacije.</li>
-          <li data-sr="predlaže se poziv radi „bržeg rešavanja." data-en="a call is offered for “faster resolution”">predlaže se poziv radi „bržeg rešavanja“.</li>
+          <li data-sr="predlaže se poziv radi bržeg rešavanja." data-en="a call is offered for faster resolution">predlaže se poziv radi bržeg rešavanja.</li>
         </ul>
 
         <div class="callout"
@@ -239,14 +239,14 @@ window.SCAM_CONTENT["advance-fee-fraud"] = {
         </h3>
 
         <p
-          data-sr="Posle prekida često stiže ponuda povraćaja uz novu uplatu. Kontakt koristi detalje incidenta (iznos, platforma, datum) kao dokaz „stručnosti“. Operativno, isti obrazac se nastavlja."
-          data-en="After you stop, a recovery offer often appears with a new fee. The contact uses incident details (amount, platform, date) as “expertise” proof. Operationally, the same pattern continues."
-        >Posle prekida često stiže ponuda povraćaja uz novu uplatu. Kontakt koristi detalje incidenta (iznos, platforma, datum) kao dokaz „stručnosti“. Operativno, isti obrazac se nastavlja.</p>
+          data-sr="Posle prekida često stiže ponuda povraćaja uz novu uplatu. Kontakt koristi detalje incidenta (iznos, platforma, datum) kao dokaz stručnosti. Operativno, isti obrazac se nastavlja."
+          data-en="After you stop, a recovery offer often appears with a new fee. The contact uses incident details (amount, platform, date) as expertise proof. Operationally, the same pattern continues."
+        >Posle prekida često stiže ponuda povraćaja uz novu uplatu. Kontakt koristi detalje incidenta (iznos, platforma, datum) kao dokaz stručnosti. Operativno, isti obrazac se nastavlja.</p>
 
         <div class="branch">
           <p><strong data-sr="Povezano" data-en="Related">Povezano</strong></p>
           <ul class="bullets">
-            <li><strong>Recovery scam:</strong> „povrat“ kao mamac za novu uplatu. (Povezano: <a href="recovery-scam.html">Prevara povraćaja novca</a>).</li>
+            <li><strong>Recovery scam:</strong> povrat kao mamac za novu uplatu. (Povezano: <a href="recovery-scam.html">Prevara povraćaja novca</a>).</li>
           </ul>
         </div>
       </article>
@@ -260,9 +260,9 @@ window.SCAM_CONTENT["advance-fee-fraud"] = {
 
       <h3 data-sr="A) Dostava / carina / paket" data-en="A) Delivery / customs / package">A) Dostava / carina / paket</h3>
       <p
-        data-sr="Priča glumi logistiku: paket stoji, adresa zahteva potvrdu, carina traži doplatu. Prvi iznos je „sitna taksa“, zatim dolaze osiguranje, ponovna dostava i dodatne stavke."
-        data-en="The story imitates logistics: a package is held, address confirmation is required, customs asks for a fee. The first amount is a “small fee”, then insurance, re-delivery, and more items follow."
-      >Priča glumi logistiku: paket stoji, adresa zahteva potvrdu, carina traži doplatu. Prvi iznos je „sitna taksa“, zatim dolaze osiguranje, ponovna dostava i dodatne stavke.</p>
+        data-sr="Priča glumi logistiku: paket stoji, adresa zahteva potvrdu, carina traži doplatu. Prvi iznos je sitna taksa, zatim dolaze osiguranje, ponovna dostava i dodatne stavke."
+        data-en="The story imitates logistics: a package is held, address confirmation is required, customs asks for a fee. The first amount is a small fee, then insurance, re-delivery, and more items follow."
+      >Priča glumi logistiku: paket stoji, adresa zahteva potvrdu, carina traži doplatu. Prvi iznos je sitna taksa, zatim dolaze osiguranje, ponovna dostava i dodatne stavke.</p>
 
       <h3 data-sr="B) Kredit / zajam" data-en="B) Loan / credit">B) Kredit / zajam</h3>
       <p
@@ -278,31 +278,31 @@ window.SCAM_CONTENT["advance-fee-fraud"] = {
 
       <h3 data-sr="D) Nagrada / giveaway" data-en="D) Prize / giveaway">D) Nagrada / giveaway</h3>
       <p
-        data-sr="Nagrada uvodi „porez“ ili „administraciju“. Posle uplate stižu kurir, osiguranje, obrada, zatim nova taksa."
-        data-en="Prize scams introduce “tax” or “administration”. After paying, courier, insurance, processing follow, then a new fee."
-      >Nagrada uvodi „porez“ ili „administraciju“. Posle uplate stižu kurir, osiguranje, obrada, zatim nova taksa.</p>
+        data-sr="Nagrada uvodi porez ili administraciju. Posle uplate stižu kurir, osiguranje, obrada, zatim nova taksa."
+        data-en="Prize scams introduce tax or administration. After paying, courier, insurance, processing follow, then a new fee."
+      >Nagrada uvodi porez ili administraciju. Posle uplate stižu kurir, osiguranje, obrada, zatim nova taksa.</p>
 
-      <h3 data-sr="E) Recovery (drugi napad)." data-en="E) Recovery (second attack).">E) Recovery (drugi napad)</h3>
+      <h3 data-sr="E) Recovery (drugi napad)" data-en="E) Recovery (second attack).">E) Recovery (drugi napad)</h3>
       <p
-        data-sr="Recovery koristi gubitak kao ulaz. Ponuda obećava povrat, zatim uvodi taksu za „postupak“, „dokumentaciju“, „unlock“ ili „case fee“. Operativno isti obrazac nastavlja."
-        data-en="Recovery uses the loss as entry. The offer promises return, then introduces a fee for “process”, “documentation”, “unlock”, or “case fee”. Operationally, the same pattern continues."
-      >Recovery koristi gubitak kao ulaz. Ponuda obećava povrat, zatim uvodi taksu za „postupak“, „dokumentaciju“, „unlock“ ili „case fee“. Operativno isti obrazac nastavlja.</p>
+        data-sr="Recovery koristi gubitak kao ulaz. Ponuda obećava povrat, zatim uvodi taksu za postupak, dokumentaciju, unlock ili case fee. Operativno isti obrazac nastavlja."
+        data-en="Recovery uses the loss as entry. The offer promises return, then introduces a fee for process, documentation, unlock, or case fee. Operationally, the same pattern continues."
+      >Recovery koristi gubitak kao ulaz. Ponuda obećava povrat, zatim uvodi taksu za postupak, dokumentaciju, unlock ili case fee. Operativno isti obrazac nastavlja.</p>
     </section>
 
 
-      <h3 data-sr="F) Nigerian Prince / Inheritance (klasična varijanta)." data-en="F) Nigerian Prince / Inheritance (classic variant).">F) Nigerian Prince / Inheritance (klasična varijanta)</h3>
+      <h3 data-sr="F) Nigerian Prince / Inheritance (klasična varijanta)" data-en="F) Nigerian Prince / Inheritance (classic variant).">F) Nigerian Prince / Inheritance (klasična varijanta)</h3>
       <p
         data-sr="Najstarija i najpoznatija varijanta. imejl obećava nasleđe, zaboravljeni fond ili transfer velikog iznosa ($10M+). Traži se processing fee, lawyer fee, bank charges. Serija se razvija kroz dokumente, nova odobrenja, novi troškovi. Prosečan gubitak: $5,000-$15,000."
         data-en="The oldest and most well-known variant. Email promises inheritance, forgotten fund, or transfer of large amount ($10M+). Requests processing fee, lawyer fee, bank charges. Series develops through documents, new approvals, new costs. Average loss: $5,000-$15,000."
       >Najstarija i najpoznatija varijanta. Imejl obećava nasleđe, zaboravljeni fond ili transfer velikog iznosa ($10M+). Traži se processing fee, lawyer fee, bank charges. Serija se razvija kroz dokumente, nova odobrenja, novi troškovi. Prosečan gubitak: $5,000-$15,000.</p>
 
-      <h3 data-sr="G) Lottery / Sweepstakes (nagradna prevara)." data-en="G) Lottery / Sweepstakes (prize scam).">G) Lottery / Sweepstakes (nagradna prevara)</h3>
+      <h3 data-sr="G) Lottery / Sweepstakes (nagradna prevara)" data-en="G) Lottery / Sweepstakes (prize scam).">G) Lottery / Sweepstakes (nagradna prevara)</h3>
       <p
         data-sr="Obaveštenje o dobitku lutrije koju nikada nisi igrao. Traži se claim fee, tax payment, insurance. Legitimni lottery NIKADA ne traži uplatu PRE isplate. Serija: processing, lawyer, courier, final tax. Prosečan gubitak: $2,000-$8,000."
         data-en="Notification of lottery win you never entered. Requests claim fee, tax payment, insurance. Legitimate lotteries NEVER request payment BEFORE payout. Series: processing, lawyer, courier, final tax. Average loss: $2,000-$8,000."
       >Obaveštenje o dobitku lutrije koju nikada nisi igrao. Traži se claim fee, tax payment, insurance. Legitimni lottery NIKADA ne traži uplatu PRE isplate. Serija: processing, lawyer, courier, final tax. Prosečan gubitak: $2,000-$8,000.</p>
 
-      <h3 data-sr="H) Tax / IRS refund (poreska prevara)." data-en="H) Tax / IRS refund (tax scam).">H) Tax / IRS refund (poreska prevara)</h3>
+      <h3 data-sr="H) Tax / IRS refund (poreska prevara)" data-en="H) Tax / IRS refund (tax scam).">H) Tax / IRS refund (poreska prevara)</h3>
       <p
         data-sr="imejl/SMS tvrdi da postoji refund ili nagla poreska obaveza. Traži processing fee, verification deposit, ili direct payment pod pretnjom. IRS NIKADA ne šalje neočekivane refund imejl-ove i NIKADA ne traži payment preko gift cards/crypto. Prosečan gubitak: $800-$3,000."
         data-en="Email/SMS claims refund exists or sudden tax obligation. Requests processing fee, verification deposit, or direct payment under threat. IRS NEVER sends unexpected refund emails and NEVER requests payment via gift cards/crypto. Average loss: $800-$3,000."
@@ -317,7 +317,7 @@ window.SCAM_CONTENT["advance-fee-fraud"] = {
 
       <div class="grid-2">
         <div class="phase">
-          <div class="label" data-sr="FBI IC3 + FTC data (USA)." data-en="FBI IC3 + FTC data (USA).">FBI IC3 + FTC data (USA)</div>
+          <div class="label" data-sr="FBI IC3 + FTC data (USA)" data-en="FBI IC3 + FTC data (USA).">FBI IC3 + FTC data (USA)</div>
           <ul class="bullets">
             <li data-sr="Advance Fee: 8,045 prijava, $134.5M gubitak (IC3 2023)." data-en="Advance Fee: 8,045 reports, $134.5M loss (IC3 2023).">Advance Fee: 8,045 prijava, $134.5M gubitak (IC3 2023).</li>
             <li data-sr="Lottery/Sweepstakes/Inheritance: 4,168 prijava, $94.5M gubitak." data-en="Lottery/Sweepstakes/Inheritance: 4,168 reports, $94.5M loss.">Lottery/Sweepstakes/Inheritance: 4,168 prijava, $94.5M gubitak.</li>
@@ -328,7 +328,7 @@ window.SCAM_CONTENT["advance-fee-fraud"] = {
         </div>
 
         <div class="phase">
-          <div class="label" data-sr="Demografija (ko je najranjiviji)." data-en="Demographics (most vulnerable).">Demografija (ko je najranjiviji)</div>
+          <div class="label" data-sr="Demografija (ko je najranjiviji)" data-en="Demographics (most vulnerable).">Demografija (ko je najranjiviji)</div>
           <ul class="bullets">
             <li data-sr="starost 60+: 40% žrtava, 55% total gubitka." data-en="age 60+: 40% of victims, 55% of total loss.">starost 60+: 40% žrtava, 55% total gubitka.</li>
             <li data-sr="prosečan gubitak 60+: $5,200 (vs $2,400 za 18-59)." data-en="average loss 60+: $5,200 (vs $2,400 for 18-59).">prosečan gubitak 60+: $5,200 (vs $2,400 za 18-59).</li>
@@ -356,8 +356,8 @@ window.SCAM_CONTENT["advance-fee-fraud"] = {
           <ul class="bullets">
             <li data-sr="prenos para: 50% (Western Union, MoneyGram - gotovo nemoguć povrat)." data-en="prenos para: 50% (Western Union, MoneyGram - nearly impossible recovery).">prenos para: 50% (Western Union, MoneyGram - gotovo nemoguć povrat).</li>
             <li data-sr="gift cards: 25% (iTunes, Google Play, Steam - 0% recovery)." data-en="gift cards: 25% (iTunes, Google Play, Steam - 0% recovery).">gift cards: 25% (iTunes, Google Play, Steam - 0% recovery).</li>
-            <li data-sr="cryptocurrency: 15% (Bitcoin, USDT - < 2% recovery)." data-en="cryptocurrency: 15% (Bitcoin, USDT - < 2% recovery).">cryptocurrency: 15% (Bitcoin, USDT - < 2% recovery)</li>
-            <li data-sr="bank transfer: 10% (chargebacks possible if fast, < 24h window)." data-en="bank transfer: 10% (chargebacks possible if fast, < 24h window).">bank transfer: 10% (chargebacks possible if fast, < 24h window)</li>
+            <li data-sr="cryptocurrency: 15% (Bitcoin, USDT - < 2% recovery)" data-en="cryptocurrency: 15% (Bitcoin, USDT - < 2% recovery).">cryptocurrency: 15% (Bitcoin, USDT - < 2% recovery)</li>
+            <li data-sr="bank transfer: 10% (chargebacks possible if fast, < 24h window)" data-en="bank transfer: 10% (chargebacks possible if fast, < 24h window).">bank transfer: 10% (chargebacks possible if fast, < 24h window)</li>
             <li data-sr="overall recovery rate: 3-5% (majority never recovered)." data-en="overall recovery rate: 3-5% (majority never recovered).">overall recovery rate: 3-5% (majority never recovered).</li>
           </ul>
         </div>
@@ -394,7 +394,7 @@ window.SCAM_CONTENT["advance-fee-fraud"] = {
           <div class="label" data-sr="Kada uplatiš" data-en="When you pay">Kada uplatiš</div>
           <ul class="bullets">
             <li data-sr="uvedena serija: novi razlog, novi rok, novi iznos." data-en="series starts: new reason, new deadline, new amount.">uvedena serija: novi razlog, novi rok, novi iznos.</li>
-            <li data-sr="uvođenje poziva ili „podrške“ radi kontrole tempa." data-en="calls or “support” introduced to control pace.">uvođenje poziva ili „podrške“ radi kontrole tempa.</li>
+            <li data-sr="uvođenje poziva ili podrške radi kontrole tempa." data-en="calls or support introduced to control pace.">uvođenje poziva ili podrške radi kontrole tempa.</li>
             <li data-sr="formalni identitet (compliance/regulator) radi pritiska." data-en="formal identity (compliance/regulator) for pressure.">formalni identitet (compliance/regulator) radi pritiska.</li>
           </ul>
         </div>
@@ -420,9 +420,9 @@ window.SCAM_CONTENT["advance-fee-fraud"] = {
       </ol>
 
       <div class="callout"
-        data-sr="<strong>Upozorenje:</strong> uplata „takse“ radi povrata ili otključavanja predstavlja nastavak istog obrasca."
-        data-en="<strong>Warning:</strong> paying a “fee” to recover or unlock is continuation of the same pattern."
-      ><strong>Upozorenje:</strong> uplata „takse“ radi povrata ili otključavanja predstavlja nastavak istog obrasca.</div>
+        data-sr="<strong>Upozorenje:</strong> uplata takse radi povrata ili otključavanja predstavlja nastavak istog obrasca."
+        data-en="<strong>Warning:</strong> paying a fee to recover or unlock is continuation of the same pattern."
+      ><strong>Upozorenje:</strong> uplata takse radi povrata ili otključavanja predstavlja nastavak istog obrasca.</div>
     </section>
 
     <!-- 7) STANDARDNA UPOZORENJA -->
@@ -430,32 +430,11 @@ window.SCAM_CONTENT["advance-fee-fraud"] = {
       <h2 data-sr="Standardna upozorenja" data-en="Standard warnings">Standardna upozorenja</h2>
       <ul class="bullets">
         <li data-sr="uplata kao uslov za isplatu nosi visoki rizik." data-en="payment as a condition for payout is high risk.">uplata kao uslov za isplatu nosi visoki rizik.</li>
-        <li data-sr="ponavljanje „poslednjeg koraka“ pod novim nazivima znači seriju." data-en="repeating a “final step” under new labels signals a series.">ponavljanje „poslednjeg koraka“ pod novim nazivima znači seriju.</li>
+        <li data-sr="ponavljanje poslednjeg koraka pod novim nazivima znači seriju." data-en="repeating a final step under new labels signals a series.">ponavljanje poslednjeg koraka pod novim nazivima znači seriju.</li>
         <li data-sr="privatni računi, posrednici i kripto adrese nose povećan rizik." data-en="private accounts, intermediaries, and crypto wallets increase risk.">privatni računi, posrednici i kripto adrese nose povećan rizik.</li>
       </ul>
     </section>
 
     <!-- 8) IZVORI -->
-
-<section class="content-section">
-  <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-  <ul class="bullets">
-    <li><a href="crypto-scam.html" data-sr="Kripto investiciona prevara" data-en="Crypto investment scam">Kripto investiciona prevara</a></li>
-    <li><a href="recovery-scam.html" data-sr="Recovery prevara" data-en="Recovery scam">Recovery prevara</a></li>
-    <li><a href="lottery-scam.html" data-sr="Prevara s nagradnom igrom" data-en="Lottery scam">Prevara s nagradnom igrom</a></li>
-    <li><a href="impersonation-scam.html" data-sr="Lazno predstavljanje" data-en="Impersonation scam">Lazno predstavljanje</a></li>
-    <li><a href="rental-scam.html" data-sr="Prevara pri iznajmljivanju" data-en="Rental scam">Prevara pri iznajmljivanju</a></li>
-    <li><a href="job-scam.html" data-sr="Prevara pri trazenju posla" data-en="Job scam">Prevara pri trazenju posla</a></li>
-  </ul>
-</section>
-
-<section class="card sources" id="sources">
-      <h2 data-sr="Izvori" data-en="Sources">Izvori</h2>
-      <ul>
-        <li><a href="https://www.ic3.gov/Media/PDF/AnnualReport/2023_IC3Report.pdf" target="_blank" rel="noopener noreferrer">FBI IC3 — 2023 Internet Crime Report (Advance Fee: 8,045 complaints, $134.5M; Lottery: 4,168 complaints, $94.5M)</a></li>
-        <li><a href="https://consumer.ftc.gov/scams" target="_blank" rel="noopener noreferrer">FTC — Scam guidance</a></li>
-        <li><a href="https://www.fbi.gov/how-we-can-help-you/scams-and-safety/common-frauds-and-scams" target="_blank" rel="noopener noreferrer">FBI — Common frauds and scams</a></li>
-      </ul>
-    </section>
-  `
+`
 };

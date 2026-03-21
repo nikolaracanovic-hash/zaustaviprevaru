@@ -3,10 +3,10 @@ window.SCAM_CONTENT = window.SCAM_CONTENT || {};
 window.SCAM_CONTENT["home-improvement-scam"] = {
   raw_html: `
     <section class="card">
-      <h2 data-sr="Uvod: kako radi prevara sa adaptacijom stana" data-en="Introduction: how the home improvement scam works">Uvod: kako radi Prevara sa adaptacijom stana</h2>
+      <h2 data-sr="Uvod: kako radi Prevara sa adaptacijom stana" data-en="Introduction: how the home improvement scam works">Uvod: kako radi Prevara sa adaptacijom stana</h2>
       <p data-sr="Izvođač radova nudi rekonstrukciju, popravku ili adaptaciju po atraktivnoj ceni. Traži visok avans za materijal. Nakon isplate počinje da radi — pa se zaustavlja, pravda nedostatkom materijala ili potrebom za više para, i na kraju nestaje sa nedovršenim poslom." data-en="A contractor offers renovation, repair or conversion at an attractive price. Requests a high advance for materials. After payment starts working — then stops, citing lack of materials or needing more money, and eventually disappears leaving the job unfinished.">Izvođač radova nudi rekonstrukciju, popravku ili adaptaciju po atraktivnoj ceni. Traži visok avans za materijal. Nakon isplate počinje da radi — pa se zaustavlja, pravda nedostatkom materijala ili potrebom za više para, i na kraju nestaje sa nedovršenim poslom.</p>
-      <div class="callout" data-sr="&lt;strong&gt;Model:&lt;/strong&gt; Ponuda za radove → visoki avans → radovi ne počnu ili se ne završe → nestanak izvođača." data-en="&lt;strong&gt;Model:&lt;/strong&gt; Work offer → high advance → work not started or not completed → contractor disappearance."><strong>Model:</strong> Ponuda za radove → visoki avans → radovi ne počnu ili se ne završe → nestanak izvođača.</div>
-      <div class="callout" data-sr="&lt;strong&gt;Prag:&lt;/strong&gt; Uplata avansa izvođaču radova. Radovi ne počinju ili se zaustavljaju pre završetka." data-en="&lt;strong&gt;Threshold:&lt;/strong&gt; Payment of an advance to the contractor. Work does not start or stops before completion."><strong>Prag:</strong> Uplata avansa izvođaču radova. Radovi ne počinju ili se zaustavljaju pre završetka.</div>
+      <div class="callout" data-sr="<strong>Model:</strong> Ponuda za radove → visoki avans → radovi ne počnu ili se ne završe → nestanak izvođača." data-en="<strong>Model:</strong> Work offer → high advance → work not started or not completed → contractor disappearance."><strong>Model:</strong> Ponuda za radove → visoki avans → radovi ne počnu ili se ne završe → nestanak izvođača.</div>
+      <div class="callout" data-sr="<strong>Prag:</strong> Uplata avansa izvođaču radova. Radovi ne počinju ili se zaustavljaju pre završetka." data-en="<strong>Threshold:</strong> Payment of an advance to the contractor. Work does not start or stops before completion."><strong>Prag:</strong> Uplata avansa izvođaču radova. Radovi ne počinju ili se zaustavljaju pre završetka.</div>
     </section>
 
     <section class="card">
@@ -115,15 +115,6 @@ window.SCAM_CONTENT["home-improvement-scam"] = {
       </ul>
     </section>
 
-    <section class="card">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <ul class="bullets">
-        <li><a href="moving-scam.html" data-sr="Prevara sa selidbom" data-en="Moving scam">Prevara sa selidbom</a></li>
-        <li><a href="deposit-scam.html" data-sr="Prevara sa depozitom" data-en="Deposit scam">Prevara sa depozitom</a></li>
-        <li><a href="advance-fee-fraud.html" data-sr="Prevara avansnim plaćanjem" data-en="Advance fee fraud">Prevara avansnim plaćanjem</a></li>
-        <li><a href="escrow-scam.html" data-sr="Escrow prevara" data-en="Escrow scam">Escrow prevara</a></li>
-        <li><a href="real-estate-purchase-scam.html" data-sr="Prevara pri kupovini nekretnine" data-en="Real estate purchase scam">Prevara pri kupovini nekretnine</a></li>
-      </ul>
-    </section>
+    
   `
 };

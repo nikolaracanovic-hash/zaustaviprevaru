@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta
+    name="description"
+    content="Link ili PDF za podešavanje direktnog zaduženja vodi na lažni mandat i tuđi ID poverioca."
+    data-sr="Link ili PDF za podešavanje direktnog zaduženja vodi na lažni mandat i tuđi ID poverioca."
+    data-en="Link or PDF for direct debit setup leads to a fake mandate and someone else&#x27;s creditor ID."
+  />
+
+  <title
+    data-sr="Lažno podešavanje direktnog zaduženja"
+    data-en="Fake direct debit setup"
+  >Fake direct debit setup</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="ui.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="direct-debit-setup.content.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="cases.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+      <div class="brand">
+        <span class="brand-dot" aria-hidden="true"></span>
+        <span class="brand-name">Anti-scam</span>
+      </div>
+
+      <nav aria-label="Glavna navigacija">
+        <ul class="top-nav">
+          <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+          <li><a href="prevare.html" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          <li><a href="protecting-elderly.html" data-sr="Prevencija" data-en="Prevention">Prevencija</a></li>                  </ul>
+      </nav>
+    </div>
+
+<div class="hero compact">
+        <h1
+          data-sr="Lažno podešavanje direktnog zaduženja"
+          data-en="Fake direct debit setup"
+        >Fake direct debit setup</h1>
+
+        <p class="muted hero-sub"
+           data-sr="Poruka glumi komunalno ili dobavljača → jedan klik odobrava zaduženje → višestruke transakcije."
+           data-en="Message pretends to be utility or supplier → one click approves debit → multiple pulls.">
+          Poruka glumi komunalno ili dobavljača → jedan klik odobrava zaduženje → višestruke transakcije.
+        </p>
+
+        <div id="scam-meta" data-scam="direct-debit-setup"></div>
+
+        <div class="callout"
+             data-sr="<strong>Prag:</strong> direktno zaduženje aktivirano bez uporedbe sa prethodnim računom i bez poziva na broj sa papirnog računa."
+             data-en="<strong>Threshold:</strong> direct debit activated without comparison to a previous bill and without calling the number on the paper bill.">
+          <strong>Prag:</strong> direktno zaduženje aktivirano bez uporedbe sa prethodnim računom i bez poziva na broj sa papirnog računa.
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div data-overview></div>
+    <div data-steps></div>
+    <div data-scammer-view></div>
+
+    <div data-longform></div>
+    <div data-related></div>
+</main>
+
+  <footer class="footer">
+  <div class="container">
+    <p class="muted"
+       data-sr="Anti-scam projekat — edukacija i analiza"
+       data-en="Anti-scam project — education and analysis">
+      Anti-scam projekat — edukacija i analiza
+    </p>
+    <p class="muted">
+      <a href="obavestenje-o-privatnosti.html" data-sr="Obaveštenje o privatnosti" data-en="Privacy notice">Obaveštenje o privatnosti</a>
+    </p>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,4 +1,4 @@
-﻿window.SCAM_CONTENT = window.SCAM_CONTENT || {};
+window.SCAM_CONTENT = window.SCAM_CONTENT || {};
 
 window.SCAM_CONTENT["synthetic-identity-fraud"] = {
   raw_html: `
@@ -14,9 +14,9 @@ window.SCAM_CONTENT["synthetic-identity-fraud"] = {
       >Sintetička krađa identiteta razlikuje se od klasične krađe identiteta po tome što prevarant ne krade identitet postojeće osobe u celini — već ga konstruiše od delimično stvarnih i delimično izmišljenih podataka. Tipična kombinacija: stvarni JMBG ili OIB (često od dece ili osoba bez kreditne istorije) uz izmišljeno ime, adresu i datum rođenja. Rezultat je nova, legitimno izgledajuća osoba koja ne postoji u stvarnosti.</p>
 
       <p
-        data-sr="Šema se odvija u dugom vremenskom horizontu: prevarant najpre gradi kreditnu istoriju za sintetički identitet kroz male transakcije i uredna plaćanja, a tek kada kreditni limit postane dovoljno visok, izvodi „bust-out" — maksimizuje sve kreditne linije i nestaje“. Finansijska institucija ostaje sa neplaćenim dugom, a prava osoba čiji je JMBG korišćen može godinama da ne sazna da njen identifikacijski broj postoji u nečijem tuđem kreditnom dosijeu."
+        data-sr="Šema se odvija u dugom vremenskom horizontu: prevarant najpre gradi kreditnu istoriju za sintetički identitet kroz male transakcije i uredna plaćanja, a tek kada kreditni limit postane dovoljno visok, izvodi bust-out — maksimizuje sve kreditne linije i nestaje. Finansijska institucija ostaje sa neplaćenim dugom, a prava osoba čiji je JMBG korišćen može godinama da ne sazna da njen identifikacijski broj postoji u nečijem tuđem kreditnom dosijeu."
         data-en="The scheme plays out over a long time horizon: the fraudster first builds a credit history for the synthetic identity through small transactions and regular payments, then when the credit limit becomes high enough, executes a bust-out — maximizing all credit lines and disappearing. The financial institution is left with unpaid debt, and the real person whose SSN was used may not know for years that their identification number exists in someone else's credit file."
-      >Šema se odvija u dugom vremenskom horizontu: prevarant najpre gradi kreditnu istoriju za sintetički identitet kroz male transakcije i uredna plaćanja, a tek kada kreditni limit postane dovoljno visok, izvodi „bust-out" — maksimizuje sve kreditne linije i nestaje“. Finansijska institucija ostaje sa neplaćenim dugom, a prava osoba čiji je JMBG korišćen može godinama da ne sazna da njen identifikacijski broj postoji u nečijem tuđem kreditnom dosijeu.</p>
+      >Šema se odvija u dugom vremenskom horizontu: prevarant najpre gradi kreditnu istoriju za sintetički identitet kroz male transakcije i uredna plaćanja, a tek kada kreditni limit postane dovoljno visok, izvodi bust-out — maksimizuje sve kreditne linije i nestaje. Finansijska institucija ostaje sa neplaćenim dugom, a prava osoba čiji je JMBG korišćen može godinama da ne sazna da njen identifikacijski broj postoji u nečijem tuđem kreditnom dosijeu.</p>
 
       <div class="callout"
         data-sr="<strong>Model:</strong> prikupljanje stvarnih identifikacijskih fragmenata → kreiranje sintetičke persone → postavljanje inicijalnih kreditnih upita → sporija izgradnja kreditnog profila → eskalacija kreditnih limita → bust-out → nestajanje."
@@ -113,7 +113,7 @@ window.SCAM_CONTENT["synthetic-identity-fraud"] = {
             <div class="label" data-sr="Šta prevarant radi" data-en="What the fraudster does">Šta prevarant radi</div>
             <ul class="bullets">
               <li data-sr="redovna, uredna plaćanja bez kašnjenja tokom dugog perioda." data-en="regular, on-time payments without delays over an extended period.">redovna, uredna plaćanja bez kašnjenja tokom dugog perioda.</li>
-              <li data-sr="postavljanje kao authorized user kod „kreditnih farmera." (piggybacking)." data-en="being added as authorized user by credit farmers (piggybacking).">postavljanje kao authorized user kod „kreditnih farmera" (piggybacking)“.</li>
+              <li data-sr="postavljanje kao authorized user kod kreditnih farmera (piggybacking)." data-en="being added as authorized user by credit farmers (piggybacking).">postavljanje kao authorized user kod kreditnih farmera (piggybacking).</li>
               <li data-sr="otvaranje novih kreditnih linija kako skor raste." data-en="opening new credit lines as the score grows.">otvaranje novih kreditnih linija kako skor raste.</li>
               <li data-sr="korišćenje adrese sa prihvativim kreditnim profilom za verifikaciju." data-en="using an address with an acceptable credit profile for verification.">korišćenje adrese sa prihvativim kreditnim profilom za verifikaciju.</li>
             </ul>
@@ -271,7 +271,7 @@ window.SCAM_CONTENT["synthetic-identity-fraud"] = {
 
       <ul class="bullets">
         <li data-sr="Da li kreditni dosije sadrži naloge ili dugove koje ne prepoznajete?" data-en="Does the credit file contain accounts or debts you do not recognize?">Da li kreditni dosije sadrži naloge ili dugove koje ne prepoznajete?</li>
-        <li data-sr="Da li kreditni dosije vaše dece ili starijih člažna porodice sadrži nepoznate unose?" data-en="Do the credit files of your children or elderly family members contain unknown entries?">Da li kreditni dosije vaše dece ili starijih člažna porodice sadrži nepoznate unose?</li>
+        <li data-sr="Da li kreditni dosije vaše dece ili starijih članova porodice sadrži nepoznate unose?" data-en="Do the credit files of your children or elderly family members contain unknown entries?">Da li kreditni dosije vaše dece ili starijih članova porodice sadrži nepoznate unose?</li>
         <li data-sr="Da li ste ikada bili žrtva curenja podataka ili gubitka ličnih dokumenata?" data-en="Have you ever been affected by a data breach or loss of personal documents?">Da li ste ikada bili žrtva curenja podataka ili gubitka ličnih dokumenata?</li>
         <li data-sr="Da li su kolekcijske agencije kontaktirale vas ili nekog u porodici za nepoznate dugove?" data-en="Have collection agencies contacted you or a family member about unknown debts?">Da li su kolekcijske agencije kontaktirale vas ili nekog u porodici za nepoznate dugove?</li>
         <li data-sr="Da li ste postavili credit freeze za sebe i svoju decu?" data-en="Have you placed a credit freeze for yourself and your children?">Da li ste postavili credit freeze za sebe i svoju decu?</li>
@@ -329,32 +329,12 @@ window.SCAM_CONTENT["synthetic-identity-fraud"] = {
             <li data-sr="Policijska prijava je dokumentacija koja instituciji dokazuje da si žrtva, a ne dužnik." data-en="A police report is documentation that proves to the institution you are a victim, not a debtor.">Policijska prijava je dokumentacija koja instituciji dokazuje da si žrtva, a ne dužnik.</li>
             <li data-sr="Credit freeze odmah zatvara kanal za novu štetu dok rešavamo staru." data-en="A credit freeze immediately closes the channel for new damage while we resolve the old.">Credit freeze odmah zatvara kanal za novu štetu dok rešavamo staru.</li>
             <li data-sr="Hajde da napravimo listu svake institucije koja se pojavljuje i sistematično ih kontaktiramo." data-en="Let's make a list of every institution that appears and contact them systematically.">Hajde da napravimo listu svake institucije koja se pojavljuje i sistematično ih kontaktiramo.</li>
-            <li data-sr="Svako osporeno i uklonjen unos je korak ka normalizaciji kreditnog dosijea." data-en="Every disputed and removed entry is a step toward normalizing the credit file.">Svako osporeno i uklonjeno unos je korak ka normalizaciji kreditnog dosijea.</li>
+            <li data-sr="Svako osporeno i uklonjeno unos je korak ka normalizaciji kreditnog dosijea." data-en="Every disputed and removed entry is a step toward normalizing the credit file.">Svako osporeno i uklonjeno unos je korak ka normalizaciji kreditnog dosijea.</li>
           </ul>
         </div>
       </div>
     </section>
 
     <!-- 9) IZVORI -->
-
-<section class="content-section">
-  <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-  <ul class="bullets">
-    <li><a href="identity-theft.html" data-sr="Kradja identiteta." data-en="Identity theft.">Kradja identiteta</a></li>
-    <li><a href="account-takeover.html" data-sr="Preuzimanje naloga." data-en="Account takeover.">Preuzimanje naloga</a></li>
-    <li><a href="phishing.html" data-sr="Fišing." data-en="Phishing.">Fišing</a></li>
-    <li><a href="sim-swap.html" data-sr="SIM swap prevara." data-en="SIM swap scam.">SIM swap prevara</a></li>
-    <li><a href="loan-scam.html" data-sr="Lažni zajam." data-en="Loan scam.">Lažni zajam</a></li>
-  </ul>
-</section>
-
-<section class="card sources" id="sources">
-      <h2 data-sr="Izvori" data-en="Sources">Izvori</h2>
-      <ul>
-        <li><a href="https://consumer.ftc.gov/articles/synthetic-identity-fraud" target="_blank" rel="noopener noreferrer">FTC — Synthetic Identity Fraud</a></li>
-        <li><a href="https://www.federalreserve.gov/publications/2019-synthetic-identity-fraud-0514.htm" target="_blank" rel="noopener noreferrer">Federal Reserve — Synthetic Identity Fraud in the U.S. Payment System</a></li>
-        <li><a href="https://consumer.ftc.gov/features/identity-theft" target="_blank" rel="noopener noreferrer">FTC — IdentityTheft.gov</a></li>
-      </ul>
-    </section>
-  `
+`
 };

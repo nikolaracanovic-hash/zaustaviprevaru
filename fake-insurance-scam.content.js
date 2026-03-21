@@ -3,10 +3,10 @@ window.SCAM_CONTENT = window.SCAM_CONTENT || {};
 window.SCAM_CONTENT["fake-insurance-scam"] = {
   raw_html: `
     <section class="card">
-      <h2 data-sr="Uvod: kako radi lažno osiguranje" data-en="Introduction: how the fake insurance scam works">Uvod: kako radi Lažno osiguranje</h2>
+      <h2 data-sr="Uvod: kako radi Lažno osiguranje" data-en="Introduction: how the fake insurance scam works">Uvod: kako radi Lažno osiguranje</h2>
       <p data-sr="Lažna osiguravajuća kompanija nudi polise po znatno nižim cenama od tržišnih. Prodavač je agresivan i nudi hitno potpisivanje. Polisa izgleda legitimno ali kompanija nije registrovana ili polica nije validna. Kada dođe do štete ili zahteva — kompanija odbija ili nestaje." data-en="A fake insurance company offers policies at significantly lower prices than market rates. The salesperson is aggressive and offers quick signing. The policy looks legitimate but the company is not registered or the policy is not valid. When a claim arises — the company refuses or disappears.">Lažna osiguravajuća kompanija nudi polise po znatno nižim cenama od tržišnih. Prodavač je agresivan i nudi hitno potpisivanje. Polisa izgleda legitimno ali kompanija nije registrovana ili polica nije validna. Kada dođe do štete ili zahteva — kompanija odbija ili nestaje.</p>
-      <div class="callout" data-sr="&lt;strong&gt;Model:&lt;/strong&gt; Agresivni prodajni kontakt → jeftina polisa → uplata premija → odbijen zahtev ili nestanak." data-en="&lt;strong&gt;Model:&lt;/strong&gt; Aggressive sales contact → cheap policy → premium payment → denied claim or disappearance."><strong>Model:</strong> Agresivni prodajni kontakt → jeftina polisa → uplata premija → odbijen zahtev ili nestanak.</div>
-      <div class="callout" data-sr="&lt;strong&gt;Prag:&lt;/strong&gt; Uplata prve premije. Polisa nije validna i napadač ne namerava da isplati odštetu." data-en="&lt;strong&gt;Threshold:&lt;/strong&gt; Payment of the first premium. The policy is not valid and the attacker does not intend to pay out claims."><strong>Prag:</strong> Uplata prve premije. Polisa nije validna i napadač ne namerava da isplati odštetu.</div>
+      <div class="callout" data-sr="<strong>Model:</strong> Agresivni prodajni kontakt → jeftina polisa → uplata premija → odbijen zahtev ili nestanak." data-en="<strong>Model:</strong> Aggressive sales contact → cheap policy → premium payment → denied claim or disappearance."><strong>Model:</strong> Agresivni prodajni kontakt → jeftina polisa → uplata premija → odbijen zahtev ili nestanak.</div>
+      <div class="callout" data-sr="<strong>Prag:</strong> Uplata prve premije. Polisa nije validna i napadač ne namerava da isplati odštetu." data-en="<strong>Threshold:</strong> Payment of the first premium. The policy is not valid and the attacker does not intend to pay out claims."><strong>Prag:</strong> Uplata prve premije. Polisa nije validna i napadač ne namerava da isplati odštetu.</div>
     </section>
 
     <section class="card">
@@ -115,15 +115,6 @@ window.SCAM_CONTENT["fake-insurance-scam"] = {
       </ul>
     </section>
 
-    <section class="card">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <ul class="bullets">
-        <li><a href="advance-fee-fraud.html" data-sr="Prevara avansnim plaćanjem" data-en="Advance fee fraud">Prevara avansnim plaćanjem</a></li>
-        <li><a href="impersonation-scam.html" data-sr="Lažno predstavljanje" data-en="Impersonation scam">Lažno predstavljanje</a></li>
-        <li><a href="investment-fraud.html" data-sr="Investiciona prevara" data-en="Investment fraud">Investiciona prevara</a></li>
-        <li><a href="fake-broker-scam.html" data-sr="Lažni broker" data-en="Fake broker scam">Lažni broker</a></li>
-        <li><a href="clone-firm-scam.html" data-sr="Prevara sa klonom firme" data-en="Clone firm scam">Prevara sa klonom firme</a></li>
-      </ul>
-    </section>
+    
   `
 };

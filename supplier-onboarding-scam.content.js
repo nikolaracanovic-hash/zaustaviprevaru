@@ -120,8 +120,8 @@ window.SCAM_CONTENT["supplier-onboarding-scam"] = {
           data-en="The attacker contacts the company's procurement department. Submits documentation: company registration, tax ID, bank account, references, certificates. In some cases someone within the company is complicit and speeds up or facilitates onboarding. Everything looks like a routine new vendor."
         >Napadač se obraća nabavnom odeljenju firme. Podnosi dokumentaciju: registraciju firme, PIB, bankovni račun, reference, sertifikate. U nekim slučajevima neko unutar firme je u dosluhu i ubrzava ili olakšava onboarding. Sve deluje kao rutinski novi dobavljač.</p>
         <ul class="bullets">
-          <li data-sr="fraze: „nudimo usluge u kategoriji X po konkurentnim cenama — možemo li biti dodati u vaš sistem."." data-en="phrases: &ldquo;we offer services in category X at competitive prices — can we be added to your system&rdquo;.">fraze: „nudimo usluge u kategoriji X po konkurentnim cenama — možemo li biti dodati u vaš sistem"“.</li>
-          <li data-sr="pritisak na brzinu: „imamo kapacitet odmah."." data-en="speed pressure: &ldquo;we have capacity immediately&rdquo;.">pritisak na brzinu: „imamo kapacitet odmah"“.</li>
+          <li data-sr="fraze: nudimo usluge u kategoriji X po konkurentnim cenama — možemo li biti dodati u vaš sistem." data-en="phrases: &ldquo;we offer services in category X at competitive prices — can we be added to your system&rdquo;.">fraze: nudimo usluge u kategoriji X po konkurentnim cenama — možemo li biti dodati u vaš sistem.</li>
+          <li data-sr="pritisak na brzinu: imamo kapacitet odmah." data-en="speed pressure: &ldquo;we have capacity immediately&rdquo;.">pritisak na brzinu: imamo kapacitet odmah.</li>
         </ul>
 
         <div class="branch">
@@ -324,17 +324,6 @@ window.SCAM_CONTENT["supplier-onboarding-scam"] = {
     </section>
 
     <!-- 9) POVEZANE PREVARE -->
-    <section class="card">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <div class="branch">
-        <ul class="bullets">
-          <li><a href="invoice-fraud.html" data-sr="Prevara sa fakturama" data-en="Invoice fraud">Prevara sa fakturama</a></li>
-          <li><a href="vendor-email-compromise.html" data-sr="Kompromitovanje imejla dobavljača" data-en="Vendor email compromise">Kompromitovanje imejla dobavljača</a></li>
-          <li><a href="procurement-tender-scam.html" data-sr="Prevara na tenderu" data-en="Procurement tender scam">Prevara na tenderu</a></li>
-          <li><a href="payment-diversion.html" data-sr="Preusmeravanje plaćanja" data-en="Payment diversion">Preusmeravanje plaćanja</a></li>
-          <li><a href="business-email-compromise.html" data-sr="Kompromitovanje poslovnog imejla (BEC)" data-en="Business email compromise (BEC)">Kompromitovanje poslovnog imejla (BEC)</a></li>
-        </ul>
-      </div>
-    </section>
+    
   `
 };

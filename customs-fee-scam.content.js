@@ -1,11 +1,11 @@
-﻿window.SCAM_CONTENT = window.SCAM_CONTENT || {};
+window.SCAM_CONTENT = window.SCAM_CONTENT || {};
 
 window.SCAM_CONTENT["customs-fee-scam"] = {
   raw_html: `
     <section class="card">
       <h2 data-sr="Uvod: kako rade lažne carine i taksene prevare" data-en="Introduction: how fake customs fee scams work">Uvod: kako rade lažne carine i taksene prevare</h2>
-      <p data-sr="Prevare s lažnim carinama ciljaju osobe koje naručuju robu online. Napad dolazi kao SMS ili email koji tvrdi da je pošiljka zadržana na carini i da se mora platiti carinska naknada za oslobađanje paketa. Link vodi na lažni portal koji vizualno imitira carinski ili logistički servis. Portal krade kartične podatke za iznos koji izgleda legitimno (3–30 evra)." data-en="Fake customs fee scams target people who order goods online. The attack arrives as an SMS or email claiming a shipment is held at customs and a customs release fee must be paid. The link leads to a fake portal visually imitating customs or a logistics service. The portal steals card details for an amount that looks legitimate (3–30 euros).">SMS ili email: pošiljka zadržana na carini, potrebna naknada za oslobađanje. Link ka lažnom portalu koji krade kartične podatke za simboličan iznos.</p>
-      <p data-sr="Šema je posebno efikasna jer korisnici koji redovno naručuju online uvek imaju neku aktivnu pošiljku ili su nedavno naručivali. Šansa da pošiljka zaista postoji povećava procenat kliktanja na link daleko iznad proseka." data-en="The scheme is particularly effective because users who regularly order online always have some active shipment or have recently ordered. The chance that a shipment actually exists increases the link click rate far above average.">Efikasna jer korisnici online kupovine uvek imaju neku aktivnu pošiljku. Verovatnoća podudaranja s realnom narudžbom povećava kliktanje.</p>
+      <p data-sr="SMS ili email: pošiljka zadržana na carini, potrebna naknada za oslobađanje. Link ka lažnom portalu koji krade kartične podatke za simboličan iznos." data-en="Fake customs fee scams target people who order goods online. The attack arrives as an SMS or email claiming a shipment is held at customs and a customs release fee must be paid. The link leads to a fake portal visually imitating customs or a logistics service. The portal steals card details for an amount that looks legitimate (3–30 euros).">SMS ili email: pošiljka zadržana na carini, potrebna naknada za oslobađanje. Link ka lažnom portalu koji krade kartične podatke za simboličan iznos.</p>
+      <p data-sr="Efikasna jer korisnici online kupovine uvek imaju neku aktivnu pošiljku. Verovatnoća podudaranja s realnom porudžbinom povećava kliktanje." data-en="The scheme is particularly effective because users who regularly order online always have some active shipment or have recently ordered. The chance that a shipment actually exists increases the link click rate far above average.">Efikasna jer korisnici online kupovine uvek imaju neku aktivnu pošiljku. Verovatnoća podudaranja s realnom porudžbinom povećava kliktanje.</p>
       <div class="callout" data-sr="<strong>Model:</strong> SMS ili email → carina ili dostavna služba → zadržana pošiljka + naknada → link → lažni portal → kartični podaci → krađa." data-en="<strong>Model:</strong> SMS or email → customs or delivery service → held shipment + fee → link → fake portal → card data → theft."><strong>Model:</strong> SMS ili email → carina ili dostavna služba → zadržana pošiljka + naknada → link → lažni portal → kartični podaci → krađa.</div>
       <div class="callout" data-sr="<strong>Prag:</strong> meta prima SMS ili email o zadržanom paketu i klika link za plaćanje carinske naknade." data-en="<strong>Threshold:</strong> the target receives an SMS or email about a held parcel and clicks the link to pay the customs fee."><strong>Prag:</strong> meta prima SMS ili email o zadržanom paketu i klika link za plaćanje carinske naknade.</div>
     </section>
@@ -35,21 +35,21 @@ window.SCAM_CONTENT["customs-fee-scam"] = {
     </section>
 
     <section class="card">
-      <h2 data-sr="Hronološki tok (faze + evolucije)." data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
+      <h2 data-sr="Hronološki tok (faze + evolucije)" data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
 
       <article class="phase">
         <h3 class="phase-title" data-sr="Faza 1 — SMS ili email o zadržanoj pošiljci" data-en="Phase 1 — SMS or email about held shipment">Faza 1 — SMS ili email o zadržanoj pošiljci</h3>
-        <p data-sr="Meta prima poruku koja izgleda kao obaveštenje o carinskom zadržavanju. Broj pošiljke zvuči autentično. Iznos naknade je mali i isplaćiv. Rok je 24–48 sati pre vraćanja pošiljke pošiljaocu." data-en="The target receives a message that looks like a customs hold notification. The shipment number sounds authentic. The fee amount is small and affordable. The deadline is 24–48 hours before returning the shipment to the sender.">Poruka izgleda kao legitimno carinsko zadržavanje. Broj pošiljke izgleda autentično, naknada je mala, rok 24–48h.</p>
+        <p data-sr="Poruka izgleda kao legitimno carinsko zadržavanje. Broj pošiljke izgleda autentično, naknada je mala, rok 24–48h." data-en="The target receives a message that looks like a customs hold notification. The shipment number sounds authentic. The fee amount is small and affordable. The deadline is 24–48 hours before returning the shipment to the sender.">Poruka izgleda kao legitimno carinsko zadržavanje. Broj pošiljke izgleda autentično, naknada je mala, rok 24–48h.</p>
         <ul class="bullets">
           <li data-sr="signal: zvanična carina ne kontaktira SMS-om s direktnim linkom za plaćanje." data-en="signal: official customs does not contact by SMS with a direct payment link.">signal: zvanična carina ne kontaktira SMS-om s direktnim linkom za plaćanje.</li>
           <li data-sr="signal: broj pošiljke se ne može naći u sistemu praćenja dostavne kompanije." data-en="signal: the shipment number cannot be found in the delivery company's tracking system.">signal: broj pošiljke se ne može naći u sistemu praćenja dostavne kompanije.</li>
         </ul>
-        <div class="callout" data-sr="<strong>Prag faze:</strong> meta klikne link jer misli da je pošiljka neka od aktivnih narudžbina." data-en="<strong>Threshold:</strong> the target clicks the link thinking the shipment is one of their active orders."><strong>Prag faze:</strong> meta klikne link jer misli da je pošiljka neka od aktivnih narudžbina.</div>
+        <div class="callout" data-sr="<strong>Prag faze:</strong> meta klikne link jer misli da je pošiljka neka od aktivnih porudžbina." data-en="<strong>Threshold:</strong> the target clicks the link thinking the shipment is one of their active orders."><strong>Prag faze:</strong> meta klikne link jer misli da je pošiljka neka od aktivnih porudžbina.</div>
       </article>
 
       <article class="phase warn">
         <h3 class="phase-title" data-sr="Faza 2 — Lažni portal i kartični podaci" data-en="Phase 2 — Fake portal and card data">Faza 2 — Lažni portal i kartični podaci</h3>
-        <p data-sr="Portal traži kartične podatke za plaćanje male naknade. Logika žrtve: „To je samo 5 evra za paket koji vredi 50 evra“.“ Ali portal krade sve kartične podatke za transakcije znatno većih iznosa." data-en="The portal requests card data for payment of a small fee. The victim's logic: it's just 5 euros for a package worth 50 euros. But the portal steals all card data for transactions of much larger amounts.">Portal traži karticu za malu naknadu. Logika: mali iznos za stvarnu pošiljku. Podaci se koriste za znatno veće transakcije.</p>
+        <p data-sr="Portal traži karticu za malu naknadu. Logika: mali iznos za stvarnu pošiljku. Podaci se koriste za znatno veće transakcije." data-en="The portal requests card data for payment of a small fee. The victim's logic: it's just 5 euros for a package worth 50 euros. But the portal steals all card data for transactions of much larger amounts.">Portal traži karticu za malu naknadu. Logika: mali iznos za stvarnu pošiljku. Podaci se koriste za znatno veće transakcije.</p>
         <ul class="bullets">
           <li data-sr="signal: URL portala nije domena zvanične carinske agencije." data-en="signal: the portal URL is not the official customs agency's domain.">signal: URL portala nije domena zvanične carinske agencije.</li>
           <li data-sr="signal: zvanična carina ne naplaćuje malene iznose karticom online — postoji procedura uplatnicom." data-en="signal: official customs does not collect small amounts by card online — there is a payment slip procedure.">signal: zvanična carina ne naplaćuje malene iznose karticom online — postoji procedura uplatnicom.</li>
@@ -65,8 +65,8 @@ window.SCAM_CONTENT["customs-fee-scam"] = {
 
       <article class="phase bad">
         <h3 class="phase-title" data-sr="Faza 3 — Krađa podataka i avansna šema" data-en="Phase 3 — Data theft and advance-fee scheme">Faza 3 — Krađa podataka i avansna šema</h3>
-        <p data-sr="U jednostavnoj varijanti kartični podaci se koriste odmah. U složenijoj varijanti posle prve uplate stiže nova poruka: pošiljka je i dalje zadržana zbog nekih novih procedura, potrebna je nova naknada. Ovo je avansna šema primenjena na carinski kontekst." data-en="In the simple variant, card data is used immediately. In the more complex variant, after the first payment a new message arrives: the shipment is still held due to new procedures, another fee is required. This is the advance-fee scheme applied to a customs context.">Jednostavna varijanta: kartica kompromitovana odmah. Složena varijanta: pošiljka ostaje 'zadržana', stižu novi zahtevi za naknadama.</p>
-        <div class="callout" data-sr="<strong>Akcija:</strong> odmah blokiraj karticu ako su podaci uneti. Zvanična carina za carinsku naknadu daje pisano rešenje s rokom i uplatnicom — ne SMS." data-en="<strong>Action:</strong> immediately block the card if data was entered. Official customs for a customs fee provides a written decision with a deadline and payment slip — not SMS."><strong>Akcija:</strong> odmah blokiraj karticu ako su podaci uneti. Zvanična carina daje pisano rešenje s uplatnicom — ne SMS s linkom.</div>
+        <p data-sr="Jednostavna varijanta: kartica kompromitovana odmah. Složena varijanta: pošiljka ostaje 'zadržana', stižu novi zahtevi za naknadama." data-en="In the simple variant, card data is used immediately. In the more complex variant, after the first payment a new message arrives: the shipment is still held due to new procedures, another fee is required. This is the advance-fee scheme applied to a customs context.">Jednostavna varijanta: kartica kompromitovana odmah. Složena varijanta: pošiljka ostaje 'zadržana', stižu novi zahtevi za naknadama.</p>
+        <div class="callout" data-sr="<strong>Akcija:</strong> odmah blokiraj karticu ako su podaci uneti. Zvanična carina daje pisano rešenje s uplatnicom — ne SMS s linkom." data-en="<strong>Action:</strong> immediately block the card if data was entered. Official customs for a customs fee provides a written decision with a deadline and payment slip — not SMS."><strong>Akcija:</strong> odmah blokiraj karticu ako su podaci uneti. Zvanična carina daje pisano rešenje s uplatnicom — ne SMS s linkom.</div>
       </article>
     </section>
 
@@ -87,7 +87,7 @@ window.SCAM_CONTENT["customs-fee-scam"] = {
         <li data-sr="Da li je broj pošiljke proverljiv u sistemu praćenja dostavne kompanije?" data-en="Is the shipment number verifiable in the delivery company's tracking system?">Da li je broj pošiljke proverljiv u sistemu praćenja dostavne kompanije?</li>
         <li data-sr="Da li je URL portala identičan zvaničnoj domeni carinske agencije?" data-en="Is the portal URL identical to the official customs agency domain?">Da li je URL portala identičan zvaničnoj domeni carinske agencije?</li>
         <li data-sr="Da li carina zaista šalje SMS s direktnim linkom za plaćanje naknade?" data-en="Does customs actually send SMS with a direct payment link?">Da li carina zaista šalje SMS s direktnim linkom za plaćanje naknade?</li>
-        <li data-sr="Da li postoji aktivan zahtev ili narudžbina koja bi odgovarala toj pošiljci?" data-en="Is there an active order that would correspond to this shipment?">Da li postoji aktivan zahtev ili narudžbina koja bi odgovarala toj pošiljci?</li>
+        <li data-sr="Da li postoji aktivan zahtev ili porudžbina koja bi odgovarala toj pošiljci?" data-en="Is there an active order that would correspond to this shipment?">Da li postoji aktivan zahtev ili porudžbina koja bi odgovarala toj pošiljci?</li>
         <li data-sr="Da li je dostavna kompanija direktno kontaktirana putem zvaničnog broja?" data-en="Was the delivery company contacted directly via their official number?">Da li je dostavna kompanija direktno kontaktirana putem zvaničnog broja?</li>
         <li data-sr="Da li zvanična carina naplaćuje carinu karticom online za male iznose?" data-en="Does official customs collect customs fees by card online for small amounts?">Da li zvanična carina naplaćuje carinu karticom online za male iznose?</li>
         <li data-sr="Da li portal traži CVV kartične podatke za plaćanje?" data-en="Does the portal request CVV card data for payment?">Da li portal traži CVV kartične podatke za plaćanje?</li>
@@ -129,16 +129,6 @@ window.SCAM_CONTENT["customs-fee-scam"] = {
       </div>
     </section>
 
-    <section class="card sources" id="sources">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <ul class="bullets">
-        <li><a href="government-impersonation.html" data-sr="Lažno predstavljanje državnih organa" data-en="Government impersonation scams">Lažno predstavljanje državnih organa</a></li>
-        <li><a href="toll-road-scam.html" data-sr="Prevare s lažnim putarinama" data-en="Fake toll road scams">Prevare s lažnim putarinama</a></li>
-        <li><a href="advance-fee-fraud.html" data-sr="Uplata unapred" data-en="Advance-fee fraud">Uplata unapred</a></li>
-        <li><a href="fake-fine-scam.html" data-sr="Lažne kazne i nalozi za plaćanje" data-en="Fake fines and payment orders">Lažne kazne i nalozi za plaćanje</a></li>
-        <li><a href="smishing.html" data-sr="Smišing" data-en="Smishing">Smišing</a></li>
-        <li><a href="phishing.html" data-sr="Fišing" data-en="Fišing">Fišing</a></li>
-      </ul>
-    </section>
+    
   `
 };

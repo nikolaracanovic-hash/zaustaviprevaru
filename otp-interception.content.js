@@ -1,11 +1,11 @@
-﻿window.SCAM_CONTENT = window.SCAM_CONTENT || {};
+window.SCAM_CONTENT = window.SCAM_CONTENT || {};
 
 window.SCAM_CONTENT["otp-interception"] = {
   raw_html: `
     <section class="card">
       <h2 data-sr="Uvod: kako radi presretanje OTP koda" data-en="Introduction: how OTP interception works">Uvod: kako radi presretanje OTP koda</h2>
-      <p data-sr="OTP (jednokratna lozinka) presretanje je tehnika kojom napadač dobija pristup bezbednosnom kodu koji banka ili drugi servis šalje žrtvi kao autentifikacioni faktor. Jednom kada napadač ima OTP kod, može autorizovati transakciju, resetovati lozinku ili preuzeti nalog — sve za vreme važenja koda koji je obično 30–60 sekundi ili 5 minuta." data-en="OTP (one-time password) interception is a technique by which the attacker obtains access to the security code a bank or other service sends the victim as an authentication factor. Once the attacker has the OTP code, they can authorize a transaction, reset a password, or take over an account — all within the code's validity window, usually 30–60 seconds or 5 minutes.">OTP presretanje daje napadaču vremenski ograničen pristup jednokratnom kodu za autorizaciju transakcija, resetovanje lozinki ili preuzimanje naloga.</p>
-      <p data-sr="Metode su raznovrsne: socijalni inženjering (lažni bankarski poziv koji traži kod), phishing proxy koji prosljeđuje kod u realnom vremenu, SS7 ranjivost koja presreće SMS mrežno, ili SIM swap koji preusmerava sve SMS poruke. Zajedničko svima je cilj: dobiti kod brže nego žrtva može reagovati." data-en="Methods are varied: social engineering (fake bank call requesting the code), real-time phishing proxy that forwards the code, SS7 vulnerability that intercepts SMS at the network level, or SIM swap redirecting all SMS. What all share is the goal: obtain the code faster than the victim can react.">Metode: SE poziv, phishing proxy, SS7 ili SIM swap. Cilj je uvek isti — kod pre nego žrtva reaguje.</p>
+      <p data-sr="OTP presretanje daje napadaču vremenski ograničen pristup jednokratnom kodu za autorizaciju transakcija, resetovanje lozinki ili preuzimanje naloga." data-en="OTP (one-time password) interception is a technique by which the attacker obtains access to the security code a bank or other service sends the victim as an authentication factor. Once the attacker has the OTP code, they can authorize a transaction, reset a password, or take over an account — all within the code's validity window, usually 30–60 seconds or 5 minutes.">OTP presretanje daje napadaču vremenski ograničen pristup jednokratnom kodu za autorizaciju transakcija, resetovanje lozinki ili preuzimanje naloga.</p>
+      <p data-sr="Metode: SE poziv, phishing proxy, SS7 ili SIM swap. Cilj je uvek isti — kod pre nego žrtva reaguje." data-en="Methods are varied: social engineering (fake bank call requesting the code), real-time phishing proxy that forwards the code, SS7 vulnerability that intercepts SMS at the network level, or SIM swap redirecting all SMS. What all share is the goal: obtain the code faster than the victim can react.">Metode: SE poziv, phishing proxy, SS7 ili SIM swap. Cilj je uvek isti — kod pre nego žrtva reaguje.</p>
       <div class="callout" data-sr="<strong>Model:</strong> napadač prikuplja podatke kartice/naloga → inicira transakciju → traži OTP od žrtve ili ga presreće → kod se koristi za autorizaciju → finansijski gubitak." data-en="<strong>Model:</strong> attacker collects card/account data → initiates transaction → requests OTP from victim or intercepts it → code used for authorization → financial loss."><strong>Model:</strong> napadač prikuplja podatke kartice/naloga → inicira transakciju → traži OTP od žrtve ili ga presreće → kod se koristi za autorizaciju → finansijski gubitak.</div>
       <div class="callout" data-sr="<strong>Prag:</strong> OTP kod koji niste sami inicirali ne smete nikome otkriti — ni banci ni policiji telefonom." data-en="<strong>Threshold:</strong> an OTP code you did not initiate must never be shared with anyone — not even your bank or police over the phone."><strong>Prag:</strong> OTP kod koji niste sami inicirali ne smete nikome otkriti — ni banci ni policiji telefonom.</div>
     </section>
@@ -16,10 +16,10 @@ window.SCAM_CONTENT["otp-interception"] = {
         <div class="phase">
           <div class="label" data-sr="Šta gradi pritisak za otkrivanje koda" data-en="What creates pressure to reveal the code">Šta gradi pritisak za otkrivanje koda</div>
           <ul class="bullets">
-            <li data-sr="lažni bankovni agent zove i kaže 'šalje vam kod za poništavanje sumnjive transakcije — recite mi ga„." data-en="fake bank agent calls and says “sending you a code to cancel a suspicious transaction — tell me it'">lažni bankovni agent zove i kaže 'šalje vam kod za poništavanje sumnjive transakcije — recite mi ga'.</li>
-            <li data-sr="hitnost: 'imate 30 sekundi dok kod važi — recite ga odmah„." data-en="urgency: “you have 30 seconds while the code is valid — say it immediately'">hitnost: 'imate 30 sekundi dok kod važi — recite ga odmah'.</li>
+            <li data-sr="lažni bankovni agent zove i kaže 'šalje vam kod za poništavanje sumnjive transakcije — recite mi ga'." data-en="fake bank agent calls and says sending you a code to cancel a suspicious transaction — tell me it">lažni bankovni agent zove i kaže 'šalje vam kod za poništavanje sumnjive transakcije — recite mi ga'.</li>
+            <li data-sr="hitnost: 'imate 30 sekundi dok kod važi — recite ga odmah'." data-en="urgency: you have 30 seconds while the code is valid — say it immediately">hitnost: 'imate 30 sekundi dok kod važi — recite ga odmah'.</li>
             <li data-sr="phishing stranica koja oponaša bankovni login prikuplja podatke i prosljeđuje OTP u realnom vremenu napadaču." data-en="phishing page imitating bank login collects data and forwards OTP in real-time to the attacker.">phishing stranica koja oponaša bankovni login prikuplja podatke i prosljeđuje OTP u realnom vremenu napadaču.</li>
-            <li data-sr="SMS koji kaže 'verificirajte vaš identitet klikom ovde„ vodi na OTP harvesting stranicu." data-en="SMS saying “verify your identity by clicking here' leads to an OTP harvesting page.">SMS koji kaže 'verificirajte vaš identitet klikom ovde' vodi na OTP harvesting stranicu.</li>
+            <li data-sr="SMS koji kaže 'verificirajte vaš identitet klikom ovde' vodi na OTP harvesting stranicu." data-en="SMS saying verify your identity by clicking here' leads to an OTP harvesting page.">SMS koji kaže 'verificirajte vaš identitet klikom ovde' vodi na OTP harvesting stranicu.</li>
           </ul>
         </div>
         <div class="phase">
@@ -34,11 +34,11 @@ window.SCAM_CONTENT["otp-interception"] = {
     </section>
 
     <section class="card">
-      <h2 data-sr="Hronološki tok (faze + evolucije)." data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
+      <h2 data-sr="Hronološki tok (faze + evolucije)" data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
 
       <article class="phase">
         <h3 class="phase-title" data-sr="Faza 1 — Prikupljanje podataka kartice ili naloga" data-en="Phase 1 — Collecting card or account data">Faza 1 — Prikupljanje podataka kartice ili naloga</h3>
-        <p data-sr="Napadač prethodno pribavlja podatke kartice ili bankovnog naloga — phishingom, curenjima ili direktnom kupovinom. OTP je poslednja linija odbrane; napadač je ima i unapred planira kako da dobije kod." data-en="The attacker previously obtains card or bank account data — through phishing, breaches, or direct purchase. OTP is the last line of defense; the attacker has everything else and plans in advance how to get the code.">Napadač ima sve osim OTP-a — phishing ili curenje su dali ostale podatke. OTP je poslednja prepreka.</p>
+        <p data-sr="Napadač ima sve osim OTP-a — phishing ili curenje su dali ostale podatke. OTP je poslednja prepreka." data-en="The attacker previously obtains card or bank account data — through phishing, breaches, or direct purchase. OTP is the last line of defense; the attacker has everything else and plans in advance how to get the code.">Napadač ima sve osim OTP-a — phishing ili curenje su dali ostale podatke. OTP je poslednja prepreka.</p>
         <ul class="bullets">
           <li data-sr="signal: neočekivani SMS s OTP kodom koji vi niste inicirali znači da neko već ima vaše podatke." data-en="signal: an unexpected SMS with an OTP code you did not initiate means someone already has your data.">signal: neočekivani SMS s OTP kodom koji vi niste inicirali znači da neko već ima vaše podatke.</li>
         </ul>
@@ -47,7 +47,7 @@ window.SCAM_CONTENT["otp-interception"] = {
 
       <article class="phase warn">
         <h3 class="phase-title" data-sr="Faza 2 — Socijalni inženjering ili phishing proxy za OTP" data-en="Phase 2 — Social engineering or phishing proxy for OTP">Faza 2 — Socijalni inženjering ili phishing proxy za OTP</h3>
-        <p data-sr="Napadač zove žrtvu (ili vodi je kroz fišing stranicu) i traži kod koji je upravo stigao. Tempo je kritičan — napadač drži transakciju otvorenom i pritiska žrtvu da odmah kaže kod pre nego istekne." data-en="The attacker calls the victim (or leads them through a phishing page) and requests the code that just arrived. Timing is critical — the attacker keeps the transaction open and pressures the victim to immediately provide the code before it expires.">Napadač traži kod koji je upravo stigao. Tempo je ključan — kod ističe za sekunde ili minute.</p>
+        <p data-sr="Napadač traži kod koji je upravo stigao. Tempo je ključan — kod ističe za sekunde ili minute." data-en="The attacker calls the victim (or leads them through a phishing page) and requests the code that just arrived. Timing is critical — the attacker keeps the transaction open and pressures the victim to immediately provide the code before it expires.">Napadač traži kod koji je upravo stigao. Tempo je ključan — kod ističe za sekunde ili minute.</p>
         <div class="branch">
           <p><strong data-sr="Grananja u ovoj fazi" data-en="Branching at this phase">Grananja u ovoj fazi</strong></p>
           <ul class="bullets">
@@ -64,8 +64,8 @@ window.SCAM_CONTENT["otp-interception"] = {
       <h2 data-sr="Crvene zastavice" data-en="Red flags">Crvene zastavice</h2>
       <ul class="bullets">
         <li data-sr="imate OTP kod koji niste sami tražili i neko vam telefonom traži da ga kažete." data-en="you have an OTP code you did not request and someone on the phone asks you to say it.">imate OTP kod koji niste sami tražili i neko vam telefonom traži da ga kažete.</li>
-        <li data-sr="SMS kaže 'kod za poništavanje sumnjive transakcije„ — OTP uvek autorizuje, nikad ne poništava." data-en="SMS says “code to cancel a suspicious transaction' — OTP always authorizes, never cancels.">SMS kaže 'kod za poništavanje sumnjive transakcije' — OTP uvek autorizuje, nikad ne poništava.</li>
-        <li data-sr="hitnost 'recite odmah, kod ističe za 30 sekundi„ koja onemogućava razmišljanje." data-en="urgency “say it immediately, code expires in 30 seconds' that prevents thinking.">hitnost 'recite odmah, kod ističe za 30 sekundi' koja onemogućava razmišljanje.</li>
+        <li data-sr="SMS kaže 'kod za poništavanje sumnjive transakcije' — OTP uvek autorizuje, nikad ne poništava." data-en="SMS says code to cancel a suspicious transaction' — OTP always authorizes, never cancels.">SMS kaže 'kod za poništavanje sumnjive transakcije' — OTP uvek autorizuje, nikad ne poništava.</li>
+        <li data-sr="hitnost 'recite odmah, kod ističe za 30 sekundi' koja onemogućava razmišljanje." data-en="urgency say it immediately, code expires in 30 seconds' that prevents thinking.">hitnost 'recite odmah, kod ističe za 30 sekundi' koja onemogućava razmišljanje.</li>
         <li data-sr="phishing stranica traži unos OTP koda koji ste upravo primili." data-en="phishing page requests entry of an OTP code you just received.">phishing stranica traži unos OTP koda koji ste upravo primili.</li>
         <li data-sr="neočekivani OTP kod stigao bez vaše akcije — neko drugi je pokrenuo transakciju na vašim podacima." data-en="unexpected OTP code arrived without your action — someone else initiated a transaction using your data.">neočekivani OTP kod stigao bez vaše akcije — neko drugi je pokrenuo transakciju na vašim podacima.</li>
       </ul>
@@ -118,18 +118,5 @@ window.SCAM_CONTENT["otp-interception"] = {
       </div>
     </section>
 
-    <section class="card sources" id="sources">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <ul class="bullets">
-        <li><a href="bank-impersonation.html" data-sr="Lažna banka (bankovni prevarant)" data-en="Bank impersonation scam">Lažna banka (bankovni prevarant)</a></li>
-        <li><a href="safe-account-scam.html" data-sr="Prevara sa „bezbednim nalogom„" data-en="Safe account scam">Prevara sa „bezbednim nalogom„</a></li>
-        <li><a href="sim-swap.html" data-sr="SIM swap (zamena SIM kartice)" data-en="SIM swap fraud">SIM swap (zamena SIM kartice)</a></li>
-        <li><a href="port-out-scam.html" data-sr="Port-out prevara (prenos broja)" data-en="Port-out scam">Port-out prevara (prenos broja)</a></li>
-
-
-        <li><a href="vishing.html" data-sr="Višing" data-en="Višing">Višing</a></li>
-        <li><a href="account-takeover.html" data-sr="Preuzimanje naloga" data-en="Account takeover">Preuzimanje naloga</a></li>
-      </ul>
-    </section>
   `
 };

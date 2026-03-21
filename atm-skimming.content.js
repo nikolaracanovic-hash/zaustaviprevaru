@@ -4,8 +4,8 @@ window.SCAM_CONTENT["atm-skimming"] = {
   raw_html: `
     <section class="card">
       <h2 data-sr="Uvod: kako radi ATM skimming" data-en="Introduction: how ATM skimming works">Uvod: kako radi ATM skimming</h2>
-      <p data-sr="ATM skimming je specijalizovana forma skimminga gde napadač instalira uređaje direktno na bankomat: skimer na utor za karticu koji prikuplja podatke magnetne traže i kameru ili PIN overlay koji snima ili prikuplja PIN. Sa oba podatka napadač izrađuje klon kartice koji se koristi za podizanje gotovine na bankomatima koji podržavaju magnetnu traku." data-en="ATM skimming is a specialized form of skimming where an attacker installs devices directly on an ATM: a skimmer on the card slot that collects magnetic stripe data and a camera or PIN overlay that records or captures the PIN. With both pieces of data the attacker creates a card clone used for cash withdrawal at ATMs supporting magnetic stripe.">ATM skimming prikuplja podatke kartice i PIN — dovoljno za kloniranje i podizanje gotovine.</p>
-      <p data-sr="Moderni bankomati s EMV čipom su otporniji na kloniranje — ali u zemljama gde još postoje bankomati koji prihvataju samo magnetnu traku, klon može biti uspešno korišćen. U nekim slučajevima napadači koriste skimovane podatke za CNP kupovine bez potrebe za kloniranjem fizičke kartice." data-en="Modern ATMs with EMV chip are more resistant to cloning — but in countries where ATMs still accepting only magnetic stripe exist, the clone can be successfully used. In some cases attackers use skimmed data for CNP purchases without needing to clone a physical card.">EMV čip otežava kloniranje ali magnetna traka i CNP upotreba ostaju ranjivosti.</p>
+      <p data-sr="ATM skimming prikuplja podatke kartice i PIN — dovoljno za kloniranje i podizanje gotovine." data-en="ATM skimming is a specialized form of skimming where an attacker installs devices directly on an ATM: a skimmer on the card slot that collects magnetic stripe data and a camera or PIN overlay that records or captures the PIN. With both pieces of data the attacker creates a card clone used for cash withdrawal at ATMs supporting magnetic stripe.">ATM skimming prikuplja podatke kartice i PIN — dovoljno za kloniranje i podizanje gotovine.</p>
+      <p data-sr="EMV čip otežava kloniranje ali magnetna traka i CNP upotreba ostaju ranjivosti." data-en="Modern ATMs with EMV chip are more resistant to cloning — but in countries where ATMs still accepting only magnetic stripe exist, the clone can be successfully used. In some cases attackers use skimmed data for CNP purchases without needing to clone a physical card.">EMV čip otežava kloniranje ali magnetna traka i CNP upotreba ostaju ranjivosti.</p>
       <div class="callout" data-sr="<strong>Model:</strong> skimer na uroru za karticu + kamera ili PIN overlay → kartica ubačena + PIN pritisnut → podaci i PIN prikupljeni → klon kartice → podizanje gotovine." data-en="<strong>Model:</strong> skimmer on card slot + camera or PIN overlay → card inserted + PIN entered → card data and PIN collected → cloned card → cash withdrawal."><strong>Model:</strong> skimer na uroru za karticu + kamera ili PIN overlay → kartica ubačena + PIN pritisnut → podaci i PIN prikupljeni → klon kartice → podizanje gotovine.</div>
       <div class="callout" data-sr="<strong>Prag:</strong> kamera ili overlay koji pokriva PIN tasteru bankomata su najlakše uočljivi — uvek pokrivajte ruku pri unosu PIN-a." data-en="<strong>Threshold:</strong> a camera or overlay covering the ATM PIN pad are the easiest to spot — always cover your hand when entering the PIN."><strong>Prag:</strong> kamera ili overlay koji pokriva PIN tasteru bankomata su najlakše uočljivi — uvek pokrivajte ruku pri unosu PIN-a.</div>
     </section>
@@ -33,11 +33,11 @@ window.SCAM_CONTENT["atm-skimming"] = {
     </section>
 
     <section class="card">
-      <h2 data-sr="Hronološki tok (faze + evolucije)." data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
+      <h2 data-sr="Hronološki tok (faze + evolucije)" data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
 
       <article class="phase">
         <h3 class="phase-title" data-sr="Faza 1 — Montaža skimera na bankomat" data-en="Phase 1 — Mounting skimmer on ATM">Faza 1 — Montaža skimera na bankomat</h3>
-        <p data-sr="Napadač montira skimer na utor za karticu i kameru ili PIN overlay na kućište bankomata. Montaža traže sekunde. Napadač odlazi i čeka dok korisnici koriste bankomat." data-en="The attacker mounts the skimmer on the card slot and camera or PIN overlay on the ATM housing. Mounting takes seconds. The attacker leaves and waits while users use the ATM.">Montaža traže sekunde. Napadač odlazi i prikuplja podatke bežično ili fizičkim preuzimanjem uređaja.</p>
+        <p data-sr="Montaža traže sekunde. Napadač odlazi i prikuplja podatke bežično ili fizičkim preuzimanjem uređaja." data-en="The attacker mounts the skimmer on the card slot and camera or PIN overlay on the ATM housing. Mounting takes seconds. The attacker leaves and waits while users use the ATM.">Montaža traže sekunde. Napadač odlazi i prikuplja podatke bežično ili fizičkim preuzimanjem uređaja.</p>
         <ul class="bullets">
           <li data-sr="signal: utor za karticu je širi ili labaviji od standarda — pokušaj da se pomeri pre upotrebe." data-en="signal: the card slot is wider or looser than standard — try moving it before use.">signal: utor za karticu je širi ili labaviji od standarda — pokušaj da se pomeri pre upotrebe.</li>
           <li data-sr="signal: kućište iznad tastature ima strani plastični deo koji nije standardan za ovaj model bankomata." data-en="signal: the housing above the keypad has a foreign plastic part that is not standard for this ATM model.">signal: kućište iznad tastature ima strani plastični deo koji nije standardan za ovaj model bankomata.</li>
@@ -48,7 +48,7 @@ window.SCAM_CONTENT["atm-skimming"] = {
 
       <article class="phase warn">
         <h3 class="phase-title" data-sr="Faza 2 — Izrada klona i podizanje gotovine" data-en="Phase 2 — Creating clone and withdrawing cash">Faza 2 — Izrada klona i podizanje gotovine</h3>
-        <p data-sr="Napadač prikuplja podatke, izrađuje klon kartice i podiže gotovinu na bankomatima koji podržavaju magnetnu traku — tipično u drugom gradu ili drugoj zemlji da bi odložio otkrivanje." data-en="The attacker collects data, creates a card clone, and withdraws cash at ATMs supporting magnetic stripe — typically in another city or country to delay discovery.">Klon koristi magnetnu traku i PIN za podizanje gotovine. Napadi se izvode u drugom gradu radi kašnjenja otkrivanja.</p>
+        <p data-sr="Klon koristi magnetnu traku i PIN za podizanje gotovine. Napadi se izvode u drugom gradu radi kašnjenja otkrivanja." data-en="The attacker collects data, creates a card clone, and withdraws cash at ATMs supporting magnetic stripe — typically in another city or country to delay discovery.">Klon koristi magnetnu traku i PIN za podizanje gotovine. Napadi se izvode u drugom gradu radi kašnjenja otkrivanja.</p>
         <div class="branch">
           <p><strong data-sr="Grananja u ovoj fazi" data-en="Branching at this phase">Grananja u ovoj fazi</strong></p>
           <ul class="bullets">
@@ -117,14 +117,6 @@ window.SCAM_CONTENT["atm-skimming"] = {
       </div>
     </section>
 
-    <section class="card sources" id="sources">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <ul class="bullets">
-        <li><a href="card-skimming.html" data-sr="Skimovanje kartice (opšte)" data-en="Card skimming">Skimovanje kartice (opšte)</a></li>
-        <li><a href="pos-skimming.html" data-sr="Skimovanje na POS terminalu" data-en="POS skimming">Skimovanje na POS terminalu</a></li>
-        <li><a href="contactless-card-scam.html" data-sr="Prevara beskontaktnom karticom" data-en="Contactless card scam">Prevara beskontaktnom karticom</a></li>
-        <li><a href="card-not-present-fraud.html" data-sr="Zloupotreba kartice bez fizičkog prisustva" data-en="Card-not-present fraud">Zloupotreba kartice bez fizičkog prisustva</a></li>
-      </ul>
-    </section>
+    
   `
 };

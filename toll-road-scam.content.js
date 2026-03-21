@@ -1,11 +1,11 @@
-﻿window.SCAM_CONTENT = window.SCAM_CONTENT || {};
+window.SCAM_CONTENT = window.SCAM_CONTENT || {};
 
 window.SCAM_CONTENT["toll-road-scam"] = {
   raw_html: `
     <section class="card">
       <h2 data-sr="Uvod: kako rade prevare s lažnim putarinama" data-en="Introduction: how fake toll road scams work">Uvod: kako rade prevare s lažnim putarinama</h2>
-      <p data-sr="Prevare s lažnim putarinama su masovni smishing napad: žrtve primaju SMS ili email koji tvrdi da vozilo ima neplaćenu putarinu. Poruka sadrži link ka lažnom portalu koji imitira zvanični sistem naplate putarine. Na portalu se traže karticni podaci za plaćanje simboličnog iznosa — ali portal krade sve karticne podatke za kasniju zloupotrebu." data-en="Fake toll road scams are a mass smishing attack: victims receive an SMS or email claiming their vehicle has an unpaid toll. The message includes a link to a fake portal imitating the official toll payment system. The portal requests card details for a symbolic amount — but steals all card data for later misuse.">Masovni SMS napad: neplaćena putarina, link ka lažnom portalu. Kartica se podnosi za simboličan iznos ali se krade za kasniju zloupotrebu.</p>
-      <p data-sr="Napad koristi raširenu praksu elektronskih putarina i poznavanje da su mnogi vozači prošli putarinom bez plaćanja (iz navike za autoput koji je bio besplatan, jer zaborave, jer nisu znali da treba platiti). Taj element sumnje povećava procenat kliktanja na link." data-en="The attack exploits widespread electronic toll practice and knowledge that many drivers have passed through a toll without paying (from habit on a formerly free highway, forgetting, or not knowing payment is required). That element of doubt increases the percentage of link clicks.">Napad koristi stvarnu sumnju vozača da možda nisi platio putarinu. Procenat kliktanja je visok upravo zbog te nesigurnosti.</p>
+      <p data-sr="Masovni SMS napad: neplaćena putarina, link ka lažnom portalu. Kartica se podnosi za simboličan iznos ali se krade za kasniju zloupotrebu." data-en="Fake toll road scams are a mass smishing attack: victims receive an SMS or email claiming their vehicle has an unpaid toll. The message includes a link to a fake portal imitating the official toll payment system. The portal requests card details for a symbolic amount — but steals all card data for later misuse.">Masovni SMS napad: neplaćena putarina, link ka lažnom portalu. Kartica se podnosi za simboličan iznos ali se krade za kasniju zloupotrebu.</p>
+      <p data-sr="Napad koristi stvarnu sumnju vozača da možda nisi platio putarinu. Procenat kliktanja je visok upravo zbog te nesigurnosti." data-en="The attack exploits widespread electronic toll practice and knowledge that many drivers have passed through a toll without paying (from habit on a formerly free highway, forgetting, or not knowing payment is required). That element of doubt increases the percentage of link clicks.">Napad koristi stvarnu sumnju vozača da možda nisi platio putarinu. Procenat kliktanja je visok upravo zbog te nesigurnosti.</p>
       <div class="callout" data-sr="<strong>Model:</strong> SMS ili email → putarinska agencija → neplaćena putarina + mali iznos → link → lažni portal → karticni podaci → krađa." data-en="<strong>Model:</strong> SMS or email → toll authority → unpaid toll + small amount → link → fake portal → card data → theft."><strong>Model:</strong> SMS ili email → putarinska agencija → neplaćena putarina + mali iznos → link → lažni portal → karticni podaci → krađa.</div>
       <div class="callout" data-sr="<strong>Prag:</strong> meta klikne link iz SMS-a ili emaila i dođe do lažnog portala za plaćanje putarine." data-en="<strong>Threshold:</strong> the target clicks the link in an SMS or email and reaches a fake toll payment portal."><strong>Prag:</strong> meta klikne link iz SMS-a ili emaila i dođe do lažnog portala za plaćanje putarine.</div>
     </section>
@@ -16,9 +16,9 @@ window.SCAM_CONTENT["toll-road-scam"] = {
         <div class="phase">
           <div class="label" data-sr="Šta čini SMS ubedljivim" data-en="What makes the SMS convincing">Šta čini SMS ubedljivim</div>
           <ul class="bullets">
-            <li data-sr="naziv putarinske agencije (ENC, HAC, ASFINAG) koji zvuči zvanično." data-en="toll agency name (ENC, HAC, ASFINAG) that sounds official.">naziv putarinske agencije koji zvuči zvanično.</li>
+            <li data-sr="naziv putarinske agencije koji zvuči zvanično." data-en="toll agency name (ENC, HAC, ASFINAG) that sounds official.">naziv putarinske agencije koji zvuči zvanično.</li>
             <li data-sr="mali iznos putarine (2–5 evra) koji je lako platiti bez razmišljanja." data-en="small toll amount (2–5 euros) easy to pay without thinking.">mali iznos putarine (2–5 evra) koji je lako platiti bez razmišljanja.</li>
-            <li data-sr="prijetnja penalima ili blokadom registracija vozila ako se ne plati." data-en="threat of penalties or vehicle registration block if not paid.">prijetnja penalima ili blokadom registracija vozila ako se ne plati.</li>
+            <li data-sr="pretnja penalima ili blokadom registracije vozila ako se ne plati." data-en="threat of penalties or vehicle registration block if not paid.">pretnja penalima ili blokadom registracije vozila ako se ne plati.</li>
             <li data-sr="rok od 24–48 sati koji stvara pritisak za hitnim plaćanjem." data-en="24–48 hour deadline creating pressure for immediate payment.">rok od 24–48 sati koji stvara pritisak za hitnim plaćanjem.</li>
           </ul>
         </div>
@@ -35,11 +35,11 @@ window.SCAM_CONTENT["toll-road-scam"] = {
     </section>
 
     <section class="card">
-      <h2 data-sr="Hronološki tok (faze + evolucije)." data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
+      <h2 data-sr="Hronološki tok (faze + evolucije)" data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
 
       <article class="phase">
         <h3 class="phase-title" data-sr="Faza 1 — SMS s neplaćenom putarinom" data-en="Phase 1 — SMS with unpaid toll">Faza 1 — SMS s neplaćenom putarinom</h3>
-        <p data-sr="Meta prima SMS koji izgleda kao obaveštenje o neplaćenoj putarini. Iznos je mali (2–5 evra), rok je kratak, a prijetnja je konkretan zakonski problem. Poruka je dobro formulisana i teško se razlikuje od legitimnih putarinskih obaveštenja." data-en="The target receives an SMS that looks like an unpaid toll notification. The amount is small (2–5 euros), the deadline is short, and the threat is a concrete legal problem. The message is well-written and hard to distinguish from legitimate toll notifications.">SMS s malo iznosa (2–5 evra), kratkim rokom i prijetnjom. Dobro formulisan, lako se zamijeni za legitiman.</p>
+        <p data-sr="SMS s malim iznosom (2–5 evra), kratkim rokom i pretnjom. Dobro je formulisan i lako se zameni za legitiman." data-en="The target receives an SMS that looks like an unpaid toll notification. The amount is small (2–5 euros), the deadline is short, and the threat is a concrete legal problem. The message is well-written and hard to distinguish from legitimate toll notifications.">SMS s malim iznosom (2–5 evra), kratkim rokom i pretnjom. Dobro je formulisan i lako se zameni za legitiman.</p>
         <ul class="bullets">
           <li data-sr="signal: zvanična putarinska agencija ne šalje SMS-ove s direktnim linkovima za plaćanje." data-en="signal: official toll agencies do not send SMS with direct payment links.">signal: zvanična putarinska agencija ne šalje SMS-ove s direktnim linkovima za plaćanje.</li>
           <li data-sr="signal: SMS dolazi od privatnog broja ili kratkog koda koji nije registrovan za tu agenciju." data-en="signal: SMS comes from a private number or short code not registered for that agency.">signal: SMS dolazi od privatnog broja ili kratkog koda koji nije registrovan za tu agenciju.</li>
@@ -49,9 +49,9 @@ window.SCAM_CONTENT["toll-road-scam"] = {
 
       <article class="phase warn">
         <h3 class="phase-title" data-sr="Faza 2 — Lažni portal s karticnim podacima" data-en="Phase 2 — Fake portal with card data">Faza 2 — Lažni portal s karticnim podacima</h3>
-        <p data-sr="Portal traži broj kartice, CVV i datum isteka za plaćanje simboličnog iznosa. Logika je: ako je iznos mali (2–5 evra), možda se ne vidi problem s davanjem karticnih podataka. Ali podaci se koriste za transakcije znatno većih iznosa." data-en="The portal requests card number, CVV, and expiry date for paying a symbolic amount. The logic is: if the amount is small (2–5 euros), perhaps there is no problem giving card details. But the data is used for transactions of much larger amounts.">Portal traži karticu za simboličan iznos. Logika: mali iznos ne izgleda opasno. Ali podaci se koriste za znatno veće transakcije.</p>
+        <p data-sr="Portal traži karticu za simboličan iznos. Logika: mali iznos ne izgleda opasno. Ali podaci se koriste za znatno veće transakcije." data-en="The portal requests card number, CVV, and expiry date for paying a symbolic amount. The logic is: if the amount is small (2–5 euros), perhaps there is no problem giving card details. But the data is used for transactions of much larger amounts.">Portal traži karticu za simboličan iznos. Logika: mali iznos ne izgleda opasno. Ali podaci se koriste za znatno veće transakcije.</p>
         <ul class="bullets">
-          <li data-sr="signal: URL portala se razlikuje od zvaničnog — provjeriti pažljivo adresnu traku." data-en="signal: the portal URL differs from the official one — check the address bar carefully.">signal: URL portala se razlikuje od zvaničnog — provjeriti pažljivo adresnu traku.</li>
+          <li data-sr="signal: URL portala se razlikuje od zvaničnog — proveriti pažljivo adresnu traku." data-en="signal: the portal URL differs from the official one — check the address bar carefully.">signal: URL portala se razlikuje od zvaničnog — proveriti pažljivo adresnu traku.</li>
           <li data-sr="signal: plaćanje putarine od 2 evra zahteva iste karticne podatke kao i kupovina od 2000 evra." data-en="signal: paying a 2-euro toll requires the same card details as a 2000-euro purchase.">signal: plaćanje putarine od 2 evra zahteva iste karticne podatke kao i kupovina od 2000 evra.</li>
         </ul>
         <div class="branch">
@@ -65,7 +65,7 @@ window.SCAM_CONTENT["toll-road-scam"] = {
 
       <article class="phase bad">
         <h3 class="phase-title" data-sr="Faza 3 — Krađa i neovlašćene transakcije" data-en="Phase 3 — Theft and unauthorized transactions">Faza 3 — Krađa i neovlašćene transakcije</h3>
-        <p data-sr="Karticni podaci se koriste za transakcije čiji su iznosi znatno veći od uplaćene putarine. Banka šalje obaveštenje o nepoznatim transakcijama. Meta proverava u sistemu putarinskih agencija i saznaje da putarina zapravo ne postoji ili je odavno plaćena." data-en="Card data is used for transactions with amounts much larger than the toll paid. The bank sends notifications of unknown transactions. The target checks in the toll agency system and learns the toll actually does not exist or was long ago paid.">Karticni podaci se koriste za veće transakcije. Putarina se ne može naći u agencijinom sistemu ili je odavno plaćena.</p>
+        <p data-sr="Karticni podaci se koriste za veće transakcije. Putarina se ne može naći u agencijinom sistemu ili je odavno plaćena." data-en="Card data is used for transactions with amounts much larger than the toll paid. The bank sends notifications of unknown transactions. The target checks in the toll agency system and learns the toll actually does not exist or was long ago paid.">Karticni podaci se koriste za veće transakcije. Putarina se ne može naći u agencijinom sistemu ili je odavno plaćena.</p>
         <div class="callout" data-sr="<strong>Akcija:</strong> odmah blokirati karticu u aplikaciji banke i prijaviti incident putarinskoj agenciji i policiji." data-en="<strong>Action:</strong> immediately block the card in the bank app and report the incident to the toll agency and police."><strong>Akcija:</strong> odmah blokirati karticu u aplikaciji banke i prijaviti incident putarinskoj agenciji i policiji.</div>
       </article>
     </section>
@@ -76,7 +76,7 @@ window.SCAM_CONTENT["toll-road-scam"] = {
         <li data-sr="SMS o neplaćenoj putarini s direktnim linkom za plaćanje." data-en="SMS about unpaid toll with a direct payment link.">SMS o neplaćenoj putarini s direktnim linkom za plaćanje.</li>
         <li data-sr="URL portala koji se otvara nije zvanična domena putarinske agencije." data-en="URL of the portal that opens is not the toll agency's official domain.">URL portala koji se otvara nije zvanična domena putarinske agencije.</li>
         <li data-sr="portal traži kompletne karticne podatke za simboličan iznos putarine." data-en="portal requests complete card details for a symbolic toll amount.">portal traži kompletne karticne podatke za simboličan iznos putarine.</li>
-        <li data-sr="rok od 24h uz prijetnju blokadom registracije vozila." data-en="24-hour deadline with threat of vehicle registration block.">rok od 24h uz prijetnju blokadom registracije vozila.</li>
+        <li data-sr="rok od 24h uz pretnju blokadom registracije vozila." data-en="24-hour deadline with threat of vehicle registration block.">rok od 24h uz pretnju blokadom registracije vozila.</li>
         <li data-sr="putarina se ne može naći u zvaničnom sistemu putarinske agencije." data-en="the toll cannot be found in the official toll agency system.">putarina se ne može naći u zvaničnom sistemu putarinske agencije.</li>
       </ul>
     </section>
@@ -103,7 +103,7 @@ window.SCAM_CONTENT["toll-road-scam"] = {
         <li data-sr="ne klikaj link — proveri putarinu direktno na zvaničnom portalu agencije." data-en="do not click the link — verify the toll directly on the agency's official portal.">ne klikaj link — proveri putarinu direktno na zvaničnom portalu agencije.</li>
         <li data-sr="ako su karticni podaci uneti, odmah blokiraj karticu u aplikaciji banke." data-en="if card details were entered, immediately block the card in the bank app.">ako su karticni podaci uneti, odmah blokiraj karticu u aplikaciji banke.</li>
         <li data-sr="sačuvaj SMS kao dokaz i prijavi incident agenciji i policiji." data-en="save the SMS as evidence and report the incident to the agency and police.">sačuvaj SMS kao dokaz i prijavi incident agenciji i policiji.</li>
-        <li data-sr="provjeri da li je registracija vozila u sistemu agencije neaktivna ili blokirana." data-en="check whether the vehicle registration is inactive or blocked in the agency's system.">provjeri da li je registracija vozila u sistemu agencije neaktivna ili blokirana.</li>
+        <li data-sr="proveri da li je registracija vozila u sistemu agencije neaktivna ili blokirana." data-en="check whether the vehicle registration is inactive or blocked in the agency's system.">proveri da li je registracija vozila u sistemu agencije neaktivna ili blokirana.</li>
       </ol>
     </section>
 
@@ -129,15 +129,6 @@ window.SCAM_CONTENT["toll-road-scam"] = {
       </div>
     </section>
 
-    <section class="card sources" id="sources">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <ul class="bullets">
-        <li><a href="government-impersonation.html" data-sr="Lažno predstavljanje državnih organa" data-en="Government impersonation scams">Lažno predstavljanje državnih organa</a></li>
-        <li><a href="fake-fine-scam.html" data-sr="Lažne kazne i nalozi za plaćanje" data-en="Fake fines and payment orders">Lažne kazne i nalozi za plaćanje</a></li>
-        <li><a href="customs-fee-scam.html" data-sr="Lažne carine i taksene prevare" data-en="Fake customs fee scams">Lažne carine i taksene prevare</a></li>
-        <li><a href="parking-qr-scam.html" data-sr="Lažni QR kodovi na parkiralištima" data-en="Fake parking QR code scams">Lažni QR kodovi na parkiralištima</a></li>
-        <li><a href="smishing.html" data-sr="Smišing" data-en="Smishing">Smišing</a></li>
-      </ul>
-    </section>
+    
   `
 };

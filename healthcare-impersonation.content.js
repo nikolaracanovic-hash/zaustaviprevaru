@@ -1,11 +1,11 @@
-﻿window.SCAM_CONTENT = window.SCAM_CONTENT || {};
+window.SCAM_CONTENT = window.SCAM_CONTENT || {};
 
 window.SCAM_CONTENT["healthcare-impersonation"] = {
   raw_html: `
     <section class="card">
       <h2 data-sr="Uvod: kako radi lažno predstavljanje zdravstvene kase" data-en="Introduction: how health insurance impersonation works">Uvod: kako radi lažno predstavljanje zdravstvene kase</h2>
-      <p data-sr="Lažno predstavljanje zdravstvene kase koristi dve ranjive tačke: zabrinutost za zdravstvenu zaštitu i nepoznavanje procedura zdravstvene administracije. Prevarant šalje SMS ili zove u ime zdravstvene kase, RFZO ili zdravstvenog ministarstva s jednom od tri poruke: kartica je istekla i mora se obnoviti odmah, na zdravstvenim podacima je detektovana greška, ili postoji preplata participacije koja se vraća ako se potvrde podaci." data-en="Health insurance impersonation exploits two vulnerable points: concern about healthcare coverage and unfamiliarity with health administrative procedures. The fraudster sends SMS or calls on behalf of the health insurance fund, RFZO, or health ministry with one of three messages: the card has expired and must be renewed immediately, an error was detected in health data, or there is a co-payment overpayment that can be refunded if data is confirmed.">Lažno predstavljanje zdravstvene kase koristi dve tačke ranjivosti: zabrinutost za zdravstvenu zaštitu i nepoznavanje zdravstvene administracije. Tri tipične poruke: kartica istekla, greška u evidenciji, povraćaj participacije.</p>
-      <p data-sr="Šema je efikasna jer zdravstvena kartica je konkretan dokument koji svi imaju, rok joj zaista ističe, a ideja povraćaja participacije zvuči finansijski atraktivno. Prevarant kombinuje ove realne situacije sa lažnim urgentnim zahtevom." data-en="The scheme is effective because the health card is a concrete document everyone has, it does actually expire, and the idea of a co-payment refund sounds financially attractive. The fraudster combines these real situations with a fake urgent demand.">Šema funkcioniše jer zdravstvena kartica postoji, ističe, a povraćaj participacije zvuči privlažno. Prevarant kombinuje realne situacije s lažnim zahtevom.</p>
+      <p data-sr="Lažno predstavljanje zdravstvene kase koristi dve tačke ranjivosti: zabrinutost za zdravstvenu zaštitu i nepoznavanje zdravstvene administracije. Tri tipične poruke: kartica istekla, greška u evidenciji, povraćaj participacije." data-en="Health insurance impersonation exploits two vulnerable points: concern about healthcare coverage and unfamiliarity with health administrative procedures. The fraudster sends SMS or calls on behalf of the health insurance fund, RFZO, or health ministry with one of three messages: the card has expired and must be renewed immediately, an error was detected in health data, or there is a co-payment overpayment that can be refunded if data is confirmed.">Lažno predstavljanje zdravstvene kase koristi dve tačke ranjivosti: zabrinutost za zdravstvenu zaštitu i nepoznavanje zdravstvene administracije. Tri tipične poruke: kartica istekla, greška u evidenciji, povraćaj participacije.</p>
+      <p data-sr="Šema funkcioniše jer zdravstvena kartica postoji, ističe, a povraćaj participacije zvuči privlažno. Prevarant kombinuje realne situacije s lažnim zahtevom." data-en="The scheme is effective because the health card is a concrete document everyone has, it does actually expire, and the idea of a co-payment refund sounds financially attractive. The fraudster combines these real situations with a fake urgent demand.">Šema funkcioniše jer zdravstvena kartica postoji, ističe, a povraćaj participacije zvuči privlažno. Prevarant kombinuje realne situacije s lažnim zahtevom.</p>
       <div class="callout" data-sr="<strong>Model:</strong> SMS ili poziv → zdravstvena kasa → kartica/greška/refund → verifikacija podataka → podaci kartice ili uplata → krađa." data-en="<strong>Model:</strong> SMS or call → health insurance → card/error/refund → data verification → card data or payment → theft."><strong>Model:</strong> SMS ili poziv → zdravstvena kasa → kartica/greška/refund → verifikacija podataka → podaci kartice ili uplata → krađa.</div>
       <div class="callout" data-sr="<strong>Prag:</strong> meta prima zahtev za hitnom verifikacijom zdravstvene kartice uz pretnju suspenzijom zdravstvenog pokrića." data-en="<strong>Threshold:</strong> the target receives an urgent health card verification request with a coverage suspension threat."><strong>Prag:</strong> meta prima zahtev za hitnom verifikacijom zdravstvene kartice uz pretnju suspenzijom zdravstvenog pokrića.</div>
     </section>
@@ -18,7 +18,7 @@ window.SCAM_CONTENT["healthcare-impersonation"] = {
           <ul class="bullets">
             <li data-sr="naziv fonda (RFZO, zdravstvena kasa) i referentni broj kartice ili predmeta." data-en="fund name (RFZO, health fund) and card reference number or case number.">naziv fonda (RFZO, zdravstvena kasa) i referentni broj kartice ili predmeta.</li>
             <li data-sr="referenca na konkretnu filijalu u mestu boravišta žrtve." data-en="reference to a specific branch in the victim's place of residence.">referenca na konkretnu filijalu u mestu boravišta žrtve.</li>
-            <li data-sr="prijetnja suspenzijom zdravstvene zaštite koja uključuje hitnu situaciju." data-en="threat of health coverage suspension including emergency situations.">prijetnja suspenzijom zdravstvene zaštite koja uključuje hitnu situaciju.</li>
+            <li data-sr="pretnja suspenzijom zdravstvene zaštite koja uključuje hitnu situaciju." data-en="threat of health coverage suspension including emergency situations.">pretnja suspenzijom zdravstvene zaštite koja uključuje hitnu situaciju.</li>
             <li data-sr="lažni link ka portalu koji vizualno imitira zvanični portal zdravstvene kase." data-en="fake link to a portal that visually imitates the official health fund portal.">lažni link ka portalu koji vizualno imitira zvanični portal zdravstvene kase.</li>
           </ul>
         </div>
@@ -35,11 +35,11 @@ window.SCAM_CONTENT["healthcare-impersonation"] = {
     </section>
 
     <section class="card">
-      <h2 data-sr="Hronološki tok (faze + evolucije)." data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
+      <h2 data-sr="Hronološki tok (faze + evolucije)" data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
 
       <article class="phase">
         <h3 class="phase-title" data-sr="Faza 1 — SMS ili poziv sa upozorenjem" data-en="Phase 1 — SMS or call with warning">Faza 1 — SMS ili poziv sa upozorenjem</h3>
-        <p data-sr="Meta prima SMS ili poziv od zdravstvene kase s upozorenjem. Poruka je kratka i direktna: zdravstvena kartica je istekla, evidencija nije kompletna ili postoji greška u sistemu. Rok za rešavanje je kratak — obično 24–48 sati." data-en="The target receives an SMS or call from the health fund with a warning. The message is short and direct: the health card has expired, records are incomplete, or there is a system error. The resolution deadline is short — usually 24–48 hours.">SMS ili poziv s upozorenjem. Kratka poruka: kartica istekla, greška u evidenciji. Rok 24–48h.</p>
+        <p data-sr="SMS ili poziv s upozorenjem. Kratka poruka: kartica istekla, greška u evidenciji. Rok 24–48h." data-en="The target receives an SMS or call from the health fund with a warning. The message is short and direct: the health card has expired, records are incomplete, or there is a system error. The resolution deadline is short — usually 24–48 hours.">SMS ili poziv s upozorenjem. Kratka poruka: kartica istekla, greška u evidenciji. Rok 24–48h.</p>
         <ul class="bullets">
           <li data-sr="signal: RFZO i zdravstvene kase kontaktiraju pismenim putem, ne SMS-om." data-en="signal: RFZO and health funds contact in writing, not by SMS.">signal: RFZO i zdravstvene kase kontaktiraju pismenim putem, ne SMS-om.</li>
           <li data-sr="signal: SMS sadrži link koji ne odgovara zvaničnoj domeni zdravstvene kase." data-en="signal: SMS contains a link that does not match the health fund's official domain.">signal: SMS sadrži link koji ne odgovara zvaničnoj domeni zdravstvene kase.</li>
@@ -49,7 +49,7 @@ window.SCAM_CONTENT["healthcare-impersonation"] = {
 
       <article class="phase warn">
         <h3 class="phase-title" data-sr="Faza 2 — Lažni portal za verifikaciju" data-en="Phase 2 — Fake verification portal">Faza 2 — Lažni portal za verifikaciju</h3>
-        <p data-sr="Lažni portal imitira zvanični sajt zdravstvene kase. Traži broj zdravstvene kartice, JMBG, datum rođenja i opciono broj tekućeg računa. Svi uneti podaci idu direktno prevarantu. Portal može biti identičan originalnom." data-en="The fake portal imitates the official health fund website. It requests the health card number, ID number, date of birth, and optionally a bank account number. All entered data goes directly to the fraudster. The portal can be identical to the original.">Lažni portal imitira zvanični sajt. Traži karticu, JMBG, datum rođenja, opciono broj računa. Svi podaci idu prevarantu.</p>
+        <p data-sr="Lažni portal imitira zvanični sajt. Traži karticu, JMBG, datum rođenja, opciono broj računa. Svi podaci idu prevarantu." data-en="The fake portal imitates the official health fund website. It requests the health card number, ID number, date of birth, and optionally a bank account number. All entered data goes directly to the fraudster. The portal can be identical to the original.">Lažni portal imitira zvanični sajt. Traži karticu, JMBG, datum rođenja, opciono broj računa. Svi podaci idu prevarantu.</p>
         <ul class="bullets">
           <li data-sr="signal: URL adresa portala se razlikuje od zvanične domene — slova su zamenjena ili dodat sufiks." data-en="signal: the portal URL differs from the official domain — letters are substituted or a suffix is added.">signal: URL adresa portala se razlikuje od zvanične domene — slova su zamenjena ili dodat sufiks.</li>
           <li data-sr="signal: zvanični portal nikad ne traži verifikaciju samo na osnovu SMS linka." data-en="signal: the official portal never requests verification based solely on an SMS link.">signal: zvanični portal nikad ne traži verifikaciju samo na osnovu SMS linka.</li>
@@ -65,13 +65,13 @@ window.SCAM_CONTENT["healthcare-impersonation"] = {
 
       <article class="phase bad">
         <h3 class="phase-title" data-sr="Faza 3 — Predaja podataka i krađa" data-en="Phase 3 — Data submission and theft">Faza 3 — Predaja podataka i krađa</h3>
-        <p data-sr="Meta unosi podatke. Podaci se koriste za krađu identiteta, otvaranje lažnih kredita, preuzimanje bankovnog naloga ili prodaju na crnom tržištu podataka. Meta ne dobija poruku o potvrdi verifikacije ili poruka stiže ali je lažna." data-en="The target enters data. Data is used for identity theft, opening fake loans, bank account takeover, or sale on data black markets. The target receives no verification confirmation message or receives a fake one.">Podaci se predaju. Koriste se za krađu identiteta, lažne kredite ili preuzimanje naloga. Potvrda verifikacije ne stiže ili je lažna.</p>
-        <div class="callout" data-sr="<strong>Indikator:</strong> zdravstvena kasa nikad ne verifikuje karticu kroz SMS link. Obnova kartice se vrši lično u filijali ili kroz zvanični registrovani portal." data-en="<strong>Indicator:</strong> the health fund never verifies a card through an SMS link. Card renewal is done in person at the branch or through the official registered portal."><strong>Indikator:</strong> zdravstvena kasa nikad ne verifikuje karticu kroz SMS link. Obnova se vrši lično ili kroz zvanični portal.</div>
+        <p data-sr="Podaci se predaju. Koriste se za krađu identiteta, lažne kredite ili preuzimanje naloga. Potvrda verifikacije ne stiže ili je lažna." data-en="The target enters data. Data is used for identity theft, opening fake loans, bank account takeover, or sale on data black markets. The target receives no verification confirmation message or receives a fake one.">Podaci se predaju. Koriste se za krađu identiteta, lažne kredite ili preuzimanje naloga. Potvrda verifikacije ne stiže ili je lažna.</p>
+        <div class="callout" data-sr="<strong>Indikator:</strong> zdravstvena kasa nikad ne verifikuje karticu kroz SMS link. Obnova se vrši lično ili kroz zvanični portal." data-en="<strong>Indicator:</strong> the health fund never verifies a card through an SMS link. Card renewal is done in person at the branch or through the official registered portal."><strong>Indikator:</strong> zdravstvena kasa nikad ne verifikuje karticu kroz SMS link. Obnova se vrši lično ili kroz zvanični portal.</div>
       </article>
 
       <article class="phase warn">
         <h3 class="phase-title" data-sr="Faza 4 — Otkrivanje i posledice" data-en="Phase 4 — Discovery and consequences">Faza 4 — Otkrivanje i posledice</h3>
-        <p data-sr="Meta saznaje o prevari kada joj stigne lažni kredit, kada primeti neovlašćene transakcije na nalogu ili kada pokuša da iskoristi zdravstvenu karticu i saznaje da je kartica aktivna i nije istekla. Ošteta može biti finansijska (lažni krediti) ili identitetska (zloupotreba ličnih podataka)." data-en="The target discovers the fraud when a fake loan arrives, when they notice unauthorized transactions on their account, or when they try to use their health card and learn it is active and not expired. Damage can be financial (fake loans) or identity-related (personal data misuse).">Meta saznaje o prevari kroz lažni kredit, neovlašćene transakcije ili proverom da kartica nije istekla.</p>
+        <p data-sr="Meta saznaje o prevari kroz lažni kredit, neovlašćene transakcije ili proverom da kartica nije istekla." data-en="The target discovers the fraud when a fake loan arrives, when they notice unauthorized transactions on their account, or when they try to use their health card and learn it is active and not expired. Damage can be financial (fake loans) or identity-related (personal data misuse).">Meta saznaje o prevari kroz lažni kredit, neovlašćene transakcije ili proverom da kartica nije istekla.</p>
       </article>
     </section>
 
@@ -81,7 +81,7 @@ window.SCAM_CONTENT["healthcare-impersonation"] = {
         <li data-sr="zdravstvena kasa šalje SMS s linkom za verifikaciju kartice." data-en="health fund sends SMS with a link for card verification.">zdravstvena kasa šalje SMS s linkom za verifikaciju kartice.</li>
         <li data-sr="URL portala u linku se razlikuje od zvanične domene zdravstvene kase." data-en="portal URL in the link differs from the health fund's official domain.">URL portala u linku se razlikuje od zvanične domene zdravstvene kase.</li>
         <li data-sr="portal traži JMBG, datum rođenja i broj tekućeg računa u jednom obrascu." data-en="portal requests ID number, date of birth, and bank account number in one form.">portal traži JMBG, datum rođenja i broj tekućeg računa u jednom obrascu.</li>
-        <li data-sr="rok od 24–48 sati uz prijetnju gubitkom zdravstvene zaštite." data-en="24–48 hour deadline with a threat of loss of healthcare coverage.">rok od 24–48 sati uz prijetnju gubitkom zdravstvene zaštite.</li>
+        <li data-sr="rok od 24–48 sati uz pretnju gubitkom zdravstvene zaštite." data-en="24–48 hour deadline with a threat of loss of healthcare coverage.">rok od 24–48 sati uz pretnju gubitkom zdravstvene zaštite.</li>
         <li data-sr="kontakt nudi povraćaj participacije koji zahteva broj tekućeg računa." data-en="contact offers a co-payment refund requiring a bank account number.">kontakt nudi povraćaj participacije koji zahteva broj tekućeg računa.</li>
         <li data-sr="verifikacija nije moguća u filijali ili na zvaničnom portalu bez SMS linka." data-en="verification is not possible at the branch or official portal without the SMS link.">verifikacija nije moguća u filijali ili na zvaničnom portalu bez SMS linka.</li>
       </ul>
@@ -135,16 +135,6 @@ window.SCAM_CONTENT["healthcare-impersonation"] = {
       </div>
     </section>
 
-    <section class="card sources" id="sources">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <ul class="bullets">
-        <li><a href="government-impersonation.html" data-sr="Lažno predstavljanje državnih organa" data-en="Government impersonation scams">Lažno predstavljanje državnih organa</a></li>
-        <li><a href="pension-impersonation.html" data-sr="Lažno predstavljanje PIO fonda" data-en="Pension fund impersonation">Lažno predstavljanje PIO fonda</a></li>
-        <li><a href="social-benefits-scam.html" data-sr="Prevare s lažnim socijalnim beneficijama" data-en="Social benefits scams">Prevare s lažnim socijalnim beneficijama</a></li>
-        <li><a href="phishing.html" data-sr="Fišing" data-en="Fišing">Fišing</a></li>
-        <li><a href="smishing.html" data-sr="Smišing" data-en="Smishing">Smišing</a></li>
-        <li><a href="identity-theft.html" data-sr="Krađa identiteta" data-en="Identity theft">Krađa identiteta</a></li>
-      </ul>
-    </section>
+    
   `
 };

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Lažna browser obaveštenja kao ponavljanje fišinga: dozvola za push, lažni alerti i stranice za prijavu ili uplatu — prepoznavanje i zaštita."
+    data-sr="Lažna browser obaveštenja kao ponavljanje fišinga: dozvola za push, lažni alerti i stranice za prijavu ili uplatu — prepoznavanje i zaštita."
+    data-en="Fake browser notifications as recurring phishing: push permission, bogus alerts, and login or payment pages — recognition and protection."
+  />
+  <title
+    data-sr="Fišing preko browser obaveštenja (push)"
+    data-en="Browser notification phishing scam"
+  >Fišing preko browser obaveštenja (push)</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="ui.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="browser-notification-phishing-scam.content.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="cases.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+      <div class="brand">
+        <span class="brand-dot" aria-hidden="true"></span>
+        <span class="brand-name">Anti-scam</span>
+      </div>
+
+      <nav aria-label="Glavna navigacija">
+        <ul class="top-nav">
+          <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+          <li><a href="prevare.html" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          <li><a href="protecting-elderly.html" data-sr="Prevencija" data-en="Prevention">Prevencija</a></li>                  </ul>
+      </nav>
+    </div>
+
+<div class="hero compact">
+        <h1
+          data-sr="Fišing preko browser obaveštenja (push)"
+          data-en="Browser notification phishing scam"
+        >Fišing preko browser obaveštenja (push)</h1>
+        <p class="muted hero-sub"
+           data-sr="Dozvola za push → ponavljajući lažni alerti → klik → lažna prijava ili uplata (fišing), bez fokusa na malver."
+           data-en="Push permission → repeated fake alerts → click → fake login or payment (phishing), not primarily malware.">
+          Dozvola za push → ponavljajući lažni alerti → klik → lažna prijava ili uplata (fišing), bez fokusa na malver.
+        </p>
+        <div id="scam-meta" data-scam="browser-notification-phishing-scam"></div>
+        <div class="callout"
+             data-sr="<strong>Prag:</strong> unos korisničkog imena, lozinke, kartice ili potvrda na stranici otvorenoj posle klika na push koji ne potiče od servisa koji zaista koristite."
+             data-en="<strong>Threshold:</strong> entering a username, password, card data, or approving a prompt on a page opened after clicking a push that is not from a service you actually use.">
+          <strong>Prag:</strong> unos korisničkog imena, lozinke, kartice ili potvrda na stranici otvorenoj posle klika na push koji ne potiče od servisa koji zaista koristite.
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    <div data-overview></div>
+    <div data-steps></div>
+    <div data-longform></div>
+    <div data-related></div>
+</main>
+  <footer class="footer">
+  <div class="container">
+    <p class="muted"
+       data-sr="Anti-scam projekat — edukacija i analiza"
+       data-en="Anti-scam project — education and analysis">
+      Anti-scam projekat — edukacija i analiza
+    </p>
+    <p class="muted">
+      <a href="obavestenje-o-privatnosti.html" data-sr="Obaveštenje o privatnosti" data-en="Privacy notice">Obaveštenje o privatnosti</a>
+    </p>
+  </div>
+</footer>
+</body>
+</html>

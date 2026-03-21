@@ -1,11 +1,11 @@
-﻿window.SCAM_CONTENT = window.SCAM_CONTENT || {};
+window.SCAM_CONTENT = window.SCAM_CONTENT || {};
 
 window.SCAM_CONTENT["port-out-scam"] = {
   raw_html: `
     <section class="card">
       <h2 data-sr="Uvod: kako radi port-out prevara" data-en="Introduction: how port-out scam works">Uvod: kako radi port-out prevara</h2>
-      <p data-sr="Port-out prevara je bliski srodnik SIM swap-a: umesto zamene SIM kartice unutar istog operatera, napadač prenosi broj telefona žrtve na potpuno drugog operatera. Ovo je legitimna usluga „prenosa broja“ koja postoji da bi korisnici mogli da zadrže broj kad menjaju operatera. Napadač je zloupotrebljava predajući se kao vlasnik broja." data-en="Port-out scam is a close relative of SIM swap: instead of replacing a SIM card within the same carrier, the attacker transfers the victim's phone number to an entirely different carrier. This is a legitimate 'number portability' service that allows users to keep their number when switching carriers. The attacker abuses it by impersonating the number's owner.">Port-out je zloupotreba legitimne usluge prenosa broja — napadač prenosi vaš broj na drugog operatera lažno se predstavljajući kao vi.</p>
-      <p data-sr="Efekt je isti kao kod SIM swap-a: žrtva gubi signal, napadač prima sve SMS poruke. Ključna razlika je u procesu: port-out zahteva autorizacioni PIN koji operater ima, što ga čini nešto težim za izvršiti ali ne nemoguće — napadači koriste phishing ili socijalni inženjering za prikupljanje PIN-a." data-en="The effect is the same as SIM swap: the victim loses signal, the attacker receives all SMS messages. The key difference is the process: port-out requires an authorization PIN held by the carrier, making it somewhat harder to execute but not impossible — attackers use phishing or social engineering to obtain the PIN.">Efekt identičan SIM swap-u. Port-out zahteva autorizacioni PIN — napadač ga pribavlja phishingom ili socijalnim inženjeringom.</p>
+      <p data-sr="Port-out je zloupotreba legitimne usluge prenosa broja — napadač prenosi vaš broj na drugog operatera lažno se predstavljajući kao vi." data-en="Port-out scam is a close relative of SIM swap: instead of replacing a SIM card within the same carrier, the attacker transfers the victim's phone number to an entirely different carrier. This is a legitimate 'number portability' service that allows users to keep their number when switching carriers. The attacker abuses it by impersonating the number's owner.">Port-out je zloupotreba legitimne usluge prenosa broja — napadač prenosi vaš broj na drugog operatera lažno se predstavljajući kao vi.</p>
+      <p data-sr="Efekt identičan SIM swap-u. Port-out zahteva autorizacioni PIN — napadač ga pribavlja phishingom ili socijalnim inženjeringom." data-en="The effect is the same as SIM swap: the victim loses signal, the attacker receives all SMS messages. The key difference is the process: port-out requires an authorization PIN held by the carrier, making it somewhat harder to execute but not impossible — attackers use phishing or social engineering to obtain the PIN.">Efekt identičan SIM swap-u. Port-out zahteva autorizacioni PIN — napadač ga pribavlja phishingom ili socijalnim inženjeringom.</p>
       <div class="callout" data-sr="<strong>Model:</strong> prikupljanje podataka i PIN-a → zahtev za prenosom broja kod novog operatera → odobrenje prenosa → gubitak signala → presretanje SMS/OTP → preuzimanje naloga." data-en="<strong>Model:</strong> data and PIN collection → number transfer request at new carrier → transfer approved → signal loss → SMS/OTP interception → account takeover."><strong>Model:</strong> prikupljanje podataka i PIN-a → zahtev za prenosom broja kod novog operatera → odobrenje prenosa → gubitak signala → presretanje SMS/OTP → preuzimanje naloga.</div>
       <div class="callout" data-sr="<strong>Prag:</strong> gubitak signala bez upozorenja i nemogućnost poziva ili poruka su direktan signal za proveru kod operatera." data-en="<strong>Threshold:</strong> losing signal without warning and being unable to call or message is a direct signal to check with your carrier."><strong>Prag:</strong> gubitak signala bez upozorenja i nemogućnost poziva ili poruka su direktan signal za proveru kod operatera.</div>
     </section>
@@ -34,11 +34,11 @@ window.SCAM_CONTENT["port-out-scam"] = {
     </section>
 
     <section class="card">
-      <h2 data-sr="Hronološki tok (faze + evolucije)." data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
+      <h2 data-sr="Hronološki tok (faze + evolucije)" data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
 
       <article class="phase">
         <h3 class="phase-title" data-sr="Faza 1 — Prikupljanje podataka za prenos" data-en="Phase 1 — Data collection for porting">Faza 1 — Prikupljanje podataka za prenos</h3>
-        <p data-sr="Napadač prikuplja podatke potrebne za autorizovan prenos broja. Posebno traži PIN naloga koji se postavlja kod operatera. Korisnici koji nikad nisu postavili PIN su ranjiviji." data-en="The attacker collects data required for an authorized number transfer. Specifically seeks the account PIN set with the carrier. Users who have never set a PIN are more vulnerable.">Prikupljanje podataka za prenos uključuje PIN naloga, koji je ključna zaštita, ali mnogi korisnici ga nikad nisu postavili.</p>
+        <p data-sr="Prikupljanje podataka za prenos uključuje PIN naloga, koji je ključna zaštita, ali mnogi korisnici ga nikad nisu postavili." data-en="The attacker collects data required for an authorized number transfer. Specifically seeks the account PIN set with the carrier. Users who have never set a PIN are more vulnerable.">Prikupljanje podataka za prenos uključuje PIN naloga, koji je ključna zaštita, ali mnogi korisnici ga nikad nisu postavili.</p>
         <ul class="bullets">
           <li data-sr="signal: neočekivani poziv od operatera koji traži potvrdu PIN-a naloga." data-en="signal: unexpected call from the carrier requesting account PIN confirmation.">signal: neočekivani poziv od operatera koji traži potvrdu PIN-a naloga.</li>
           <li data-sr="signal: e-mail koji izgleda kao od operatera i traži ažuriranje podataka računa." data-en="signal: email appearing to be from the carrier and requesting account update.">signal: e-mail koji izgleda kao od operatera i traži ažuriranje podataka računa.</li>
@@ -48,7 +48,7 @@ window.SCAM_CONTENT["port-out-scam"] = {
 
       <article class="phase warn">
         <h3 class="phase-title" data-sr="Faza 2 — Prenos broja i gubitak signala" data-en="Phase 2 — Number porting and signal loss">Faza 2 — Prenos broja i gubitak signala</h3>
-        <p data-sr="Žrtva iznenada gubi signal. Ne može primiti pozive ni SMS. Ako stari operater pošalje SMS o prenosu, žrtva ga prima samo ako prethodni SMS pre prenosa — ili ga uopšte ne vidi jer je signal već prekinut." data-en="The victim suddenly loses signal. Cannot receive calls or SMS. If the old carrier sends an SMS about the transfer, the victim receives it only if they saw the previous SMS before the transfer — or they may not see it at all since signal is already cut.">Žrtva gubi signal. Obaveštenje o prenosu možda ne stiže na vreme.</p>
+        <p data-sr="Žrtva gubi signal. Obaveštenje o prenosu možda ne stiže na vreme." data-en="The victim suddenly loses signal. Cannot receive calls or SMS. If the old carrier sends an SMS about the transfer, the victim receives it only if they saw the previous SMS before the transfer — or they may not see it at all since signal is already cut.">Žrtva gubi signal. Obaveštenje o prenosu možda ne stiže na vreme.</p>
         <div class="branch">
           <p><strong data-sr="Grananja u ovoj fazi" data-en="Branching at this phase">Grananja u ovoj fazi</strong></p>
           <ul class="bullets">
@@ -131,15 +131,6 @@ window.SCAM_CONTENT["port-out-scam"] = {
       </div>
     </section>
 
-    <section class="card sources" id="sources">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <ul class="bullets">
-        <li><a href="sim-swap.html" data-sr="SIM swap (zamena SIM kartice)" data-en="SIM swap fraud">SIM swap (zamena SIM kartice)</a></li>
-        <li><a href="otp-interception.html" data-sr="Presretanje OTP koda" data-en="OTP interception">Presretanje OTP koda</a></li>
-        <li><a href="email-account-compromise.html" data-sr="Kompromitovanje imejl naloga" data-en="Email account compromise">Kompromitovanje imejl naloga</a></li>
-        <li><a href="account-takeover.html" data-sr="Preuzimanje naloga" data-en="Account takeover">Preuzimanje naloga</a></li>
-        <li><a href="identity-theft.html" data-sr="Krađa identiteta" data-en="Identity theft">Krađa identiteta</a></li>
-      </ul>
-    </section>
+    
   `
 };

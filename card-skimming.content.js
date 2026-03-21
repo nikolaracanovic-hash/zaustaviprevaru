@@ -4,8 +4,8 @@ window.SCAM_CONTENT["card-skimming"] = {
   raw_html: `
     <section class="card">
       <h2 data-sr="Uvod: kako radi skimovanje kartice" data-en="Introduction: how card skimming works">Uvod: kako radi skimovanje kartice</h2>
-      <p data-sr="Skimovanje kartice je prikupljanje podataka s magnetne traže ili čipa kartice pomoću uređaja koji se postavljaju na čitače kartica — bankomatima, POS terminalima, benzinskim pumpama ili hotelskim recepcijama. Prikupljeni podaci se koriste za izrada klonova kartice ili za CNP kupovine." data-en="Card skimming is the collection of data from a card's magnetic stripe or chip using devices installed on card readers — at ATMs, POS terminals, petrol stations, or hotel receptions. Collected data is used to create cloned cards or for CNP purchases.">Skimmer prikuplja podatke magnetne traže s kartice. Klon se koristi za podizanje gotovine ili CNP kupovine.</p>
-      <p data-sr="Fizički skimeri su mali uređaji koji se postavljaju iznad originalnog čitača — vizualno im nalikuju ali su nešto veći ili imaju drugačiju boju. Skimovani podaci se prenose bežično ili se fizički prikupljaju. Bez PIN-a se može izraditi klon za CNP kupovine — uz PIN se može i podizati gotovina na bankomatu." data-en="Physical skimmers are small devices placed over the original reader — they visually resemble it but are slightly larger or a different color. Skimmed data is transmitted wirelessly or physically collected. Without a PIN a clone can be made for CNP purchases — with a PIN cash can also be withdrawn at an ATM.">Skimer se vizualno uklapa na terminal ali je nešto veći ili drugačije boje. Uz PIN — podizanje gotovine. Bez PIN — CNP kupovine.</p>
+      <p data-sr="Skimmer prikuplja podatke magnetne traže s kartice. Klon se koristi za podizanje gotovine ili CNP kupovine." data-en="Card skimming is the collection of data from a card's magnetic stripe or chip using devices installed on card readers — at ATMs, POS terminals, petrol stations, or hotel receptions. Collected data is used to create cloned cards or for CNP purchases.">Skimmer prikuplja podatke magnetne traže s kartice. Klon se koristi za podizanje gotovine ili CNP kupovine.</p>
+      <p data-sr="Skimer se vizualno uklapa na terminal ali je nešto veći ili drugačije boje. Uz PIN — podizanje gotovine. Bez PIN — CNP kupovine." data-en="Physical skimmers are small devices placed over the original reader — they visually resemble it but are slightly larger or a different color. Skimmed data is transmitted wirelessly or physically collected. Without a PIN a clone can be made for CNP purchases — with a PIN cash can also be withdrawn at an ATM.">Skimer se vizualno uklapa na terminal ali je nešto veći ili drugačije boje. Uz PIN — podizanje gotovine. Bez PIN — CNP kupovine.</p>
       <div class="callout" data-sr="<strong>Model:</strong> skimmer na čitaču → kartica ubačena ili prevučena → podaci magnetne traže prikupljeni → klon kartice ili CNP zloupotreba → gubitak." data-en="<strong>Model:</strong> skimmer on reader → card inserted or swiped → magnetic stripe data collected → card clone or CNP misuse → loss."><strong>Model:</strong> skimmer na čitaču → kartica ubačena ili prevučena → podaci magnetne traže prikupljeni → klon kartice ili CNP zloupotreba → gubitak.</div>
       <div class="callout" data-sr="<strong>Prag:</strong> svaki neuobičajeni dodatak na čitaču kartice — labav plastični deo, nestandardna boja, skrivena kamera — je alarm za ne korišćenje terminala." data-en="<strong>Threshold:</strong> any unusual addition on a card reader — a loose plastic part, non-standard color, hidden camera — is an alarm not to use the terminal."><strong>Prag:</strong> svaki neuobičajeni dodatak na čitaču kartice — labav plastični deo, nestandardna boja, skrivena kamera — je alarm za ne korišćenje terminala.</div>
     </section>
@@ -33,11 +33,11 @@ window.SCAM_CONTENT["card-skimming"] = {
     </section>
 
     <section class="card">
-      <h2 data-sr="Hronološki tok (faze + evolucije)." data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
+      <h2 data-sr="Hronološki tok (faze + evolucije)" data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
 
       <article class="phase">
         <h3 class="phase-title" data-sr="Faza 1 — Postavljanje skimera na uređaj" data-en="Phase 1 — Installing skimmer on device">Faza 1 — Postavljanje skimera na uređaj</h3>
-        <p data-sr="Napadač montira skimer na čitač kartice terminala ili bankomata. Montaža traže sekunde. Skimer ostaje aktivan dok ga napadač ne ukloni ili dok ga ne otkrije osoblje ili žrtva." data-en="The attacker mounts the skimmer on the card reader of a terminal or ATM. Mounting takes seconds. The skimmer remains active until the attacker removes it or it is discovered by staff or a victim.">Montaža skimera traže sekunde. Ostaje aktivan satima ili danima.</p>
+        <p data-sr="Montaža skimera traže sekunde. Ostaje aktivan satima ili danima." data-en="The attacker mounts the skimmer on the card reader of a terminal or ATM. Mounting takes seconds. The skimmer remains active until the attacker removes it or it is discovered by staff or a victim.">Montaža skimera traže sekunde. Ostaje aktivan satima ili danima.</p>
         <ul class="bullets">
           <li data-sr="signal: čitač kartice izgleda labavo ili je nešto širi od standarda — pokušaj da se pomeri pre upotrebe." data-en="signal: the card reader looks loose or is slightly wider than standard — try moving it before use.">signal: čitač kartice izgleda labavo ili je nešto širi od standarda — pokušaj da se pomeri pre upotrebe.</li>
           <li data-sr="signal: kućište ili holder pored uređaja koji nije uobičajeno prisutan može biti kamera." data-en="signal: a casing or holder near the device that is not usually present may be a camera.">signal: kućište ili holder pored uređaja koji nije uobičajeno prisutan može biti kamera.</li>
@@ -47,7 +47,7 @@ window.SCAM_CONTENT["card-skimming"] = {
 
       <article class="phase warn">
         <h3 class="phase-title" data-sr="Faza 2 — Prikupljanje i iskorišćavanje podataka" data-en="Phase 2 — Data collection and exploitation">Faza 2 — Prikupljanje i iskorišćavanje podataka</h3>
-        <p data-sr="Napadač prikuplja skimovane podatke — bežično ili fizičkim preuzimanjem uređaja. Izrađuje klonove ili prodaje podatke. Žrtva otkriva problem na izvodu ili bankovnim obaveštenjem." data-en="The attacker collects skimmed data — wirelessly or by physically retrieving the device. Creates clones or sells the data. The victim discovers the problem on a statement or bank notification.">Podaci se prikupe, kloniraju ili prodaju. Žrtva otkrije na izvodu ili SMS obaveštenjem.</p>
+        <p data-sr="Podaci se prikupe, kloniraju ili prodaju. Žrtva otkrije na izvodu ili SMS obaveštenjem." data-en="The attacker collects skimmed data — wirelessly or by physically retrieving the device. Creates clones or sells the data. The victim discovers the problem on a statement or bank notification.">Podaci se prikupe, kloniraju ili prodaju. Žrtva otkrije na izvodu ili SMS obaveštenjem.</p>
         <div class="branch">
           <p><strong data-sr="Grananja u ovoj fazi" data-en="Branching at this phase">Grananja u ovoj fazi</strong></p>
           <ul class="bullets">
@@ -129,14 +129,6 @@ window.SCAM_CONTENT["card-skimming"] = {
       </div>
     </section>
 
-    <section class="card sources" id="sources">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <ul class="bullets">
-        <li><a href="atm-skimming.html" data-sr="Skimovanje na bankomatu" data-en="ATM skimming">Skimovanje na bankomatu</a></li>
-        <li><a href="pos-skimming.html" data-sr="Skimovanje na POS terminalu" data-en="POS skimming">Skimovanje na POS terminalu</a></li>
-        <li><a href="contactless-card-scam.html" data-sr="Prevara beskontaktnom karticom" data-en="Contactless card scam">Prevara beskontaktnom karticom</a></li>
-        <li><a href="card-not-present-fraud.html" data-sr="Zloupotreba kartice bez fizičkog prisustva" data-en="Card-not-present fraud">Zloupotreba kartice bez fizičkog prisustva</a></li>
-      </ul>
-    </section>
+    
   `
 };

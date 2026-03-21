@@ -1,4 +1,4 @@
-﻿window.SCAM_CONTENT = window.SCAM_CONTENT || {};
+window.SCAM_CONTENT = window.SCAM_CONTENT || {};
 
 window.SCAM_CONTENT["identity-theft"] = {
   raw_html: `
@@ -15,13 +15,13 @@ window.SCAM_CONTENT["identity-theft"] = {
 
       <p
         data-sr="Krađa identiteta ima više oblika: finansijska krađa identiteta (otvaranje kreditnih kartica, uzimanje kredita, kupovine), medicinska krađa identiteta (korišćenje tuđeg zdravstvenog osiguranja za medicinske usluge), kriminalna krađa identiteta (davanje tuđih podataka policiji tokom hapšenja), i poreska krađa identiteta (podnošenje lažnih poreskih prijava radi povraćaja poreza). Svi oblici ostavljaju trag koji žrtva mora da čisti godinama."
-        data-en="Identity theft has multiple forms: financial identity theft (opening credit cards, taking loans, making purchases), medical identity theft (using someone else's health insurance for medical services), criminal identity theft (giving someone else's data to police during an arrest), and tax identity theft (fišing false tax returns to claim refunds). All forms leave a tražil that the victim must clean up for years."
+        data-en="Identity theft has multiple forms: financial identity theft (opening credit cards, taking loans, making purchases), medical identity theft (using someone else's health insurance for medical services), criminal identity theft (giving someone else's data to police during an arrest), and tax identity theft (filing false tax returns to claim refunds). All forms leave a trail that the victim must clean up for years."
       >Krađa identiteta ima više oblika: finansijska krađa identiteta (otvaranje kreditnih kartica, uzimanje kredita, kupovine), medicinska krađa identiteta (korišćenje tuđeg zdravstvenog osiguranja za medicinske usluge), kriminalna krađa identiteta (davanje tuđih podataka policiji tokom hapšenja), i poreska krađa identiteta (podnošenje lažnih poreskih prijava radi povraćaja poreza). Svi oblici ostavljaju trag koji žrtva mora da čisti godinama.</p>
 
       <div class="callout"
-        data-sr="<strong>Model:</strong> prikupljanje podataka (phishing, curenje, krađa fizičkih dokumenata) → provjera upotrebljivosti → otvaranje naloga ili kredita → finansijsko iskorišćavanje → pokrivanje tragova → žrtva otkriva problem."
+        data-sr="<strong>Model:</strong> prikupljanje podataka (phishing, curenje, krađa fizičkih dokumenata) → provera upotrebljivosti → otvaranje naloga ili kredita → finansijsko iskorišćavanje → pokrivanje tragova → žrtva otkriva problem."
         data-en="<strong>Model:</strong> data collection (phishing, breach, physical document theft) → usability check → account or credit opening → financial exploitation → covering tracks → victim discovers the problem."
-      ><strong>Model:</strong> prikupljanje podataka (phishing, curenje, krađa fizičkih dokumenata) → provjera upotrebljivosti → otvaranje naloga ili kredita → finansijsko iskorišćavanje → pokrivanje tragova → žrtva otkriva problem.</div>
+      ><strong>Model:</strong> prikupljanje podataka (phishing, curenje, krađa fizičkih dokumenata) → provera upotrebljivosti → otvaranje naloga ili kredita → finansijsko iskorišćavanje → pokrivanje tragova → žrtva otkriva problem.</div>
 
       <div class="callout"
         data-sr="<strong>Prag:</strong> prevarant ima dovoljno podataka da prođe verifikacione provere institucije — tipično ime, JMBG i adresu, ponekad i datum rođenja ili broj telefona."
@@ -58,7 +58,7 @@ window.SCAM_CONTENT["identity-theft"] = {
             <li data-sr="otvaranje kreditnih kartica ili kredita u ime žrtve." data-en="opening credit cards or loans in the victim's name.">otvaranje kreditnih kartica ili kredita u ime žrtve.</li>
             <li data-sr="online kupovina sa isporukom na drugu adresu." data-en="online purchases with delivery to a different address.">online kupovina sa isporukom na drugu adresu.</li>
             <li data-sr="preuzimanje postojećih bankarskih ili investicionih naloga." data-en="taking over existing banking or investment accounts.">preuzimanje postojećih bankarskih ili investicionih naloga.</li>
-            <li data-sr="podnošenje poreske prijave pre žrtve radi povraćaja poreza." data-en="fišing a tax return before the victim to claim the refund.">podnošenje poreske prijave pre žrtve radi povraćaja poreza.</li>
+            <li data-sr="podnošenje poreske prijave pre žrtve radi povraćaja poreza." data-en="filing a tax return before the victim to claim the refund.">podnošenje poreske prijave pre žrtve radi povraćaja poreza.</li>
             <li data-sr="medicinske usluge na tuđe zdravstveno osiguranje." data-en="medical services billed to someone else's health insurance.">medicinske usluge na tuđe zdravstveno osiguranje.</li>
           </ul>
         </div>
@@ -102,9 +102,9 @@ window.SCAM_CONTENT["identity-theft"] = {
         </div>
 
         <div class="callout"
-          data-sr="<strong>Prag faze:</strong> prevarant poseduje kombinaciju podataka dovoljnu za provjeru identiteta kod finansijskih institucija."
+          data-sr="<strong>Prag faze:</strong> prevarant poseduje kombinaciju podataka dovoljnu za proveru identiteta kod finansijskih institucija."
           data-en="<strong>Threshold:</strong> fraudster holds a data combination sufficient to pass identity verification at financial institutions."
-        ><strong>Prag faze:</strong> prevarant poseduje kombinaciju podataka dovoljnu za provjeru identiteta kod finansijskih institucija.</div>
+        ><strong>Prag faze:</strong> prevarant poseduje kombinaciju podataka dovoljnu za proveru identiteta kod finansijskih institucija.</div>
       </article>
 
       <!-- FAZA 2 -->
@@ -137,9 +137,9 @@ window.SCAM_CONTENT["identity-theft"] = {
         </h3>
 
         <p
-          data-sr="Prevarant otvara kreditne kartice, uzima pozajmice, otvara naloge za online kupovinu, ili podiže kredite koristeći tuđe podatke. Dokumenti koji stižu žrtvi (izjave, potvrde) se preusmere na drugu adresu, ili se digitalne obavijesti blokiraju promenom kontakt podataka na nalogu."
+          data-sr="Prevarant otvara kreditne kartice, uzima pozajmice, otvara naloge za online kupovinu, ili podiže kredite koristeći tuđe podatke. Dokumenti koji stižu žrtvi (izjave, potvrde) se preusmere na drugu adresu, ili se digitalna obaveštenja blokiraju promenom kontakt podataka na nalogu."
           data-en="The fraudster opens credit cards, takes out loans, opens online shopping accounts, or applies for mortgages using someone else's data. Documents sent to the victim (statements, confirmations) are redirected to another address, or digital notifications are blocked by changing contact information on the account."
-        >Prevarant otvara kreditne kartice, uzima pozajmice, otvara naloge za online kupovinu, ili podiže kredite koristeći tuđe podatke. Dokumenti koji stižu žrtvi (izjave, potvrde) se preusmere na drugu adresu, ili se digitalne obavijesti blokiraju promenom kontakt podataka na nalogu.</p>
+        >Prevarant otvara kreditne kartice, uzima pozajmice, otvara naloge za online kupovinu, ili podiže kredite koristeći tuđe podatke. Dokumenti koji stižu žrtvi (izjave, potvrde) se preusmere na drugu adresu, ili se digitalna obaveštenja blokiraju promenom kontakt podataka na nalogu.</p>
 
         <div class="grid-2">
           <div class="phase">
@@ -218,12 +218,12 @@ window.SCAM_CONTENT["identity-theft"] = {
       <ul class="bullets">
         <li data-sr="obaveštenje o novom nalogu kod finansijske institucije koji niste otvorili." data-en="notification of a new account at a financial institution you did not open.">obaveštenje o novom nalogu kod finansijske institucije koji niste otvorili.</li>
         <li data-sr="kreditna provera od institucije sa kojom niste imali kontakt." data-en="a credit inquiry from an institution you have not contacted.">kreditna provera od institucije sa kojom niste imali kontakt.</li>
-        <li data-sr="opomena ili fakturu za dug koji niste napravili." data-en="a warning or bill for a debt you did not create.">opomena ili faktura za dug koji niste napravili.</li>
-        <li data-sr="odbijanje za kredit ili servis zbog „negativnog kreditnog dosijea." koji ne poznajete." data-en="denial of credit or service due to a negative credit record you do not recognize.">odbijanje za kredit ili servis zbog „negativnog kreditnog dosijea" koji ne poznajete“.</li>
+        <li data-sr="opomena ili faktura za dug koji niste napravili." data-en="a warning or bill for a debt you did not create.">opomena ili faktura za dug koji niste napravili.</li>
+        <li data-sr="odbijanje za kredit ili servis zbog negativnog zapisa u kreditnom dosijeu koji ne prepoznajete kao svoj." data-en="denial of credit or service due to a negative credit record you do not recognize.">odbijanje za kredit ili servis zbog negativnog zapisa u kreditnom dosijeu koji ne prepoznajete kao svoj.</li>
         <li data-sr="nestanak redovne pošte koja je ranije stizala (računi, izvodi, potvrde)." data-en="disappearance of regular mail that previously arrived (bills, statements, confirmations).">nestanak redovne pošte koja je ranije stizala (računi, izvodi, potvrde).</li>
         <li data-sr="nepoznati unosi u kreditnom dosijeu: nalozi, kreditne linije, dugovi." data-en="unknown entries in the credit file: accounts, credit lines, debts.">nepoznati unosi u kreditnom dosijeu: nalozi, kreditne linije, dugovi.</li>
         <li data-sr="poziv naplate zbog duga koji ne prepoznajete kao svog." data-en="a collection call about a debt you do not recognize as yours.">poziv naplate zbog duga koji ne prepoznajete kao svog.</li>
-        <li data-sr="neočekivano prijavljivanje poreza pod vašim JMBG-om pre nego što ste vi podneli prijavu." data-en="unexpected tax fišing under your social security number before you filed.">neočekivano prijavljivanje poreza pod vašim JMBG-om pre nego što ste vi podneli prijavu.</li>
+        <li data-sr="neočekivano prijavljivanje poreza pod vašim JMBG-om pre nego što ste vi podneli prijavu." data-en="unexpected tax filing under your social security number before you filed.">neočekivano prijavljivanje poreza pod vašim JMBG-om pre nego što ste vi podneli prijavu.</li>
       </ul>
     </section>
 
@@ -242,7 +242,7 @@ window.SCAM_CONTENT["identity-theft"] = {
           <ul class="bullets">
             <li data-sr="godišnja provera kreditnog dosijea kod kreditnih biroa." data-en="annual credit file check at credit bureaus.">godišnja provera kreditnog dosijea kod kreditnih biroa.</li>
             <li data-sr="monitoring kreditnih provera (upozorenje kada neko proverava vaš kredit)." data-en="credit inquiry monitoring (alert when someone checks your credit).">monitoring kreditnih provera (upozorenje kada neko proverava vaš kredit).</li>
-            <li data-sr="pregled bankarskih i kreditnih izoda svake nedelje." data-en="weekly review of bank and credit card statements.">pregled bankarskih i kreditnih izoda svake nedelje.</li>
+            <li data-sr="pregled bankarskih i kreditnih izvoda svake nedelje." data-en="weekly review of bank and credit card statements.">pregled bankarskih i kreditnih izvoda svake nedelje.</li>
             <li data-sr="provera da li su lični podaci procureli (haveibeenpwned.com za email)." data-en="checking whether personal data has been leaked (haveibeenpwned.com for email).">provera da li su lični podaci procureli (haveibeenpwned.com za email).</li>
           </ul>
         </div>
@@ -335,25 +335,5 @@ window.SCAM_CONTENT["identity-theft"] = {
     </section>
 
     <!-- 9) IZVORI -->
-
-<section class="content-section">
-  <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-  <ul class="bullets">
-    <li><a href="synthetic-identity-fraud.html" data-sr="Sinteticki identitet." data-en="Synthetic identity fraud.">Sinteticki identitet</a></li>
-    <li><a href="account-takeover.html" data-sr="Preuzimanje naloga." data-en="Account takeover.">Preuzimanje naloga</a></li>
-    <li><a href="phishing.html" data-sr="Fišing." data-en="Phishing.">Fišing</a></li>
-    <li><a href="sim-swap.html" data-sr="SIM swap prevara." data-en="SIM swap scam.">SIM swap prevara</a></li>
-    <li><a href="data-breach-extortion.html" data-sr="Iznuda podacima." data-en="Data breach extortion.">Iznuda podacima</a></li>
-  </ul>
-</section>
-
-<section class="card sources" id="sources">
-      <h2 data-sr="Izvori" data-en="Sources">Izvori</h2>
-      <ul>
-        <li><a href="https://consumer.ftc.gov/features/identity-theft" target="_blank" rel="noopener noreferrer">FTC — IdentityTheft.gov</a></li>
-        <li><a href="https://www.ic3.gov" target="_blank" rel="noopener noreferrer">FBI IC3 — Internet Crime Complaint Center</a></li>
-        <li><a href="https://www.annualcreditreport.com" target="_blank" rel="noopener noreferrer">Annual Credit Report — Free Credit File Access</a></li>
-      </ul>
-    </section>
-  `
+`
 };

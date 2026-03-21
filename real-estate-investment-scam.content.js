@@ -3,10 +3,10 @@ window.SCAM_CONTENT = window.SCAM_CONTENT || {};
 window.SCAM_CONTENT["real-estate-investment-scam"] = {
   raw_html: `
     <section class="card">
-      <h2 data-sr="Uvod: kako radi prevara sa investiranjem u nekretnine" data-en="Introduction: how the real estate investment scam works">Uvod: kako radi Prevara sa investiranjem u nekretnine</h2>
+      <h2 data-sr="Uvod: kako radi Prevara sa investiranjem u nekretnine" data-en="Introduction: how the real estate investment scam works">Uvod: kako radi Prevara sa investiranjem u nekretnine</h2>
       <p data-sr="Lažni projekat razvoja nekretnina prikuplja investicije od više osoba. Prospekti izgledaju profesionalno sa 3D vizualizacijama i detaljnim opisima. Prinos je garantovan i visok. Gradnja nikad ne počne ili stane na samom početku." data-en="A fake real estate development project collects investments from multiple people. Prospectuses look professional with 3D visualisations and detailed descriptions. Return is guaranteed and high. Construction never starts or stops at the very beginning.">Lažni projekat razvoja nekretnina prikuplja investicije od više osoba. Prospekti izgledaju profesionalno sa 3D vizualizacijama i detaljnim opisima. Prinos je garantovan i visok. Gradnja nikad ne počne ili stane na samom početku.</p>
-      <div class="callout" data-sr="&lt;strong&gt;Model:&lt;/strong&gt; Prezentacija projekta → obećanje prinosa → uplata → gradnja nikad ne počne → nestanak." data-en="&lt;strong&gt;Model:&lt;/strong&gt; Project presentation → return promise → payment → construction never starts → disappearance."><strong>Model:</strong> Prezentacija projekta → obećanje prinosa → uplata → gradnja nikad ne počne → nestanak.</div>
-      <div class="callout" data-sr="&lt;strong&gt;Prag:&lt;/strong&gt; Uplata investicionog iznosa za projekat koji ne postoji ili nikad neće biti završen." data-en="&lt;strong&gt;Threshold:&lt;/strong&gt; Payment of an investment amount for a project that does not exist or will never be completed."><strong>Prag:</strong> Uplata investicionog iznosa za projekat koji ne postoji ili nikad neće biti završen.</div>
+      <div class="callout" data-sr="<strong>Model:</strong> Prezentacija projekta → obećanje prinosa → uplata → gradnja nikad ne počne → nestanak." data-en="<strong>Model:</strong> Project presentation → return promise → payment → construction never starts → disappearance."><strong>Model:</strong> Prezentacija projekta → obećanje prinosa → uplata → gradnja nikad ne počne → nestanak.</div>
+      <div class="callout" data-sr="<strong>Prag:</strong> Uplata investicionog iznosa za projekat koji ne postoji ili nikad neće biti završen." data-en="<strong>Threshold:</strong> Payment of an investment amount for a project that does not exist or will never be completed."><strong>Prag:</strong> Uplata investicionog iznosa za projekat koji ne postoji ili nikad neće biti završen.</div>
     </section>
 
     <section class="card">
@@ -115,15 +115,6 @@ window.SCAM_CONTENT["real-estate-investment-scam"] = {
       </ul>
     </section>
 
-    <section class="card">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <ul class="bullets">
-        <li><a href="deposit-scam.html" data-sr="Prevara sa depozitom" data-en="Deposit scam">Prevara sa depozitom</a></li>
-        <li><a href="mortgage-scam.html" data-sr="Hipotekarna prevara" data-en="Mortgage scam">Hipotekarna prevara</a></li>
-        <li><a href="home-improvement-scam.html" data-sr="Prevara sa adaptacijom stana" data-en="Home improvement scam">Prevara sa adaptacijom stana</a></li>
-        <li><a href="investment-fraud.html" data-sr="Investiciona prevara" data-en="Investment fraud">Investiciona prevara</a></li>
-        <li><a href="advance-fee-fraud.html" data-sr="Prevara avansnim plaćanjem" data-en="Advance fee fraud">Prevara avansnim plaćanjem</a></li>
-      </ul>
-    </section>
+    
   `
 };

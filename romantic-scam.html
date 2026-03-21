@@ -6,9 +6,9 @@
 
   <meta
     name="description"
-    content="Romantične prevare: duga verzija (kako radi), hronološki tok, prelazi u druge šeme, primeri razgovora i izvori."
-    data-sr="Romantične prevare: duga verzija (kako radi), hronološki tok, prelazi u druge šeme, primeri razgovora i izvori."
-    data-en="Romance scams: long-form breakdown (how it works), timeline, branching into other schemes, case examples, and sources."
+    content="Romantične prevare: duga verzija (kako radi), hronološki tok, prelazi u druge šeme, primeri razgovora."
+    data-sr="Romantične prevare: duga verzija (kako radi), hronološki tok, prelazi u druge šeme, primeri razgovora."
+    data-en="Romance scams: long-form breakdown (how it works), timeline, branching into other schemes, case examples."
   />
 
   <title
@@ -33,39 +33,35 @@
   <header class="page-header">
     <div class="container">
       <div class="topbar">
-        <div class="brand">
-          <span class="brand-dot" aria-hidden="true"></span>
-          <span class="brand-name">Anti-scam</span>
-        </div>
-
-        <nav aria-label="Glavna navigacija">
-          <ul class="top-nav">
-            <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
-            <li><a href="prevare.html" aria-current="page" data-sr="Prevare" data-en="Scams">Prevare</a></li>
-          <li><a href="protecting-elderly.html" data-sr="Zaštita" data-en="Protection">Zaštita</a></li>
-          </ul>
-        </nav>
-
-        <!-- može ostati i bez ovoga, ui.js će injektovati toggle,
-             ali ga držimo radi konzistentnosti -->
+      <div class="brand">
+        <span class="brand-dot" aria-hidden="true"></span>
+        <span class="brand-name">Anti-scam</span>
       </div>
 
-      <div class="hero compact">
+      <nav aria-label="Glavna navigacija">
+        <ul class="top-nav">
+          <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+          <li><a href="prevare.html" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          <li><a href="protecting-elderly.html" data-sr="Prevencija" data-en="Prevention">Prevencija</a></li>                  </ul>
+      </nav>
+    </div>
+
+<div class="hero compact">
         <h1 data-sr="Romantične prevare" data-en="Romance scams">Romantične prevare</h1>
 
         <p class="muted hero-sub"
-           data-sr="Navika → diskrecija → rok → “sitnica” → prag → serija → prelaz u druge šeme."
-           data-en="Habit → secrecy → deadline → “small ask” → threshold → series → branching into other schemes.">
-          Navika → diskrecija → rok → “sitnica” → prag → serija → prelaz u druge šeme.
+           data-sr="Navika → diskrecija → rok → sitnica → prag → serija → prelaz u druge šeme."
+           data-en="Habit → secrecy → deadline → small ask → threshold → series → branching into other schemes.">
+          Navika → diskrecija → rok → sitnica → prag → serija → prelaz u druge šeme.
         </p>
 
         <!-- render.js popunjava iz data.js (+ romantic.content.js ako je učitan) -->
         <div id="scam-meta" data-scam="romantic-scam"></div>
 
         <div class="callout"
-             data-sr="<strong>Prag:</strong> prva uplata. Posle toga zahtevi se ređaju kao “još jedan korak”, uz stalne rokove i nove prepreke."
-             data-en="<strong>Threshold:</strong> the first payment. After that, requests stack as “one može step,” with constant deadlines and new obstacles.">
-          <strong>Prag:</strong> prva uplata. Posle toga zahtevi se ređaju kao “još jedan korak”, uz stalne rokove i nove prepreke.
+             data-sr="<strong>Prag:</strong> prva uplata. Posle toga zahtevi se ređaju kao još jedan korak, uz stalne rokove i nove prepreke."
+             data-en="<strong>Threshold:</strong> the first payment. After that, requests stack as one more step, with constant deadlines and new obstacles.">
+          <strong>Prag:</strong> prva uplata. Posle toga zahtevi se ređaju kao još jedan korak, uz stalne rokove i nove prepreke.
         </div>
       </div>
     </div>
@@ -79,17 +75,19 @@
 
     <div data-longform></div>
     <div data-related></div>
-    <div data-sources></div>
-  </main>
+</main>
 
   <footer class="footer">
-    <div class="container">
-      <p class="muted"
-         data-sr="Anti-scam projekat — edukacija i analiza"
-         data-en="Anti-scam project — education and analysis">
-        Anti-scam projekat — edukacija i analiza
-      </p>
-    </div>
-  </footer>
+  <div class="container">
+    <p class="muted"
+       data-sr="Anti-scam projekat — edukacija i analiza"
+       data-en="Anti-scam project — education and analysis">
+      Anti-scam projekat — edukacija i analiza
+    </p>
+    <p class="muted">
+      <a href="obavestenje-o-privatnosti.html" data-sr="Obaveštenje o privatnosti" data-en="Privacy notice">Obaveštenje o privatnosti</a>
+    </p>
+  </div>
+</footer>
 </body>
 </html>

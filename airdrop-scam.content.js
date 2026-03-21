@@ -1,9 +1,9 @@
-﻿if (!window.SCAM_CONTENT) window.SCAM_CONTENT = {};
+if (!window.SCAM_CONTENT) window.SCAM_CONTENT = {};
 window.SCAM_CONTENT["airdrop-scam"] = {
   raw_html: `
 <section class="content-section">
   <h2 data-sr="Uvod: kako radi airdrop prevara" data-en="Introduction: how the airdrop scam works">Uvod: kako radi airdrop prevara</h2>
-  <p data-sr="Korisnik dobija obaveštenje da mu je „pao“ airdrop — besplatni tokeni koje treba da „claim-uje“. Link vodi na lažni sajt koji izgleda kao zvanična stranica projekta. Na sajtu se zahteva konekcija novčanika i potpis koji aktivira wallet drainer — maliciozni pametni ugovor koji isprazni sav sadržaj novčanika." data-en="The user receives a notification that an airdrop has landed for them — free tokens they need to claim. The link leads to a fake site that looks like the project's official page. The site requests wallet connection and a signature that activates a wallet drainer — a malicious smart contract that empties the wallet's entire contents.">Korisnik dobija obaveštenje da mu je 'pao' airdrop — besplatni tokeni koje treba da 'claim-uje'. Link vodi na lažni sajt koji izgleda kao zvanična stranica projekta. Na sajtu se zahteva konekcija novčanika i potpis koji aktivira wallet drainer — maliciozni pametni ugovor koji isprazni sav sadržaj novčanika.</p>
+  <p data-sr="Korisnik dobija obaveštenje da mu je 'pao' airdrop — besplatni tokeni koje treba da 'claim-uje'. Link vodi na lažni sajt koji izgleda kao zvanična stranica projekta. Na sajtu se zahteva konekcija novčanika i potpis koji aktivira wallet drainer — maliciozni pametni ugovor koji isprazni sav sadržaj novčanika." data-en="The user receives a notification that an airdrop has landed for them — free tokens they need to claim. The link leads to a fake site that looks like the project's official page. The site requests wallet connection and a signature that activates a wallet drainer — a malicious smart contract that empties the wallet's entire contents.">Korisnik dobija obaveštenje da mu je 'pao' airdrop — besplatni tokeni koje treba da 'claim-uje'. Link vodi na lažni sajt koji izgleda kao zvanična stranica projekta. Na sajtu se zahteva konekcija novčanika i potpis koji aktivira wallet drainer — maliciozni pametni ugovor koji isprazni sav sadržaj novčanika.</p>
   <p data-sr="Airdrop prevare su efikasne jer kombinuju besplatan novac kao mamac sa poznatim brendom projekta za kredibilitet. Korisnik misli da dobija nešto — umesto toga gubi sve što ima u novčaniku. Distribucija se vrši masovno kroz hakovane naloge i Discord servere pa isti link vidi hiljade korisnika u kratkom vremenskom periodu." data-en="Airdrop scams are effective because they combine free money as bait with a known project brand for credibility. The user thinks they are receiving something — instead they lose everything in their wallet. Distribution happens massively through hacked accounts and Discord servers so the same link reaches thousands of users in a short time.">Airdrop prevare su efikasne jer kombinuju besplatan novac kao mamac sa poznatim brendom projekta za kredibilitet. Korisnik misli da dobija nešto — umesto toga gubi sve što ima u novčaniku. Distribucija se vrši masovno kroz hakovane naloge i Discord servere pa isti link vidi hiljade korisnika u kratkom vremenskom periodu.</p>
 </section>
 
@@ -15,7 +15,7 @@ window.SCAM_CONTENT["airdrop-scam"] = {
   </div>
   <div class="callout">
     <strong data-sr="Prag:" data-en="Threshold:">Prag:</strong>
-    <span data-sr="Potpis „claim“ transakcije. Ona ne isplaćuje airdrop nego daje approval draineru koji odmah praznid novčanik." data-en="Signing the claim transaction. It does not pay out the airdrop but grants approval to the drainer which immediately drains the wallet.">Potpis 'claim' transakcije. Ona ne isplaćuje airdrop nego daje approval draineru koji odmah praznid novčanik.</span>
+    <span data-sr="Potpis 'claim' transakcije. Ona ne isplaćuje airdrop nego daje approval draineru koji odmah praznid novčanik." data-en="Signing the claim transaction. It does not pay out the airdrop but grants approval to the drainer which immediately drains the wallet.">Potpis 'claim' transakcije. Ona ne isplaćuje airdrop nego daje approval draineru koji odmah praznid novčanik.</span>
   </div>
 </section>
 
@@ -28,7 +28,7 @@ window.SCAM_CONTENT["airdrop-scam"] = {
         <li data-sr="Oglas dolazi od hakovanog naloga projekta koji korisnik prati i veruje mu." data-en="The ad comes from a hacked account of a project the user follows and trusts.">Oglas dolazi od hakovanog naloga projekta koji korisnik prati i veruje mu.</li>
         <li data-sr="Lažni sajt koristi iste vizuelne elemente kao zvanični — logo, boje, fontove, strukturu stranice." data-en="The fake site uses the same visual elements as the official one — logo, colors, fonts, page structure.">Lažni sajt koristi iste vizuelne elemente kao zvanični — logo, boje, fontove, strukturu stranice.</li>
         <li data-sr="Posle konekcije novčanika sajt prikazuje personalizovani iznos airdrop-a što deluje autentično." data-en="After connecting the wallet the site shows a personalized airdrop amount which seems authentic.">Posle konekcije novčanika sajt prikazuje personalizovani iznos airdrop-a što deluje autentično.</li>
-        <li data-sr="Vremenski rok za „claim“ stvara pritisak da korisnik ne traži vreme na provere." data-en="The deadline for claiming creates pressure so the user does not waste time on checks.">Vremenski rok za 'claim' stvara pritisak da korisnik ne traži vreme na provere.</li>
+        <li data-sr="Vremenski rok za 'claim' stvara pritisak da korisnik ne traži vreme na provere." data-en="The deadline for claiming creates pressure so the user does not waste time on checks.">Vremenski rok za 'claim' stvara pritisak da korisnik ne traži vreme na provere.</li>
       </ul>
     </div>
     <div class="phase">
@@ -44,7 +44,7 @@ window.SCAM_CONTENT["airdrop-scam"] = {
 </section>
 
 <section class="content-section">
-  <h2 data-sr="Hronološki tok (faze + evolucije)." data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
+  <h2 data-sr="Hronološki tok (faze + evolucije)" data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
 
   <article class="phase">
     <h3 data-sr="Faza 1 — Hakovanje distribucijskog naloga" data-en="Phase 1 — Hacking the distribution account">Faza 1 — Hakovanje distribucijskog naloga</h3>
@@ -54,7 +54,7 @@ window.SCAM_CONTENT["airdrop-scam"] = {
       <li data-sr="Napadač ima mali vremenski prozor pre nego što projekat uhvati da mu je nalog hakovan i ukloni oglas." data-en="The attacker has a small time window before the project realizes their account is hacked and removes the ad.">Napadač ima mali vremenski prozor pre nego što projekat uhvati da mu je nalog hakovan i ukloni oglas.</li>
       <li data-sr="Lažni sajt je registrovan unapred sa domenом koji je gotovo identičan originalnom." data-en="The fake site is pre-registered with a domain almost identical to the original.">Lažni sajt je registrovan unapred sa domenом koji je gotovo identičan originalnom.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Hiljade korisnika vidi oglas pre nego što ga projekat ukloni." data-en="Thousands of users see the ad before the project removes it.">Hiljade korisnika vidi oglas pre nego što ga projekat ukloni.</span></div>
+    <div class="callout"><strong data-sr="Hiljade korisnika vidi oglas pre nego što ga projekat ukloni.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Hiljade korisnika vidi oglas pre nego što ga projekat ukloni." data-en="Thousands of users see the ad before the project removes it.">Hiljade korisnika vidi oglas pre nego što ga projekat ukloni.</span></div>
   </article>
 
   <article class="phase">
@@ -62,21 +62,21 @@ window.SCAM_CONTENT["airdrop-scam"] = {
     <p data-sr="Korisnik klikće na link iz oglasa i posećuje lažni sajt. Vizuelno je identičan originalnom. Sajt odmah traži konekciju novčanika." data-en="The user clicks the link from the ad and visits the fake site. It is visually identical to the original. The site immediately requests wallet connection.">Korisnik klikće na link iz oglasa i posećuje lažni sajt. Vizuelno je identičan originalnom. Sajt odmah traži konekciju novčanika.</p>
     <ul class="bullets">
       <li data-sr="URL je gotovo identičan originalu — razlika je samo u jednom karakteru ili TLD-u." data-en="The URL is almost identical to the original — the difference is only one character or the TLD.">URL je gotovo identičan originalu — razlika je samo u jednom karakteru ili TLD-u.</li>
-      <li data-sr="Sajt prikazuje countdown timer za „claim“ koji ubrzava donošenje odluka." data-en="The site displays a countdown timer for the claim that accelerates decision-making.">Sajt prikazuje countdown timer za 'claim' koji ubrzava donošenje odluka.</li>
+      <li data-sr="Sajt prikazuje countdown timer za 'claim' koji ubrzava donošenje odluka." data-en="The site displays a countdown timer for the claim that accelerates decision-making.">Sajt prikazuje countdown timer za 'claim' koji ubrzava donošenje odluka.</li>
       <li data-sr="Nema HTTPS upozorenja jer napadač koristi validan SSL sertifikat za lažni domen." data-en="There are no HTTPS warnings because the attacker uses a valid SSL certificate for the fake domain.">Nema HTTPS upozorenja jer napadač koristi validan SSL sertifikat za lažni domen.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Korisnik konektuje novčanik — napadač vidi balans i priprema drainer parametre." data-en="The user connects their wallet — the attacker sees the balance and prepares drainer parameters.">Korisnik konektuje novčanik — napadač vidi balans i priprema drainer parametre.</span></div>
+    <div class="callout"><strong data-sr="Korisnik konektuje novčanik — napadač vidi balans i priprema drainer parametre.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Korisnik konektuje novčanik — napadač vidi balans i priprema drainer parametre." data-en="The user connects their wallet — the attacker sees the balance and prepares drainer parameters.">Korisnik konektuje novčanik — napadač vidi balans i priprema drainer parametre.</span></div>
   </article>
 
   <article class="phase">
-    <h3 data-sr="Faza 3 — Lažni claim i potpis drainera" data-en="Phase 3 — Fake claim and drainer signature">Faza 3 — Lažni claim i drainer signature</h3>
-    <p data-sr="Sajt prikazuje personalizovani iznos airdrop-a i „Claim“ dugme. Klik pokreće zahtev za potpis koji interno aktivira drainer kontrakt." data-en="The site shows a personalized airdrop amount and a Claim button. Clicking triggers a signature request that internally activates the drainer contract.">Sajt prikazuje personalizovani iznos airdrop-a i 'Claim' dugme. Klik pokreće zahtev za potpis koji interno aktivira drainer kontrakt.</p>
+    <h3 data-sr="Faza 3 — Lažni claim i drainer signature" data-en="Phase 3 — Fake claim and drainer signature">Faza 3 — Lažni claim i drainer signature</h3>
+    <p data-sr="Sajt prikazuje personalizovani iznos airdrop-a i 'Claim' dugme. Klik pokreće zahtev za potpis koji interno aktivira drainer kontrakt." data-en="The site shows a personalized airdrop amount and a Claim button. Clicking triggers a signature request that internally activates the drainer contract.">Sajt prikazuje personalizovani iznos airdrop-a i 'Claim' dugme. Klik pokreće zahtev za potpis koji interno aktivira drainer kontrakt.</p>
     <ul class="bullets">
-      <li data-sr="Zahtev za potpis u MetaMask-u prikazuje generički tekst kao „Claim Airdrop v1“ bez tehničkih detalja." data-en="The signature request in MetaMask shows generic text like Claim Airdrop v1 without technical details.">Zahtev za potpis u MetaMask-u prikazuje generički tekst kao 'Claim Airdrop v1' bez tehničkih detalja.</li>
-      <li data-sr="Klik na „detalje“ u MetaMask-u otkriva pravi poziv — setApprovalForAll ili unlimited approve." data-en="Clicking details in MetaMask reveals the actual call — setApprovalForAll or unlimited approve.">Klik na 'detalje' u MetaMask-u otkriva pravi poziv — setApprovalForAll ili unlimited approve.</li>
+      <li data-sr="Zahtev za potpis u MetaMask-u prikazuje generički tekst kao 'Claim Airdrop v1' bez tehničkih detalja." data-en="The signature request in MetaMask shows generic text like Claim Airdrop v1 without technical details.">Zahtev za potpis u MetaMask-u prikazuje generički tekst kao 'Claim Airdrop v1' bez tehničkih detalja.</li>
+      <li data-sr="Klik na 'detalje' u MetaMask-u otkriva pravi poziv — setApprovalForAll ili unlimited approve." data-en="Clicking details in MetaMask reveals the actual call — setApprovalForAll or unlimited approve.">Klik na 'detalje' u MetaMask-u otkriva pravi poziv — setApprovalForAll ili unlimited approve.</li>
       <li data-sr="Korisnik potpisuje jer izgleda identično legitimnim claim transakcijama koje je potpisivao ranije." data-en="The user signs because it looks identical to legitimate claim transactions they have signed before.">Korisnik potpisuje jer izgleda identično legitimnim claim transakcijama koje je potpisivao ranije.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Korisnik potpisuje — drainer kontrakt ima approval za sve tokene i pražnjenje počinje automatski." data-en="The user signs — the drainer contract has approval for all tokens and draining starts automatically.">Korisnik potpisuje — drainer kontrakt ima approval za sve tokene i pražnjenje počinje automatski.</span></div>
+    <div class="callout"><strong data-sr="Korisnik potpisuje — drainer kontrakt ima approval za sve tokene i pražnjenje počinje automatski.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Korisnik potpisuje — drainer kontrakt ima approval za sve tokene i pražnjenje počinje automatski." data-en="The user signs — the drainer contract has approval for all tokens and draining starts automatically.">Korisnik potpisuje — drainer kontrakt ima approval za sve tokene i pražnjenje počinje automatski.</span></div>
     <div class="branch">
       <strong data-sr="Grananja u ovoj fazi:" data-en="Branching at this phase:">Grananja u ovoj fazi:</strong>
       <ul class="bullets">
@@ -94,18 +94,18 @@ window.SCAM_CONTENT["airdrop-scam"] = {
       <li data-sr="Napadač prodaje tokene ili ih šalje u mixer odmah po pražnjenju." data-en="The attacker sells tokens or sends them to a mixer immediately after draining.">Napadač prodaje tokene ili ih šalje u mixer odmah po pražnjenju.</li>
       <li data-sr="Projekat objavljuje upozorenje o hakovanom nalogu ali mnogi korisnici su već kliknuli link." data-en="The project publishes a warning about the hacked account but many users have already clicked the link.">Projekat objavljuje upozorenje o hakovanom nalogu ali mnogi korisnici su već kliknuli link.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Novčanik je prazan i napadač je zatvorio operaciju." data-en="The wallet is empty and the attacker has closed the operation.">Novčanik je prazan i napadač je zatvorio operaciju.</span></div>
+    <div class="callout"><strong data-sr="Novčanik je prazan i napadač je zatvorio operaciju.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Novčanik je prazan i napadač je zatvorio operaciju." data-en="The wallet is empty and the attacker has closed the operation.">Novčanik je prazan i napadač je zatvorio operaciju.</span></div>
   </article>
 
   <article class="phase">
     <h3 data-sr="Faza 5 — Otkrivanje i recovery prevara" data-en="Phase 5 — Discovery and recovery scams">Faza 5 — Otkrivanje i recovery prevara</h3>
-    <p data-sr="Žrtva vidi prazan novčanik i shvata šta se desilo. Odmah se pojavljuju napadači koji nude „povrat“ izgubljenih sredstava za malu uplatu." data-en="The victim sees an empty wallet and realizes what happened. Attackers immediately appear offering recovery of lost funds for a small fee.">Žrtva vidi prazan novčanik i shvata šta se desilo. Odmah se pojavljuju napadači koji nude 'povrat' izgubljenih sredstava za malu uplatu.</p>
+    <p data-sr="Žrtva vidi prazan novčanik i shvata šta se desilo. Odmah se pojavljuju napadači koji nude 'povrat' izgubljenih sredstava za malu uplatu." data-en="The victim sees an empty wallet and realizes what happened. Attackers immediately appear offering recovery of lost funds for a small fee.">Žrtva vidi prazan novčanik i shvata šta se desilo. Odmah se pojavljuju napadači koji nude 'povrat' izgubljenih sredstava za malu uplatu.</p>
     <ul class="bullets">
       <li data-sr="Recovery prevaranti targetiraju žrtve koje su javno objavile gubitak na Twitter-u ili Discord-u." data-en="Recovery scammers target victims who publicly announced their loss on Twitter or Discord.">Recovery prevaranti targetiraju žrtve koje su javno objavile gubitak na Twitter-u ili Discord-u.</li>
       <li data-sr="Niko ne može da povrati blockchain transakcije — svako ko to tvrdi je novi napadač." data-en="Nobody can reverse blockchain transactions — anyone claiming otherwise is a new attacker.">Niko ne može da povrati blockchain transakcije — svako ko to tvrdi je novi napadač.</li>
       <li data-sr="Blockchain explorer na Etherscan-u ili sličnom pokazuje kompletan tok novca posle pražnjenja." data-en="The blockchain explorer on Etherscan or similar shows the complete money tražil after draining.">Blockchain explorer na Etherscan-u ili sličnom pokazuje kompletan tok novca posle pražnjenja.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Žrtva dokumentuje gubitak i razume da je blockchain transakcija nepovratna." data-en="The victim documents the loss and understands that the blockchain transaction is irreversible.">Žrtva dokumentuje gubitak i razume da je blockchain transakcija nepovratna.</span></div>
+    <div class="callout"><strong data-sr="Žrtva dokumentuje gubitak i razume da je blockchain transakcija nepovratna.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Žrtva dokumentuje gubitak i razume da je blockchain transakcija nepovratna." data-en="The victim documents the loss and understands that the blockchain transaction is irreversible.">Žrtva dokumentuje gubitak i razume da je blockchain transakcija nepovratna.</span></div>
   </article>
 
   <article class="phase">
@@ -116,7 +116,7 @@ window.SCAM_CONTENT["airdrop-scam"] = {
       <li data-sr="Nova adresa novčanika nema poznate approvale i bezbeднija je za nastavak aktivnosti." data-en="A new wallet address has no known approvals and is safer for continuing activities.">Nova adresa novčanika nema poznate approvale i bezbeднija je za nastavak aktivnosti.</li>
       <li data-sr="Prijavljivanje lažnog sajta na PhishTank ili sličnim platformama pomaže u brzom uklanjanju." data-en="Reporting the fake site to PhishTank or similar platforms helps with quick removal.">Prijavljivanje lažnog sajta na PhishTank ili sličnim platformama pomaže u brzom uklanjanju.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Svi approvali su opozvani i preostala sredstva su na novoj bezbednoj adresi." data-en="All approvals are revoked and remaining funds are on a new safe address.">Svi approvali su opozvani i preostala sredstva su na novoj bezbednoj adresi.</span></div>
+    <div class="callout"><strong data-sr="Svi approvali su opozvani i preostala sredstva su na novoj bezbednoj adresi.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Svi approvali su opozvani i preostala sredstva su na novoj bezbednoj adresi." data-en="All approvals are revoked and remaining funds are on a new safe address.">Svi approvali su opozvani i preostala sredstva su na novoj bezbednoj adresi.</span></div>
   </article>
 </section>
 
@@ -174,7 +174,7 @@ window.SCAM_CONTENT["airdrop-scam"] = {
     <li data-sr="Prebaci sve preostale tokene na novu, čistu adresu novčanika odmah." data-en="Transfer all remaining tokens to a new, clean wallet address immediately.">Prebaci sve preostale tokene na novu, čistu adresu novčanika odmah.</li>
     <li data-sr="Proveri Etherscan transakcije da dokumentuješ šta je uzeto i na koje adrese je otišlo." data-en="Check Etherscan transactions to document what was taken and to which addresses it went.">Proveri Etherscan transakcije da dokumentuješ šta je uzeto i na koje adrese je otišlo.</li>
     <li data-sr="Prijavi hakovani nalog projektu direktno kroz zvanični kanal — ne onome ko se predstavlja kao podrška." data-en="Report the hacked account to the project directly through the official channel — not to whoever presents themselves as support.">Prijavi hakovani nalog projektu direktno kroz zvanični kanal — ne onome ko se predstavlja kao podrška.</li>
-    <li data-sr="Ignoriši sve ko ti nudi „povrat“ izgubljenih sredstava — to je nova prevara." data-en="Ignore everyone who offers recovery of lost funds — that is a new scam.">Ignoriši sve ko ti nudi 'povrat' izgubljenih sredstava — to je nova prevara.</li>
+    <li data-sr="Ignoriši sve ko ti nudi 'povrat' izgubljenih sredstava — to je nova prevara." data-en="Ignore everyone who offers recovery of lost funds — that is a new scam.">Ignoriši sve ko ti nudi 'povrat' izgubljenih sredstava — to je nova prevara.</li>
   </ol>
 </section>
 
@@ -195,16 +195,6 @@ window.SCAM_CONTENT["airdrop-scam"] = {
   </ul>
 </section>
 
-<section class="content-section">
-  <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-  <ul class="bullets">
-    <li><a href="wallet-drainer.html" data-sr="Wallet drainer — tehnički mehanizam koji airdrop prevara aktivira potpis drainera" data-en="Wallet drainer — technical mechanism the airdrop scam activates through drainer signature">Wallet drainer — tehnički mehanizam koji airdrop prevara aktivira potpis drainera</a></li>
-    <li><a href="nft-scam.html" data-sr="NFT prevara — airdrop lažnih NFT-ova koji aktiviraju drainer" data-en="NFT scam — airdrop of fake NFTs that activate a drainer">NFT prevara — airdrop lažnih NFT-ova koji aktiviraju drainer</a></li>
-    <li><a href="recovery-scam.html" data-sr="Recovery prevara — napadači targetiraju žrtve airdrop prevara" data-en="Recovery scam — attackers target airdrop scam victims">Recovery prevara — napadači targetiraju žrtve airdrop prevara</a></li>
-    <li><a href="phishing.html" data-sr="Fišing — distribucioni kanal lažnih airdrop oglasa" data-en="Phishing — distribution channel for fake airdrop ads">Fišing — distribucioni kanal lažnih airdrop oglasa</a></li>
-    <li><a href="fake-crypto-exchange-scam.html" data-sr="Lažna kripto menjačnica — sličan lažni UI za prikupljanje odobrenja" data-en="Fake crypto exchange — similar fake UI for collecting approvals">Lažna kripto menjačnica — sličan lažni UI za prikupljanje odobrenja</a></li>
-    <li><a href="impersonation-scam.html" data-sr="Impersonation — hakovanje naloga poznatog projekta za distribuciju lažnog airdrop-a" data-en="Impersonation — hacking a known project's account to distribute a fake airdrop">Impersonation — hakovanje naloga poznatog projekta za distribuciju lažnog airdrop-a</a></li>
-  </ul>
-</section>
+
 `
 };

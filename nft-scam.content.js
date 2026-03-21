@@ -1,9 +1,9 @@
-﻿if (!window.SCAM_CONTENT) window.SCAM_CONTENT = {};
+if (!window.SCAM_CONTENT) window.SCAM_CONTENT = {};
 window.SCAM_CONTENT["nft-scam"] = {
   raw_html: `
 <section class="content-section">
   <h2 data-sr="Uvod: kako radi NFT prevara" data-en="Introduction: how the NFT scam works">Uvod: kako radi NFT prevara</h2>
-  <p data-sr="NFT prevare su skup različitih tehnika prevare koje svi koriste NFT ekosistem kao vektor. Najčešći oblici su: lažni mint gde se proda NFT koji ne postoji ili nema obećanu vrednost, fake royalties gde se manipuliše cenokom za sekundarnu tržišnicu, wallet drainer koji se aktivira pri „free mint“ claim-u, i rug pull NFT kolekcije gde osnivači nestanu posle minta." data-en="NFT scams are a set of different scam techniques that all use the NFT ecosystem as a vector. The most common forms are: fake mint where an NFT is sold that does not exist or lacks promised value, fake royalties where the secondary market price is manipulated, a wallet drainer activated during a free mint claim, and an NFT collection rug pull where founders disappear after the mint.">NFT prevare su skup različitih tehnika prevare koje svi koriste NFT ekosistem kao vektor. Najčešći oblici su: lažni mint gde se proda NFT koji ne postoji ili nema obećanu vrednost, fake royalties gde se manipuliše cenokom za sekundarnu tržišnicu, wallet drainer koji se aktivira pri 'free mint' claim-u, i rug pull NFT kolekcije gde osnivači nestanu posle minta.</p>
+  <p data-sr="NFT prevare su skup različitih tehnika prevare koje svi koriste NFT ekosistem kao vektor. Najčešći oblici su: lažni mint gde se proda NFT koji ne postoji ili nema obećanu vrednost, fake royalties gde se manipuliše cenokom za sekundarnu tržišnicu, wallet drainer koji se aktivira pri 'free mint' claim-u, i rug pull NFT kolekcije gde osnivači nestanu posle minta." data-en="NFT scams are a set of different scam techniques that all use the NFT ecosystem as a vector. The most common forms are: fake mint where an NFT is sold that does not exist or lacks promised value, fake royalties where the secondary market price is manipulated, a wallet drainer activated during a free mint claim, and an NFT collection rug pull where founders disappear after the mint.">NFT prevare su skup različitih tehnika prevare koje svi koriste NFT ekosistem kao vektor. Najčešći oblici su: lažni mint gde se proda NFT koji ne postoji ili nema obećanu vrednost, fake royalties gde se manipuliše cenokom za sekundarnu tržišnicu, wallet drainer koji se aktivira pri 'free mint' claim-u, i rug pull NFT kolekcije gde osnivači nestanu posle minta.</p>
   <p data-sr="NFT prevare su posebno efikasne jer kombinuju FOMO mehanizam ekskluzivnosti sa tehničkom nejasnošću oko toga šta kupac zapravo dobija. Korisnici često ne razumeju šta potpisuju pri mint transakciji i ne znaju kako da provere legitimnost projekta pre investicije." data-en="NFT scams are particularly effective because they combine the exclusivity FOMO mechanism with technical ambiguity about what the buyer actually receives. Users often do not understand what they are signing in a mint transaction and do not know how to verify project legitimacy before investing.">NFT prevare su posebno efikasne jer kombinuju FOMO mehanizam ekskluzivnosti sa tehničkom nejasnošću oko toga šta kupac zapravo dobija. Korisnici često ne razumeju šta potpisuju pri mint transakciji i ne znaju kako da provere legitimnost projekta pre investicije.</p>
 </section>
 
@@ -26,7 +26,7 @@ window.SCAM_CONTENT["nft-scam"] = {
       <div class="label" data-sr="Šta gradi uverljivost" data-en="What builds credibility">Šta gradi uverljivost</div>
       <ul class="bullets">
         <li data-sr="Kolekcija ima profesionalnu umetnost, aktivnu Twitter zajednicu i Discord server sa hiljadama člažna." data-en="The collection has professional art, an active Twitter community and a Discord server with thousands of members.">Kolekcija ima profesionalnu umetnost, aktivnu Twitter zajednicu i Discord server sa hiljadama člažna.</li>
-        <li data-sr="Projekat obećava „utilities“ — pristup ekskluzivnom sadržaju, pasivni prihod, „metaverse“ integraciju." data-en="The project promises utilities — access to exclusive content, passive income, metaverse integration.">Projekat obećava 'utilities' — pristup ekskluzivnom sadržaju, pasivni prihod, 'metaverse' integraciju.</li>
+        <li data-sr="Projekat obećava 'utilities' — pristup ekskluzivnom sadržaju, pasivni prihod, 'metaverse' integraciju." data-en="The project promises utilities — access to exclusive content, passive income, metaverse integration.">Projekat obećava 'utilities' — pristup ekskluzivnom sadržaju, pasivni prihod, 'metaverse' integraciju.</li>
         <li data-sr="Influenceri promovisali su kolekciju uz obećanje da će cena na sekundarnom tržištu porasti." data-en="Influencers promote the collection with a promise that the secondary market price will increase.">Influenceri promovisali su kolekciju uz obećanje da će cena na sekundarnom tržištu porasti.</li>
         <li data-sr="Free mint ili low-cost mint deluje bezrizično jer korisnik plaća samo gas fee." data-en="A free mint or low-cost mint seems risk-free because the user only pays the gas fee.">Free mint ili low-cost mint deluje bezrizično jer korisnik plaća samo gas fee.</li>
       </ul>
@@ -44,7 +44,7 @@ window.SCAM_CONTENT["nft-scam"] = {
 </section>
 
 <section class="content-section">
-  <h2 data-sr="Hronološki tok (faze + evolucije)." data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
+  <h2 data-sr="Hronološki tok (faze + evolucije)" data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
 
   <article class="phase">
     <h3 data-sr="Faza 1 — Izgradnja hype-a" data-en="Phase 1 — Building hype">Faza 1 — Izgradnja hype-a</h3>
@@ -54,7 +54,7 @@ window.SCAM_CONTENT["nft-scam"] = {
       <li data-sr="Whitelist kampanja navodi korisnike da invite prijatelje povećavajući doseg projekta." data-en="The whitelist campaign leads users to invite friends increasing the project's reach.">Whitelist kampanja navodi korisnike da invite prijatelje povećavajući doseg projekta.</li>
       <li data-sr="Tim projekta je anoniman ili koristi pseudonime koji se ne mogu proveriti." data-en="The project team is anonymous or uses pseudonyms that cannot be verified.">Tim projekta je anoniman ili koristi pseudonime koji se ne mogu proveriti.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Zajednica je izgrađena i mint datum je objavljen sa visokim očekivanjima." data-en="The community is built and the mint date is announced with high expectations.">Zajednica je izgrađena i mint datum je objavljen sa visokim očekivanjima.</span></div>
+    <div class="callout"><strong data-sr="Zajednica je izgrađena i mint datum je objavljen sa visokim očekivanjima.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Zajednica je izgrađena i mint datum je objavljen sa visokim očekivanjima." data-en="The community is built and the mint date is announced with high expectations.">Zajednica je izgrađena i mint datum je objavljen sa visokim očekivanjima.</span></div>
   </article>
 
   <article class="phase">
@@ -65,18 +65,18 @@ window.SCAM_CONTENT["nft-scam"] = {
       <li data-sr="Gas fee war povećava ukupne troškove za korisnike koji žele da budu u prvom mituv." data-en="Gas fee wars increase total costs for users who want to be in the first mint.">Gas fee war povećava ukupne troškove za korisnike koji žele da budu u prvom mituv.</li>
       <li data-sr="Osnivači uzimaju procenat od svake mint transakcije direktno u novčanik koji je pod njihovom kontrolom." data-en="Founders take a percentage of each mint transaction directly into a wallet under their control.">Osnivači uzimaju procenat od svake mint transakcije direktno u novčanik koji je pod njihovom kontrolom.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Mint je završen i osnivači su prikupili planiranu sumu — sada odlučuju kad da nestanu." data-en="The mint is finished and founders have collected the planned sum — now deciding when to disappear.">Mint je završen i osnivači su prikupili planiranu sumu — sada odlučuju kad da nestanu.</span></div>
+    <div class="callout"><strong data-sr="Mint je završen i osnivači su prikupili planiranu sumu — sada odlučuju kad da nestanu.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Mint je završen i osnivači su prikupili planiranu sumu — sada odlučuju kad da nestanu." data-en="The mint is finished and founders have collected the planned sum — now deciding when to disappear.">Mint je završen i osnivači su prikupili planiranu sumu — sada odlučuju kad da nestanu.</span></div>
   </article>
 
   <article class="phase">
     <h3 data-sr="Faza 3 — Lažni drainer mint" data-en="Phase 3 — Fake drainer mint">Faza 3 — Lažni drainer mint</h3>
-    <p data-sr="Paralelno, napadači kreiraju lažni mint sajt koristeći isti vizualni identitet legitimnog projekta. Ovaj sajt sadrži drainer ugovor — „free mint“ koji umesto NFT-a daje approval za pražnjenje celog novčanika." data-en="In parallel, attackers create a fake mint site using the same visual identity as a legitimate project. This site contains a drainer contract — a free mint that instead of an NFT grants approval for draining the entire wallet.">Paralelno, napadači kreiraju lažni mint sajt koristeći isti vizualni identitet legitimnog projekta. Ovaj sajt sadrži drainer ugovor — 'free mint' koji umesto NFT-a daje approval za pražnjenje celog novčanika.</p>
+    <p data-sr="Paralelno, napadači kreiraju lažni mint sajt koristeći isti vizualni identitet legitimnog projekta. Ovaj sajt sadrži drainer ugovor — 'free mint' koji umesto NFT-a daje approval za pražnjenje celog novčanika." data-en="In parallel, attackers create a fake mint site using the same visual identity as a legitimate project. This site contains a drainer contract — a free mint that instead of an NFT grants approval for draining the entire wallet.">Paralelno, napadači kreiraju lažni mint sajt koristeći isti vizualni identitet legitimnog projekta. Ovaj sajt sadrži drainer ugovor — 'free mint' koji umesto NFT-a daje approval za pražnjenje celog novčanika.</p>
     <ul class="bullets">
       <li data-sr="Lažni sajt se distribuira kroz hakovane Discord kanale projekta ili lažne Twitter naloge." data-en="The fake site is distributed through the project's hacked Discord channels or fake Twitter accounts.">Lažni sajt se distribuira kroz hakovane Discord kanale projekta ili lažne Twitter naloge.</li>
       <li data-sr="Korisnik koji je hteo da mint-uje legitimni NFT završava na drainer sajtu i potpisuje drainer." data-en="A user who wanted to mint a legitimate NFT ends up on the drainer site and signs the drainer.">Korisnik koji je hteo da mint-uje legitimni NFT završava na drainer sajtu i potpisuje drainer.</li>
       <li data-sr="Gubitak je dupli — korisnik ne dobija NFT i gubi sva sredstva iz novčanika." data-en="The loss is double — the user does not get the NFT and loses all funds from the wallet.">Gubitak je dupli — korisnik ne dobija NFT i gubi sva sredstva iz novčanika.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Korisnik potpisuje drainer — approval je na blockchain-u i pražnjenje počinje automatski." data-en="The user signs the drainer — the approval is on the blockchain and draining starts automatically.">Korisnik potpisuje drainer — approval je na blockchain-u i pražnjenje počinje automatski.</span></div>
+    <div class="callout"><strong data-sr="Korisnik potpisuje drainer — approval je na blockchain-u i pražnjenje počinje automatski.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Korisnik potpisuje drainer — approval je na blockchain-u i pražnjenje počinje automatski." data-en="The user signs the drainer — the approval is on the blockchain and draining starts automatically.">Korisnik potpisuje drainer — approval je na blockchain-u i pražnjenje počinje automatski.</span></div>
     <div class="branch">
       <strong data-sr="Grananja u ovoj fazi:" data-en="Branching at this phase:">Grananja u ovoj fazi:</strong>
       <ul class="bullets">
@@ -94,7 +94,7 @@ window.SCAM_CONTENT["nft-scam"] = {
       <li data-sr="Osnivači postepeno prodaju NFT-ove na sekundarnom tržištu dok cena još uvek pada." data-en="Founders gradually sell NFTs on the secondary market while the price is still high.">Osnivači postepeno prodaju NFT-ove na sekundarnom tržištu dok cena još uvek pada.</li>
       <li data-sr="Royalty fee koji ide osnivačima donosi pasivni prihod čak i ako nisu oni who su prodali." data-en="The royalty fee going to founders brings passive income even if they are not the ones who sold.">Royalty fee koji ide osnivačima donosi pasivni prihod čak i ako nisu oni who su prodali.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Osnivači su zadovoljni prikupljenim prihodom i pripremaju se za rug pull." data-en="Founders are satisfied with collected revenue and are preparing for the rug pull.">Osnivači su zadovoljni prikupljenim prihodom i pripremaju se za rug pull.</span></div>
+    <div class="callout"><strong data-sr="Osnivači su zadovoljni prikupljenim prihodom i pripremaju se za rug pull.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Osnivači su zadovoljni prikupljenim prihodom i pripremaju se za rug pull." data-en="Founders are satisfied with collected revenue and are preparing for the rug pull.">Osnivači su zadovoljni prikupljenim prihodom i pripremaju se za rug pull.</span></div>
   </article>
 
   <article class="phase">
@@ -105,7 +105,7 @@ window.SCAM_CONTENT["nft-scam"] = {
       <li data-sr="Osnivači su povukli ETH od minta i royalties i nestali pod pseudonimima." data-en="Founders have withdrawn ETH from the mint and royalties and disappeared under pseudonyms.">Osnivači su povukli ETH od minta i royalties i nestali pod pseudonimima.</li>
       <li data-sr="Zajednica ostaje bez podrške i mogućnosti prodaje NFT-ova." data-en="The community is left without support and the ability to sell NFTs.">Zajednica ostaje bez podrške i mogućnosti prodaje NFT-ova.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Svi kanali projekta su ugašeni i investitori su sa bezvrednim NFT-ovima bez tržišta." data-en="All project channels are shut down and investors are left with worthless NFTs with no market.">Svi kanali projekta su ugašeni i investitori su sa bezvrednim NFT-ovima bez tržišta.</span></div>
+    <div class="callout"><strong data-sr="Svi kanali projekta su ugašeni i investitori su sa bezvrednim NFT-ovima bez tržišta.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Svi kanali projekta su ugašeni i investitori su sa bezvrednim NFT-ovima bez tržišta." data-en="All project channels are shut down and investors are left with worthless NFTs with no market.">Svi kanali projekta su ugašeni i investitori su sa bezvrednim NFT-ovima bez tržišta.</span></div>
     <div class="branch">
       <strong data-sr="Grananja u ovoj fazi:" data-en="Branching at this phase:">Grananja u ovoj fazi:</strong>
       <ul class="bullets">
@@ -123,7 +123,7 @@ window.SCAM_CONTENT["nft-scam"] = {
       <li data-sr="Svaki recovery servis koji nudi povrat NFT-ova ili ETH je nova prevara." data-en="Any recovery service offering return of NFTs or ETH is a new scam.">Svaki recovery servis koji nudi povrat NFT-ova ili ETH je nova prevara.</li>
       <li data-sr="Kolektivna prijava zajednice povećava šanse za istragu ali ne garantuje povrat sredstava." data-en="A collective community report increases the chances of investigation but does not guarantee fund recovery.">Kolektivna prijava zajednice povećava šanse za istragu ali ne garantuje povrat sredstava.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Žrtve su dokumentovale gubitak i razumeju da su blockchain transakcije nepovratne." data-en="Victims have documented their losses and understand that blockchain transactions are irreversible.">Žrtve su dokumentovale gubitak i razumeju da su blockchain transakcije nepovratne.</span></div>
+    <div class="callout"><strong data-sr="Žrtve su dokumentovale gubitak i razumeju da su blockchain transakcije nepovratne.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Žrtve su dokumentovale gubitak i razumeju da su blockchain transakcije nepovratne." data-en="Victims have documented their losses and understand that blockchain transactions are irreversible.">Žrtve su dokumentovale gubitak i razumeju da su blockchain transakcije nepovratne.</span></div>
   </article>
 </section>
 
@@ -137,7 +137,7 @@ window.SCAM_CONTENT["nft-scam"] = {
     <li data-sr="Pametni ugovor nije auditovan ili audit dolazi od nepoznate firme." data-en="The smart contract is not audited or the audit comes from an unknown firm.">Pametni ugovor nije auditovan ili audit dolazi od nepoznate firme.</li>
     <li data-sr="Influenceri promovišu projekat bez otkrivanja plaćene saradnje." data-en="Influencers promote the project without disclosing paid collaboration.">Influenceri promovišu projekat bez otkrivanja plaćene saradnje.</li>
     <li data-sr="Moderatori u Discord serveru brišu pitanja o identitetu tima i auditu ugovora." data-en="Moderators in the Discord server delete questions about team identity and contract audits.">Moderatori u Discord serveru brišu pitanja o identitetu tima i auditu ugovora.</li>
-    <li data-sr="Sekundarni tržišni volumen je neobično visok za koliko dugo projekat postoji." data-en="The secondary market volume is unusually high for how long the project has existed.">Sekundarni tržišni volumen je neobično visok za kako dugo projekat postoji.</li>
+    <li data-sr="Sekundarni tržišni volumen je neobično visok za kako dugo projekat postoji." data-en="The secondary market volume is unusually high for how long the project has existed.">Sekundarni tržišni volumen je neobično visok za kako dugo projekat postoji.</li>
     <li data-sr="Free mint oglas dolazi kroz Discord ili Twitter poruku a ne kroz zvanični kanal projekta." data-en="The free mint ad arrives through a Discord or Twitter message and not through the project's official channel.">Free mint oglas dolazi kroz Discord ili Twitter poruku a ne kroz zvanični kanal projekta.</li>
     <li data-sr="Projekt ne može da demonstrira ni jedan ispunjen obećan utility od lansiranja." data-en="The project cannot demonstrate a single fulfilled promised utility since launch.">Projekt ne može da demonstrira ni jedan ispunjen obećan utility od lansiranja.</li>
   </ul>
@@ -180,7 +180,7 @@ window.SCAM_CONTENT["nft-scam"] = {
     <li data-sr="Ako si potpisao nešto, odmah idi na revoke.cash i opozovi sve sumnjive approvale." data-en="If you signed something, immediately go to revoke.cash and revoke all suspicious approvals.">Ako si potpisao nešto, odmah idi na revoke.cash i opozovi sve sumnjive approvale.</li>
     <li data-sr="Prebaci sve preostale tokene na novu, čistu adresu pre nego što bot pokrene pražnjenje." data-en="Transfer all remaining tokens to a new, clean address before the bot initiates draining.">Prebaci sve preostale tokene na novu, čistu adresu pre nego što bot pokrene pražnjenje.</li>
     <li data-sr="Dokumentuj sve transakcije na Etherscan-u i komunik. osnivača projekta za eventualnu prijavu." data-en="Document all transactions on Etherscan and project founder communications for a potential report.">Dokumentuj sve transakcije na Etherscan-u i komunik. osnivača projekta za eventualnu prijavu.</li>
-    <li data-sr="Ignoriši sve koji nude „povrat“ ETH ili NFT-ova — to je nova prevara koja targetira žrtve." data-en="Ignore everyone offering ETH or NFT recovery — that is a new scam targeting victims.">Ignoriši sve koji nude 'povrat' ETH ili NFT-ova — to je nova prevara koja targetira žrtve.</li>
+    <li data-sr="Ignoriši sve koji nude 'povrat' ETH ili NFT-ova — to je nova prevara koja targetira žrtve." data-en="Ignore everyone offering ETH or NFT recovery — that is a new scam targeting victims.">Ignoriši sve koji nude 'povrat' ETH ili NFT-ova — to je nova prevara koja targetira žrtve.</li>
     <li data-sr="Poveži se sa zajednicom žrtava i podnesite kolektivnu prijavu relevantnim organima." data-en="Connect with the victim community and submit a collective report to relevant authorities.">Poveži se sa zajednicom žrtava i podnesite kolektivnu prijavu relevantnim organima.</li>
   </ol>
 </section>
@@ -197,21 +197,11 @@ window.SCAM_CONTENT["nft-scam"] = {
   <ul class="bullets">
     <li data-sr="Ako si potpisao nešto na lažnom sajtu, idi odmah na revoke.cash — svaka sekunda je važna." data-en="If you signed something on a fake site, go to revoke.cash immediately — every second matters.">Ako si potpisao nešto na lažnom sajtu, idi odmah na revoke.cash — svaka sekunda je važna.</li>
     <li data-sr="Blockchain transakcije su nepovratne — niko ne može da ti vrati ETH ili NFT-ove koji su otišli." data-en="Blockchain transactions are irreversible — nobody can return ETH or NFTs that have gone.">Blockchain transakcije su nepovratne — niko ne može da ti vrati ETH ili NFT-ove koji su otišli.</li>
-    <li data-sr="Svako ko ti sad nudi „povrat“ je novi napadač — ignoriši ih bez odgovora." data-en="Anyone who now offers you recovery is a new attacker — ignore them without responding.">Svako ko ti sad nudi 'povrat' je novi napadač — ignoriši ih bez odgovora.</li>
+    <li data-sr="Svako ko ti sad nudi 'povrat' je novi napadač — ignoriši ih bez odgovora." data-en="Anyone who now offers you recovery is a new attacker — ignore them without responding.">Svako ko ti sad nudi 'povrat' je novi napadač — ignoriši ih bez odgovora.</li>
     <li data-sr="Dokumentuj sve sada i poveži se sa zajednicom žrtava — kolektivna prijava je efikasnija." data-en="Document everything now and connect with the victim community — a collective report is more effective.">Dokumentuj sve sada i poveži se sa zajednicom žrtava — kolektivna prijava je efikasnija.</li>
   </ul>
 </section>
 
-<section class="content-section">
-  <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-  <ul class="bullets">
-    <li><a href="wallet-drainer.html" data-sr="Wallet drainer — tehnički mehanizam koji se aktivira lažnim NFT mint-om" data-en="Wallet drainer — technical mechanism activated by a fake NFT mint">Wallet drainer — tehnički mehanizam koji se aktivira lažnim NFT mint-om</a></li>
-    <li><a href="airdrop-scam.html" data-sr="Airdrop prevara — isti mehanizam sa free airdrop varijantom" data-en="Airdrop scam — same mechanism with free airdrop variant">Airdrop prevara — isti mehanizam sa free airdrop varijantom</a></li>
-    <li><a href="rug-pull.html" data-sr="Rug pull — generalni opis mehanizma nestanka osnivača projekta" data-en="Rug pull — general description of the project founder disappearance mechanism">Rug pull — generalni opis mehanizma nestanka osnivača projekta</a></li>
-    <li><a href="recovery-scam.html" data-sr="Recovery prevara — sekundarna prevara koja targetira žrtve NFT prevara" data-en="Recovery scam — secondary scam targeting NFT scam victims">Recovery prevara — sekundarna prevara koja targetira žrtve NFT prevara</a></li>
-    <li><a href="impersonation-scam.html" data-sr="Impersonation — hakovanje naloga za distribuciju lažnih mint linkova" data-en="Impersonation — account hacking for distribution of fake mint links">Impersonation — hakovanje naloga za distribuciju lažnih mint linkova</a></li>
-    <li><a href="fake-crypto-exchange-scam.html" data-sr="Lažna kripto menjačnica — sličan lažni UI za prikupljanje depozita" data-en="Fake crypto exchange — similar fake UI for collecting deposits">Lažna kripto menjačnica — sličan lažni UI za prikupljanje depozita</a></li>
-  </ul>
-</section>
+
 `
 };

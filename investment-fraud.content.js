@@ -8,15 +8,15 @@ window.SCAM_CONTENT["investment-fraud"] = {
       </h2>
       <p data-sr="Investiciona prevara obećava visoke, garantovane prinose uz minimalan rizik. Kontakt počinje oglasima, preporukama ili direktnim porukama. Žrtva ulaže manje iznose na početku, vidi &#8222;profit&#8220; na ekranu, pa ulaže više. Kad pokuša da povuče novac — platforma postavlja prepreke, traži naknade ili nestaje."
          data-en="Investment fraud promises high, guaranteed returns with minimal risk. Contact begins through ads, referrals or direct messages. The victim invests small amounts at first, sees profit on screen, then invests more. When they try to withdraw — the platform creates obstacles, demands fees or disappears.">
-        Investiciona prevara obećava visoke, garantovane prinose uz minimalan rizik. Kontakt počinje oglasima, preporukama ili direktnim porukama. Žrtva ulaže manje iznose na početku, vidi „profit" na ekranu, pa ulaže više. Kad pokuša da povuče novac — platforma postavlja prepreke, traži naknade ili nestaje.
+        Investiciona prevara obećava visoke, garantovane prinose uz minimalan rizik. Kontakt počinje oglasima, preporukama ili direktnim porukama. Žrtva ulaže manje iznose na početku, vidi profit na ekranu, pa ulaže više. Kad pokuša da povuče novac — platforma postavlja prepreke, traži naknade ili nestaje.
       </p>
       <p data-sr="Model je star koliko i finansijska tržišta. Menja se samo omotač: akcije, nekretnine, forex, kripto, AI fondovi. Psihološka mehanika ostaje ista — pohlepa, strah od propuštene prilike i postepeno uvlačenje kroz male uspehe."
          data-en="The model is as old as financial markets. Only the wrapper changes: stocks, real estate, forex, crypto, AI funds. The psychological mechanics remain the same — greed, fear of missing out and gradual entrapment through small apparent wins.">
         Model je star koliko i finansijska tržišta. Menja se samo omotač: akcije, nekretnine, forex, kripto, AI fondovi. Psihološka mehanika ostaje ista — pohlepa, strah od propuštene prilike i postepeno uvlačenje kroz male uspehe.
       </p>
       <div class="callout"
-        data-sr="&lt;strong&gt;Model:&lt;/strong&gt; kontakt → obećanje prinosa → mala uplata → lažni profit → pritisak za više → blokada povlačenja → nestanak ili nove naknade."
-        data-en="&lt;strong&gt;Model:&lt;/strong&gt; contact → return promise → small deposit → fake profit → pressure for more → withdrawal block → disappearance or new fees.">
+        data-sr="<strong>Model:</strong> kontakt → obećanje prinosa → mala uplata → lažni profit → pritisak za više → blokada povlačenja → nestanak ili nove naknade."
+        data-en="<strong>Model:</strong> contact → return promise → small deposit → fake profit → pressure for more → withdrawal block → disappearance or new fees.">
         <strong>Model:</strong> kontakt → obećanje prinosa → mala uplata → lažni profit → pritisak za više → blokada povlačenja → nestanak ili nove naknade.
       </div>
     </section>
@@ -30,19 +30,19 @@ window.SCAM_CONTENT["investment-fraud"] = {
           <h3 data-sr="Šta gradi poverenje" data-en="What builds trust">Šta gradi poverenje</h3>
           <ul class="bullets">
             <li data-sr="Profesionalan sajt sa grafikonima, logom i lažnim licencama." data-en="Professional website with charts, logo and fake licences.">Profesionalan sajt sa grafikonima, logom i lažnim licencama.</li>
-            <li data-sr="Iskustvene priče &#8222;zadovoljnih investitora&#8220; sa fotografijama i iznosima zarade." data-en="Testimonials from &ldquo;satisfied investors&rdquo; with photos and earnings amounts.">Iskustvene priče „zadovoljnih investitora" sa fotografijama i iznosima zarade.</li>
-            <li data-sr="Pozivanje na poznate brendove ili berze kao &#8222;partnere&#8220;." data-en="References to well-known brands or exchanges as &ldquo;partners&rdquo;.">Pozivanje na poznate brendove ili berze kao „partnere".</li>
+            <li data-sr="Iskustvene priče zadovoljnih investitora sa fotografijama i iznosima zarade." data-en="Testimonials from &ldquo;satisfied investors&rdquo; with photos and earnings amounts.">Iskustvene priče zadovoljnih investitora sa fotografijama i iznosima zarade.</li>
+            <li data-sr="Pozivanje na poznate brendove ili berze kao partnere." data-en="References to well-known brands or exchanges as &ldquo;partners&rdquo;.">Pozivanje na poznate brendove ili berze kao partnere.</li>
             <li data-sr="Lični broker ili menadžer koji je uvek dostupan i prijateljski nastrojen." data-en="Personal broker or manager who is always available and friendly.">Lični broker ili menadžer koji je uvek dostupan i prijateljski nastrojen.</li>
-            <li data-sr="Vidljivi &#8222;profit&#8220; na dashboard-u platforme — broj koji raste ali se ne može povući." data-en="Visible &ldquo;profit&rdquo; on the platform dashboard — a number that grows but cannot be withdrawn.">Vidljivi „profit" na dashboard-u platforme — broj koji raste ali se ne može povući.</li>
+            <li data-sr="Vidljivi profit na dashboard-u platforme — broj koji raste ali se ne može povući." data-en="Visible &ldquo;profit&rdquo; on the platform dashboard — a number that grows but cannot be withdrawn.">Vidljivi profit na dashboard-u platforme — broj koji raste ali se ne može povući.</li>
           </ul>
         </div>
         <div>
           <h3 data-sr="Kako se uvodi novac" data-en="How money is introduced">Kako se uvodi novac</h3>
           <ul class="bullets">
-            <li data-sr="Mala početna uplata za &#8222;testiranje platforme&#8220; — od 100 do 500 evra." data-en="Small initial deposit to &ldquo;test the platform&rdquo; — from 100 to 500 euros.">Mala početna uplata za „testiranje platforme" — od 100 do 500 evra.</li>
-            <li data-sr="Lažni profit motiviše veće uplate: &#8222;sad je pravi momenat, cena raste&#8220;." data-en="Fake profit motivates larger deposits: &ldquo;now is the right moment, price is rising&rdquo;.">Lažni profit motiviše veće uplate: „sad je pravi momenat, cena raste".</li>
-            <li data-sr="Pritisak da se pozovu prijatelji i porodica kako bi i oni &#8222;zaradili&#8220;." data-en="Pressure to invite friends and family so they can &ldquo;earn too&rdquo;.">Pritisak da se pozovu prijatelji i porodica kako bi i oni „zaradili".</li>
-            <li data-sr="Kad žrtva pokuša povlačenje — naknada za verifikaciju, porez, &#8222;osiguranje&#8220;." data-en="When victim tries to withdraw — verification fee, tax, &ldquo;insurance&rdquo;.">Kad žrtva pokuša povlačenje — naknada za verifikaciju, porez, „osiguranje".</li>
+            <li data-sr="Mala početna uplata za testiranje platforme — od 100 do 500 evra." data-en="Small initial deposit to &ldquo;test the platform&rdquo; — from 100 to 500 euros.">Mala početna uplata za testiranje platforme — od 100 do 500 evra.</li>
+            <li data-sr="Lažni profit motiviše veće uplate: sad je pravi momenat, cena raste." data-en="Fake profit motivates larger deposits: &ldquo;now is the right moment, price is rising&rdquo;.">Lažni profit motiviše veće uplate: sad je pravi momenat, cena raste.</li>
+            <li data-sr="Pritisak da se pozovu prijatelji i porodica kako bi i oni zaradili." data-en="Pressure to invite friends and family so they can &ldquo;earn too&rdquo;.">Pritisak da se pozovu prijatelji i porodica kako bi i oni zaradili.</li>
+            <li data-sr="Kad žrtva pokuša povlačenje — naknada za verifikaciju, porez, osiguranje." data-en="When victim tries to withdraw — verification fee, tax, &ldquo;insurance&rdquo;.">Kad žrtva pokuša povlačenje — naknada za verifikaciju, porez, osiguranje.</li>
             <li data-sr="Na kraju: korisnički nalog blokiran, platforma nedostupna, broker neodaziva." data-en="At the end: account blocked, platform inaccessible, broker unresponsive.">Na kraju: korisnički nalog blokiran, platforma nedostupna, broker neodaziva.</li>
           </ul>
         </div>
@@ -57,8 +57,8 @@ window.SCAM_CONTENT["investment-fraud"] = {
         <p data-sr="Žrtva nailazi na oglas, video, preporuku od poznanika ili direktnu poruku. Poruka obećava zaradu bez posebnog znanja." data-en="Victim encounters an ad, video, referral from an acquaintance or direct message. The message promises earnings without special knowledge.">Žrtva nailazi na oglas, video, preporuku od poznanika ili direktnu poruku. Poruka obećava zaradu bez posebnog znanja.</p>
         <ul class="bullets">
           <li data-sr="Oglas sa prikazanim prinosima od 20–50% mesečno." data-en="Ad showing returns of 20–50% per month.">Oglas sa prikazanim prinosima od 20–50% mesečno.</li>
-          <li data-sr="Video poznatog lica koje &#8222;preporučuje&#8220; platformu — obično deepfake ili preuzet snimak." data-en="Video of a famous person &ldquo;recommending&rdquo; the platform — usually deepfake or stolen footage.">Video poznatog lica koje „preporučuje" platformu — obično deepfake ili preuzet snimak.</li>
-          <li data-sr="Poznanik koji je &#8222;već zaradio&#8220; i želi da podeli informaciju — možda i sam žrtva." data-en="An acquaintance who has &ldquo;already earned&rdquo; and wants to share — possibly also a victim.">Poznanik koji je „već zaradio" i želi da podeli informaciju — možda i sam žrtva.</li>
+          <li data-sr="Video poznatog lica koje preporučuje platformu — obično deepfake ili preuzet snimak." data-en="Video of a famous person &ldquo;recommending&rdquo; the platform — usually deepfake or stolen footage.">Video poznatog lica koje preporučuje platformu — obično deepfake ili preuzet snimak.</li>
+          <li data-sr="Poznanik koji je već zaradio i želi da podeli informaciju — možda i sam žrtva." data-en="An acquaintance who has &ldquo;already earned&rdquo; and wants to share — possibly also a victim.">Poznanik koji je već zaradio i želi da podeli informaciju — možda i sam žrtva.</li>
         </ul>
         <p class="phase-threshold" data-sr="Prag faze: žrtva se registruje ili ostavlja kontakt podatke." data-en="Phase threshold: victim registers or leaves contact details.">Prag faze: žrtva se registruje ili ostavlja kontakt podatke.</p>
       </div>
@@ -68,18 +68,18 @@ window.SCAM_CONTENT["investment-fraud"] = {
         <p data-sr="Broker se javlja, objašnjava kako platforma radi i gradi poverenje kroz redovnu komunikaciju. Ne traži odmah novac." data-en="The broker contacts them, explains how the platform works and builds trust through regular communication. Does not immediately ask for money.">Broker se javlja, objašnjava kako platforma radi i gradi poverenje kroz redovnu komunikaciju. Ne traži odmah novac.</p>
         <ul class="bullets">
           <li data-sr="Personalizovana pažnja — broker pamti detalje razgovora i pita za porodicu, posao." data-en="Personalised attention — broker remembers conversation details and asks about family, work.">Personalizovana pažnja — broker pamti detalje razgovora i pita za porodicu, posao.</li>
-          <li data-sr="Poziva na &#8222;demo account&#8220; gde žrtva &#8222;trguje&#8220; bez pravog novca i vidi lažne dobitke." data-en="Invites to a &ldquo;demo account&rdquo; where victim &ldquo;trades&rdquo; without real money and sees fake gains.">Poziva na „demo account" gde žrtva „trguje" bez pravog novca i vidi lažne dobitke.</li>
-          <li data-sr="Stručan jezik — fibonacci, support/resistance, &#8222;bullish signal&#8220; — daje osećaj legitimnosti." data-en="Technical language — fibonacci, support/resistance, &ldquo;bullish signal&rdquo; — gives a sense of legitimacy.">Stručan jezik — fibonacci, support/resistance, „bullish signal" — daje osećaj legitimnosti.</li>
+          <li data-sr="Poziva na demo account gde žrtva trguje bez pravog novca i vidi lažne dobitke." data-en="Invites to a &ldquo;demo account&rdquo; where victim &ldquo;trades&rdquo; without real money and sees fake gains.">Poziva na demo account gde žrtva trguje bez pravog novca i vidi lažne dobitke.</li>
+          <li data-sr="Stručan jezik — fibonacci, support/resistance, bullish signal — daje osećaj legitimnosti." data-en="Technical language — fibonacci, support/resistance, &ldquo;bullish signal&rdquo; — gives a sense of legitimacy.">Stručan jezik — fibonacci, support/resistance, bullish signal — daje osećaj legitimnosti.</li>
         </ul>
         <p class="phase-threshold" data-sr="Prag faze: žrtva veruje brokeru i sprema se za prvu uplatu." data-en="Phase threshold: victim trusts the broker and prepares for the first deposit.">Prag faze: žrtva veruje brokeru i sprema se za prvu uplatu.</p>
       </div>
 
       <div class="phase">
         <div class="label" data-sr="Faza 3: Mala uplata i lažni profit" data-en="Phase 3: Small deposit and fake profit">Faza 3: Mala uplata i lažni profit</div>
-        <p data-sr="Žrtva uplaćuje mali iznos. Odmah vidi profit na platformi. Broker čestita i sugerira da je &#8222;pravi momenat&#8220; za veće ulaganje." data-en="Victim makes a small deposit. They immediately see profit on the platform. Broker congratulates them and suggests it is the &ldquo;right moment&rdquo; for a larger investment.">Žrtva uplaćuje mali iznos. Odmah vidi profit na platformi. Broker čestita i sugerira da je „pravi momenat" za veće ulaganje.</p>
+        <p data-sr="Žrtva uplaćuje mali iznos. Odmah vidi profit na platformi. Broker čestita i sugerira da je pravi momenat za veće ulaganje." data-en="Victim makes a small deposit. They immediately see profit on the platform. Broker congratulates them and suggests it is the &ldquo;right moment&rdquo; for a larger investment.">Žrtva uplaćuje mali iznos. Odmah vidi profit na platformi. Broker čestita i sugerira da je pravi momenat za veće ulaganje.</p>
         <ul class="bullets">
           <li data-sr="Dashboard pokazuje rast portfolija u realnom vremenu — sve je lažno." data-en="Dashboard shows portfolio growth in real time — all fake.">Dashboard pokazuje rast portfolija u realnom vremenu — sve je lažno.</li>
-          <li data-sr="Broker savetuje kada da &#8222;kupi&#8220; i &#8222;proda&#8220; — žrtva oseća da uči." data-en="Broker advises when to &ldquo;buy&rdquo; and &ldquo;sell&rdquo; — victim feels they are learning.">Broker savetuje kada da „kupi" i „proda" — žrtva oseća da uči.</li>
+          <li data-sr="Broker savetuje kada da kupi i proda — žrtva oseća da uči." data-en="Broker advises when to &ldquo;buy&rdquo; and &ldquo;sell&rdquo; — victim feels they are learning.">Broker savetuje kada da kupi i proda — žrtva oseća da uči.</li>
           <li data-sr="Povlačenje malog iznosa često je dozvoljeno u ovoj fazi — gradi dodatno poverenje." data-en="Withdrawing a small amount is often allowed at this stage — builds additional trust.">Povlačenje malog iznosa često je dozvoljeno u ovoj fazi — gradi dodatno poverenje.</li>
         </ul>
         <p class="phase-threshold" data-sr="Prag faze: žrtva je uverena da platforma radi i ulaže veći iznos." data-en="Phase threshold: victim is convinced the platform works and invests a larger amount.">Prag faze: žrtva je uverena da platforma radi i ulaže veći iznos.</p>
@@ -89,9 +89,9 @@ window.SCAM_CONTENT["investment-fraud"] = {
         <div class="label" data-sr="Faza 4: Eskalacija ulaganja" data-en="Phase 4: Escalation of investments">Faza 4: Eskalacija ulaganja</div>
         <p data-sr="Broker uvodi hitnost — posebna prilika, ograničen prozor, ekskluzivan fond. Žrtva ulaže više, ponekad uzima kredit ili prodaje imovinu." data-en="Broker introduces urgency — special opportunity, limited window, exclusive fund. Victim invests more, sometimes takes loans or sells assets.">Broker uvodi hitnost — posebna prilika, ograničen prozor, ekskluzivan fond. Žrtva ulaže više, ponekad uzima kredit ili prodaje imovinu.</p>
         <ul class="bullets">
-          <li data-sr="&#8222;Sutra se zatvara prozor — ako ne ulažeš sada, propuštaš prinos od 40%.&#8220;" data-en="&ldquo;The window closes tomorrow — if you don't invest now you miss a 40% return.&rdquo;">„Sutra se zatvara prozor — ako ne ulažeš sada, propuštaš prinos od 40%."</li>
-          <li data-sr="Broker sugeriše pozajmicu od banke ili porodice jer je &#8222;rizik minimalan&#8220;." data-en="Broker suggests borrowing from a bank or family because the &ldquo;risk is minimal&rdquo;.">Broker sugeriše pozajmicu od banke ili porodice jer je „rizik minimalan".</li>
-          <li data-sr="Žrtva može pozivati prijatelje kao &#8222;partnere&#8220; i dobija referalnu proviziju." data-en="Victim may invite friends as &ldquo;partners&rdquo; and receives referral commission.">Žrtva može pozivati prijatelje kao „partnere" i dobija referalnu proviziju.</li>
+          <li data-sr="Sutra se zatvara prozor — ako ne ulažeš sada, propuštaš prinos od 40%." data-en="&ldquo;The window closes tomorrow — if you don't invest now you miss a 40% return.&rdquo;">Sutra se zatvara prozor — ako ne ulažeš sada, propuštaš prinos od 40%.</li>
+          <li data-sr="Broker sugeriše pozajmicu od banke ili porodice jer je rizik minimalan." data-en="Broker suggests borrowing from a bank or family because the &ldquo;risk is minimal&rdquo;.">Broker sugeriše pozajmicu od banke ili porodice jer je rizik minimalan.</li>
+          <li data-sr="Žrtva može pozivati prijatelje kao partnere i dobija referalnu proviziju." data-en="Victim may invite friends as &ldquo;partners&rdquo; and receives referral commission.">Žrtva može pozivati prijatelje kao partnere i dobija referalnu proviziju.</li>
         </ul>
         <div class="branches">
           <strong data-sr="Grananja u ovoj fazi:" data-en="Branching in this phase:">Grananja u ovoj fazi:</strong>
@@ -105,22 +105,22 @@ window.SCAM_CONTENT["investment-fraud"] = {
 
       <div class="phase">
         <div class="label" data-sr="Faza 5: Blokada povlačenja" data-en="Phase 5: Withdrawal block">Faza 5: Blokada povlačenja</div>
-        <p data-sr="Žrtva traži povlačenje. Počinju prepreke — verifikacije, naknade, &#8222;zakonske obaveze&#8220;. Svaka uplata &#8222;za povlačenje&#8220; gubi se bez rezultata." data-en="Victim requests withdrawal. Obstacles begin — verifications, fees, &ldquo;legal obligations&rdquo;. Every payment &ldquo;for withdrawal&rdquo; is lost without result.">Žrtva traži povlačenje. Počinju prepreke — verifikacije, naknade, „zakonske obaveze". Svaka uplata „za povlačenje" gubi se bez rezultata.</p>
+        <p data-sr="Žrtva traži povlačenje. Počinju prepreke — verifikacije, naknade, zakonske obaveze. Svaka uplata za povlačenje gubi se bez rezultata." data-en="Victim requests withdrawal. Obstacles begin — verifications, fees, &ldquo;legal obligations&rdquo;. Every payment &ldquo;for withdrawal&rdquo; is lost without result.">Žrtva traži povlačenje. Počinju prepreke — verifikacije, naknade, zakonske obaveze. Svaka uplata za povlačenje gubi se bez rezultata.</p>
         <ul class="bullets">
-          <li data-sr="&#8222;KYC verifikacija je obavezna pre isplate — pošaljite kopiju pasoša i bankovnog izvoda.&#8220;" data-en="&ldquo;KYC verification is required before payout — send a copy of your passport and bank statement.&rdquo;">„KYC verifikacija je obavezna pre isplate — pošaljite kopiju pasoša i bankovnog izvoda."</li>
-          <li data-sr="&#8222;Porez na kapitalnu dobit mora biti uplaćen unapred — 15% od iznosa zarade.&#8220;" data-en="&ldquo;Capital gains tax must be paid in advance — 15% of earnings amount.&rdquo;">„Porez na kapitalnu dobit mora biti uplaćen unapred — 15% od iznosa zarade."</li>
-          <li data-sr="&#8222;Nalog je privremeno zamrznut zbog bezbednosne provere — očekujte 5–10 radnih dana.&#8220;" data-en="&ldquo;Account is temporarily frozen for security review — expect 5–10 business days.&rdquo;">„Nalog je privremeno zamrznut zbog bezbednosne provere — očekujte 5–10 radnih dana."</li>
+          <li data-sr="KYC verifikacija je obavezna pre isplate — pošaljite kopiju pasoša i bankovnog izvoda." data-en="&ldquo;KYC verification is required before payout — send a copy of your passport and bank statement.&rdquo;">KYC verifikacija je obavezna pre isplate — pošaljite kopiju pasoša i bankovnog izvoda.</li>
+          <li data-sr="Porez na kapitalnu dobit mora biti uplaćen unapred — 15% od iznosa zarade." data-en="&ldquo;Capital gains tax must be paid in advance — 15% of earnings amount.&rdquo;">Porez na kapitalnu dobit mora biti uplaćen unapred — 15% od iznosa zarade.</li>
+          <li data-sr="Nalog je privremeno zamrznut zbog bezbednosne provere — očekujte 5–10 radnih dana." data-en="&ldquo;Account is temporarily frozen for security review — expect 5–10 business days.&rdquo;">Nalog je privremeno zamrznut zbog bezbednosne provere — očekujte 5–10 radnih dana.</li>
         </ul>
         <p class="phase-threshold" data-sr="Prag faze: žrtva prestaje da plaća naknade ili broker prestaje da odgovara." data-en="Phase threshold: victim stops paying fees or broker stops responding.">Prag faze: žrtva prestaje da plaća naknade ili broker prestaje da odgovara.</p>
       </div>
 
       <div class="phase">
         <div class="label" data-sr="Faza 6: Nestanak i recovery prevara" data-en="Phase 6: Disappearance and recovery scam">Faza 6: Nestanak i recovery prevara</div>
-        <p data-sr="Platforma nestaje ili blokira nalog. Pojavljuju se &#8222;recovery&#8220; servisi koji obećavaju povrat novca uz novu naknadu — isti prevaranti ili novi." data-en="Platform disappears or blocks the account. &ldquo;Recovery&rdquo; services appear promising money back for a new fee — the same scammers or new ones.">Platforma nestaje ili blokira nalog. Pojavljuju se „recovery" servisi koji obećavaju povrat novca uz novu naknadu — isti prevaranti ili novi.</p>
+        <p data-sr="Platforma nestaje ili blokira nalog. Pojavljuju se recovery servisi koji obećavaju povrat novca uz novu naknadu — isti prevaranti ili novi." data-en="Platform disappears or blocks the account. &ldquo;Recovery&rdquo; services appear promising money back for a new fee — the same scammers or new ones.">Platforma nestaje ili blokira nalog. Pojavljuju se recovery servisi koji obećavaju povrat novca uz novu naknadu — isti prevaranti ili novi.</p>
         <ul class="bullets">
           <li data-sr="Sajt platforme nedostupan, telefon neodaziva, email adresa ne postoji." data-en="Platform website inaccessible, phone unresponsive, email address does not exist.">Sajt platforme nedostupan, telefon neodaziva, email adresa ne postoji.</li>
-          <li data-sr="&#8222;Advokat&#8220; nudi pravnu pomoć za povrat — traži avansnu naknadu." data-en="&ldquo;Lawyer&rdquo; offers legal help for recovery — demands advance fee.">„Advokat" nudi pravnu pomoć za povrat — traži avansnu naknadu.</li>
-          <li data-sr="&#8222;Istražna agencija&#8220; tvrdi da može pratiti kriptovalute i povratiti novac — uz naknadu." data-en="&ldquo;Investigation agency&rdquo; claims it can trace crypto and recover funds — for a fee.">„Istražna agencija" tvrdi da može pratiti kriptovalute i povratiti novac — uz naknadu.</li>
+          <li data-sr="Advokat nudi pravnu pomoć za povrat — traži avansnu naknadu." data-en="&ldquo;Lawyer&rdquo; offers legal help for recovery — demands advance fee.">Advokat nudi pravnu pomoć za povrat — traži avansnu naknadu.</li>
+          <li data-sr="Istražna agencija tvrdi da može pratiti kriptovalute i povratiti novac — uz naknadu." data-en="&ldquo;Investigation agency&rdquo; claims it can trace crypto and recover funds — for a fee.">Istražna agencija tvrdi da može pratiti kriptovalute i povratiti novac — uz naknadu.</li>
         </ul>
         <p class="phase-threshold" data-sr="Prag faze: žrtva shvata gubitak i odlučuje da li da prijavi prevaru." data-en="Phase threshold: victim recognizes the loss and decides whether to report the scam.">Prag faze: žrtva shvata gubitak i odlučuje da li da prijavi prevaru.</p>
       </div>
@@ -131,11 +131,11 @@ window.SCAM_CONTENT["investment-fraud"] = {
       <ul class="bullets">
         <li data-sr="Garantovani prinos bez rizika — ne postoji na legitimnim tržištima." data-en="Guaranteed return without risk — does not exist on legitimate markets.">Garantovani prinos bez rizika — ne postoji na legitimnim tržištima.</li>
         <li data-sr="Prinos znatno iznad tržišnog proseka — 5–10% mesečno ili više." data-en="Returns significantly above market average — 5–10% per month or more.">Prinos znatno iznad tržišnog proseka — 5–10% mesečno ili više.</li>
-        <li data-sr="Pritisak za brzu odluku — &#8222;ponuda važi samo danas&#8220;." data-en="Pressure for quick decision — &ldquo;offer valid today only&rdquo;.">Pritisak za brzu odluku — „ponuda važi samo danas".</li>
+        <li data-sr="Pritisak za brzu odluku — ponuda važi samo danas." data-en="Pressure for quick decision — &ldquo;offer valid today only&rdquo;.">Pritisak za brzu odluku — ponuda važi samo danas.</li>
         <li data-sr="Platforma nije registrovana kod finansijskog regulatora." data-en="Platform is not registered with a financial regulator.">Platforma nije registrovana kod finansijskog regulatora.</li>
         <li data-sr="Broker komunicira samo kroz WhatsApp ili Telegram — nema zvanične firme." data-en="Broker communicates only via WhatsApp or Telegram — no official company.">Broker komunicira samo kroz WhatsApp ili Telegram — nema zvanične firme.</li>
         <li data-sr="Povlačenje novca nailazi na stalne prepreke i nove naknade." data-en="Withdrawing money meets constant obstacles and new fees.">Povlačenje novca nailazi na stalne prepreke i nove naknade.</li>
-        <li data-sr="Poreklo kontakta je oglas sa poznatim licem ili preporuka poznanika koji je &#8222;zaradio&#8220;." data-en="Contact originated from an ad featuring a celebrity or a referral from an acquaintance who &ldquo;earned&rdquo;.">Poreklo kontakta je oglas sa poznatim licem ili preporuka poznanika koji je „zaradio".</li>
+        <li data-sr="Poreklo kontakta je oglas sa poznatim licem ili preporuka poznanika koji je zaradio." data-en="Contact originated from an ad featuring a celebrity or a referral from an acquaintance who &ldquo;earned&rdquo;.">Poreklo kontakta je oglas sa poznatim licem ili preporuka poznanika koji je zaradio.</li>
         <li data-sr="Platforma traži dokumenta (pasoš, bankovni izvod) pre isplate — ali ne pre uplate." data-en="Platform requests documents (passport, bank statement) before payout — but not before deposit.">Platforma traži dokumenta (pasoš, bankovni izvod) pre isplate — ali ne pre uplate.</li>
         <li data-sr="Kontakt osoba postaje nedostupna čim se pomene povlačenje." data-en="Contact person becomes unavailable as soon as withdrawal is mentioned.">Kontakt osoba postaje nedostupna čim se pomene povlačenje.</li>
         <li data-sr="Profit na platformi raste brže nego što je tržišno moguće." data-en="Profit on platform grows faster than market conditions allow.">Profit na platformi raste brže nego što je tržišno moguće.</li>
@@ -146,7 +146,7 @@ window.SCAM_CONTENT["investment-fraud"] = {
       <h2 data-sr="Provere pre ulaganja" data-en="Checks before investing">Provere pre ulaganja</h2>
       <ul class="bullets">
         <li data-sr="Proverite registraciju platforme kod finansijskog regulatora u vašoj zemlji." data-en="Check the platform's registration with the financial regulator in your country.">Proverite registraciju platforme kod finansijskog regulatora u vašoj zemlji.</li>
-        <li data-sr="Pretražite ime platforme i brokera uz reč &#8222;prevara&#8220; ili &#8222;scam&#8220;." data-en="Search the platform and broker name along with the word &ldquo;fraud&rdquo; or &ldquo;scam&rdquo;.">Pretražite ime platforme i brokera uz reč „prevara" ili „scam".</li>
+        <li data-sr="Pretražite ime platforme i brokera uz reč prevara ili scam." data-en="Search the platform and broker name along with the word &ldquo;fraud&rdquo; or &ldquo;scam&rdquo;.">Pretražite ime platforme i brokera uz reč prevara ili scam.</li>
         <li data-sr="Proverite fizičku adresu kompanije i da li postoji zvanična telefon linija." data-en="Check the company's physical address and whether an official phone line exists.">Proverite fizičku adresu kompanije i da li postoji zvanična telefon linija.</li>
         <li data-sr="Pokušajte da povučete mali iznos pre nego što uložite više — ako je nemoguće, to je signal." data-en="Try to withdraw a small amount before investing more — if impossible, that is a signal.">Pokušajte da povučete mali iznos pre nego što uložite više — ako je nemoguće, to je signal.</li>
         <li data-sr="Proverite da li je platforma na listi upozorenja regulatora (FCA, SEC, NBS)." data-en="Check whether the platform is on a regulator warning list (FCA, SEC, NBS).">Proverite da li je platforma na listi upozorenja regulatora (FCA, SEC, NBS).</li>
@@ -178,7 +178,7 @@ window.SCAM_CONTENT["investment-fraud"] = {
         <li data-sr="Sačuvati sve dokaze: snimke ekrana, istoriju poruka, uplatnice, nazive platforme." data-en="Save all evidence: screenshots, message history, payment receipts, platform names.">Sačuvati sve dokaze: snimke ekrana, istoriju poruka, uplatnice, nazive platforme.</li>
         <li data-sr="Kontaktirati banku i prijaviti transakciju — u nekim slučajevima povrat je moguć." data-en="Contact the bank and report the transaction — in some cases a refund is possible.">Kontaktirati banku i prijaviti transakciju — u nekim slučajevima povrat je moguć.</li>
         <li data-sr="Prijaviti platformu finansijskom regulatoru i policiji." data-en="Report the platform to the financial regulator and police.">Prijaviti platformu finansijskom regulatoru i policiji.</li>
-        <li data-sr="Ne plaćati nijednu naknadu za &#8222;povrat&#8220; ili &#8222;pravnu pomoć&#8220; — to su nove prevare." data-en="Do not pay any fee for &ldquo;recovery&rdquo; or &ldquo;legal help&rdquo; — these are new scams.">Ne plaćati nijednu naknadu za „povrat" ili „pravnu pomoć" — to su nove prevare.</li>
+        <li data-sr="Ne plaćati nijednu naknadu za povrat ili pravnu pomoć — to su nove prevare." data-en="Do not pay any fee for &ldquo;recovery&rdquo; or &ldquo;legal help&rdquo; — these are new scams.">Ne plaćati nijednu naknadu za povrat ili pravnu pomoć — to su nove prevare.</li>
         <li data-sr="Obavestiti ljude koje ste pozvali da i oni prestanu sa uplatama." data-en="Notify people you invited so they stop making payments too.">Obavestiti ljude koje ste pozvali da i oni prestanu sa uplatama.</li>
       </ol>
     </section>
@@ -186,24 +186,14 @@ window.SCAM_CONTENT["investment-fraud"] = {
     <section class="card">
       <h2 data-sr="Ako pokušavaš da pomogneš nekome" data-en="If you are trying to help someone">Ako pokušavaš da pomogneš nekome</h2>
       <ul class="bullets">
-        <li data-sr="'Da li si ikad uspeo da povučeš novac sa ove platforme?'" data-en="'Have you ever successfully withdrawn money from this platform?'">'Da li si ikad uspeo da povučeš novac sa ove platforme?'</li>
-        <li data-sr="'Ko ti je preporučio ovu investiciju i da li je ta osoba zaradila?'" data-en="'Who recommended this investment to you and has that person actually earned?'">'Ko ti je preporučio ovu investiciju i da li je ta osoba zaradila?'</li>
-        <li data-sr="'Da li su tražili naknadu kada si pokušao da povučeš — zašto?'" data-en="'Did they ask for a fee when you tried to withdraw — why?'">'Da li su tražili naknadu kada si pokušao da povučeš — zašto?'</li>
-        <li data-sr="'Nijedna legitimna investiciona platforma ne garantuje prinos — to je zakonski zabranjeno.'" data-en="'No legitimate investment platform guarantees returns — that is legally prohibited.'">'Nijedna legitimna investiciona platforma ne garantuje prinos — to je zakonski zabranjeno.'</li>
-        <li data-sr="'Zajedno proverimo da li je ova platforma na listi upozorenja regulatora.'" data-en="'Let us check together whether this platform is on the regulator warning list.'">'Zajedno proverimo da li je ova platforma na listi upozorenja regulatora.'</li>
+        <li data-sr="Da li si ikad uspeo da povučeš novac sa ove platforme?" data-en="'Have you ever successfully withdrawn money from this platform?">Da li si ikad uspeo da povučeš novac sa ove platforme?</li>
+        <li data-sr="Ko ti je preporučio ovu investiciju i da li je ta osoba zaradila?" data-en="'Who recommended this investment to you and has that person actually earned?">Ko ti je preporučio ovu investiciju i da li je ta osoba zaradila?</li>
+        <li data-sr="Da li su tražili naknadu kada si pokušao da povučeš — zašto?" data-en="'Did they ask for a fee when you tried to withdraw — why?">Da li su tražili naknadu kada si pokušao da povučeš — zašto?</li>
+        <li data-sr="Nijedna legitimna investiciona platforma ne garantuje prinos — to je zakonski zabranjeno." data-en="'No legitimate investment platform guarantees returns — that is legally prohibited.">Nijedna legitimna investiciona platforma ne garantuje prinos — to je zakonski zabranjeno.</li>
+        <li data-sr="Zajedno proverimo da li je ova platforma na listi upozorenja regulatora." data-en="'Let us check together whether this platform is on the regulator warning list.">Zajedno proverimo da li je ova platforma na listi upozorenja regulatora.</li>
       </ul>
     </section>
 
-    <section class="card">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <ul class="bullets">
-        <li><a href="fake-broker-scam.html" data-sr="Lažni broker" data-en="Fake broker scam">Lažni broker</a></li>
-        <li><a href="clone-firm-scam.html" data-sr="Prevara sa klonom firme" data-en="Clone firm scam">Prevara sa klonom firme</a></li>
-        <li><a href="forex-scam.html" data-sr="Forex prevara" data-en="Forex scam">Forex prevara</a></li>
-        <li><a href="binary-options-scam.html" data-sr="Prevara sa binarnim opcijama" data-en="Binary options scam">Prevara sa binarnim opcijama</a></li>
-        <li><a href="crypto-scam.html" data-sr="Kripto prevara (Crypto scam)" data-en="Crypto scam">Kripto prevara (Crypto scam)</a></li>
-        <li><a href="recovery-scam.html" data-sr="Recovery prevara" data-en="Recovery scam">Recovery prevara</a></li>
-      </ul>
-    </section>
+    
   `
 };

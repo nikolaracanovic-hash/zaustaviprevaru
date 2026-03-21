@@ -26,7 +26,7 @@ window.SCAM_CONTENT["crowdfunding-scam"] = {
       <ul class="bullets">
         <li data-sr="Kampanja koristi autentično izgledeće fotografije, medicinska dokumenta ili slike pogođenih porodica." data-en="The campaign uses authentically looking photographs, medical documents, or images of affected families.">Kampanja koristi autentično izgledeće fotografije, medicinska dokumenta ili slike pogođenih porodica.</li>
         <li data-sr="Priča je detaljna i lična — daje specifična imena, mesta, datume i medicinsku istoriju." data-en="The story is detailed and personal — it gives specific names, places, dates, and medical history.">Priča je detaljna i lična — daje specifična imena, mesta, datume i medicinsku istoriju.</li>
-        <li data-sr="Kampanja prikazuje rok za prikupljanje — 'potrebujemo X do datuma ili ništa neće biti moguće„." data-en="The campaign displays a collection deadline — “we need X by the date or nothing will be possible.'">Kampanja prikazuje rok za prikupljanje — „potrebujemo X do datuma ili ništa neće biti moguće"“.</li>
+        <li data-sr="Kampanja prikazuje rok za prikupljanje — potrebujemo X do datuma ili ništa neće biti moguće." data-en="The campaign displays a collection deadline — we need X by the date or nothing will be possible.">Kampanja prikazuje rok za prikupljanje — potrebujemo X do datuma ili ništa neće biti moguće.</li>
         <li data-sr="Lažni komentari i lažne donacije izgledaju legitimno i povećavaju poverenje novih donatora." data-en="Fake comments and fake donations appear legitimate and increase the confidence of new donors.">Lažni komentari i lažne donacije izgledaju legitimno i povećavaju poverenje novih donatora.</li>
       </ul>
     </article>
@@ -51,7 +51,7 @@ window.SCAM_CONTENT["crowdfunding-scam"] = {
       <li data-sr="Kampanja može biti na legitimnoj platformi kao GoFundMe, Kickstarter ili domaćim ekvivalentima." data-en="The campaign may be on a legitimate platform like GoFundMe, Kickstarter, or domestic equivalents.">Kampanja može biti na legitimnoj platformi kao GoFundMe, Kickstarter ili domaćim ekvivalentima.</li>
       <li data-sr="Proverite ime pokretača kampanje nezavisnom pretragom pre doniranja." data-en="Verify the campaign organizer's name through independent search before donating.">Proverite ime pokretača kampanje nezavisnom pretragom pre doniranja.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Svaka kampanja koju ne možete nezavisno proveriti zahteva proveru pre doniranja." data-en="Phase threshold: Every campaign that you cannot independently verify requires verification before donating."><strong>Prag faze:</strong> Svaka kampanja koju ne možete nezavisno proveriti zahteva proveru pre doniranja.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Svaka kampanja koju ne možete nezavisno proveriti zahteva proveru pre doniranja." data-en="Phase threshold: Every campaign that you cannot independently verify requires verification before donating."><strong>Prag faze:</strong> Svaka kampanja koju ne možete nezavisno proveriti zahteva proveru pre doniranja.</div>
   </div>
 
   <div class="phase">
@@ -61,15 +61,15 @@ window.SCAM_CONTENT["crowdfunding-scam"] = {
       <li data-sr="Donacije od profila bez istorije ili s generalnim imenima mogu biti lažne." data-en="Donations from profiles without history or with generic names may be fake.">Donacije od profila bez istorije ili s generalnim imenima mogu biti lažne.</li>
       <li data-sr="Platforma ne može odmah proveriti legitimnost svake kampanje — verifikacija kasni." data-en="The platform cannot immediately verify the legitimacy of every campaign — verification lags.">Platforma ne može odmah proveriti legitimnost svake kampanje — verifikacija kasni.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Velika i brzo rastuća zbirka donacija ne znači legitimnost — proverite pokretača nezavisno." data-en="Phase threshold: A large and fast-growing donation total does not indicate legitimacy — verify the organizer independently."><strong>Prag faze:</strong> Velika i brzo rastuća zbirka donacija ne znači legitimnost — proverite pokretača nezavisno.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Velika i brzo rastuća zbirka donacija ne znači legitimnost — proverite pokretača nezavisno." data-en="Phase threshold: A large and fast-growing donation total does not indicate legitimacy — verify the organizer independently."><strong>Prag faze:</strong> Velika i brzo rastuća zbirka donacija ne znači legitimnost — proverite pokretača nezavisno.</div>
   </div>
 
   <div class="phase">
     <div class="label" data-sr="Faza 3: Podizanje novca" data-en="Phase 3: Money withdrawal">Faza 3: Podizanje novca</div>
-    <p data-sr="Prevarant podiže novac čim platforma to dozvoli ili čim se cilj dostigne. Na legitimnim platformama postoji period zadržavanja — ali prevarant može tražiti „hitno isplaćivanje“ ili koristiti lažne medicinske urgentnosti." data-en="The fraudster withdraws money as soon as the platform permits or the goal is reached. Legitimate platforms have a holding period — but the fraudster may request 'urgent disbursement' or use fake medical urgencies.">Prevarant podiže novac čim platforma to dozvoli ili čim se cilj dostigne. Na legitimnim platformama postoji period zadržavanja — ali prevarant može tražiti „hitno isplaćivanje" ili koristiti lažne medicinske urgentnosti“.</p>
+    <p data-sr="Prevarant podiže novac čim platforma to dozvoli ili čim se cilj dostigne. Na legitimnim platformama postoji period zadržavanja — ali prevarant može tražiti hitno isplaćivanje ili koristiti lažne medicinske urgentnosti." data-en="The fraudster withdraws money as soon as the platform permits or the goal is reached. Legitimate platforms have a holding period — but the fraudster may request 'urgent disbursement' or use fake medical urgencies.">Prevarant podiže novac čim platforma to dozvoli ili čim se cilj dostigne. Na legitimnim platformama postoji period zadržavanja — ali prevarant može tražiti hitno isplaćivanje ili koristiti lažne medicinske urgentnosti.</p>
     <ul class="bullets">
       <li data-sr="Platforma može povratiti donacije ako kampanja bude prijavljena kao lažna pre isplate." data-en="The platform can return donations if the campaign is reported as fake before disbursement.">Platforma može povratiti donacije ako kampanja bude prijavljena kao lažna pre isplate.</li>
-      <li data-sr="Prijavite sumnjive kampanje platforma pre dostizan ja cilja radi povećanja šanse za povrat." data-en="Report suspicious campaigns to the platform before the goal is reached to increase the chance of a refund.">Prijavite sumnjive kampanje platforma pre dostizanja cilja radi povećanja šanse za povrat.</li>
+      <li data-sr="Prijavite sumnjive kampanje platforma pre dostizanja cilja radi povećanja šanse za povrat." data-en="Report suspicious campaigns to the platform before the goal is reached to increase the chance of a refund.">Prijavite sumnjive kampanje platforma pre dostizanja cilja radi povećanja šanse za povrat.</li>
     </ul>
     <div class="branch">
       <strong data-sr="Grananja u ovoj fazi:" data-en="Branches at this phase:">Grananja u ovoj fazi:</strong>
@@ -78,7 +78,7 @@ window.SCAM_CONTENT["crowdfunding-scam"] = {
         <li data-sr="Prevarant podiže novac pre prijave → donatori gube mogućnost povrata." data-en="Fraudster withdraws money before the report → donors lose the option of recovery.">Prevarant podiže novac pre prijave → donatori gube mogućnost povrata.</li>
       </ul>
     </div>
-    <div class="callout" data-sr="Prag faze: Prijavite sumnjive kampanje platforma što ranije — svaka satnica pre isplate povećava šansu za povrat." data-en="Phase threshold: Report suspicious campaigns to the platform as early as possible — every hour before disbursement increases the chance of recovery."><strong>Prag faze:</strong> Prijavite sumnjive kampanje platforma što ranije — svaka satnica pre isplate povećava šansu za povrat.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Prijavite sumnjive kampanje platforma što ranije — svaka satnica pre isplate povećava šansu za povrat." data-en="Phase threshold: Report suspicious campaigns to the platform as early as possible — every hour before disbursement increases the chance of recovery."><strong>Prag faze:</strong> Prijavite sumnjive kampanje platforma što ranije — svaka satnica pre isplate povećava šansu za povrat.</div>
   </div>
 
   <div class="phase">
@@ -88,7 +88,7 @@ window.SCAM_CONTENT["crowdfunding-scam"] = {
       <li data-sr="Legitimne kampanje objavljuju regularno ažuriranje i posle prikupljanja sredstava." data-en="Legitimate campaigns post regular updates even after funds are collected.">Legitimne kampanje objavljuju regularno ažuriranje i posle prikupljanja sredstava.</li>
       <li data-sr="Nestanak bez izveštaja je definitivan signal da kampanja nije bila legitimna." data-en="Disappearance without reporting is a definitive signal that the campaign was not legitimate.">Nestanak bez izveštaja je definitivan signal da kampanja nije bila legitimna.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Prijavite platformi i policiji svaki slučaj kampanje bez izveštaja o trošenju prikupljenih sredstava." data-en="Phase threshold: Report to the platform and the police every campaign case without a report on spending the collected funds."><strong>Prag faze:</strong> Prijavite platformi i policiji svaki slučaj kampanje bez izveštaja o trošenju prikupljenih sredstava.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Prijavite platformi i policiji svaki slučaj kampanje bez izveštaja o trošenju prikupljenih sredstava." data-en="Phase threshold: Report to the platform and the police every campaign case without a report on spending the collected funds."><strong>Prag faze:</strong> Prijavite platformi i policiji svaki slučaj kampanje bez izveštaja o trošenju prikupljenih sredstava.</div>
   </div>
 
   <div class="phase">
@@ -98,7 +98,7 @@ window.SCAM_CONTENT["crowdfunding-scam"] = {
       <li data-sr="Pretraživanje slika iz kampanje može pokazati da su iste fotografije korišćene u prethodnim kampanjama." data-en="Searching the campaign's images may show the same photographs were used in previous campaigns.">Pretraživanje slika iz kampanje može pokazati da su iste fotografije korišćene u prethodnim kampanjama.</li>
       <li data-sr="Ime pokretača se menja između kampanja — ali stil pisanja i struktura priče mogu biti slični." data-en="The organizer's name changes between campaigns — but the writing style and story structure may be similar.">Ime pokretača se menja između kampanja — ali stil pisanja i struktura priče mogu biti slični.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Reverse-image pretraga fotografija iz kampanje je efikasan i brz test autentičnosti." data-en="Phase threshold: Reverse image search of campaign photographs is an effective and fast authenticity test."><strong>Prag faze:</strong> Reverse-image pretraga fotografija iz kampanje je efikasan i brz test autentičnosti.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Reverse-image pretraga fotografija iz kampanje je efikasan i brz test autentičnosti." data-en="Phase threshold: Reverse image search of campaign photographs is an effective and fast authenticity test."><strong>Prag faze:</strong> Reverse-image pretraga fotografija iz kampanje je efikasan i brz test autentičnosti.</div>
   </div>
 </section>
 
@@ -152,20 +152,12 @@ window.SCAM_CONTENT["crowdfunding-scam"] = {
 <section class="content-section">
   <h2 data-sr="Ako pokušavaš da pomogneš nekome" data-en="If you are trying to help someone">Ako pokušavaš da pomogneš nekome</h2>
   <ul class="bullets">
-    <li data-sr="Pitaj: „Da li si proverio da li postoje nezavisni dokazi za prikazanu situaciju u toj kampanji?“" data-en="Ask: 'Did you check whether there are independent proofs for the situation displayed in that campaign?'">Pitaj: „Da li si proverio da li postoje nezavisni dokazi za prikazanu situaciju u toj kampanji?“</li>
-    <li data-sr="Pitaj: „Ko ti je podelio tu kampanju — neko koga poznaješ lično ili nepoznata mreža?“" data-en="Ask: 'Who shared that campaign with you — someone you know personally or an unknown network?'">Pitaj: „Ko ti je podelio tu kampanju — neko koga poznaješ lično ili nepoznata mreža?“</li>
-    <li data-sr="Rečenice koje pomažu: „Emotivne priče na crowdfunding platformama nisu automatski tačne“.“ „Proveravanjem ne gubimo ništa — a to može biti razlika između gubitka i uspešne donacije“.“" data-en="Sentences that help: 'Emotional stories on crowdfunding platforms are not automatically true.' 'Verification costs nothing — and it can be the difference between a loss and a successful donation.'">Rečenice koje pomažu: „Emotivne priče na crowdfunding platformama nisu automatski tačne“.“ „Proveravanjem ne gubimo ništa — a to može biti razlika između gubitka i uspešne donacije“.“</li>
+    <li data-sr="Pitaj: Da li si proverio da li postoje nezavisni dokazi za prikazanu situaciju u toj kampanji?" data-en="Ask: Did you check whether there are independent proofs for the situation displayed in that campaign?">Pitaj: Da li si proverio da li postoje nezavisni dokazi za prikazanu situaciju u toj kampanji?</li>
+    <li data-sr="Pitaj: Ko ti je podelio tu kampanju — neko koga poznaješ lično ili nepoznata mreža?" data-en="Ask: Who shared that campaign with you — someone you know personally or an unknown network?">Pitaj: Ko ti je podelio tu kampanju — neko koga poznaješ lično ili nepoznata mreža?</li>
+    <li data-sr="Rečenice koje pomažu: Emotivne priče na crowdfunding platformama nisu automatski tačne. Proveravanjem ne gubimo ništa — a to može biti razlika između gubitka i uspešne donacije." data-en="Sentences that help: Emotional stories on crowdfunding platforms are not automatically true.' 'Verification costs nothing — and it can be the difference between a loss and a successful donation.">Rečenice koje pomažu: Emotivne priče na crowdfunding platformama nisu automatski tačne. Proveravanjem ne gubimo ništa — a to može biti razlika između gubitka i uspešne donacije.</li>
   </ul>
 </section>
 
-<section class="content-section">
-  <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-  <ul class="bullets">
-    <li><a href="charity-disaster-scam.html" data-sr="Lažna humanitarna organizacija — slične taktike u kontekstu katastrofa" data-en="Charity disaster scam — similar tactics in disaster context">Lažna humanitarna organizacija — slične taktike u kontekstu katastrofa</a></li>
-    <li><a href="disaster-relief-scam.html" data-sr="Prevara s pomoći u katastrofi — lažni fondovi za žrtve" data-en="Disaster relief scam — fake funds for victims">Prevara s pomoći u katastrofi — lažni fondovi za žrtve</a></li>
-    <li><a href="charity-scam.html" data-sr="Prevara s humanitarnom organizacijom — opštiji model lažnih donacija" data-en="Charity scam — general model of fake donations">Prevara s humanitarnom organizacijom — opštiji model lažnih donacija</a></li>
-    <li><a href="advance-fee-fraud.html" data-sr="Prevara avansnom naknadom — slični obrasci obmane i nestanka" data-en="Advance fee fraud — similar deception and disappearance patterns">Prevara avansnom naknadom — slični obrasci obmane i nestanka</a></li>
-  </ul>
-</section>
+
 `
 };

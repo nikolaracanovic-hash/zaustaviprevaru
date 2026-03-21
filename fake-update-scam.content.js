@@ -1,4 +1,4 @@
-﻿if (!window.SCAM_CONTENT) window.SCAM_CONTENT = {};
+if (!window.SCAM_CONTENT) window.SCAM_CONTENT = {};
 window.SCAM_CONTENT["fake-update-scam"] = {
   raw_html: `
 <section class="content-section">
@@ -11,7 +11,7 @@ window.SCAM_CONTENT["fake-update-scam"] = {
   <h2 data-sr="Model" data-en="Model">Model</h2>
   <div class="phase">
     <div class="label" data-sr="Lanac" data-en="Chain">Lanac</div>
-    <p data-sr="Obaveštenje/pop-up → „ažuriranje" → preuzimanje paketa → instalacija → malver aktivan → eksfiltracija ili ransomware" data-en="Notification/pop-up → update → download package → installation → malware active → exfiltration or ransomware">Obaveštenje/pop-up → „ažuriranje" → preuzimanje paketa → instalacija → malver aktivan → eksfiltracija ili ransomware</p>
+    <p data-sr="Obaveštenje/pop-up → ažuriranje → preuzimanje paketa → instalacija → malver aktivan → eksfiltracija ili ransomware" data-en="Notification/pop-up → update → download package → installation → malware active → exfiltration or ransomware">Obaveštenje/pop-up → ažuriranje → preuzimanje paketa → instalacija → malver aktivan → eksfiltracija ili ransomware</p>
   </div>
   <div class="callout">
     <strong data-sr="Prag:" data-en="Threshold:">Prag:</strong>
@@ -27,8 +27,8 @@ window.SCAM_CONTENT["fake-update-scam"] = {
       <ul class="bullets">
         <li data-sr="Pop-up ili obaveštenje vizuelno oponaša zvanična sistemska ili browser obaveštenja." data-en="The pop-up or notification visually mimics official system or browser notifications.">Pop-up ili obaveštenje vizuelno oponaša zvanična sistemska ili browser obaveštenja.</li>
         <li data-sr="Logo i boje kompanija poput Microsoft, Google, Adobe ili Oracle koriste se bez dozvole." data-en="Logos and colors of companies like Microsoft, Google, Adobe or Oracle are used without authorization.">Logo i boje kompanija poput Microsoft, Google, Adobe ili Oracle koriste se bez dozvole.</li>
-        <li data-sr="Tekst sadrži tehničke detalje — „verzija 118“.0“.2.", „kritična bezbednosna zakrpa", „CVE-2024-xxxxx"." data-en="The text contains technical details — version 118“.0“.2, critical security patch, CVE-2024-xxxxx.">Tekst sadrži tehničke detalje — „verzija 118“.0“.2", „kritična bezbednosna zakrpa", „CVE-2024-xxxxx"“.</li>
-        <li data-sr="Urgencija se gradi opisima kao što su „vaš uređaj je u opasnosti." ili „ažuriraj odmah"." data-en="Urgency is built with descriptions like your device is at risk or update immediately.">Urgencija se gradi opisima kao što su „vaš uređaj je u opasnosti" ili „ažuriraj odmah"“.</li>
+        <li data-sr="Tekst sadrži tehničke detalje — verzija 118.0.2, kritična bezbednosna zakrpa, CVE-2024-xxxxx." data-en="The text contains technical details — version 118.0.2, critical security patch, CVE-2024-xxxxx.">Tekst sadrži tehničke detalje — verzija 118.0.2, kritična bezbednosna zakrpa, CVE-2024-xxxxx.</li>
+        <li data-sr="Urgencija se gradi opisima kao što su vaš uređaj je u opasnosti ili ažuriraj odmah." data-en="Urgency is built with descriptions like your device is at risk or update immediately.">Urgencija se gradi opisima kao što su vaš uređaj je u opasnosti ili ažuriraj odmah.</li>
       </ul>
     </div>
     <div class="phase">
@@ -44,7 +44,7 @@ window.SCAM_CONTENT["fake-update-scam"] = {
 </section>
 
 <section class="content-section">
-  <h2 data-sr="Hronološki tok (faze + evolucije)." data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
+  <h2 data-sr="Hronološki tok (faze + evolucije)" data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
 
   <article class="phase">
     <h3 data-sr="Faza 1 — Prikazivanje lažnog obaveštenja" data-en="Phase 1 — Displaying the fake notification">Faza 1 — Prikazivanje lažnog obaveštenja</h3>
@@ -54,7 +54,7 @@ window.SCAM_CONTENT["fake-update-scam"] = {
       <li data-sr="Obaveštenje koristi zvanični logo i boje browser-a ili operativnog sistema kojeg napadač ciljano oponaša." data-en="The notification uses the official logo and colors of the browser or operating system the attacker specifically mimics.">Obaveštenje koristi zvanični logo i boje browser-a ili operativnog sistema kojeg napadač ciljano oponaša.</li>
       <li data-sr="Napadač prati koji browser korisnik koristi i prilagođava izgled obaveštenja tom browser-u." data-en="The attacker tracks which browser the user uses and adapts the notification appearance to that browser.">Napadač prati koji browser korisnik koristi i prilagođava izgled obaveštenja tom browser-u.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Korisnik veruje da obaveštenje dolazi od legitimnog sistema i razmatra klik." data-en="The user believes the notification comes from a legitimate system and considers clicking.">Korisnik veruje da obaveštenje dolazi od legitimnog sistema i razmatra klik.</span></div>
+    <div class="callout"><strong data-sr="Korisnik veruje da obaveštenje dolazi od legitimnog sistema i razmatra klik.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Korisnik veruje da obaveštenje dolazi od legitimnog sistema i razmatra klik." data-en="The user believes the notification comes from a legitimate system and considers clicking.">Korisnik veruje da obaveštenje dolazi od legitimnog sistema i razmatra klik.</span></div>
   </article>
 
   <article class="phase">
@@ -65,7 +65,7 @@ window.SCAM_CONTENT["fake-update-scam"] = {
       <li data-sr="Korisnik pokreće fajl jer veruje da instalira legitimno ažuriranje." data-en="The user runs the file believing they are installing a legitimate update.">Korisnik pokreće fajl jer veruje da instalira legitimno ažuriranje.</li>
       <li data-sr="Instalater traži administratorske privilegije — standardno za legitimna ažuriranja pa korisnik prihvata." data-en="The installer requests administrator privileges — standard for legitimate updates so the user accepts.">Instalater traži administratorske privilegije — standardno za legitimna ažuriranja pa korisnik prihvata.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Korisnik odobrava administratorske privilegije instalateru — malver ima pun pristup sistemu." data-en="The user approves administrator privileges to the installer — the malware has full system access.">Korisnik odobrava administratorske privilegije instalateru — malver ima pun pristup sistemu.</span></div>
+    <div class="callout"><strong data-sr="Korisnik odobrava administratorske privilegije instalateru — malver ima pun pristup sistemu.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Korisnik odobrava administratorske privilegije instalateru — malver ima pun pristup sistemu." data-en="The user approves administrator privileges to the installer — the malware has full system access.">Korisnik odobrava administratorske privilegije instalateru — malver ima pun pristup sistemu.</span></div>
     <div class="branch">
       <strong data-sr="Grananja u ovoj fazi:" data-en="Branching at this phase:">Grananja u ovoj fazi:</strong>
       <ul class="bullets">
@@ -83,7 +83,7 @@ window.SCAM_CONTENT["fake-update-scam"] = {
       <li data-sr="RAT (Remote Access Trojan) daje napadaču potpuni udaljeni pristup ekranu, fajlovima i kameri." data-en="RAT (Remote Access Trojan) gives the attacker complete remote access to the screen, files and camera.">RAT (Remote Access Trojan) daje napadaču potpuni udaljeni pristup ekranu, fajlovima i kameri.</li>
       <li data-sr="Ransomware šifruje fajlove i prikazuje poruku sa zahtevom za otkupninom." data-en="Ransomware encrypts files and displays a message with a ransom demand.">Ransomware šifruje fajlove i prikazuje poruku sa zahtevom za otkupninom.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Malver je perzistentan — ostaje aktivan i posle restarta sistema." data-en="The malware is persistent — it remains active even after system restart.">Malver je perzistentan — ostaje aktivan i posle restarta sistema.</span></div>
+    <div class="callout"><strong data-sr="Malver je perzistentan — ostaje aktivan i posle restarta sistema.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Malver je perzistentan — ostaje aktivan i posle restarta sistema." data-en="The malware is persistent — it remains active even after system restart.">Malver je perzistentan — ostaje aktivan i posle restarta sistema.</span></div>
   </article>
 
   <article class="phase">
@@ -94,7 +94,7 @@ window.SCAM_CONTENT["fake-update-scam"] = {
       <li data-sr="Kamera i mikrofon mogu biti aktivirani bez vidljivog indikatora ako je instaliran RAT." data-en="Camera and microphone may be activated without a visible indicator if a RAT is installed.">Kamera i mikrofon mogu biti aktivirani bez vidljivog indikatora ako je instaliran RAT.</li>
       <li data-sr="Ransomware prikazuje rok za plaćanje otkupnine i preti trajnim brisanjem ključa za dešifrovanje." data-en="Ransomware displays a ransom payment deadline and threatens permanent deletion of the decryption key.">Ransomware prikazuje rok za plaćanje otkupnine i preti trajnim brisanjem ključa za dešifrovanje.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Korisnik primećuje anomalije — neovlašćene transakcije, zaključane fajlove ili neobjašnjene poruke." data-en="The user notices anomalies — unauthorized transactions, locked files or unexplained messages.">Korisnik primećuje anomalije — neovlašćene transakcije, zaključane fajlove ili neobjašnjene poruke.</span></div>
+    <div class="callout"><strong data-sr="Korisnik primećuje anomalije — neovlašćene transakcije, zaključane fajlove ili neobjašnjene poruke.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Korisnik primećuje anomalije — neovlašćene transakcije, zaključane fajlove ili neobjašnjene poruke." data-en="The user notices anomalies — unauthorized transactions, locked files or unexplained messages.">Korisnik primećuje anomalije — neovlašćene transakcije, zaključane fajlove ili neobjašnjene poruke.</span></div>
   </article>
 
   <article class="phase">
@@ -105,7 +105,7 @@ window.SCAM_CONTENT["fake-update-scam"] = {
       <li data-sr="Korisnik traži na internetu simptome i dolazi do saznanja da je instalirao malver." data-en="The user searches online for the symptoms and discovers they installed malware.">Korisnik traži na internetu simptome i dolazi do saznanja da je instalirao malver.</li>
       <li data-sr="Ransomware poruka daje adresu kripto novčanika za plaćanje i uputstvo za oporavak." data-en="The ransomware message provides a crypto wallet address for payment and recovery instructions.">Ransomware poruka daje adresu kripto novčanika za plaćanje i uputstvo za oporavak.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Korisnik kontaktira IT podršku ili antivirusnu kompaniju za pomoć pri uklanjanju." data-en="The user contacts IT support or an antivirus company for help with removal.">Korisnik kontaktira IT podršku ili antivirusnu kompaniju za pomoć pri uklanjanju.</span></div>
+    <div class="callout"><strong data-sr="Korisnik kontaktira IT podršku ili antivirusnu kompaniju za pomoć pri uklanjanju.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Korisnik kontaktira IT podršku ili antivirusnu kompaniju za pomoć pri uklanjanju." data-en="The user contacts IT support or an antivirus company for help with removal.">Korisnik kontaktira IT podršku ili antivirusnu kompaniju za pomoć pri uklanjanju.</span></div>
   </article>
 
   <article class="phase">
@@ -116,7 +116,7 @@ window.SCAM_CONTENT["fake-update-scam"] = {
       <li data-sr="Backup fajlova koji su pravljeni pre infekcije su jedini pouzdan put povratka podataka bez plaćanja otkupnine." data-en="Backup files made before the infection are the only reliable way to recover data without paying the ransom.">Backup fajlova koji su pravljeni pre infekcije su jedini pouzdan put povratka podataka bez plaćanja otkupnine.</li>
       <li data-sr="Plaćanje ransomware otkupnine ne garantuje dešifrovanje i finansira dalje napade." data-en="Paying ransomware ransom does not guarantee decryption and funds further attacks.">Plaćanje ransomware otkupnine ne garantuje dešifrovanje i finansira dalje napade.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Sistem je očišćen i sve lozinke su promenjene sa čistog uređaja." data-en="The system is cleaned and all passwords are changed from a clean device.">Sistem je očišćen i sve lozinke su promenjene sa čistog uređaja.</span></div>
+    <div class="callout"><strong data-sr="Sistem je očišćen i sve lozinke su promenjene sa čistog uređaja.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Sistem je očišćen i sve lozinke su promenjene sa čistog uređaja." data-en="The system is cleaned and all passwords are changed from a clean device.">Sistem je očišćen i sve lozinke su promenjene sa čistog uređaja.</span></div>
   </article>
 </section>
 
@@ -131,7 +131,7 @@ window.SCAM_CONTENT["fake-update-scam"] = {
     <li data-sr="Obaveštenje tvrdi da je ažuriranje hitno i da bez njega uređaj nije zaštićen — standardna pritisna taktika." data-en="The notification claims the update is urgent and without it the device is unprotected — standard pressure tactic.">Obaveštenje tvrdi da je ažuriranje hitno i da bez njega uređaj nije zaštićen — standardna pritisna taktika.</li>
     <li data-sr="Instalater zahteva isključivanje antivirusnog programa za instalaciju." data-en="The installer requests disabling the antivirus program for installation.">Instalater zahteva isključivanje antivirusnog programa za instalaciju.</li>
     <li data-sr="Posle instalacije pojavljuju se neovlašćene prijave ili transakcije na nalozima." data-en="After installation unauthorized logins or transactions appear on accounts.">Posle instalacije pojavljuju se neovlašćene prijave ili transakcije na nalozima.</li>
-    <li data-sr="Sistem radi sporije ili se pregrejava bez vidljivog razloga posle „ažuriranja."." data-en="The system runs slower or overheats without visible reason after the update.">Sistem radi sporije ili se pregrejava bez vidljivog razloga posle „ažuriranja"“.</li>
+    <li data-sr="Sistem radi sporije ili se pregrejava bez vidljivog razloga posle ažuriranja." data-en="The system runs slower or overheats without visible reason after the update.">Sistem radi sporije ili se pregrejava bez vidljivog razloga posle ažuriranja.</li>
     <li data-sr="Legitimna aplikacija se ažurirala automatski ili kroz zvanični kanal pre nego što je stiglo obaveštenje." data-en="The legitimate app updated automatically or through its official channel before the notification arrived.">Legitimna aplikacija se ažurirala automatski ili kroz zvanični kanal pre nego što je stiglo obaveštenje.</li>
   </ul>
 </section>
@@ -197,16 +197,6 @@ window.SCAM_CONTENT["fake-update-scam"] = {
   </ul>
 </section>
 
-<section class="content-section">
-  <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-  <ul class="bullets">
-    <li><a href="malicious-app-scam.html" data-sr="Zlonamerna aplikacija — ista logika distribucije za mobilne uređaje." data-en="Malicious app scam — same distribution logic for mobile devices.">Zlonamerna aplikacija — ista logika distribucije za mobilne uređaje</a></li>
-    <li><a href="app-clone-scam.html" data-sr="Klon aplikacija — lažni update koji zamenjuje zvaničnu aplikaciju klonom." data-en="App clone scam — fake update that replaces the official app with a clone.">Klon aplikacija — lažni update koji zamenjuje zvaničnu aplikaciju klonom</a></li>
-    <li><a href="browser-extension-scam.html" data-sr="Zlonameran browser dodatak — lažni update koji instalira maliciozno proširenje." data-en="Browser extension scam — fake update that installs a malicious extension.">Zlonameran browser dodatak — lažni update koji instalira maliciozno proširenje</a></li>
-    <li><a href="scareware.html" data-sr="Scareware — lažni virusni skeneri koji koriste istu urgentnu taktiku." data-en="Scareware — fake virus scanners using the same urgent tactic.">Scareware — lažni virusni skeneri koji koriste istu urgentnu taktiku</a></li>
-    <li><a href="phishing.html" data-sr="Fišing — imejlovi koji distribuiraju lažne update linkove." data-en="Phishing — emails that distribute fake update links.">Fišing — imejlovi koji distribuiraju lažne update linkove</a></li>
-    <li><a href="account-takeover.html" data-sr="Preuzimanje naloga — direktna posledica uspešnog keyloggera." data-en="Account takeover — direct consequence of a successful keylogger.">Preuzimanje naloga — direktna posledica uspešnog keyloggera</a></li>
-  </ul>
-</section>
+
 `
 };

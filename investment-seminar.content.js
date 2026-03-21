@@ -9,14 +9,14 @@ window.SCAM_CONTENT["investment-seminar"] = {
       </h2>
 
       <p
-        data-sr="Prevara lažnog investicionog seminara koristi želju za finansijskom nezavisnošću. „Mentor” ili „guru” obećava tajne uspešnog investiranja: kripto, foreks, nekretnine, prodaja bez lagera. Besplatan vebinar služi kao filter i prodajni levak. Cilj je prodaja skupih kurseva, „ekskluzivnih” grupa, ili direktno uvlačenje u investicionu šemu."
-        data-en="Investment seminar scams use the desire for financial independence. A &quot;mentor&quot; or &quot;guru&quot; promises secrets to successful investing: crypto, forex, real estate, dropshipping. Free webinars serve as filters and sales funnels. The goal is selling expensive courses, &quot;exclusive&quot; groups, or directly pulling people into investment schemes."
-      >Prevara lažnog investicionog seminara koristi želju za finansijskom nezavisnošću. „Mentor” ili „guru” obećava tajne uspešnog investiranja: kripto, foreks, nekretnine, prodaja bez lagera. Besplatan vebinar služi kao filter i prodajni levak. Cilj je prodaja skupih kurseva, „ekskluzivnih” grupa, ili direktno uvlačenje u investicionu šemu.</p>
+        data-sr="Prevara lažnog investicionog seminara koristi želju za finansijskom nezavisnošću. Mentor ili guru obećava tajne uspešnog investiranja: kripto, foreks, nekretnine, prodaja bez lagera. Besplatan vebinar služi kao filter i prodajni levak. Cilj je prodaja skupih kurseva, ekskluzivnih grupa, ili direktno uvlačenje u investicionu šemu."
+        data-en="Investment seminar scams use the desire for financial independence. A mentor or guru promises secrets to successful investing: crypto, forex, real estate, dropshipping. Free webinars serve as filters and sales funnels. The goal is selling expensive courses, exclusive groups, or directly pulling people into investment schemes."
+      >Prevara lažnog investicionog seminara koristi želju za finansijskom nezavisnošću. Mentor ili guru obećava tajne uspešnog investiranja: kripto, foreks, nekretnine, prodaja bez lagera. Besplatan vebinar služi kao filter i prodajni levak. Cilj je prodaja skupih kurseva, ekskluzivnih grupa, ili direktno uvlačenje u investicionu šemu.</p>
 
       <p
-        data-sr="Šteta se realizuje kroz tri nivoa: (1) prodaja kurseva bez vrednosti — sadržaj je generički i besplatno dostupan na internetu, (2) prodaja skupljih nivoa kroz „mentorstvo” ili „ekskluzivne grupe”, (3) uvlačenje u investicione prevare kao „najbolje polaznike” ili „partnere”. Model kombinuje avansnu uplatu (uplata za obećanje) i Ponzi elemente (priča o prinosima)."
-        data-en="Damage occurs through three levels: (1) selling worthless courses — content is generic and freely available online, (2) upselling into expensive &quot;mentorship&quot; or &quot;VIP groups&quot;, (3) pulling into investment scams as &quot;top students&quot; or &quot;partners&quot;. The model combines advance-fee (payment for promise) and ponzi elements (returns narrative)."
-      >Šteta se realizuje kroz tri nivoa: (1) prodaja kurseva bez vrednosti — sadržaj je generički i besplatno dostupan na internetu, (2) prodaja skupljih nivoa kroz „mentorstvo” ili „ekskluzivne grupe”, (3) uvlačenje u investicione prevare kao „najbolje polaznike” ili „partnere”. Model kombinuje avansnu uplatu (uplata za obećanje) i Ponzi elemente (priča o prinosima).</p>
+        data-sr="Šteta se realizuje kroz tri nivoa: (1) prodaja kurseva bez vrednosti — sadržaj je generički i besplatno dostupan na internetu, (2) prodaja skupljih nivoa kroz mentorstvo ili ekskluzivne grupe, (3) uvlačenje u investicione prevare kao najbolje polaznike ili partnere. Model kombinuje avansnu uplatu (uplata za obećanje) i Ponzi elemente (priča o prinosima)."
+        data-en="Damage occurs through three levels: (1) selling worthless courses — content is generic and freely available online, (2) upselling into expensive mentorship or VIP groups, (3) pulling into investment scams as top students or partners. The model combines advance-fee (payment for promise) and ponzi elements (returns narrative)."
+      >Šteta se realizuje kroz tri nivoa: (1) prodaja kurseva bez vrednosti — sadržaj je generički i besplatno dostupan na internetu, (2) prodaja skupljih nivoa kroz mentorstvo ili ekskluzivne grupe, (3) uvlačenje u investicione prevare kao najbolje polaznike ili partnere. Model kombinuje avansnu uplatu (uplata za obećanje) i Ponzi elemente (priča o prinosima).</p>
 
       <div class="callout"
         data-sr="<strong>Model:</strong> besplatni vebinar → prodajni pritisak → uplata za kurs → prag → prodaja skupljih nivoa → moguća investiciona prevara." data-en="<strong>Model:</strong> free webinar → sales pressure → course payment → threshold → upsell to higher levels → potential investment scam."
@@ -31,17 +31,17 @@ window.SCAM_CONTENT["investment-seminar"] = {
 
       <div class="grid-2">
         <div class="phase">
-          <div class="label" data-sr="Kripto / foreks „guru." data-en="Crypto / forex &quot;guru&quot;">Kripto / foreks „guru“</div>
+          <div class="label" data-sr="Kripto / foreks guru" data-en="Crypto / forex guru">Kripto / foreks guru</div>
           <ul class="bullets">
             <li data-sr="obećani prinosi: 100%+ godišnje." data-en="promised returns: 100%+ annually.">obećani prinosi: 100%+ godišnje.</li>
-            <li data-sr="„tajne strategije“ koje koriste veliki igrači." data-en="&quot;secret strategies&quot; used by big players.">„tajne strategije“ koje koriste veliki igrači.</li>
+            <li data-sr="tajne strategije koje koriste veliki igrači." data-en="secret strategies used by big players.">tajne strategije koje koriste veliki igrači.</li>
             <li data-sr="signali, lažni nalozi, automatsko trgovanje." data-en="signals, fake accounts, automated trading.">signali, lažni nalozi, automatsko trgovanje.</li>
           </ul>
         </div>
         <div class="phase">
           <div class="label" data-sr="Nekretnine / preprodaja" data-en="Real estate / flipping">Nekretnine / preprodaja</div>
           <ul class="bullets">
-            <li data-sr="kupovina i prodaja nekretnina „bez kapitala." data-en="buying and selling property &quot;without capital&quot;">kupovina i prodaja nekretnina „bez kapitala“.</li>
+            <li data-sr="kupovina i prodaja nekretnina bez kapitala." data-en="buying and selling property without capital">kupovina i prodaja nekretnina bez kapitala.</li>
             <li data-sr="tajne pregovaranja i finansiranja." data-en="negotiation and financing secrets.">tajne pregovaranja i finansiranja.</li>
             <li data-sr="studije slučaja bez dokaza." data-en="case studies without proof.">studije slučaja bez dokaza.</li>
           </ul>
@@ -49,16 +49,16 @@ window.SCAM_CONTENT["investment-seminar"] = {
         <div class="phase">
           <div class="label" data-sr="Prodaja bez lagera / onlajn prodavnica" data-en="Dropshipping / e-commerce">Prodaja bez lagera / onlajn prodavnica</div>
           <ul class="bullets">
-            <li data-sr="„pasivni prihod“ od onlajn prodavnice." data-en="&quot;passive income&quot; from online store.">„pasivni prihod“ od onlajn prodavnice.</li>
+            <li data-sr="pasivni prihod od onlajn prodavnice." data-en="passive income from online store.">pasivni prihod od onlajn prodavnice.</li>
             <li data-sr="alati i dobavljači za pretplatu." data-en="tools and suppliers for subscription.">alati i dobavljači za pretplatu.</li>
-            <li data-sr="„dokazani šabloni“ bez garancije." data-en="&quot;proven templates&quot; without guarantee.">„dokazani šabloni“ bez garancije.</li>
+            <li data-sr="dokazani šabloni bez garancije." data-en="proven templates without guarantee.">dokazani šabloni bez garancije.</li>
           </ul>
         </div>
         <div class="phase">
           <div class="label" data-sr="MLM hibrid" data-en="MLM hybrid">MLM hibrid</div>
           <ul class="bullets">
-            <li data-sr="investicija + regrutovanje novih člažna." data-en="investment + recruiting new members.">investicija + regrutovanje novih člažna.</li>
-            <li data-sr="„bonusi“ za dovođenje prijatelja." data-en="&quot;bonuses&quot; for bringing friends.">„bonusi“ za dovođenje prijatelja.</li>
+            <li data-sr="investicija + regrutovanje novih članova." data-en="investment + recruiting new members.">investicija + regrutovanje novih članova.</li>
+            <li data-sr="bonusi za dovođenje prijatelja." data-en="bonuses for bringing friends.">bonusi za dovođenje prijatelja.</li>
             <li data-sr="fokus na mrežu umesto na proizvod/rezultat." data-en="focus on network instead of product/result.">fokus na mrežu umesto na proizvod/rezultat.</li>
           </ul>
         </div>
@@ -78,13 +78,13 @@ window.SCAM_CONTENT["investment-seminar"] = {
         </h3>
 
         <p
-          data-sr="Oglas na društvenim mrežama ili YouTube obećava „besplatne tajne” uspešnog investiranja. Vebinar je dizajniran da izgradi kredibilitet „mentora” i stvori strah da ćeš propustiti priliku. Sadržaj je površan, pravi cilj je prodaja."
-          data-en="Social media or YouTube ads promise &quot;free secrets&quot; to successful investing. The webinar is designed to build &quot;mentor&quot; credibility and create FOMO (fear of missing out). Content is shallow, the real goal is sales."
-        >Oglas na društvenim mrežama ili YouTube obećava „besplatne tajne” uspešnog investiranja. Vebinar je dizajniran da izgradi kredibilitet „mentora” i stvori strah da ćeš propustiti priliku. Sadržaj je površan, pravi cilj je prodaja.</p>
+          data-sr="Oglas na društvenim mrežama ili YouTube obećava besplatne tajne uspešnog investiranja. Vebinar je dizajniran da izgradi kredibilitet mentora i stvori strah da ćeš propustiti priliku. Sadržaj je površan, pravi cilj je prodaja."
+          data-en="Social media or YouTube ads promise free secrets to successful investing. The webinar is designed to build mentor credibility and create FOMO (fear of missing out). Content is shallow, the real goal is sales."
+        >Oglas na društvenim mrežama ili YouTube obećava besplatne tajne uspešnog investiranja. Vebinar je dizajniran da izgradi kredibilitet mentora i stvori strah da ćeš propustiti priliku. Sadržaj je površan, pravi cilj je prodaja.</p>
 
         <ul class="bullets">
           <li data-sr="luksuzan život kao dokaz uspeha." data-en="luxury lifestyle as proof of success.">luksuzan život kao dokaz uspeha.</li>
-          <li data-sr="svedočenja „uspešnih polaznika." data-en="testimonials from &quot;successful students&quot;">svedočenja „uspešnih polaznika“.</li>
+          <li data-sr="svedočenja uspešnih polaznika." data-en="testimonials from successful students">svedočenja uspešnih polaznika.</li>
           <li data-sr="ograničeno vreme / broj mesta." data-en="limited time / number of spots.">ograničeno vreme / broj mesta.</li>
         </ul>
       </article>
@@ -96,14 +96,14 @@ window.SCAM_CONTENT["investment-seminar"] = {
         </h3>
 
         <p
-          data-sr="Na kraju vebinara stiže „specijalna ponuda”: kurs ili program sa velikim popustom koji važi „samo danas”. Prava cena se prikazuje kao „investicija u sebe” sa garantovanim povratom. Pritisak uključuje tajmer, ograničena mesta i priče o propuštenoj prilici."
-          data-en="At webinar's end comes a &quot;special offer&quot;: course or program with big discount valid &quot;only today&quot;. The real price is framed as &quot;investing in yourself&quot; with guaranteed returns. Pressure includes timer, limited spots, and stories of missed opportunities."
-        >Na kraju vebinara stiže „specijalna ponuda”: kurs ili program sa velikim popustom koji važi „samo danas”. Prava cena se prikazuje kao „investicija u sebe” sa garantovanim povratom. Pritisak uključuje tajmer, ograničena mesta i priče o propuštenoj prilici.</p>
+          data-sr="Na kraju vebinara stiže specijalna ponuda: kurs ili program sa velikim popustom koji važi samo danas. Prava cena se prikazuje kao investicija u sebe sa garantovanim povratom. Pritisak uključuje tajmer, ograničena mesta i priče o propuštenoj prilici."
+          data-en="At webinar's end comes a special offer: course or program with big discount valid only today. The real price is framed as investing in yourself with guaranteed returns. Pressure includes timer, limited spots, and stories of missed opportunities."
+        >Na kraju vebinara stiže specijalna ponuda: kurs ili program sa velikim popustom koji važi samo danas. Prava cena se prikazuje kao investicija u sebe sa garantovanim povratom. Pritisak uključuje tajmer, ograničena mesta i priče o propuštenoj prilici.</p>
 
         <ul class="bullets">
-          <li data-sr="„redovna cena 2000 EUR, danas samo 497 EUR." data-en="&quot;regular price €2000, today only €497&quot;">„redovna cena 2000 EUR, danas samo 497 EUR“.</li>
-          <li data-sr="„samo još 5 mesta." data-en="&quot;only 5 spots left&quot;">„samo još 5 mesta“.</li>
-          <li data-sr="„investicija koja se vraća 10x." data-en="&quot;investment that returns 10x&quot;">„investicija koja se vraća 10x“.</li>
+          <li data-sr="redovna cena 2000 EUR, danas samo 497 EUR." data-en="regular price €2000, today only €497">redovna cena 2000 EUR, danas samo 497 EUR.</li>
+          <li data-sr="samo još 5 mesta." data-en="only 5 spots left">samo još 5 mesta.</li>
+          <li data-sr="investicija koja se vraća 10x." data-en="investment that returns 10x">investicija koja se vraća 10x.</li>
         </ul>
       </article>
 
@@ -129,14 +129,14 @@ window.SCAM_CONTENT["investment-seminar"] = {
         </h3>
 
         <p
-          data-sr="Posle osnovnog kursa stiže ponuda za „napredni nivo”, „1-na-1 mentorstvo”, ili „ekskluzivnu grupu”. Cene rastu: 1000, 5000, 10000+ EUR. Obećanje: direktan pristup mentoru, ekskluzivne strategije, zajednica uspešnih."
-          data-en="After the basic course comes an offer for &quot;advanced level&quot;, &quot;1-on-1 mentorship&quot;, or &quot;VIP group&quot;. Prices rise: €1000, €5000, €10000+. Promise: direct mentor access, exclusive strategies, community of successful people."
-        >Posle osnovnog kursa stiže ponuda za „napredni nivo”, „1-na-1 mentorstvo”, ili „ekskluzivnu grupu”. Cene rastu: 1000, 5000, 10000+ EUR. Obećanje: direktan pristup mentoru, ekskluzivne strategije, zajednica uspešnih.</p>
+          data-sr="Posle osnovnog kursa stiže ponuda za napredni nivo, 1-na-1 mentorstvo, ili ekskluzivnu grupu. Cene rastu: 1000, 5000, 10000+ EUR. Obećanje: direktan pristup mentoru, ekskluzivne strategije, zajednica uspešnih."
+          data-en="After the basic course comes an offer for advanced level, 1-on-1 mentorship, or VIP group. Prices rise: €1000, €5000, €10000+. Promise: direct mentor access, exclusive strategies, community of successful people."
+        >Posle osnovnog kursa stiže ponuda za napredni nivo, 1-na-1 mentorstvo, ili ekskluzivnu grupu. Cene rastu: 1000, 5000, 10000+ EUR. Obećanje: direktan pristup mentoru, ekskluzivne strategije, zajednica uspešnih.</p>
 
         <ul class="bullets">
-          <li data-sr="„napredni nivo za ozbiljne investitore." data-en="&quot;advanced level for serious investors&quot;">„napredni nivo za ozbiljne investitore“.</li>
-          <li data-sr="„1-na-1 mentorstvo — ograničeno na 10 osoba." data-en="&quot;1-on-1 mentorship — limited to 10 people&quot;">„1-na-1 mentorstvo — ograničeno na 10 osoba“.</li>
-          <li data-sr="„ekskluzivna grupa sa ekskluzivnim signalima." data-en="&quot;VIP group with exclusive signals&quot;">„ekskluzivna grupa sa ekskluzivnim signalima“.</li>
+          <li data-sr="napredni nivo za ozbiljne investitore." data-en="advanced level for serious investors">napredni nivo za ozbiljne investitore.</li>
+          <li data-sr="1-na-1 mentorstvo — ograničeno na 10 osoba." data-en="1-on-1 mentorship — limited to 10 people">1-na-1 mentorstvo — ograničeno na 10 osoba.</li>
+          <li data-sr="ekskluzivna grupa sa ekskluzivnim signalima." data-en="VIP group with exclusive signals">ekskluzivna grupa sa ekskluzivnim signalima.</li>
         </ul>
       </article>
 
@@ -147,9 +147,9 @@ window.SCAM_CONTENT["investment-seminar"] = {
         </h3>
 
         <p
-          data-sr="Na najvišem nivou „mentor" može da pozove „najbolje studente" da investiraju direktno u njegovu platformu, fond, ili projekat“. Ovo je često prelazak u klasičnu investicionu prevaru (kripto, Ponzi, pump-and-dump)."
+          data-sr="Na najvišem nivou mentor može da pozove najbolje studente da investiraju direktno u njegovu platformu, fond, ili projekat. Ovo je često prelazak u klasičnu investicionu prevaru (kripto, Ponzi, pump-and-dump)."
           data-en="At the highest level, the "mentor" may invite "top students" to invest directly in their platform, fund, or project. This is often a transition into classic investment fraud (crypto, Ponzi, pump-and-dump)."
-        >Na najvišem nivou „mentor" može da pozove „najbolje studente" da investiraju direktno u njegovu platformu, fond, ili projekat“. Ovo je često prelazak u klasičnu investicionu prevaru (kripto, Ponzi, pump-and-dump).</p>
+        >Na najvišem nivou mentor može da pozove najbolje studente da investiraju direktno u njegovu platformu, fond, ili projekat. Ovo je često prelazak u klasičnu investicionu prevaru (kripto, Ponzi, pump-and-dump).</p>
 
         <div class="branch">
           <p><strong data-sr="Grananja" data-en="Branching">Grananja</strong></p>
@@ -168,8 +168,8 @@ window.SCAM_CONTENT["investment-seminar"] = {
       </h2>
 
       <ul class="bullets">
-        <li data-sr="garantovani prinosi ili „dokazane strategije." data-en="guaranteed returns or &quot;proven strategies&quot;">garantovani prinosi ili „dokazane strategije“.</li>
-        <li data-sr="pritisak da se kupi „danas." data-en="pressure to buy &quot;today&quot; with big discount.">pritisak da se kupi „danas“ sa velikim popustom.</li>
+        <li data-sr="garantovani prinosi ili dokazane strategije." data-en="guaranteed returns or proven strategies">garantovani prinosi ili dokazane strategije.</li>
+        <li data-sr="pritisak da se kupi danas sa velikim popustom." data-en="pressure to buy today with big discount.">pritisak da se kupi danas sa velikim popustom.</li>
         <li data-sr="luksuzan život kao glavni dokaz uspeha." data-en="luxury lifestyle as main proof of success.">luksuzan život kao glavni dokaz uspeha.</li>
         <li data-sr="testimonijali bez nezavisne verifikacije." data-en="testimonials without independent verification.">testimonijali bez nezavisne verifikacije.</li>
         <li data-sr="fokus na regrutovanje umesto na rezultate." data-en="focus on recruiting instead of results.">fokus na regrutovanje umesto na rezultate.</li>
@@ -177,7 +177,7 @@ window.SCAM_CONTENT["investment-seminar"] = {
       </ul>
 
       <div class="callout"
-        data-sr="<strong>Test:</strong> Ako je većina sadržaja o tome kako je mentor uspešan, a ne o metodologiji — to je prodajna prezentacija, ne edukacija." data-en="<strong>Test:</strong> If most content is about how successful the mentor is, not methodology — it's a sales pitch, not education."
+        data-sr="<strong>Test:</strong> ako je vecina sadrzaja o tome koliko je mentor uspesan, a ne o metodologiji — to je prodaja, ne edukacija." data-en="<strong>Test:</strong> If most content is about how successful the mentor is, not methodology — it's a sales pitch, not education."
       ><strong>Test:</strong> Ako je većina sadržaja o tome kako je mentor uspešan, a ne o metodologiji — to je prodajna prezentacija, ne edukacija.</div>
     </section>
 
@@ -206,8 +206,8 @@ window.SCAM_CONTENT["investment-seminar"] = {
         <li data-sr="Konsultuj finansijskog savetnika van kompanije pre ulaganja." data-en="Consult a financial adviser outside the company before any investment.">Konsultuj finansijskog savetnika van kompanije pre ulaganja.</li>
         <li data-sr="Proveri da li mozesh da povuces novac odmah i bez kazne." data-en="Check whether you can withdraw money immediately and without penalty.">Proveri da li mozesh da povuces novac odmah i bez kazne.</li>
         <li data-sr="Pitaj za pisani ugovor i ne potpisuj dok ga advokat ne pregleda." data-en="Ask for a written contract and do not sign until a lawyer reviews it.">Pitaj za pisani ugovor i ne potpisuj dok ga advokat ne pregleda.</li>
-        <li data-sr="Proveriti da li se adresa firme zaista postoji na zvanicnim mapama." data-en="Verify whether the company address actually exists on official maps.">Proveriti da li se adresa firme zaista postoji na zvanicnim mapama.</li>
-        <li data-sr="Prinos koji se obecava mora biti realistican." data-en="The promised return must be realistic.">Prinos koji se obecava mora biti realistican.</li>
+        <li data-sr="Proveri da li adresa firme zaista postoji na zvaničnim mapama." data-en="Verify whether the company address actually exists on official maps.">Proveri da li adresa firme zaista postoji na zvaničnim mapama.</li>
+        <li data-sr="Prinos koji se obećava mora biti realističan." data-en="The promised return must be realistic.">Prinos koji se obećava mora biti realističan.</li>
       </ol>
     </section>
 
@@ -224,7 +224,7 @@ window.SCAM_CONTENT["investment-seminar"] = {
         <li data-sr="Da li je strategija ulaganja jasno objasnjena?" data-en="Is the investment strategy clearly explained?">Da li je strategija ulaganja jasno objasnjena?</li>
         <li data-sr="Da li je lako povuci novac kad zelim, bez naknada?" data-en="Is it easy to withdraw money when I want, without fees?">Da li je lako povuci novac kad zelim, bez naknada?</li>
         <li data-sr="Da li sam proverio referentne klijente nezavisno od kompanije?" data-en="Have I verified reference clients independently of the company?">Da li sam proverio referentne klijente nezavisno od kompanije?</li>
-        <li data-sr="Da li mi je kompanija preporucena od nekoga ko je vec ulozio?" data-en="Was the company recommended to me by someone who has already invested?">Da li mi je kompanija preporucena od nekoga ko je vec ulozio?</li>
+        <li data-sr="Da li mi je kompanija preporučena od nekoga ko je već uložio?" data-en="Was the company recommended to me by someone who has already invested?">Da li mi je kompanija preporučena od nekoga ko je već uložio?</li>
         <li data-sr="Da li obecani prinos nadmasuje trzisni prosek bez objasnjenja?" data-en="Does the promised return exceed market average without explanation?">Da li obecani prinos nadmasuje trzisni prosek bez objasnjenja?</li>
         <li data-sr="Da li mi je data pisana dokumentacija pre potpisivanja?" data-en="Was I given written documentation before signing?">Da li mi je data pisana dokumentacija pre potpisivanja?</li>
       </ul>
@@ -245,42 +245,25 @@ window.SCAM_CONTENT["investment-seminar"] = {
 
     <!-- AKO POMAŽES NEKOME -->
     <section class="content-section">
-      <h2 data-sr="Ako pokušavaš da pomogneš nekome" data-en="If you are trying to help someone">Ako pokusavas da pomognes nekome</h2>
+      <h2 data-sr="Ako pokusavas da pomognes nekome" data-en="If you are trying to help someone">Ako pokusavas da pomognes nekome</h2>
       <ul class="bullets">
         <li data-sr="Da li su prisustvovali seminaru i odmah platili pod pritiskom?" data-en="Did they attend the seminar and immediately pay under pressure?">Da li su prisustvovali seminaru i odmah platili pod pritiskom?</li>
         <li data-sr="Da li dobijaju redovne prinose koji ih drze uverenim da je ulaganje legitimno?" data-en="Are they receiving regular returns that keep them convinced the investment is legitimate?">Da li dobijaju redovne prinose koji ih drze uverenim da je ulaganje legitimno?</li>
         <li data-sr="Da li osecaju pritisak da regrutuju prijatelje u isti program?" data-en="Do they feel pressure to recruit friends into the same program?">Da li osecaju pritisak da regrutuju prijatelje u isti program?</li>
         <li data-sr="Da li su proveravali kompaniju kod regulatora ili advokata?" data-en="Have they checked the company with the regulator or a lawyer?">Da li su proveravali kompaniju kod regulatora ili advokata?</li>
       </ul>
-      <p data-sr="Recenice koje rade:" data-en="Sentences that help:">Recenice koje rade:</p>
+      <p data-sr="Rečenice koje rade:" data-en="Sentences that help:">Rečenice koje rade:</p>
       <ul class="bullets">
-        <li data-sr="Hajde da proverimo da li je kompanija registrovana kod regulatora — traže pet minuta." data-en="Let us check whether the company is registered with the regulator — it takes five minutes.">Hajde da proverimo da li je kompanija registrovana kod regulatora — traže pet minuta.</li>
-        <li data-sr="Prinos koji ne varira s trzicem je matematicki sumnjiv." data-en="Returns that do not vary with the market are mathematically suspicious.">Prinos koji ne varira s trzicem je matematicki sumnjiv.</li>
-        <li data-sr="Pokusaj da povuces deo novca — ako odbijaju ili odlazu, to je jasan znak." data-en="Try to withdraw part of the money — if they refuse or delay, that is a clear sign.">Pokusaj da povuces deo novca — ako odbijaju ili odlazu, to je jasan znak.</li>
+        <li data-sr="Hajde da proverimo da li je kompanija registrovana kod regulatora — treba pet minuta." data-en="Let us check whether the company is registered with the regulator — it takes five minutes.">Hajde da proverimo da li je kompanija registrovana kod regulatora — treba pet minuta.</li>
+        <li data-sr="Prinos koji ne varira s tržištem je matematički sumnjiv." data-en="Returns that do not vary with the market are mathematically suspicious.">Prinos koji ne varira s tržištem je matematički sumnjiv.</li>
+        <li data-sr="Pokušaj da povučeš deo novca — ako odbijaju ili odlažu, to je jasan znak." data-en="Try to withdraw part of the money — if they refuse or delay, that is a clear sign.">Pokušaj da povučeš deo novca — ako odbijaju ili odlažu, to je jasan znak.</li>
         <li data-sr="Nije kasno da prestanes da ulazes — gubitak postoji, ali može biti manji." data-en="It is not too late to stop investing — the loss exists, but it can be smaller.">Nije kasno da prestanes da ulazes — gubitak postoji, ali može biti manji.</li>
       </ul>
     </section>
 
     <!-- POVEZANE PREVARE -->
-    <section class="content-section">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <ul class="bullets">
-        <li><a href="ponzi-scheme.html" data-sr="Ponzi sema — pasivna investiciona prevara" data-en="Ponzi scheme — passive investment fraud">Ponzi sema — pasivna investiciona prevara</a></li>
-        <li><a href="pyramid-scheme.html" data-sr="Piramidalna sema — regrutovanje novih clažna" data-en="Pyramid scheme — recruitment of new members">Piramidalna sema — regrutovanje novih clažna</a></li>
-        <li><a href="crypto-scam.html" data-sr="Kripto investicione prevare" data-en="Crypto investment scams">Kripto investicione prevare</a></li>
-        <li><a href="advance-fee-fraud.html" data-sr="Prevara avansnom naknadom" data-en="Advance fee fraud">Prevara avansnom naknadom</a></li>
-        <li><a href="pig-butchering.html" data-sr="Pig butchering — kripto investicione prevare dugog ciklusa" data-en="Pig butchering — long-cycle crypto investment scams">Pig butchering — kripto investicione prevare dugog ciklusa</a></li>
-      </ul>
-    </section>
+    
 
 <!-- 6) IZVORI -->
-    <section class="card sources" id="sources">
-      <h2 data-sr="Izvori" data-en="Sources">Izvori</h2>
-      <ul>
-        <li><a href="https://consumer.ftc.gov/articles/multi-level-marketing-businesses-and-pyramid-schemes" target="_blank" rel="noopener noreferrer">FTC — Multi-level marketing and pyramid schemes</a></li>
-        <li><a href="https://www.sec.gov/ulagač/pubs/ulagačguide.htm" target="_blank" rel="noopener noreferrer">SEC — Investment fraud guide</a></li>
-        <li><a href="https://www.fbi.gov/how-we-can-help-you/scams-and-safety/common-frauds-and-scams" target="_blank" rel="noopener noreferrer">FBI — Investment scams</a></li>
-      </ul>
-    </section>
-  `
+`
 };

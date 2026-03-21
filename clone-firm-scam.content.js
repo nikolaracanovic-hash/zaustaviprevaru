@@ -3,10 +3,10 @@ window.SCAM_CONTENT = window.SCAM_CONTENT || {};
 window.SCAM_CONTENT["clone-firm-scam"] = {
   raw_html: `
     <section class="card">
-      <h2 data-sr="Uvod: kako radi prevara sa klonom firme" data-en="Introduction: how the clone firm scam works">Uvod: kako radi Prevara sa klonom firme</h2>
+      <h2 data-sr="Uvod: kako radi Prevara sa klonom firme" data-en="Introduction: how the clone firm scam works">Uvod: kako radi Prevara sa klonom firme</h2>
       <p data-sr="Napadač kopira naziv, logo i registracione podatke legitimne, regulisane finansijske firme. Kreira lažan sajt sa istim podacima ali drugačijim kontakt detaljima. Žrtva misli da posluje sa poznatom firmom — novac ide napadaču." data-en="The attacker copies the name, logo and registration details of a legitimate, regulated financial firm. Creates a fake site with the same data but different contact details. The victim thinks they are dealing with a known firm — the money goes to the attacker.">Napadač kopira naziv, logo i registracione podatke legitimne, regulisane finansijske firme. Kreira lažan sajt sa istim podacima ali drugačijim kontakt detaljima. Žrtva misli da posluje sa poznatom firmom — novac ide napadaču.</p>
-      <div class="callout" data-sr="&lt;strong&gt;Model:&lt;/strong&gt; Lažna firma → kopija licence/registracije → uplata → nestanak ili odbijanje isplate." data-en="&lt;strong&gt;Model:&lt;/strong&gt; Fake firm → copied licence/registration → payment → disappearance or withdrawal refusal."><strong>Model:</strong> Lažna firma → kopija licence/registracije → uplata → nestanak ili odbijanje isplate.</div>
-      <div class="callout" data-sr="&lt;strong&gt;Prag:&lt;/strong&gt; Uplata na nalog koji kontroliše napadač. Firma izgleda legitimno ali nema regulatornu obavezu." data-en="&lt;strong&gt;Threshold:&lt;/strong&gt; Payment to an account controlled by the attacker. The firm looks legitimate but has no regulatory obligation."><strong>Prag:</strong> Uplata na nalog koji kontroliše napadač. Firma izgleda legitimno ali nema regulatornu obavezu.</div>
+      <div class="callout" data-sr="<strong>Model:</strong> Lažna firma → kopija licence/registracije → uplata → nestanak ili odbijanje isplate." data-en="<strong>Model:</strong> Fake firm → copied licence/registration → payment → disappearance or withdrawal refusal."><strong>Model:</strong> Lažna firma → kopija licence/registracije → uplata → nestanak ili odbijanje isplate.</div>
+      <div class="callout" data-sr="<strong>Prag:</strong> Uplata na nalog koji kontroliše napadač. Firma izgleda legitimno ali nema regulatornu obavezu." data-en="<strong>Threshold:</strong> Payment to an account controlled by the attacker. The firm looks legitimate but has no regulatory obligation."><strong>Prag:</strong> Uplata na nalog koji kontroliše napadač. Firma izgleda legitimno ali nema regulatornu obavezu.</div>
     </section>
 
     <section class="card">
@@ -115,15 +115,6 @@ window.SCAM_CONTENT["clone-firm-scam"] = {
       </ul>
     </section>
 
-    <section class="card">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <ul class="bullets">
-        <li><a href="fake-broker-scam.html" data-sr="Lažni broker" data-en="Fake broker scam">Lažni broker</a></li>
-        <li><a href="investment-fraud.html" data-sr="Investiciona prevara" data-en="Investment fraud">Investiciona prevara</a></li>
-        <li><a href="forex-scam.html" data-sr="Forex prevara" data-en="Forex scam">Forex prevara</a></li>
-        <li><a href="impersonation-scam.html" data-sr="Lažno predstavljanje" data-en="Impersonation scam">Lažno predstavljanje</a></li>
-        <li><a href="advance-fee-fraud.html" data-sr="Prevara avansnim plaćanjem" data-en="Advance fee fraud">Prevara avansnim plaćanjem</a></li>
-      </ul>
-    </section>
+    
   `
 };

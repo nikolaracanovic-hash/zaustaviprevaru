@@ -3,10 +3,10 @@ window.SCAM_CONTENT = window.SCAM_CONTENT || {};
 window.SCAM_CONTENT["mortgage-scam"] = {
   raw_html: `
     <section class="card">
-      <h2 data-sr="Uvod: kako radi hipotekarna prevara" data-en="Introduction: how the mortgage scam works">Uvod: kako radi Hipotekarna prevara</h2>
+      <h2 data-sr="Uvod: kako radi Hipotekarna prevara" data-en="Introduction: how the mortgage scam works">Uvod: kako radi Hipotekarna prevara</h2>
       <p data-sr="Lažni hipotekarni broker obećava odobrenje kredita čak i osobama sa lošom kreditnom istorijom. Naplaćuje naknade za obradu, procenu, osiguranje unapred. Nakon prikupljanja naknada — kredit nije odobren, broker je nedostupan." data-en="A fake mortgage broker promises loan approval even for people with poor credit history. Charges fees for processing, appraisal, insurance in advance. After collecting fees — the loan is not approved, the broker is unavailable.">Lažni hipotekarni broker obećava odobrenje kredita čak i osobama sa lošom kreditnom istorijom. Naplaćuje naknade za obradu, procenu, osiguranje unapred. Nakon prikupljanja naknada — kredit nije odobren, broker je nedostupan.</p>
-      <div class="callout" data-sr="&lt;strong&gt;Model:&lt;/strong&gt; Lažni broker → obećanje hipoteke → naknade za obradu → nestanak ili odbijanje." data-en="&lt;strong&gt;Model:&lt;/strong&gt; Fake broker → mortgage promise → processing fees → disappearance or denial."><strong>Model:</strong> Lažni broker → obećanje hipoteke → naknade za obradu → nestanak ili odbijanje.</div>
-      <div class="callout" data-sr="&lt;strong&gt;Prag:&lt;/strong&gt; Uplata naknade za obradu hipoteke. Banka nikad ne odobrava kredit a broker nestaje." data-en="&lt;strong&gt;Threshold:&lt;/strong&gt; Payment of a mortgage processing fee. The bank never approves the loan and the broker disappears."><strong>Prag:</strong> Uplata naknade za obradu hipoteke. Banka nikad ne odobrava kredit a broker nestaje.</div>
+      <div class="callout" data-sr="<strong>Model:</strong> Lažni broker → obećanje hipoteke → naknade za obradu → nestanak ili odbijanje." data-en="<strong>Model:</strong> Fake broker → mortgage promise → processing fees → disappearance or denial."><strong>Model:</strong> Lažni broker → obećanje hipoteke → naknade za obradu → nestanak ili odbijanje.</div>
+      <div class="callout" data-sr="<strong>Prag:</strong> Uplata naknade za obradu hipoteke. Banka nikad ne odobrava kredit a broker nestaje." data-en="<strong>Threshold:</strong> Payment of a mortgage processing fee. The bank never approves the loan and the broker disappears."><strong>Prag:</strong> Uplata naknade za obradu hipoteke. Banka nikad ne odobrava kredit a broker nestaje.</div>
     </section>
 
     <section class="card">
@@ -115,15 +115,6 @@ window.SCAM_CONTENT["mortgage-scam"] = {
       </ul>
     </section>
 
-    <section class="card">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <ul class="bullets">
-        <li><a href="deposit-scam.html" data-sr="Prevara sa depozitom" data-en="Deposit scam">Prevara sa depozitom</a></li>
-        <li><a href="real-estate-investment-scam.html" data-sr="Prevara sa investiranjem u nekretnine" data-en="Real estate investment scam">Prevara sa investiranjem u nekretnine</a></li>
-        <li><a href="home-improvement-scam.html" data-sr="Prevara sa adaptacijom stana" data-en="Home improvement scam">Prevara sa adaptacijom stana</a></li>
-        <li><a href="advance-fee-fraud.html" data-sr="Prevara avansnim plaćanjem" data-en="Advance fee fraud">Prevara avansnim plaćanjem</a></li>
-        <li><a href="clone-firm-scam.html" data-sr="Prevara sa klonom firme" data-en="Clone firm scam">Prevara sa klonom firme</a></li>
-      </ul>
-    </section>
+    
   `
 };

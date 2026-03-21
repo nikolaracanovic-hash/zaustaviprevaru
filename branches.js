@@ -12,19 +12,19 @@ window.SCAM_BRANCHES = [
     from_scam: "romantic-scam",
     from_step: "r2",
     to_scam: "pig-butchering",
-    note: "Ritam + poverenje → uvod u “zajedničko ulaganje” kao plan."
+    note: "Ritam + poverenje → uvod u zajedničko ulaganje kao plan."
   },
   {
     from_scam: "romantic-scam",
     from_step: "r2",
     to_scam: "crypto-scam",
-    note: "Mentorstvo + “sigurna platforma” → prva probna uplata."
+    note: "Mentorstvo + sigurna platforma → prva probna uplata."
   },
   {
     from_scam: "romantic-scam",
     from_step: "r4",
     to_scam: "advance-fee-fraud",
-    note: "Rok + “sitni trošak” kao uslov (karta, dokument, carina)."
+    note: "Rok + sitni trošak kao uslov (karta, dokument, carina)."
   },
   {
     from_scam: "romantic-scam",
@@ -36,7 +36,7 @@ window.SCAM_BRANCHES = [
     from_scam: "romantic-scam",
     from_step: "r5",
     to_scam: "recovery-scam",
-    note: "Posle gubitka → “povrat” uz novu uplatu."
+    note: "Posle gubitka → povrat uz novu uplatu."
   },
   {
     from_scam: "romantic-scam",
@@ -53,10 +53,16 @@ window.SCAM_BRANCHES = [
     from_scam: "marketplace-scam",
     from_step: "m1",
     to_scam: "phishing",
-    note: "Privatan kanal + link “potvrde” → krađa podataka."
+    note: "Privatan kanal + link potvrde → krađa podataka."
+  },
+  {
+    from_scam: "marketplace-scam",
+    from_step: "m1",
+    to_scam: "marketplace-meetup-robbery",
+    note: "Lični sastanak na usamljenoj lokaciji → prinuda ili krađa pri preuzimanju."
   },
 
-  // m2: link “kurir/dostava/plaćanje”
+  // m2: link kurir/dostava/plaćanje
   {
     from_scam: "marketplace-scam",
     from_step: "m2",
@@ -81,13 +87,13 @@ window.SCAM_BRANCHES = [
     from_scam: "marketplace-scam",
     from_step: "m3",
     to_scam: "fake-call-scam",
-    note: "Poziv “podrške/kurira/banke” radi kontrole tempa i novih koraka."
+    note: "Poziv podrške/kurira/banke radi kontrole tempa i novih koraka."
   },
   {
     from_scam: "marketplace-scam",
     from_step: "m3",
     to_scam: "advance-fee-fraud",
-    note: "Novi “trošak” da bi se navodno oslobodilo/ubrzalo."
+    note: "Novi trošak da bi se navodno oslobodilo/ubrzalo."
   },
 
   // m4: kapara/rezervacija
@@ -103,7 +109,7 @@ window.SCAM_BRANCHES = [
     from_scam: "marketplace-scam",
     from_step: "m5",
     to_scam: "recovery-scam",
-    note: "“Povrat” uz novu uplatu (refund, unlock, admin fee)."
+    note: "Povrat uz novu uplatu (refund, unlock, admin fee)."
   },
 
   // m6: ukradeni kod/lozinka
@@ -127,25 +133,25 @@ window.SCAM_BRANCHES = [
     from_scam: "phishing",
     from_step: "p2",
     to_scam: "fake-call-scam",
-    note: "Poziv “podrške” posle klika radi vođenja uživo."
+    note: "Poziv podrške posle klika radi vođenja uživo."
   },
   {
     from_scam: "phishing",
     from_step: "p2",
     to_scam: "tech-support-scam",
-    note: "Remote alat kao “pomoć” → kontrola uređaja."
+    note: "Remote alat kao pomoć → kontrola uređaja."
   },
   {
     from_scam: "phishing",
     from_step: "p3",
     to_scam: "advance-fee-fraud",
-    note: "“Mala taksa” ili “verifikacija” kao uslov za nastavak."
+    note: "Mala taksa ili verifikacija kao uslov za nastavak."
   },
   {
     from_scam: "phishing",
     from_step: "p4",
     to_scam: "recovery-scam",
-    note: "Posle štete → ponuda “povrata” uz uplatu unapred."
+    note: "Posle štete → ponuda povrata uz uplatu unapred."
   },
 
   /* =========================================================
@@ -161,7 +167,7 @@ window.SCAM_BRANCHES = [
     from_scam: "smishing",
     from_step: "s1",
     to_scam: "fake-delivery",
-    note: "SMS “pošiljka” ulazi u priču o dostavi/osiguranju/carini."
+    note: "SMS pošiljka ulazi u priču o dostavi/osiguranju/carini."
   },
   {
     from_scam: "smishing",
@@ -179,7 +185,7 @@ window.SCAM_BRANCHES = [
     from_scam: "smishing",
     from_step: "s4",
     to_scam: "recovery-scam",
-    note: "Posle gubitka → “refund” uz novu uplatu."
+    note: "Posle gubitka → refund uz novu uplatu."
   },
 
   /* =========================================================
@@ -201,7 +207,7 @@ window.SCAM_BRANCHES = [
     from_scam: "fake-call-scam",
     from_step: "fc2",
     to_scam: "phishing",
-    note: "Link “verifikacije” tokom poziva → unos podataka."
+    note: "Link verifikacije tokom poziva → unos podataka."
   },
   {
     from_scam: "fake-call-scam",
@@ -219,7 +225,7 @@ window.SCAM_BRANCHES = [
     from_scam: "fake-call-scam",
     from_step: "fc5",
     to_scam: "recovery-scam",
-    note: "Posle incidenta → “stručnjaci” nude povrat uz novu uplatu."
+    note: "Posle incidenta → stručnjaci nude povrat uz novu uplatu."
   },
 
   /* =========================================================
@@ -229,7 +235,7 @@ window.SCAM_BRANCHES = [
     from_scam: "advance-fee-fraud",
     from_step: "af1",
     to_scam: "recovery-scam",
-    note: "Posle gubitka → ponuda “povrata” uz uplatu unapred."
+    note: "Posle gubitka → ponuda povrata uz uplatu unapred."
   },
   {
     from_scam: "advance-fee-fraud",
@@ -241,7 +247,7 @@ window.SCAM_BRANCHES = [
     from_scam: "advance-fee-fraud",
     from_step: "af3",
     to_scam: "phishing",
-    note: "Link “verifikacije” ili “potvrde uplate” vodi u krađu podataka."
+    note: "Link verifikacije ili potvrde uplate vodi u krađu podataka."
   },
 
   /* =========================================================
@@ -257,7 +263,7 @@ window.SCAM_BRANCHES = [
     from_scam: "crypto-scam",
     from_step: "c3",
     to_scam: "fake-call-scam",
-    note: "Poziv radi vođenja uživo do transfera ili “brzog rešenja”."
+    note: "Poziv radi vođenja uživo do transfera ili brzog rešenja."
   },
   {
     from_scam: "crypto-scam",
@@ -269,7 +275,7 @@ window.SCAM_BRANCHES = [
     from_scam: "crypto-scam",
     from_step: "c5",
     to_scam: "tech-support-scam",
-    note: "Remote alat radi “pomoći” oko povlačenja i verifikacije."
+    note: "Remote alat radi pomoći oko povlačenja i verifikacije."
   },
   {
     from_scam: "crypto-scam",
@@ -297,13 +303,13 @@ window.SCAM_BRANCHES = [
     from_scam: "recovery-scam",
     from_step: "rc3",
     to_scam: "phishing",
-    note: "Link “case portal” ili “verifikacija” → krađa podataka."
+    note: "Link case portal ili verifikacija → krađa podataka."
   },
   {
     from_scam: "recovery-scam",
     from_step: "rc4",
     to_scam: "tech-support-scam",
-    note: "Remote pristup kao “pomoć” → kontrola uređaja."
+    note: "Remote pristup kao pomoć → kontrola uređaja."
   },
 
   /* =========================================================

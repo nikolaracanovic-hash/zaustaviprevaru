@@ -30,11 +30,11 @@ window.SCAM_CONTENT["fake-returns-scam"] = {
       </ul>
     </article>
     <article>
-      <h3 data-sr="Model lažne dispute — „nisi vratio robu„" data-en="Fake dispute model — “you did not return the goods“">Model lažne dispute — „nisi vratio robu"</h3>
+      <h3 data-sr="Model lažne dispute — nisi vratio robu" data-en="Fake dispute model — you did not return the goods">Model lažne dispute — nisi vratio robu</h3>
       <ul class="bullets">
         <li data-sr="Prodavac prima robu ali tvrdi da je kutija bila prazna, da je roba bila drugačija ili da pošiljka nije stigla." data-en="The seller receives the goods but claims the box was empty, the goods were different, or the shipment did not arrive.">Prodavac prima robu ali tvrdi da je kutija bila prazna, da je roba bila drugačija ili da pošiljka nije stigla.</li>
         <li data-sr="Tracking broj potvrđuje isporuku, ali prodavac osporava sadržaj — bez fotodokumentacije kupca nema dokaza." data-en="The tracking number confirms delivery, but the seller disputes the contents — without the buyer's photo documentation there is no evidence.">Tracking broj potvrđuje isporuku, ali prodavac osporava sadržaj — bez fotodokumentacije kupca nema dokaza.</li>
-        <li data-sr="Uvek fotografišite sadržaj paketa pre slanja povrata — to je jedina zaštita od ove disputa." data-en="Always photograph the contents of the package before sending a return — that is the only protection against this dispute.">Uvek fotografišite sadržaj paketa pre slanja povrata — to je jedina zaštita od ove dispute.</li>
+        <li data-sr="Uvek fotografišite sadržaj paketa pre slanja povrata — to je jedina zaštita od ove dispute." data-en="Always photograph the contents of the package before sending a return — that is the only protection against this dispute.">Uvek fotografišite sadržaj paketa pre slanja povrata — to je jedina zaštita od ove dispute.</li>
       </ul>
     </article>
   </div>
@@ -51,7 +51,7 @@ window.SCAM_CONTENT["fake-returns-scam"] = {
       <li data-sr="Podnošenje zahteva za povratom kroz platformu (Amazon, eBay, etc.) pruža zaštitu koje direktni kontakt s prodavcem ne pruža." data-en="Submitting a return request through the platform (Amazon, eBay, etc.) provides protection that direct contact with the seller does not.">Podnošenje zahteva za povratom kroz platformu (Amazon, eBay, etc.) pruža zaštitu koje direktni kontakt s prodavcem ne pruža.</li>
       <li data-sr="Beležite rokove — zakonski rokovi za povrat su obično 14–30 dana od isporuke u zavisnosti od nadležnosti." data-en="Track deadlines — legal return deadlines are usually 14–30 days from delivery depending on jurisdiction.">Beležite rokove — zakonski rokovi za povrat su obično 14–30 dana od isporuke u zavisnosti od nadležnosti.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Fotografirajte robu odmah pri prijemu i zahtev podnesite kroz platformu, ne direktno prodavcu." data-en="Phase threshold: Photograph goods immediately upon receipt and submit the request through the platform, not directly to the seller."><strong>Prag faze:</strong> Fotografirajte robu odmah pri prijemu i zahtev podnesite kroz platformu, ne direktno prodavcu.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Fotografirajte robu odmah pri prijemu i zahtev podnesite kroz platformu, ne direktno prodavcu." data-en="Phase threshold: Photograph goods immediately upon receipt and submit the request through the platform, not directly to the seller."><strong>Prag faze:</strong> Fotografirajte robu odmah pri prijemu i zahtev podnesite kroz platformu, ne direktno prodavcu.</div>
   </div>
 
   <div class="phase">
@@ -62,7 +62,7 @@ window.SCAM_CONTENT["fake-returns-scam"] = {
       <li data-sr="Ako prodavac ne može da pruži lokalnu adresu za povrat, pokrenite chargeback direktno kod banke ili platforme." data-en="If the seller cannot provide a local return address, initiate a chargeback directly with the bank or platform.">Ako prodavac ne može da pruži lokalnu adresu za povrat, pokrenite chargeback direktno kod banke ili platforme.</li>
       <li data-sr="Odmah eskalujte spor platformi ako prodavac postavi neprihvatljive uslove povrata." data-en="Immediately escalate the dispute to the platform if the seller sets unacceptable return conditions.">Odmah eskalujte spor platformi ako prodavac postavi neprihvatljive uslove povrata.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Adresa za povrat koja čini povrat ekonomski neisplativim je signal prevare — eskalujte spor platformi." data-en="Phase threshold: A return address that makes the return economically unfeasible is a fraud signal — escalate the dispute to the platform."><strong>Prag faze:</strong> Adresa za povrat koja čini povrat ekonomski neisplativim je signal prevare — eskalujte spor platformi.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Adresa za povrat koja čini povrat ekonomski neisplativim je signal prevare — eskalujte spor platformi." data-en="Phase threshold: A return address that makes the return economically unfeasible is a fraud signal — escalate the dispute to the platform."><strong>Prag faze:</strong> Adresa za povrat koja čini povrat ekonomski neisplativim je signal prevare — eskalujte spor platformi.</div>
   </div>
 
   <div class="phase">
@@ -73,29 +73,29 @@ window.SCAM_CONTENT["fake-returns-scam"] = {
       <li data-sr="Koristite pouzdanu kurirsku službu s praćenjem i potvrdom isporuke i čuvajte sve dokaze." data-en="Use a reliable courier service with tracking and delivery confirmation and keep all evidence.">Koristite pouzdanu kurirsku službu s praćenjem i potvrdom isporuke i čuvajte sve dokaze.</li>
       <li data-sr="Sačuvajte fotografije sadržaja — ako prodavac tvrdi da je kutija bila prazna, imate vizualni dokaz." data-en="Keep photos of the contents — if the seller claims the box was empty, you have visual evidence.">Sačuvajte fotografije sadržaja — ako prodavac tvrdi da je kutija bila prazna, imate vizualni dokaz.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Fotografirajte paket s sadržajem pre i posle pakovanja — ovo je vaša jedina zaštita od lažne dispute." data-en="Phase threshold: Photograph the package with contents before and after packing — this is your only protection against a fake dispute."><strong>Prag faze:</strong> Fotografirajte paket s sadržajem pre i posle pakovanja — ovo je vaša jedina zaštita od lažne dispute.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Fotografirajte paket s sadržajem pre i posle pakovanja — ovo je vaša jedina zaštita od lažne dispute." data-en="Phase threshold: Photograph the package with contents before and after packing — this is your only protection against a fake dispute."><strong>Prag faze:</strong> Fotografirajte paket s sadržajem pre i posle pakovanja — ovo je vaša jedina zaštita od lažne dispute.</div>
   </div>
 
   <div class="phase">
-    <div class="label" data-sr="Faza 4: Lažna disputa — 'roba nije stigla„ ili „kutija prazna„" data-en="Phase 4: Fake dispute — “goods did not arrive“ or “box was empty'">Faza 4: Lažna disputa — „roba nije stigla" ili „kutija prazna"</div>
+    <div class="label" data-sr="Faza 4: Lažna disputa — roba nije stigla ili kutija prazna" data-en="Phase 4: Fake dispute — goods did not arrive or box was empty">Faza 4: Lažna disputa — roba nije stigla ili kutija prazna</div>
     <p data-sr="Tracking broj potvrđuje isporuku, ali prodavac otvara spor tvrdeći da je primio praznu kutiju, drugu robu ili da pošiljka nije stigla." data-en="The tracking number confirms delivery, but the seller opens a dispute claiming to have received an empty box, different goods, or that the shipment did not arrive.">Tracking broj potvrđuje isporuku, ali prodavac otvara spor tvrdeći da je primio praznu kutiju, drugu robu ili da pošiljka nije stigla.</p>
     <ul class="bullets">
       <li data-sr="Fotografije sadržaja pre pakovanja su direktni dokaz koji opovrgava tvrdnju o praznoj kutiji." data-en="Photographs of contents before packing are direct evidence refuting the empty box claim.">Fotografije sadržaja pre pakovanja su direktni dokaz koji opovrgava tvrdnju o praznoj kutiji.</li>
       <li data-sr="Priložite sve dokaze u spor na platformi i zatražite eskalaciju na platformski tim za sporove." data-en="Attach all evidence to the platform dispute and request escalation to the platform's dispute team.">Priložite sve dokaze u spor na platformi i zatražite eskalaciju na platformski tim za sporove.</li>
       <li data-sr="Pokrenite chargeback kod banke paralelno s platformskim sporom kao backup." data-en="Initiate a bank chargeback parallel to the platform dispute as a backup.">Pokrenite chargeback kod banke paralelno s platformskim sporom kao backup.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Fotografije sadržaja paketa su jedini validni dokaz — bez njih je teško pobediti u sporu o praznoj kutiji." data-en="Phase threshold: Photographs of package contents are the only valid evidence — without them it is hard to win a dispute about an empty box."><strong>Prag faze:</strong> Fotografije sadržaja paketa su jedini validni dokaz — bez njih je teško pobediti u sporu o praznoj kutiji.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Fotografije sadržaja paketa su jedini validni dokaz — bez njih je teško pobediti u sporu o praznoj kutiji." data-en="Phase threshold: Photographs of package contents are the only valid evidence — without them it is hard to win a dispute about an empty box."><strong>Prag faze:</strong> Fotografije sadržaja paketa su jedini validni dokaz — bez njih je teško pobediti u sporu o praznoj kutiji.</div>
   </div>
 
   <div class="phase">
-    <div class="label" data-sr="Faza 5: Eskalacija spor i chargeback" data-en="Phase 5: Dispute escalation and chargeback">Faza 5: Eskalacija spora i chargeback</div>
+    <div class="label" data-sr="Faza 5: Eskalacija spora i chargeback" data-en="Phase 5: Dispute escalation and chargeback">Faza 5: Eskalacija spora i chargeback</div>
     <p data-sr="Kupac eskaluje spor kroz platformu i/ili pokreće chargeback kod banke. Prodavac osporava s kontratvrdnjama i lažnim dokumentima." data-en="The buyer escalates the dispute through the platform and/or initiates a bank chargeback. The seller disputes with counter-claims and fake documents.">Kupac eskaluje spor kroz platformu i/ili pokreće chargeback kod banke. Prodavac osporava s kontratvrdnjama i lažnim dokumentima.</p>
     <ul class="bullets">
       <li data-sr="Priložite sve dokaze: fotografije robe, pakovanja, slanja, komunikacije s prodavcem i tracking informacije." data-en="Attach all evidence: photographs of goods, packaging, shipment, seller communication, and tracking information.">Priložite sve dokaze: fotografije robe, pakovanja, slanja, komunikacije s prodavcem i tracking informacije.</li>
       <li data-sr="Bankovni chargeback je nezavistan od platforme — možete koristiti oba paralelno." data-en="A bank chargeback is independent of the platform — you can use both in parallel.">Bankovni chargeback je nezavistan od platforme — možete koristiti oba paralelno.</li>
       <li data-sr="Prijavite prodavca i agenciji za zaštitu potrošača s dokumentacijom spora." data-en="Report the seller to the consumer protection agency with dispute documentation.">Prijavite prodavca i agenciji za zaštitu potrošača s dokumentacijom spora.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Koristite i platformski spor i bankarski chargeback paralelno s punom dokumentacijom." data-en="Phase threshold: Use both the platform dispute and bank chargeback in parallel with full documentation."><strong>Prag faze:</strong> Koristite i platformski spor i bankarski chargeback paralelno s punom dokumentacijom.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Koristite i platformski spor i bankarski chargeback paralelno s punom dokumentacijom." data-en="Phase threshold: Use both the platform dispute and bank chargeback in parallel with full documentation."><strong>Prag faze:</strong> Koristite i platformski spor i bankarski chargeback paralelno s punom dokumentacijom.</div>
   </div>
 
   <div class="phase">
@@ -105,7 +105,7 @@ window.SCAM_CONTENT["fake-returns-scam"] = {
       <li data-sr="Prijavite prodavca platformi za uklanjanje ili suspenziju naloga ako je dokazan loš postupak." data-en="Report the seller to the platform for account removal or suspension if bad practice is proven.">Prijavite prodavca platformi za uklanjanje ili suspenziju naloga ako je dokazan loš postupak.</li>
       <li data-sr="Ostavite detaljnu recenziju s opisom problema da upozorite buduće kupce." data-en="Leave a detailed review with a description of the problem to warn future buyers.">Ostavite detaljnu recenziju s opisom problema da upozorite buduće kupce.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Prijavite prodavca i ostavite recenziju — vaše iskustvo štiti buduće kupce." data-en="Phase threshold: Report the seller and leave a review — your experience protects future buyers."><strong>Prag faze:</strong> Prijavite prodavca i ostavite recenziju — vaše iskustvo štiti buduće kupce.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Prijavite prodavca i ostavite recenziju — vaše iskustvo štiti buduće kupce." data-en="Phase threshold: Report the seller and leave a review — your experience protects future buyers."><strong>Prag faze:</strong> Prijavite prodavca i ostavite recenziju — vaše iskustvo štiti buduće kupce.</div>
   </div>
 </section>
 
@@ -158,21 +158,13 @@ window.SCAM_CONTENT["fake-returns-scam"] = {
 <section class="content-section">
   <h2 data-sr="Ako pokušavaš da pomogneš nekome" data-en="If you are trying to help someone">Ako pokušavaš da pomogneš nekome</h2>
   <ul class="bullets">
-    <li data-sr="Pitaj: „Da li si podneo zahtev za povratom kroz platformu ili direktno prodavcu?“" data-en="Ask: 'Did you submit the return request through the platform or directly to the seller?'">Pitaj: „Da li si podneo zahtev za povratom kroz platformu ili direktno prodavcu?“</li>
-    <li data-sr="Pitaj: „Da li si fotografisao sadržaj paketa pre slanja povrata?“" data-en="Ask: 'Did you photograph the package contents before sending the return?'">Pitaj: „Da li si fotografisao sadržaj paketa pre slanja povrata?“</li>
-    <li data-sr="Rečenice koje pomažu: „Zakon ti garantuje pravo na povrat bez prohibitivnih troškova slanja“.“ „Eskaliraj spor ka platformi — njeni sistemi zaštite su jači od direktnog kontakta sa prodavcem“.“" data-en="Sentences that help: 'The law guarantees you the right to a return without prohibitive shipping costs.' 'Escalate the dispute to the platform — its protection systems are stronger than direct contact with the seller.'">Rečenice koje pomažu: „Zakon ti garantuje pravo na povrat bez prohibitivnih troškova slanja“.“ „Eskaliraj spor ka platformi — njeni sistemi zaštite su jači od direktnog kontakta sa prodavcem“.“</li>
+    <li data-sr="Pitaj: Da li si podneo zahtev za povratom kroz platformu ili direktno prodavcu?" data-en="Ask: Did you submit the return request through the platform or directly to the seller?">Pitaj: Da li si podneo zahtev za povratom kroz platformu ili direktno prodavcu?</li>
+    <li data-sr="Pitaj: Da li si fotografisao sadržaj paketa pre slanja povrata?" data-en="Ask: Did you photograph the package contents before sending the return?">Pitaj: Da li si fotografisao sadržaj paketa pre slanja povrata?</li>
+    <li data-sr="Rečenice koje pomažu: Zakon ti garantuje pravo na povrat bez prohibitivnih troškova slanja. Eskaliraj spor ka platformi — njeni sistemi zaštite su jači od direktnog kontakta sa prodavcem." data-en="Sentences that help: The law guarantees you the right to a return without prohibitive shipping costs.' 'Escalate the dispute to the platform — its protection systems are stronger than direct contact with the seller.">Rečenice koje pomažu: Zakon ti garantuje pravo na povrat bez prohibitivnih troškova slanja. Eskaliraj spor ka platformi — njeni sistemi zaštite su jači od direktnog kontakta sa prodavcem.</li>
     <li data-sr="Pomozi osobi da prikupi fotografije, komunikaciju i tracking kao dokaze pre eskalacije." data-en="Help the person gather photographs, communication, and tracking as evidence before escalation.">Pomozi osobi da prikupi fotografije, komunikaciju i tracking kao dokaze pre eskalacije.</li>
   </ul>
 </section>
 
-<section class="content-section">
-  <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-  <ul class="bullets">
-    <li><a href="refund-scam.html" data-sr="Prevara povratom novca — lažni agenti koji traže pristup" data-en="Refund scam — fake agents requesting access">Prevara povratom novca — lažni agenti koji traže pristup</a></li>
-    <li><a href="chargeback-fraud.html" data-sr="Prevara chargebackom — zloupotreba procesa povrata" data-en="Chargeback fraud — misuse of refund process">Prevara chargebackom — zloupotreba procesa povrata</a></li>
-    <li><a href="fake-webshop.html" data-sr="Lažna internet prodavnica — osnovni model" data-en="Fake webshop — basic model">Lažna internet prodavnica — osnovni model</a></li>
-    <li><a href="marketplace-scam.html" data-sr="Prevara na tržištu — sporovi s prodavcima na platformama" data-en="Marketplace scam — disputes with sellers on platforms">Prevara na tržištu — sporovi s prodavcima na platformama</a></li>
-  </ul>
-</section>
+
 `
 };

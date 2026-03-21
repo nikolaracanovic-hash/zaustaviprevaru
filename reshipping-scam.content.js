@@ -3,7 +3,7 @@ window.SCAM_CONTENT["reshipping-scam"] = {
   raw_html: `
 <section class="content-section">
   <h2 data-sr="Uvod: kako radi reshipping prevara" data-en="Introduction: how the reshipping scam works">Uvod: kako radi reshipping prevara</h2>
-  <p data-sr="Napadač regrutuje osobu kao „shipping agent“ ili „quality control inspector“. Žrtva prima pakete na kućnu adresu, proverava sadržaj ili dodaje nešto, i prosleđuje ih na drugu adresu — najčešće u inostranstvo. Paketi sadrže robu kupljenu ukradenim kreditnim karticama ili ukradenu robu." data-en="The attacker recruits a person as a shipping agent or quality control inspector. The victim receives packages at their home address, checks the contents or adds something, and forwards them to another address — usually abroad. The packages contain goods purchased with stolen credit cards or stolen merchandise.">Napadač regrutuje osobu kao 'shipping agent' ili 'quality control inspector'. Žrtva prima pakete na kućnu adresu, proverava sadržaj ili dodaje nešto, i prosleđuje ih na drugu adresu — najčešće u inostranstvo. Paketi sadrže robu kupljenu ukradenim kreditnim karticama ili ukradenu robu.</p>
+  <p data-sr="Napadač regrutuje osobu kao 'shipping agent' ili 'quality control inspector'. Žrtva prima pakete na kućnu adresu, proverava sadržaj ili dodaje nešto, i prosleđuje ih na drugu adresu — najčešće u inostranstvo. Paketi sadrže robu kupljenu ukradenim kreditnim karticama ili ukradenu robu." data-en="The attacker recruits a person as a shipping agent or quality control inspector. The victim receives packages at their home address, checks the contents or adds something, and forwards them to another address — usually abroad. The packages contain goods purchased with stolen credit cards or stolen merchandise.">Napadač regrutuje osobu kao 'shipping agent' ili 'quality control inspector'. Žrtva prima pakete na kućnu adresu, proverava sadržaj ili dodaje nešto, i prosleđuje ih na drugu adresu — najčešće u inostranstvo. Paketi sadrže robu kupljenu ukradenim kreditnim karticama ili ukradenu robu.</p>
   <p data-sr="Žrtva ne zna da je posrednik u lancu krađe. Kada policija prati trag paketa, vodi do kućne adrese žrtve. Napadač u tom trenutku nestaje. Žrtva se suočava sa optužbama za primanje ukradene imovine i saradnju u prevari." data-en="The victim does not know they are a middleman in a theft chain. When police traže the package tražil it leads to the victim's home address. The attacker disappears at that point. The victim faces charges of receiving stolen property and aiding fraud.">Žrtva ne zna da je posrednik u lancu krađe. Kada policija prati trag paketa, vodi do kućne adrese žrtve. Napadač u tom trenutku nestaje. Žrtva se suočava sa optužbama za primanje ukradene imovine i saradnju u prevari.</p>
 </section>
 
@@ -11,7 +11,7 @@ window.SCAM_CONTENT["reshipping-scam"] = {
   <h2 data-sr="Model" data-en="Model">Model</h2>
   <div class="phase">
     <div class="label" data-sr="Lanac" data-en="Chain">Lanac</div>
-    <p data-sr="Oglas za posao → „shipping agent“ pozicija → dostava paketa na kućnu adresu → pregled i prosleđivanje → napadač nestaje → istraga dolazi do adrese žrtve" data-en="Job ad → shipping agent position → package delivery to home address → inspection and forwarding → attacker disappears → investigation traces to victim's address">Oglas za posao → 'shipping agent' pozicija → dostava paketa na kućnu adresu → pregled i prosleđivanje → napadač nestaje → istraga dolazi do adrese žrtve</p>
+    <p data-sr="Oglas za posao → 'shipping agent' pozicija → dostava paketa na kućnu adresu → pregled i prosleđivanje → napadač nestaje → istraga dolazi do adrese žrtve" data-en="Job ad → shipping agent position → package delivery to home address → inspection and forwarding → attacker disappears → investigation traces to victim's address">Oglas za posao → 'shipping agent' pozicija → dostava paketa na kućnu adresu → pregled i prosleđivanje → napadač nestaje → istraga dolazi do adrese žrtve</p>
   </div>
   <div class="callout">
     <strong data-sr="Prag:" data-en="Threshold:">Prag:</strong>
@@ -26,7 +26,7 @@ window.SCAM_CONTENT["reshipping-scam"] = {
       <div class="label" data-sr="Šta gradi uverljivost" data-en="What builds credibility">Šta gradi uverljivost</div>
       <ul class="bullets">
         <li data-sr="Posao se opisuje kao inspekcija kvaliteta ili provera ispravnosti robe pre međunarodne dostave." data-en="The job is described as quality inspection or checking the condition of goods before international shipping.">Posao se opisuje kao inspekcija kvaliteta ili provera ispravnosti robe pre međunarodne dostave.</li>
-        <li data-sr="Legitimno izgledajuća kompanija sa profesionalnim sajtom i „HR“ kontaktom upravlja komunikacijom." data-en="A legitimately-looking company with a professional website and HR contact manages the communication.">Legitimno izgledajuća kompanija sa profesionalnim sajtom i 'HR' kontaktom upravlja komunikacijom.</li>
+        <li data-sr="Legitimno izgledajuća kompanija sa profesionalnim sajtom i 'HR' kontaktom upravlja komunikacijom." data-en="A legitimately-looking company with a professional website and HR contact manages the communication.">Legitimno izgledajuća kompanija sa profesionalnim sajtom i 'HR' kontaktom upravlja komunikacijom.</li>
         <li data-sr="Prve pošiljke su male i neupitne — kancelarijski materijal, elektronika — da se izgradi poverenje." data-en="The first shipments are small and unquestioned — office supplies, electronics — to build trust.">Prve pošiljke su male i neupitne — kancelarijski materijal, elektronika — da se izgradi poverenje.</li>
         <li data-sr="Plaćanje se isplaćuje redovno u početku da bi se potvrdio legitimitet sheme." data-en="Payment is made regularly at first to confirm the legitimacy of the scheme.">Plaćanje se isplaćuje redovno u početku da bi se potvrdio legitimitet sheme.</li>
       </ul>
@@ -44,17 +44,17 @@ window.SCAM_CONTENT["reshipping-scam"] = {
 </section>
 
 <section class="content-section">
-  <h2 data-sr="Hronološki tok (faze + evolucije)." data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
+  <h2 data-sr="Hronološki tok (faze + evolucije)" data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
 
   <article class="phase">
     <h3 data-sr="Faza 1 — Oglas i regrutovanje" data-en="Phase 1 — Ad and recruitment">Faza 1 — Oglas i regrutovanje</h3>
-    <p data-sr="Žrtva vidi oglas za „package handler“, „quality inspector“ ili „reshipping coordinator“ sa visokom platom i radom od kuće. Kontakt se uspostavlja brzo." data-en="The victim sees an ad for a package handler, quality inspector or reshipping coordinator with high pay and remote work. Contact is established quickly.">Žrtva vidi oglas za 'package handler', 'quality inspector' ili 'reshipping coordinator' sa visokom platom i radom od kuće. Kontakt se uspostavlja brzo.</p>
+    <p data-sr="Žrtva vidi oglas za 'package handler', 'quality inspector' ili 'reshipping coordinator' sa visokom platom i radom od kuće. Kontakt se uspostavlja brzo." data-en="The victim sees an ad for a package handler, quality inspector or reshipping coordinator with high pay and remote work. Contact is established quickly.">Žrtva vidi oglas za 'package handler', 'quality inspector' ili 'reshipping coordinator' sa visokom platom i radom od kuće. Kontakt se uspostavlja brzo.</p>
     <ul class="bullets">
       <li data-sr="Oglas naglašava da su potrebni samo pouzdan čovek i kućna adresa za prijem paketa." data-en="The ad emphasizes that only a reliable person and a home address for receiving packages are needed.">Oglas naglašava da su potrebni samo pouzdan čovek i kućna adresa za prijem paketa.</li>
       <li data-sr="Plata se opisuje kao fiksni iznos po paketu plus refundacija troškova slanja." data-en="Pay is described as a fixed amount per package plus shipping cost reimbursement.">Plata se opisuje kao fiksni iznos po paketu plus refundacija troškova slanja.</li>
       <li data-sr="Oglas se pojavljuje na legitimnim job platformama jer napadač plaća za postavljanje oglasa." data-en="The ad appears on legitimate job platforms because the attacker pays to post it.">Oglas se pojavljuje na legitimnim job platformama jer napadač plaća za postavljanje oglasa.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Žrtva šalje kućnu adresu i potpisuje „ugovor“ za poziciju." data-en="The victim sends their home address and signs a contract for the position.">Žrtva šalje kućnu adresu i potpisuje 'ugovor' za poziciju.</span></div>
+    <div class="callout"><strong data-sr="Žrtva šalje kućnu adresu i potpisuje 'ugovor' za poziciju.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Žrtva šalje kućnu adresu i potpisuje ugovor za poziciju." data-en="The victim sends their home address and signs a contract for the position.">Žrtva šalje kućnu adresu i potpisuje 'ugovor' za poziciju.</span></div>
   </article>
 
   <article class="phase">
@@ -65,7 +65,7 @@ window.SCAM_CONTENT["reshipping-scam"] = {
       <li data-sr="Ruta prosleđivanja vodi ka adresama u istočnoj Evropi, Aziji ili Africi." data-en="The forwarding route leads to addresses in Eastern Europe, Asia or Africa.">Ruta prosleđivanja vodi ka adresama u istočnoj Evropi, Aziji ili Africi.</li>
       <li data-sr="Volumen raste postepeno — dva paketa nedeljno postaju deset paketa nedeljno." data-en="Volume increases gradually — two packages per week becomes ten packages per week.">Volumen raste postepeno — dva paketa nedeljno postaju deset paketa nedeljno.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Žrtva je obavila prvu prosleđenu pošiljku — adresa je registrovana u sistemu kao deo lanca." data-en="The victim has forwarded the first shipment — the address is registered in the system as part of the chain.">Žrtva je obavila prvu prosleđenu pošiljku — adresa je registrovana u sistemu kao deo lanca.</span></div>
+    <div class="callout"><strong data-sr="Žrtva je obavila prvu prosleđenu pošiljku — adresa je registrovana u sistemu kao deo lanca.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Žrtva je obavila prvu prosleđenu pošiljku — adresa je registrovana u sistemu kao deo lanca." data-en="The victim has forwarded the first shipment — the address is registered in the system as part of the chain.">Žrtva je obavila prvu prosleđenu pošiljku — adresa je registrovana u sistemu kao deo lanca.</span></div>
   </article>
 
   <article class="phase">
@@ -76,7 +76,7 @@ window.SCAM_CONTENT["reshipping-scam"] = {
       <li data-sr="Obim posla toliko raste da žrtva nema vremena da razmisli o legitimnosti." data-en="The workload grows so much that the victim has no time to think about legitimacy.">Obim posla toliko raste da žrtva nema vremena da razmisli o legitimnosti.</li>
       <li data-sr="Roba koja dolazi ponekad ima originalne etikete sa podacima stvarnih kupaca čiji su podaci ukradeni." data-en="Goods that arrive sometimes have original labels with data of real customers whose information was stolen.">Roba koja dolazi ponekad ima originalne etikete sa podacima stvarnih kupaca čiji su podaci ukradeni.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Žrtva je duboko uložena — i finansijski i vremenski — i nastavlja bez postavljanja pitanja." data-en="The victim is deeply invested — both financially and time-wise — and continues without asking questions.">Žrtva je duboko uložena — i finansijski i vremenski — i nastavlja bez postavljanja pitanja.</span></div>
+    <div class="callout"><strong data-sr="Žrtva je duboko uložena — i finansijski i vremenski — i nastavlja bez postavljanja pitanja.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Žrtva je duboko uložena — i finansijski i vremenski — i nastavlja bez postavljanja pitanja." data-en="The victim is deeply invested — both financially and time-wise — and continues without asking questions.">Žrtva je duboko uložena — i finansijski i vremenski — i nastavlja bez postavljanja pitanja.</span></div>
     <div class="branch">
       <strong data-sr="Grananja u ovoj fazi:" data-en="Branching at this phase:">Grananja u ovoj fazi:</strong>
       <ul class="bullets">
@@ -93,29 +93,29 @@ window.SCAM_CONTENT["reshipping-scam"] = {
       <li data-sr="Žrtva dobija posetioce od policije ili obaveštenje o istražnoj radnji bez upozorenja." data-en="The victim receives a police visit or investigation notification without warning.">Žrtva dobija posetioce od policije ili obaveštenje o istražnoj radnji bez upozorenja.</li>
       <li data-sr="Platforma za oglašavanje ne može da pomogne jer napadač je koristio lažne podatke za registraciju oglasa." data-en="The advertising platform cannot help because the attacker used fake data to register the ad.">Platforma za oglašavanje ne može da pomogne jer napadač je koristio lažne podatke za registraciju oglasa.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Policija kontaktira žrtvu u vezi sa primljenim i prosleđenim paketima." data-en="Police contacts the victim regarding received and forwarded packages.">Policija kontaktira žrtvu u vezi sa primljenim i prosleđenim paketima.</span></div>
+    <div class="callout"><strong data-sr="Policija kontaktira žrtvu u vezi sa primljenim i prosleđenim paketima.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Policija kontaktira žrtvu u vezi sa primljenim i prosleđenim paketima." data-en="Police contacts the victim regarding received and forwarded packages.">Policija kontaktira žrtvu u vezi sa primljenim i prosleđenim paketima.</span></div>
   </article>
 
   <article class="phase">
     <h3 data-sr="Faza 5 — Pravne posledice" data-en="Phase 5 — Legal consequences">Faza 5 — Pravne posledice</h3>
     <p data-sr="Žrtva se suočava sa optužbama za primanje ukradene imovine. Fizički dokazi — paketi koji su prošli kroz kućnu adresu — su neoborivi. Odbrana zahteva dokazivanje neznanja." data-en="The victim faces charges for receiving stolen property. Physical evidence — packages that passed through the home address — is irrefutable. Defense requires proving lack of knowledge.">Žrtva se suočava sa optužbama za primanje ukradene imovine. Fizički dokazi — paketi koji su prošli kroz kućnu adresu — su neoborivi. Odbrana zahteva dokazivanje neznanja.</p>
     <ul class="bullets">
-      <li data-sr="Dokumentacija „ugovora“ i komunikacije sa napadačem je ključna za odbranu." data-en="Documentation of the contract and communication with the attacker is key for defense.">Dokumentacija 'ugovora' i komunikacije sa napadačem je ključna za odbranu.</li>
+      <li data-sr="Dokumentacija 'ugovora' i komunikacije sa napadačem je ključna za odbranu." data-en="Documentation of the contract and communication with the attacker is key for defense.">Dokumentacija 'ugovora' i komunikacije sa napadačem je ključna za odbranu.</li>
       <li data-sr="Žrtva može i sama biti oštećena — troškovi slanja koje nije naplatila mogu biti znatni." data-en="The victim may also be a financial victim — unreimbursed shipping costs can be substantial.">Žrtva može i sama biti oštećena — troškovi slanja koje nije naplatila mogu biti znatni.</li>
       <li data-sr="Angažovanje advokata je neophodno pre bilo kakvog razgovora sa istražnim organima." data-en="Engaging a lawyer is necessary before any conversation with investigative authorities.">Angažovanje advokata je neophodno pre bilo kakvog razgovora sa istražnim organima.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Žrtva je angažovala advokata i priprema dokumentaciju za odbranu." data-en="The victim has engaged a lawyer and is preparing documentation for defense.">Žrtva je angažovala advokata i priprema dokumentaciju za odbranu.</span></div>
+    <div class="callout"><strong data-sr="Žrtva je angažovala advokata i priprema dokumentaciju za odbranu.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Žrtva je angažovala advokata i priprema dokumentaciju za odbranu." data-en="The victim has engaged a lawyer and is preparing documentation for defense.">Žrtva je angažovala advokata i priprema dokumentaciju za odbranu.</span></div>
   </article>
 
   <article class="phase">
-    <h3 data-sr="Faza 6 — Oporavak" data-en="Phase 6 — Recovery">Faza 6 — Recovery</h3>
+    <h3 data-sr="Faza 6 — Recovery" data-en="Phase 6 — Recovery">Faza 6 — Recovery</h3>
     <p data-sr="Žrtva sarađuje sa istragom pružajući sve dostupne dokaze o napadaču. Finansijski gubici zbog nerefuldirani troškova teško se nadoknađuju." data-en="The victim cooperates with the investigation providing all available evidence about the attacker. Financial losses from unreimbursed costs are difficult to recover.">Žrtva sarađuje sa istragom pružajući sve dostupne dokaze o napadaču. Finansijski gubici zbog nerefuldirani troškova teško se nadoknađuju.</p>
     <ul class="bullets">
       <li data-sr="Žrtva može da potraži odštetu od napadača ako se on identifikuje i uhapsi." data-en="The victim can seek damages from the attacker if they are identified and arrested.">Žrtva može da potraži odštetu od napadača ako se on identifikuje i uhapsi.</li>
       <li data-sr="Civilna tužba za prevaru može biti opcija ako žrtva pretrpi finansijsku štetu." data-en="A civil lawsuit for fraud may be an option if the victim suffers financial damage.">Civilna tužba za prevaru može biti opcija ako žrtva pretrpi finansijsku štetu.</li>
       <li data-sr="Upozoravanje zajednice kroz prijavu platformi za zapošljavanje sprečava dalje žrtve." data-en="Warning the community by reporting to job platforms prevents further victims.">Upozoravanje zajednice kroz prijavu platformi za zapošljavanje sprečava dalje žrtve.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Istraga je završena i žrtva je formalno oslobođena odgovornosti ili je postupak okončan." data-en="The investigation is concluded and the victim is formally cleared or the proceedings are closed.">Istraga je završena i žrtva je formalno oslobođena odgovornosti ili je postupak okončan.</span></div>
+    <div class="callout"><strong data-sr="Istraga je završena i žrtva je formalno oslobođena odgovornosti ili je postupak okončan.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Istraga je završena i žrtva je formalno oslobođena odgovornosti ili je postupak okončan." data-en="The investigation is concluded and the victim is formally cleared or the proceedings are closed.">Istraga je završena i žrtva je formalno oslobođena odgovornosti ili je postupak okončan.</span></div>
   </article>
 </section>
 
@@ -131,7 +131,7 @@ window.SCAM_CONTENT["reshipping-scam"] = {
     <li data-sr="Uputstvo zabranjuje proveru sadržaja paketa ili ispitivanje odakle roba dolazi." data-en="Instructions prohibit checking the contents of packages or asking where goods come from.">Uputstvo zabranjuje proveru sadržaja paketa ili ispitivanje odakle roba dolazi.</li>
     <li data-sr="Komunikacija se odvija isključivo putem imejla ili aplikacija za dopisivanje bez telefonskog kontakta." data-en="Communication takes place exclusively via email or chat apps without phone contact.">Komunikacija se odvija isključivo putem imejla ili aplikacija za dopisivanje bez telefonskog kontakta.</li>
     <li data-sr="Paketi stižu bez avizacije i uvek kao hitna dostava sa kratkim rokovima za prosleđivanje." data-en="Packages arrive without advance notice and always as urgent deliveries with short forwarding deadlines.">Paketi stižu bez avizacije i uvek kao hitna dostava sa kratkim rokovima za prosleđivanje.</li>
-    <li data-sr="Svi navedeni sadržaji paketa zvuče previše generično — „kancelarijska oprema“, „lični predmeti." data-en="All listed package contents sound too generic — office equipment, personal items.">Svi navedeni sadržaji paketa zvuče previše generično — 'kancelarijska oprema', 'lični predmeti'.</li>
+    <li data-sr="Svi navedeni sadržaji paketa zvuče previše generično — 'kancelarijska oprema', 'lični predmeti'." data-en="All listed package contents sound too generic — office equipment, personal items.">Svi navedeni sadržaji paketa zvuče previše generično — 'kancelarijska oprema', 'lični predmeti'.</li>
   </ul>
 </section>
 
@@ -139,12 +139,12 @@ window.SCAM_CONTENT["reshipping-scam"] = {
   <h2 data-sr="Provere: 8 brzih provera pre prihvatanja posla" data-en="Checks: 8 quick checks before accepting the job">Provere: 8 brzih provera pre prihvatanja posla</h2>
   <ol class="steps">
     <li data-sr="Pretraži naziv kompanije u zvaničnom poslovnom registru i proveri adresu i datum registracije." data-en="Search the company name in the official business registry and check the address and registration date.">Pretraži naziv kompanije u zvaničnom poslovnom registru i proveri adresu i datum registracije.</li>
-    <li data-sr="Pitaj za fizičku adresu sedišta i poseti je ili je provjeri na mapi — da li zaista postoji?" data-en="Ask for the physical headquarters address and visit it or check it on a map — does it actually exist?">Pitaj za fizičku adresu sedišta i poseti je ili je provjeri na mapi — da li zaista postoji?</li>
+    <li data-sr="Pitaj za fizičku adresu sedišta i poseti je ili je proveri na mapi — da li zaista postoji?" data-en="Ask for the physical headquarters address and visit it or check it on a map — does it actually exist?">Pitaj za fizičku adresu sedišta i poseti je ili je proveri na mapi — da li zaista postoji?</li>
     <li data-sr="Pitaj zašto kompanija ne koristi sopstvene ili poslovne adrese za prolaz robe umesto kućnih adresa." data-en="Ask why the company does not use its own or business addresses for routing goods instead of home addresses.">Pitaj zašto kompanija ne koristi sopstvene ili poslovne adrese za prolaz robe umesto kućnih adresa.</li>
     <li data-sr="Potraži recenzije i iskustva na Google, Glassdoor ili LinkedIn pre nego što prihvatiš bilo šta." data-en="Search for reviews and experiences on Google, Glassdoor or LinkedIn before accepting anything.">Potraži recenzije i iskustva na Google, Glassdoor ili LinkedIn pre nego što prihvatiš bilo šta.</li>
     <li data-sr="Kontaktiraj lokalnu policijsku stanicu i pitaj da li je primanje i prosleđivanje paketa za nepoznatu kompaniju legalno." data-en="Contact the local police station and ask whether receiving and forwarding packages for an unknown company is legal.">Kontaktiraj lokalnu policijsku stanicu i pitaj da li je primanje i prosleđivanje paketa za nepoznatu kompaniju legalno.</li>
     <li data-sr="Odbij svaki posao koji traži tvoju kućnu adresu za prijem poslovne robe." data-en="Refuse any job that requires your home address for receiving business goods.">Odbij svaki posao koji traži tvoju kućnu adresu za prijem poslovne robe.</li>
-    <li data-sr="Potraži naziv pozicije na internetu zajedno sa rečju „scam“ ili „reshipping scam“ i čitaj iskustva." data-en="Search the position name online combined with the word scam or reshipping scam and read experiences.">Potraži naziv pozicije na internetu zajedno sa rečju 'scam' ili 'reshipping scam' i čitaj iskustva.</li>
+    <li data-sr="Potraži naziv pozicije na internetu zajedno sa rečju 'scam' ili 'reshipping scam' i čitaj iskustva." data-en="Search the position name online combined with the word scam or reshipping scam and read experiences.">Potraži naziv pozicije na internetu zajedno sa rečju 'scam' ili 'reshipping scam' i čitaj iskustva.</li>
     <li data-sr="Zahtevaj da u ugovoru bude jasno navedeno odakle roba dolazi i ko je originalni vlasnik." data-en="Require that the contract clearly states where goods come from and who the original owner is.">Zahtevaj da u ugovoru bude jasno navedeno odakle roba dolazi i ko je originalni vlasnik.</li>
   </ol>
 </section>
@@ -195,16 +195,6 @@ window.SCAM_CONTENT["reshipping-scam"] = {
   </ul>
 </section>
 
-<section class="content-section">
-  <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-  <ul class="bullets">
-    <li><a href="money-mule-recruitment.html" data-sr="Regrutovanje finansijske mule — isti model sa finansijskim tokovima umesto paketa" data-en="Money mule recruitment — same model with financial flows instead of packages">Regrutovanje finansijske mule — isti model sa finansijskim tokovima umesto paketa</a></li>
-    <li><a href="work-from-home-scam.html" data-sr="Lažni posao od kuće — isti obrazac lažnih oglasa za fleksibilno zaposlenje" data-en="Work from home scam — same pattern of fake ads for flexible employment">Lažni posao od kuće — isti obrazac lažnih oglasa za fleksibilno zaposlenje</a></li>
-    <li><a href="recruitment-scam.html" data-sr="Prevara sa regrutovanjem — širi kontekst lažnih ponuda zaposlenja" data-en="Recruitment scam — broader context of fake employment offers">Prevara sa regrutovanjem — širi kontekst lažnih ponuda zaposlenja</a></li>
-    <li><a href="job-scam.html" data-sr="Prevara sa poslom — opšti pregled lažnih oglasa za posao" data-en="Job scam — general overview of fake job ads">Prevara sa poslom — opšti pregled lažnih oglasa za posao</a></li>
-    <li><a href="identity-theft.html" data-sr="Krađa identiteta — lični podaci prikupljeni pri regrutovanju" data-en="Identity theft — personal data collected during recruitment">Krađa identiteta — lični podaci prikupljeni pri regrutovanju</a></li>
-    <li><a href="advance-fee-fraud.html" data-sr="Uplata unapred — česta dopuna reshipping sheme za dodatnu zaradu napadača" data-en="Advance-fee fraud — common addition to reshipping scheme for extra attacker earnings">Uplata unapred — česta dopuna reshipping sheme za dodatnu zaradu napadača</a></li>
-  </ul>
-</section>
+
 `
 };

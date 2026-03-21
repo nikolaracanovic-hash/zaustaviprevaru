@@ -4,9 +4,9 @@ window.SCAM_CONTENT["social-benefits-scam"] = {
   raw_html: `
     <section class="card">
       <h2 data-sr="Uvod: kako rade prevare s lažnim socijalnim beneficijama" data-en="Introduction: how social benefits scams work">Uvod: kako rade prevare s lažnim socijalnim beneficijama</h2>
-      <p data-sr="Prevare s lažnim socijalnim beneficijama funkcionišu u dve osnovne varijante. Prva je napadna: prevarant nudi žrtvi naknadu ili beneficiju za koju je „kvalifikovana“ ali mora platiti avans, obradu ili taksenu naknadu da je prima. Druga je odbrambena: prevarant preti žrtvi da će joj prestati tekuća naknada ili beneficija ako odmah ne verifikuje podatke ili ne plati određenu sumu." data-en="Social benefits scams work in two basic variants. The first is offensive: the fraudster offers the victim a benefit they are qualified for but must pay an advance, processing, or fee to receive. The second is defensive: the fraudster threatens the victim that their current benefit will stop unless they immediately verify data or pay a specific amount.">Prevare s lažnim socijalnim beneficijama rade u dve varijante: napadnoj (nudi lažnu beneficiju za avansnu naknadu) i odbrambenoj (preti gašenjem tekuće beneficije bez hitne verifikacije).</p>
-      <p data-sr="Obe varijante ciljaju ranjive grupe: primaoce socijalne pomoći, korisnike dečjeg dodatka, privremeno nezaposlene i starije osobe. Ove grupe su pod finansijskim pritiskom i posebno reaguju na kombinaciju nade (nova naknada) ili straha (gubitak tekuće naknade)." data-en="Both variants target vulnerable groups: social assistance recipients, child benefit recipients, temporarily unemployed, and elderly people. These groups are under financial pressure and particularly respond to a combination of hope (new benefit) or fear (loss of current benefit).">Obe varijante ciljaju ranjive grupe pod finansijskim pritiskom, kombinujući nadu ili strah kao mehanizme pritiska.</p>
-      <div class="callout" data-sr="<strong>Model:</strong> poziv ili email → centar za socijalni rad → pravo na naknadu ili prijetnja gašenjem → verifikacija ili avansna naknada → podaci ili uplata." data-en="<strong>Model:</strong> call or email → social services → benefit entitlement or termination threat → verification or advance fee → data or payment."><strong>Model:</strong> poziv ili email → centar za socijalni rad → pravo na naknadu ili prijetnja gašenjem → verifikacija ili avansna naknada → podaci ili uplata.</div>
+      <p data-sr="Prevare s lažnim socijalnim beneficijama rade u dve varijante: napadnoj (nudi lažnu beneficiju za avansnu naknadu) i odbrambenoj (preti gašenjem tekuće beneficije bez hitne verifikacije)." data-en="Social benefits scams work in two basic variants. The first is offensive: the fraudster offers the victim a benefit they are qualified for but must pay an advance, processing, or fee to receive. The second is defensive: the fraudster threatens the victim that their current benefit will stop unless they immediately verify data or pay a specific amount.">Prevare s lažnim socijalnim beneficijama rade u dve varijante: napadnoj (nudi lažnu beneficiju za avansnu naknadu) i odbrambenoj (preti gašenjem tekuće beneficije bez hitne verifikacije).</p>
+      <p data-sr="Obe varijante ciljaju ranjive grupe pod finansijskim pritiskom, kombinujući nadu ili strah kao mehanizme pritiska." data-en="Both variants target vulnerable groups: social assistance recipients, child benefit recipients, temporarily unemployed, and elderly people. These groups are under financial pressure and particularly respond to a combination of hope (new benefit) or fear (loss of current benefit).">Obe varijante ciljaju ranjive grupe pod finansijskim pritiskom, kombinujući nadu ili strah kao mehanizme pritiska.</p>
+      <div class="callout" data-sr="<strong>Model:</strong> poziv ili email → centar za socijalni rad → pravo na naknadu ili pretnja gašenjem → verifikacija ili avansna naknada → podaci ili uplata." data-en="<strong>Model:</strong> call or email → social services → benefit entitlement or termination threat → verification or advance fee → data or payment."><strong>Model:</strong> poziv ili email → centar za socijalni rad → pravo na naknadu ili pretnja gašenjem → verifikacija ili avansna naknada → podaci ili uplata.</div>
       <div class="callout" data-sr="<strong>Prag:</strong> meta je uverena da ima pravo na novu naknadu ili da joj tekuća naknada prestaje ako odmah ne preduzme akciju." data-en="<strong>Threshold:</strong> the target believes they are entitled to a new benefit or that their current benefit ends unless they act immediately."><strong>Prag:</strong> meta je uverena da ima pravo na novu naknadu ili da joj tekuća naknada prestaje ako odmah ne preduzme akciju.</div>
     </section>
 
@@ -16,7 +16,7 @@ window.SCAM_CONTENT["social-benefits-scam"] = {
         <div class="phase">
           <div class="label" data-sr="Varijanta 1 — Napadna: lažna beneficija" data-en="Variant 1 — Offensive: fake benefit">Varijanta 1 — Napadna: lažna beneficija</div>
           <ul class="bullets">
-            <li data-sr="meta je „odabrana“ za poseban državni program ili novu naknadu." data-en="target is selected for a special government program or new benefit.">meta je 'odabrana' za poseban državni program ili novu naknadu.</li>
+            <li data-sr="meta je 'odabrana' za poseban državni program ili novu naknadu." data-en="target is selected for a special government program or new benefit.">meta je 'odabrana' za poseban državni program ili novu naknadu.</li>
             <li data-sr="da bi primila naknadu, mora platiti obradu, taksu ili depozit unapred." data-en="to receive the benefit, they must pay processing fee, tax, or deposit in advance.">da bi primila naknadu, mora platiti obradu, taksu ili depozit unapred.</li>
             <li data-sr="iznos naknade je uvek veći od iznosa koji se traži kao taksa." data-en="the benefit amount is always larger than the requested fee.">iznos naknade je uvek veći od iznosa koji se traži kao taksa.</li>
             <li data-sr="naknada nikad ne stiže; slede novi zahtevi za novim taksama." data-en="the benefit never arrives; new demands for new fees follow.">naknada nikad ne stiže; slede novi zahtevi za novim taksama.</li>
@@ -25,7 +25,7 @@ window.SCAM_CONTENT["social-benefits-scam"] = {
         <div class="phase">
           <div class="label" data-sr="Varijanta 2 — Odbrambena: gašenje naknade" data-en="Variant 2 — Defensive: benefit termination">Varijanta 2 — Odbrambena: gašenje naknade</div>
           <ul class="bullets">
-            <li data-sr="tekuća naknada se suspenduje zbog „nepotpune dokumentacije“ ili „istekle verifikacije." data-en="current benefit is suspended due to incomplete documentation or expired verification.">tekuća naknada se suspenduje zbog 'nepotpune dokumentacije' ili 'istekle verifikacije'.</li>
+            <li data-sr="tekuća naknada se suspenduje zbog 'nepotpune dokumentacije' ili 'istekle verifikacije'." data-en="current benefit is suspended due to incomplete documentation or expired verification.">tekuća naknada se suspenduje zbog 'nepotpune dokumentacije' ili 'istekle verifikacije'.</li>
             <li data-sr="meta mora hitno verifikovati podatke kroz sistem koji kontroliše prevarant." data-en="target must urgently verify data through a system controlled by the fraudster.">meta mora hitno verifikovati podatke kroz sistem koji kontroliše prevarant.</li>
             <li data-sr="verifikacija uključuje davanje JMBG-a, broja tekućeg računa ili PIN-a." data-en="verification includes providing ID number, bank account number, or PIN.">verifikacija uključuje davanje JMBG-a, broja tekućeg računa ili PIN-a.</li>
             <li data-sr="podaci se koriste za preuzimanje naloga ili krađu identiteta." data-en="data is used for account takeover or identity theft.">podaci se koriste za preuzimanje naloga ili krađu identiteta.</li>
@@ -35,11 +35,11 @@ window.SCAM_CONTENT["social-benefits-scam"] = {
     </section>
 
     <section class="card">
-      <h2 data-sr="Hronološki tok (faze + evolucije)." data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
+      <h2 data-sr="Hronološki tok (faze + evolucije)" data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
 
       <article class="phase">
         <h3 class="phase-title" data-sr="Faza 1 — Inicijalni poziv ili email" data-en="Phase 1 — Initial call or email">Faza 1 — Inicijalni poziv ili email</h3>
-        <p data-sr="Meta prima poziv ili email od „centra za socijalni rad“ ili „Ministarstva za socijalna pitanja“. Poruka je prilagođena profilu meta: ako prima socijalnu pomoć, prijetnja je suspenzija; ako ne prima, obećava se nova naknada." data-en="Target receives a call or email from the 'social services center' or 'Ministry of Social Affairs'. The message is tailored to the target's profile: if they receive social assistance, the threat is suspension; if not, a new benefit is promised.">Poziv ili email prilagođen profilu žrtve: prijetnja suspenzijom ako prima naknadu, ili obećanje nove naknade ako je ne prima.</p>
+        <p data-sr="Poziv ili email prilagođen profilu žrtve: pretnja suspenzijom ako prima naknadu, ili obećanje nove naknade ako je ne prima." data-en="Target receives a call or email from the 'social services center' or 'Ministry of Social Affairs'. The message is tailored to the target's profile: if they receive social assistance, the threat is suspension; if not, a new benefit is promised.">Poziv ili email prilagođen profilu žrtve: pretnja suspenzijom ako prima naknadu, ili obećanje nove naknade ako je ne prima.</p>
         <ul class="bullets">
           <li data-sr="signal: centar za socijalni rad ne nudi nove naknade bez prethodnog zahteva kroz nadležnu kancelariju." data-en="signal: social services do not offer new benefits without a prior request through the responsible office.">signal: centar za socijalni rad ne nudi nove naknade bez prethodnog zahteva kroz nadležnu kancelariju.</li>
           <li data-sr="signal: verifikacija podataka ne ide telefonom niti emailom bez prethodnog pisanog obaveštenja." data-en="signal: data verification does not occur by phone or email without prior written notice.">signal: verifikacija podataka ne ide telefonom niti emailom bez prethodnog pisanog obaveštenja.</li>
@@ -49,7 +49,7 @@ window.SCAM_CONTENT["social-benefits-scam"] = {
 
       <article class="phase warn">
         <h3 class="phase-title" data-sr="Faza 2 — Uvođenje zahteva" data-en="Phase 2 — Demand introduction">Faza 2 — Uvođenje zahteva</h3>
-        <p data-sr="U napadnoj varijanti: naknada zahteva taksenu uplatu ili depozit. U odbrambenom: verifikacija zahteva unos ličnih podataka ili broj računa. Kontakt uvodi rok od 24–72 sata i prijetnju potpunom obustavom naknade." data-en="In the offensive variant: the benefit requires a fee payment or deposit. In the defensive variant: verification requires entering personal data or account number. The contact introduces a 24–72 hour deadline and a threat of complete benefit suspension.">Zahtev se uvodi s rokom i prijetnjom. Napadna: avansna taksa. Odbrambena: lični podaci ili broj računa.</p>
+        <p data-sr="Zahtev se uvodi s rokom i pretnjom. Napadna: avansna taksa. Odbrambena: lični podaci ili broj računa." data-en="In the offensive variant: the benefit requires a fee payment or deposit. In the defensive variant: verification requires entering personal data or account number. The contact introduces a 24–72 hour deadline and a threat of complete benefit suspension.">Zahtev se uvodi s rokom i pretnjom. Napadna: avansna taksa. Odbrambena: lični podaci ili broj računa.</p>
         <ul class="bullets">
           <li data-sr="signal: uplata takse nije prethodni uslov za socijalnu naknadu u standardnoj proceduri." data-en="signal: fee payment is not a prerequisite for social benefit in standard procedure.">signal: uplata takse nije prethodni uslov za socijalnu naknadu u standardnoj proceduri.</li>
           <li data-sr="signal: rok od 24h za verifikaciju nije standardna procedura centra za socijalni rad." data-en="signal: 24-hour verification deadline is not standard social services procedure.">signal: rok od 24h za verifikaciju nije standardna procedura centra za socijalni rad.</li>
@@ -65,13 +65,13 @@ window.SCAM_CONTENT["social-benefits-scam"] = {
 
       <article class="phase bad">
         <h3 class="phase-title" data-sr="Faza 3 — Predaja podataka ili uplata" data-en="Phase 3 — Data submission or payment">Faza 3 — Predaja podataka ili uplata</h3>
-        <p data-sr="Meta predaje lične podatke ili vrši uplatu. Podaci (JMBG, broj računa, kopija lične karte) se koriste za krađu identiteta ili otvaranje lažnih kredita. Uplata ide na privatni nalog prevaranta i nije povratna." data-en="The target submits personal data or makes a payment. Data (ID number, account number, ID card copy) is used for identity theft or opening fake loans. The payment goes to the fraudster's private account and is non-refundable.">Meta predaje podatke ili plaća. Podaci idu u krađu identiteta, uplata na privatni nalog nije povratna.</p>
+        <p data-sr="Meta predaje podatke ili plaća. Podaci idu u krađu identiteta, uplata na privatni nalog nije povratna." data-en="The target submits personal data or makes a payment. Data (ID number, account number, ID card copy) is used for identity theft or opening fake loans. The payment goes to the fraudster's private account and is non-refundable.">Meta predaje podatke ili plaća. Podaci idu u krađu identiteta, uplata na privatni nalog nije povratna.</p>
         <div class="callout" data-sr="<strong>Indikator:</strong> centar za socijalni rad ne traži PIN, lozinku niti broj bankovnog računa telefonom. Te podatke treba odmah zadržati." data-en="<strong>Indicator:</strong> social services never request a PIN, password, or bank account number by phone. These details should always be withheld."><strong>Indikator:</strong> centar za socijalni rad ne traži PIN, lozinku niti broj bankovnog računa telefonom. Te podatke treba odmah zadržati.</div>
       </article>
 
       <article class="phase warn">
         <h3 class="phase-title" data-sr="Faza 4 — Serija zahteva" data-en="Phase 4 — Request series">Faza 4 — Serija zahteva</h3>
-        <p data-sr="Posle prve uplate ili predaje podataka, šema se nastavlja: nova taksa, nova verifikacija, novi rok. Svaki novi kontakt ima novi izgovor. Ovo traže dok meta ne iscrpi raspoloživa sredstva ili dok ne prepozna šemu." data-en="After the first payment or data submission, the scheme continues: new fee, new verification, new deadline. Each new contact has a new excuse. This continues until the target exhausts available funds or recognizes the scheme.">Posle prve akcije slede novi zahtevi s novim izgovorima. Serija traže dok se žrtva ne iscrpi ili ne prepozna šemu.</p>
+        <p data-sr="Posle prve akcije slede novi zahtevi s novim izgovorima. Serija traže dok se žrtva ne iscrpi ili ne prepozna šemu." data-en="After the first payment or data submission, the scheme continues: new fee, new verification, new deadline. Each new contact has a new excuse. This continues until the target exhausts available funds or recognizes the scheme.">Posle prve akcije slede novi zahtevi s novim izgovorima. Serija traže dok se žrtva ne iscrpi ili ne prepozna šemu.</p>
       </article>
     </section>
 
@@ -81,7 +81,7 @@ window.SCAM_CONTENT["social-benefits-scam"] = {
         <li data-sr="ponuda naknade bez prethodnog zahteva koji je meta sama podnela." data-en="benefit offer without a prior request the target themselves submitted.">ponuda naknade bez prethodnog zahteva koji je meta sama podnela.</li>
         <li data-sr="zahtev za uplatom takse kao prethodni uslov za primanje naknade." data-en="request for fee payment as a prerequisite for receiving the benefit.">zahtev za uplatom takse kao prethodni uslov za primanje naknade.</li>
         <li data-sr="verifikacija podataka telefonom uz zahtev za JMBG, broj računa ili PIN." data-en="phone data verification requesting ID number, account number, or PIN.">verifikacija podataka telefonom uz zahtev za JMBG, broj računa ili PIN.</li>
-        <li data-sr="rok od 24h uz prijetnju potpunom obustavom naknade." data-en="24-hour deadline with a threat of complete benefit suspension.">rok od 24h uz prijetnju potpunom obustavom naknade.</li>
+        <li data-sr="rok od 24h uz pretnju potpunom obustavom naknade." data-en="24-hour deadline with a threat of complete benefit suspension.">rok od 24h uz pretnju potpunom obustavom naknade.</li>
         <li data-sr="kontakt odvraća od poziva centru za socijalni rad za verifikaciju." data-en="contact discourages calling the social services center for verification.">kontakt odvraća od poziva centru za socijalni rad za verifikaciju.</li>
         <li data-sr="posle prve uplate ili predaje podataka dolaze novi zahtevi." data-en="after the first payment or data submission, new demands arrive.">posle prve uplate ili predaje podataka dolaze novi zahtevi.</li>
       </ul>
@@ -158,15 +158,6 @@ window.SCAM_CONTENT["social-benefits-scam"] = {
       </div>
     </section>
 
-    <section class="card sources" id="sources">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <ul class="bullets">
-        <li><a href="government-impersonation.html" data-sr="Lažno predstavljanje državnih organa" data-en="Government impersonation scams">Lažno predstavljanje državnih organa</a></li>
-        <li><a href="pension-impersonation.html" data-sr="Lažno predstavljanje PIO fonda" data-en="Pension fund impersonation">Lažno predstavljanje PIO fonda</a></li>
-        <li><a href="healthcare-impersonation.html" data-sr="Lažno predstavljanje zdravstvene kase" data-en="Health insurance impersonation">Lažno predstavljanje zdravstvene kase</a></li>
-        <li><a href="advance-fee-fraud.html" data-sr="Uplata unapred" data-en="Advance-fee fraud">Uplata unapred</a></li>
-        <li><a href="phishing.html" data-sr="Fišing" data-en="Fišing">Fišing</a></li>
-      </ul>
-    </section>
+    
   `
 };

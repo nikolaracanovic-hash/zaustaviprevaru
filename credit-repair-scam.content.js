@@ -3,10 +3,10 @@ window.SCAM_CONTENT = window.SCAM_CONTENT || {};
 window.SCAM_CONTENT["credit-repair-scam"] = {
   raw_html: `
     <section class="card">
-      <h2 data-sr="Uvod: kako radi prevara sa popravkom kreditnog skora" data-en="Introduction: how the credit repair scam works">Uvod: kako radi Prevara sa popravkom kreditnog skora</h2>
+      <h2 data-sr="Uvod: kako radi Prevara sa popravkom kreditnog skora" data-en="Introduction: how the credit repair scam works">Uvod: kako radi Prevara sa popravkom kreditnog skora</h2>
       <p data-sr="Firma obećava brzo brisanje negativnih unosa iz kreditnog izveštaja, čak i onih koji su tačni i zakoniti. Naplaćuje visoke naknade unapred. Rezultati su privremeni, nepostojeći ili postignuti nelegalnim metodama koje mogu dovesti do daljih problema." data-en="The firm promises quick removal of negative entries from the credit report, even accurate and lawful ones. Charges high fees in advance. Results are temporary, nonexistent or achieved through illegal methods that can lead to further problems.">Firma obećava brzo brisanje negativnih unosa iz kreditnog izveštaja, čak i onih koji su tačni i zakoniti. Naplaćuje visoke naknade unapred. Rezultati su privremeni, nepostojeći ili postignuti nelegalnim metodama koje mogu dovesti do daljih problema.</p>
-      <div class="callout" data-sr="&lt;strong&gt;Model:&lt;/strong&gt; Loš kreditni skor → lažna firma → uplata naknade → lažni rezultati ili nestanak." data-en="&lt;strong&gt;Model:&lt;/strong&gt; Bad credit score → fake repair firm → fee payment → fake results or disappearance."><strong>Model:</strong> Loš kreditni skor → lažna firma → uplata naknade → lažni rezultati ili nestanak.</div>
-      <div class="callout" data-sr="&lt;strong&gt;Prag:&lt;/strong&gt; Uplata naknade firmi za popravku kreditnog skora. Firma ne može legalno ukloniti tačne negativne unose." data-en="&lt;strong&gt;Threshold:&lt;/strong&gt; Payment of a fee to a credit repair firm. The firm cannot legally remove accurate negative entries."><strong>Prag:</strong> Uplata naknade firmi za popravku kreditnog skora. Firma ne može legalno ukloniti tačne negativne unose.</div>
+      <div class="callout" data-sr="<strong>Model:</strong> Loš kreditni skor → lažna firma → uplata naknade → lažni rezultati ili nestanak." data-en="<strong>Model:</strong> Bad credit score → fake repair firm → fee payment → fake results or disappearance."><strong>Model:</strong> Loš kreditni skor → lažna firma → uplata naknade → lažni rezultati ili nestanak.</div>
+      <div class="callout" data-sr="<strong>Prag:</strong> Uplata naknade firmi za popravku kreditnog skora. Firma ne može legalno ukloniti tačne negativne unose." data-en="<strong>Threshold:</strong> Payment of a fee to a credit repair firm. The firm cannot legally remove accurate negative entries."><strong>Prag:</strong> Uplata naknade firmi za popravku kreditnog skora. Firma ne može legalno ukloniti tačne negativne unose.</div>
     </section>
 
     <section class="card">
@@ -115,14 +115,6 @@ window.SCAM_CONTENT["credit-repair-scam"] = {
       </ul>
     </section>
 
-    <section class="card">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <ul class="bullets">
-        <li><a href="payday-loan-scam.html" data-sr="Prevara sa kratkoročnim kreditom" data-en="Payday loan scam">Prevara sa kratkoročnim kreditom</a></li>
-        <li><a href="debt-relief-scam.html" data-sr="Prevara sa oprostom duga" data-en="Debt relief scam">Prevara sa oprostom duga</a></li>
-        <li><a href="advance-fee-fraud.html" data-sr="Prevara avansnim plaćanjem" data-en="Advance fee fraud">Prevara avansnim plaćanjem</a></li>
-        <li><a href="identity-theft.html" data-sr="Krađa identiteta" data-en="Identity theft">Krađa identiteta</a></li>
-      </ul>
-    </section>
+    
   `
 };

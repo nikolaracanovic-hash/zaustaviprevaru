@@ -1,4 +1,4 @@
-﻿if (!window.SCAM_CONTENT) window.SCAM_CONTENT = {};
+if (!window.SCAM_CONTENT) window.SCAM_CONTENT = {};
 window.SCAM_CONTENT["rug-pull"] = {
   raw_html: `
 <section class="content-section">
@@ -35,7 +35,7 @@ window.SCAM_CONTENT["rug-pull"] = {
       <div class="label" data-sr="Kako se uvodi novac" data-en="How money is introduced">Kako se uvodi novac</div>
       <ul class="bullets">
         <li data-sr="Presale i ICO faze prodaju tokene po niskim cenama uz obećanje da će vrednost rasti." data-en="Presale and ICO phases sell tokens at low prices with a promise that value will increase.">Presale i ICO faze prodaju tokene po niskim cenama uz obećanje da će vrednost rasti.</li>
-        <li data-sr="NFT mint prodaje kolekciju uz obećanje korisnosti, „utilities“, royalties i ekskluzivnog pristupa." data-en="An NFT mint sells a collection with promises of utility, royalties and exclusive access.">NFT mint prodaje kolekciju uz obećanje korisnosti, 'utilities', royalties i ekskluzivnog pristupa.</li>
+        <li data-sr="NFT mint prodaje kolekciju uz obećanje korisnosti, 'utilities', royalties i ekskluzivnog pristupa." data-en="An NFT mint sells a collection with promises of utility, royalties and exclusive access.">NFT mint prodaje kolekciju uz obećanje korisnosti, 'utilities', royalties i ekskluzivnog pristupa.</li>
         <li data-sr="Osnivači kontrolišu veliku količinu tokena od početka što im daje moć za kolaps kad odluče." data-en="Founders control a large quantity of tokens from the start giving them the power to collapse the price when they decide.">Osnivači kontrolišu veliku količinu tokena od početka što im daje moć za kolaps kad odluče.</li>
         <li data-sr="Pametni ugovor sadrži backdoor funkciju koja omogućava osnivačima da povuku svu likvidnost bez odobrenja." data-en="The smart contract contains a backdoor function that allows founders to withdraw all liquidity without approval.">Pametni ugovor sadrži backdoor funkciju koja omogućava osnivačima da povuku svu likvidnost bez odobrenja.</li>
       </ul>
@@ -44,7 +44,7 @@ window.SCAM_CONTENT["rug-pull"] = {
 </section>
 
 <section class="content-section">
-  <h2 data-sr="Hronološki tok (faze + evolucije)." data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
+  <h2 data-sr="Hronološki tok (faze + evolucije)" data-en="Timeline (phases + evolutions).">Hronološki tok (faze + evolucije)</h2>
 
   <article class="phase">
     <h3 data-sr="Faza 1 — Lansiranje i izgradnja zajednice" data-en="Phase 1 — Launch and community building">Faza 1 — Lansiranje i izgradnja zajednice</h3>
@@ -54,7 +54,7 @@ window.SCAM_CONTENT["rug-pull"] = {
       <li data-sr="Whitepaper je generički ili kopiran sa drugog projekta uz sitne izmene." data-en="The whitepaper is generic or copied from another project with minor changes.">Whitepaper je generički ili kopiran sa drugog projekta uz sitne izmene.</li>
       <li data-sr="Pametni ugovor nije auditovan od nezavisne firme ili audit dolazi od nepoznate firme." data-en="The smart contract has not been audited by an independent firm or the audit comes from an unknown firm.">Pametni ugovor nije auditovan od nezavisne firme ili audit dolazi od nepoznate firme.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Zajednica je izgrađena i hype je dovoljan za pokretanje presale ili minta." data-en="The community is built and the hype is sufficient to launch presale or mint.">Zajednica je izgrađena i hype je dovoljan za pokretanje presale ili minta.</span></div>
+    <div class="callout"><strong data-sr="Zajednica je izgrađena i hype je dovoljan za pokretanje presale ili minta.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Zajednica je izgrađena i hype je dovoljan za pokretanje presale ili minta." data-en="The community is built and the hype is sufficient to launch presale or mint.">Zajednica je izgrađena i hype je dovoljan za pokretanje presale ili minta.</span></div>
   </article>
 
   <article class="phase">
@@ -63,9 +63,9 @@ window.SCAM_CONTENT["rug-pull"] = {
     <ul class="bullets">
       <li data-sr="Osnivači rezervišu veliki procenat tokena za sebe pre javne prodaje." data-en="Founders reserve a large percentage of tokens for themselves before the public sale.">Osnivači rezervišu veliki procenat tokena za sebe pre javne prodaje.</li>
       <li data-sr="Hard cap za prikupljanje je visok — što više novca se prikupi, veći je rug pull." data-en="The hard cap for fundraising is high — the more money collected, the larger the rug pull.">Hard cap za prikupljanje je visok — što više novca se prikupi, veći je rug pull.</li>
-      <li data-sr="FOMO se gradi aktivnim marketingom koji prikazuje „ograničenu“ dostupnost presale mesta." data-en="FOMO is built through active marketing showing limited availability of presale spots.">FOMO se gradi aktivnim marketingom koji prikazuje 'ograničenu' dostupnost presale mesta.</li>
+      <li data-sr="FOMO se gradi aktivnim marketingom koji prikazuje 'ograničenu' dostupnost presale mesta." data-en="FOMO is built through active marketing showing limited availability of presale spots.">FOMO se gradi aktivnim marketingom koji prikazuje 'ograničenu' dostupnost presale mesta.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Kapital je prikupljen i osnivači procenjuju pravi trenutak za rug pull." data-en="Capital is collected and founders are evaluating the right moment for the rug pull.">Kapital je prikupljen i osnivači procenjuju pravi trenutak za rug pull.</span></div>
+    <div class="callout"><strong data-sr="Kapital je prikupljen i osnivači procenjuju pravi trenutak za rug pull.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Kapital je prikupljen i osnivači procenjuju pravi trenutak za rug pull." data-en="Capital is collected and founders are evaluating the right moment for the rug pull.">Kapital je prikupljen i osnivači procenjuju pravi trenutak za rug pull.</span></div>
     <div class="branch">
       <strong data-sr="Grananja u ovoj fazi:" data-en="Branching at this phase:">Grananja u ovoj fazi:</strong>
       <ul class="bullets">
@@ -82,7 +82,7 @@ window.SCAM_CONTENT["rug-pull"] = {
       <li data-sr="Influenceri promovisali su token bez otkrivanja da su plaćeni za promociju." data-en="Influencers promote the token without disclosing they are paid for promotion.">Influenceri promovisali su token bez otkrivanja da su plaćeni za promociju.</li>
       <li data-sr="Cena raste brzo jer ponuda tokena je ograničena i osnivači kontrolišu veliku količinu." data-en="The price rises quickly because the token supply is limited and founders control a large quantity.">Cena raste brzo jer ponuda tokena je ograničena i osnivači kontrolišu veliku količinu.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Cena dostiže željeni vrhunac i tržišna kapitalizacija je maksimalna." data-en="The price reaches the desired peak and market capitalization is at maximum.">Cena dostiže željeni vrhunac i tržišna kapitalizacija je maksimalna.</span></div>
+    <div class="callout"><strong data-sr="Cena dostiže željeni vrhunac i tržišna kapitalizacija je maksimalna.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Cena dostiže željeni vrhunac i tržišna kapitalizacija je maksimalna." data-en="The price reaches the desired peak and market capitalization is at maximum.">Cena dostiže željeni vrhunac i tržišna kapitalizacija je maksimalna.</span></div>
   </article>
 
   <article class="phase">
@@ -93,7 +93,7 @@ window.SCAM_CONTENT["rug-pull"] = {
       <li data-sr="Investitori ne mogu da prodaju tokene jer nema likvidnosti — ne postoji kupac." data-en="Investors cannot sell their tokens because there is no liquidity — there is no buyer.">Investitori ne mogu da prodaju tokene jer nema likvidnosti — ne postoji kupac.</li>
       <li data-sr="Osnivači odmah konvertuju kripto u stablecoins i prebacuju na mixing servise." data-en="Founders immediately convert crypto to stablecoins and transfer to mixing services.">Osnivači odmah konvertuju kripto u stablecoins i prebacuju na mixing servise.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Likvidnost je povučena i cena je pala na nulu — gubitak investitora je finalan." data-en="Liquidity is withdrawn and the price has fallen to zero — investor loss is final.">Likvidnost je povučena i cena je pala na nulu — gubitak investitora je finalan.</span></div>
+    <div class="callout"><strong data-sr="Likvidnost je povučena i cena je pala na nulu — gubitak investitora je finalan.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Likvidnost je povučena i cena je pala na nulu — gubitak investitora je finalan." data-en="Liquidity is withdrawn and the price has fallen to zero — investor loss is final.">Likvidnost je povučena i cena je pala na nulu — gubitak investitora je finalan.</span></div>
   </article>
 
   <article class="phase">
@@ -102,20 +102,20 @@ window.SCAM_CONTENT["rug-pull"] = {
     <ul class="bullets">
       <li data-sr="Discord server je ili izbrisan ili svi administratori su nestali." data-en="The Discord server is either deleted or all administrators have disappeared.">Discord server je ili izbrisan ili svi administratori su nestali.</li>
       <li data-sr="Twitter nalog je privatizovan ili izbrisan i sve objave su uklonjene." data-en="The Twitter account is privatized or deleted and all posts are removed.">Twitter nalog je privatizovan ili izbrisan i sve objave su uklonjene.</li>
-      <li data-sr="Sajt projekta se ili gasi ili ostaje aktivan ali bez novih informacija kao dokaz „legitimnosti." data-en="The project site either goes offline or remains active but without new information as proof of legitimacy.">Sajt projekta se ili gasi ili ostaje aktivan ali bez novih informacija kao dokaz 'legitimnosti'.</li>
+      <li data-sr="Sajt projekta se ili gasi ili ostaje aktivan ali bez novih informacija kao dokaz 'legitimnosti'." data-en="The project site either goes offline or remains active but without new information as proof of legitimacy.">Sajt projekta se ili gasi ili ostaje aktivan ali bez novih informacija kao dokaz 'legitimnosti'.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Tim je nestao i zajednica shvata da oporavak projekta nije moguć." data-en="The team has disappeared and the community realizes that project recovery is not possible.">Tim je nestao i zajednica shvata da oporavak projekta nije moguć.</span></div>
+    <div class="callout"><strong data-sr="Tim je nestao i zajednica shvata da oporavak projekta nije moguć.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Tim je nestao i zajednica shvata da oporavak projekta nije moguć." data-en="The team has disappeared and the community realizes that project recovery is not possible.">Tim je nestao i zajednica shvata da oporavak projekta nije moguć.</span></div>
   </article>
 
   <article class="phase">
     <h3 data-sr="Faza 6 — Pokušaj oporavka zajednice" data-en="Phase 6 — Community recovery attempt">Faza 6 — Pokušaj oporavka zajednice</h3>
-    <p data-sr="Deo zajednice pokušava da reanimira projekat kroz fork ili novi token. Prevaranti koriste ovu fazu za sekundarne prevare nudeći „oporavak“ ili „novi token“ koji je nova prevara." data-en="Part of the community attempts to reanimate the project through a fork or new token. Scammers exploit this phase for secondary scams offering recovery or a new token which is a new scam.">Deo zajednice pokušava da reanimira projekat kroz fork ili novi token. Prevaranti koriste ovu fazu za sekundarne prevare nudeći 'oporavak' ili 'novi token' koji je nova prevara.</p>
+    <p data-sr="Deo zajednice pokušava da reanimira projekat kroz fork ili novi token. Prevaranti koriste ovu fazu za sekundarne prevare nudeći 'oporavak' ili 'novi token' koji je nova prevara." data-en="Part of the community attempts to reanimate the project through a fork or new token. Scammers exploit this phase for secondary scams offering recovery or a new token which is a new scam.">Deo zajednice pokušava da reanimira projekat kroz fork ili novi token. Prevaranti koriste ovu fazu za sekundarne prevare nudeći 'oporavak' ili 'novi token' koji je nova prevara.</p>
     <ul class="bullets">
-      <li data-sr="Svaki ko nudi „oporavak fondova“ iz rug pull-a je novi prevarant — blockchain transakcije su nepovratne." data-en="Anyone offering fund recovery from a rug pull is a new scammer — blockchain transactions are irreversible.">Svaki ko nudi 'oporavak fondova' iz rug pull-a je novi prevarant — blockchain transakcije su nepovratne.</li>
+      <li data-sr="Svaki ko nudi 'oporavak fondova' iz rug pull-a je novi prevarant — blockchain transakcije su nepovratne." data-en="Anyone offering fund recovery from a rug pull is a new scammer — blockchain transactions are irreversible.">Svaki ko nudi 'oporavak fondova' iz rug pull-a je novi prevarant — blockchain transakcije su nepovratne.</li>
       <li data-sr="Fork zajednice ponekad uspe ali najčešće propadne jer originalni problem nije rešen." data-en="Community forks sometimes succeed but usually fail because the original problem is not solved.">Fork zajednice ponekad uspe ali najčešće propadne jer originalni problem nije rešen.</li>
       <li data-sr="Blockchain explorer dokumentuje sve transakcije i može poslužiti kao dokaz za prijavu vlastima." data-en="The blockchain explorer documents all transactions and can serve as evidence for reporting to authorities.">Blockchain explorer dokumentuje sve transakcije i može poslužiti kao dokaz za prijavu vlastima.</li>
     </ul>
-    <div class="callout"><strong data-sr="Prag faze:" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Zajednica je dokumentovala gubitak i podnela prijave relevantnim organima." data-en="The community has documented the loss and submitted reports to relevant authorities.">Zajednica je dokumentovala gubitak i podnela prijave relevantnim organima.</span></div>
+    <div class="callout"><strong data-sr="Zajednica je dokumentovala gubitak i podnela prijave relevantnim organima.</span>" data-en="Phase threshold:">Prag faze:</strong> <span data-sr="Zajednica je dokumentovala gubitak i podnela prijave relevantnim organima." data-en="The community has documented the loss and submitted reports to relevant authorities.">Zajednica je dokumentovala gubitak i podnela prijave relevantnim organima.</span></div>
     <div class="branch">
       <strong data-sr="Grananja u ovoj fazi:" data-en="Branching at this phase:">Grananja u ovoj fazi:</strong>
       <ul class="bullets">
@@ -178,7 +178,7 @@ window.SCAM_CONTENT["rug-pull"] = {
     <li data-sr="Proveri blockchain explorer da li je likvidnost povučena — ako jeste, rug pull je već izveden." data-en="Check the blockchain explorer whether liquidity has been withdrawn — if it has, the rug pull has already occurred.">Proveri blockchain explorer da li je likvidnost povučena — ako jeste, rug pull je već izveden.</li>
     <li data-sr="Ako imaš tokene čija cena pada brzo, proceni brzu prodaju pre nego što cena dostigne nulu." data-en="If you have tokens whose price is falling quickly, evaluate a quick sale before the price reaches zero.">Ako imaš tokene čija cena pada brzo, proceni brzu prodaju pre nego što cena dostigne nulu.</li>
     <li data-sr="Dokumentuj sve transakcije, obećanja i komunikacije sa projektom za eventualnu prijavu." data-en="Document all transactions, promises and communications with the project for a potential report.">Dokumentuj sve transakcije, obećanja i komunikacije sa projektom za eventualnu prijavu.</li>
-    <li data-sr="Ne veruj nikome ko nudi „oporavak“ fondova — blockchain transakcije su nepovratne." data-en="Do not trust anyone offering fund recovery — blockchain transactions are irreversible.">Ne veruj nikome ko nudi 'oporavak' fondova — blockchain transakcije su nepovratne.</li>
+    <li data-sr="Ne veruj nikome ko nudi 'oporavak' fondova — blockchain transakcije su nepovratne." data-en="Do not trust anyone offering fund recovery — blockchain transactions are irreversible.">Ne veruj nikome ko nudi 'oporavak' fondova — blockchain transakcije su nepovratne.</li>
     <li data-sr="Prijavi projekat na decentralizovanim berzi gdje je listovan za istragu." data-en="Report the project to the decentralized exchange where it was listed for investigation.">Prijavi projekat na decentralizovanim berzi gdje je listovan za istragu.</li>
     <li data-sr="Poveži se sa zajednicom žrtava — kolektivna prijava ima veće šanse za istragu od strane organa." data-en="Connect with a community of victims — a collective report has better chances for investigation by authorities.">Poveži se sa zajednicom žrtava — kolektivna prijava ima veće šanse za istragu od strane organa.</li>
   </ol>
@@ -190,26 +190,17 @@ window.SCAM_CONTENT["rug-pull"] = {
     <li data-sr="Da li su investirali u kripto projekat čija cena je nagle pala na gotovo nulu?" data-en="Did they invest in a crypto project whose price suddenly fell to near zero?">Da li su investirali u kripto projekat čija cena je nagle pala na gotovo nulu?</li>
     <li data-sr="Da li su prestali da funkcionišu zvanični kanali projekta — Discord, Twitter, sajt?" data-en="Have the project's official channels stopped functioning — Discord, Twitter, site?">Da li su prestali da funkcionišu zvanični kanali projekta — Discord, Twitter, sajt?</li>
     <li data-sr="Da li ih je neko kontaktirao nudeći povrat investiranih sredstava za malu uplatu?" data-en="Has anyone contacted them offering recovery of invested funds for a small fee?">Da li ih je neko kontaktirao nudeći povrat investiranih sredstava za malu uplatu?</li>
-    <li data-sr="Da li razmišljaju o ulaganju u novi „oporavni“ token koji nudi ista zajednica?" data-en="Are they considering investing in a new recovery token offered by the same community?">Da li razmišljaju o ulaganju u novi 'oporavni' token koji nudi ista zajednica?</li>
+    <li data-sr="Da li razmišljaju o ulaganju u novi 'oporavni' token koji nudi ista zajednica?" data-en="Are they considering investing in a new recovery token offered by the same community?">Da li razmišljaju o ulaganju u novi 'oporavni' token koji nudi ista zajednica?</li>
   </ul>
   <p data-sr="Rečenice koje rade:" data-en="Sentences that help:">Rečenice koje rade:</p>
   <ul class="bullets">
     <li data-sr="Blockchain transakcije su nepovratne — svaki ko nudi oporavak fondova je nova prevara." data-en="Blockchain transactions are irreversible — anyone offering fund recovery is a new scam.">Blockchain transakcije su nepovratne — svaki ko nudi oporavak fondova je nova prevara.</li>
     <li data-sr="Dokumentuj sve transakcije sada — to je jedini trag koji može poslužiti organima." data-en="Document all transactions now — that is the only traže that can be useful to authorities.">Dokumentuj sve transakcije sada — to je jedini trag koji može poslužiti organima.</li>
-    <li data-sr="Nova verzija istog projekta ili „V2 token“ je gotovo uvek nova prevara istih prevaranta." data-en="A new version of the same project or V2 token is almost always a new scam by the same scammers.">Nova verzija istog projekta ili 'V2 token' je gotovo uvek nova prevara istih prevaranta.</li>
+    <li data-sr="Nova verzija istog projekta ili 'V2 token' je gotovo uvek nova prevara istih prevaranta." data-en="A new version of the same project or V2 token is almost always a new scam by the same scammers.">Nova verzija istog projekta ili 'V2 token' je gotovo uvek nova prevara istih prevaranta.</li>
     <li data-sr="Poveži se sa zajednicom žrtava — kolektivna prijava je mnogo efikasnija od individualne." data-en="Connect with the victim community — a collective report is much more effective than an individual one.">Poveži se sa zajednicom žrtava — kolektivna prijava je mnogo efikasnija od individualne.</li>
   </ul>
 </section>
 
-<section class="content-section">
-  <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-  <ul class="bullets">
-    <li><a href="ponzi-scheme.html" data-sr="Ponzi shema — rug pull koji duže traže plaćajući rane investitore novim ulozima" data-en="Ponzi scheme — rug pull that lasts longer by paying early investors with new stakes">Ponzi shema — rug pull koji duže traže plaćajući rane investitore novim ulozima</a></li>
-    <li><a href="nft-scam.html" data-sr="NFT prevara — rug pull specifičan za NFT kolekcije" data-en="NFT scam — rug pull specific to NFT collections">NFT prevara — rug pull specifičan za NFT kolekcije</a></li>
-    <li><a href="recovery-scam.html" data-sr="Recovery prevara — sekundarna prevara koja targetira žrtve rug pull-a" data-en="Recovery scam — secondary scam targeting rug pull victims">Recovery prevara — sekundarna prevara koja targetira žrtve rug pull-a</a></li>
-    <li><a href="fake-crypto-exchange-scam.html" data-sr="Lažna kripto menjačnica — lažna platforma za prikupljanje depozita" data-en="Fake crypto exchange — fake platform for collecting deposits">Lažna kripto menjačnica — lažna platforma za prikupljanje depozita</a></li>
-    <li><a href="pig-butchering.html" data-sr="Pig butchering — dugotrajna kripto prevara sa sličnim finalnim gubitkom" data-en="Pig butchering — long-term crypto scam with similar final loss">Pig butchering — dugotrajna kripto prevara sa sličnim finalnim gubitkom</a></li>
-  </ul>
-</section>
+
 `
 };

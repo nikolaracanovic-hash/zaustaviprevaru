@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta
+    name="description"
+    content="SMS ili poziv traži link, kod ili probni transfer da navodno zaštite novčanik, a cilj je krađa pristupa."
+    data-sr="SMS ili poziv traži link, kod ili probni transfer da navodno zaštite novčanik, a cilj je krađa pristupa."
+    data-en="SMS or call asks for a link, code, or test transfer to supposedly secure the wallet, but the goal is stealing access."
+  />
+
+  <title
+    data-sr="Lažna verifikacija mobilnog novčanika"
+    data-en="Fake mobile wallet verification"
+  >Fake mobile wallet verification</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="ui.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="mobile-wallet-verification.content.js" defer></script>
+  <script src="branches.js" defer></script>
+  <script src="cases.js" defer></script>
+  <script src="render.js" defer></script>
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="topbar">
+      <div class="brand">
+        <span class="brand-dot" aria-hidden="true"></span>
+        <span class="brand-name">Anti-scam</span>
+      </div>
+
+      <nav aria-label="Glavna navigacija">
+        <ul class="top-nav">
+          <li><a href="index.html" data-sr="Početna" data-en="Home">Početna</a></li>
+          <li><a href="prevare.html" data-sr="Prevare" data-en="Scams">Prevare</a></li>
+          <li><a href="protecting-elderly.html" data-sr="Prevencija" data-en="Prevention">Prevencija</a></li>                  </ul>
+      </nav>
+    </div>
+
+<div class="hero compact">
+        <h1
+          data-sr="Lažna verifikacija mobilnog novčanika"
+          data-en="Fake mobile wallet verification"
+        >Fake mobile wallet verification</h1>
+
+        <p class="muted hero-sub"
+           data-sr="Nepoznat broj šalje hitnost → aplikacija van prodavnice → traže PIN ili seed."
+           data-en="Unknown number creates urgency → app outside the store → PIN or seed requested.">
+          Nepoznat broj šalje hitnost → aplikacija van prodavnice → traže PIN ili seed.
+        </p>
+
+        <div id="scam-meta" data-scam="mobile-wallet-verification"></div>
+
+        <div class="callout"
+             data-sr="<strong>Prag:</strong> instalirana aplikacija ili dat kod sa nepoznatog kanala pre provere u zvaničnoj aplikaciji novčanika."
+             data-en="<strong>Threshold:</strong> app installed or code given from unknown channel before checking inside the wallet&#x27;s official app.">
+          <strong>Prag:</strong> instalirana aplikacija ili dat kod sa nepoznatog kanala pre provere u zvaničnoj aplikaciji novčanika.
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div data-overview></div>
+    <div data-steps></div>
+    <div data-scammer-view></div>
+
+    <div data-longform></div>
+    <div data-related></div>
+</main>
+
+  <footer class="footer">
+  <div class="container">
+    <p class="muted"
+       data-sr="Anti-scam projekat — edukacija i analiza"
+       data-en="Anti-scam project — education and analysis">
+      Anti-scam projekat — edukacija i analiza
+    </p>
+    <p class="muted">
+      <a href="obavestenje-o-privatnosti.html" data-sr="Obaveštenje o privatnosti" data-en="Privacy notice">Obaveštenje o privatnosti</a>
+    </p>
+  </div>
+</footer>
+</body>
+</html>

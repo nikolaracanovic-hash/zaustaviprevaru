@@ -5,14 +5,14 @@ window.SCAM_CONTENT["invoice-factoring-advance-scam"] = {
     <section class="card">
       <h2 data-sr="Uvod: kako radi prevara avansom faktoringa faktura" data-en="Introduction: how invoice factoring advance scams work">Uvod: kako radi prevara avansom faktoringa faktura</h2>
       <p data-sr="Faktoring faktura je legitiman finansijski instrument: kompanija prodaje svoja potraživanja faktoring kompaniji i odmah dobija procenat vrednosti faktura u gotovini. Prevara kopira ovaj mehanizam: lažna faktoring kompanija prihvata fakture, naplaćuje naknadu za obradu, ali avans nikad ne isplaćuje." data-en="Invoice factoring is a legitimate financial instrument: a company sells its receivables to a factoring company and immediately receives a percentage of the invoice value in cash. The scam copies this mechanism: a fake factoring company accepts invoices, charges a processing fee, but never disburses the advance.">Faktoring faktura je legitiman finansijski instrument: kompanija prodaje svoja potraživanja faktoring kompaniji i odmah dobija procenat vrednosti faktura u gotovini. Prevara kopira ovaj mehanizam: lažna faktoring kompanija prihvata fakture, naplaćuje naknadu za obradu, ali avans nikad ne isplaćuje.</p>
-      <p data-sr="Ciljne žrtve su kompanije s problemima likvidnosti koje traže brz pristup gotovini. Ponuda je atraktivna: „avans u 24 sata“ na osnovu faktura koje već postoje. Naknada za obradu deluje prihvatljivo u kontekstu očekivanog avansa." data-en="Target victims are companies with liquidity issues seeking quick cash access. The offer is attractive: 'advance in 24 hours' based on already existing invoices. The processing fee seems acceptable in the context of the expected advance.">Ciljne žrtve su kompanije s problemima likvidnosti koje traže brz pristup gotovini. Ponuda je atraktivna: 'avans u 24 sata' na osnovu faktura koje već postoje. Naknada za obradu deluje prihvatljivo u kontekstu očekivanog avansa.</p>
-      <div class="callout" data-sr="<strong>Model:</strong> lažna faktoring kompanija → prihvata fakture → „naknada za obradu“ → avans blokiran → serija naknada → nestanak." data-en="<strong>Model:</strong> fake factoring company → accepts invoices → 'processing fee' → advance blocked → fee series → disappearance."><strong>Model:</strong> lažna faktoring kompanija → prihvata fakture → 'naknada za obradu' → avans blokiran → serija naknada → nestanak.</div>
-      <div class="callout" data-sr="<strong>Prag:</strong> uplata 'naknada za obradu faktura„ ili “premije osiguranja faktoringa„. Avans nikad ne stiže." data-en="<strong>Threshold:</strong> payment of “invoice processing fees' or 'factoring insurance premiums'. The advance never arrives."><strong>Prag:</strong> uplata 'naknada za obradu faktura' ili 'premije osiguranja faktoringa'. Avans nikad ne stiže.</div>
+      <p data-sr="Ciljne žrtve su kompanije s problemima likvidnosti koje traže brz pristup gotovini. Ponuda je atraktivna: 'avans u 24 sata' na osnovu faktura koje već postoje. Naknada za obradu deluje prihvatljivo u kontekstu očekivanog avansa." data-en="Target victims are companies with liquidity issues seeking quick cash access. The offer is attractive: 'advance in 24 hours' based on already existing invoices. The processing fee seems acceptable in the context of the expected advance.">Ciljne žrtve su kompanije s problemima likvidnosti koje traže brz pristup gotovini. Ponuda je atraktivna: 'avans u 24 sata' na osnovu faktura koje već postoje. Naknada za obradu deluje prihvatljivo u kontekstu očekivanog avansa.</p>
+      <div class="callout" data-sr="<strong>Model:</strong> lažna faktoring kompanija → prihvata fakture → 'naknada za obradu' → avans blokiran → serija naknada → nestanak." data-en="<strong>Model:</strong> fake factoring company → accepts invoices → 'processing fee' → advance blocked → fee series → disappearance."><strong>Model:</strong> lažna faktoring kompanija → prihvata fakture → 'naknada za obradu' → avans blokiran → serija naknada → nestanak.</div>
+      <div class="callout" data-sr="<strong>Prag:</strong> uplata 'naknada za obradu faktura' ili 'premije osiguranja faktoringa'. Avans nikad ne stiže." data-en="<strong>Threshold:</strong> payment of invoice processing fees' or 'factoring insurance premiums'. The advance never arrives."><strong>Prag:</strong> uplata 'naknada za obradu faktura' ili 'premije osiguranja faktoringa'. Avans nikad ne stiže.</div>
     </section>
 
     <section class="card">
       <h2 data-sr="Kako generalno radi: mehanika prevare faktoringa" data-en="How it works: invoice factoring advance scam mechanics">Kako generalno radi: mehanika prevare faktoringa</h2>
-      <p data-sr="Prevara koristi hitnost: meta je u krizi likvidnosti i treba novac brzo. Napadač nudi rešenje koje je „brže i dostupnije od banke“. Hitnost smanjuje oprez i povećava toleranciju na zahteve za naknadama." data-en="The scam exploits urgency: the target is in a liquidity crisis and needs money quickly. The attacker offers a solution that is 'faster and more accessible than a bank'. Urgency reduces caution and increases tolerance for fee demands.">Prevara koristi hitnost: meta je u krizi likvidnosti i treba novac brzo. Napadač nudi rešenje koje je 'brže i dostupnije od banke'. Hitnost smanjuje oprez i povećava toleranciju na zahteve za naknadama.</p>
+      <p data-sr="Prevara koristi hitnost: meta je u krizi likvidnosti i treba novac brzo. Napadač nudi rešenje koje je 'brže i dostupnije od banke'. Hitnost smanjuje oprez i povećava toleranciju na zahteve za naknadama." data-en="The scam exploits urgency: the target is in a liquidity crisis and needs money quickly. The attacker offers a solution that is 'faster and more accessible than a bank'. Urgency reduces caution and increases tolerance for fee demands.">Prevara koristi hitnost: meta je u krizi likvidnosti i treba novac brzo. Napadač nudi rešenje koje je 'brže i dostupnije od banke'. Hitnost smanjuje oprez i povećava toleranciju na zahteve za naknadama.</p>
       <div class="grid-2">
         <div class="phase">
           <div class="label" data-sr="Šta gradi uverljivost" data-en="What builds credibility">Šta gradi uverljivost</div>
@@ -20,15 +20,15 @@ window.SCAM_CONTENT["invoice-factoring-advance-scam"] = {
             <li data-sr="faktoring kompanija ima profesionalni sajt i kontakte." data-en="factoring company has a professional website and contacts.">faktoring kompanija ima profesionalni sajt i kontakte.</li>
             <li data-sr="ugovor o faktoringu izgleda standardno i sadrži sve tipične klauzule." data-en="factoring agreement looks standard and contains all typical clauses.">ugovor o faktoringu izgleda standardno i sadrži sve tipične klauzule.</li>
             <li data-sr="ponuda je 80–90% avansa — atraktivna stopa." data-en="offer is 80–90% advance — attractive rate.">ponuda je 80–90% avansa — atraktivna stopa.</li>
-            <li data-sr="rok isplate je 24–48 sati — „brže od banke„." data-en="disbursement deadline is 24–48 hours — “faster than a bank.">rok isplate je 24–48 sati — 'brže od banke'.</li>
+            <li data-sr="rok isplate je 24–48 sati — 'brže od banke'." data-en="disbursement deadline is 24–48 hours — faster than a bank.">rok isplate je 24–48 sati — 'brže od banke'.</li>
           </ul>
         </div>
         <div class="phase">
           <div class="label" data-sr="Kako se uvodi naknada" data-en="How the fee is introduced">Kako se uvodi naknada</div>
           <ul class="bullets">
-            <li data-sr="naknada za obradu je 'standardni trošak faktoring usluge„." data-en="processing fee is a “standard cost of the factoring service'.">naknada za obradu je 'standardni trošak faktoring usluge'.</li>
-            <li data-sr="naknada se plaća pre isplate avansa — „proceduralni uslov„." data-en="fee is paid before advance disbursement — “procedural condition.">naknada se plaća pre isplate avansa — 'proceduralni uslov'.</li>
-            <li data-sr="posle naknade avans se blokira zbog „KYC procedure“ ili „verifikacije faktura„." data-en="after the fee the advance is blocked due to “KYC procedure“ or 'invoice verification'.">posle naknade avans se blokira zbog 'KYC procedure' ili 'verifikacije faktura'.</li>
+            <li data-sr="naknada za obradu je 'standardni trošak faktoring usluge'." data-en="processing fee is a standard cost of the factoring service'.">naknada za obradu je 'standardni trošak faktoring usluge'.</li>
+            <li data-sr="naknada se plaća pre isplate avansa — 'proceduralni uslov'." data-en="fee is paid before advance disbursement — procedural condition.">naknada se plaća pre isplate avansa — 'proceduralni uslov'.</li>
+            <li data-sr="posle naknade avans se blokira zbog 'KYC procedure' ili 'verifikacije faktura'." data-en="after the fee the advance is blocked due to KYC procedure or 'invoice verification'.">posle naknade avans se blokira zbog 'KYC procedure' ili 'verifikacije faktura'.</li>
             <li data-sr="svaka nova blokada donosi novu naknadu s novim imenom." data-en="each new block brings a new fee with a new name.">svaka nova blokada donosi novu naknadu s novim imenom.</li>
           </ul>
         </div>
@@ -45,7 +45,7 @@ window.SCAM_CONTENT["invoice-factoring-advance-scam"] = {
           <li data-sr="ponuda je atraktivnija od bankarskih opcija — više avansa, brže." data-en="offer is more attractive than banking options — higher advance, faster.">ponuda je atraktivnija od bankarskih opcija — više avansa, brže.</li>
           <li data-sr="faktoring kompanija ima realan izgled: sajt, telefon, email." data-en="factoring company has a realistic appearance: website, phone, email.">faktoring kompanija ima realan izgled: sajt, telefon, email.</li>
           <li data-sr="meta je u hitnosti zbog neplaćenih faktura i problema s likvidnošću." data-en="target is in urgency due to unpaid invoices and liquidity issues.">meta je u hitnosti zbog neplaćenih faktura i problema s likvidnošću.</li>
-          <li data-sr="napadač inicira kontakt — ili se pojavljuje u online pretragama za 'brzi faktoring„." data-en="attacker initiates contact — or appears in online searches for “fast factoring'.">napadač inicira kontakt — ili se pojavljuje u online pretragama za 'brzi faktoring'.</li>
+          <li data-sr="napadač inicira kontakt — ili se pojavljuje u online pretragama za 'brzi faktoring'." data-en="attacker initiates contact — or appears in online searches for fast factoring'.">napadač inicira kontakt — ili se pojavljuje u online pretragama za 'brzi faktoring'.</li>
         </ul>
         <p class="muted" data-sr="Prag faze 1: meta prihvata ponudu i dostavlja fakture." data-en="Phase 1 threshold: target accepts the offer and submits invoices.">Prag faze 1: meta prihvata ponudu i dostavlja fakture.</p>
       </article>
@@ -55,29 +55,29 @@ window.SCAM_CONTENT["invoice-factoring-advance-scam"] = {
         <p data-sr="Napadač šalje faktoring ugovor koji izgleda standardno. Ugovor sadrži klauzulu o naknadi za obradu koja mora biti plaćena pre isplate avansa." data-en="The attacker sends a factoring agreement that looks standard. The agreement contains a processing fee clause that must be paid before advance disbursement.">Napadač šalje faktoring ugovor koji izgleda standardno. Ugovor sadrži klauzulu o naknadi za obradu koja mora biti plaćena pre isplate avansa.</p>
         <ul class="bullets">
           <li data-sr="naknada za obradu je 1–3% vrednosti faktura — deluje standardno." data-en="processing fee is 1–3% of invoice value — seems standard.">naknada za obradu je 1–3% vrednosti faktura — deluje standardno.</li>
-          <li data-sr="rok za uplatu naknade je kratak jer „avans je rezervisan„." data-en="fee payment deadline is short because “advance is reserved.">rok za uplatu naknade je kratak jer 'avans je rezervisan'.</li>
+          <li data-sr="rok za uplatu naknade je kratak jer 'avans je rezervisan'." data-en="fee payment deadline is short because advance is reserved.">rok za uplatu naknade je kratak jer 'avans je rezervisan'.</li>
           <li data-sr="faktoring ugovor ne sadrži odgovarajuće klauzule o zaštiti klijenta." data-en="factoring agreement does not contain adequate client protection clauses.">faktoring ugovor ne sadrži odgovarajuće klauzule o zaštiti klijenta.</li>
-          <li data-sr="posle uplate avans se blokira zbog „verifikacije„." data-en="after payment the advance is blocked due to “verification.">posle uplate avans se blokira zbog 'verifikacije'.</li>
+          <li data-sr="posle uplate avans se blokira zbog 'verifikacije'." data-en="after payment the advance is blocked due to verification.">posle uplate avans se blokira zbog 'verifikacije'.</li>
         </ul>
         <p class="muted" data-sr="Prag faze 2: meta plaća naknadu za obradu." data-en="Phase 2 threshold: target pays the processing fee.">Prag faze 2: meta plaća naknadu za obradu.</p>
-        <div class="note" data-sr="Grananja u ovoj fazi: ako meta traži uplatu avansa pre naknade → „procedura ne dozvoljava obrnuti redosled“; ako meta zahteva referencu → dolazi lažno pismo preporuke." data-en="Branching in this phase: if target requests advance before fee → 'procedure does not allow reversed order'; if target demands a reference → a fake recommendation letter arrives.">Grananja u ovoj fazi: ako meta traži uplatu avansa pre naknade → 'procedura ne dozvoljava obrnuti redosled'; ako meta zahteva referencu → dolazi lažno pismo preporuke.</div>
+        <div class="note" data-sr="Grananja u ovoj fazi: ako meta traži uplatu avansa pre naknade → 'procedura ne dozvoljava obrnuti redosled'; ako meta zahteva referencu → dolazi lažno pismo preporuke." data-en="Branching in this phase: if target requests advance before fee → 'procedure does not allow reversed order'; if target demands a reference → a fake recommendation letter arrives.">Grananja u ovoj fazi: ako meta traži uplatu avansa pre naknade → 'procedura ne dozvoljava obrnuti redosled'; ako meta zahteva referencu → dolazi lažno pismo preporuke.</div>
       </article>
 
       <article class="phase">
         <h3 class="phase-title" data-sr="Faza 3 — Blokada: avans blokiran zbog verifikacije" data-en="Phase 3 — Block: advance blocked due to verification">Faza 3 — Blokada: avans blokiran zbog verifikacije</h3>
-        <p data-sr="Posle naknade avans se blokira. Razlozi su uvek proceduralni: „KYC verifikacija“, „osiguranje faktura“, „AML protokol“. Svaki razlog donosi novu naknadu." data-en="After the fee the advance is blocked. Reasons are always procedural: 'KYC verification', 'invoice insurance', 'AML protocol'. Each reason brings a new fee.">Posle naknade avans se blokira. Razlozi su uvek proceduralni: 'KYC verifikacija', 'osiguranje faktura', 'AML protokol'. Svaki razlog donosi novu naknadu.</p>
+        <p data-sr="Posle naknade avans se blokira. Razlozi su uvek proceduralni: 'KYC verifikacija', 'osiguranje faktura', 'AML protokol'. Svaki razlog donosi novu naknadu." data-en="After the fee the advance is blocked. Reasons are always procedural: 'KYC verification', 'invoice insurance', 'AML protocol'. Each reason brings a new fee.">Posle naknade avans se blokira. Razlozi su uvek proceduralni: 'KYC verifikacija', 'osiguranje faktura', 'AML protokol'. Svaki razlog donosi novu naknadu.</p>
         <ul class="bullets">
-          <li data-sr="„KYC verifikacija„ zahteva dodatnu naknadu." data-en="“KYC verification“ requires an additional fee.">'KYC verifikacija' zahteva dodatnu naknadu.</li>
-          <li data-sr="'osiguranje faktura„ je „regulatorni uslov„ koji nije bio u prvobitnom ugovoru." data-en="“invoice insurance“ is a “regulatory requirement' not in the original agreement.">'osiguranje faktura' je 'regulatorni uslov' koji nije bio u prvobitnom ugovoru.</li>
+          <li data-sr="'KYC verifikacija' zahteva dodatnu naknadu." data-en="KYC verification requires an additional fee.">'KYC verifikacija' zahteva dodatnu naknadu.</li>
+          <li data-sr="'osiguranje faktura' je 'regulatorni uslov' koji nije bio u prvobitnom ugovoru." data-en="invoice insurance is a regulatory requirement' not in the original agreement.">'osiguranje faktura' je 'regulatorni uslov' koji nije bio u prvobitnom ugovoru.</li>
           <li data-sr="prethodna naknada za obradu se pominje kao investicija vredna zaštite." data-en="the previous processing fee is referenced as an investment worth protecting.">prethodna naknada za obradu se pominje kao investicija vredna zaštite.</li>
-          <li data-sr="avans je „blizu„ — „samo još jedna procedura„." data-en="advance is “close“ — “just one more procedure.">avans je 'blizu' — 'samo još jedna procedura'.</li>
+          <li data-sr="avans je 'blizu' — 'samo još jedna procedura'." data-en="advance is close — just one more procedure.">avans je 'blizu' — 'samo još jedna procedura'.</li>
         </ul>
         <p class="muted" data-sr="Prag faze 3: meta plaća drugu naknadu i nastavlja da čeka avans." data-en="Phase 3 threshold: target pays the second fee and continues waiting for the advance.">Prag faze 3: meta plaća drugu naknadu i nastavlja da čeka avans.</p>
       </article>
 
       <article class="phase">
         <h3 class="phase-title" data-sr="Faza 4 — Serija naknada: AML, osiguranje, porez" data-en="Phase 4 — Fee series: AML, insurance, tax">Faza 4 — Serija naknada: AML, osiguranje, porez</h3>
-        <p data-sr="Avans je zarobljen iza serije procedura. Svaka ima novo ime: „AML audit“, „osiguranje faktoringa“, „porez na finansijsku uslugu“, „naknada za međunarodni transfer“. Napadač koristi pritisak faktura koje čekaju isplatu da drži metu u ciklusu." data-en="The advance is trapped behind a series of procedures. Each has a new name: 'AML audit', 'factoring insurance', 'financial service tax', 'international transfer fee'. The attacker uses the pressure of invoices awaiting payment to keep the target in the cycle.">Avans je zarobljen iza serije procedura. Svaka ima novo ime: 'AML audit', 'osiguranje faktoringa', 'porez na finansijsku uslugu', 'naknada za međunarodni transfer'. Napadač koristi pritisak faktura koje čekaju isplatu da drži metu u ciklusu.</p>
+        <p data-sr="Avans je zarobljen iza serije procedura. Svaka ima novo ime: 'AML audit', 'osiguranje faktoringa', 'porez na finansijsku uslugu', 'naknada za međunarodni transfer'. Napadač koristi pritisak faktura koje čekaju isplatu da drži metu u ciklusu." data-en="The advance is trapped behind a series of procedures. Each has a new name: 'AML audit', 'factoring insurance', 'financial service tax', 'international transfer fee'. The attacker uses the pressure of invoices awaiting payment to keep the target in the cycle.">Avans je zarobljen iza serije procedura. Svaka ima novo ime: 'AML audit', 'osiguranje faktoringa', 'porez na finansijsku uslugu', 'naknada za međunarodni transfer'. Napadač koristi pritisak faktura koje čekaju isplatu da drži metu u ciklusu.</p>
         <ul class="bullets">
           <li data-sr="svaka naknada dolazi s rokom 24–48 sati." data-en="each fee comes with a 24–48 hour deadline.">svaka naknada dolazi s rokom 24–48 sati.</li>
           <li data-sr="ukupne naknade mogu premašiti vrednost avansa." data-en="total fees can exceed the value of the advance.">ukupne naknade mogu premašiti vrednost avansa.</li>
@@ -94,7 +94,7 @@ window.SCAM_CONTENT["invoice-factoring-advance-scam"] = {
           <li data-sr="faktoring kompanija nije registrovana kod finansijskog regulatora." data-en="factoring company is not registered with the financial regulator.">faktoring kompanija nije registrovana kod finansijskog regulatora.</li>
           <li data-sr="meta prijavljuje slučaj banci, policiji i finansijskom regulatoru." data-en="target reports the case to bank, police, and financial regulator.">meta prijavljuje slučaj banci, policiji i finansijskom regulatoru.</li>
           <li data-sr="fakture koje su dostavljene faktoring kompaniji mogu biti zloupotrebljene." data-en="invoices submitted to the factoring company may be misused.">fakture koje su dostavljene faktoring kompaniji mogu biti zloupotrebljene.</li>
-          <li data-sr="recovery prevara može kontaktirati metu nudeći „povrat naknada„." data-en="a recovery scam may contact the target offering a “fee refund.">recovery prevara može kontaktirati metu nudeći 'povrat naknada'.</li>
+          <li data-sr="recovery prevara može kontaktirati metu nudeći 'povrat naknada'." data-en="a recovery scam may contact the target offering a fee refund.">recovery prevara može kontaktirati metu nudeći 'povrat naknada'.</li>
         </ul>
         <p class="muted" data-sr="Prag faze 5: meta prihvata gubitak i pokreće prijave." data-en="Phase 5 threshold: target accepts the loss and initiates reports.">Prag faze 5: meta prihvata gubitak i pokreće prijave.</p>
       </article>
@@ -117,10 +117,10 @@ window.SCAM_CONTENT["invoice-factoring-advance-scam"] = {
       <ul class="bullets">
         <li data-sr="faktoring kompanija nije registrovana kod finansijskog regulatora." data-en="factoring company is not registered with the financial regulator.">faktoring kompanija nije registrovana kod finansijskog regulatora.</li>
         <li data-sr="naknada za obradu se plaća pre isplate avansa — legitimni faktoring to ne radi." data-en="processing fee is paid before advance disbursement — legitimate factoring does not do this.">naknada za obradu se plaća pre isplate avansa — legitimni faktoring to ne radi.</li>
-        <li data-sr="avans kasni zbog 'KYC„, „AML„, „osiguranja„ — serija blokada." data-en="advance delayed due to “KYC“, “AML“, “insurance' — series of blocks.">avans kasni zbog 'KYC', 'AML', 'osiguranja' — serija blokada.</li>
+        <li data-sr="avans kasni zbog 'KYC', 'AML', 'osiguranja' — serija blokada." data-en="advance delayed due to KYC, AML, insurance' — series of blocks.">avans kasni zbog 'KYC', 'AML', 'osiguranja' — serija blokada.</li>
         <li data-sr="ukupne naknade premašuju vrednost avansa koji se čeka." data-en="total fees exceed the value of the advance being awaited.">ukupne naknade premašuju vrednost avansa koji se čeka.</li>
         <li data-sr="faktoring kompanija ne može se verifikovati u zvaničnim registrima." data-en="factoring company cannot be verified in official registries.">faktoring kompanija ne može se verifikovati u zvaničnim registrima.</li>
-        <li data-sr="ponuda je 'brža i bolja od banke„ bez jasnog objašnjenja kako." data-en="offer is “faster and better than a bank' without clear explanation of how.">ponuda je 'brža i bolja od banke' bez jasnog objašnjenja kako.</li>
+        <li data-sr="ponuda je 'brža i bolja od banke' bez jasnog objašnjenja kako." data-en="offer is faster and better than a bank' without clear explanation of how.">ponuda je 'brža i bolja od banke' bez jasnog objašnjenja kako.</li>
         <li data-sr="ugovor ne sadrži klauzule o zaštiti klijenta u slučaju neizvršenja." data-en="contract contains no client protection clauses in case of non-performance.">ugovor ne sadrži klauzule o zaštiti klijenta u slučaju neizvršenja.</li>
         <li data-sr="svaki rok za uplatu naknade je 24–48 sati — hitnost sprečava proveru." data-en="every fee payment deadline is 24–48 hours — urgency prevents verification.">svaki rok za uplatu naknade je 24–48 sati — hitnost sprečava proveru.</li>
         <li data-sr="kontakt koji pruža uslugu nije prijavljen u registru finansijskih posrednika." data-en="contact providing the service is not listed in the financial intermediary registry.">kontakt koji pruža uslugu nije prijavljen u registru finansijskih posrednika.</li>
@@ -177,30 +177,20 @@ window.SCAM_CONTENT["invoice-factoring-advance-scam"] = {
       <h2 data-sr="Ako pokušavaš da pomogneš nekome" data-en="If you are trying to help someone">Ako pokušavaš da pomogneš nekome</h2>
       <p class="muted" data-sr="Pitanja koja rade:" data-en="Questions that work:">Pitanja koja rade:</p>
       <ul class="bullets">
-        <li data-sr="„Da li si proverio faktoring kompaniju u registru finansijskog regulatora?“" data-en="Did you verify the factoring company in the financial regulator's registry?">„Da li si proverio faktoring kompaniju u registru finansijskog regulatora?“</li>
-        <li data-sr="„Da li je naknada tražena pre avansa ili posle?“" data-en="Was the fee demanded before the advance or after?">„Da li je naknada tražena pre avansa ili posle?“</li>
-        <li data-sr="„Da li su naknade premašile vrednost avansa koji čekaš?“" data-en="Have fees exceeded the value of the advance you are waiting for?">„Da li su naknade premašile vrednost avansa koji čekaš?“</li>
-        <li data-sr="„Da li si obavestio kupce čije su fakture dostavljene kompaniji?“" data-en="Have you notified customers whose invoices were submitted to the company?">„Da li si obavestio kupce čije su fakture dostavljene kompaniji?“</li>
+        <li data-sr="Da li si proverio faktoring kompaniju u registru finansijskog regulatora?" data-en="Did you verify the factoring company in the financial regulator's registry?">Da li si proverio faktoring kompaniju u registru finansijskog regulatora?</li>
+        <li data-sr="Da li je naknada tražena pre avansa ili posle?" data-en="Was the fee demanded before the advance or after?">Da li je naknada tražena pre avansa ili posle?</li>
+        <li data-sr="Da li su naknade premašile vrednost avansa koji čekaš?" data-en="Have fees exceeded the value of the advance you are waiting for?">Da li su naknade premašile vrednost avansa koji čekaš?</li>
+        <li data-sr="Da li si obavestio kupce čije su fakture dostavljene kompaniji?" data-en="Have you notified customers whose invoices were submitted to the company?">Da li si obavestio kupce čije su fakture dostavljene kompaniji?</li>
       </ul>
       <p class="muted" data-sr="Rečenice koje rade:" data-en="Phrases that work:">Rečenice koje rade:</p>
       <ul class="bullets">
-        <li data-sr="„Legitimni faktoring nikad ne naplaćuje naknadu pre isplate avansa“.“" data-en="Legitimate factoring never charges a fee before disbursing the advance.">„Legitimni faktoring nikad ne naplaćuje naknadu pre isplate avansa“.“</li>
-        <li data-sr="„Ako naknade premašuju avans, avans nikad neće stići“.“" data-en="If fees exceed the advance, the advance will never arrive.">„Ako naknade premašuju avans, avans nikad neće stići“.“</li>
-        <li data-sr="„Odmah obavesti kupce — podaci o fakturama su u pogrešnim rukama“.“" data-en="Immediately notify customers — invoice data is in the wrong hands.">„Odmah obavesti kupce — podaci o fakturama su u pogrešnim rukama“.“</li>
-        <li data-sr="„Ponude za povraćaj su uvek lažne — jedini pravi kanal su banka i policija“.“" data-en="Recovery offers are always fake — the only genuine channel is the bank and police.">„Ponude za povraćaj su uvek lažne — jedini pravi kanal su banka i policija“.“</li>
+        <li data-sr="Legitimni faktoring nikad ne naplaćuje naknadu pre isplate avansa." data-en="Legitimate factoring never charges a fee before disbursing the advance.">Legitimni faktoring nikad ne naplaćuje naknadu pre isplate avansa.</li>
+        <li data-sr="Ako naknade premašuju avans, avans nikad neće stići." data-en="If fees exceed the advance, the advance will never arrive.">Ako naknade premašuju avans, avans nikad neće stići.</li>
+        <li data-sr="Odmah obavesti kupce — podaci o fakturama su u pogrešnim rukama." data-en="Immediately notify customers — invoice data is in the wrong hands.">Odmah obavesti kupce — podaci o fakturama su u pogrešnim rukama.</li>
+        <li data-sr="Ponude za povraćaj su uvek lažne — jedini pravi kanal su banka i policija." data-en="Recovery offers are always fake — the only genuine channel is the bank and police.">Ponude za povraćaj su uvek lažne — jedini pravi kanal su banka i policija.</li>
       </ul>
     </section>
 
-    <section class="content-section">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <ul class="bullets">
-        <li><a href="advance-payment-guarantee-scam.html" data-sr="Prevara garancijom avansnog plaćanja" data-en="Advance payment guarantee scam">Prevara garancijom avansnog plaćanja</a></li>
-        <li><a href="invoice-collection-scam.html" data-sr="Prevara naplatom faktura" data-en="Invoice collection scam">Prevara naplatom faktura</a></li>
-        <li><a href="advance-fee-fraud.html" data-sr="Uplata unapred" data-en="Advance-fee fraud">Uplata unapred</a></li>
-        <li><a href="business-email-compromise.html" data-sr="Kompromitacija poslovnog emaila" data-en="Business email compromise">Kompromitacija poslovnog emaila</a></li>
-        <li><a href="kyc-aml-verification-fee-scam.html" data-sr="Prevara KYC/AML verifikacijom" data-en="KYC/AML verification fee scam">Prevara KYC/AML verifikacijom</a></li>
-        <li><a href="compliance-fee-scam.html" data-sr="Prevara naknadom za usaglašenost" data-en="Compliance fee scam">Prevara naknadom za usaglašenost</a></li>
-      </ul>
-    </section>
+    
   `
 };

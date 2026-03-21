@@ -25,7 +25,7 @@ window.SCAM_CONTENT["travel-booking-scam"] = {
       <h3 data-sr="Šta gradi poverenje" data-en="What builds trust">Šta gradi poverenje</h3>
       <ul class="bullets">
         <li data-sr="Sajt koristi profesionalan dizajn s fotografijama hotela i avionskih karata identičnim legitimnim agencijama." data-en="The site uses professional design with hotel and airline ticket photographs identical to legitimate agencies.">Sajt koristi profesionalan dizajn s fotografijama hotela i avionskih karata identičnim legitimnim agencijama.</li>
-        <li data-sr="Potvrda rezervacije stiže odmah po uplati sa svim detaljima — brojevima narudžbine, hotelom, datumima." data-en="Booking confirmation arrives immediately after payment with all details — order numbers, hotel, dates.">Potvrda rezervacije stiže odmah po uplati sa svim detaljima — brojevima narudžbine, hotelom, datumima.</li>
+        <li data-sr="Potvrda rezervacije stiže odmah po uplati sa svim detaljima — brojevima porudžbine, hotelom, datumima." data-en="Booking confirmation arrives immediately after payment with all details — order numbers, hotel, dates.">Potvrda rezervacije stiže odmah po uplati sa svim detaljima — brojevima porudžbine, hotelom, datumima.</li>
         <li data-sr="Cene su realistično snižene, ne drastično — 15–30% jeftinije od tržišne, što zvuči verodostojno." data-en="Prices are realistically reduced, not drastically — 15–30% cheaper than market, which sounds credible.">Cene su realistično snižene, ne drastično — 15–30% jeftinije od tržišne, što zvuči verodostojno.</li>
         <li data-sr="Sajt pokazuje lažne sertifikate (IATA, ATOL, Turista-zaštita) koji ne mogu biti lako provereni." data-en="The site shows fake certificates (IATA, ATOL, Tourist protection) that cannot be easily verified.">Sajt pokazuje lažne sertifikate (IATA, ATOL, Turista-zaštita) koji ne mogu biti lako provereni.</li>
       </ul>
@@ -52,7 +52,7 @@ window.SCAM_CONTENT["travel-booking-scam"] = {
       <li data-sr="Proverite recenzije agencije na Trustpilot, Google i Tripadvisor s naglaskom na najnovije i negativne." data-en="Check the agency's reviews on Trustpilot, Google, and Tripadvisor with emphasis on recent and negative ones.">Proverite recenzije agencije na Trustpilot, Google i Tripadvisor s naglaskom na najnovije i negativne.</li>
       <li data-sr="Legitimne agencije imaju fizičku adresu koja može biti proverena i IATA/ATOL certifikate koji su proverljivi." data-en="Legitimate agencies have a physical address that can be verified and IATA/ATOL certificates that are verifiable.">Legitimne agencije imaju fizičku adresu koja može biti proverena i IATA/ATOL certifikate koji su proverljivi.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Proverite agenciju u registru i recenzijama pre uplate — to je jedini pravi filter lažnih agencija." data-en="Phase threshold: Check the agency in registers and reviews before payment — that is the only real filter for fake agencies."><strong>Prag faze:</strong> Proverite agenciju u registru i recenzijama pre uplate — to je jedini pravi filter lažnih agencija.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Proverite agenciju u registru i recenzijama pre uplate — to je jedini pravi filter lažnih agencija." data-en="Phase threshold: Check the agency in registers and reviews before payment — that is the only real filter for fake agencies."><strong>Prag faze:</strong> Proverite agenciju u registru i recenzijama pre uplate — to je jedini pravi filter lažnih agencija.</div>
   </div>
 
   <div class="phase">
@@ -63,7 +63,7 @@ window.SCAM_CONTENT["travel-booking-scam"] = {
       <li data-sr="Koristite kreditnu karticu za plaćanje — direktan bankovni transfer je nepovratna transakcija." data-en="Use a credit card for payment — direct bank transfer is an irreversible transaction.">Koristite kreditnu karticu za plaćanje — direktan bankovni transfer je nepovratna transakcija.</li>
       <li data-sr="Rezervacioni broj koji ne postoji u sistemu hotela ili avioprevoznika je definitivan signal lažne rezervacije." data-en="A reservation number that does not exist in the hotel's or airline's system is a definitive signal of a fake booking.">Rezervacioni broj koji ne postoji u sistemu hotela ili avioprevoznika je definitivan signal lažne rezervacije.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Potvrdite rezervacioni broj direktno s hotelom ili avioprevoznikom odmah posle uplate — pre nego bilo šta zapakirate." data-en="Phase threshold: Confirm the reservation number directly with the hotel or airline immediately after payment — before you pack anything."><strong>Prag faze:</strong> Potvrdite rezervacioni broj direktno s hotelom ili avioprevoznikom odmah posle uplate — pre nego bilo šta zapakirate.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Potvrdite rezervacioni broj direktno s hotelom ili avioprevoznikom odmah posle uplate — pre nego bilo šta zapakirate." data-en="Phase threshold: Confirm the reservation number directly with the hotel or airline immediately after payment — before you pack anything."><strong>Prag faze:</strong> Potvrdite rezervacioni broj direktno s hotelom ili avioprevoznikom odmah posle uplate — pre nego bilo šta zapakirate.</div>
   </div>
 
   <div class="phase">
@@ -74,7 +74,7 @@ window.SCAM_CONTENT["travel-booking-scam"] = {
       <li data-sr="Pokrenite chargeback kod banke odmah — ne čekajte datum polaska jer rokovi za chargeback teku." data-en="Initiate a chargeback with the bank immediately — do not wait for the departure date as chargeback deadlines are running.">Pokrenite chargeback kod banke odmah — ne čekajte datum polaska jer rokovi za chargeback teku.</li>
       <li data-sr="Prijavite slučaj turističkoj inspekciji matične države agencije odmah." data-en="Report the case to the tourism inspection of the agency's home country immediately.">Prijavite slučaj turističkoj inspekciji matične države agencije odmah.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Agencija koja ne odgovara nedeljama pre polaska — pokrenite chargeback odmah i kontaktirajte hotel direktno." data-en="Phase threshold: An agency not responding weeks before departure — initiate chargeback immediately and contact the hotel directly."><strong>Prag faze:</strong> Agencija koja ne odgovara nedeljama pre polaska — pokrenite chargeback odmah i kontaktirajte hotel direktno.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Agencija koja ne odgovara nedeljama pre polaska — pokrenite chargeback odmah i kontaktirajte hotel direktno." data-en="Phase threshold: An agency not responding weeks before departure — initiate chargeback immediately and contact the hotel directly."><strong>Prag faze:</strong> Agencija koja ne odgovara nedeljama pre polaska — pokrenite chargeback odmah i kontaktirajte hotel direktno.</div>
   </div>
 
   <div class="phase">
@@ -85,7 +85,7 @@ window.SCAM_CONTENT["travel-booking-scam"] = {
       <li data-sr="Prijavite incident lokalnoj policiji i tražite potvrdu prijave za osiguranje i chargeback." data-en="Report the incident to local police and request a confirmation of report for insurance and chargeback.">Prijavite incident lokalnoj policiji i tražite potvrdu prijave za osiguranje i chargeback.</li>
       <li data-sr="Pokrenite chargeback kod banke odmah s dokumentacijom rezervacije i potvrde policije." data-en="Initiate a chargeback with the bank immediately with booking documentation and police confirmation.">Pokrenite chargeback kod banke odmah s dokumentacijom rezervacije i potvrde policije.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Sačuvajte dokumentaciju i prijavite policiji odmah — potvrda policije je kritičan dokaz za chargeback." data-en="Phase threshold: Save documentation and report to police immediately — the police confirmation is critical evidence for a chargeback."><strong>Prag faze:</strong> Sačuvajte dokumentaciju i prijavite policiji odmah — potvrda policije je kritičan dokaz za chargeback.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Sačuvajte dokumentaciju i prijavite policiji odmah — potvrda policije je kritičan dokaz za chargeback." data-en="Phase threshold: Save documentation and report to police immediately — the police confirmation is critical evidence for a chargeback."><strong>Prag faze:</strong> Sačuvajte dokumentaciju i prijavite policiji odmah — potvrda policije je kritičan dokaz za chargeback.</div>
   </div>
 
   <div class="phase">
@@ -95,7 +95,7 @@ window.SCAM_CONTENT["travel-booking-scam"] = {
       <li data-sr="Pismo od hotela ili avioprevoznika da rezervacija ne postoji je direktan dokaz koji banke prihvataju." data-en="A letter from the hotel or airline that the booking does not exist is direct evidence banks accept.">Pismo od hotela ili avioprevoznika da rezervacija ne postoji je direktan dokaz koji banke prihvataju.</li>
       <li data-sr="Prijavite slučaj turističkoj inspekciji i policiji matične države agencije za formalnu istragu." data-en="Report the case to the tourism inspection and police of the agency's home country for a formal investigation.">Prijavite slučaj turističkoj inspekciji i policiji matične države agencije za formalnu istragu.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Pribavite pisanu potvrdu od hotela da rezervacija ne postoji — to je ključni dokaz za chargeback." data-en="Phase threshold: Obtain a written confirmation from the hotel that the booking does not exist — that is the key evidence for a chargeback."><strong>Prag faze:</strong> Pribavite pisanu potvrdu od hotela da rezervacija ne postoji — to je ključni dokaz za chargeback.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Pribavite pisanu potvrdu od hotela da rezervacija ne postoji — to je ključni dokaz za chargeback." data-en="Phase threshold: Obtain a written confirmation from the hotel that the booking does not exist — that is the key evidence for a chargeback."><strong>Prag faze:</strong> Pribavite pisanu potvrdu od hotela da rezervacija ne postoji — to je ključni dokaz za chargeback.</div>
   </div>
 
   <div class="phase">
@@ -105,7 +105,7 @@ window.SCAM_CONTENT["travel-booking-scam"] = {
       <li data-sr="Prijavite domen hosting provajderu i turističkoj inspekciji za deaktivaciju i upozorenje budućih kupaca." data-en="Report the domain to the hosting provider and tourism inspection for deactivation and warning future buyers.">Prijavite domen hosting provajderu i turističkoj inspekciji za deaktivaciju i upozorenje budućih kupaca.</li>
       <li data-sr="Ostavite detaljne recenzije na Tripadvisor, Google i Trustpilot da upozorite buduće putnike." data-en="Leave detailed reviews on Tripadvisor, Google, and Trustpilot to warn future travelers.">Ostavite detaljne recenzije na Tripadvisor, Google i Trustpilot da upozorite buduće putnike.</li>
     </ul>
-    <div class="callout" data-sr="Prag faze: Ostavite recenziju i prijavite sajt — vaše iskustvo može sprečiti isti problem za druge putnike." data-en="Phase threshold: Leave a review and report the site — your experience can prevent the same problem for other travelers."><strong>Prag faze:</strong> Ostavite recenziju i prijavite sajt — vaše iskustvo može sprečiti isti problem za druge putnike.</div>
+    <div class="callout" data-sr="<strong>Prag faze:</strong> Ostavite recenziju i prijavite sajt — vaše iskustvo može sprečiti isti problem za druge putnike." data-en="Phase threshold: Leave a review and report the site — your experience can prevent the same problem for other travelers."><strong>Prag faze:</strong> Ostavite recenziju i prijavite sajt — vaše iskustvo može sprečiti isti problem za druge putnike.</div>
   </div>
 </section>
 
@@ -158,21 +158,13 @@ window.SCAM_CONTENT["travel-booking-scam"] = {
 <section class="content-section">
   <h2 data-sr="Ako pokušavaš da pomogneš nekome" data-en="If you are trying to help someone">Ako pokušavaš da pomogneš nekome</h2>
   <ul class="bullets">
-    <li data-sr="Pitaj: „Da li si potvrdio rezervacioni broj direktno s hotelom ili avioprevoznikom?“" data-en="Ask: 'Have you confirmed the reservation number directly with the hotel or airline?'">Pitaj: „Da li si potvrdio rezervacioni broj direktno s hotelom ili avioprevoznikom?“</li>
-    <li data-sr="Pitaj: „Da li si platio direktnim transferom ili karticom? Chargeback je moguć za karticu“.“" data-en="Ask: 'Did you pay by direct transfer or card? A chargeback is possible for card.'">Pitaj: „Da li si platio direktnim transferom ili karticom? Chargeback je moguć za karticu“.“</li>
-    <li data-sr="Rečenice koje pomažu: „Proverite rezervacioni broj direktno s hotelom — sad, pre polaska, dok ima vremena“.“ „Ako broj ne postoji u sistemu hotela, pokrenite chargeback odmah“.“" data-en="Sentences that help: 'Check the reservation number directly with the hotel — now, before departure, while there is time.' 'If the number does not exist in the hotel system, initiate a chargeback immediately.'">Rečenice koje pomažu: „Proverite rezervacioni broj direktno s hotelom — sad, pre polaska, dok ima vremena“.“ „Ako broj ne postoji u sistemu hotela, pokrenite chargeback odmah“.“</li>
+    <li data-sr="Pitaj: Da li si potvrdio rezervacioni broj direktno s hotelom ili avioprevoznikom?" data-en="Ask: Have you confirmed the reservation number directly with the hotel or airline?">Pitaj: Da li si potvrdio rezervacioni broj direktno s hotelom ili avioprevoznikom?</li>
+    <li data-sr="Pitaj: Da li si platio direktnim transferom ili karticom? Chargeback je moguć za karticu." data-en="Ask: Did you pay by direct transfer or card? A chargeback is possible for card.">Pitaj: Da li si platio direktnim transferom ili karticom? Chargeback je moguć za karticu.</li>
+    <li data-sr="Rečenice koje pomažu: Proverite rezervacioni broj direktno s hotelom — sad, pre polaska, dok ima vremena. Ako broj ne postoji u sistemu hotela, pokrenite chargeback odmah." data-en="Sentences that help: Check the reservation number directly with the hotel — now, before departure, while there is time.' 'If the number does not exist in the hotel system, initiate a chargeback immediately.">Rečenice koje pomažu: Proverite rezervacioni broj direktno s hotelom — sad, pre polaska, dok ima vremena. Ako broj ne postoji u sistemu hotela, pokrenite chargeback odmah.</li>
     <li data-sr="Pomozi osobi da prikupi svu dokumentaciju za chargeback i prijavu policiji." data-en="Help the person gather all documentation for the chargeback and police report.">Pomozi osobi da prikupi svu dokumentaciju za chargeback i prijavu policiji.</li>
   </ul>
 </section>
 
-<section class="content-section">
-  <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-  <ul class="bullets">
-    <li><a href="airline-refund-scam.html" data-sr="Prevara povratom karata — lažni povrat novca za avionske karte" data-en="Airline refund scam — fake refund for airline tickets">Prevara povratom karata — lažni povrat novca za avionske karte</a></li>
-    <li><a href="ticket-scam.html" data-sr="Prevara ulaznicama — lažne ulaznice na događaje" data-en="Ticket scam — fake event tickets">Prevara ulaznicama — lažne ulaznice na događaje</a></li>
-    <li><a href="rental-scam.html" data-sr="Prevara rentom — lažni smeštaj ili automobil" data-en="Rental scam — fake accommodation or car rental">Prevara rentom — lažni smeštaj ili automobil</a></li>
-    <li><a href="advance-fee-fraud.html" data-sr="Prevara avansnom naknadom — generalni model unapredne uplate" data-en="Advance fee fraud — general upfront payment model">Prevara avansnom naknadom — generalni model unapredne uplate</a></li>
-  </ul>
-</section>
+
 `
 };

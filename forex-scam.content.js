@@ -3,10 +3,10 @@ window.SCAM_CONTENT = window.SCAM_CONTENT || {};
 window.SCAM_CONTENT["forex-scam"] = {
   raw_html: `
     <section class="card">
-      <h2 data-sr="Uvod: kako radi forex prevara" data-en="Introduction: how the forex scam works">Uvod: kako radi Forex prevara</h2>
+      <h2 data-sr="Uvod: kako radi Forex prevara" data-en="Introduction: how the forex scam works">Uvod: kako radi Forex prevara</h2>
       <p data-sr="Lažna forex platforma ili neregulisani broker prima depozite i prikazuje lažne tradeove koji uvek donose profit. Kada žrtva pokuša da povuče dobitak, platforma traži verifikacione naknade, porez ili bonuse. Na kraju blokira nalog ili nestaje." data-en="A fake forex platform or unregulated broker accepts deposits and shows fake trades that always generate profit. When the victim tries to withdraw, the platform demands verification fees, tax or bonuses. Eventually it blocks the account or disappears.">Lažna forex platforma ili neregulisani broker prima depozite i prikazuje lažne tradeove koji uvek donose profit. Kada žrtva pokuša da povuče dobitak, platforma traži verifikacione naknade, porez ili bonuse. Na kraju blokira nalog ili nestaje.</p>
-      <div class="callout" data-sr="&lt;strong&gt;Model:&lt;/strong&gt; Forex reklama → registracija → depozit → lažni profit → blokirano povlačenje → nestanak." data-en="&lt;strong&gt;Model:&lt;/strong&gt; Forex ad → registration → deposit → fake profit → blocked withdrawal → disappearance."><strong>Model:</strong> Forex reklama → registracija → depozit → lažni profit → blokirano povlačenje → nestanak.</div>
-      <div class="callout" data-sr="&lt;strong&gt;Prag:&lt;/strong&gt; Depozit na lažnoj forex platformi. Platforma prikazuje lažne trgovine ali novac kontroliše napadač." data-en="&lt;strong&gt;Threshold:&lt;/strong&gt; Deposit on a fake forex platform. The platform shows fake trades but the attacker controls the money."><strong>Prag:</strong> Depozit na lažnoj forex platformi. Platforma prikazuje lažne trgovine ali novac kontroliše napadač.</div>
+      <div class="callout" data-sr="<strong>Model:</strong> Forex reklama → registracija → depozit → lažni profit → blokirano povlačenje → nestanak." data-en="<strong>Model:</strong> Forex ad → registration → deposit → fake profit → blocked withdrawal → disappearance."><strong>Model:</strong> Forex reklama → registracija → depozit → lažni profit → blokirano povlačenje → nestanak.</div>
+      <div class="callout" data-sr="<strong>Prag:</strong> Depozit na lažnoj forex platformi. Platforma prikazuje lažne trgovine ali novac kontroliše napadač." data-en="<strong>Threshold:</strong> Deposit on a fake forex platform. The platform shows fake trades but the attacker controls the money."><strong>Prag:</strong> Depozit na lažnoj forex platformi. Platforma prikazuje lažne trgovine ali novac kontroliše napadač.</div>
     </section>
 
     <section class="card">
@@ -115,15 +115,6 @@ window.SCAM_CONTENT["forex-scam"] = {
       </ul>
     </section>
 
-    <section class="card">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <ul class="bullets">
-        <li><a href="binary-options-scam.html" data-sr="Prevara sa binarnim opcijama" data-en="Binary options scam">Prevara sa binarnim opcijama</a></li>
-        <li><a href="fake-broker-scam.html" data-sr="Lažni broker" data-en="Fake broker scam">Lažni broker</a></li>
-        <li><a href="investment-fraud.html" data-sr="Investiciona prevara" data-en="Investment fraud">Investiciona prevara</a></li>
-        <li><a href="clone-firm-scam.html" data-sr="Prevara sa klonom firme" data-en="Clone firm scam">Prevara sa klonom firme</a></li>
-        <li><a href="recovery-scam.html" data-sr="Recovery prevara" data-en="Recovery scam">Recovery prevara</a></li>
-      </ul>
-    </section>
+    
   `
 };

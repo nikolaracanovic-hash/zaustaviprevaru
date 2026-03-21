@@ -6,8 +6,8 @@ window.SCAM_CONTENT["domain-renewal-scam"] = {
       <h2 data-sr="Uvod: kako radi prevara sa obnovom domena" data-en="Introduction: how the domain renewal scam works">Uvod: kako radi prevara sa obnovom domena</h2>
       <p data-sr="Firma ili vlasnik sajta dobija fakturu za obnovu domena koja izgleda kao da dolazi od registrara. Iznos je znatno viši od tržišnog ili se traži prenos domena na drugog registrara. Uplata ide napadaču — domen ostaje neobnovljen ili je prenet bez znanja vlasnika." data-en="A company or website owner receives a domain renewal invoice that looks like it comes from their registrar. The amount is significantly above market rate or transfer to another registrar is requested. Payment goes to the attacker — the domain remains unrenewed or is transferred without the owner's knowledge.">Firma ili vlasnik sajta dobija fakturu za obnovu domena koja izgleda kao da dolazi od registrara. Iznos je znatno viši od tržišnog ili se traži prenos domena na drugog registrara. Uplata ide napadaču — domen ostaje neobnovljen ili je prenet bez znanja vlasnika.</p>
       <p data-sr="Prevara funkcioniše jer vlasnici domena retko proveravaju ko im je registrar i koliko košta obnova. Faktura stiže u pravo vreme — blizu datuma isteka — što pojačava osećaj hitnosti i smanjuje kritičko razmišljanje." data-en="The scam works because domain owners rarely check who their registrar is and what renewal costs. The invoice arrives at the right time — close to the expiry date — which increases the sense of urgency and reduces critical thinking.">Prevara funkcioniše jer vlasnici domena retko proveravaju ko im je registrar i koliko košta obnova. Faktura stiže u pravo vreme — blizu datuma isteka — što pojačava osećaj hitnosti i smanjuje kritičko razmišljanje.</p>
-      <div class="callout" data-sr="&lt;strong&gt;Model:&lt;/strong&gt; lažno obaveštenje o isteku → lažna faktura → uplata → domen ne obnovljen ili prenet napadaču." data-en="&lt;strong&gt;Model:&lt;/strong&gt; fake expiry notice → fake invoice → payment → domain not renewed or transferred to attacker."><strong>Model:</strong> lažno obaveštenje o isteku → lažna faktura → uplata → domen ne obnovljen ili prenet napadaču.</div>
-      <div class="callout" data-sr="&lt;strong&gt;Prag:&lt;/strong&gt; uplata iznosa na lažnoj fakturi. Novac ide napadaču a domen ostaje istekao ili je prenesen." data-en="&lt;strong&gt;Threshold:&lt;/strong&gt; payment of the amount on the fake invoice. Money goes to the attacker and the domain remains expired or has been transferred."><strong>Prag:</strong> uplata iznosa na lažnoj fakturi. Novac ide napadaču a domen ostaje istekao ili je prenesen.</div>
+      <div class="callout" data-sr="<strong>Model:</strong> lažno obaveštenje o isteku → lažna faktura → uplata → domen ne obnovljen ili prenet napadaču." data-en="<strong>Model:</strong> fake expiry notice → fake invoice → payment → domain not renewed or transferred to attacker."><strong>Model:</strong> lažno obaveštenje o isteku → lažna faktura → uplata → domen ne obnovljen ili prenet napadaču.</div>
+      <div class="callout" data-sr="<strong>Prag:</strong> uplata iznosa na lažnoj fakturi. Novac ide napadaču a domen ostaje istekao ili je prenesen." data-en="<strong>Threshold:</strong> payment of the amount on the fake invoice. Money goes to the attacker and the domain remains expired or has been transferred."><strong>Prag:</strong> uplata iznosa na lažnoj fakturi. Novac ide napadaču a domen ostaje istekao ili je prenesen.</div>
     </section>
 
     <section class="card">
@@ -27,7 +27,7 @@ window.SCAM_CONTENT["domain-renewal-scam"] = {
           <ul class="bullets">
             <li data-sr="Lažna faktura za obnovu sa iznosom 5–10x višim od tržišne cene." data-en="Fake renewal invoice with amount 5–10x above market price.">Lažna faktura za obnovu sa iznosom 5–10x višim od tržišne cene.</li>
             <li data-sr="Zahtev za hitnim plaćanjem uz upozorenje da će domen biti izgubljen." data-en="Request for urgent payment with warning that the domain will be lost.">Zahtev za hitnim plaćanjem uz upozorenje da će domen biti izgubljen.</li>
-            <li data-sr="Alternativno: zahtev za prenos domena uz &#8222;besplatnu obnovu&#8220; kod novog registrara pod kontrolom napadača." data-en="Alternatively: request to transfer domain with &ldquo;free renewal&rdquo; at a new registrar under attacker control.">Alternativno: zahtev za prenos domena uz „besplatnu obnovu" kod novog registrara pod kontrolom napadača.</li>
+            <li data-sr="Alternativno: zahtev za prenos domena uz besplatnu obnovu kod novog registrara pod kontrolom napadača." data-en="Alternatively: request to transfer domain with &ldquo;free renewal&rdquo; at a new registrar under attacker control.">Alternativno: zahtev za prenos domena uz besplatnu obnovu kod novog registrara pod kontrolom napadača.</li>
           </ul>
         </div>
       </div>
@@ -51,7 +51,7 @@ window.SCAM_CONTENT["domain-renewal-scam"] = {
         <p data-sr="Vlasnik domena dobija email ili pismo sa fakturom za obnovu. Iznos je veći nego obično ali ne toliko da odmah izgleda sumnjivo." data-en="Domain owner receives email or letter with renewal invoice. Amount is larger than usual but not so much that it immediately looks suspicious.">Vlasnik domena dobija email ili pismo sa fakturom za obnovu. Iznos je veći nego obično ali ne toliko da odmah izgleda sumnjivo.</p>
         <ul class="bullets">
           <li data-sr="Faktura navodi tačan naziv domena i datum isteka — deluje legitimno." data-en="Invoice states the exact domain name and expiry date — looks legitimate.">Faktura navodi tačan naziv domena i datum isteka — deluje legitimno.</li>
-          <li data-sr="Email adresa pošiljaoca je slična zvaničnoj: npr. &#8222;billing@domain-services.net&#8220; umesto pravog registrara." data-en="Sender email is similar to official: e.g. &ldquo;billing@domain-services.net&rdquo; instead of the real registrar.">Email adresa pošiljaoca je slična zvaničnoj: npr. „billing@domain-services.net" umesto pravog registrara.</li>
+          <li data-sr="Email adresa pošiljaoca je slična zvaničnoj: npr. billing@domain-services.net umesto pravog registrara." data-en="Sender email is similar to official: e.g. &ldquo;billing@domain-services.net&rdquo; instead of the real registrar.">Email adresa pošiljaoca je slična zvaničnoj: npr. billing@domain-services.net umesto pravog registrara.</li>
           <li data-sr="Link za plaćanje vodi na lažan portal koji izgleda kao stranica registrara." data-en="Payment link leads to a fake portal that looks like the registrar's page.">Link za plaćanje vodi na lažan portal koji izgleda kao stranica registrara.</li>
         </ul>
         <p class="phase-threshold" data-sr="Prag faze: vlasnik domena klikće na link ili pristupa uplati bez provere." data-en="Phase threshold: domain owner clicks the link or proceeds to payment without verification.">Prag faze: vlasnik domena klikće na link ili pristupa uplati bez provere.</p>
@@ -78,7 +78,7 @@ window.SCAM_CONTENT["domain-renewal-scam"] = {
         <div class="label" data-sr="Faza 4: Otkrivanje i posledice" data-en="Phase 4: Discovery and consequences">Faza 4: Otkrivanje i posledice</div>
         <p data-sr="Sajt prestaje da radi ili domen postaje nedostupan. Vlasnik kontaktira pravog registrara i shvata šta se desilo." data-en="Site stops working or domain becomes unavailable. Owner contacts the real registrar and realises what happened.">Sajt prestaje da radi ili domen postaje nedostupan. Vlasnik kontaktira pravog registrara i shvata šta se desilo.</p>
         <ul class="bullets">
-          <li data-sr="Prenos domena je teško poništiti — ICANN proces traje i nije zagarantovan." data-en="Domain transfer is hard to reverse — ICANN process takes time and is not guaranteed.">Prenos domena je teško poništiti — ICANN process traje i nije zagarantovan.</li>
+          <li data-sr="Prenos domena je teško poništiti — ICANN process traje i nije zagarantovan." data-en="Domain transfer is hard to reverse — ICANN process takes time and is not guaranteed.">Prenos domena je teško poništiti — ICANN process traje i nije zagarantovan.</li>
           <li data-sr="Napadač može koristiti domen za phishing ili ga prodati nazad vlasniku." data-en="Attacker can use domain for phishing or sell it back to the owner.">Napadač može koristiti domen za phishing ili ga prodati nazad vlasniku.</li>
           <li data-sr="Poslovni email vezan za domen prestaje da funkcioniše — dodatna šteta." data-en="Business email linked to domain stops working — additional damage.">Poslovni email vezan za domen prestaje da funkcioniše — dodatna šteta.</li>
         </ul>
@@ -92,7 +92,7 @@ window.SCAM_CONTENT["domain-renewal-scam"] = {
         <li data-sr="Email pošiljaoca se ne poklapa sa zvaničnim domenom vašeg registrara." data-en="Sender email does not match the official domain of your registrar.">Email pošiljaoca se ne poklapa sa zvaničnim domenom vašeg registrara.</li>
         <li data-sr="Iznos na fakturi je znatno viši od uobičajene cene obnove domena." data-en="Amount on invoice is significantly higher than the usual domain renewal price.">Iznos na fakturi je znatno viši od uobičajene cene obnove domena.</li>
         <li data-sr="Faktura dolazi od kompanije čije ime niste videli ranije kao svog registrara." data-en="Invoice comes from a company whose name you have not seen before as your registrar.">Faktura dolazi od kompanije čije ime niste videli ranije kao svog registrara.</li>
-        <li data-sr="Pritisak za hitnom uplatom — &#8222;domen ističe za 3 dana&#8220;." data-en="Pressure for urgent payment — &ldquo;domain expires in 3 days&rdquo;.">Pritisak za hitnom uplatom — „domen ističe za 3 dana".</li>
+        <li data-sr="Pritisak za hitnom uplatom — domen ističe za 3 dana." data-en="Pressure for urgent payment — &ldquo;domain expires in 3 days&rdquo;.">Pritisak za hitnom uplatom — domen ističe za 3 dana.</li>
         <li data-sr="Link za plaćanje vodi na domen koji nije domen vašeg registrara." data-en="Payment link leads to a domain that is not your registrar's domain.">Link za plaćanje vodi na domen koji nije domen vašeg registrara.</li>
         <li data-sr="Faktura traži prenos domena na novog registrara kao uslov obnove." data-en="Invoice requests domain transfer to a new registrar as a condition for renewal.">Faktura traži prenos domena na novog registrara kao uslov obnove.</li>
       </ul>
@@ -135,22 +135,13 @@ window.SCAM_CONTENT["domain-renewal-scam"] = {
     <section class="card">
       <h2 data-sr="Ako pokušavaš da pomogneš nekome" data-en="If you are trying to help someone">Ako pokušavaš da pomogneš nekome</h2>
       <ul class="bullets">
-        <li data-sr="'Ko je tvoj registrar domena — i da li pošiljalac fakture odgovara tom registraru?'" data-en="'Who is your domain registrar — and does the invoice sender match that registrar?'">'Ko je tvoj registrar domena — i da li pošiljalac fakture odgovara tom registraru?'</li>
-        <li data-sr="'Prijavi se direktno na nalog kod registrara i pogledaj status domena — bez klika na link iz fakture.'" data-en="'Log in directly to your registrar account and check domain status — without clicking the link in the invoice.'">'Prijavi se direktno na nalog kod registrara i pogledaj status domena — bez klika na link iz fakture.'</li>
-        <li data-sr="'Koliko obično košta obnova domena — da li je ovaj iznos normalan?'" data-en="'How much does domain renewal usually cost — is this amount normal?'">'Koliko obično košta obnova domena — da li je ovaj iznos normalan?'</li>
-        <li data-sr="'Aktiviraj automatsku obnovu kod pravog registrara da ovaj problem ne bi mogao više da se pojavi.'" data-en="'Activate automatic renewal with the real registrar so this problem cannot happen again.'">'Aktiviraj automatsku obnovu kod pravog registrara da ovaj problem ne bi mogao više da se pojavi.'</li>
+        <li data-sr="Ko je tvoj registrar domena — i da li pošiljalac fakture odgovara tom registraru?" data-en="'Who is your domain registrar — and does the invoice sender match that registrar?">Ko je tvoj registrar domena — i da li pošiljalac fakture odgovara tom registraru?</li>
+        <li data-sr="Prijavi se direktno na nalog kod registrara i pogledaj status domena — bez klika na link iz fakture." data-en="'Log in directly to your registrar account and check domain status — without clicking the link in the invoice.">Prijavi se direktno na nalog kod registrara i pogledaj status domena — bez klika na link iz fakture.</li>
+        <li data-sr="Koliko obično košta obnova domena — da li je ovaj iznos normalan?" data-en="'How much does domain renewal usually cost — is this amount normal?">Koliko obično košta obnova domena — da li je ovaj iznos normalan?</li>
+        <li data-sr="Aktiviraj automatsku obnovu kod pravog registrara da ovaj problem ne bi mogao više da se pojavi." data-en="'Activate automatic renewal with the real registrar so this problem cannot happen again.">Aktiviraj automatsku obnovu kod pravog registrara da ovaj problem ne bi mogao više da se pojavi.</li>
       </ul>
     </section>
 
-    <section class="card">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <ul class="bullets">
-        <li><a href="directory-listing-scam.html" data-sr="Prevara sa poslovnim imenicima" data-en="Directory listing scam">Prevara sa poslovnim imenicima</a></li>
-        <li><a href="invoice-fraud.html" data-sr="Prevara sa fakturama" data-en="Invoice fraud">Prevara sa fakturama</a></li>
-        <li><a href="business-email-compromise.html" data-sr="Kompromitovanje poslovnog imejla (BEC)" data-en="Business email compromise (BEC)">Kompromitovanje poslovnog imejla (BEC)</a></li>
-        <li><a href="impersonation-scam.html" data-sr="Lažno predstavljanje" data-en="Impersonation scam">Lažno predstavljanje</a></li>
-        <li><a href="fake-seo-service-scam.html" data-sr="Lažna SEO usluga" data-en="Fake SEO service scam">Lažna SEO usluga</a></li>
-      </ul>
-    </section>
+    
   `
 };

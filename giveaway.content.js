@@ -9,14 +9,14 @@ window.SCAM_CONTENT["giveaway-scam"] = {
       </h2>
 
       <p
-        data-sr="Prevara lažne nagradne igre koristi uzbuđenje od „dobitka“ kao okidač. Poruka tvrdi da je meta osvojila nagradu: telefon, auto, novac, vaučer, putovanje. Jedini uslov za preuzimanje: mala taksa ili lični podaci za „verifikaciju“. Nagrada ne postoji."
-        data-en="Giveaway scams use the excitement of &quot;winning&quot; as a trigger. The message claims the target won a prize: phone, car, cash, voucher, trip. The only condition for claiming: a small fee or personal data for &quot;verification&quot;. The prize doesn't exist."
-      >Prevara lažne nagradne igre koristi uzbuđenje od „dobitka“ kao okidač. Poruka tvrdi da je meta osvojila nagradu: telefon, auto, novac, vaučer, putovanje. Jedini uslov za preuzimanje: mala taksa ili lični podaci za „verifikaciju“. Nagrada ne postoji.</p>
+        data-sr="Prevara lažne nagradne igre koristi uzbuđenje od dobitka kao okidač. Poruka tvrdi da je meta osvojila nagradu: telefon, auto, novac, vaučer, putovanje. Jedini uslov za preuzimanje: mala taksa ili lični podaci za verifikaciju. Nagrada ne postoji."
+        data-en="Giveaway scams use the excitement of winning as a trigger. The message claims the target won a prize: phone, car, cash, voucher, trip. The only condition for claiming: a small fee or personal data for verification. The prize doesn't exist."
+      >Prevara lažne nagradne igre koristi uzbuđenje od dobitka kao okidač. Poruka tvrdi da je meta osvojila nagradu: telefon, auto, novac, vaučer, putovanje. Jedini uslov za preuzimanje: mala taksa ili lični podaci za verifikaciju. Nagrada ne postoji.</p>
 
       <p
-        data-sr="Šteta se realizuje kroz dva pravca: (1) avansna prevara — serija taksi za „porez“, „dostavu“, „osiguranje“, (2) krađa podataka — lični podaci i kartica se koriste za druge prevare ili prodaju. Model je efikasan jer ljudi žele da veruju da su dobili nešto besplatno."
-        data-en="Damage occurs through two paths: (1) advance-fee — series of fees for &quot;tax&quot;, &quot;delivery&quot;, &quot;insurance&quot;, (2) data theft — personal data and card info used for other scams or sold. The model is effective because people want to believe they got something free."
-      >Šteta se realizuje kroz dva pravca: (1) avansna prevara — serija taksi za „porez“, „dostavu“, „osiguranje“, (2) krađa podataka — lični podaci i kartica se koriste za druge prevare ili prodaju. Model je efikasan jer ljudi žele da veruju da su dobili nešto besplatno.</p>
+        data-sr="Šteta se realizuje kroz dva pravca: (1) avansna prevara — serija taksi za porez, dostavu, osiguranje, (2) krađa podataka — lični podaci i kartica se koriste za druge prevare ili prodaju. Model je efikasan jer ljudi žele da veruju da su dobili nešto besplatno."
+        data-en="Damage occurs through two paths: (1) advance-fee — series of fees for tax, delivery, insurance, (2) data theft — personal data and card info used for other scams or sold. The model is effective because people want to believe they got something free."
+      >Šteta se realizuje kroz dva pravca: (1) avansna prevara — serija taksi za porez, dostavu, osiguranje, (2) krađa podataka — lični podaci i kartica se koriste za druge prevare ili prodaju. Model je efikasan jer ljudi žele da veruju da su dobili nešto besplatno.</p>
 
       <div class="callout"
         data-sr="<strong>Model:</strong> obaveštenje o dobitku → uzbuđenje → taksa ili podaci → prag → serija taksi → nagrada nikada ne stiže." data-en="<strong>Model:</strong> win notification → excitement → fee or data → threshold → series of fees → prize never arrives."
@@ -31,35 +31,35 @@ window.SCAM_CONTENT["giveaway-scam"] = {
 
       <div class="grid-2">
         <div class="phase">
-          <div class="label" data-sr="SMS / imejl „dobitak“&quot;" data-en="SMS / imejl &quot;win&quot;">SMS / imejl „dobitak“</div>
+          <div class="label" data-sr="SMS / imejl dobitak" data-en="SMS / email win">SMS / imejl dobitak</div>
           <ul class="bullets">
-            <li data-sr="„Čestitamo! Osvojili ste iPhone 15!“&quot;" data-en="&quot;Congratulations! You won an iPhone 15!&quot;">„Čestitamo! Osvojili ste iPhone 15!“</li>
-            <li data-sr="link vodi na formu za „preuzimanje“&quot;" data-en="link leads to form for &quot;claiming&quot;">link vodi na formu za „preuzimanje“</li>
-            <li data-sr="traži se kartica za „poštarinu“&quot;" data-en="card requested for &quot;postage&quot;">traži se kartica za „poštarinu“</li>
+            <li data-sr="Čestitamo! Osvojili ste iPhone 15!" data-en="Congratulations! You won an iPhone 15!">Čestitamo! Osvojili ste iPhone 15!</li>
+            <li data-sr="link vodi na formu za preuzimanje." data-en="link leads to a form for claiming.">link vodi na formu za preuzimanje.</li>
+            <li data-sr="traži se kartica za poštarinu." data-en="a card is requested for postage.">traži se kartica za poštarinu.</li>
           </ul>
         </div>
         <div class="phase">
           <div class="label" data-sr="Društvene mreže" data-en="Social media">Društvene mreže</div>
           <ul class="bullets">
             <li data-sr="lažni profili poznatih brendova." data-en="fake profiles of known brands.">lažni profili poznatih brendova.</li>
-            <li data-sr="„taguj prijatelja i osvoji“&quot;" data-en="&quot;tag a friend and win&quot;">„taguj prijatelja i osvoji“</li>
-            <li data-sr="DM sa „dobitkom“ data-en=&quot;DM with &quot;win&quot; asks for data">DM sa „dobitkom“ traži podatke.</li>
+            <li data-sr="taguj prijatelja i osvoji." data-en="tag a friend and win.">taguj prijatelja i osvoji.</li>
+            <li data-sr="DM sa dobitkom traži podatke." data-en="A DM about a win asks for data.">DM sa dobitkom traži podatke.</li>
           </ul>
         </div>
         <div class="phase">
           <div class="label" data-sr="Kripto nagradna igra" data-en="Crypto giveaway">Kripto nagradna igra</div>
           <ul class="bullets">
             <li data-sr="lažni Elon Musk / veliki investitor." data-en="fake Elon Musk / big ulagač.">lažni Elon Musk / veliki investitor.</li>
-            <li data-sr="„pošaljite 0“.1 BTC, dobićete 1 BTC“&quot;" data-en="&quot;send 0.1 BTC, get 1 BTC back&quot;">„pošaljite 0“.1 BTC, dobićete 1 BTC“</li>
+            <li data-sr="pošaljite 0.1 BTC, dobićete 1 BTC." data-en="send 0.1 BTC, get 1 BTC back.">pošaljite 0.1 BTC, dobićete 1 BTC.</li>
             <li data-sr="lažni prenos uživo ili sajt." data-en="fake livestream or site.">lažni prenos uživo ili sajt.</li>
           </ul>
         </div>
         <div class="phase">
-          <div class="label" data-sr="Iskačući prozor „dobitak“&quot;" data-en="Pop-up &quot;win&quot;">Iskačući prozor „dobitak“</div>
+          <div class="label" data-sr="Iskačući prozor dobitak" data-en="Pop-up win">Iskačući prozor dobitak</div>
           <ul class="bullets">
-            <li data-sr="„Vi ste 1“.000“.000-ti posetilac!“&quot;" data-en="&quot;You are the 1,000,000th visitor!&quot;">„Vi ste 1“.000“.000-ti posetilac!“</li>
+            <li data-sr="Vi ste 1.000.000-ti posetilac!" data-en="You are the 1,000,000th visitor!">Vi ste 1.000.000-ti posetilac!</li>
             <li data-sr="anketa sa garantovanom nagradom." data-en="survey with guaranteed prize.">anketa sa garantovanom nagradom.</li>
-            <li data-sr="traži karticu za „verifikaciju“&quot;" data-en="asks for card for &quot;verification&quot;">traži karticu za „verifikaciju“</li>
+            <li data-sr="traži karticu za verifikaciju." data-en="it asks for a card for verification.">traži karticu za verifikaciju.</li>
           </ul>
         </div>
       </div>
@@ -82,9 +82,9 @@ window.SCAM_CONTENT["giveaway-scam"] = {
         >Poruka stiže neočekivano: SMS, imejl, društvena mreža, pop-up. Ton je uzbudljiv i hitan: osvojili ste, preuzmite nagradu, rok ističe. Meta se ne seća da je učestvovala — ali nagrada izgleda stvarna.</p>
 
         <ul class="bullets">
-          <li data-sr="„Čestitamo! Vaš broj je izvučen!“&quot;" data-en="&quot;Congratulations! Your number was drawn!&quot;">„Čestitamo! Vaš broj je izvučen!“</li>
-          <li data-sr="„Osvojili ste 50“.000 RSD!“&quot;" data-en="&quot;You won 50,000 RSD!&quot;">„Osvojili ste 50“.000 RSD!“</li>
-          <li data-sr="„Rok za preuzimanje: 24 sata“&quot;" data-en="&quot;Claim deadline: 24 hours&quot;">„Rok za preuzimanje: 24 sata“</li>
+          <li data-sr="Čestitamo! Vaš broj je izvučen!" data-en="Congratulations! Your number was drawn!">Čestitamo! Vaš broj je izvučen!</li>
+          <li data-sr="Osvojili ste 50.000 RSD!" data-en="You won 50,000 RSD!">Osvojili ste 50.000 RSD!</li>
+          <li data-sr="Rok za preuzimanje: 24 sata." data-en="Claim deadline: 24 hours.">Rok za preuzimanje: 24 sata.</li>
         </ul>
       </article>
 
@@ -95,12 +95,12 @@ window.SCAM_CONTENT["giveaway-scam"] = {
         </h3>
 
         <p
-          data-sr="Link vodi na formu za „preuzimanje nagrade“. Traži se: ime, adresa, imejl, telefon. Zatim: podaci kartice za „poštarinu“ ili „porez“. Iznos je mali (200–500 din, 2–5 EUR) da bi delovao bezazleno."
-          data-en="The link leads to a form for &quot;claiming the prize&quot;. Requested: name, address, email, phone. Then: card details for &quot;postage&quot; or &quot;tax&quot;. The amount is small (200–500 RSD, €2–5) to seem harmless."
-        >Link vodi na formu za „preuzimanje nagrade“. Traži se: ime, adresa, imejl, telefon. Zatim: podaci kartice za „poštarinu“ ili „porez“. Iznos je mali (200–500 din, 2–5 EUR) da bi delovao bezazleno.</p>
+          data-sr="Link vodi na formu za preuzimanje nagrade. Traži se: ime, adresa, imejl, telefon. Zatim: podaci kartice za poštarinu ili porez. Iznos je mali (200–500 din, 2–5 EUR) da bi delovao bezazleno."
+          data-en="The link leads to a form for claiming the prize. Requested: name, address, email, phone. Then: card details for postage or tax. The amount is small (200–500 RSD, €2–5) to seem harmless."
+        >Link vodi na formu za preuzimanje nagrade. Traži se: ime, adresa, imejl, telefon. Zatim: podaci kartice za poštarinu ili porez. Iznos je mali (200–500 din, 2–5 EUR) da bi delovao bezazleno.</p>
 
         <div class="callout"
-          data-sr="<strong>Prag:</strong> unos podataka kartice ili ličnih podataka." data-en="<strong>Threshold:</strong> entering card data or personal information."
+          data-sr="<strong>Prag:</strong> unos karticnih podataka ili licnih informacija." data-en="<strong>Threshold:</strong> entering card data or personal information."
         ><strong>Prag:</strong> unos podataka kartice ili ličnih podataka.</div>
 
         <div class="branch">
@@ -149,9 +149,9 @@ window.SCAM_CONTENT["giveaway-scam"] = {
       </h2>
 
       <p
-        data-sr="Kripto giveaway koristi lažne profile poznatih ličnosti (Elon Musk, Vitalik Buterin) ili kompanija. Obećanje: „pošaljite X BTC/ETH, dobićete 2X nazad“. Lažni prenos uživo-ovi, hakovi Twitter naloga, i lažni sajtovi služe kao mamac. Kripto transakcije su nepovratne."
-        data-en="Crypto giveaways use fake profiles of celebrities (Elon Musk, Vitalik Buterin) or companies. Promise: &quot;send X BTC/ETH, get 2X back&quot;. Fake livestreams, hacked Twitter accounts, and fake sites serve as bait. Crypto transactions are irreversible."
-      >Kripto giveaway koristi lažne profile poznatih ličnosti (Elon Musk, Vitalik Buterin) ili kompanija. Obećanje: „pošaljite X BTC/ETH, dobićete 2X nazad“. Lažni prenos uživo-ovi, hakovi Twitter naloga, i lažni sajtovi služe kao mamac. Kripto transakcije su nepovratne.</p>
+        data-sr="Kripto giveaway koristi lažne profile poznatih ličnosti (Elon Musk, Vitalik Buterin) ili kompanija. Obećanje: pošaljite X BTC/ETH, dobićete 2X nazad. Lažni prenos uživo-ovi, hakovi Twitter naloga, i lažni sajtovi služe kao mamac. Kripto transakcije su nepovratne."
+        data-en="Crypto giveaways use fake profiles of celebrities (Elon Musk, Vitalik Buterin) or companies. Promise: send X BTC/ETH, get 2X back. Fake livestreams, hacked Twitter accounts, and fake sites serve as bait. Crypto transactions are irreversible."
+      >Kripto giveaway koristi lažne profile poznatih ličnosti (Elon Musk, Vitalik Buterin) ili kompanija. Obećanje: pošaljite X BTC/ETH, dobićete 2X nazad. Lažni prenos uživo-ovi, hakovi Twitter naloga, i lažni sajtovi služe kao mamac. Kripto transakcije su nepovratne.</p>
 
       <ul class="bullets">
         <li data-sr="niko ne udvostručuje kripto koji mu pošalješ." data-en="nobody doubles crypto you send them.">niko ne udvostručuje kripto koji mu pošalješ.</li>
@@ -175,16 +175,16 @@ window.SCAM_CONTENT["giveaway-scam"] = {
 
       <ul class="bullets">
         <li data-sr="nagrada za takmičenje u kom nisi učestvovao." data-en="prize for competition you didn't enter.">nagrada za takmičenje u kom nisi učestvovao.</li>
-        <li data-sr="taksa za preuzimanje „besplatne“ data-en=&quot;fee to claim a &quot;free&quot; prize">taksa za preuzimanje „besplatne“ nagrade.</li>
+        <li data-sr="taksa za preuzimanje besplatne nagrade." data-en="a fee to claim a free prize.">taksa za preuzimanje besplatne nagrade.</li>
         <li data-sr="pritisak i rok za odluku." data-en="pressure and decision deadline.">pritisak i rok za odluku.</li>
         <li data-sr="kontakt samo preko poruka, nema zvaničnog kanala." data-en="contact only via messages, no official channel.">kontakt samo preko poruka, nema zvaničnog kanala.</li>
         <li data-sr="poznata ličnost koja deli novac/kripto." data-en="celebrity giving away money/crypto.">poznata ličnost koja deli novac/kripto.</li>
       </ul>
 
       <div class="callout"
-        data-sr="<strong>Osnovno pravilo:</strong> ako treba da platiš da bi dobio „besplatnu“ nagradu — to nije nagrada."
-        data-en="<strong>Basic rule:</strong> if you have to pay to get a &quot;free&quot; prize — it's not a prize."
-      ><strong>Osnovno pravilo:</strong> ako treba da platiš da bi dobio „besplatnu“ nagradu — to nije nagrada.</div>
+        data-sr="<strong>Osnovno pravilo:</strong> ako treba da platiš da bi dobio besplatnu nagradu — to nije nagrada."
+        data-en="<strong>Basic rule:</strong> if you have to pay to get a free prize — it's not a prize."
+      ><strong>Osnovno pravilo:</strong> ako treba da platiš da bi dobio besplatnu nagradu — to nije nagrada.</div>
     </section>
 
     <!-- 6) AKO JE ŠTETA NASTALA -->
@@ -207,7 +207,7 @@ window.SCAM_CONTENT["giveaway-scam"] = {
       <h2 data-sr="Provere: 8 brzih provera pre placanja za nagradu" data-en="Checks: 8 quick checks before paying for a prize">Provere: 8 brzih provera pre placanja za nagradu</h2>
       <ol class="steps">
         <li data-sr="Proveri da li si uopste ucestvovao u nagradnoj igri koja se pominje u poruci." data-en="Check whether you even participated in the giveaway mentioned in the message.">Proveri da li si uopste ucestvovao u nagradnoj igri koja se pominje u poruci.</li>
-        <li data-sr="Potraži naziv kompanije plus „prevara“ ili „scam“ u pretraživaču." data-en="Search the company name plus scam in a search engine.">Potraži naziv kompanije plus 'prevara' ili 'scam' u pretraživaču.</li>
+        <li data-sr="Potraži naziv kompanije plus 'prevara' ili 'scam' u pretraživaču." data-en="Search the company name plus scam in a search engine.">Potraži naziv kompanije plus 'prevara' ili 'scam' u pretraživaču.</li>
         <li data-sr="Kontaktiraj kompaniju direktno na broj sa zvanicnog sajta, ne na broj iz poruke." data-en="Contact the company directly at the number on their official website, not the number in the message.">Kontaktiraj kompaniju direktno na broj sa zvanicnog sajta, ne na broj iz poruke.</li>
         <li data-sr="Legitimne nagrade nikad ne zahtevaju uplatu za obradu, porez ili carinu unapred." data-en="Legitimate prizes never require upfront payment for processing, tax, or customs.">Legitimne nagrade nikad ne zahtevaju uplatu za obradu, porez ili carinu unapred.</li>
         <li data-sr="Proveri da li e-mail dolazi sa zvanicnog domena kompanije." data-en="Check whether the email comes from the company official domain.">Proveri da li e-mail dolazi sa zvanicnog domena kompanije.</li>
@@ -227,7 +227,7 @@ window.SCAM_CONTENT["giveaway-scam"] = {
         <li data-sr="Da li je nagrada premoguca da bi bila istinita?" data-en="Is the prize too good to be true?">Da li je nagrada premoguca da bi bila istinita?</li>
         <li data-sr="Da li postoji vremenski pritisak za uplatu ili prihvatanje?" data-en="Is there time pressure to pay or accept?">Da li postoji vremenski pritisak za uplatu ili prihvatanje?</li>
         <li data-sr="Da li sam kontaktirao kompaniju direktno na zvanicnom broju?" data-en="Have I contacted the company directly at their official number?">Da li sam kontaktirao kompaniju direktno na zvanicnom broju?</li>
-        <li data-sr="Da li poruka traži može bankove podatke ili kopije licnih dokumenata?" data-en="Does the message ask for my bank details or copies of personal documents?">Da li poruka traži može bankove podatke ili kopije licnih dokumenata?</li>
+        <li data-sr="Da li poruka traži moje bankovne podatke ili kopije licnih dokumenata?" data-en="Does the message ask for my bank details or copies of personal documents?">Da li poruka traži moje bankovne podatke ili kopije licnih dokumenata?</li>
         <li data-sr="Da li su ostali koji su pobedili u nagradnoj igri javno objavljeni na sajtu kompanije?" data-en="Are other winners of the giveaway publicly listed on the company website?">Da li su ostali koji su pobedili u nagradnoj igri javno objavljeni na sajtu kompanije?</li>
         <li data-sr="Da li postoji pritisak da cuvaš informaciju o nagradi u tajnosti?" data-en="Is there pressure to keep the prize information secret?">Da li postoji pritisak da cuvaš informaciju o nagradi u tajnosti?</li>
         <li data-sr="Da li sam razgovarao s nekom osobom izvan situacije o ovoj nagradi?" data-en="Have I discussed this prize with someone outside the situation?">Da li sam razgovarao s nekom osobom izvan situacije o ovoj nagradi?</li>
@@ -251,7 +251,7 @@ window.SCAM_CONTENT["giveaway-scam"] = {
 
     <!-- AKO POMAŽES NEKOME -->
     <section class="content-section">
-      <h2 data-sr="Ako pokušavaš da pomogneš nekome" data-en="If you are trying to help someone">Ako pokusavas da pomognes nekome</h2>
+      <h2 data-sr="Ako pokusavas da pomognes nekome" data-en="If you are trying to help someone">Ako pokusavas da pomognes nekome</h2>
       <ul class="bullets">
         <li data-sr="Da li su uvereni da su zaista pobedili nagradu i ne zele da cuju argumente?" data-en="Are they convinced they actually won a prize and unwilling to hear arguments?">Da li su uvereni da su zaista pobedili nagradu i ne zele da cuju argumente?</li>
         <li data-sr="Da li su vec platili prvu uplatu i sada ocekuju da dodu jos naknada?" data-en="Have they already made the first payment and are now expecting more fees to follow?">Da li su vec platili prvu uplatu i sada ocekuju da dodu jos naknada?</li>
@@ -262,29 +262,13 @@ window.SCAM_CONTENT["giveaway-scam"] = {
       <ul class="bullets">
         <li data-sr="Nijedna legitimna nagrada nikad ne traži da platite da biste je primili." data-en="No legitimate prize ever requires you to pay to receive it.">Nijedna legitimna nagrada nikad ne traži da platite da biste je primili.</li>
         <li data-sr="Hajde da zajedno pozovemo kompaniju na zvanicni broj da proverimo da li nagrada zaista postoji." data-en="Let us call the company together at their official number to check whether the prize actually exists.">Hajde da zajedno pozovemo kompaniju na zvanicni broj da proverimo da li nagrada zaista postoji.</li>
-        <li data-sr="Ako vec placan porez za nagradu jednom, naknada ce se ponavljati sve dok ne prekinete kontakt." data-en="If you have already paid tax for the prize once, the fee will keep repeating until you break contact.">Ako vec placas porez za nagradu jednom, naknada ce se ponavljati sve dok ne prekinete kontakt.</li>
+        <li data-sr="Ako vec placas porez za nagradu jednom, naknada ce se ponavljati sve dok ne prekinete kontakt." data-en="If you have already paid tax for the prize once, the fee will keep repeating until you break contact.">Ako vec placas porez za nagradu jednom, naknada ce se ponavljati sve dok ne prekinete kontakt.</li>
         <li data-sr="Mozemo zajedno da proverimo ovu kompaniju na sajtu regulatora — traže pet minuta." data-en="We can check this company together on the regulator website — it takes five minutes.">Mozemo zajedno da proverimo ovu kompaniju na sajtu regulatora — traže pet minuta.</li>
       </ul>
     </section>
 
     <!-- POVEZANE PREVARE -->
-    <section class="content-section">
-      <h2 data-sr="Povezane prevare" data-en="Related scams">Povezane prevare</h2>
-      <ul class="bullets">
-        <li><a href="lottery-scam.html" data-sr="Prevara lozom — lažna obavestenja o dobitku lutrije" data-en="Lottery scam — fake lottery win notifications">Prevara lozom — lažna obavestenja o dobitku lutrije</a></li>
-        <li><a href="sweepstakes-scam.html" data-sr="Prevara nagradnom igrom — lažne nagradne promocije" data-en="Sweepstakes scam — fake promotional sweepstakes">Prevara nagradnom igrom — lažne nagradne promocije</a></li>
-        <li><a href="prize-scam.html" data-sr="Prevara nagradom — lažno obavestenje o dobitku" data-en="Prize scam — fake prize win notification">Prevara nagradom — lažno obavestenje o dobitku</a></li>
-        <li><a href="advance-fee-fraud.html" data-sr="Prevara avansnom naknadom — unapredne uplate za nepostojece prinose" data-en="Advance fee fraud — upfront payments for non-existent returns">Prevara avansnom naknadom — unapredne uplate za nepostojece prinose</a></li>
-        <li><a href="phishing.html" data-sr="Fišing — lažne stranice koje kradu podatke" data-en="Phishing — fake pages that steal data">Fišing — lažne stranice koje kradu podatke</a></li>
-      </ul>
-    </section>
+    
 <!-- 7) IZVORI -->
-    <section class="card sources" id="sources">
-      <h2 data-sr="Izvori" data-en="Sources">Izvori</h2>
-      <ul>
-        <li><a href="https://consumer.ftc.gov/articles/prize-scams" target="_blank" rel="noopener noreferrer">FTC — Prize scams</a></li>
-        <li><a href="https://www.fbi.gov/how-we-can-help-you/scams-and-safety/common-frauds-and-scams" target="_blank" rel="noopener noreferrer">FBI — Lottery and sweepstakes fraud</a></li>
-      </ul>
-    </section>
-  `
+`
 };
